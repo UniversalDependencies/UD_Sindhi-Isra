@@ -207,7 +207,7 @@
 # sent_id = 15
 # text = مشهور شاعر ۽ ٻارن لاءِ خوبصورت گيت لکندڙ شاعر اياز گل چوي ٿو .
 1	مشهور	_	ADJ	_	_	2	amod	_	_
-2	شاعر	_	NOUN	_	_	8	obl	_	_
+2	شاعر	_	NOUN	_	_	8	nsubj	_	_
 3	۽	_	CCONJ	_	_	4	cc	_	_
 4	ٻارن	_	NOUN	_	_	2	conj	_	_
 5	لاءِ	_	ADP	_	_	2	case	_	_
@@ -250,7 +250,7 @@
 
 # sent_id = 18
 # text = هاڻي جي انسان پنهنجي پاڻ کي ۽ پنهنجي چوڌاري ڦهليل رنگن ۽ روپن کي سلامت رکڻ جو خواهشمند آهي .
-1	هاڻي	_	ADV	_	_	3	advmod	_	_
+1	هاڻي	_	ADV	_	_	16	advmod	_	_
 2	جي	_	PART	_	_	1	dep	_	_
 3	انسان	_	NOUN	_	_	18	nsubj	_	_
 4	پنهنجي	_	DET	_	_	5	det	_	_
@@ -301,7 +301,7 @@
 8	جي	_	ADP	_	_	7	case	_	_
 9	اهميت	_	NOUN	_	_	13	obj	_	_
 10	کي	_	ADP	_	_	9	case	_	_
-11	بنياد	_	NOUN	_	_	13	acl	_	_
+11	بنياد	_	NOUN	_	_	13	obl	_	_
 12	تسليم	_	NOUN	_	_	13	compound	_	_
 13	ڪيو	_	VERB	_	_	0	root	_	_
 14	وڃي	_	VERB	_	_	13	compound	_	_
@@ -311,7 +311,7 @@
 # sent_id = 21
 # text = جهڙي طرح ڪنهن به عمارت کي جوڙڻ لاءِ ان عمارت جو بنياد اهم آهي .
 1	جهڙي	_	DET	_	_	2	det	_	_
-2	طرح	_	NOUN	_	_	13	obl	_	_
+2	طرح	_	NOUN	_	_	7	obl	_	_
 3	ڪنهن	_	DET	_	_	5	det	_	_
 4	به	_	PART	_	_	3	dep	_	_
 5	عمارت	_	NOUN	_	_	7	obj	_	_
@@ -370,11 +370,11 @@
 2	طرح	_	NOUN	_	_	11	obl	_	_
 3	سماج	_	NOUN	_	_	5	nmod	_	_
 4	جي	_	ADP	_	_	3	case	_	_
-5	بنياد	_	NOUN	_	_	9	nsubj	_	_
+5	بنياد	_	NOUN	_	_	6	nmod	_	_
 6	ٻار	_	NOUN	_	_	9	nsubj	_	_
 7	جو	_	ADP	_	_	6	case	_	_
 8	مضبوط	_	ADJ	_	_	9	compound	_	_
-9	هئڻ	_	VERB	_	_	11	nsubj	_	_
+9	هئڻ	_	VERB	_	_	11	xcomp	_	_
 10	به	_	PART	_	_	9	dep	_	_
 11	ضروري	_	ADJ	_	_	0	root	_	_
 12	آهي	_	AUX	_	_	11	cop	_	_
@@ -437,7 +437,7 @@
 11	هر	_	DET	_	_	12	det	_	_
 12	شعبي	_	NOUN	_	_	15	obl	_	_
 13	۾	_	ADP	_	_	12	case	_	_
-14	اپاءُ	_	NOUN	_	_	15	compound	_	_
+14	اپاءُ	_	NOUN	_	_	15	obj	_	_
 15	ورتا	_	VERB	_	_	0	root	_	_
 16	وڃن	_	VERB	_	_	15	compound	_	_
 17	ٿا	_	AUX	_	_	15	aux	_	_
@@ -498,7 +498,7 @@
 5	عقل	_	NOUN	_	_	8	obj	_	_
 6	کي	_	ADP	_	_	5	case	_	_
 7	ترقي	_	NOUN	_	_	8	compound	_	_
-8	وٺرائيندڙ	_	VERB	_	_	9	acl	_	_
+8	وٺرائيندڙ	_	VERB	_	_	11	xcomp	_	_
 9	ادب	_	NOUN	_	_	11	nsubj	_	_
 10	موجود	_	ADJ	_	_	11	compound	_	_
 11	هوندو	_	VERB	_	_	0	root	_	_
@@ -513,13 +513,13 @@
 4	پنهنجي	_	PRON	_	_	5	nmod	_	_
 5	سماج	_	NOUN	_	_	7	nmod	_	_
 6	جي	_	ADP	_	_	5	case	_	_
-7	سياسي	_	ADJ	_	_	17	amod	_	_
+7	سياسي	_	ADJ	_	_	15	amod	_	_
 8	معاشي	_	ADJ	_	_	15	amod	_	_
 9	تعليمي	_	ADJ	_	_	15	amod	_	_
 10	ادبي	_	ADJ	_	_	15	amod	_	_
-11	توڙي	_	CCONJ	_	_	15	cc	_	_
+11	توڙي	_	CCONJ	_	_	13	cc	_	_
 12	هر	_	DET	_	_	13	det	_	_
-13	قسم	_	NOUN	_	_	15	nmod	_	_
+13	قسم	_	NOUN	_	_	10	conj	_	_
 14	جي	_	ADP	_	_	13	case	_	_
 15	ترقيءَ	_	NOUN	_	_	18	obl	_	_
 16	جو	_	ADP	_	_	15	case	_	_
@@ -563,7 +563,7 @@
 1	جنهن	_	PRON	_	_	3	nmod	_	_
 2	جي	_	ADP	_	_	1	case	_	_
 3	ذريعي	_	NOUN	_	_	9	obl	_	_
-4	هو	_	PRON	_	_	9	nsubj	_	_
+4	هو	_	PRON	_	_	15	nsubj	_	_
 5	عقل	_	NOUN	_	_	9	obj	_	_
 6	۽	_	CCONJ	_	_	7	cc	_	_
 7	شعور	_	NOUN	_	_	5	conj	_	_
@@ -627,7 +627,7 @@
 
 # sent_id = 40
 # text = اهڙي ئي نموني ان ٻار جي ذهني صلاحيتن جي بقا ۽ ترقيءَ جو ضامن ٻاراڻو ادب ٿئي ٿو .
-1	اهڙي	_	PRON	_	_	3	det	_	_
+1	اهڙي	_	PRON	_	_	3	nmod	_	_
 2	ئي	_	PART	_	_	1	dep	_	_
 3	نموني	_	NOUN	_	_	17	obl	_	_
 4	ان	_	DET	_	_	5	det	_	_
@@ -642,7 +642,7 @@
 13	جو	_	ADP	_	_	10	case	_	_
 14	ضامن	_	NOUN	_	_	17	nsubj	_	_
 15	ٻاراڻو	_	ADJ	_	_	16	amod	_	_
-16	ادب	_	NOUN	_	_	17	nsubj	_	_
+16	ادب	_	NOUN	_	_	17	obj	_	_
 17	ٿئي	_	VERB	_	_	0	root	_	_
 18	ٿو	_	AUX	_	_	17	aux	_	_
 19	.	_	PUNCT	_	_	17	punct	_	_
@@ -656,7 +656,7 @@
 5	ٻار	_	NOUN	_	_	14	nsubj	_	_
 6	مستقبل	_	NOUN	_	_	8	nmod	_	_
 7	جو	_	ADP	_	_	6	case	_	_
-8	ڊاڪٽر	_	NOUN	_	_	14	obl	_	_
+8	ڊاڪٽر	_	NOUN	_	_	14	obj	_	_
 9	انجنيئر	_	NOUN	_	_	8	nmod	_	_
 10	سائنسدان	_	NOUN	_	_	8	nmod	_	_
 11	يا	_	CCONJ	_	_	13	cc	_	_
@@ -747,12 +747,12 @@
 8	نئين	_	ADJ	_	_	9	amod	_	_
 9	اتساھ	_	NOUN	_	_	10	nmod	_	_
 10	عزم	_	NOUN	_	_	9	compound	_	_
-11	۽	_	CCONJ	_	_	13	cc	_	_
+11	۽	_	CCONJ	_	_	16	cc	_	_
 12	جديد	_	ADJ	_	_	13	amod	_	_
 13	تعمير	_	NOUN	_	_	16	nmod	_	_
 14	جا	_	ADP	_	_	13	case	_	_
 15	اعليٰ	_	ADJ	_	_	16	amod	_	_
-16	آدرش	_	NOUN	_	_	19	obj	_	_
+16	آدرش	_	NOUN	_	_	9	conj	_	_
 17	يا	_	CCONJ	_	_	18	cc	_	_
 18	مقصد	_	NOUN	_	_	16	conj	_	_
 19	کڻي	_	VERB	_	_	21	advcl	_	_
@@ -798,7 +798,7 @@
 2	ٻاراڻو	_	ADJ	_	_	3	amod	_	_
 3	ادب	_	NOUN	_	_	5	nmod	_	_
 4	مان	_	ADP	_	_	3	case	_	_
-5	مراد	_	NOUN	_	_	13	nsubj	_	_
+5	مراد	_	NOUN	_	_	8	nmod	_	_
 6	هر	_	ADJ	_	_	8	amod	_	_
 7	اهو	_	DET	_	_	8	det	_	_
 8	ادب	_	NOUN	_	_	13	nsubj	_	_
@@ -860,7 +860,7 @@
 # sent_id = 56
 # text = ته ان کي ئي ٻاراڻو ادب ڪوٺڻ گهرجي .
 1	ته	_	SCONJ	_	_	7	mark	_	_
-2	ان	_	DET	_	_	7	obl	_	_
+2	ان	_	DET	_	_	7	obj	_	_
 3	کي	_	ADP	_	_	2	case	_	_
 4	ئي	_	PART	_	_	2	dep	_	_
 5	ٻاراڻو	_	ADJ	_	_	6	amod	_	_
@@ -872,7 +872,7 @@
 # sent_id = 57
 # text = هر اهو ادب جيڪو ٻارن واسطي لکيو ويو هجي .
 1	هر	_	ADJ	_	_	3	amod	_	_
-2	اهو	_	PRON	_	_	3	nmod	_	_
+2	اهو	_	DET	_	_	3	det	_	_
 3	ادب	_	NOUN	_	_	7	nsubj	_	_
 4	جيڪو	_	DET	_	_	5	det	_	_
 5	ٻارن	_	NOUN	_	_	7	obl	_	_
@@ -937,7 +937,7 @@
 7	کي	_	ADP	_	_	6	case	_	_
 8	ڇا	_	PRON	_	_	11	obl	_	_
 9	مان	_	ADP	_	_	8	case	_	_
-10	آنند	_	NOUN	_	_	11	compound	_	_
+10	آنند	_	NOUN	_	_	11	obj	_	_
 11	ملندو	_	VERB	_	_	4	conj	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
@@ -1017,7 +1017,7 @@
 # text = ان ريت گل ڦل ۾ مظفر حسن جي هڪ ڪهاڻي ڇپي .
 1	ان	_	DET	_	_	2	det	_	_
 2	ريت	_	NOUN	_	_	11	obl	_	_
-3	گل	_	NOUN	_	_	4	nmod	_	_
+3	گل	_	NOUN	_	_	4	compound	_	_
 4	ڦل	_	NOUN	_	_	11	obl	_	_
 5	۾	_	ADP	_	_	4	case	_	_
 6	مظفر	_	PROPN	_	_	7	compound	_	_
@@ -1064,7 +1064,7 @@
 # text = امان مان اسڪول نه ويندس .
 1	امان	_	NOUN	_	_	5	obl	_	_
 2	مان	_	PRON	_	_	5	nsubj	_	_
-3	اسڪول	_	NOUN	_	_	5	obl	_	_
+3	اسڪول	_	NOUN	_	_	5	obj	_	_
 4	نه	_	PART	_	_	5	advmod	_	_
 5	ويندس	_	VERB	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
@@ -1146,7 +1146,7 @@
 2	هر	_	ADJ	_	_	4	amod	_	_
 3	اهو	_	DET	_	_	4	det	_	_
 4	ادب	_	NOUN	_	_	15	nsubj	_	_
-5	جيڪو	_	PRON	_	_	15	nsubj	_	_
+5	جيڪو	_	PRON	_	_	4	nmod	_	_
 6	ٻارن	_	NOUN	_	_	8	nmod	_	_
 7	جي	_	ADP	_	_	6	case	_	_
 8	ذهنيت	_	NOUN	_	_	15	obl	_	_
@@ -1227,7 +1227,7 @@
 10	راست	_	ADJ	_	_	9	amod	_	_
 11	ڏانهن	_	ADV	_	_	13	advmod	_	_
 12	راغب	_	NOUN	_	_	13	compound	_	_
-13	ڪرڻ	_	VERB	_	_	15	nmod	_	_
+13	ڪرڻ	_	VERB	_	_	15	xcomp	_	_
 14	جو	_	ADP	_	_	13	mark	_	_
 15	ذريعو	_	NOUN	_	_	0	root	_	_
 16	آهي	_	AUX	_	_	15	cop	_	_
@@ -1237,7 +1237,7 @@
 # text = ڪهڙو سمنڊ سڀ کان وڏو آهي .
 1	ڪهڙو	_	PRON	_	_	2	nmod	_	_
 2	سمنڊ	_	NOUN	_	_	5	nsubj	_	_
-3	سڀ	_	ADJ	_	_	5	nmod	_	_
+3	سڀ	_	ADJ	_	_	5	amod	_	_
 4	کان	_	ADP	_	_	3	case	_	_
 5	وڏو	_	ADJ	_	_	0	root	_	_
 6	آهي	_	AUX	_	_	5	cop	_	_
@@ -1247,7 +1247,7 @@
 # text = ڪهڙو سمنڊ سڀ کان ننڍو آهي .
 1	ڪهڙو	_	PRON	_	_	2	nmod	_	_
 2	سمنڊ	_	NOUN	_	_	5	nsubj	_	_
-3	سڀ	_	ADJ	_	_	5	nmod	_	_
+3	سڀ	_	ADJ	_	_	5	amod	_	_
 4	کان	_	ADP	_	_	3	case	_	_
 5	ننڍو	_	ADJ	_	_	0	root	_	_
 6	آهي	_	AUX	_	_	5	cop	_	_
@@ -1301,7 +1301,7 @@
 # text = جڏهن مان آزاد هئس ته مون ڪيتريون ئي شيون ڳوليون .
 1	جڏهن	_	ADV	_	_	3	advmod	_	_
 2	مان	_	PRON	_	_	3	nsubj	_	_
-3	آزاد	_	ADJ	_	_	10	obl	_	_
+3	آزاد	_	ADJ	_	_	10	xcomp	_	_
 4	هئس	_	AUX	_	_	3	cop	_	_
 5	ته	_	SCONJ	_	_	10	mark	_	_
 6	مون	_	PRON	_	_	10	nsubj	_	_
@@ -1335,14 +1335,14 @@
 
 # sent_id = 94
 # text = ھيٺ ڏنل جوابن مان صحيح جواب تي نشان لڳايو .
-1	ھيٺ	_	ADJ	_	_	2	compound	_	_
-2	ڏنل	_	VERB	_	_	3	acl	_	_
+1	ھيٺ	_	ADJ	_	_	2	advmod	_	_
+2	ڏنل	_	VERB	_	_	9	advcl	_	_
 3	جوابن	_	NOUN	_	_	9	obl	_	_
 4	مان	_	ADP	_	_	3	case	_	_
 5	صحيح	_	ADJ	_	_	6	amod	_	_
 6	جواب	_	NOUN	_	_	9	obl	_	_
 7	تي	_	ADP	_	_	6	case	_	_
-8	نشان	_	NOUN	_	_	9	compound	_	_
+8	نشان	_	NOUN	_	_	9	obj	_	_
 9	لڳايو	_	VERB	_	_	0	root	_	_
 10	.	_	PUNCT	_	_	9	punct	_	_
 
