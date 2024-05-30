@@ -52,23 +52,23 @@
 
 # sent_id = 195
 # text = خبر نه آهي ته ماڻهو انسانن کي ڪيئن ڏکائن ٿا جڏهن ته پاڻ ڀي انسان آهن ،
-1	خبر	خبر	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	root	_	_
-2	نه	نه	ADV	RB__ظرف	Number=Sing	1	advmod	_	_
+1	خبر	خبر	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	ccomp	_	_
+2	نه	نه	PART	_	_	1	advmod	_	_
 3	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	1	cop	_	_
-4	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	9	mark	_	_
+4	ته	ته	SCONJ	_	_	1	mark	_	_
 5	ماڻهو	ماڻهو	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 6	انسانن	انسان	NOUN	NNS__اسم	Case=Nom|Number=Plur	9	obj	_	_
 7	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	6	case	_	_
 8	ڪيئن	ڪيئن	ADV	RB__ظرف	Number=Sing	9	advmod	_	_
-9	ڏکائن	ڏک	VERB	VB__فعل	Number=Plur	1	obj	_	_
+9	ڏکائن	ڏک	VERB	VB__فعل	Number=Plur	0	root	_	_
 10	ٿا	ٿو	AUX	VB__فعل	Number=Plur	9	aux	_	_
 11	جڏهن	جڏهن	CCONJ	CC__حرف_جملو	Number=Sing	15	cc	_	_
-12	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	9	mark	_	_
+12	ته	ته	PART	_	_	9	dep	_	_
 13	پاڻ	پاڻ	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=2	15	nsubj	_	_
 14	ڀي	ڀي	ADP	-__نامعلوم	_	13	dep	_	_
 15	انسان	انسان	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	conj	_	_
 16	آهن	آهي	AUX	VB__فعل_معاون	Number=Plur	15	cop	_	_
-17	،	،	PUNCT	-__بيهڪ_جي_نشاني	_	1	punct	_	_
+17	،	،	PUNCT	-__بيهڪ_جي_نشاني	_	9	punct	_	_
 
 # sent_id = 196
 # text = خدا اسان سڀني کي هدايت ڏيئي ته جيئن اسان سٺا انسان ٿي سگھون ۽ هن دنيا کي خوبصورت بڻايون .
@@ -204,10 +204,10 @@
 4	هُو	هُو	DET	DT__ضمير_اشارو	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 5	تمام	تمام	ADV	RB__ظرف	Number=Sing	6	advmod	_	_
 6	گھڻو	گھڻو	ADJ	JJ__صفت	Case=Nom|Number=Sing	7	xcomp	_	_
-7	سوچي	سوچ	VERB	VB__فعل	Case=Acc|Number=Sing	2	obj	_	_
+7	سوچي	سوچ	VERB	VB__فعل	Case=Acc|Number=Sing	2	ccomp	_	_
 8	رهي	ره	VERB	VB__فعل	Case=Nom|Number=Sing	7	compound	_	_
 9	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	7	aux	_	_
-10	.	.	PUNCT	-__پورو_دم	_	2	punct	_	_
+10	.	.	PUNCT	-__پورو_دم	_	7	punct	_	_
 
 # sent_id = 215
 # text = موت جي ڊپ کان هُو اڪيلو سمهي ئي نه پيو .
@@ -246,7 +246,7 @@
 
 # sent_id = 226
 # text = جيڪڏهن توهان جو مذهب توهان کي ڪنهن سان نفرت ڪرڻ سيکاري ته توهان کي پنهنجو مذهب مٽائڻ گھرجي .
-1	جيڪڏهن	جيڪڏهن	CCONJ	CC__حرف_جملو	Number=Sing	11	cc	_	_
+1	جيڪڏهن	جيڪڏهن	CCONJ	CC__حرف_جملو	Number=Sing	11	mark	_	_
 2	توهان	توهان	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=3	4	nmod	_	_
 3	جو	جو	ADP	IN__حرفِ_جر	Case=Acc|Number=Sing	2	case	_	_
 4	مذهب	مذهب	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
@@ -335,7 +335,7 @@
 
 # sent_id = 249
 # text = جيڪڏهن توهان جو مذهب توهان کي ڪنهن سان نفرت ڪرڻ سيکاري ته توهان کي پنهنجو مذهب مٽائڻ گھرجي .
-1	جيڪڏهن	جيڪڏهن	CCONJ	CC__حرف_جملو	Number=Sing	11	cc	_	_
+1	جيڪڏهن	جيڪڏهن	CCONJ	CC__حرف_جملو	Number=Sing	11	mark	_	_
 2	توهان	توهان	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=3	4	nmod	_	_
 3	جو	جو	ADP	IN__حرفِ_جر	Case=Acc|Number=Sing	2	case	_	_
 4	مذهب	مذهب	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
@@ -518,7 +518,7 @@
 # text = ٻولي ، ڌرتي ۽ ثقافت قومن جي سڃاڻپ هوندي آهي .
 1	ٻولي	ٻول	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
 2	،	،	PUNCT	-__بيهڪ_جي_نشاني	_	3	punct	_	_
-3	ڌرتي	ڌرتي	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	_
+3	ڌرتي	ڌرتي	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	1	conj	_	_
 4	۽	۽	CCONJ	CC__حرف_جملو	Number=Sing	5	cc	_	_
 5	ثقافت	ثقافت	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	1	conj	_	_
 6	قومن	قوم	NOUN	NNS__اسم	Case=Nom|Number=Plur	8	nmod	_	_
@@ -901,22 +901,22 @@
 
 # sent_id = 339
 # text = خبر نه آهي ته ماڻهو انسانن کي ڪيئن ڏکائن ٿا .
-1	خبر	خبر	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	root	_	_
-2	نه	نه	ADV	RB__ظرف	Number=Sing	1	advmod	_	_
+1	خبر	خبر	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+2	نه	نه	PART	_	_	1	advmod	_	_
 3	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	1	cop	_	_
-4	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	9	mark	_	_
+4	ته	ته	SCONJ	_	_	9	mark	_	_
 5	ماڻهو	ماڻهو	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 6	انسانن	انسان	NOUN	NNS__اسم	Case=Nom|Number=Plur	9	obj	_	_
 7	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	6	case	_	_
 8	ڪيئن	ڪيئن	ADV	RB__ظرف	Number=Sing	9	advmod	_	_
-9	ڏکائن	ڏک	VERB	VB__فعل	Number=Sing	1	nsubj	_	_
+9	ڏکائن	ڏک	VERB	VB__فعل	Number=Sing	0	root	_	_
 10	ٿا	ٿو	AUX	VB__فعل	Number=Plur	9	aux	_	_
 11	.	.	PUNCT	-__پورو_دم	_	9	punct	_	_
 
 # sent_id = 340
 # text = خدا اسان سڀني کي هدايت ڏيئي ته جيئن اسان سٺا انسان ٿي سگھون .
 1	خدا	خدا	PROPN	NNP__اسم_خاص	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
-2	اسان	آءُ	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=1	3	amod	_	_
+2	اسان	آءُ	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=1	3	nmod	_	_
 3	سڀني	سڀ	ADJ	JJ__صفت	Case=Nom|Number=Plur|Person=3	6	obj	_	_
 4	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	3	case	_	_
 5	هدايت	هدايت	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	_
@@ -1531,7 +1531,7 @@
 5	منهنجي	منهن	PRON	PRP__ضمير	Case=Gen|Number=Sing	6	nmod	_	_
 6	ڳوٺ	ڳوٺ	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
 7	جي	جي	ADP	IN__حرفِ_جر	Number=Sing	6	case	_	_
-8	ايڪڙٻيڪڙ	ايڪڙٻيڪڙ	ADJ	JJ__صفت	Number=Sing	9	compound	_	_
+8	ايڪڙٻيڪڙ	ايڪڙٻيڪڙ	ADJ	JJ__صفت	Number=Sing	9	amod	_	_
 9	ماڻهن	ماڻهو	NOUN	NN__اسم	Case=Nom|Number=Plur	11	obj	_	_
 10	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	9	case	_	_
 11	سڃاڻي	سڃاڻ	VERB	VB__فعل	Number=Sing	2	obj	_	_
@@ -2763,7 +2763,7 @@
 # sent_id = 504
 # text = اڄ عيد ميلادالنبي آهي ۽ اسان سڀ تمام گھڻا خوش آهيون .
 1	اڄ	اڄ	ADV	RB__ظرف	Number=Sing	3	advmod	_	_
-2	عيد	عيد	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+2	عيد	عيد	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	compound	_	_
 3	ميلادالنبي	ميلاد	PROPN	NNP__اسم_خاص	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 4	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	3	cop	_	_
 5	۽	۽	CCONJ	CC__حرف_جملو	Number=Sing	10	cc	_	_
@@ -2773,7 +2773,7 @@
 9	گھڻا	گھڻو	ADJ	JJ__صفت	Case=Nom|Number=Plur	10	amod	_	_
 10	خوش	خوش	ADJ	JJ__صفت	Case=Acc|Number=Sing|Person=3	3	conj	_	_
 11	آهيون	آهي	AUX	VB__فعل_معاون	Number=Plur	10	cop	_	_
-12	.	.	PUNCT	-__پورو_دم	_	3	punct	_	_
+12	.	.	PUNCT	-__پورو_دم	_	10	punct	_	_
 
 # sent_id = 505
 # text = جيڪڏهن نيت صاف نه آهي ته وک وک تي ڏکيايون ۽ مشڪلاتون ملن ٿيون .
@@ -3011,10 +3011,10 @@
 7	۽	۽	CCONJ	CC__حرف_جملو	Number=Sing	8	cc	_	_
 8	زبان	زبان	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	conj	_	_
 9	کان	کان	ADP	IN__حرفِ_جر	Number=Sing	6	case	_	_
-10	ٻيو	ٻيو	ADJ	_	_	11	nmod	_	_
+10	ٻيو	ٻيو	NUM	CD__صفت_عددي	Number=Sing	11	amod	_	_
 11	مسلمان	مسلمان	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 12	محفوظ	محفوظ	ADJ	JJ__صفت	Case=Acc|Number=Sing|Person=3	13	compound	_	_
-13	رهي	ره	VERB	VB__فعل	Case=Nom|Number=Sing	0	root	_	_
+13	رهي	ره	VERB	VB__فعل	Case=Nom|Number=Sing	2	ccomp	_	_
 14	.	.	PUNCT	-__پورو_دم	_	13	punct	_	_
 
 # sent_id = 526
@@ -3200,23 +3200,23 @@
 
 # sent_id = 633
 # text = خبر نه آهي ته ماڻهو انسانن کي ڪيئن ڏکائن ٿا جڏهن ته پاڻ ڀي انسان آهن ،
-1	خبر	خبر	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	root	_	_
-2	نه	نه	ADV	RB__ظرف	Number=Sing	1	advmod	_	_
+1	خبر	خبر	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+2	نه	نه	PART	_	_	1	advmod	_	_
 3	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	1	cop	_	_
-4	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	9	mark	_	_
+4	ته	ته	SCONJ	_	_	9	mark	_	_
 5	ماڻهو	ماڻهو	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 6	انسانن	انسان	NOUN	NNS__اسم	Case=Nom|Number=Plur	9	obj	_	_
 7	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	6	case	_	_
 8	ڪيئن	ڪيئن	ADV	RB__ظرف	Number=Sing	9	advmod	_	_
-9	ڏکائن	ڏک	VERB	VB__فعل	Number=Sing	1	obj	_	_
+9	ڏکائن	ڏک	VERB	VB__فعل	Number=Sing	0	root	_	_
 10	ٿا	ٿو	AUX	VB__فعل	Number=Plur	9	aux	_	_
 11	جڏهن	جڏهن	CCONJ	CC__حرف_جملو	Number=Sing	15	cc	_	_
-12	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	9	mark	_	_
+12	ته	ته	PART	_	_	9	dep	_	_
 13	پاڻ	پاڻ	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=2	15	nsubj	_	_
-14	ڀي	ڀي	ADP	-__نامعلوم	_	13	dep	_	_
+14	ڀي	ڀي	PART	_	_	13	dep	_	_
 15	انسان	انسان	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	conj	_	_
 16	آهن	آهي	AUX	VB__فعل_معاون	Number=Plur	15	cop	_	_
-17	،	،	PUNCT	-__بيهڪ_جي_نشاني	_	1	punct	_	_
+17	،	،	PUNCT	-__بيهڪ_جي_نشاني	_	9	punct	_	_
 
 # sent_id = 634
 # text = خدا اسان سڀني کي هدايت ڏيئي ته جيئن اسان سٺا انسان ٿي سگھون ۽ هن دنيا کي خوبصورت بڻايون .
@@ -3381,7 +3381,7 @@
 3	تهذيب	تهذيب	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
 4	دجلا	دجلا	PROPN	NNP__اسم_خاص	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 5	،	،	PUNCT	-__بيهڪ_جي_نشاني	_	6	punct	_	_
-6	فرات	فرات	PROPN	NNP__اسم_خاص	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	_
+6	فرات	فرات	PROPN	NNP__اسم_خاص	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	conj	_	_
 7	،	،	PUNCT	-__بيهڪ_جي_نشاني	_	4	punct	_	_
 
 # sent_id = 646
@@ -3449,7 +3449,7 @@
 
 # sent_id = 648
 # text = هن مهل تائين سميري تهذيب کي آڳاٽي تصور ڪيو وڃي ٿو پر سنڌ سمير کان نه رڳو آڳاٽي سرسبز ۽ خوشحال سرزمين آهي پر تمدني ۽ تهذيبي اعتبار کان به ڪيترائي درجا بلند آهي ۽ هر حالت ۾ دنيا جي قديم ترين علائقي سمير کان مٿاهين ۽ اوليت رکندڙ آهي .
-1	هن	هن	PRON	DT__ضمير_اشارو	Case=Acc|Number=Sing|Person=3	2	det	_	_
+1	هن	هن	DET	_	_	2	det	_	_
 2	مهل	مهل	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obl	_	_
 3	تائين	تائين	ADP	IN__حرفِ_جر	Number=Sing	2	case	_	_
 4	سميري	سمير	ADJ	JJ__صفت	Case=Nom|Number=Sing|Person=3	5	amod	_	_
@@ -3478,7 +3478,7 @@
 27	تهذيبي	تهذيب	ADJ	JJ__صفت	Case=Nom|Number=Sing|Person=3	25	conj	_	_
 28	اعتبار	اعتبار	NOUN	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	25	conj	_	_
 29	کان	کان	ADP	IN__حرفِ_جر	Number=Sing	28	case	_	_
-30	به	به	ADP	IN__حرفِ_جر	Number=Sing	28	dep	_	_
+30	به	به	PART	_	_	28	dep	_	_
 31	ڪيترائي	ڪيترائي	ADJ	RB__ظرف	Number=Sing	32	amod	_	_
 32	درجا	درجو	NOUN	NN__اسم	Case=Acc|Number=Plur	33	nsubj	_	_
 33	بلند	بلند	ADJ	JJ__صفت	Case=Nom|Number=Sing|Person=3	22	conj	_	_
@@ -3498,7 +3498,7 @@
 47	اوليت	اول	NOUN	NN__اسم	Case=Nom|Number=Sing	45	conj	_	_
 48	رکندڙ	رک	VERB	VB__فعل	Number=Sing	33	conj	_	_
 49	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	48	aux	_	_
-50	.	.	PUNCT	-__پورو_دم	_	9	punct	_	_
+50	.	.	PUNCT	-__پورو_دم	_	22	punct	_	_
 
 # sent_id = 649
 # text = سنڌ جي سرزمين ان جا ماڻهو تهذيب ثقافت علم ادب ڏاهپ اقتصاديات فن ۽ حڪمت دنيا تي راڃ ڪندو هو ۽ پنهنجي طبعي ۽ جاگرافي حيثيت ۾ وسيع ۽ منفرد هو .
@@ -3614,7 +3614,7 @@
 12	ٿي	ٿي	VERB	VB__فعل	Number=Sing	0	root	_	_
 13	وڃي	وڃ	VERB	VB__فعل	Number=Sing	12	compound	_	_
 14	ٿو	ٿو	AUX	VB__فعل	Number=Sing	12	aux	_	_
-15	.	.	PUNCT	-__پورو_دم	_	12	punct	_	_
+15	.	.	PUNCT	-__پورو_دم	_	11	punct	_	_
 
 # sent_id = 656
 # text = مونکي منهنجي سنڌ منهنجي جان کان وڌيڪ پياري آهي .
@@ -3706,16 +3706,16 @@
 4	جي	جي	ADP	IN__حرفِ_جر	Number=Sing	3	case	_	_
 5	هڪ	هڪ	NUM	CD__صفت_عددي	Number=Sing	6	nummod	_	_
 6	خوبصورتي	خوبصورت	ADJ	JJ__صفت	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
-7	اها	اها	DET	DT__ضمير_اشارو	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	_
-8	به	به	ADP	IN__حرفِ_جر	Number=Sing	7	dep	_	_
+7	اها	اها	PRON	_	_	0	root	_	_
+8	به	به	PART	_	_	7	dep	_	_
 9	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	7	cop	_	_
-10	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	16	mark	_	_
+10	ته	ته	SCONJ	_	_	7	mark	_	_
 11	هو	هو	PRON	VB__فعل	Number=Sing	16	nsubj	_	_
 12	حقيقت	حق	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	obl	_	_
 13	۾	۾	ADP	IN__حرفِ_جر	Number=Sing	12	case	_	_
 14	اهي	اهي	DET	DT__ضمير_اشارو	Case=Nom|Number=Plur|Person=3	15	det	_	_
 15	ملڪ	ملڪ	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	obj	_	_
-16	گھمائيندا	گھُم	VERB	VB__فعل	Case=Acc|Number=Sing	7	acl	_	_
+16	گھمائيندا	گھُم	VERB	VB__فعل	Case=Acc|Number=Sing	7	ccomp	_	_
 17	آهن	آهي	AUX	VB__فعل_معاون	Number=Plur	16	aux	_	_
 18	.	.	PUNCT	-__پورو_دم	_	16	punct	_	_
 
@@ -3789,12 +3789,12 @@
 4	حوالي	_	VERB	_	_	34	advcl	_	_
 5	لاهور	_	PROPN	_	_	34	obl	_	_
 6	/	_	PUNCT	_	_	7	punct	_	_
-7	سکر	_	PROPN	_	_	5	cc	_	_
+7	سکر	_	PROPN	_	_	5	conj	_	_
 8	(	_	PUNCT	_	_	7	punct	_	_
 9	رپورٽ	_	NOUN	_	_	12	nmod	_	_
 10	امداد	_	PROPN	_	_	12	compound	_	_
 11	علي	_	PROPN	_	_	12	compound	_	_
-12	سومرو	_	NOUN	_	_	0	root	_	_
+12	سومرو	_	NOUN	_	_	5	conj	_	_
 13	/	_	PUNCT	_	_	15	punct	_	_
 14	شبير	_	PROPN	_	_	15	compound	_	_
 15	ڀٽو	_	NOUN	_	_	5	conj	_	_
