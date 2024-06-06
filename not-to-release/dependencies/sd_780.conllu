@@ -41,8 +41,8 @@
 5	وٽ	_	ADP	_	_	4	case	_	_
 6	پاڻي	_	NOUN	_	_	8	nmod	_	_
 7	جي	_	ADP	_	_	6	case	_	_
-8	سطح	_	NOUN	_	_	15	nsubj	_	_
-9	گذريل	_	VERB	_	_	11	amod	_	_
+8	سطح	_	NOUN	_	_	15	obj	_	_
+9	گذريل	_	VERB	_	_	11	obl	_	_
 10	24	_	NUM	_	_	11	nummod	_	_
 11	ڪلاڪن	_	NOUN	_	_	15	obl	_	_
 12	کان	_	ADP	_	_	11	case	_	_
@@ -61,7 +61,7 @@
 5	لڳاتار	_	ADV	_	_	6	advmod	_	_
 6	اضافو	_	NOUN	_	_	0	root	_	_
 7	ٿي	_	AUX	_	_	6	cop	_	_
-8	رهيو	_	VERB	_	_	6	compound	_	_
+8	رهيو	_	VERB	_	_	6	nmod	_	_
 9	آهي	_	AUX	_	_	6	cop	_	_
 10	،	_	PUNCT	_	_	8	punct	_	_
 
@@ -77,7 +77,7 @@
 8	واري	_	ADP	_	_	7	case	_	_
 9	علائقن	_	NOUN	_	_	11	obl	_	_
 10	۾	_	ADP	_	_	9	case	_	_
-11	واقع	_	ADV	_	_	13	amod	_	_
+11	واقع	_	ADV	_	_	13	obl	_	_
 12	بچاءُ	_	NOUN	_	_	13	nmod	_	_
 13	بندن	_	NOUN	_	_	21	obl	_	_
 14	تي	_	ADP	_	_	13	case	_	_
@@ -114,7 +114,7 @@
 17	پاڻي	_	NOUN	_	_	19	nmod	_	_
 18	جو	_	ADP	_	_	17	case	_	_
 19	دٻاءُ	_	NOUN	_	_	21	nsubj	_	_
-20	زور	_	NOUN	_	_	21	compound	_	_
+20	زور	_	NOUN	_	_	21	obj	_	_
 21	وٺي	_	VERB	_	_	0	root	_	_
 22	ويو	_	VERB	_	_	21	compound	_	_
 23	آهي	_	AUX	_	_	21	aux	_	_
@@ -149,11 +149,11 @@
 5	کان	_	ADP	_	_	4	case	_	_
 6	وڌيڪ	_	ADJ	_	_	7	amod	_	_
 7	آفيسرن	_	NOUN	_	_	10	nsubj	_	_
-8	تصديق	_	NOUN	_	_	9	compound	_	_
+8	تصديق	_	NOUN	_	_	9	obl	_	_
 9	ڪندي	_	VERB	_	_	10	advcl	_	_
 10	چيو	_	VERB	_	_	0	root	_	_
 11	ته	_	SCONJ	_	_	23	mark	_	_
-12	سال	_	NOUN	_	_	13	nmod	_	_
+12	سال	_	NOUN	_	_	13	nummod	_	_
 13	1976ع	_	NUM	_	_	23	obl	_	_
 14	دوران	_	ADV	_	_	23	advmod	_	_
 15	جڏهن	_	ADV	_	_	23	advmod	_	_
@@ -167,17 +167,17 @@
 23	گذريو	_	VERB	_	_	28	advcl	_	_
 24	هو	_	AUX	_	_	23	aux	_	_
 25	ته	_	SCONJ	_	_	28	mark	_	_
-26	گيج	_	NOUN	_	_	28	nsubj	_	_
+26	گيج	_	NOUN	_	_	28	obl	_	_
 27	نه	_	PART	_	_	28	advmod	_	_
 28	لڙهيا	_	VERB	_	_	10	obj	_	_
 29	هئا	_	AUX	_	_	28	aux	_	_
 30	۽	_	CCONJ	_	_	36	cc	_	_
-31	نه	_	PART	_	_	36	advmod	_	_
+31	نه	_	PART	_	_	36	dep	_	_
 32	وري	_	ADV	_	_	36	advmod	_	_
 33	پاڻي	_	NOUN	_	_	36	nsubj	_	_
 34	دروازن	_	NOUN	_	_	36	obl	_	_
 35	سان	_	ADP	_	_	34	case	_	_
-36	ٽڪرايو	_	VeRB	_	_	28	conj	_	_
+36	ٽڪرايو	_	VERB	_	_	28	conj	_	_
 37	هو	_	AUX	_	_	36	aux	_	_
 38	،	_	PUNCT	_	_	36	punct	_	_
 
@@ -185,7 +185,7 @@
 # text = هن ڀيري اهو سڀ ڪجهه ٿي ويو آهي ،
 1	هن	_	DET	_	_	2	det	_	_
 2	ڀيري	_	NOUN	_	_	7	obl	_	_
-3	اهو	_	DET	_	_	5	det	_	_
+3	اهو	_	PRON	_	_	5	nmod	_	_
 4	سڀ	_	ADJ	_	_	5	amod	_	_
 5	ڪجهه	_	ADJ	_	_	7	nsubj	_	_
 6	ٿي	_	AUX	_	_	7	aux	_	_
@@ -211,7 +211,7 @@
 14	انگ	_	NOUN	_	_	15	nmod	_	_
 15	اکر	_	NOUN	_	_	16	nsubj	_	_
 16	صحيح	_	ADJ	_	_	5	obj	_	_
-17	نه	_	PART	_	_	16	advmod	_	_
+17	نه	_	PART	_	_	16	dep	_	_
 18	هئا	_	AUX	_	_	16	cop	_	_
 19	،	_	PUNCT	_	_	5	punct	_	_
 
@@ -219,7 +219,7 @@
 # text = اصل ۾ اهو پاڻي 12 لک ڪيوسڪ جي لڳ ڀڳ هو ،
 1	اصل	_	NOUN	_	_	10	obl	_	_
 2	۾	_	ADP	_	_	1	case	_	_
-3	اهو	_	DET	_	_	4	det	_	_
+3	اهو	_	PRON	_	_	4	det	_	_
 4	پاڻي	_	NOUN	_	_	10	nsubj	_	_
 5	12	_	NUM	_	_	6	nummod	_	_
 6	لک	_	NOUN	_	_	7	nmod	_	_
@@ -233,7 +233,7 @@
 # sent_id = 705
 # text = گيج لڙهي وڃڻ ڪري واڌو پاڻي جي ماپ نه ٿي سگهي ،
 1	گيج	_	NOUN	_	_	2	nsubj	_	_
-2	لڙهي	_	VERB	_	_	8	advcl	_	_
+2	لڙهي	_	VERB	_	_	8	obl	_	_
 3	وڃڻ	_	VERB	_	_	2	compound	_	_
 4	ڪري	_	VERB	_	_	2	compound	_	_
 5	واڌو	_	ADJ	_	_	6	amod	_	_
@@ -256,9 +256,9 @@
 7	وٽ	_	ADP	_	_	6	case	_	_
 8	پاڻي	_	NOUN	_	_	11	obl	_	_
 9	۾	_	ADP	_	_	8	case	_	_
-10	لاٿ	_	NOUN	_	_	11	compound	_	_
+10	لاٿ	_	NOUN	_	_	11	obj	_	_
 11	اچڻ	_	VERB	_	_	13	xcomp	_	_
-12	شروع	_	NOUN	_	_	11	compound	_	_
+12	شروع	_	NOUN	_	_	11	obl	_	_
 13	ٿي	_	AUX	_	_	0	root	_	_
 14	وئي	_	VERB	_	_	11	compound	_	_
 15	آهي	_	AUX	_	_	12	aux	_	_
@@ -292,7 +292,7 @@
 24	۽	_	CCONJ	_	_	28	cc	_	_
 25	لاٿ	_	NOUN	_	_	27	nmod	_	_
 26	واري	_	ADP	_	_	25	case	_	_
-27	صورتحال	_	NOUN	_	_	28	nsubj	_	_
+27	صورتحال	_	NOUN	_	_	28	obl	_	_
 28	جاري	_	VERB	_	_	21	conj	_	_
 29	آهي	_	AUX	_	_	28	aux	_	_
 30	،	_	PUNCT	_	_	28	punct	_	_
@@ -367,7 +367,7 @@
 22	پاڻي	_	NOUN	_	_	25	nsubj	_	_
 23	بئراج	_	NOUN	_	_	25	obl	_	_
 24	هيٺان	_	ADV	_	_	25	advmod	_	_
-25	گذري	_	VERB	_	_	13	acl:relcl	_	_
+25	گذري	_	VERB	_	_	13	obl	_	_
 26	رهيو	_	VERB	_	_	25	compound	_	_
 27	آهي	_	AUX	_	_	25	aux	_	_
 28	،	_	PUNCT	_	_	25	punct	_	_
@@ -400,7 +400,7 @@
 24	تيزي	_	ADV	_	_	26	advmod	_	_
 25	سان	_	ADP	_	_	24	case	_	_
 26	ٽڪرائجڻ	_	VERB	_	_	16	advcl	_	_
-27	شروع	_	NOUN	_	_	26	compound	_	_
+27	شروع	_	NOUN	_	_	26	obl	_	_
 28	ٿي	_	AUX	_	_	26	aux	_	_
 29	ويو	_	VERB	_	_	28	compound	_	_
 30	آهي	_	AUX	_	_	28	aux	_	_
@@ -420,7 +420,7 @@
 
 # sent_id = 713
 # text = هوڏانهن سکر ۽ گڊو بئراج جي وچ وارن بچاءُ بندن تي پاڻي جي دٻاءُ ۾ اضافو ٿيو آهي ،
-1	هوڏانهن	_	ADV	_	_	17	advmod	_	_
+1	هوڏانهن	_	DET	_	_	17	advmod	_	_
 2	سکر	_	PROPN	_	_	7	nmod	_	_
 3	۽	_	CCONJ	_	_	5	cc	_	_
 4	گڊو	_	PROPN	_	_	5	compound	_	_
@@ -435,7 +435,7 @@
 13	جي	_	ADP	_	_	12	case	_	_
 14	دٻاءُ	_	NOUN	_	_	17	obl	_	_
 15	۾	_	ADP	_	_	14	case	_	_
-16	اضافو	_	NOUN	_	_	17	compound	_	_
+16	اضافو	_	NOUN	_	_	17	xcomp	_	_
 17	ٿيو	_	VERB	_	_	0	root	_	_
 18	آهي	_	AUX	_	_	17	aux	_	_
 19	،	_	PUNCT	_	_	17	punct	_	_
@@ -559,7 +559,7 @@
 8	جي	_	ADP	_	_	7	case	_	_
 9	مدد	_	NOUN	_	_	12	obl	_	_
 10	سان	_	ADP	_	_	9	case	_	_
-11	بند	_	NOUN	_	_	12	compound	_	_
+11	بند	_	NOUN	_	_	12	xcomp	_	_
 12	ڪيو	_	VERB	_	_	0	root	_	_
 13	آهي	_	AUX	_	_	12	aux	_	_
 14	،	_	PUNCT	_	_	12	punct	_	_
@@ -614,7 +614,7 @@
 5	جي	_	ADP	_	_	4	case	_	_
 6	ڪچي	_	ADJ	_	_	8	amod	_	_
 7	واري	_	ADP	_	_	6	case	_	_
-8	علائقي	_	NOUN	_	_	11	conj	_	_
+8	علائقي	_	NOUN	_	_	11	nmod	_	_
 9	۾	_	ADP	_	_	8	case	_	_
 10	ڪيٽي	_	NOUN	_	_	11	nmod	_	_
 11	جوڻيجا	_	NOUN	_	_	46	nsubj	_	_
@@ -639,7 +639,7 @@
 30	بچاءُ	_	NOUN	_	_	31	nmod	_	_
 31	بند	_	NOUN	_	_	11	conj	_	_
 32	،	_	PUNCT	_	_	31	punct	_	_
-33	جهلي	_	VERB	_	_	34	amod	_	_
+33	جهلي	_	VERB	_	_	34	obl	_	_
 34	ڪلواڙي	_	NOUN	_	_	36	nmod	_	_
 35	بچاءُ	_	NOUN	_	_	36	nmod	_	_
 36	بند	_	NOUN	_	_	11	conj	_	_
@@ -656,7 +656,7 @@
 47	آهن	_	AUX	_	_	46	cop	_	_
 48	۽	_	CCONJ	_	_	67	cc	_	_
 49	جڏهن	_	ADV	_	_	67	advmod	_	_
-50	ته	_	SCONJ	_	_	49	dep	_	_
+50	ته	_	SCONJ	_	_	49	mark	_	_
 51	ڪيٽي	_	NOUN	_	_	52	nmod	_	_
 52	جوڻيجا	_	NOUN	_	_	54	nmod	_	_
 53	واري	_	ADP	_	_	52	case	_	_
@@ -689,7 +689,7 @@
 8	لاءِ	_	ADP	_	_	7	mark	_	_
 9	7	_	NUM	_	_	11	nummod	_	_
 10	ئي	_	ADP	_	_	9	case	_	_
-11	ڪئنال	_	NOUNdv	_	_	12	nsubj	_	_
+11	ڪئنال	_	NOUNDV	_	_	12	xcomp	_	_
 12	کوليا	_	VERB	_	_	0	root	_	_
 13	ويا	_	VERB	_	_	12	compound	_	_
 14	،	_	PUNCT	_	_	12	punct	_	_
@@ -817,14 +817,14 @@
 12	جي	_	ADP	_	_	11	case	_	_
 13	وهڪري	_	NOUN	_	_	15	nmod	_	_
 14	جو	_	ADP	_	_	13	case	_	_
-15	جائزو	_	NOUN	_	_	16	compound	_	_
+15	جائزو	_	NOUN	_	_	16	xcomp	_	_
 16	ورتو	_	VERB	_	_	0	root	_	_
 17	،	_	PUNCT	_	_	16	punct	_	_
 
 # sent_id = 726
 # text = جڏهن ته ايڪسين بئراج جي آفيس ۾ آبپاشي کاتي جي عملدارن ۽ فوجي آفيسرن کان سکر ۽ گڊو بئراجن جي وچ ۾ بچاءُ بندن جي حالت ۽ ٻوڏ واري پاڻي ۾ ڦاٿل ماڻهن لاءِ ٿيندڙ ريسڪيو آپريشن بابت بريفنگ ورتي .
 1	جڏهن	_	ADV	_	_	40	advmod	_	_
-2	ته	_	SCONJ	_	_	1	dep	_	_
+2	ته	_	SCONJ	_	_	1	mark	_	_
 3	ايڪسين	_	NOUN	_	_	4	nmod	_	_
 4	بئراج	_	NOUN	_	_	6	nmod	_	_
 5	جي	_	ADP	_	_	4	case	_	_
@@ -861,7 +861,7 @@
 36	ريسڪيو	_	NOUN	_	_	37	compound	_	_
 37	آپريشن	_	NOUN	_	_	40	obl	_	_
 38	بابت	_	ADP	_	_	37	case	_	_
-39	بريفنگ	_	NOUN	_	_	40	compound	_	_
+39	بريفنگ	_	NOUN	_	_	40	xcomp	_	_
 40	ورتي	_	VERB	_	_	0	root	_	_
 41	.	_	PUNCT	_	_	40	punct	_	_
 
@@ -908,9 +908,9 @@
 18	سان	_	ADP	_	_	17	case	_	_
 19	تفصيلي	_	ADJ	_	_	20	amod	_	_
 20	ڳالهه	_	NOUN	_	_	21	compound	_	_
-21	ٻولهه	_	NOUN	_	_	23	nsubj	_	_
+21	ٻولهه	_	NOUN	_	_	23	obl	_	_
 22	پڻ	_	ADP	_	_	21	dep	_	_
-23	ٿي	_	AUX	_	_	1	cop	_	_
+23	ٿي	_	VERB	_	_	1	cop	_	_
 24	آهي	_	AUX	_	_	23	aux	_	_
 25	.	_	PUNCT	_	_	23	punct	_	_
 
@@ -964,7 +964,7 @@
 9	۽	_	CCONJ	_	_	10	cc	_	_
 10	ڳوٺن	_	NOUN	_	_	8	conj	_	_
 11	۾	_	ADP	_	_	8	case	_	_
-12	پاڻي	_	NOUN	_	_	13	nsubj	_	_
+12	پاڻي	_	NOUN	_	_	13	obl	_	_
 13	داخل	_	VERB	_	_	0	root	_	_
 14	ٿي	_	AUX	_	_	13	aux	_	_
 15	ويو	_	VERB	_	_	13	compound	_	_
@@ -1026,7 +1026,7 @@
 21	بيگاري	_	ADJ	_	_	22	amod	_	_
 22	ڪئنال	_	NOUN	_	_	25	obj	_	_
 23	کي	_	ADP	_	_	22	case	_	_
-24	گهارا	_	NOUN	_	_	25	compound	_	_
+24	گهارا	_	NOUN	_	_	25	obl	_	_
 25	پوڻ	_	VERB	_	_	51	advcl	_	_
 26	سبب	_	ADP	_	_	25	mark	_	_
 27	ڳوٺ	_	NOUN	_	_	29	nmod	_	_
@@ -1054,7 +1054,7 @@
 49	پاڻي	_	NOUN	_	_	50	obl	_	_
 50	هيٺ	_	ADV	_	_	51	advmod	_	_
 51	اچي	_	VERB	_	_	0	root	_	_
-52	ويا	_	VERB	_	_	51	compound	_	_
+52	ويا	_	VERB	_	_	51	xcomp	_	_
 53	،	_	PUNCT	_	_	51	punct	_	_
 
 # sent_id = 736
@@ -1070,7 +1070,7 @@
 9	کان	_	ADP	_	_	8	case	_	_
 10	پاڻي	_	NOUN	_	_	13	nsubj	_	_
 11	اوور	_	NOUN	_	_	13	nsubj	_	_
-12	فلو	_	NOUN	_	_	13	compound	_	_
+12	فلو	_	NOUN	_	_	13	xcomp	_	_
 13	ٿيو	_	VERB	_	_	0	root	_	_
 14	ته	_	SCONJ	_	_	13	mark	_	_
 15	ڊي	_	NOUN	_	_	16	nmod	_	_
@@ -1114,11 +1114,11 @@
 53	اوز	_	NOUN	_	_	57	obl	_	_
 54	ذريعي	_	ADP	_	_	53	case	_	_
 55	ڳوٺ	_	NOUN	_	_	57	obj	_	_
-56	خالي	_	ADJ	_	_	57	compound	_	_
+56	خالي	_	ADJ	_	_	57	xcomp	_	_
 57	ڪرڻ	_	VERB	_	_	59	nmod	_	_
 58	جي	_	ADP	_	_	57	mark	_	_
 59	وارننگ	_	NOUN	_	_	61	obj	_	_
-60	جاري	_	VERB	_	_	61	compound	_	_
+60	جاري	_	VERB	_	_	61	xcomp	_	_
 61	ڪئي	_	VERB	_	_	13	advcl	_	_
 62	وئي	_	VERB	_	_	61	compound	_	_
 63	،	_	PUNCT	_	_	61	punct	_	_
@@ -1324,7 +1324,7 @@
 2	ڪري	_	VERB	_	_	6	advcl	_	_
 3	ڪيترائي	_	ADJ	_	_	4	amod	_	_
 4	ماڻهو	_	NOUN	_	_	6	nsubj	_	_
-5	لڏپلاڻ	_	NOUN	_	_	6	compound	_	_
+5	لڏپلاڻ	_	NOUN	_	_	6	obl	_	_
 6	ڪري	_	VERB	_	_	0	root	_	_
 7	رهيا	_	VERB	_	_	6	compound	_	_
 8	هئا	_	AUX	_	_	6	aux	_	_
@@ -1340,7 +1340,7 @@
 6	بئراج	_	NOUN	_	_	8	obl	_	_
 7	مان	_	ADP	_	_	6	case	_	_
 8	نڪرندڙ	_	VERB	_	_	10	acl	_	_
-9	بيگاري	_	ADJ	_	_	10	amod	_	_
+9	بيگاري	_	NOUN	_	_	10	compound	_	_
 10	ڪئنال	_	NOUN	_	_	16	obl	_	_
 11	۾	_	ADP	_	_	10	case	_	_
 12	بي	_	NOUN	_	_	13	compound	_	_
@@ -1353,10 +1353,10 @@
 19	وهڪري	_	NOUN	_	_	23	obl	_	_
 20	بعد	_	ADP	_	_	19	case	_	_
 21	تمام	_	ADJ	_	_	22	amod	_	_
-22	چاڙهه	_	NOUN	_	_	23	nsubj	_	_
+22	چاڙهه	_	NOUN	_	_	23	obl	_	_
 23	اچڻ	_	VERB	_	_	36	advcl	_	_
 24	بعد	_	ADP	_	_	23	mark	_	_
-25	بيگاري	_	ADJ	_	_	26	amod	_	_
+25	بيگاري	_	NOUN	_	_	26	amod	_	_
 26	ڪئنال	_	NOUN	_	_	36	obl	_	_
 27	۾	_	ADP	_	_	26	case	_	_
 28	مختلف	_	ADJ	_	_	29	amod	_	_
@@ -1366,7 +1366,7 @@
 32	رمضان	_	PROPN	_	_	33	compound	_	_
 33	ڀٽي	_	NOUN	_	_	29	conj	_	_
 34	وٽان	_	ADP	_	_	33	case	_	_
-35	روڻيون	_	NOUN	_	_	36	nsubj	_	_
+35	روڻيون	_	NOUN	_	_	36	obl	_	_
 36	لڳي	_	VERB	_	_	0	root	_	_
 37	ويون	_	VERB	_	_	36	compound	_	_
 38	،	_	PUNCT	_	_	36	punct	_	_
@@ -1417,7 +1417,7 @@
 4	آباد	_	NOUN	_	_	1	conj	_	_
 5	ضلعن	_	NOUN	_	_	8	nmod	_	_
 6	۾	_	ADP	_	_	5	case	_	_
-7	بيگاري	_	ADJ	_	_	8	amod	_	_
+7	بيگاري	_	NOUN	_	_	8	compound	_	_
 8	ڪئنال	_	NOUN	_	_	0	root	_	_
 9	،	_	PUNCT	_	_	8	punct	_	_
 
@@ -1460,7 +1460,7 @@
 1	جيڪب	_	PROPN	_	_	2	compound	_	_
 2	آباد	_	NOUN	_	_	9	obl	_	_
 3	سکر	_	PROPN	_	_	5	nmod	_	_
-4	قومي	_	ADJ	_	_	5	amod	_	_
+4	قومي	_	NOUN	_	_	5	compound	_	_
 5	شاهراهه	_	NOUN	_	_	9	nsubj	_	_
 6	۽	_	CCONJ	_	_	8	cc	_	_
 7	ريلوي	_	NOUN	_	_	8	nmod	_	_
@@ -1476,7 +1476,7 @@
 3	ريلوي	_	NOUN	_	_	4	nmod	_	_
 4	ٽريڪ	_	NOUN	_	_	10	obl	_	_
 5	۽	_	CCONJ	_	_	7	cc	_	_
-6	قومي	_	ADJ	_	_	7	amod	_	_
+6	قومي	_	NOUN	_	_	7	compound	_	_
 7	شاهراهه	_	NOUN	_	_	4	conj	_	_
 8	تي	_	ADP	_	_	4	case	_	_
 9	ٽرئفڪ	_	NOUN	_	_	10	nsubj	_	_
@@ -1543,7 +1543,7 @@
 
 # sent_id = 751
 # text = بيگاري ڪئنال ۾ گهارن پوڻ کان جڏهن دروازن کان پاڻي اوور فلو ٿيو ته ڊي پي او ۽ ڊي سي او جيڪب آباد پاران مولاداد ،
-1	بيگاري	_	ADJ	_	_	2	amod	_	_
+1	بيگاري	_	NOUN	_	_	2	compound	_	_
 2	ڪئنال	_	NOUN	_	_	5	obl	_	_
 3	۾	_	ADP	_	_	2	case	_	_
 4	گهارن	_	NOUN	_	_	5	obj	_	_
@@ -1554,7 +1554,7 @@
 9	کان	_	ADP	_	_	8	case	_	_
 10	پاڻي	_	NOUN	_	_	13	nsubj	_	_
 11	اوور	_	NOUN	_	_	13	nsubj	_	_
-12	فلو	_	NOUN	_	_	13	compound	_	_
+12	فلو	_	NOUN	_	_	13	xcomp	_	_
 13	ٿيو	_	VERB	_	_	0	root	_	_
 14	ته	_	SCONJ	_	_	13	mark	_	_
 15	ڊي	_	NOUN	_	_	16	compound	_	_
@@ -1579,9 +1579,9 @@
 5	علائقن	_	NOUN	_	_	8	obl	_	_
 6	مان	_	ADP	_	_	5	case	_	_
 7	ڪراس	_	VERB	_	_	8	xcomp	_	_
-8	ڪندڙ	_	VERB	_	_	10	amod	_	_
-9	بيگاري	_	ADJ	_	_	10	amod	_	_
-10	ڪئنال	_	NOUN	_	_	12	nmod	_	_
+8	ڪندڙ	_	VERB	_	_	10	obl	_	_
+9	بيگاري	_	NOUN	_	_	10	compound	_	_
+10	ڪئنال	_	NOUN	_	_	12	obl	_	_
 11	جي	_	ADP	_	_	10	case	_	_
 12	ڀر	_	ADV	_	_	14	obl	_	_
 13	۾	_	ADP	_	_	12	case	_	_
@@ -1680,7 +1680,7 @@
 17	ڪٽ	_	NOUN	_	_	18	obj	_	_
 18	لڳائڻ	_	VERB	_	_	24	advcl	_	_
 19	سبب	_	ADP	_	_	18	mark	_	_
-20	بيگاري	_	ADJ	_	_	21	amod	_	_
+20	بيگاري	_	NOUN	_	_	21	compound	_	_
 21	ڪئنال	_	NOUN	_	_	24	obl	_	_
 22	۾	_	ADP	_	_	21	case	_	_
 23	پاڻي	_	NOUN	_	_	24	nsubj	_	_
@@ -1700,7 +1700,7 @@
 37	بيگاري	_	ADJ	_	_	38	amod	_	_
 38	پل	_	NOUN	_	_	47	obl	_	_
 39	وٽان	_	ADP	_	_	38	case	_	_
-40	بيگاري	_	ADJ	_	_	41	amod	_	_
+40	بيگاري	_	NOUN	_	_	41	compound	_	_
 41	ڪئنال	_	NOUN	_	_	47	obj	_	_
 42	کي	_	ADP	_	_	41	case	_	_
 43	2	_	NUM	_	_	44	nummod	_	_
@@ -1724,8 +1724,8 @@
 61	آباد	_	NOUN	_	_	58	conj	_	_
 62	کان	_	ADP	_	_	61	case	_	_
 63	سکر	_	PROPN	_	_	64	obl	_	_
-64	ويندڙ	_	VERB	_	_	67	amod	_	_
-65	نيشنل	_	ADJ	_	_	66	amod	_	_
+64	ويندڙ	_	VERB	_	_	67	obl	_	_
+65	نيشنل	_	NOUN	_	_	66	compound	_	_
 66	هاءِ	_	NOUN	_	_	67	nmod	_	_
 67	وي	_	NOUN	_	_	69	obj	_	_
 68	کي	_	ADP	_	_	67	case	_	_
@@ -1735,7 +1735,7 @@
 
 # sent_id = 756
 # text = بيگاري ڪئنال ۾ پيل گهاري سبب ريلوي ٽريڪ ۽ قومي شاهراهه بند ٿيڻ سبب سکر کان جيڪب آباد طرف ايندڙ جيڪب آباد سان تعلق رکندڙ پ پ ايم پي اي عائشه کوسو پڻ گهاري واري جاءِ تي ڦاسي پئي ،
-1	بيگاري	_	ADJ	_	_	2	amod	_	_
+1	بيگاري	_	NOUN	_	_	2	amod	_	_
 2	ڪئنال	_	NOUN	_	_	4	obl	_	_
 3	۾	_	ADP	_	_	2	case	_	_
 4	پيل	_	VERB	_	_	5	acl	_	_
@@ -1790,7 +1790,7 @@
 10	ڪلو	_	NOUN	_	_	11	nmod	_	_
 11	ميٽر	_	NOUN	_	_	12	obl	_	_
 12	پري	_	ADV	_	_	16	advmod	_	_
-13	بيگاري	_	ADJ	_	_	14	amod	_	_
+13	بيگاري	_	NOUN	_	_	14	compound	_	_
 14	ڪئنال	_	NOUN	_	_	16	obl	_	_
 15	وٽ	_	ADP	_	_	14	case	_	_
 16	پهچڻ	_	VERB	_	_	24	advcl	_	_
@@ -1827,7 +1827,7 @@
 6	بئراج	_	NOUN	_	_	8	obl	_	_
 7	مان	_	ADP	_	_	6	case	_	_
 8	نڪرندڙ	_	VERB	_	_	10	acl	_	_
-9	بيگاري	_	ADJ	_	_	10	amod	_	_
+9	بيگاري	_	NOUN	_	_	10	amod	_	_
 10	ڪئنال	_	NOUN	_	_	16	obl	_	_
 11	۾	_	ADP	_	_	10	case	_	_
 12	بي	_	NOUN	_	_	13	compound	_	_
@@ -1843,7 +1843,7 @@
 22	چاڙهه	_	NOUN	_	_	23	nsubj	_	_
 23	اچڻ	_	VERB	_	_	36	advcl	_	_
 24	بعد	_	ADP	_	_	23	mark	_	_
-25	بيگاري	_	ADJ	_	_	26	amod	_	_
+25	بيگاري	_	NOUN	_	_	26	amod	_	_
 26	ڪئنال	_	NOUN	_	_	36	obl	_	_
 27	۾	_	ADP	_	_	26	case	_	_
 28	مختلف	_	ADJ	_	_	29	amod	_	_
@@ -1874,9 +1874,9 @@
 12	چاڙهه	_	NOUN	_	_	19	nmod	_	_
 13	۽	_	CCONJ	_	_	16	cc	_	_
 14	ڳڙهي	_	NOUN	_	_	16	compound	_	_
-15	خيرو	_	PROPN	_	_	16	compound	_	_
+15	خيرو	_	PROPN	_	_	16	nmod	_	_
 16	شهر	_	NOUN	_	_	12	conj	_	_
-17	ٻڏڻ	_	VERB	_	_	19	nmod	_	_
+17	ٻڏڻ	_	VERB	_	_	19	obl	_	_
 18	واري	_	ADP	_	_	17	mark	_	_
 19	خطري	_	NOUN	_	_	25	obl	_	_
 20	بعد	_	ADP	_	_	19	case	_	_
@@ -1922,7 +1922,7 @@
 22	ڏيڻ	_	NOUN	_	_	25	nmod	_	_
 23	جي	_	ADP	_	_	22	mark	_	_
 24	به	_	ADP	_	_	22	dep	_	_
-25	ڪوشش	_	NOUN	_	_	26	compound	_	_
+25	ڪوشش	_	NOUN	_	_	26	obl	_	_
 26	ڪئي	_	VERB	_	_	0	root	_	_
 27	پر	_	SCONJ	_	_	30	mark	_	_
 28	ماڻهن	_	NOUN	_	_	30	nsubj	_	_
@@ -1938,7 +1938,7 @@
 3	شڪارپور	_	PROPN	_	_	4	nmod	_	_
 4	ضلعي	_	NOUN	_	_	43	obl	_	_
 5	۾	_	ADP	_	_	4	case	_	_
-6	بيگاري	_	ADJ	_	_	7	amod	_	_
+6	بيگاري	_	NOUN	_	_	7	compound	_	_
 7	ڪئنال	_	NOUN	_	_	43	iobj	_	_
 8	کي	_	ADP	_	_	7	case	_	_
 9	9	_	NUM	_	_	10	nummod	_	_
@@ -1956,7 +1956,7 @@
 21	ميان	_	NOUN	_	_	22	compound	_	_
 22	صاحب	_	NOUN	_	_	12	conj	_	_
 23	،	_	PUNCT	_	_	22	punct	_	_
-24	ڳوٺ	_	NOUN	_	_	26	nmod	_	_
+24	ڳوٺ	_	NOUN	_	_	27	nmod	_	_
 25	محمد	_	NOUN	_	_	27	compound	_	_
 26	نواز	_	NOUN	_	_	27	nmod	_	_
 27	کونهارو	_	NOUN	_	_	12	conj	_	_
@@ -2028,9 +2028,9 @@
 9	ڪوٽ	_	NOUN	_	_	6	conj	_	_
 10	۽	_	CCONJ	_	_	11	cc	_	_
 11	همايون	_	NOUN	_	_	6	conj	_	_
-12	شهرن	_	NOUN	_	_	6	conj	_	_
+12	شهرن	_	NOUN	_	_	6	nmod	_	_
 13	سميت	_	ADJ	_	_	12	amod	_	_
-14	150	_	NOUN	_	_	17	nmod	_	_
+14	150	_	NOUN	_	_	17	nummod	_	_
 15	کان	_	ADP	_	_	14	case	_	_
 16	وڌيڪ	_	ADJ	_	_	17	amod	_	_
 17	ڳوٺن	_	NOUN	_	_	20	obl	_	_
@@ -2078,7 +2078,7 @@
 # text = ٽوڙي بند ٽٽڻ ۽ بي ايس فيڊر کي گهارن کانپوءِ ٻوڏ جو پاڻي غوثپور ،
 1	ٽوڙي	_	NOUN	_	_	2	nmod	_	_
 2	بند	_	NOUN	_	_	3	obj	_	_
-3	ٽٽڻ	_	VERB	_	_	9	nmod	_	_
+3	ٽٽڻ	_	VERB	_	_	14	conj	_	_
 4	۽	_	CCONJ	_	_	7	cc	_	_
 5	بي	_	NOUN	_	_	6	nmod	_	_
 6	ايس	_	NOUN	_	_	7	nmod	_	_
@@ -2145,14 +2145,14 @@
 36	عبدالستار	_	PROPN	_	_	6	conj	_	_
 37	،	_	PUNCT	_	_	39	punct	_	_
 38	ڳوٺ	_	NOUN	_	_	39	nmod	_	_
-39	پيارو	_	ADJ	_	_	6	conj	_	_
+39	پيارو	_	NOUN	_	_	6	conj	_	_
 40	،	_	PUNCT	_	_	39	punct	_	_
 41	ڳوٺ	_	NOUN	_	_	43	nmod	_	_
 42	کک	_	NOUN	_	_	43	compound	_	_
 43	محمد	_	PROPN	_	_	6	conj	_	_
 44	،	_	PUNCT	_	_	43	punct	_	_
 45	ڳوٺ	_	NOUN	_	_	46	nmod	_	_
-46	پيارو	_	ADJ	_	_	6	conj	_	_
+46	پيارو	_	NOUN	_	_	6	conj	_	_
 47	،	_	PUNCT	_	_	46	punct	_	_
 48	ڳوٺ	_	NOUN	_	_	49	nmod	_	_
 49	پانڌي	_	NOUN	_	_	6	conj	_	_
@@ -2191,7 +2191,7 @@
 1	انهن	_	DET	_	_	2	det	_	_
 2	علائقن	_	NOUN	_	_	13	obl	_	_
 3	مان	_	ADP	_	_	2	case	_	_
-4	هزارين	_	NOUN	_	_	5	nmod	_	_
+4	هزارين	_	NOUN	_	_	5	nummod	_	_
 5	ماڻهو	_	NOUN	_	_	13	nsubj	_	_
 6	ڪنڌڪوٽ	_	PROPN	_	_	10	nmod	_	_
 7	۽	_	CCONJ	_	_	8	cc	_	_
@@ -2199,7 +2199,7 @@
 9	وارن	_	ADP	_	_	6	case	_	_
 10	علائقن	_	NOUN	_	_	13	obl	_	_
 11	ڏانهن	_	ADV	_	_	10	case	_	_
-12	لڏپلاڻ	_	NOUN	_	_	13	compound	_	_
+12	لڏپلاڻ	_	NOUN	_	_	13	xcomp	_	_
 13	ڪري	_	VERB	_	_	32	advcl	_	_
 14	روڊن	_	NOUN	_	_	15	nmod	_	_
 15	رستن	_	NOUN	_	_	32	obl	_	_
@@ -2303,7 +2303,7 @@
 7	3	_	NUM	_	_	8	nummod	_	_
 8	ماڻهو	_	NOUN	_	_	21	nsubj	_	_
 9	۽	_	CCONJ	_	_	13	cc	_	_
-10	ڳوٺ	_	NOUN	_	_	12	nmod	_	_
+10	ڳوٺ	_	NOUN	_	_	13	nmod	_	_
 11	بگن	_	PROPN	_	_	12	compound	_	_
 12	خان	_	NOUN	_	_	13	nmod	_	_
 13	بجاراڻي	_	NOUN	_	_	16	nmod	_	_
@@ -2325,7 +2325,7 @@
 # text = ٻئي طرف بي ايس فيڊر جي بچاءُ بند ٽٽڻ سبب ڳوٺ دڙي سندراڻي ، رستم خان ،
 1	ٻئي	_	NOUN	_	_	2	nmod	_	_
 2	طرف	_	NOUN	_	_	9	obl	_	_
-3	بي	_	NOUN	_	_	4	nmod	_	_
+3	بي	_	NOUN	_	_	5	nmod	_	_
 4	ايس	_	NOUN	_	_	5	nmod	_	_
 5	فيڊر	_	NOUN	_	_	8	nmod	_	_
 6	جي	_	ADP	_	_	5	case	_	_
@@ -2428,7 +2428,7 @@
 2	شهر	_	NOUN	_	_	6	obl	_	_
 3	۾	_	ADP	_	_	2	case	_	_
 4	ڦورو	_	NOUN	_	_	6	nsubj	_	_
-5	ڦرلٽ	_	NOUN	_	_	6	compound	_	_
+5	ڦرلٽ	_	NOUN	_	_	6	obl	_	_
 6	ڪري	_	VERB	_	_	0	root	_	_
 7	رهيا	_	VERB	_	_	6	compound	_	_
 8	آهن	_	AUX	_	_	6	aux	_	_
@@ -2445,7 +2445,7 @@
 7	راجا	_	NOUN	_	_	8	compound	_	_
 8	بجاراڻي	_	NOUN	_	_	4	conj	_	_
 9	۽	_	CCONJ	_	_	8	cc	_	_
-10	بي	_	NOUN	_	_	12	compound	_	_
+10	بي	_	NOUN	_	_	12	nmod	_	_
 11	ايس	_	NOUN	_	_	12	nmod	_	_
 12	ڪئنال	_	NOUN	_	_	15	nmod	_	_
 13	جي	_	ADP	_	_	12	case	_	_
@@ -2468,7 +2468,7 @@
 5	ڪي	_	NOUN	_	_	7	det	_	_
 6	به	_	ADP	_	_	5	case	_	_
 7	انتظام	_	NOUN	_	_	9	obj	_	_
-8	نه	_	PART	_	_	9	advmod	_	_
+8	نه	_	PART	_	_	9	dep	_	_
 9	ورتا	_	VERB	_	_	0	root	_	_
 10	ويا	_	VERB	_	_	9	compound	_	_
 11	آهن	_	AUX	_	_	9	aux	_	_
@@ -2482,8 +2482,8 @@
 4	۾	_	ADP	_	_	3	case	_	_
 5	30	_	NUM	_	_	9	nummod	_	_
 6	جي	_	ADP	_	_	5	case	_	_
-7	لڳ	_	ADJ	_	_	9	amod	_	_
-8	ڀڳ	_	ADJ	_	_	9	amod	_	_
+7	لڳ	_	NOUN	_	_	9	nmod	_	_
+8	ڀڳ	_	NOUN	_	_	9	nmod	_	_
 9	ماڻهو	_	NOUN	_	_	10	nsubj	_	_
 10	ڦاٿل	_	VERB	_	_	0	root	_	_
 11	آهن	_	AUX	_	_	10	aux	_	_
@@ -2513,7 +2513,7 @@
 # sent_id = 785
 # text = هوڏانهن لکي غلام شاهه جو ڳوٺ عبدالمجيد ڪرسي مڪمل طور تي پاڻي هيٺ اچي ويو آهي ،
 1	هوڏانهن	_	ADV	_	_	14	advmod	_	_
-2	لکي	_	NOUN	_	_	4	compound	_	_
+2	لکي	_	NOUN	_	_	4	nmod	_	_
 3	غلام	_	NOUN	_	_	4	compound	_	_
 4	شاهه	_	NOUN	_	_	6	nmod	_	_
 5	جو	_	ADP	_	_	4	case	_	_
@@ -2549,7 +2549,7 @@
 15	پاڻي	_	NOUN	_	_	18	obl	_	_
 16	سبب	_	ADP	_	_	15	case	_	_
 17	هيٺ	_	ADV	_	_	18	advmod	_	_
-18	ويهجي	_	NOUN	_	_	0	root	_	_
+18	ويهجي	_	VERB	_	_	0	root	_	_
 19	ويو	_	VERB	_	_	18	compound	_	_
 20	،	_	PUNCT	_	_	18	punct	_	_
 
@@ -2563,7 +2563,7 @@
 6	جي	_	ADP	_	_	5	case	_	_
 7	5	_	NUM	_	_	8	nummod	_	_
 8	ٻارڙا	_	NOUN	_	_	10	nsubj	_	_
-9	دٻجي	_	NOUN	_	_	10	compound	_	_
+9	دٻجي	_	NOUN	_	_	10	obl	_	_
 10	فوت	_	VERB	_	_	0	root	_	_
 11	ٿي	_	AUX	_	_	10	aux	_	_
 12	ويا	_	VERB	_	_	10	compound	_	_
@@ -2597,7 +2597,7 @@
 9	ڀيڻ	_	NOUN	_	_	10	nmod	_	_
 10	عائشه	_	PROPN	_	_	6	conj	_	_
 11	،	_	PUNCT	_	_	10	punct	_	_
-12	ٻه	_	ADJ	_	_	13	amod	_	_
+12	ٻه	_	NUM	_	_	13	nummod	_	_
 13	ڀائر	_	NOUN	_	_	6	conj	_	_
 14	قربان	_	PROPN	_	_	6	conj	_	_
 15	،	_	PUNCT	_	_	16	punct	_	_
@@ -2635,7 +2635,7 @@
 7	قادر	_	PROPN	_	_	8	compound	_	_
 8	چاچڙ	_	NOUN	_	_	15	obl	_	_
 9	۾	_	ADP	_	_	8	case	_	_
-10	هڪ	_	ADJ	_	_	11	amod	_	_
+10	هڪ	_	NUM	_	_	11	nummod	_	_
 11	گهر	_	NOUN	_	_	13	nmod	_	_
 12	جي	_	ADP	_	_	11	case	_	_
 13	ڇت	_	NOUN	_	_	14	obj	_	_
@@ -2661,7 +2661,7 @@
 # text = جڏهن ته ٻه ٻارڙيون سخت زخمي ٿي پيون ،
 1	جڏهن	_	ADV	_	_	6	advmod	_	_
 2	ته	_	SCONJ	_	_	1	dep	_	_
-3	ٻه	_	ADJ	_	_	4	amod	_	_
+3	ٻه	_	NUM	_	_	4	nummod	_	_
 4	ٻارڙيون	_	NOUN	_	_	6	nsubj	_	_
 5	سخت	_	ADJ	_	_	6	amod	_	_
 6	زخمي	_	NOUN	_	_	0	root	_	_
@@ -2719,7 +2719,7 @@
 15	جو	_	ADP	_	_	14	case	_	_
 16	پکو	_	NOUN	_	_	17	obj	_	_
 17	لاهيندي	_	NOUN	_	_	23	obl	_	_
-18	هڪ	_	ADJ	_	_	19	amod	_	_
+18	هڪ	_	NUM	_	_	19	nummod	_	_
 19	ڄڻو	_	NOUN	_	_	23	nsubj	_	_
 20	ڪرنٽ	_	NOUN	_	_	21	obj	_	_
 21	لڳڻ	_	VERB	_	_	23	advcl	_	_
@@ -2807,7 +2807,7 @@
 22	ان	_	DET	_	_	24	nmod	_	_
 23	جي	_	ADP	_	_	22	case	_	_
 24	مذمت	_	NOUN	_	_	26	compound	_	_
-25	ناهي	_	AUX	_	_	26	advmod	_	_
+25	ناهي	_	AUX	_	_	26	aux	_	_
 26	ڪئي	_	VERB	_	_	17	advcl	_	_
 27	،	_	PUNCT	_	_	26	punct	_	_
 
@@ -2819,7 +2819,7 @@
 4	جي	_	ADP	_	_	3	case	_	_
 5	انبارن	_	NOUN	_	_	8	obl	_	_
 6	مان	_	ADP	_	_	5	case	_	_
-7	ثابت	_	NOUN	_	_	8	compound	_	_
+7	ثابت	_	NOUN	_	_	8	xcomp	_	_
 8	ٿئي	_	VERB	_	_	0	root	_	_
 9	ٿو	_	AUX	_	_	8	aux	_	_
 10	ته	_	SCONJ	_	_	13	mark	_	_
@@ -2883,7 +2883,7 @@
 14	ڏيندي	_	VERB	_	_	15	advcl	_	_
 15	چيو	_	VERB	_	_	2	ccomp	_	_
 16	ته	_	SCONJ	_	_	29	mark	_	_
-17	1973ع	_	NOUN	_	_	19	nmod	_	_
+17	1973ع	_	NUM	_	_	19	nummod	_	_
 18	جي	_	ADP	_	_	17	case	_	_
 19	آئين	_	NOUN	_	_	29	obl	_	_
 20	۾	_	ADP	_	_	19	case	_	_
@@ -2912,19 +2912,19 @@
 # sent_id = 804
 # text = جڏهن ته ان آئين کي تيار ڪندي آئين ٺاهيندڙن بنيادي ڍانچي کي اهميت نه ڏني ۽ نه ئي هر ترميم ڪرڻ وقت عوام سان رجوع ڪرڻ لازمي قرار ڏنو ويو ،
 1	جڏهن	_	ADV	_	_	15	advmod	_	_
-2	ته	_	SCONJ	_	_	1	dep	_	_
+2	ته	_	SCONJ	_	_	15	mark	_	_
 3	ان	_	DET	_	_	4	det	_	_
 4	آئين	_	NOUN	_	_	7	obj	_	_
 5	کي	_	ADP	_	_	4	case	_	_
-6	تيار	_	NOUN	_	_	7	compound	_	_
+6	تيار	_	NOUN	_	_	7	obl	_	_
 7	ڪندي	_	VERB	_	_	15	advcl	_	_
 8	آئين	_	NOUN	_	_	9	nsubj	_	_
 9	ٺاهيندڙن	_	VERB	_	_	15	advcl	_	_
 10	بنيادي	_	ADJ	_	_	11	amod	_	_
 11	ڍانچي	_	NOUN	_	_	15	obj	_	_
 12	کي	_	ADP	_	_	11	case	_	_
-13	اهميت	_	NOUN	_	_	15	compound	_	_
-14	نه	_	PART	_	_	15	advmod	_	_
+13	اهميت	_	NOUN	_	_	15	obl	_	_
+14	نه	_	PART	_	_	15	dep	_	_
 15	ڏني	_	VERB	_	_	0	root	_	_
 16	۽	_	CCONJ	_	_	29	cc	_	_
 17	نه	_	PART	_	_	21	advmod	_	_
@@ -2938,28 +2938,28 @@
 25	رجوع	_	NOUN	_	_	26	compound	_	_
 26	ڪرڻ	_	VERB	_	_	29	advcl	_	_
 27	لازمي	_	NOUN	_	_	29	acl	_	_
-28	قرار	_	NOUN	_	_	29	compound	_	_
+28	قرار	_	NOUN	_	_	29	obl	_	_
 29	ڏنو	_	VERB	_	_	15	conj	_	_
 30	ويو	_	VERB	_	_	29	compound	_	_
 31	،	_	PUNCT	_	_	29	punct	_	_
 
 # sent_id = 805
 # text = جيڪڏهن ائين ڪيو وڃي ها ته آرٽيڪل 238 ۽ 239 جو جواز ختم ٿي وڃي ٿو ،
-1	جيڪڏهن	_	ADP	_	_	3	mark	_	_
+1	جيڪڏهن	_	SCONJ	_	_	3	mark	_	_
 2	ائين	_	PRON	_	_	3	obj	_	_
 3	ڪيو	_	VERB	_	_	13	advcl	_	_
 4	وڃي	_	VERB	_	_	3	compound	_	_
 5	ها	_	AUX	_	_	3	aux	_	_
 6	ته	_	SCONJ	_	_	3	mark	_	_
-7	آرٽيڪل	_	NOUN	_	_	8	nmod	_	_
-8	238	_	NUM	_	_	12	nmod	_	_
+7	آرٽيڪل	_	NOUN	_	_	8	nummod	_	_
+8	238	_	NUM	_	_	12	nummod	_	_
 9	۽	_	CCONJ	_	_	10	cc	_	_
 10	239	_	NUM	_	_	8	conj	_	_
 11	جو	_	ADP	_	_	8	case	_	_
 12	جواز	_	NOUN	_	_	13	nsubj	_	_
 13	ختم	_	NOUN	_	_	0	root	_	_
 14	ٿي	_	AUX	_	_	13	cop	_	_
-15	وڃي	_	VERB	_	_	13	compound	_	_
+15	وڃي	_	VERB	_	_	13	obl	_	_
 16	ٿو	_	AUX	_	_	13	aux	_	_
 17	،	_	PUNCT	_	_	13	punct	_	_
 
@@ -2969,8 +2969,8 @@
 2	چيو	_	VERB	_	_	0	root	_	_
 3	ته	_	SCONJ	_	_	19	mark	_	_
 4	18	_	NUM	_	_	5	nummod	_	_
-5	فيبروري	_	PROPN	_	_	6	nmod	_	_
-6	2008ع	_	NOUN	_	_	8	nmod	_	_
+5	فيبروري	_	PROPN	_	_	6	nummod	_	_
+6	2008ع	_	NOUN	_	_	8	nummod	_	_
 7	جون	_	ADP	_	_	6	case	_	_
 8	چونڊون	_	NOUN	_	_	14	nsubj	_	_
 9	۽	_	CCONJ	_	_	12	cc	_	_
@@ -2989,13 +2989,13 @@
 
 # sent_id = 807
 # text = جيڪڏهن پارليامينٽ عوامي خواهش جي خلاف ڪم ڪندي ته ايندڙ چونڊن ۾ عوام ان کي رد ڪري ڇڏيندو ،
-1	جيڪڏهن	_	ADP	_	_	8	mark	_	_
+1	جيڪڏهن	_	SCONJ	_	_	8	mark	_	_
 2	پارليامينٽ	_	NOUN	_	_	8	nsubj	_	_
 3	عوامي	_	ADJ	_	_	4	amod	_	_
 4	خواهش	_	NOUN	_	_	8	obl	_	_
 5	جي	_	ADP	_	_	4	case	_	_
 6	خلاف	_	ADP	_	_	4	case	_	_
-7	ڪم	_	NOUN	_	_	8	compound	_	_
+7	ڪم	_	NOUN	_	_	8	obl	_	_
 8	ڪندي	_	VERB	_	_	17	advcl	_	_
 9	ته	_	SCONJ	_	_	17	mark	_	_
 10	ايندڙ	_	VERB	_	_	11	acl	_	_
@@ -3028,7 +3028,7 @@
 15	خواهش	_	NOUN	_	_	18	nmod	_	_
 16	جي	_	ADP	_	_	15	case	_	_
 17	ابتڙ	_	ADV	_	_	19	advmod	_	_
-18	قانونسازي	_	NOUN	_	_	19	compound	_	_
+18	قانونسازي	_	NOUN	_	_	19	xcomp	_	_
 19	ڪري	_	VERB	_	_	10	advcl	_	_
 20	ته	_	SCONJ	_	_	24	mark	_	_
 21	عوام	_	NOUN	_	_	24	nsubj	_	_
@@ -3038,19 +3038,19 @@
 25	ته	_	SCONJ	_	_	29	mark	_	_
 26	ان	_	DET	_	_	29	obj	_	_
 27	کي	_	ADP	_	_	26	case	_	_
-28	تبديل	_	NOUN	_	_	29	compound	_	_
+28	تبديل	_	NOUN	_	_	29	xcomp	_	_
 29	ڪرائي	_	VERB	_	_	10	advcl	_	_
 30	۽	_	CCONJ	_	_	35	cc	_	_
 31	ڪو	_	DET	_	_	33	det	_	_
-32	ٻيو	_	NOUN	_	_	33	amod	_	_
+32	ٻيو	_	NOUN	_	_	33	nmod	_	_
 33	طريقو	_	NOUN	_	_	35	obj	_	_
-34	نه	_	PART	_	_	35	advmod	_	_
+34	نه	_	PART	_	_	35	dep	_	_
 35	هجي	_	VERB	_	_	29	conj	_	_
 36	،	_	PUNCT	_	_	35	punct	_	_
 
 # sent_id = 809
 # text = ڪي ڪي آغا چيو ته عدالت پارليامينٽ جي منظور ڪيل ترميم تي نظرثاني نٿي ڪري سگهي ،
-1	ڪي	_	NOUN	_	_	3	compound	_	_
+1	ڪي	_	NOUN	_	_	3	nmod	_	_
 2	ڪي	_	NOUN	_	_	3	nmod	_	_
 3	آغا	_	PROPN	_	_	4	nsubj	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
@@ -3058,11 +3058,11 @@
 6	عدالت	_	NOUN	_	_	15	nsubj	_	_
 7	پارليامينٽ	_	NOUN	_	_	9	nmod	_	_
 8	جي	_	ADP	_	_	7	case	_	_
-9	منظور	_	NOUN	_	_	10	compound	_	_
+9	منظور	_	NOUN	_	_	10	obl	_	_
 10	ڪيل	_	VERB	_	_	11	acl	_	_
 11	ترميم	_	NOUN	_	_	15	obl	_	_
 12	تي	_	ADP	_	_	11	case	_	_
-13	نظرثاني	_	NOUN	_	_	15	compound	_	_
+13	نظرثاني	_	NOUN	_	_	15	obl	_	_
 14	نٿي	_	PART	_	_	15	advmod	_	_
 15	ڪري	_	VERB	_	_	4	obj	_	_
 16	سگهي	_	AUX	_	_	15	aux	_	_
@@ -3082,7 +3082,7 @@
 10	ترميم	_	NOUN	_	_	14	obj	_	_
 11	کي	_	ADP	_	_	10	case	_	_
 12	ڪالعدم	_	ADJ	_	_	14	acl	_	_
-13	قرار	_	NOUN	_	_	14	compound	_	_
+13	قرار	_	NOUN	_	_	14	xcomp	_	_
 14	ڏنو	_	VERB	_	_	5	obj	_	_
 15	،	_	PUNCT	_	_	14	punct	_	_
 
@@ -3133,7 +3133,7 @@
 
 # sent_id = 813
 # text = ڪي ڪي آغا چيو ته اهو صرف مسلم ليگ ( ن ) ڪيو هو ،
-1	ڪي	_	NOUN	_	_	3	compound	_	_
+1	ڪي	_	NOUN	_	_	3	nmod	_	_
 2	ڪي	_	NOUN	_	_	3	nmod	_	_
 3	آغا	_	NOUN	_	_	4	nsubj	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
@@ -3170,14 +3170,14 @@
 17	جهنڊو	_	NOUN	_	_	18	obj	_	_
 18	ڦڙڪائڻ	_	NOUN	_	_	20	nmod	_	_
 19	واري	_	ADP	_	_	18	mark	_	_
-20	ڳالهه	_	NOUN	_	_	21	compound	_	_
+20	ڳالهه	_	NOUN	_	_	21	xcomp	_	_
 21	ڪئي	_	VERB	_	_	5	obj	_	_
 22	هئي	_	AUX	_	_	21	aux	_	_
 23	،	_	PUNCT	_	_	21	punct	_	_
 
 # sent_id = 815
 # text = ڪي ڪي آغا چيو ته اسان جي پارليامينٽ آئين جو بنيادي ڍانچو تسليم ڪيو هجي ها ته اهو آئين ۾ شامل هجي ها ،
-1	ڪي	_	NOUN	_	_	3	compound	_	_
+1	ڪي	_	NOUN	_	_	3	nmod	_	_
 2	ڪي	_	NOUN	_	_	3	nmod	_	_
 3	آغا	_	NOUN	_	_	4	nsubj	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
@@ -3189,15 +3189,15 @@
 10	جو	_	ADP	_	_	9	case	_	_
 11	بنيادي	_	ADJ	_	_	12	amod	_	_
 12	ڍانچو	_	NOUN	_	_	14	obj	_	_
-13	تسليم	_	NOUN	_	_	14	compound	_	_
+13	تسليم	_	NOUN	_	_	14	xcomp	_	_
 14	ڪيو	_	VERB	_	_	4	obj	_	_
-15	هجي	_	VERB	_	_	14	aux	_	_
+15	هجي	_	VERB	_	_	14	obl	_	_
 16	ها	_	AUX	_	_	14	aux	_	_
 17	ته	_	SCONJ	_	_	22	mark	_	_
 18	اهو	_	DET	_	_	22	nsubj	_	_
 19	آئين	_	NOUN	_	_	22	obl	_	_
 20	۾	_	ADP	_	_	19	case	_	_
-21	شامل	_	NOUN	_	_	22	compound	_	_
+21	شامل	_	NOUN	_	_	22	xcomp	_	_
 22	هجي	_	VERB	_	_	4	obj	_	_
 23	ها	_	AUX	_	_	22	aux	_	_
 24	،	_	PUNCT	_	_	22	punct	_	_
@@ -3216,14 +3216,14 @@
 10	بنيادي	_	ADJ	_	_	11	amod	_	_
 11	ڍانچي	_	NOUN	_	_	14	obj	_	_
 12	کي	_	ADP	_	_	11	case	_	_
-13	تسليم	_	NOUN	_	_	14	compound	_	_
+13	تسليم	_	NOUN	_	_	14	xcomp	_	_
 14	ڪيو	_	VERB	_	_	3	obj	_	_
 15	آهي	_	AUX	_	_	14	aux	_	_
 16	،	_	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 817
 # text = ڪي ڪي آغا چيو ته پارلياماني ڪاميٽي جي رپورٽ قانوني حيثيت نٿي رکي ،
-1	ڪي	_	NOUN	_	_	3	compound	_	_
+1	ڪي	_	NOUN	_	_	3	nmod	_	_
 2	ڪي	_	NOUN	_	_	3	compound	_	_
 3	آغا	_	NOUN	_	_	4	nsubj	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
@@ -3234,7 +3234,7 @@
 9	رپورٽ	_	NOUN	_	_	13	nsubj	_	_
 10	قانوني	_	ADJ	_	_	11	amod	_	_
 11	حيثيت	_	NOUN	_	_	13	obj	_	_
-12	نٿي	_	PART	_	_	13	advmod	_	_
+12	نٿي	_	PART	_	_	13	dep	_	_
 13	رکي	_	VERB	_	_	4	ccomp	_	_
 14	،	_	PUNCT	_	_	13	punct	_	_
 
@@ -3250,7 +3250,7 @@
 8	آئين	_	NOUN	_	_	10	nmod	_	_
 9	جو	_	ADP	_	_	8	case	_	_
 10	حصو	_	NOUN	_	_	12	xcomp	_	_
-11	ناهي	_	AUX	_	_	12	advmod	_	_
+11	ناهي	_	AUX	_	_	12	aux	_	_
 12	بڻايو	_	VERB	_	_	0	root	_	_
 13	،	_	PUNCT	_	_	12	punct	_	_
 
@@ -3270,8 +3270,8 @@
 12	جي	_	ADP	_	_	11	case	_	_
 13	قدمن	_	NOUN	_	_	15	nmod	_	_
 14	جي	_	ADP	_	_	13	case	_	_
-15	مذمت	_	NOUN	_	_	17	compound	_	_
-16	نه	_	PART	_	_	17	advmod	_	_
+15	مذمت	_	NOUN	_	_	17	obl	_	_
+16	نه	_	PART	_	_	17	dep	_	_
 17	ڪئي	_	VERB	_	_	3	obj	_	_
 18	،	_	PUNCT	_	_	17	punct	_	_
 
@@ -3280,7 +3280,7 @@
 1	ڇا	_	PRON	_	_	3	obl	_	_
 2	اهو	_	DET	_	_	3	det	_	_
 3	سمجهيو	_	NOUN	_	_	0	root	_	_
-4	وڃي	_	VERB	_	_	3	compound	_	_
+4	وڃي	_	VERB	_	_	3	xcomp	_	_
 5	ته	_	SCONJ	_	_	14	mark	_	_
 6	3	_	NUM	_	_	7	nummod	_	_
 7	نومبر	_	PROPN	_	_	9	nmod	_	_
@@ -3344,7 +3344,7 @@
 10	رٽائرمينٽ	_	NOUN	_	_	12	nmod	_	_
 11	جي	_	ADP	_	_	10	case	_	_
 12	عمر	_	NOUN	_	_	14	obj	_	_
-13	تبديل	_	NOUN	_	_	14	compound	_	_
+13	تبديل	_	NOUN	_	_	14	xcomp	_	_
 14	ڪري	_	VERB	_	_	4	obj	_	_
 15	ڇڏي	_	VERB	_	_	14	compound	_	_
 16	ته	_	SCONJ	_	_	23	mark	_	_
@@ -3353,7 +3353,7 @@
 19	ان	_	DET	_	_	23	obj	_	_
 20	کي	_	ADP	_	_	19	case	_	_
 21	ڪالعدم	_	NOUN	_	_	23	acl	_	_
-22	قرار	_	NOUN	_	_	23	compound	_	_
+22	قرار	_	NOUN	_	_	23	xcomp	_	_
 23	ڏئي	_	VERB	_	_	4	obj	_	_
 24	سگهي	_	AUX	_	_	23	aux	_	_
 25	ٿي	_	AUX	_	_	23	aux	_	_
@@ -3361,7 +3361,7 @@
 
 # sent_id = 824
 # text = ڪي ڪي آغا چيو ته پارليامينٽ ائين ڇو ڪندي ،
-1	ڪي	_	NOUN	_	_	3	compound	_	_
+1	ڪي	_	NOUN	_	_	3	nmod	_	_
 2	ڪي	_	NOUN	_	_	3	nmod	_	_
 3	آغا	_	NOUN	_	_	4	nsubj	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
@@ -3387,15 +3387,15 @@
 11	متعلق	_	NOUN	_	_	15	obl	_	_
 12	به	_	ADP	_	_	11	case	_	_
 13	ته	_	SCONJ	_	_	11	dep	_	_
-14	ترميم	_	NOUN	_	_	15	compound	_	_
+14	ترميم	_	NOUN	_	_	15	xcomp	_	_
 15	ڪري	_	VERB	_	_	5	obj	_	_
-16	چڪي	_	NOUN	_	_	15	compound	_	_
+16	چڪي	_	NOUN	_	_	15	obl	_	_
 17	آهي	_	AUX	_	_	15	aux	_	_
 18	،	_	PUNCT	_	_	15	punct	_	_
 
 # sent_id = 826
 # text = ڪي ڪي آغا چيو ته موجوده پارليامينٽ عوام جي خواهشن تي عمل ڪرڻ تي يقين رکي ٿي ،
-1	ڪي	_	NOUN	_	_	3	compound	_	_
+1	ڪي	_	NOUN	_	_	3	nmod	_	_
 2	ڪي	_	NOUN	_	_	3	nmod	_	_
 3	آغا	_	NOUN	_	_	4	nsubj	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
@@ -3406,10 +3406,10 @@
 9	جي	_	ADP	_	_	8	case	_	_
 10	خواهشن	_	NOUN	_	_	13	obl	_	_
 11	تي	_	ADP	_	_	10	case	_	_
-12	عمل	_	NOUN	_	_	13	compound	_	_
+12	عمل	_	NOUN	_	_	13	obl	_	_
 13	ڪرڻ	_	VERB	_	_	16	advcl	_	_
 14	تي	_	ADP	_	_	13	mark	_	_
-15	يقين	_	NOUN	_	_	16	compound	_	_
+15	يقين	_	NOUN	_	_	16	obl	_	_
 16	رکي	_	VERB	_	_	4	obj	_	_
 17	ٿي	_	AUX	_	_	16	aux	_	_
 18	،	_	PUNCT	_	_	16	punct	_	_
@@ -3428,19 +3428,19 @@
 10	حق	_	NOUN	_	_	14	obl	_	_
 11	۾	_	ADP	_	_	10	case	_	_
 12	قرارداد	_	NOUN	_	_	14	obj	_	_
-13	منظور	_	NOUN	_	_	14	compound	_	_
-14	ڪرڻ	_	VERB	_	_	16	amod	_	_
+13	منظور	_	NOUN	_	_	14	xcomp	_	_
+14	ڪرڻ	_	VERB	_	_	16	obl	_	_
 15	واري	_	ADP	_	_	14	mark	_	_
 16	پارليامينٽ	_	NOUN	_	_	19	nsubj	_	_
 17	به	_	ADP	_	_	16	case	_	_
-18	ته	_	SCONJ	_	_	16	dep	_	_
+18	ته	_	SCONJ	_	_	16	mark	_	_
 19	چونڊيل	_	VERB	_	_	3	obj	_	_
 20	هئي	_	AUX	_	_	19	aux	_	_
 21	،	_	PUNCT	_	_	19	punct	_	_
 
 # sent_id = 828
 # text = ڪي ڪي آغا چيو ته عوام ان قرارداد جي حمايت نه ڪئي ،
-1	ڪي	_	NOUN	_	_	3	compound	_	_
+1	ڪي	_	NOUN	_	_	3	nmod	_	_
 2	ڪي	_	NOUN	_	_	3	compound	_	_
 3	آغا	_	NOUN	_	_	4	nsubj	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
@@ -3450,7 +3450,7 @@
 8	قرارداد	_	NOUN	_	_	10	nmod	_	_
 9	جي	_	ADP	_	_	8	case	_	_
 10	حمايت	_	NOUN	_	_	12	compound	_	_
-11	نه	_	PART	_	_	12	advmod	_	_
+11	نه	_	PART	_	_	12	dep	_	_
 12	ڪئي	_	VERB	_	_	4	obj	_	_
 13	،	_	PUNCT	_	_	12	punct	_	_
 
@@ -3464,7 +3464,7 @@
 6	ق	_	NOUN	_	_	4	nmod	_	_
 7	)	_	PUNCT	_	_	6	punct	_	_
 8	کي	_	ADP	_	_	6	case	_	_
-9	شڪست	_	NOUN	_	_	10	compound	_	_
+9	شڪست	_	NOUN	_	_	10	nmod	_	_
 10	ملي	_	NOUN	_	_	0	root	_	_
 11	،	_	PUNCT	_	_	10	punct	_	_
 
@@ -3475,7 +3475,7 @@
 3	ان	_	DET	_	_	4	det	_	_
 4	قرارداد	_	NOUN	_	_	6	nmod	_	_
 5	جي	_	ADP	_	_	4	case	_	_
-6	توثيق	_	NOUN	_	_	8	compound	_	_
+6	توثيق	_	NOUN	_	_	8	obl	_	_
 7	نه	_	PART	_	_	8	advmod	_	_
 8	ڪئي	_	VERB	_	_	0	root	_	_
 9	،	_	PUNCT	_	_	8	punct	_	_
@@ -3493,10 +3493,10 @@
 9	کي	_	ADP	_	_	8	case	_	_
 10	پارليامينٽ	_	NOUN	_	_	16	nsubj	_	_
 11	نه	_	PART	_	_	10	dep	_	_
-12	پر	_	SCONJ	_	_	10	dep	_	_
+12	پر	_	SCONJ	_	_	10	mark	_	_
 13	عدالت	_	NOUN	_	_	16	nsubj	_	_
 14	ڪالعدم	_	NOUN	_	_	16	acl	_	_
-15	قرار	_	NOUN	_	_	16	compound	_	_
+15	قرار	_	NOUN	_	_	16	xcomp	_	_
 16	ڏنو	_	VERB	_	_	3	obj	_	_
 17	،	_	PUNCT	_	_	16	punct	_	_
 
@@ -3507,21 +3507,21 @@
 3	جي	_	ADP	_	_	2	case	_	_
 4	بحالي	_	NOUN	_	_	11	obl	_	_
 5	لاءِ	_	ADP	_	_	4	case	_	_
-6	نه	_	PART	_	_	11	advmod	_	_
-7	ته	_	SCONJ	_	_	6	dep	_	_
+6	نه	_	PART	_	_	11	dep	_	_
+7	ته	_	SCONJ	_	_	11	mark	_	_
 8	ڪو	_	DET	_	_	9	det	_	_
 9	قانون	_	NOUN	_	_	11	obj	_	_
-10	منظور	_	NOUN	_	_	11	compound	_	_
+10	منظور	_	NOUN	_	_	11	xcomp	_	_
 11	ڪيو	_	VERB	_	_	0	root	_	_
 12	۽	_	CCONJ	_	_	15	cc	_	_
-13	نه	_	PART	_	_	15	advmod	_	_
+13	نه	_	PART	_	_	15	dep	_	_
 14	ئي	_	ADP	_	_	13	dep	_	_
 15	قرارداد	_	NOUN	_	_	11	conj	_	_
 16	،	_	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 833
 # text = ڪي ڪي آغا چيو ته حڪومتي فيصلي جي نتيجي ۾ ئي جج اڄ عدالتن ۾ ويٺا آهن ،
-1	ڪي	_	NOUN	_	_	3	compound	_	_
+1	ڪي	_	NOUN	_	_	3	nmod	_	_
 2	ڪي	_	NOUN	_	_	3	compound	_	_
 3	آغا	_	NOUN	_	_	4	nsubj	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
@@ -3562,7 +3562,7 @@
 18	جوڙيندي	_	VERB	_	_	12	advcl	_	_
 19	آهي	_	AUX	_	_	18	aux	_	_
 20	عدالت	_	NOUN	_	_	18	nsubj	_	_
-21	نه	_	PART	_	_	20	advmod	_	_
+21	نه	_	PART	_	_	20	dep	_	_
 22	،	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 835
@@ -3576,7 +3576,7 @@
 7	ته	_	SCONJ	_	_	11	mark	_	_
 8	اوهان	_	NOUN	_	_	11	nsubj	_	_
 9	اهو	_	DET	_	_	11	det	_	_
-10	نٿا	_	PART	_	_	11	advmod	_	_
+10	نٿا	_	PART	_	_	11	dep	_	_
 11	سمجهو	_	VERB	_	_	6	obj	_	_
 12	ته	_	SCONJ	_	_	21	mark	_	_
 13	ان	_	DET	_	_	21	obl	_	_
@@ -3594,7 +3594,7 @@
 
 # sent_id = 836
 # text = ڪي ڪي آغا چيو ته ججن جي مقرري جي طريقيڪار ۾ تبديلي جي لاءِ پارليامينٽ کي عوام جو واضح مينڊيٽ حاصل هو ۽ تبديلي ميثاق جمهوريت جو حصو هئي ،
-1	ڪي	_	NOUN	_	_	3	compound	_	_
+1	ڪي	_	NOUN	_	_	3	nmod	_	_
 2	ڪي	_	NOUN	_	_	3	nmod	_	_
 3	آغا	_	NOUN	_	_	4	nsubj	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
@@ -3650,12 +3650,12 @@
 21	جي	_	ADP	_	_	20	case	_	_
 22	مقرري	_	NOUN	_	_	17	conj	_	_
 23	لاءِ	_	ADP	_	_	22	case	_	_
-24	نه	_	PART	_	_	22	advmod	_	_
+24	نه	_	PART	_	_	22	dep	_	_
 25	،	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 838
 # text = ڪي ڪي آغا چيو ته رضا رباني ڪاميٽي ۾ سڀني پارٽين جا ميمبر شامل هئا ،
-1	ڪي	_	NOUN	_	_	3	compound	_	_
+1	ڪي	_	NOUN	_	_	3	nmod	_	_
 2	ڪي	_	NOUN	_	_	3	compound	_	_
 3	آغا	_	NOUN	_	_	4	nsubj	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
@@ -3676,7 +3676,7 @@
 # text = جنهن اصلاحات تجويز ڪرڻ جو ڪم ڪيو ۽ ججن جي مقرري جي نئين طريقيڪار تي تفصيلي بحث ڪيو ،
 1	جنهن	_	PRON	_	_	7	nsubj	_	_
 2	اصلاحات	_	NOUN	_	_	4	obj	_	_
-3	تجويز	_	NOUN	_	_	4	compound	_	_
+3	تجويز	_	NOUN	_	_	4	xcomp	_	_
 4	ڪرڻ	_	VERB	_	_	6	nmod	_	_
 5	جو	_	ADP	_	_	4	mark	_	_
 6	ڪم	_	NOUN	_	_	7	obj	_	_
@@ -3690,7 +3690,7 @@
 14	طريقيڪار	_	NOUN	_	_	18	obl	_	_
 15	تي	_	ADP	_	_	14	case	_	_
 16	تفصيلي	_	ADJ	_	_	17	amod	_	_
-17	بحث	_	NOUN	_	_	18	compound	_	_
+17	بحث	_	NOUN	_	_	18	obl	_	_
 18	ڪيو	_	VERB	_	_	7	conj	_	_
 19	،	_	PUNCT	_	_	18	punct	_	_
 
@@ -3711,14 +3711,14 @@
 13	پاران	_	ADP	_	_	12	case	_	_
 14	عدالت	_	NOUN	_	_	16	obj	_	_
 15	کي	_	ADP	_	_	14	case	_	_
-16	مليل	_	NOUN	_	_	18	amod	_	_
+16	مليل	_	NOUN	_	_	18	nmod	_	_
 17	980	_	NUM	_	_	18	nummod	_	_
 18	تجويزن	_	NOUN	_	_	24	obl	_	_
 19	۾	_	ADP	_	_	18	case	_	_
 20	ان	_	DET	_	_	24	obl	_	_
 21	بابت	_	ADP	_	_	20	case	_	_
-22	بحث	_	NOUN	_	_	24	compound	_	_
-23	ناهي	_	AUX	_	_	24	advmod	_	_
+22	بحث	_	NOUN	_	_	24	obl	_	_
+23	ناهي	_	AUX	_	_	24	aux	_	_
 24	ٿيو	_	VERB	_	_	7	obj	_	_
 25	،	_	PUNCT	_	_	24	punct	_	_
 
@@ -3745,7 +3745,7 @@
 19	عدليا	_	NOUN	_	_	21	nmod	_	_
 20	جي	_	ADP	_	_	19	case	_	_
 21	آزادي	_	NOUN	_	_	23	obj	_	_
-22	متاثر	_	NOUN	_	_	23	compound	_	_
+22	متاثر	_	NOUN	_	_	23	xcomp	_	_
 23	ڪندي	_	VERB	_	_	28	advcl	_	_
 24	هجي	_	VERB	_	_	23	aux	_	_
 25	ته	_	SCONJ	_	_	28	mark	_	_
@@ -3763,7 +3763,7 @@
 5	تي	_	ADP	_	_	4	case	_	_
 6	اچڻ	_	VERB	_	_	8	nmod	_	_
 7	جو	_	ADP	_	_	6	mark	_	_
-8	انتظار	_	NOUN	_	_	9	compound	_	_
+8	انتظار	_	NOUN	_	_	9	obl	_	_
 9	ڪري	_	VERB	_	_	0	root	_	_
 10	،	_	PUNCT	_	_	9	punct	_	_
 
@@ -3839,9 +3839,9 @@
 1	موجوده	_	ADJ	_	_	2	amod	_	_
 2	پارليامينٽ	_	NOUN	_	_	7	nsubj	_	_
 3	ان	_	DET	_	_	5	nmod	_	_
-4	جي	_	ADP	_	_	3	case	_	_
-5	مذمت	_	NOUN	_	_	7	compound	_	_
-6	ناهي	_	AUX	_	_	7	advmod	_	_
+4	جي	_	ADP	_	_	3	det	_	_
+5	مذمت	_	NOUN	_	_	7	obl	_	_
+6	ناهي	_	AUX	_	_	7	aux	_	_
 7	ڪئي	_	VERB	_	_	0	root	_	_
 8	،	_	PUNCT	_	_	7	punct	_	_
 
@@ -3861,8 +3861,8 @@
 12	مان	_	ADP	_	_	11	case	_	_
 13	گڊ	_	ADJ	_	_	14	amod	_	_
 14	گورننس	_	NOUN	_	_	16	obj	_	_
-15	نه	_	PART	_	_	16	advmod	_	_
-16	هجڻ	_	VERB	_	_	18	nmod	_	_
+15	نه	_	PART	_	_	16	dep	_	_
+16	هجڻ	_	VERB	_	_	18	obl	_	_
 17	جي	_	ADP	_	_	16	mark	_	_
 18	ثابتي	_	NOUN	_	_	5	obj	_	_
 19	آهي	_	AUX	_	_	18	cop	_	_
@@ -3885,9 +3885,9 @@
 2	ٻڌڻي	_	VERB	_	_	6	advcl	_	_
 3	اڄ	_	ADV	_	_	6	advmod	_	_
 4	تائين	_	ADP	_	_	3	case	_	_
-5	ملتوي	_	NOUN	_	_	6	compound	_	_
+5	ملتوي	_	NOUN	_	_	6	obl	_	_
 6	ڪري	_	VERB	_	_	0	root	_	_
-7	ڇڏي	_	VERB	_	_	6	compound	_	_
+7	ڇڏي	_	VERB	_	_	6	xcomp	_	_
 8	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 850
@@ -3904,7 +3904,7 @@
 1	اتفاق	_	NOUN	_	_	2	nmod	_	_
 2	راءِ	_	NOUN	_	_	6	obl	_	_
 3	ٿي	_	AUX	_	_	2	aux	_	_
-4	وڃي	_	VERB	_	_	2	compound	_	_
+4	وڃي	_	VERB	_	_	2	obl	_	_
 5	ته	_	SCONJ	_	_	6	mark	_	_
 6	ٺهي	_	VERB	_	_	0	root	_	_
 7	سگهي	_	AUX	_	_	6	aux	_	_
@@ -3938,7 +3938,7 @@
 
 # sent_id = 853
 # text = جيڪڏهن ان ڊيم تي اتفاق راءِ پيدا ٿي وڃي ته اهو ڊيم ٺهي سگهي ٿو ،
-1	جيڪڏهن	_	ADP	_	_	7	mark	_	_
+1	جيڪڏهن	_	SCONJ	_	_	7	mark	_	_
 2	ان	_	DET	_	_	3	det	_	_
 3	ڊيم	_	NOUN	_	_	7	obl	_	_
 4	تي	_	ADP	_	_	3	case	_	_
@@ -3966,7 +3966,7 @@
 7	ڊيم	_	NOUN	_	_	11	obj	_	_
 8	کي	_	ADP	_	_	7	case	_	_
 9	اڻٽر	_	ADJ	_	_	11	acl	_	_
-10	قرار	_	NOUN	_	_	11	compound	_	_
+10	قرار	_	NOUN	_	_	11	xcomp	_	_
 11	ڏيندي	_	VERB	_	_	12	advcl	_	_
 12	چيو	_	VERB	_	_	0	root	_	_
 13	ته	_	SCONJ	_	_	40	mark	_	_
@@ -3994,8 +3994,8 @@
 35	تي	_	ADP	_	_	34	case	_	_
 36	ٺهڻ	_	VERB	_	_	40	advcl	_	_
 37	تي	_	ADP	_	_	36	mark	_	_
-38	اعتراض	_	NOUN	_	_	40	compound	_	_
-39	نه	_	PART	_	_	40	advmod	_	_
+38	اعتراض	_	NOUN	_	_	40	obl	_	_
+39	نه	_	PART	_	_	40	dep	_	_
 40	هوندو	_	VERB	_	_	12	obj	_	_
 41	،	_	PUNCT	_	_	40	punct	_	_
 
@@ -4041,7 +4041,7 @@
 38	سياسي	_	ADJ	_	_	39	amod	_	_
 39	اشو	_	NOUN	_	_	40	xcomp	_	_
 40	بڻايو	_	VERB	_	_	29	obj	_	_
-41	ويو	_	VERB	_	_	40	compound	_	_
+41	ويو	_	VERB	_	_	40	obl	_	_
 42	،	_	PUNCT	_	_	40	punct	_	_
 
 # sent_id = 856
@@ -4064,8 +4064,8 @@
 16	جي	_	ADP	_	_	15	case	_	_
 17	لاشن	_	NOUN	_	_	20	obl	_	_
 18	تي	_	ADP	_	_	17	case	_	_
-19	ئي	_	ADP	_	_	17	case	_	_
-20	ٺهندو	_	NOUN	_	_	10	advcl	_	_
+19	ئي	_	PART	_	_	17	dep	_	_
+20	ٺهندو	_	NOUN	_	_	10	obl	_	_
 21	،	_	PUNCT	_	_	20	punct	_	_
 
 # sent_id = 857
@@ -4087,7 +4087,7 @@
 # text = هن وقت اسان کي اتحاد جي ضرورت آهي ته جيئن پاڪستان هڪ مضبوط ملڪ بڻجي اڀري ،
 1	هن	_	DET	_	_	2	det	_	_
 2	وقت	_	NOUN	_	_	7	obl	_	_
-3	اسان	_	DET	_	_	7	nsubj	_	_
+3	اسان	_	PRON	_	_	7	nsubj	_	_
 4	کي	_	ADP	_	_	3	case	_	_
 5	اتحاد	_	NOUN	_	_	7	nmod	_	_
 6	جي	_	ADP	_	_	5	case	_	_
@@ -4099,7 +4099,7 @@
 12	هڪ	_	ADJ	_	_	14	amod	_	_
 13	مضبوط	_	ADJ	_	_	14	amod	_	_
 14	ملڪ	_	NOUN	_	_	15	xcomp	_	_
-15	بڻجي	_	VERB	_	_	7	advcl	_	_
+15	بڻجي	_	VERB	_	_	7	obl	_	_
 16	اڀري	_	VERB	_	_	15	aux	_	_
 17	،	_	PUNCT	_	_	15	punct	_	_
 
@@ -4161,7 +4161,7 @@
 # sent_id = 861
 # text = اهو نه ٿيڻ گهرجي ته هڪ حڪومت امدادي سرگرميون شروع ڪري ۽ ٻي ان کي روڪي ڇڏي ،
 1	اهو	_	DET	_	_	3	det	_	_
-2	نه	_	PART	_	_	3	advmod	_	_
+2	نه	_	PART	_	_	3	dep	_	_
 3	ٿيڻ	_	VERB	_	_	0	root	_	_
 4	گهرجي	_	VERB	_	_	3	aux	_	_
 5	ته	_	SCONJ	_	_	11	mark	_	_
@@ -4169,13 +4169,13 @@
 7	حڪومت	_	NOUN	_	_	11	nsubj	_	_
 8	امدادي	_	ADJ	_	_	9	amod	_	_
 9	سرگرميون	_	NOUN	_	_	11	obj	_	_
-10	شروع	_	NOUN	_	_	11	compound	_	_
+10	شروع	_	NOUN	_	_	11	xcomp	_	_
 11	ڪري	_	VERB	_	_	3	advcl	_	_
 12	۽	_	CCONJ	_	_	16	cc	_	_
 13	ٻي	_	ADJ	_	_	14	amod	_	_
 14	ان	_	DET	_	_	16	nmod	_	_
 15	کي	_	ADP	_	_	14	case	_	_
-16	روڪي	_	NOUN	_	_	11	conj	_	_
+16	روڪي	_	NOUN	_	_	14	nmod	_	_
 17	ڇڏي	_	VERB	_	_	16	cop	_	_
 18	،	_	PUNCT	_	_	17	punct	_	_
 
@@ -4193,15 +4193,15 @@
 10	هڪ	_	ADJ	_	_	11	amod	_	_
 11	تقريب	_	NOUN	_	_	14	obj	_	_
 12	کي	_	ADP	_	_	11	case	_	_
-13	خطاب	_	NOUN	_	_	14	compound	_	_
+13	خطاب	_	NOUN	_	_	14	xcomp	_	_
 14	ڪندي	_	VERB	_	_	16	advcl	_	_
 15	وزيراعظم	_	NOUN	_	_	16	nsubj	_	_
 16	چيو	_	VERB	_	_	0	root	_	_
 17	ته	_	SCONJ	_	_	25	mark	_	_
-18	آگسٽ	_	PROPN	_	_	19	compound	_	_
+18	آگسٽ	_	PROPN	_	_	19	nummod	_	_
 19	1947ع	_	NUM	_	_	25	obl	_	_
 20	۾	_	ADP	_	_	19	case	_	_
-21	اسان	_	DET	_	_	25	nsubj	_	_
+21	اسان	_	PRON	_	_	25	nsubj	_	_
 22	کي	_	ADP	_	_	21	case	_	_
 23	ملڪ	_	NOUN	_	_	24	nsubj	_	_
 24	پئي	_	VERB	_	_	25	xcomp	_	_
@@ -4225,7 +4225,7 @@
 
 # sent_id = 864
 # text = ٻوڏ جي تباهي گذريل ڏهاڪي جي سڀني تباهين کان وڌيڪ آهي ،
-1	ٻوڏ	_	NOUN	_	_	3	nmod	_	_
+1	ٻوڏ	_	NOUN	_	_	3	obl	_	_
 2	جي	_	ADP	_	_	1	case	_	_
 3	تباهي	_	DET	_	_	4	nsubj	_	_
 4	گذريل	_	VERB	_	_	5	acl	_	_
@@ -4257,7 +4257,7 @@
 
 # sent_id = 866
 # text = هي ملڪي تاريخ جي بدترين ٻوڏ آهي ،
-1	هي	_	ADJ	_	_	6	amod	_	_
+1	هي	_	DET	_	_	6	det	_	_
 2	ملڪي	_	ADJ	_	_	3	amod	_	_
 3	تاريخ	_	NOUN	_	_	6	nmod	_	_
 4	جي	_	ADP	_	_	3	case	_	_
@@ -4301,7 +4301,7 @@
 1	هن	_	PRON	_	_	2	nsubj	_	_
 2	چيو	_	VERB	_	_	0	root	_	_
 3	ته	_	SCONJ	_	_	15	mark	_	_
-4	2005ع	_	NUM	_	_	6	nmod	_	_
+4	2005ع	_	NUM	_	_	6	nummod	_	_
 5	جي	_	ADP	_	_	4	case	_	_
 6	زلزلي	_	NOUN	_	_	15	obl	_	_
 7	۾	_	ADP	_	_	6	case	_	_
@@ -4311,7 +4311,7 @@
 11	پنهنجن	_	PRON	_	_	12	nmod	_	_
 12	ڀائرن	_	NOUN	_	_	14	nmod	_	_
 13	جي	_	ADP	_	_	12	case	_	_
-14	خدمت	_	NOUN	_	_	15	compound	_	_
+14	خدمت	_	NOUN	_	_	15	xcomp	_	_
 15	ڪئي	_	VERB	_	_	2	obj	_	_
 16	۽	_	CCONJ	_	_	25	cc	_	_
 17	مشڪل	_	NOUN	_	_	18	nmod	_	_
@@ -4321,12 +4321,12 @@
 21	جي	_	ADP	_	_	20	case	_	_
 22	ڀت	_	NOUN	_	_	25	obl	_	_
 23	وانگر	_	ADP	_	_	22	case	_	_
-24	مقابلو	_	NOUN	_	_	25	compound	_	_
+24	مقابلو	_	NOUN	_	_	25	obl	_	_
 25	ڪيو	_	VERB	_	_	15	conj	_	_
 26	اهڙي	_	PRON	_	_	27	nummod	_	_
 27	طرح	_	NOUN	_	_	36	obl	_	_
 28	ئي	_	ADP	_	_	27	case	_	_
-29	هن	_	DET	_	_	30	det	_	_
+29	هن	_	PRON	_	_	30	nmod	_	_
 30	ٻوڏ	_	NOUN	_	_	32	nmod	_	_
 31	واري	_	ADP	_	_	30	case	_	_
 32	آفت	_	NOUN	_	_	36	obl	_	_
@@ -4335,14 +4335,14 @@
 35	قوم	_	NOUN	_	_	36	nsubj	_	_
 36	هڪ	_	ADJ	_	_	25	obl	_	_
 37	ٿي	_	AUX	_	_	36	cop	_	_
-38	وڃي	_	VERB	_	_	36	compound	_	_
+38	وڃي	_	VERB	_	_	36	obl	_	_
 39	ته	_	SCONJ	_	_	46	mark	_	_
 40	جيئن	_	PRON	_	_	46	obl	_	_
 41	چئلينج	_	NOUN	_	_	46	obj	_	_
 42	کي	_	ADP	_	_	41	case	_	_
 43	آساني	_	NOUN	_	_	46	obl	_	_
 44	سان	_	ADP	_	_	43	case	_	_
-45	منهن	_	NOUN	_	_	46	compound	_	_
+45	منهن	_	NOUN	_	_	46	xcomp	_	_
 46	ڏئي	_	VERB	_	_	36	advcl	_	_
 47	سگهجي	_	VERB	_	_	46	compound	_	_
 48	،	_	PUNCT	_	_	46	punct	_	_
@@ -4370,9 +4370,9 @@
 5	کان	_	ADP	_	_	4	case	_	_
 6	4	_	NUM	_	_	7	nummod	_	_
 7	هيليڪاپٽر	_	NOUN	_	_	9	nsubj	_	_
-8	مختص	_	NOUN	_	_	9	compound	_	_
+8	مختص	_	NOUN	_	_	9	xcomp	_	_
 9	ڪيا	_	VERB	_	_	0	root	_	_
-10	ويا	_	VERB	_	_	9	compound	_	_
+10	ويا	_	VERB	_	_	9	obl	_	_
 11	آهن	_	AUX	_	_	9	aux	_	_
 12	،	_	PUNCT	_	_	9	punct	_	_
 
@@ -4383,7 +4383,7 @@
 3	ته	_	SCONJ	_	_	15	mark	_	_
 4	جيڪڏهن	_	ADP	_	_	6	mark	_	_
 5	آئون	_	DET	_	_	6	det	_	_
-6	چاهيان	_	VERB	_	_	15	advcl	_	_
+6	چاهيان	_	VERB	_	_	15	obl	_	_
 7	ها	_	AUX	_	_	6	aux	_	_
 8	ته	_	SCONJ	_	_	15	mark	_	_
 9	هيليڪاپٽر	_	NOUN	_	_	15	obl	_	_
@@ -4399,7 +4399,7 @@
 19	فوٽو	_	NOUN	_	_	20	compound	_	_
 20	سيشن	_	NOUN	_	_	24	obl	_	_
 21	لاءِ	_	ADP	_	_	20	case	_	_
-22	دورو	_	NOUN	_	_	24	compound	_	_
+22	دورو	_	NOUN	_	_	24	obl	_	_
 23	ناهي	_	AUX	_	_	24	advmod	_	_
 24	ڪيو	_	VERB	_	_	15	advcl	_	_
 25	،	_	PUNCT	_	_	24	punct	_	_
@@ -4409,7 +4409,7 @@
 1	مون	_	DET	_	_	5	nsubj	_	_
 2	عملي	_	ADJ	_	_	3	amod	_	_
 3	طور	_	NOUN	_	_	5	obl	_	_
-4	دورو	_	NOUN	_	_	5	compound	_	_
+4	دورو	_	NOUN	_	_	5	xcomp	_	_
 5	ڪيو	_	VERB	_	_	0	root	_	_
 6	آهي	_	AUX	_	_	5	aux	_	_
 7	،	_	PUNCT	_	_	5	punct	_	_
@@ -4440,10 +4440,10 @@
 # text = جڏهن ته نيشنل ڊزاسٽر مئنيجمينٽ اٿارٽي کي هدايت ڪئي آهي ته اهي ٻوڏ متاثر علائقن ۾ ڪنهن به قسم جي ڪوتاهي نه ڪن ،
 1	جڏهن	_	ADV	_	_	9	advmod	_	_
 2	ته	_	SCONJ	_	_	1	dep	_	_
-3	نيشنل	_	ADJ	_	_	5	amod	_	_
+3	نيشنل	_	NOUN	_	_	6	nmod	_	_
 4	ڊزاسٽر	_	NOUN	_	_	6	nmod	_	_
 5	مئنيجمينٽ	_	NOUN	_	_	6	nmod	_	_
-6	اٿارٽي	_	NOUN	_	_	9	iobj	_	_
+6	اٿارٽي	_	VERB	_	_	9	iobj	_	_
 7	کي	_	ADP	_	_	6	case	_	_
 8	هدايت	_	NOUN	_	_	9	compound	_	_
 9	ڪئي	_	VERB	_	_	0	root	_	_
@@ -4459,7 +4459,7 @@
 19	قسم	_	NOUN	_	_	21	nmod	_	_
 20	جي	_	ADP	_	_	19	case	_	_
 21	ڪوتاهي	_	DET	_	_	23	xcomp	_	_
-22	نه	_	PART	_	_	23	advmod	_	_
+22	نه	_	PART	_	_	23	dep	_	_
 23	ڪن	_	VERB	_	_	9	ccomp	_	_
 24	،	_	PUNCT	_	_	23	punct	_	_
 
@@ -4474,11 +4474,11 @@
 7	اين	_	NOUN	_	_	8	nmod	_	_
 8	ايز	_	NOUN	_	_	4	conj	_	_
 9	کي	_	ADP	_	_	8	case	_	_
-10	هدايت	_	NOUN	_	_	11	compound	_	_
+10	هدايت	_	NOUN	_	_	11	xcomp	_	_
 11	ڪئي	_	VERB	_	_	0	root	_	_
 12	ته	_	SCONJ	_	_	24	mark	_	_
 13	اهي	_	DET	_	_	18	nsubj	_	_
-14	به	_	ADP	_	_	13	dep	_	_
+14	به	_	PART	_	_	13	dep	_	_
 15	پنهنجي	_	PRON	_	_	16	nmod	_	_
 16	تڪن	_	NOUN	_	_	18	obl	_	_
 17	۾	_	ADP	_	_	16	case	_	_
@@ -4493,7 +4493,7 @@
 
 # sent_id = 876
 # text = يوسف رضا گيلاني وڌيڪ چيو ته ميڊيا ٻوڏ متاثرن جي مسئلن کي اڳتي آڻڻ ۾ اهم ڪردار ادا ڪري رهي آهي ،
-1	يوسف	_	PROPN	_	_	3	compound	_	_
+1	يوسف	_	PROPN	_	_	3	nmod	_	_
 2	رضا	_	PROPN	_	_	3	compound	_	_
 3	گيلاني	_	NOUN	_	_	5	nsubj	_	_
 4	وڌيڪ	_	ADJ	_	_	5	compound	_	_
@@ -4505,7 +4505,7 @@
 10	جي	_	ADP	_	_	9	case	_	_
 11	مسئلن	_	NOUN	_	_	14	obj	_	_
 12	کي	_	ADP	_	_	11	case	_	_
-13	اڳتي	_	ADJ	_	_	14	compound	_	_
+13	اڳتي	_	ADJ	_	_	14	xcomp	_	_
 14	آڻڻ	_	VERB	_	_	19	advcl	_	_
 15	۾	_	ADP	_	_	14	mark	_	_
 16	اهم	_	NOUN	_	_	17	nmod	_	_
@@ -4522,11 +4522,11 @@
 2	جي	_	ADP	_	_	1	case	_	_
 3	تنقيد	_	NOUN	_	_	8	obj	_	_
 4	کي	_	ADP	_	_	3	case	_	_
-5	اسان	_	DET	_	_	8	obj	_	_
+5	اسان	_	PRON	_	_	8	obj	_	_
 6	کي	_	ADP	_	_	5	case	_	_
-7	برداشت	_	NOUN	_	_	8	compound	_	_
+7	برداشت	_	NOUN	_	_	8	xcomp	_	_
 8	ڪرڻو	_	VERB	_	_	0	root	_	_
-9	پوندو	_	VERB	_	_	8	compound	_	_
+9	پوندو	_	VERB	_	_	8	obl	_	_
 10	،	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 878
@@ -4540,7 +4540,7 @@
 7	فنڊ	_	NOUN	_	_	9	obj	_	_
 8	قائم	_	ADJ	_	_	9	compound	_	_
 9	ڪري	_	VERB	_	_	2	obj	_	_
-10	ڇڏيو	_	VERB	_	_	9	compound	_	_
+10	ڇڏيو	_	VERB	_	_	9	xcomp	_	_
 11	آهي	_	AUX	_	_	9	aux	_	_
 12	،	_	PUNCT	_	_	9	punct	_	_
 
@@ -4554,18 +4554,18 @@
 6	ان	_	DET	_	_	10	obl	_	_
 7	۾	_	ADP	_	_	6	case	_	_
 8	فنڊ	_	NOUN	_	_	10	obj	_	_
-9	جمع	_	NOUN	_	_	10	compound	_	_
+9	جمع	_	NOUN	_	_	10	xcomp	_	_
 10	ڪرائين	_	VERB	_	_	0	root	_	_
 11	،	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 880
 # text = اهو فنڊ مون پنهنجي لاءِ ناهي کوليو .
-1	اهو	_	DET	_	_	2	det	_	_
+1	اهو	_	PRON	_	_	2	nmod	_	_
 2	فنڊ	_	NOUN	_	_	7	nsubj	_	_
 3	مون	_	PRON	_	_	7	nsubj	_	_
 4	پنهنجي	_	PRON	_	_	7	obl	_	_
 5	لاءِ	_	ADP	_	_	4	case	_	_
-6	ناهي	_	AUX	_	_	7	advmod	_	_
+6	ناهي	_	AUX	_	_	7	punct	_	_
 7	کوليو	_	VERB	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
@@ -4584,7 +4584,7 @@
 11	40	_	NUM	_	_	12	nummod	_	_
 12	لک	_	NOUN	_	_	13	nmod	_	_
 13	ماڻهو	_	NOUN	_	_	15	nsubj	_	_
-14	متاثر	_	NOUN	_	_	15	compound	_	_
+14	متاثر	_	NOUN	_	_	15	xcomp	_	_
 15	ٿيا	_	VERB	_	_	2	obj	_	_
 16	آهن	_	AUX	_	_	15	aux	_	_
 17	،	_	PUNCT	_	_	15	punct	_	_
@@ -4596,7 +4596,7 @@
 3	لکين	_	NOUN	_	_	4	nmod	_	_
 4	گهرن	_	NOUN	_	_	7	obj	_	_
 5	کي	_	ADP	_	_	4	case	_	_
-6	نقصان	_	NOUN	_	_	7	compound	_	_
+6	نقصان	_	NOUN	_	_	7	xcomp	_	_
 7	پهتو	_	VERB	_	_	0	root	_	_
 8	آهي	_	AUX	_	_	7	aux	_	_
 9	.	_	PUNCT	_	_	7	punct	_	_
@@ -4611,7 +4611,7 @@
 6	جي	_	ADP	_	_	5	case	_	_
 7	لاءِ	_	ADP	_	_	5	case	_	_
 8	فنڊ	_	NOUN	_	_	10	obj	_	_
-9	گڏ	_	NOUN	_	_	10	compound	_	_
+9	گڏ	_	NOUN	_	_	10	obl	_	_
 10	ڪرڻ	_	VERB	_	_	19	advcl	_	_
 11	لاءِ	_	ADP	_	_	10	mark	_	_
 12	پرڏيهي	_	ADJ	_	_	13	amod	_	_
@@ -4620,9 +4620,9 @@
 15	وفد	_	NOUN	_	_	16	obj	_	_
 16	موڪلڻ	_	NOUN	_	_	18	nmod	_	_
 17	جو	_	ADP	_	_	16	mark	_	_
-18	اعلان	_	NOUN	_	_	19	compound	_	_
+18	اعلان	_	NOUN	_	_	19	obl	_	_
 19	ڪري	_	VERB	_	_	0	root	_	_
-20	ڇڏيو	_	VERB	_	_	19	compound	_	_
+20	ڇڏيو	_	VERB	_	_	19	obl	_	_
 21	آهي	_	AUX	_	_	19	aux	_	_
 22	،	_	PUNCT	_	_	19	punct	_	_
 
@@ -4657,7 +4657,7 @@
 13	تي	_	ADP	_	_	12	case	_	_
 14	ڏيڻ	_	VERB	_	_	16	nmod	_	_
 15	جي	_	ADP	_	_	14	mark	_	_
-16	اپيل	_	NOUN	_	_	17	compound	_	_
+16	اپيل	_	NOUN	_	_	17	obl	_	_
 17	ڪئي	_	VERB	_	_	0	root	_	_
 18	آهي	_	AUX	_	_	17	aux	_	_
 19	،	_	PUNCT	_	_	17	punct	_	_
@@ -4678,7 +4678,7 @@
 12	پارلياماني	_	ADJ	_	_	13	amod	_	_
 13	وفد	_	NOUN	_	_	14	obj	_	_
 14	موڪليا	_	NOUN	_	_	2	obj	_	_
-15	ويندا	_	VERB	_	_	14	compound	_	_
+15	ويندا	_	VERB	_	_	14	cop	_	_
 16	،	_	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 887
@@ -4703,7 +4703,7 @@
 5	،	_	PUNCT	_	_	6	punct	_	_
 6	نيوي	_	NOUN	_	_	4	conj	_	_
 7	،	_	PUNCT	_	_	6	punct	_	_
-8	اين	_	NOUN	_	_	10	nmod	_	_
+8	اين	_	NOUN	_	_	11	nmod	_	_
 9	ڊي	_	NOUN	_	_	11	nmod	_	_
 10	ايم	_	NOUN	_	_	11	nmod	_	_
 11	اي	_	NOUN	_	_	4	conj	_	_
@@ -4775,10 +4775,10 @@
 25	ضلعي	_	NOUN	_	_	26	nmod	_	_
 26	سطح	_	NOUN	_	_	29	obl	_	_
 27	تائين	_	ADP	_	_	26	case	_	_
-28	فعال	_	NOUN	_	_	29	compound	_	_
+28	فعال	_	NOUN	_	_	29	xcomp	_	_
 29	ڪرڻ	_	VERB	_	_	31	nmod	_	_
 30	جي	_	ADP	_	_	29	mark	_	_
-31	هدايت	_	NOUN	_	_	32	compound	_	_
+31	هدايت	_	NOUN	_	_	32	obl	_	_
 32	ڪئي	_	VERB	_	_	18	conj	_	_
 33	،	_	PUNCT	_	_	32	punct	_	_
 
@@ -4794,7 +4794,7 @@
 8	جي	_	ADP	_	_	7	case	_	_
 9	تيل	_	VERB	_	_	10	acl	_	_
 10	سپلاءِ	_	NOUN	_	_	12	nsubj	_	_
-11	بند	_	NOUN	_	_	2	compound	_	_
+11	بند	_	NOUN	_	_	2	obl	_	_
 12	ٿي	_	AUX	_	_	2	obj	_	_
 13	وئي	_	VERB	_	_	2	obj	_	_
 14	آهي	_	AUX	_	_	12	aux	_	_
@@ -4842,7 +4842,7 @@
 13	صدر	_	NOUN	_	_	14	nmod	_	_
 14	بشارالاسد	_	PROPN	_	_	17	obl	_	_
 15	سان	_	ADP	_	_	14	case	_	_
-16	ملاقات	_	NOUN	_	_	17	compound	_	_
+16	ملاقات	_	NOUN	_	_	17	xcomp	_	_
 17	ڪئي	_	VERB	_	_	0	root	_	_
 18	،	_	PUNCT	_	_	17	punct	_	_
 
@@ -4881,9 +4881,9 @@
 5	بشار	_	PROPN	_	_	6	compound	_	_
 6	الاسد	_	PROPN	_	_	11	nsubj	_	_
 7	خود	_	PRON	_	_	11	nsubj	_	_
-8	هن	_	DET	_	_	10	nmod	_	_
+8	هن	_	PRON	_	_	10	nmod	_	_
 9	جو	_	ADP	_	_	8	case	_	_
-10	استقبال	_	NOUN	_	_	11	compound	_	_
+10	استقبال	_	NOUN	_	_	11	xcomp	_	_
 11	ڪيو	_	VERB	_	_	0	root	_	_
 12	،	_	PUNCT	_	_	11	punct	_	_
 
@@ -4974,7 +4974,7 @@
 36	لاءِ	_	ADP	_	_	35	case	_	_
 37	تعاون	_	NOUN	_	_	39	nmod	_	_
 38	جو	_	ADP	_	_	37	case	_	_
-39	يقين	_	NOUN	_	_	40	compound	_	_
+39	يقين	_	NOUN	_	_	40	xcomp	_	_
 40	ڏياريو	_	VERB	_	_	28	conj	_	_
 41	،	_	PUNCT	_	_	40	punct	_	_
 
@@ -4995,7 +4995,7 @@
 # sent_id = 902
 # text = ٻوڏ تباهي آندي آهي ،
 1	ٻوڏ	_	NOUN	_	_	3	nsubj	_	_
-2	تباهي	_	DET	_	_	3	advmod	_	_
+2	تباهي	_	DET	_	_	3	amod	_	_
 3	آندي	_	VERB	_	_	0	root	_	_
 4	آهي	_	AUX	_	_	3	aux	_	_
 5	،	_	PUNCT	_	_	3	punct	_	_
@@ -5070,12 +5070,12 @@
 8	جي	_	ADP	_	_	5	case	_	_
 9	علائقن	_	NOUN	_	_	17	obl	_	_
 10	مان	_	ADP	_	_	9	case	_	_
-11	به	_	ADP	_	_	9	dep	_	_
+11	به	_	PART	_	_	9	dep	_	_
 12	لڏ	_	NOUN	_	_	13	nmod	_	_
 13	پلاڻ	_	NOUN	_	_	15	nmod	_	_
 14	جو	_	ADP	_	_	13	case	_	_
 15	سلسلو	_	NOUN	_	_	17	nsubj	_	_
-16	تيز	_	ADJ	_	_	18	compound	_	_
+16	تيز	_	ADJ	_	_	18	obl	_	_
 17	ٿي	_	AUX	_	_	18	aux	_	_
 18	ويو	_	VERB	_	_	0	root	_	_
 19	آهي	_	AUX	_	_	18	aux	_	_
@@ -5087,7 +5087,7 @@
 2	وفاقي	_	ADJ	_	_	3	amod	_	_
 3	وزير	_	NOUN	_	_	6	nmod	_	_
 4	مخدوم	_	NOUN	_	_	6	nmod	_	_
-5	امين	_	ADJ	_	_	6	amod	_	_
+5	امين	_	NOUN	_	_	6	compound	_	_
 6	فهيم	_	PROPN	_	_	12	nsubj	_	_
 7	ڪالهه	_	ADV	_	_	9	advmod	_	_
 8	هالا	_	PROPN	_	_	9	obl	_	_
@@ -5101,7 +5101,7 @@
 
 # sent_id = 907
 # text = مخدوم امين فهيم ڊي سي او هائوس مٽياري ۾ مٽياري تعلقي جي معززين مخدوم هائوس هالا ۾ هالا جي شهرين سان گڏجاڻي ڪري ٻوڏ واري صورتحال جو جائزو ورتو ،
-1	مخدوم	_	NOUN	_	_	3	compound	_	_
+1	مخدوم	_	NOUN	_	_	3	nmod	_	_
 2	امين	_	PROPN	_	_	3	compound	_	_
 3	فهيم	_	PROPN	_	_	29	nsubj	_	_
 4	ڊي	_	NOUN	_	_	5	nmod	_	_
@@ -5128,7 +5128,7 @@
 25	واري	_	ADP	_	_	24	case	_	_
 26	صورتحال	_	NOUN	_	_	28	nmod	_	_
 27	جو	_	ADP	_	_	26	case	_	_
-28	جائزو	_	NOUN	_	_	29	compound	_	_
+28	جائزو	_	NOUN	_	_	29	xcomp	_	_
 29	ورتو	_	VERB	_	_	0	root	_	_
 30	،	_	PUNCT	_	_	29	punct	_	_
 
@@ -5156,7 +5156,7 @@
 20	امين	_	PROPN	_	_	21	compound	_	_
 21	فهيم	_	PROPN	_	_	24	iobj	_	_
 22	کي	_	ADP	_	_	21	case	_	_
-23	بريفنگ	_	NOUN	_	_	24	compound	_	_
+23	بريفنگ	_	NOUN	_	_	24	xcomp	_	_
 24	ڏني	_	VERB	_	_	0	root	_	_
 25	،	_	PUNCT	_	_	24	punct	_	_
 
@@ -5170,7 +5170,7 @@
 6	ڪاوش	_	NOUN	_	_	8	obj	_	_
 7	سان	_	ADP	_	_	6	case	_	_
 8	ڳالهائيندي	_	VERB	_	_	12	advcl	_	_
-9	مخدوم	_	NOUN	_	_	11	compound	_	_
+9	مخدوم	_	NOUN	_	_	11	nmod	_	_
 10	امين	_	PROPN	_	_	11	compound	_	_
 11	فهيم	_	PROPN	_	_	12	nsubj	_	_
 12	چيو	_	VERB	_	_	0	root	_	_
@@ -5201,7 +5201,7 @@
 3	ته	_	SCONJ	_	_	7	mark	_	_
 4	عوام	_	NOUN	_	_	7	nsubj	_	_
 5	مايوس	_	NOUN	_	_	7	compound	_	_
-6	نه	_	PART	_	_	7	advmod	_	_
+6	نه	_	PART	_	_	7	dep	_	_
 7	ٿئي	_	VERB	_	_	2	ccomp	_	_
 8	،	_	PUNCT	_	_	7	punct	_	_
 
@@ -5227,7 +5227,7 @@
 18	خوبي	_	NOUN	_	_	20	obl	_	_
 19	سان	_	ADP	_	_	18	case	_	_
 20	گذري	_	VERB	_	_	9	acl	_	_
-21	وڃي	_	VERB	_	_	20	compound	_	_
+21	وڃي	_	VERB	_	_	20	xcomp	_	_
 22	،	_	PUNCT	_	_	20	punct	_	_
 
 # sent_id = 912
@@ -5238,7 +5238,7 @@
 4	جي	_	ADP	_	_	3	case	_	_
 5	مريدن	_	NOUN	_	_	8	iobj	_	_
 6	کي	_	ADP	_	_	5	case	_	_
-7	هدايت	_	NOUN	_	_	8	compound	_	_
+7	هدايت	_	NOUN	_	_	8	xcomp	_	_
 8	ڪئي	_	VERB	_	_	0	root	_	_
 9	ته	_	SCONJ	_	_	21	mark	_	_
 10	هو	_	DET	_	_	16	nsubj	_	_
@@ -5251,7 +5251,7 @@
 17	امدادي	_	ADJ	_	_	18	amod	_	_
 18	ڪاررواين	_	NOUN	_	_	21	obl	_	_
 19	۾	_	ADP	_	_	18	case	_	_
-20	حصو	_	NOUN	_	_	21	compound	_	_
+20	حصو	_	NOUN	_	_	21	xcomp	_	_
 21	وٺن	_	VERB	_	_	8	ccomp	_	_
 22	،	_	PUNCT	_	_	21	punct	_	_
 
@@ -5268,7 +5268,7 @@
 9	آندي	_	VERB	_	_	2	obj	_	_
 10	آهي	_	AUX	_	_	9	aux	_	_
 11	جو	_	ADP	_	_	9	mark	_	_
-12	ان	_	DET	_	_	15	nmod	_	_
+12	ان	_	PRON	_	_	15	nmod	_	_
 13	جو	_	ADP	_	_	12	case	_	_
 14	فوري	_	ADV	_	_	15	amod	_	_
 15	ازالو	_	NOUN	_	_	16	nsubj	_	_
@@ -5293,7 +5293,7 @@
 4	اسيمبلي	_	NOUN	_	_	6	nmod	_	_
 5	جو	_	ADP	_	_	4	case	_	_
 6	اجلاس	_	NOUN	_	_	8	nsubj	_	_
-7	نه	_	PART	_	_	8	advmod	_	_
+7	نه	_	PART	_	_	8	dep	_	_
 8	گهرايو	_	VERB	_	_	14	advcl	_	_
 9	ويو	_	VERB	_	_	8	compound	_	_
 10	ته	_	SCONJ	_	_	14	mark	_	_
@@ -5317,7 +5317,7 @@
 8	صحافين	_	NOUN	_	_	10	obl	_	_
 9	سان	_	ADP	_	_	8	case	_	_
 10	ڳالهائيندي	_	VERB	_	_	15	advcl	_	_
-11	چوڌري	_	NOUN	_	_	14	compound	_	_
+11	چوڌري	_	NOUN	_	_	14	nmod	_	_
 12	نثار	_	PROPN	_	_	14	compound	_	_
 13	علي	_	PROPN	_	_	14	compound	_	_
 14	خان	_	NOUN	_	_	15	nsubj	_	_
@@ -5339,7 +5339,7 @@
 1	هن	_	DET	_	_	2	nsubj	_	_
 2	چيو	_	VERB	_	_	0	root	_	_
 3	ته	_	SCONJ	_	_	10	mark	_	_
-4	بلاول	_	PROPN	_	_	6	compound	_	_
+4	بلاول	_	PROPN	_	_	6	nmod	_	_
 5	ڀٽو	_	NOUN	_	_	6	compound	_	_
 6	زرداري	_	NOUN	_	_	10	nsubj	_	_
 7	کي	_	ADP	_	_	6	case	_	_
@@ -5374,7 +5374,7 @@
 12	صدر	_	NOUN	_	_	13	nmod	_	_
 13	زرداري	_	NOUN	_	_	19	nsubj	_	_
 14	کين	_	ADP	_	_	16	obj	_	_
-15	اڪيلو	_	ADJ	_	_	16	compound	_	_
+15	اڪيلو	_	ADJ	_	_	16	obl	_	_
 16	ڇڏي	_	VERB	_	_	19	advcl	_	_
 17	پرڏيهه	_	NOUN	_	_	18	nmod	_	_
 18	دورا	_	NOUN	_	_	19	obj	_	_
@@ -5398,7 +5398,7 @@
 11	ملڪي	_	ADJ	_	_	12	amod	_	_
 12	اثاثن	_	NOUN	_	_	14	nmod	_	_
 13	جي	_	ADP	_	_	12	case	_	_
-14	نظرداري	_	NOUN	_	_	15	compound	_	_
+14	نظرداري	_	NOUN	_	_	15	obl	_	_
 15	ڪري	_	VERB	_	_	0	root	_	_
 16	رهيو	_	VERB	_	_	15	compound	_	_
 17	آهي	_	AUX	_	_	15	aux	_	_
@@ -5439,10 +5439,10 @@
 18	آهي	_	AUX	_	_	17	cop	_	_
 19	ته	_	SCONJ	_	_	25	mark	_	_
 20	اهو	_	DET	_	_	25	nsubj	_	_
-21	به	_	ADP	_	_	20	dep	_	_
+21	به	_	PART	_	_	20	dep	_	_
 22	قوم	_	NOUN	_	_	25	obj	_	_
 23	کي	_	ADP	_	_	22	case	_	_
-24	جواب	_	NOUN	_	_	25	compound	_	_
+24	جواب	_	NOUN	_	_	25	xcomp	_	_
 25	ڏي	_	VERB	_	_	6	conj	_	_
 26	،	_	PUNCT	_	_	25	punct	_	_
 
@@ -5472,7 +5472,7 @@
 22	اسيمبلي	_	NOUN	_	_	24	nmod	_	_
 23	جو	_	ADP	_	_	22	case	_	_
 24	اجلاس	_	NOUN	_	_	26	nsubj	_	_
-25	ملتوي	_	ADJ	_	_	26	compound	_	_
+25	ملتوي	_	ADJ	_	_	26	xcomp	_	_
 26	ڪرايو	_	VERB	_	_	15	advcl	_	_
 27	آهي	_	AUX	_	_	26	aux	_	_
 28	،	_	PUNCT	_	_	26	punct	_	_
@@ -5506,7 +5506,7 @@
 10	،	_	PUNCT	_	_	9	punct	_	_
 11	شهر	_	NOUN	_	_	14	obl	_	_
 12	۾	_	ADP	_	_	11	case	_	_
-13	وڃي	_	VERB	_	_	14	compound	_	_
+13	وڃي	_	VERB	_	_	14	xcomp	_	_
 14	نڪتو	_	VERB	_	_	0	root	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
 
@@ -5554,7 +5554,7 @@
 # sent_id = 928
 # text = ڇو ته اُتي ڪنهن کٽيءَ جو نير جو ڪـُـن ٺهيل هجي ،
 1	ڇو	_	PRON	_	_	10	obl	_	_
-2	ته	_	SCONJ	_	_	1	dep	_	_
+2	ته	_	SCONJ	_	_	1	mark	_	_
 3	اُتي	_	ADV	_	_	10	advmod	_	_
 4	ڪنهن	_	PRON	_	_	5	nmod	_	_
 5	کٽيءَ	_	NOUN	_	_	7	nmod	_	_
@@ -5563,7 +5563,7 @@
 8	جو	_	ADP	_	_	7	case	_	_
 9	ڪـُـن	_	NOUN	_	_	10	nsubj	_	_
 10	ٺهيل	_	VERB	_	_	0	root	_	_
-11	هجي	_	VERB	_	_	10	compound	_	_
+11	هجي	_	VERB	_	_	10	xcomp	_	_
 12	،	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 929
@@ -5720,7 +5720,7 @@
 10	آهين	_	AUX	_	_	9	cop	_	_
 11	؟	_	PUNCT	_	_	14	punct	_	_
 12	شينهڻ	_	NOUN	_	_	14	nsubj	_	_
-13	جواب	_	NOUN	_	_	14	compound	_	_
+13	جواب	_	NOUN	_	_	14	xcomp	_	_
 14	ڏنس	_	VERB	_	_	6	conj	_	_
 15	ته	_	SCONJ	_	_	18	mark	_	_
 16	:	_	PUNCT	_	_	14	punct	_	_
@@ -5776,7 +5776,7 @@
 14	ته	_	SCONJ	_	_	18	mark	_	_
 15	لقمو	_	NOUN	_	_	18	nsubj	_	_
 16	ئي	_	ADP	_	_	15	case	_	_
-17	هڪڙو	_	ADJ	_	_	18	compound	_	_
+17	هڪڙو	_	ADJ	_	_	18	obl	_	_
 18	ڪندءِ	_	VERB	_	_	7	advcl	_	_
 19	،	_	PUNCT	_	_	18	punct	_	_
 
@@ -5861,7 +5861,7 @@
 11	به	_	ADP	_	_	10	case	_	_
 12	پڇ	_	NOUN	_	_	15	obl	_	_
 13	مان	_	ADP	_	_	12	case	_	_
-14	ٺڪاءُ	_	NOUN	_	_	15	compound	_	_
+14	ٺڪاءُ	_	NOUN	_	_	15	xcomp	_	_
 15	ڪڍائي	_	VERB	_	_	0	root	_	_
 16	،	_	PUNCT	_	_	15	punct	_	_
 
@@ -5884,7 +5884,7 @@
 5	ڏسي	_	VERB	_	_	9	advcl	_	_
 6	دل	_	NOUN	_	_	7	obj	_	_
 7	جهلي	_	VERB	_	_	9	advcl	_	_
-8	نه	_	PART	_	_	9	advmod	_	_
+8	نه	_	PART	_	_	9	dep	_	_
 9	سگهيو	_	VERB	_	_	0	root	_	_
 10	۽	_	CCONJ	_	_	12	cc	_	_
 11	وٺي	_	VERB	_	_	12	advmod	_	_
@@ -5922,7 +5922,7 @@
 # text = مهماني کايو وڃ .
 1	مهماني	_	NOUN	_	_	2	nsubj	_	_
 2	کايو	_	VERB	_	_	0	root	_	_
-3	وڃ	_	VERB	_	_	2	compound	_	_
+3	وڃ	_	VERB	_	_	2	obl	_	_
 4	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 956
@@ -5977,7 +5977,7 @@
 17	ٽپندو	_	VERB	_	_	18	xcomp	_	_
 18	ڦرندو	_	VERB	_	_	8	conj	_	_
 19	پئي	_	VERB	_	_	18	compound	_	_
-20	ويو	_	VERB	_	_	18	compound	_	_
+20	ويو	_	VERB	_	_	19	advcl	_	_
 21	،	_	PUNCT	_	_	18	punct	_	_
 
 # sent_id = 960
@@ -6023,7 +6023,7 @@
 2	جي	_	ADP	_	_	1	det	_	_
 3	مٿان	_	ADV	_	_	6	advmod	_	_
 4	وٺي	_	VERB	_	_	6	advcl	_	_
-5	بـُـل	_	NOUN	_	_	6	compound	_	_
+5	بـُـل	_	NOUN	_	_	6	xcomp	_	_
 6	ڏنائين	_	VERB	_	_	0	root	_	_
 7	،	_	PUNCT	_	_	6	punct	_	_
 
@@ -6035,7 +6035,7 @@
 4	گدڙ	_	NOUN	_	_	6	nmod	_	_
 5	جي	_	ADP	_	_	4	case	_	_
 6	پويان	_	ADV	_	_	8	advmod	_	_
-7	بـُـل	_	NOUN	_	_	8	compound	_	_
+7	بـُـل	_	NOUN	_	_	8	xcomp	_	_
 8	ڏنو	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
@@ -6043,14 +6043,14 @@
 # text = گدڙ ٽپي ويو ، پر شينهن پنهنجو پاڻ اڇلي نه سگهيو ،
 1	گدڙ	_	NOUN	_	_	2	nsubj	_	_
 2	ٽپي	_	NOUN	_	_	11	advcl	_	_
-3	ويو	_	VERB	_	_	2	compound	_	_
+3	ويو	_	VERB	_	_	2	obl	_	_
 4	،	_	PUNCT	_	_	2	punct	_	_
 5	پر	_	SCONJ	_	_	2	mark	_	_
 6	شينهن	_	NOUN	_	_	11	nsubj	_	_
 7	پنهنجو	_	PRON	_	_	8	nmod	_	_
 8	پاڻ	_	PRON	_	_	9	obj	_	_
 9	اڇلي	_	VERB	_	_	11	xcomp	_	_
-10	نه	_	PART	_	_	11	advmod	_	_
+10	نه	_	PART	_	_	11	dep	_	_
 11	سگهيو	_	VERB	_	_	0	root	_	_
 12	،	_	PUNCT	_	_	11	punct	_	_
 
@@ -6200,7 +6200,7 @@
 2	ٻيو	_	ADJ	_	_	3	amod	_	_
 3	مون	_	PRON	_	_	13	nsubj	_	_
 4	کي	_	ADP	_	_	3	case	_	_
-5	خاص	_	ADJ	_	_	6	compound	_	_
+5	خاص	_	ADJ	_	_	6	obl	_	_
 6	ڪري	_	VERB	_	_	13	advcl	_	_
 7	شينهن	_	NOUN	_	_	9	nmod	_	_
 8	جي	_	ADP	_	_	7	case	_	_
@@ -6226,7 +6226,7 @@
 1	اتي	_	ADV	_	_	5	advmod	_	_
 2	انهن	_	DET	_	_	5	obj	_	_
 3	کي	_	ADP	_	_	2	case	_	_
-4	پورو	_	NOUN	_	_	5	compound	_	_
+4	پورو	_	NOUN	_	_	5	obl	_	_
 5	ڪري	_	VERB	_	_	0	root	_	_
 6	پيا	_	VERB	_	_	5	compound	_	_
 7	کائينداسون	_	VERB	_	_	5	compound	_	_
@@ -6299,10 +6299,10 @@
 2	گدڙ	_	NOUN	_	_	11	nsubj	_	_
 3	جيڏانهن	_	ADV	_	_	5	advmod	_	_
 4	به	_	ADP	_	_	3	case	_	_
-5	گهمڻ	_	VERB	_	_	6	advcl	_	_
+5	گهمڻ	_	VERB	_	_	6	compound	_	_
 6	ڦرڻ	_	VERB	_	_	11	advcl	_	_
 7	يا	_	CCONJ	_	_	9	cc	_	_
-8	شڪار	_	NOUN	_	_	9	compound	_	_
+8	شڪار	_	NOUN	_	_	9	obl	_	_
 9	ڪرڻ	_	VERB	_	_	11	advcl	_	_
 10	لاءِ	_	ADP	_	_	9	mark	_	_
 11	ويندو	_	VERB	_	_	0	root	_	_
@@ -6314,7 +6314,7 @@
 1	ته	_	SCONJ	_	_	5	mark	_	_
 2	شينهڻ	_	NOUN	_	_	5	obj	_	_
 3	کي	_	ADP	_	_	2	case	_	_
-4	ساڻ	_	NOUN	_	_	5	compound	_	_
+4	ساڻ	_	NOUN	_	_	5	obl	_	_
 5	ڪري	_	VERB	_	_	0	root	_	_
 6	ويندو	_	VERB	_	_	5	compound	_	_
 7	هو	_	AUX	_	_	5	aux	_	_
@@ -6339,7 +6339,7 @@
 9	منهنجي	_	PRON	_	_	10	nmod	_	_
 10	طبيعت	_	NOUN	_	_	11	nsubj	_	_
 11	ٺيڪ	_	ADJ	_	_	6	obj	_	_
-12	نه	_	PART	_	_	11	advmod	_	_
+12	نه	_	PART	_	_	11	dep	_	_
 13	آهي	_	AUX	_	_	11	cop	_	_
 14	،	_	PUNCT	_	_	6	punct	_	_
 
@@ -6351,7 +6351,7 @@
 4	وڃ	_	VERB	_	_	0	root	_	_
 5	۽	_	CCONJ	_	_	8	cc	_	_
 6	وڃي	_	VERB	_	_	8	advcl	_	_
-7	شڪار	_	NOUN	_	_	8	compound	_	_
+7	شڪار	_	NOUN	_	_	8	xcomp	_	_
 8	ڪري	_	VERB	_	_	4	conj	_	_
 9	اچ	_	VERB	_	_	8	compound	_	_
 10	.	_	PUNCT	_	_	8	punct	_	_
@@ -6380,12 +6380,12 @@
 3	سرهو	_	NOUN	_	_	4	nsubj	_	_
 4	ٿيو	_	VERB	_	_	0	root	_	_
 5	۽	_	CCONJ	_	_	12	cc	_	_
-6	هڪ	_	ADJ	_	_	7	nummod	_	_
+6	هڪ	_	NUM	_	_	7	nummod	_	_
 7	گهيڙ	_	NOUN	_	_	8	obj	_	_
 8	ڏسي	_	VERB	_	_	12	advcl	_	_
 9	،	_	PUNCT	_	_	8	punct	_	_
 10	اتي	_	ADV	_	_	12	advmod	_	_
-11	پيشاب	_	NOUN	_	_	12	compound	_	_
+11	پيشاب	_	NOUN	_	_	12	obl	_	_
 12	ڪري	_	VERB	_	_	4	conj	_	_
 13	،	_	PUNCT	_	_	12	punct	_	_
 14	پڇ	_	NOUN	_	_	17	obl	_	_
@@ -6440,7 +6440,7 @@
 10	گهيڙ	_	NOUN	_	_	12	obl	_	_
 11	۾	_	ADP	_	_	10	case	_	_
 12	اچي	_	VERB	_	_	14	advcl	_	_
-13	ڦهڪو	_	NOUN	_	_	14	compound	_	_
+13	ڦهڪو	_	NOUN	_	_	14	xcomp	_	_
 14	ڪيائين	_	VERB	_	_	7	conj	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
 
@@ -6448,7 +6448,7 @@
 # text = گدڙ کي جهٽ لڳي ويو ،
 1	گدڙ	_	NOUN	_	_	4	nsubj	_	_
 2	کي	_	ADP	_	_	1	case	_	_
-3	جهٽ	_	NOUN	_	_	4	compound	_	_
+3	جهٽ	_	NOUN	_	_	4	obl	_	_
 4	لڳي	_	VERB	_	_	0	root	_	_
 5	ويو	_	VERB	_	_	4	compound	_	_
 6	،	_	PUNCT	_	_	4	punct	_	_
@@ -6474,7 +6474,7 @@
 # sent_id = 1001
 # text = گدڙ خيال ڪيو ته هاڻي هيڏو سارو شڪار مون کان ڪيئن کڄندو ،
 1	گدڙ	_	NOUN	_	_	3	nsubj	_	_
-2	خيال	_	NOUN	_	_	3	compound	_	_
+2	خيال	_	NOUN	_	_	3	obl	_	_
 3	ڪيو	_	VERB	_	_	0	root	_	_
 4	ته	_	SCONJ	_	_	12	mark	_	_
 5	هاڻي	_	ADV	_	_	12	advmod	_	_
@@ -6493,7 +6493,7 @@
 2	ويـچـار	_	NOUN	_	_	4	obl	_	_
 3	۾	_	ADP	_	_	2	case	_	_
 4	ويـهـي	_	VERB	_	_	0	root	_	_
-5	رهـيـو	_	VERB	_	_	4	compound	_	_
+5	رهـيـو	_	VERB	_	_	4	xcomp	_	_
 6	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 1003
@@ -6555,7 +6555,7 @@
 5	کي	_	ADP	_	_	4	case	_	_
 6	هڻي	_	VERB	_	_	7	xcomp	_	_
 7	ماري	_	VERB	_	_	0	root	_	_
-8	رکيو	_	VERB	_	_	7	compound	_	_
+8	رکيو	_	VERB	_	_	7	xcomp	_	_
 9	آهي	_	AUX	_	_	7	aux	_	_
 10	.	_	PUNCT	_	_	7	punct	_	_
 
@@ -6635,7 +6635,7 @@
 3	کڻڻ	_	VERB	_	_	7	advcl	_	_
 4	لاءِ	_	ADP	_	_	3	mark	_	_
 5	ڏاڍا	_	ADJ	_	_	6	amod	_	_
-6	زور	_	NOUN	_	_	7	compound	_	_
+6	زور	_	NOUN	_	_	7	xcomp	_	_
 7	لاتا	_	VERB	_	_	0	root	_	_
 8	،	_	PUNCT	_	_	7	punct	_	_
 
@@ -6645,13 +6645,13 @@
 2	کانئس	_	ADP	_	_	1	case	_	_
 3	چـُـري	_	VERB	_	_	0	root	_	_
 4	ئي	_	ADV	_	_	3	mark	_	_
-5	نه	_	PART	_	_	3	advmod	_	_
+5	نه	_	PART	_	_	3	dep	_	_
 6	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 1016
 # text = نيٺ زور لائيندي لائيندي ،
 1	نيٺ	_	ADV	_	_	4	advmod	_	_
-2	زور	_	NOUN	_	_	3	compound	_	_
+2	زور	_	NOUN	_	_	3	obl	_	_
 3	لائيندي	_	VERB	_	_	4	xcomp	_	_
 4	لائيندي	_	VERB	_	_	0	root	_	_
 5	،	_	PUNCT	_	_	4	punct	_	_
@@ -6662,7 +6662,7 @@
 2	جي	_	ADP	_	_	1	case	_	_
 3	هيٺان	_	ADV	_	_	4	advmod	_	_
 4	اچي	_	VERB	_	_	0	root	_	_
-5	ويو	_	VERB	_	_	4	compound	_	_
+5	ويو	_	VERB	_	_	4	xcomp	_	_
 6	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 1018
@@ -6740,7 +6740,7 @@
 # sent_id = 1025
 # text = اڄ دل ٿيم ته پکين جو گوشت کائجي ،
 1	اڄ	_	ADV	_	_	3	advmod	_	_
-2	دل	_	NOUN	_	_	3	compound	_	_
+2	دل	_	NOUN	_	_	3	obl	_	_
 3	ٿيم	_	VERB	_	_	0	root	_	_
 4	ته	_	SCONJ	_	_	8	mark	_	_
 5	پکين	_	NOUN	_	_	7	nmod	_	_
@@ -6755,7 +6755,7 @@
 2	تو	_	VERB	_	_	4	nsubj	_	_
 3	ته	_	SCONJ	_	_	2	dep	_	_
 4	ٽاهي	_	VERB	_	_	0	root	_	_
-5	ڇڏيو	_	VERB	_	_	4	compound	_	_
+5	ڇڏيو	_	VERB	_	_	4	xcomp	_	_
 6	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 1027
@@ -6811,10 +6811,10 @@
 10	مان	_	ADP	_	_	9	case	_	_
 11	شڪار	_	NOUN	_	_	14	obl	_	_
 12	لاءِ	_	ADP	_	_	11	case	_	_
-13	پيچرو	_	NOUN	_	_	14	compound	_	_
+13	پيچرو	_	NOUN	_	_	14	obl	_	_
 14	ڏئي	_	VERB	_	_	0	root	_	_
-15	پئي	_	VERB	_	_	14	compound	_	_
-16	ويا	_	VERB	_	_	14	compound	_	_
+15	پئي	_	VERB	_	_	14	xcomp	_	_
+16	ويا	_	VERB	_	_	14	obl	_	_
 17	،	_	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 1031
@@ -6964,8 +6964,8 @@
 3	حڪم	_	NOUN	_	_	10	nmod	_	_
 4	موجب	_	ADP	_	_	3	case	_	_
 5	کانئس	_	ADP	_	_	3	case	_	_
-6	اٺ	_	ADJ	_	_	8	amod	_	_
-7	ڏهه	_	ADJ	_	_	8	nummod	_	_
+6	اٺ	_	NUM	_	_	8	nummod	_	_
+7	ڏهه	_	NUM	_	_	8	nummod	_	_
 8	وک	_	NOUN	_	_	10	nmod	_	_
 9	کن	_	ADP	_	_	8	case	_	_
 10	اڳ	_	NOUN	_	_	0	root	_	_
@@ -6989,7 +6989,7 @@
 7	۽	_	CCONJ	_	_	11	cc	_	_
 8	انهيءَ	_	PRON	_	_	11	obj	_	_
 9	کي	_	ADP	_	_	8	case	_	_
-10	هڪل	_	NOUN	_	_	11	compound	_	_
+10	هڪل	_	NOUN	_	_	11	obl	_	_
 11	ڪري	_	VERB	_	_	6	conj	_	_
 12	چيائين	_	VERB	_	_	6	conj	_	_
 13	ته	_	SCONJ	_	_	18	mark	_	_
@@ -7009,7 +7009,7 @@
 5	ته	_	SCONJ	_	_	4	mark	_	_
 6	نچندڙ	_	VERB	_	_	7	acl	_	_
 7	شينهن	_	NOUN	_	_	12	nsubj	_	_
-8	هن	_	DET	_	_	11	obj	_	_
+8	هن	_	PRON	_	_	11	obj	_	_
 9	کي	_	ADP	_	_	8	case	_	_
 10	هڪل	_	NOUN	_	_	11	compound	_	_
 11	ڪري	_	VERB	_	_	12	xcomp	_	_
@@ -7025,7 +7025,7 @@
 21	شادين	_	NOUN	_	_	23	obl	_	_
 22	۾	_	ADP	_	_	21	case	_	_
 23	اچي	_	VERB	_	_	25	advcl	_	_
-24	خلل	_	NOUN	_	_	25	compound	_	_
+24	خلل	_	NOUN	_	_	25	xcomp	_	_
 25	وڌو	_	VERB	_	_	15	acl:relcl	_	_
 26	اٿئي	_	VERB	_	_	25	compound	_	_
 27	؟	_	PUNCT	_	_	25	punct	_	_
@@ -7040,7 +7040,7 @@
 6	،	_	PUNCT	_	_	5	punct	_	_
 7	هو	_	DET	_	_	8	det	_	_
 8	ڏسو	_	VERB	_	_	2	obj	_	_
-9	ٿا	_	VERB	_	_	8	compound	_	_
+9	ٿا	_	VERB	_	_	8	obl	_	_
 10	؟	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 1045
@@ -7115,7 +7115,7 @@
 4	کي	_	ADP	_	_	3	case	_	_
 5	وڻ	_	VERB	_	_	8	advcl	_	_
 6	۾	_	ADP	_	_	5	mark	_	_
-7	ٽنگي	_	NOUN	_	_	8	compound	_	_
+7	ٽنگي	_	NOUN	_	_	8	xcomp	_	_
 8	ماري	_	VERB	_	_	0	root	_	_
 9	ڇڏيو	_	VERB	_	_	8	compound	_	_
 10	آهي	_	AUX	_	_	8	aux	_	_
@@ -7143,7 +7143,7 @@
 6	کي	_	ADP	_	_	5	case	_	_
 7	وٺي	_	VERB	_	_	0	root	_	_
 8	وڃي	_	VERB	_	_	7	compound	_	_
-9	ٽنگيل	_	VERB	_	_	7	aux	_	_
+9	ٽنگيل	_	VERB	_	_	7	obl	_	_
 10	،	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 1053
@@ -7159,7 +7159,7 @@
 3	هو	_	AUX	_	_	2	dep	_	_
 4	سڀ	_	ADJ	_	_	5	xcomp	_	_
 5	ڏڪڻ	_	VERB	_	_	0	root	_	_
-6	لڳا	_	NOUN	_	_	5	compound	_	_
+6	لڳا	_	NOUN	_	_	5	xcomp	_	_
 7	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1055
@@ -7276,7 +7276,7 @@
 # text = هرڪو پيو هن کان ڪن هڻي ته متان ڪو پاسو نه لڳي ته مهٽجي نه وڃون .
 1	هرڪو	_	NOUN	_	_	6	nsubj	_	_
 2	پيو	_	VERB	_	_	6	advcl	_	_
-3	هن	_	DET	_	_	6	obl	_	_
+3	هن	_	PRON	_	_	6	obl	_	_
 4	کان	_	ADP	_	_	3	case	_	_
 5	ڪن	_	VERB	_	_	6	xcomp	_	_
 6	هڻي	_	VERB	_	_	0	root	_	_
@@ -7284,11 +7284,11 @@
 8	متان	_	ADV	_	_	12	advmod	_	_
 9	ڪو	_	DET	_	_	10	det	_	_
 10	پاسو	_	NOUN	_	_	12	obj	_	_
-11	نه	_	PART	_	_	12	advmod	_	_
+11	نه	_	PART	_	_	12	dep	_	_
 12	لڳي	_	VERB	_	_	6	advcl	_	_
 13	ته	_	SCONJ	_	_	12	mark	_	_
-14	مهٽجي	_	NOUN	_	_	16	compound	_	_
-15	نه	_	PART	_	_	16	advmod	_	_
+14	مهٽجي	_	NOUN	_	_	16	obl	_	_
+15	نه	_	PART	_	_	16	dep	_	_
 16	وڃون	_	VERB	_	_	6	advcl	_	_
 17	.	_	PUNCT	_	_	16	punct	_	_
 
@@ -7366,7 +7366,7 @@
 8	ڪنهن	_	PRON	_	_	10	nmod	_	_
 9	جو	_	ADP	_	_	8	case	_	_
 10	پاسو	_	NOUN	_	_	12	obj	_	_
-11	نه	_	PART	_	_	12	advmod	_	_
+11	نه	_	PART	_	_	12	dep	_	_
 12	لڳي	_	VERB	_	_	5	advcl	_	_
 13	وڃي	_	VERB	_	_	12	compound	_	_
 14	.	_	PUNCT	_	_	12	punct	_	_
@@ -7417,7 +7417,7 @@
 21	۾جي	_	VERB	_	_	23	det	_	_
 22	به	_	ADP	_	_	21	mark	_	_
 23	مهمان	_	NOUN	_	_	24	nsubj	_	_
-24	ايندا	_	NOUN	_	_	17	acl	_	_
+24	ايندا	_	VERB	_	_	17	acl	_	_
 25	آهن	_	AUX	_	_	24	aux	_	_
 26	،	_	PUNCT	_	_	24	punct	_	_
 
@@ -7429,7 +7429,7 @@
 4	۽	_	CCONJ	_	_	5	cc	_	_
 5	ناچ	_	NOUN	_	_	3	conj	_	_
 6	ڪرائيندا	_	NOUN	_	_	0	root	_	_
-7	آهيون	_	VERB	_	_	6	aux	_	_
+7	آهيون	_	VERB	_	_	6	xcomp	_	_
 8	،	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1079
@@ -7440,7 +7440,7 @@
 4	گهڻو	_	ADJ	_	_	5	amod	_	_
 5	اوهين	_	NOUN	_	_	8	nsubj	_	_
 6	به	_	ADP	_	_	5	case	_	_
-7	مهرباني	_	NOUN	_	_	8	compound	_	_
+7	مهرباني	_	NOUN	_	_	8	obl	_	_
 8	ڪري	_	VERB	_	_	9	xcomp	_	_
 9	نچو	_	VERB	_	_	0	root	_	_
 10	.	_	PUNCT	_	_	8	punct	_	_
@@ -7463,7 +7463,7 @@
 1	ڇو	_	NOUN	_	_	5	obl	_	_
 2	ته	_	SCONJ	_	_	5	mark	_	_
 3	جي	_	ADP	_	_	1	case	_	_
-4	اونائي	_	NOUN	_	_	5	compound	_	_
+4	اونائي	_	NOUN	_	_	5	obl	_	_
 5	ڪندس	_	VERB	_	_	14	advcl	_	_
 6	ته	_	SCONJ	_	_	14	mark	_	_
 7	هڪدم	_	NOUN	_	_	14	obl	_	_
@@ -7524,7 +7524,7 @@
 # sent_id = 1086
 # text = جو هي سڀ وڻ ٽڻ ، هيٺاهيون مٿاهيون سڀ ڏڪي ويندا ،
 1	جو	_	ADP	_	_	5	mark	_	_
-2	هي	_	ADJ	_	_	4	advmod	_	_
+2	هي	_	DET	_	_	4	det	_	_
 3	سڀ	_	ADJ	_	_	4	compound	_	_
 4	وڻ	_	VERB	_	_	5	xcomp	_	_
 5	ٽڻ	_	VERB	_	_	10	advcl	_	_
@@ -7595,10 +7595,10 @@
 # text = شينهن ائين ئي ڪيو ته کين گدڙ جي اونائي ٻڌڻ ۾ آئي .
 1	شينهن	_	NOUN	_	_	4	nsubj	_	_
 2	ائين	_	PRON	_	_	4	obl	_	_
-3	ئي	_	ADP	_	_	2	case	_	_
+3	ئي	_	ADP	_	_	2	dep	_	_
 4	ڪيو	_	VERB	_	_	0	root	_	_
 5	ته	_	SCONJ	_	_	4	mark	_	_
-6	کين	_	ADP	_	_	12	nsubj	_	_
+6	کين	_	PRON	_	_	12	nsubj	_	_
 7	گدڙ	_	NOUN	_	_	9	nmod	_	_
 8	جي	_	ADP	_	_	7	case	_	_
 9	اونائي	_	NOUN	_	_	10	obj	_	_
@@ -7610,7 +7610,7 @@
 # sent_id = 1094
 # text = گهڻوئي ڪڍ پيس ، پر هي رُوڙ ڪري ڀڄي اچي هڪڙي وڏي تلاءُ ۾ پيو ۽ اتي خوب ٽٻيون ڏئي پنهنجي بت جي ڪارنهن لاٿائين ،
 1	گهڻوئي	_	ADJ	_	_	2	amod	_	_
-2	ڪڍ	_	NOUN	_	_	3	nsubj	_	_
+2	ڪڍ	_	VERB	_	_	3	nsubj	_	_
 3	پيس	_	VERB	_	_	10	advcl	_	_
 4	،	_	PUNCT	_	_	3	punct	_	_
 5	پر	_	SCONJ	_	_	3	mark	_	_
@@ -7626,7 +7626,7 @@
 15	پيو	_	VERB	_	_	0	root	_	_
 16	۽	_	CCONJ	_	_	25	cc	_	_
 17	اتي	_	ADV	_	_	20	advmod	_	_
-18	خوب	_	ADJ	_	_	19	amod	_	_
+18	خوب	_	ADV	_	_	19	amod	_	_
 19	ٽٻيون	_	NOUN	_	_	20	obj	_	_
 20	ڏئي	_	VERB	_	_	25	advcl	_	_
 21	پنهنجي	_	PRON	_	_	22	nmod	_	_
@@ -7646,7 +7646,7 @@
 6	حرڪت	_	NOUN	_	_	7	obj	_	_
 7	ڪرڻ	_	VERB	_	_	10	advcl	_	_
 8	کان	_	ADP	_	_	7	mark	_	_
-9	توبهه	_	NOUN	_	_	10	compound	_	_
+9	توبهه	_	NOUN	_	_	10	xcomp	_	_
 10	ڪيائين	_	VERB	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
@@ -7666,15 +7666,15 @@
 
 # sent_id = 1097
 # text = نبي بخش ( تعلقو روهڙي ) ۽ غلام نبي ( تعلقو ڏوڪري ) کان ملي .
-1	نبي	_	NOUN	_	_	2	nmod	_	_
-2	بخش	_	NOUN	_	_	15	nsubj	_	_
+1	نبي	_	PROPN	_	_	2	compound	_	_
+2	بخش	_	PROPN	_	_	15	nsubj	_	_
 3	(	_	PUNCT	_	_	5	punct	_	_
 4	تعلقو	_	NOUN	_	_	5	nmod	_	_
 5	روهڙي	_	PROPN	_	_	2	conj	_	_
 6	)	_	PUNCT	_	_	5	punct	_	_
 7	۽	_	CCONJ	_	_	9	cc	_	_
-8	غلام	_	NOUN	_	_	9	compound	_	_
-9	نبي	_	NOUN	_	_	2	conj	_	_
+8	غلام	_	PROPN	_	_	9	compound	_	_
+9	نبي	_	PROPN	_	_	2	conj	_	_
 10	(	_	PUNCT	_	_	9	punct	_	_
 11	تعلقو	_	NOUN	_	_	12	nmod	_	_
 12	ڏوڪري	_	PROPN	_	_	2	conj	_	_
@@ -7695,7 +7695,7 @@
 8	پکين	_	NOUN	_	_	6	conj	_	_
 9	جون	_	ADP	_	_	6	case	_	_
 10	آکاڻيون	_	NOUN	_	_	20	nsubj	_	_
-11	ڪهاڻي	_	ADV	_	_	20	advmod	_	_
+11	ڪهاڻي	_	NOUN	_	_	20	xcomp	_	_
 12	؛	_	PUNCT	_	_	10	punct	_	_
 13	هڪڙو	_	ADJ	_	_	14	amod	_	_
 14	گدڙ	_	NOUN	_	_	20	nsubj	_	_
@@ -7731,7 +7731,7 @@
 4	خوش	_	VERB	_	_	5	compound	_	_
 5	ڪرڻ	_	VERB	_	_	12	advcl	_	_
 6	لاءِ	_	ADP	_	_	5	mark	_	_
-7	کيس	_	ADP	_	_	5	dep	_	_
+7	کيس	_	ADP	_	_	5	mark	_	_
 8	ڪـُن	_	NOUN	_	_	12	obl	_	_
 9	مان	_	ADP	_	_	8	case	_	_
 10	هڪڙي	_	ADJ	_	_	11	amod	_	_
@@ -7748,7 +7748,7 @@
 5	رنگ	_	NOUN	_	_	6	obj	_	_
 6	مٽيل	_	VERB	_	_	7	advcl	_	_
 7	ڏسي	_	VERB	_	_	9	advcl	_	_
-8	سرهو	_	NOUN	_	_	9	compound	_	_
+8	سرهو	_	NOUN	_	_	9	xcomp	_	_
 9	ٿيو	_	VERB	_	_	0	root	_	_
 10	.	_	PUNCT	_	_	9	punct	_	_
 
@@ -7769,7 +7769,7 @@
 4	آيو	_	VERB	_	_	0	root	_	_
 5	۽	_	CCONJ	_	_	14	cc	_	_
 6	ساڻن	_	ADP	_	_	8	mark	_	_
-7	صلاح	_	NOUN	_	_	8	compound	_	_
+7	صلاح	_	NOUN	_	_	8	obl	_	_
 8	ڪري	_	VERB	_	_	14	advcl	_	_
 9	پاڻ	_	PRON	_	_	14	obj	_	_
 10	کي	_	ADP	_	_	9	case	_	_
@@ -8021,7 +8021,7 @@
 1	انهيءَ	_	PRON	_	_	5	obl	_	_
 2	تي	_	ADP	_	_	1	case	_	_
 3	گدڙ	_	NOUN	_	_	5	nsubj	_	_
-4	هڪل	_	NOUN	_	_	5	compound	_	_
+4	هڪل	_	VERB	_	_	5	compound	_	_
 5	ڪري	_	VERB	_	_	6	xcomp	_	_
 6	چيس	_	VERB	_	_	0	root	_	_
 7	ته	_	SCONJ	_	_	12	mark	_	_
@@ -8082,7 +8082,7 @@
 6	جي	_	ADP	_	_	5	case	_	_
 7	ڀر	_	ADV	_	_	9	obl	_	_
 8	۾	_	ADP	_	_	7	case	_	_
-9	بيهي	_	ADJ	_	_	13	advmod	_	_
+9	بيهي	_	VERB	_	_	13	advmod	_	_
 10	سندس	_	PRON	_	_	11	nmod	_	_
 11	ساراهه	_	NOUN	_	_	12	compound	_	_
 12	ڪرڻ	_	VERB	_	_	13	xcomp	_	_
@@ -8090,7 +8090,7 @@
 14	ته	_	SCONJ	_	_	13	mark	_	_
 15	:	_	PUNCT	_	_	13	punct	_	_
 16	ڇائي	_	NOUN	_	_	18	nmod	_	_
-17	دا	_	ADP	_	_	16	case	_	_
+17	دا	_	PART	_	_	16	case	_	_
 18	چبوترا	_	NOUN	_	_	26	nsubj	_	_
 19	،	_	PUNCT	_	_	21	punct	_	_
 20	ڇائي	_	NOUN	_	_	21	compound	_	_
@@ -8121,7 +8121,7 @@
 8	۽	_	CCONJ	_	_	12	cc	_	_
 9	رِڍَ	_	NOUN	_	_	12	obl	_	_
 10	تي	_	ADP	_	_	9	case	_	_
-11	حملو	_	NOUN	_	_	12	compound	_	_
+11	حملو	_	VERB	_	_	12	compound	_	_
 12	ڪيائين	_	VERB	_	_	6	conj	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
@@ -8181,7 +8181,7 @@
 9	ڪڏهن	_	ADV	_	_	14	advmod	_	_
 10	پاڻ	_	PRON	_	_	14	obj	_	_
 11	کي	_	ADP	_	_	10	case	_	_
-12	سلطان	_	NOUN	_	_	14	compound	_	_
+12	سلطان	_	NOUN	_	_	14	xcomp	_	_
 13	نه	_	PART	_	_	14	advmod	_	_
 14	سڏايائين	_	VERB	_	_	6	conj	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
@@ -8278,7 +8278,7 @@
 # sent_id = 1145
 # text = پاڻي پي اينداسين .
 1	پاڻي	_	NOUN	_	_	3	nsubj	_	_
-2	پي	_	NOUN	_	_	3	nsubj	_	_
+2	پي	_	VERB	_	_	3	nsubj	_	_
 3	اينداسين	_	VERB	_	_	0	root	_	_
 4	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -8307,7 +8307,7 @@
 9	:	_	PUNCT	_	_	7	punct	_	_
 10	ڀلو	_	ADJ	_	_	11	compound	_	_
 11	ٿيئي	_	VERB	_	_	7	advcl	_	_
-12	هڪ	_	ADJ	_	_	13	nummod	_	_
+12	هڪ	_	NUM	_	_	13	nummod	_	_
 13	سؤ	_	NOUN	_	_	14	nmod	_	_
 14	ڪوڙ	_	NOUN	_	_	16	nsubj	_	_
 15	ته	_	SCONJ	_	_	14	dep	_	_
@@ -8440,7 +8440,7 @@
 3	کي	_	ADP	_	_	2	case	_	_
 4	چيائين	_	VERB	_	_	0	root	_	_
 5	:	_	PUNCT	_	_	4	punct	_	_
-6	توهان	_	NOUN	_	_	9	nmod	_	_
+6	توهان	_	PRON	_	_	9	nmod	_	_
 7	جو	_	ADP	_	_	6	case	_	_
 8	ڪهڙو	_	PRON	_	_	9	nsubj	_	_
 9	فيصلو	_	NOUN	_	_	4	obj	_	_
@@ -8450,7 +8450,7 @@
 13	ٻڌايو	_	VERB	_	_	4	conj	_	_
 14	ته	_	SCONJ	_	_	19	mark	_	_
 15	:	_	PUNCT	_	_	19	punct	_	_
-16	اسان	_	DET	_	_	19	obl	_	_
+16	اسان	_	PRON	_	_	19	obl	_	_
 17	جا	_	ADP	_	_	16	case	_	_
 18	پنج	_	ADJ	_	_	19	xcomp	_	_
 19	ٻچا	_	VERB	_	_	13	obj	_	_
@@ -8481,7 +8481,7 @@
 # sent_id = 1163
 # text = شينهن خيال ڪيو ته ڇو نه انهن سان گڏ سندن گور تي وڃان ،
 1	شينهن	_	NOUN	_	_	3	nsubj	_	_
-2	خيال	_	NOUN	_	_	3	compound	_	_
+2	خيال	_	VERB	_	_	3	compound	_	_
 3	ڪيو	_	VERB	_	_	0	root	_	_
 4	ته	_	SCONJ	_	_	13	mark	_	_
 5	ڇو	_	PRON	_	_	13	obl	_	_
@@ -8508,7 +8508,7 @@
 # text = ستئي کائي موج ڪريان .
 1	ستئي	_	ADJ	_	_	2	advmod	_	_
 2	کائي	_	VERB	_	_	4	advcl	_	_
-3	موج	_	NOUN	_	_	4	compound	_	_
+3	موج	_	VERB	_	_	4	compound	_	_
 4	ڪريان	_	VERB	_	_	0	root	_	_
 5	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -8521,7 +8521,7 @@
 5	ته	_	SCONJ	_	_	4	mark	_	_
 6	:	_	PUNCT	_	_	4	punct	_	_
 7	مان	_	DET	_	_	14	nsubj	_	_
-8	اوهان	_	DET	_	_	10	nmod	_	_
+8	اوهان	_	PRON	_	_	10	nmod	_	_
 9	جو	_	ADP	_	_	8	det	_	_
 10	فيصلو	_	NOUN	_	_	12	obj	_	_
 11	ٻچا	_	NOUN	_	_	12	obj	_	_
@@ -8587,7 +8587,7 @@
 10	گداڙي	_	NOUN	_	_	8	conj	_	_
 11	پاڻي	_	NOUN	_	_	12	obj	_	_
 12	پي	_	VERB	_	_	14	advcl	_	_
-13	ڍؤ	_	NOUN	_	_	14	compound	_	_
+13	ڍؤ	_	VERB	_	_	14	compound	_	_
 14	ڪيو	_	VERB	_	_	5	advcl	_	_
 15	،	_	PUNCT	_	_	14	punct	_	_
 
@@ -8612,7 +8612,7 @@
 2	چيو	_	VERB	_	_	0	root	_	_
 3	ته	_	SCONJ	_	_	2	mark	_	_
 4	:	_	PUNCT	_	_	2	punct	_	_
-5	مان	_	DET	_	_	6	det	_	_
+5	مان	_	PRON	_	_	6	nmod	_	_
 6	ٻچا	_	NOUN	_	_	7	obj	_	_
 7	ڪڍي	_	VERB	_	_	2	obj	_	_
 8	ٿو	_	AUX	_	_	7	aux	_	_
@@ -8814,7 +8814,7 @@
 
 # sent_id = 1191
 # text = سو کيس ماني ڏي ته کائي .
-1	سو	_	ADJ	_	_	4	advmod	_	_
+1	سو	_	ADP	_	_	4	advmod	_	_
 2	کيس	_	ADP	_	_	1	case	_	_
 3	ماني	_	NOUN	_	_	4	obj	_	_
 4	ڏي	_	VERB	_	_	6	advcl	_	_
@@ -8844,7 +8844,7 @@
 # text = گدڙ کائي ڍؤ ڪيو .
 1	گدڙ	_	NOUN	_	_	4	nsubj	_	_
 2	کائي	_	VERB	_	_	4	advcl	_	_
-3	ڍؤ	_	NOUN	_	_	4	compound	_	_
+3	ڍؤ	_	VERB	_	_	4	compound	_	_
 4	ڪيو	_	VERB	_	_	0	root	_	_
 5	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -8922,7 +8922,7 @@
 
 # sent_id = 1198
 # text = سو زال جي ڳالهه ٻڌي ويتر چڙ وٺي ويس ،
-1	سو	_	ADJ	_	_	8	advmod	_	_
+1	سو	_	ADP	_	_	8	mark	_	_
 2	زال	_	NOUN	_	_	4	nmod	_	_
 3	جي	_	ADP	_	_	2	case	_	_
 4	ڳالهه	_	NOUN	_	_	5	obj	_	_
@@ -9041,7 +9041,7 @@
 1	ته	_	SCONJ	_	_	6	mark	_	_
 2	گدڙ	_	NOUN	_	_	6	nsubj	_	_
 3	به	_	ADP	_	_	2	case	_	_
-4	اچي	_	VERB	_	_	6	advcl	_	_
+4	اچي	_	VERB	_	_	6	amod	_	_
 5	اڳ	_	NOUN	_	_	6	obj	_	_
 6	ورتس	_	VERB	_	_	0	root	_	_
 7	،	_	PUNCT	_	_	6	punct	_	_
@@ -9092,8 +9092,8 @@
 2	۾	_	ADP	_	_	1	case	_	_
 3	مائيءَ	_	NOUN	_	_	7	obl	_	_
 4	کان	_	ADP	_	_	3	case	_	_
-5	ماني	_	ADJ	_	_	7	obj	_	_
-6	هضم	_	NOUN	_	_	7	compound	_	_
+5	ماني	_	NOUN	_	_	7	obj	_	_
+6	هضم	_	VERB	_	_	7	compound	_	_
 7	ڪرائي	_	VERB	_	_	10	advcl	_	_
 8	پوءِ	_	ADP	_	_	7	mark	_	_
 9	جند	_	NOUN	_	_	10	compound	_	_
@@ -9267,7 +9267,7 @@
 5	:	_	PUNCT	_	_	3	punct	_	_
 6	هاڻي	_	ADV	_	_	9	advmod	_	_
 7	کاڌو	_	NOUN	_	_	9	obj	_	_
-8	هضم	_	NOUN	_	_	9	compound	_	_
+8	هضم	_	VERB	_	_	9	compound	_	_
 9	ڪراءِ	_	VERB	_	_	3	ccomp	_	_
 10	.	_	PUNCT	_	_	9	punct	_	_
 
@@ -9312,7 +9312,7 @@
 
 # sent_id = 1227
 # text = چئي : روز روز پاڻ کي شينهن شير خدا جو سڏائي ،
-1	چئي	_	NOUN	_	_	11	nsubj	_	_
+1	چئي	_	VERB	_	_	11	nsubj	_	_
 2	:	_	PUNCT	_	_	1	punct	_	_
 3	روز	_	NOUN	_	_	11	obl	_	_
 4	روز	_	NOUN	_	_	11	obl	_	_
@@ -9374,7 +9374,7 @@
 3	پاڻ	_	PRON	_	_	4	obj	_	_
 4	ڇڏائڻ	_	VERB	_	_	6	nmod	_	_
 5	جي	_	ADP	_	_	4	mark	_	_
-6	ڪوشش	_	NOUN	_	_	7	compound	_	_
+6	ڪوشش	_	VERB	_	_	7	compound	_	_
 7	ڪئي	_	VERB	_	_	0	root	_	_
 8	،	_	PUNCT	_	_	7	punct	_	_
 
@@ -9497,7 +9497,7 @@
 
 # sent_id = 1244
 # text = ٻيا صفحا
-1	ٻيا	_	ADJ	_	_	2	amod	_	_
+1	ٻيا	_	ADJ	_	_	2	compound	_	_
 2	صفحا	_	NOUN	_	_	0	root	_	_
 
 # sent_id = 1245
@@ -10027,7 +10027,7 @@
 
 # sent_id = 1293
 # text = چڱو آءٌ پاڻهي ڳولهي ٿو ڏسانس .
-1	چڱو	_	ADJ	_	_	4	advmod	_	_
+1	چڱو	_	ADV	_	_	4	advmod	_	_
 2	آءٌ	_	PRON	_	_	4	nsubj	_	_
 3	پاڻهي	_	DET	_	_	4	advmod	_	_
 4	ڳولهي	_	VERB	_	_	6	xcomp	_	_
@@ -10243,7 +10243,7 @@
 # text = اهي جي عزرائيل ڏٺيون ته توکي هڪدم ماري ،
 1	اهي	_	DET	_	_	4	det	_	_
 2	جي	_	ADP	_	_	1	case	_	_
-3	عزرائيل	_	NOUN	_	_	4	nsubj	_	_
+3	عزرائيل	_	PROPN	_	_	4	nsubj	_	_
 4	ڏٺيون	_	VERB	_	_	8	advcl	_	_
 5	ته	_	SCONJ	_	_	8	mark	_	_
 6	توکي	_	PRON	_	_	8	obj	_	_
@@ -10351,7 +10351,7 @@
 # sent_id = 1326
 # text = تنهن تي عزرائيل چيو ته : چڱو ،
 1	تنهن	_	ُPRON	_	_	4	obl	_	_
-2	تي	_	ADP	_	_	1	case	_	_
+2	تي	_	ADP	_	_	1	dep	_	_
 3	عزرائيل	_	PROPN	_	_	4	nsubj	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
 5	ته	_	SCONJ	_	_	4	mark	_	_
@@ -10430,7 +10430,7 @@
 4	ته	_	SCONJ	_	_	8	mark	_	_
 5	اُن	_	PRON	_	_	8	obj	_	_
 6	کي	_	ADP	_	_	5	case	_	_
-7	هٿيڪو	_	NOUN	_	_	8	compound	_	_
+7	هٿيڪو	_	VERB	_	_	8	compound	_	_
 8	ڪري	_	VERB	_	_	0	root	_	_
 9	ويهارج	_	VERB	_	_	8	aux	_	_
 10	،	_	PUNCT	_	_	8	punct	_	_
@@ -10460,7 +10460,7 @@
 # sent_id = 1336
 # text = هيڏانهن عزرائيل جو پٺ ڏيڻ ۽ شينهن جو چـَـهيءَ مان نڪري اچڻ .
 1	هيڏانهن	_	NOUN	_	_	5	obl	_	_
-2	عزرائيل	_	NOUN	_	_	4	nmod	_	_
+2	عزرائيل	_	PROPN	_	_	4	nmod	_	_
 3	جو	_	ADP	_	_	2	case	_	_
 4	پٺ	_	NOUN	_	_	5	obj	_	_
 5	ڏيڻ	_	VERB	_	_	0	root	_	_
@@ -10518,7 +10518,7 @@
 2	ڪڙميءَ	_	NOUN	_	_	4	nmod	_	_
 3	جي	_	ADP	_	_	2	case	_	_
 4	زال	_	NOUN	_	_	10	nsubj	_	_
-5	ڦيرو	_	NOUN	_	_	6	obj	_	_
+5	ڦيرو	_	VERB	_	_	6	obj	_	_
 6	ڏيئي	_	VERB	_	_	10	advcl	_	_
 7	وري	_	ADV	_	_	10	advmod	_	_
 8	ٻنيءَ	_	NOUN	_	_	10	obl	_	_
@@ -10779,7 +10779,7 @@
 
 # sent_id = 1364
 # text = باقي هڪڙو شينهن ڪٿي ؟ شينهن جو اها ڳالهه ٻڌي ،
-1	باقي	_	ADJ	_	_	3	amod	_	_
+1	باقي	_	ADV	_	_	3	nmod	_	_
 2	هڪڙو	_	ADJ	_	_	3	amod	_	_
 3	شينهن	_	NOUN	_	_	10	nsubj	_	_
 4	ڪٿي	_	PRON	_	_	10	obl	_	_
@@ -10835,7 +10835,7 @@
 
 # sent_id = 1368
 # text = سڌو وڃي جهنگ ۾ ساهه پٽيائين ۽ وري انهيءَ پاسي منهن به ڪين ڪيائين .
-1	سڌو	_	ADJ	_	_	2	advmod	_	_
+1	سڌو	_	ADV	_	_	2	advmod	_	_
 2	وڃي	_	VERB	_	_	6	advcl	_	_
 3	جهنگ	_	NOUN	_	_	6	obl	_	_
 4	۾	_	ADP	_	_	3	case	_	_
@@ -10945,7 +10945,7 @@
 
 # sent_id = 1378
 # text = سو اُن وقت هو ڀڳل جاين ۾ جهوتون هڻندو ان جاءِ وٽ پهتو ،
-1	سو	_	ADJ	_	_	13	advmod	_	_
+1	سو	_	ADP	_	_	13	mark	_	_
 2	اُن	_	PRON	_	_	3	nmod	_	_
 3	وقت	_	NOUN	_	_	13	obl	_	_
 4	هو	_	DET	_	_	5	det	_	_
@@ -10983,7 +10983,7 @@
 
 # sent_id = 1381
 # text = سو دائي به شينهن کي گڏهه سمجهي ٻٽي سونٽيون ڇڪي ،
-1	سو	_	ADJ	_	_	2	amod	_	_
+1	سو	_	ADP	_	_	2	case	_	_
 2	دائي	_	NOUN	_	_	10	nsubj	_	_
 3	به	_	ADP	_	_	2	case	_	_
 4	شينهن	_	NOUN	_	_	10	obj	_	_
@@ -11068,7 +11068,7 @@
 
 # sent_id = 1388
 # text = مٿس گهور جو کڙيو رکي ٽپ ڏيئي چڙهي ويٺو ۽ اڳتي هڪلڻ لڳس .
-1	مٿس	_	NOUN	_	_	8	obl	_	_
+1	مٿس	_	PRON	_	_	8	obl	_	_
 2	گهور	_	NOUN	_	_	4	nmod	_	_
 3	جو	_	ADP	_	_	2	case	_	_
 4	کڙيو	_	NOUN	_	_	5	obj	_	_
@@ -11141,7 +11141,7 @@
 6	يڪدم	_	ADV	_	_	7	advmod	_	_
 7	اچي	_	VERB	_	_	4	advcl	_	_
 8	ٿڙڪڻي	_	VERB	_	_	4	advcl	_	_
-9	ورتس	_	VERB	_	_	4	advcl	_	_
+9	ورتس	_	VERB	_	_	4	obl	_	_
 10	،	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 1394
@@ -11299,7 +11299,7 @@
 9	تي	_	ADP	_	_	8	case	_	_
 10	آڱر	_	NOUN	_	_	11	obj	_	_
 11	رکي	_	VERB	_	_	13	advcl	_	_
-12	اشارو	_	NOUN	_	_	13	compound	_	_
+12	اشارو	_	VERB	_	_	13	compound	_	_
 13	ڏنائين	_	VERB	_	_	6	conj	_	_
 14	ته	_	SCONJ	_	_	16	mark	_	_
 15	ماٺ	_	NOUN	_	_	16	compound	_	_
@@ -11321,7 +11321,7 @@
 11	هن	_	DET	_	_	12	det	_	_
 12	آفت	_	NOUN	_	_	17	obl	_	_
 13	کان	_	ADP	_	_	12	case	_	_
-14	ڪنهن	_	PRON	_	_	15	det	_	_
+14	ڪنهن	_	PRON	_	_	15	nmod	_	_
 15	طرح	_	NOUN	_	_	17	obl	_	_
 16	جند	_	NOUN	_	_	17	compound	_	_
 17	ڇڏائينم	_	VERB	_	_	8	advcl	_	_
@@ -11331,7 +11331,7 @@
 # text = گدڙ اتي سهي ڪيو ته هي ٻئي هڪٻئي کان ڊنل آهن .
 1	گدڙ	_	NOUN	_	_	4	nsubj	_	_
 2	اتي	_	ADV	_	_	4	advmod	_	_
-3	سهي	_	NOUN	_	_	4	compound	_	_
+3	سهي	_	VERB	_	_	4	compound	_	_
 4	ڪيو	_	VERB	_	_	0	root	_	_
 5	ته	_	SCONJ	_	_	10	mark	_	_
 6	هي	_	DET	_	_	7	det	_	_
@@ -11360,7 +11360,7 @@
 5	ته	_	SCONJ	_	_	4	mark	_	_
 6	:	_	PUNCT	_	_	11	punct	_	_
 7	جي	_	ADP	_	_	11	mark	_	_
-8	توتان	_	NOUN	_	_	11	obl	_	_
+8	توتان	_	PRON	_	_	11	obl	_	_
 9	اها	_	DET	_	_	10	det	_	_
 10	آفت	_	NOUN	_	_	11	obj	_	_
 11	ٽاريان	_	VERB	_	_	4	advcl	_	_
@@ -11382,7 +11382,7 @@
 
 # sent_id = 1411
 # text = رڳو هتان منهنجي جند ڇڏاءِ .
-1	رڳو	_	ADJ	_	_	4	amod	_	_
+1	رڳو	_	ADV	_	_	4	amod	_	_
 2	هتان	_	ADV	_	_	5	advmod	_	_
 3	منهنجي	_	PRON	_	_	4	nmod	_	_
 4	جند	_	NOUN	_	_	5	obj	_	_
@@ -11450,7 +11450,7 @@
 # sent_id = 1417
 # text = پر اوهان کي بچائڻ منهنجو فرض آهي ،
 1	پر	_	SCONJ	_	_	6	mark	_	_
-2	اوهان	_	DET	_	_	6	nmod	_	_
+2	اوهان	_	PRON	_	_	6	nmod	_	_
 3	کي	_	ADP	_	_	2	case	_	_
 4	بچائڻ	_	NOUN	_	_	6	nsubj	_	_
 5	منهنجو	_	PRON	_	_	6	nmod	_	_
@@ -11462,7 +11462,7 @@
 # text = جو توهين اسان جا بادشاهه آهيو .
 1	جو	_	ADP	_	_	5	mark	_	_
 2	توهين	_	PRON	_	_	5	nsubj	_	_
-3	اسان	_	DET	_	_	5	nmod	_	_
+3	اسان	_	PRON	_	_	5	nmod	_	_
 4	جا	_	ADP	_	_	3	case	_	_
 5	بادشاهه	_	NOUN	_	_	0	root	_	_
 6	آهيو	_	AUX	_	_	5	cop	_	_
@@ -11479,7 +11479,7 @@
 
 # sent_id = 1420
 # text = توهين لڪي لڪي هليا وڃو .
-1	توهين	_	NOUN	_	_	4	nsubj	_	_
+1	توهين	_	PROPN	_	_	4	nsubj	_	_
 2	لڪي	_	VERB	_	_	3	advcl	_	_
 3	لڪي	_	VERB	_	_	4	xcomp	_	_
 4	هليا	_	VERB	_	_	0	root	_	_
@@ -11548,7 +11548,7 @@
 # sent_id = 1424
 # text = تنهن تي گدڙ پڇيس ته : هي گرڙاٽ ڇا جو آهي ؟
 1	تنهن	_	ُPRON	_	_	4	obl	_	_
-2	تي	_	ADP	_	_	1	case	_	_
+2	تي	_	ADP	_	_	1	det	_	_
 3	گدڙ	_	NOUN	_	_	4	nsubj	_	_
 4	پڇيس	_	VERB	_	_	0	root	_	_
 5	ته	_	SCONJ	_	_	4	mark	_	_
@@ -11666,7 +11666,7 @@
 1	پر	_	SCONJ	_	_	5	mark	_	_
 2	اڪيلو	_	ADJ	_	_	5	advmod	_	_
 3	هرگز	_	ADV	_	_	5	advmod	_	_
-4	نه	_	PART	_	_	5	advmod	_	_
+4	نه	_	PART	_	_	5	dep	_	_
 5	هلندس	_	VERB	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -11686,7 +11686,7 @@
 12	شينهن	_	NOUN	_	_	16	nsubj	_	_
 13	به	_	ADP	_	_	12	case	_	_
 14	اچي	_	VERB	_	_	16	advcl	_	_
-15	گڏ	_	NOUN	_	_	16	compound	_	_
+15	گڏ	_	VERB	_	_	16	compound	_	_
 16	ٿين	_	VERB	_	_	9	advcl	_	_
 17	ته	_	SCONJ	_	_	22	mark	_	_
 18	پوءِ	_	ADP	_	_	16	mark	_	_
@@ -11787,7 +11787,7 @@
 # text = سو يڪدم ٽپ ڏيئي وڻ تي چڙهي ويهي رهيو .
 1	سو	_	PRON	_	_	8	nsubj	_	_
 2	يڪدم	_	ADV	_	_	4	advmod	_	_
-3	ٽپ	_	NOUN	_	_	4	obj	_	_
+3	ٽپ	_	VERB	_	_	4	obj	_	_
 4	ڏيئي	_	VERB	_	_	8	advcl	_	_
 5	وڻ	_	NOUN	_	_	7	obl	_	_
 6	تي	_	ADP	_	_	5	case	_	_
@@ -11850,7 +11850,7 @@
 1	۽	_	CCONJ	_	_	7	cc	_	_
 2	هڪٻئي	_	ADJ	_	_	5	obj	_	_
 3	کي	_	ADP	_	_	2	case	_	_
-4	ڊڊيون	_	NOUN	_	_	5	obj	_	_
+4	ڊڊيون	_	VERB	_	_	5	obj	_	_
 5	ڏيئي	_	VERB	_	_	7	advcl	_	_
 6	مٿي	_	ADV	_	_	7	advmod	_	_
 7	چڙهڻ	_	VERB	_	_	0	root	_	_
@@ -11913,7 +11913,7 @@
 # text = شينهن جي وڃڻ کان پوءِ دائي ،
 1	شينهن	_	NOUN	_	_	3	obj	_	_
 2	جي	_	ADP	_	_	1	case	_	_
-3	وڃڻ	_	VERB	_	_	6	advcl	_	_
+3	وڃڻ	_	VERB	_	_	6	nmod	_	_
 4	کان	_	ADP	_	_	3	mark	_	_
 5	پوءِ	_	ADP	_	_	3	mark	_	_
 6	دائي	_	VERB	_	_	0	root	_	_
@@ -11928,7 +11928,7 @@
 5	ته	_	SCONJ	_	_	4	mark	_	_
 6	:	_	PUNCT	_	_	4	punct	_	_
 7	وٺ	_	VERB	_	_	4	obj	_	_
-8	ڙي	_	INTJ	_	_	9	advmod	_	_
+8	ڙي	_	INTJ	_	_	9	dep	_	_
 9	پلونگڙا	_	VERB	_	_	4	conj	_	_
 10	،	_	PUNCT	_	_	9	punct	_	_
 
@@ -11945,7 +11945,7 @@
 # sent_id = 1457
 # text = اتفاق سان اڳيان شڪاري ٻن ڪتن سان پئي آيا ،
 1	اتفاق	_	NOUN	_	_	9	obl	_	_
-2	سان	_	ADP	_	_	1	case	_	_
+2	سان	_	ADP	_	_	1	mark	_	_
 3	اڳيان	_	ADV	_	_	9	advmod	_	_
 4	شڪاري	_	NOUN	_	_	9	nsubj	_	_
 5	ٻن	_	ADJ	_	_	6	amod	_	_
@@ -11993,7 +11993,7 @@
 # text = اهڙيءَ طرح دايو پنهنجي جان بچائي ، سلامتيءَ سان اچي گهر پهتو .
 1	اهڙيءَ	_	ADJ	_	_	2	amod	_	_
 2	طرح	_	NOUN	_	_	12	obl	_	_
-3	دايو	_	NOUN	_	_	6	nsubj	_	_
+3	دايو	_	PROPN	_	_	6	nsubj	_	_
 4	پنهنجي	_	PRON	_	_	5	nmod	_	_
 5	جان	_	NOUN	_	_	6	obj	_	_
 6	بچائي	_	VERB	_	_	12	advcl	_	_
@@ -12021,8 +12021,8 @@
 12	مان	_	ADP	_	_	11	case	_	_
 13	عبدالرزاق	_	PROPN	_	_	17	nmod	_	_
 14	۽	_	CCONJ	_	_	16	cc	_	_
-15	غلام	_	NOUN	_	_	16	compound	_	_
-16	رسول	_	NOUN	_	_	13	conj	_	_
+15	غلام	_	PROPN	_	_	16	compound	_	_
+16	رسول	_	PRON	_	_	13	conj	_	_
 17	جتوئي	_	NOUN	_	_	26	conj	_	_
 18	کان	_	ADP	_	_	17	case	_	_
 19	،	_	PUNCT	_	_	17	punct	_	_
@@ -12030,7 +12030,7 @@
 21	تعلقي	_	NOUN	_	_	22	nmod	_	_
 22	عمرڪوٽ	_	PROPN	_	_	37	obl	_	_
 23	مان	_	ADP	_	_	22	case	_	_
-24	الهه	_	NOUN	_	_	26	compound	_	_
+24	الهه	_	PROPN	_	_	26	compound	_	_
 25	بچائي	_	PROPN	_	_	26	compound	_	_
 26	ساند	_	NOUN	_	_	37	obl	_	_
 27	کان	_	ADP	_	_	26	case	_	_
@@ -12061,7 +12061,7 @@
 11	مان	_	ADP	_	_	10	case	_	_
 12	ولي	_	PROPN	_	_	14	compound	_	_
 13	محمد	_	PROPN	_	_	14	compound	_	_
-14	طاهرزادي	_	NOUN	_	_	30	obl	_	_
+14	طاهرزادي	_	PROPN	_	_	30	obl	_	_
 15	۽	_	CCONJ	_	_	17	cc	_	_
 16	تعلقي	_	NOUN	_	_	17	nmod	_	_
 17	شهدادپور	_	PROPN	_	_	14	conj	_	_
@@ -12070,7 +12070,7 @@
 20	بلوچ	_	NOUN	_	_	14	conj	_	_
 21	کان	_	ADP	_	_	20	case	_	_
 22	۽	_	CCONJ	_	_	20	cc	_	_
-23	لاڙ	_	NOUN	_	_	25	nmod	_	_
+23	لاڙ	_	PROPN	_	_	25	nmod	_	_
 24	تعلقي	_	NOUN	_	_	25	nmod	_	_
 25	ٺٽي	_	PROPN	_	_	30	obl	_	_
 26	مان	_	ADP	_	_	25	case	_	_
@@ -12140,7 +12140,7 @@
 17	منصوبي	_	NOUN	_	_	20	nmod	_	_
 18	تي	_	ADP	_	_	17	case	_	_
 19	عمل	_	NOUN	_	_	20	compound	_	_
-20	درآمد	_	NOUN	_	_	22	nmod	_	_
+20	درآمد	_	VERB	_	_	22	nmod	_	_
 21	جي	_	ADP	_	_	20	case	_	_
 22	حوالي	_	NOUN	_	_	33	obl	_	_
 23	سان	_	ADP	_	_	22	case	_	_
@@ -12176,7 +12176,7 @@
 16	مقرر	_	NOUN	_	_	17	compound	_	_
 17	ڪيل	_	VERB	_	_	18	acl	_	_
 18	حصو	_	NOUN	_	_	21	obj	_	_
-19	خرچ	_	NOUN	_	_	21	compound	_	_
+19	خرچ	_	VERB	_	_	21	compound	_	_
 20	نه	_	PART	_	_	21	advmod	_	_
 21	ڪندا	_	VERB	_	_	31	advcl	_	_
 22	ته	_	SCONJ	_	_	31	mark	_	_
@@ -12224,7 +12224,7 @@
 # sent_id = 1469
 # text = جنهن تحت منطور ٿيل ترقياتي منصوبن لاءِ مالي سال جي پهرين ۽ ٻئي 3 ماهي ۾ وڌ ۾ وڌ سيلنگ 20 سيڪڙو ،
 1	جنهن	_	PRON	_	_	4	obl	_	_
-2	تحت	_	ADP	_	_	1	case	_	_
+2	تحت	_	ADP	_	_	1	det	_	_
 3	منطور	_	ADJ	_	_	4	compound	_	_
 4	ٿيل	_	VERB	_	_	6	acl	_	_
 5	ترقياتي	_	NOUN	_	_	6	nmod	_	_
@@ -12412,7 +12412,7 @@
 18	بااختيار	_	ADJ	_	_	19	amod	_	_
 19	عملدار	_	NOUN	_	_	21	nmod	_	_
 20	جي	_	ADP	_	_	19	case	_	_
-21	صحيح	_	ADJ	_	_	23	xcomp	_	_
+21	صحيح	_	NOUN	_	_	23	xcomp	_	_
 22	لازمي	_	NOUN	_	_	23	xcomp	_	_
 23	هوندي	_	VERB	_	_	0	root	_	_
 24	،	_	PUNCT	_	_	23	punct	_	_
@@ -12452,7 +12452,7 @@
 # sent_id = 1479
 # text = جنهن لاءِ پرنسپل اڪائونٽنگ آفيسر منصوبي تي عمل درآمد جي حوالي سان مطمئين هئڻ جي حوالي سان سرٽيفڪيٽ ڏيندو ،
 1	جنهن	_	PRON	_	_	19	obl	_	_
-2	لاءِ	_	ADP	_	_	1	case	_	_
+2	لاءِ	_	ADP	_	_	1	det	_	_
 3	پرنسپل	_	NOUN	_	_	4	nmod	_	_
 4	اڪائونٽنگ	_	NOUN	_	_	5	nmod	_	_
 5	آفيسر	_	NOUN	_	_	19	nsubj	_	_
@@ -12463,7 +12463,7 @@
 10	جي	_	ADP	_	_	9	case	_	_
 11	حوالي	_	NOUN	_	_	14	obl	_	_
 12	سان	_	ADP	_	_	11	case	_	_
-13	مطمئين	_	ADJ	_	_	14	acl	_	_
+13	مطمئين	_	ADJ	_	_	14	xcomp	_	_
 14	هئڻ	_	VERB	_	_	16	nmod	_	_
 15	جي	_	ADP	_	_	14	mark	_	_
 16	حوالي	_	NOUN	_	_	19	obl	_	_
@@ -12484,7 +12484,7 @@
 8	جن	_	DET	_	_	18	obl	_	_
 9	لاءِ	_	ADP	_	_	8	case	_	_
 10	فنڊ	_	NOUN	_	_	23	nsubj	_	_
-11	مڪمل	_	ADJ	_	_	12	amod	_	_
+11	مڪمل	_	ADJ	_	_	12	case	_	_
 12	طور	_	NOUN	_	_	18	obl	_	_
 13	يا	_	CCONJ	_	_	15	cc	_	_
 14	حصي	_	NOUN	_	_	15	nmod	_	_
@@ -12740,7 +12740,7 @@
 
 # sent_id = 1495
 # text = اسان جا ماڻهو به عجيب طبيعت جا ٿي ويا آهن ،
-1	اسان	_	DET	_	_	3	det	_	_
+1	اسان	_	PRON	_	_	3	nmod	_	_
 2	جا	_	ADP	_	_	1	det	_	_
 3	ماڻهو	_	NOUN	_	_	9	nsubj	_	_
 4	به	_	ADP	_	_	3	case	_	_
@@ -12819,7 +12819,7 @@
 10	لاءِ	_	ADP	_	_	9	case	_	_
 11	آواز	_	NOUN	_	_	12	nsubj	_	_
 12	پيا	_	VERB	_	_	4	advcl	_	_
-13	اچن	_	VERB	_	_	12	aux	_	_
+13	اچن	_	VERB	_	_	12	compound	_	_
 14	.	_	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 1500
@@ -12978,7 +12978,7 @@
 # sent_id = 1509
 # text = تاريخي ساڌ ٻيلو ، جيڪو سنڌو وچ ۾ سکر بئراج کان صرف هڪ ڪلوميٽر مٿين پاسي آهي ،
 1	تاريخي	_	ADJ	_	_	2	amod	_	_
-2	ساڌ	_	NOUN	_	_	3	nmod	_	_
+2	ساڌ	_	PROPN	_	_	3	nmod	_	_
 3	ٻيلو	_	NOUN	_	_	16	nsubj	_	_
 4	،	_	PUNCT	_	_	3	punct	_	_
 5	جيڪو	_	PRON	_	_	16	nsubj	_	_
