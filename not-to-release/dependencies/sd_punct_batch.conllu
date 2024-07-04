@@ -1,6 +1,6 @@
 # sent_id = 32
 # text = سڌو شينهڻ وٽ آيو ۽ اچڻ سان هڪل ڪري چيائيس ته: او رَن! هـَـل، هلي پنهنجي نـَـر جو حال ڏس، جو ٽوڪون پئي ڪيئي ته ”مير خان اسان جي مهماني ته کاءُ.
-1	سڌو	_	ADJ	_	_	2	amod	_	_
+1	سڌو	_	ADV	_	_	2	amod	_	_
 2	شينهڻ	_	NOUN	_	_	4	obl	_	_
 3	وٽ	_	ADP	_	_	2	case	_	_
 4	آيو	_	VERB	_	_	0	root	_	_
@@ -295,7 +295,7 @@
 
 # sent_id = 263
 # text = اي منهنجا دوست! تون انجام ڪر ته مون کي ڪڏهن به ڇڏي نه ويندين.
-1	اي	_	ADV	_	_	7	advmod	_	_
+1	اي	_	INTJ	_	_	7	punct	_	_
 2	منهنجا	_	PRON	_	_	3	nmod	_	_
 3	دوست	_	NOUN	_	_	7	nsubj	_	SpaceAfter=No
 4	!	_	SYM	_	_	3	punct	_	_
@@ -587,7 +587,7 @@
 
 # sent_id = 309
 # text = اڙي جلاد! پهرين هن کي ڦاهيءَ تي چاڙهه.
-1	اڙي	_	VERB	_	_	2	nmod	_	_
+1	اڙي	_	VERB	_	_	2	punct	_	_
 2	جلاد	_	NOUN	_	_	9	nsubj	_	SpaceAfter=No
 3	!	_	SYM	_	_	2	punct	_	_
 4	پهرين	_	ADJ	_	_	5	amod	_	_
@@ -649,7 +649,7 @@
 # sent_id = 429
 # text = ميان سانڊا! آءٌ پاڻ جهڙن سان وڙهندو آهيان.
 1	ميان	_	NOUN	_	_	2	nmod	_	_
-2	سانڊا	_	INTJ	_	_	8	nsubj	_	SpaceAfter=No
+2	سانڊا	_	NOUN	_	_	8	nsubj	_	SpaceAfter=No
 3	!	_	SYM	_	_	2	punct	_	_
 4	آءٌ	_	PRON	_	_	8	nsubj	_	_
 5	پاڻ	_	PRON	_	_	6	nmod	_	_
@@ -855,7 +855,7 @@
 5	ته	_	SCONJ	_	_	4	mark	_	_
 6	هڪ	_	NUM	_	_	7	nummod	_	_
 7	بيدو	_	NOUN	_	_	9	nsubj	_	_
-8	بولاٽيون	_	NOUN	_	_	9	obj	_	_
+8	بولاٽيون	_	VERB	_	_	9	obj	_	_
 9	کائيندو	_	VERB	_	_	14	advcl	_	SpaceAfter=No
 10	،	_	PUNCT	_	_	9	punct	_	_
 11	ان	_	DET	_	_	13	nmod	_	_
@@ -1080,7 +1080,7 @@
 
 # sent_id = 950
 # text = اڙي منهنجيون اکيون! ائين چئي وٺي کامي ڏانهن ڀڳو.
-1	اڙي	_	INTJ	_	_	10	nsubj	_	_
+1	اڙي	_	INTJ	_	_	10	punct	_	_
 2	منهنجيون	_	PRON	_	_	3	nmod	_	_
 3	اکيون	_	NOUN	_	_	10	nsubj	_	SpaceAfter=No
 4	!	_	SYM	_	_	3	punct	_	_
@@ -1299,7 +1299,7 @@
 1	لومڙيءَ	_	PROPN	_	_	2	nsubj	_	_
 2	چيس	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	،	_	PUNCT	_	_	2	punct	_	_
-4	ڪراڙي	_	INTJ	_	_	2	mark	_	SpaceAfter=No
+4	ڪراڙي	_	NOUN	_	_	2	mark	_	SpaceAfter=No
 5	!	_	SYM	_	_	4	punct	_	_
 6	آءٌ	_	PRON	_	_	10	nsubj	_	_
 7	ڏهن	_	NUM	_	_	8	nummod	_	_
@@ -1870,9 +1870,9 @@
 
 # sent_id = 2575
 # text = ڀڄ ڙي ڀڄ، گدڙ! جهنگ ۾ اڄ اهڙو ته خوفناڪ ڀوت آيو آهي،
-1	ڀڄ	_	NOUN	_	_	2	nsubj	_	_
-2	ڙي	_	VERB	_	_	3	amod	_	_
-3	ڀڄ	_	NOUN	_	_	14	nsubj	_	SpaceAfter=No
+1	ڀڄ	_	VERB	_	_	2	nsubj	_	_
+2	ڙي	_	VERB	_	_	3	punct	_	_
+3	ڀڄ	_	VERB	_	_	14	nsubj	_	SpaceAfter=No
 4	،	_	PUNCT	_	_	3	punct	_	_
 5	گدڙ	_	NOUN	_	_	14	nsubj	_	SpaceAfter=No
 6	!	_	SYM	_	_	5	punct	_	_
@@ -1961,7 +1961,7 @@
 
 # sent_id = 2867
 # text = ايتري ۾ سندس مالڪ آيو ۽ پڇڻ لڳس، پـُٽ! اڄ تون ايترو ڌيان سان ڇا پيو سوچين؟ مڪاٽو پنهنجو ننڍو هٿ کڻي اُتر- اوڀر پاسي اشارو ڪندي جواب ڏنو،
-1	ايتري	_	ADJ	_	_	5	obl	_	_
+1	ايتري	_	ADV	_	_	5	obl	_	_
 2	۾	_	ADP	_	_	5	mark	_	_
 3	سندس	_	PRON	_	_	4	nmod	_	_
 4	مالڪ	_	NOUN	_	_	5	nsubj	_	_
@@ -1981,7 +1981,7 @@
 18	پيو	_	VERB	_	_	19	xcomp	_	_
 19	سوچين	_	VERB	_	_	8	obj	_	SpaceAfter=No
 20	؟	_	PUNCT	_	_	19	punct	_	_
-21	مڪاٽو	_	NOUN	_	_	25	nsubj	_	_
+21	مڪاٽو	_	PROPN	_	_	25	nsubj	_	_
 22	پنهنجو	_	PRON	_	_	24	nmod	_	_
 23	ننڍو	_	ADJ	_	_	24	amod	_	_
 24	هٿ	_	NOUN	_	_	25	obj	_	_
@@ -2014,7 +2014,7 @@
 14	مان	_	ADP	_	_	13	case	_	_
 15	چلڪو	_	NOUN	_	_	18	obj	_	_
 16	۽	_	CCONJ	_	_	17	cc	_	_
-17	چمڪو	_	ADJ	_	_	15	conj	_	_
+17	چمڪو	_	NOUN	_	_	15	conj	_	_
 18	ڏسڻ	_	VERB	_	_	20	advcl	_	_
 19	۾	_	ADP	_	_	18	mark	_	_
 20	آيو	_	VERB	_	_	6	advcl	_	SpaceAfter=No
@@ -2074,7 +2074,7 @@
 4	تون	_	PRON	_	_	10	nsubj	_	_
 5	سچ	_	NOUN	_	_	6	nmod	_	_
 6	پچ	_	NOUN	_	_	10	obl	_	_
-7	’مـُون‘	_	NOUN	_	_	8	nmod	_	_
+7	’مـُون‘	_	PROPN	_	_	8	nmod	_	_
 8	شهر	_	NOUN	_	_	10	obl	_	_
 9	مان	_	ADP	_	_	8	case	_	_
 10	آيو	_	VERB	_	_	0	root	_	_
@@ -2162,7 +2162,7 @@
 4	،	_	PUNCT	_	_	5	punct	_	_
 5	سلاد	_	NOUN	_	_	14	nsubj	_	SpaceAfter=No
 6	!	_	SYM	_	_	5	punct	_	_
-7	اهڙا	_	ADJ	_	_	10	amod	_	_
+7	اهڙا	_	DET	_	_	10	det	_	_
 8	ننڍا	_	ADJ	_	_	10	amod	_	_
 9	ننڍا	_	ADJ	_	_	10	amod	_	_
 10	ٻوٽا	_	NOUN	_	_	14	nsubj	_	_
@@ -2612,7 +2612,7 @@
 # text = هنن وزيراعظم چرچل کي عوام جي مايوسين کان آگاهه ڪيو ۽ پڇيو ته ”جناب وزيراعظم! برطانيه جو ڇا مستقبل آهي.
 1	هنن	_	PRON	_	_	10	nsubj	_	_
 2	وزيراعظم	_	NOUN	_	_	3	nmod	_	_
-3	چرچل	_	NOUN	_	_	10	obj	_	_
+3	چرچل	_	PROPN	_	_	10	obj	_	_
 4	کي	_	ADP	_	_	3	case	_	_
 5	عوام	_	NOUN	_	_	7	nmod	_	_
 6	جي	_	ADP	_	_	5	case	_	_
@@ -2643,7 +2643,7 @@
 5	ڳالهائي	_	VERB	_	_	11	advcl	_	_
 6	چڪا	_	VERB	_	_	5	compound	_	_
 7	ته	_	SCONJ	_	_	11	mark	_	_
-8	چرچل	_	NOUN	_	_	11	nsubj	_	_
+8	چرچل	_	PROPN	_	_	11	nsubj	_	_
 9	هنن	_	PRON	_	_	11	obl	_	_
 10	کان	_	ADP	_	_	9	case	_	_
 11	پڇيو	_	VERB	_	_	0	root	_	_
@@ -2774,7 +2774,7 @@
 5	ڪڏهن	_	ADV	_	_	13	obl	_	_
 6	وقت	_	NOUN	_	_	9	nmod	_	_
 7	جي	_	ADP	_	_	6	case	_	_
-8	بي	_	ADJ	_	_	9	amod	_	_
+8	بي	_	NOUN	_	_	9	compound	_	_
 9	رحمي	_	NOUN	_	_	13	obl	_	_
 10	تي	_	ADP	_	_	9	case	_	_
 11	قربان	_	NOUN	_	_	13	compound	_	_
@@ -3132,10 +3132,10 @@
 18	سائين	_	NOUN	_	_	28	nsubj	_	SpaceAfter=No
 19	،	_	PUNCT	_	_	18	punct	_	_
 20	نوان	_	ADJ	_	_	21	amod	_	_
-21	ڏهه	_	NOUN	_	_	28	nsubj	_	_
+21	ڏهه	_	NUM	_	_	28	nsubj	_	_
 22	يا	_	CCONJ	_	_	24	cc	_	_
-23	پراڻا	_	ADJ	_	_	24	amod	_	_
-24	ڏهه	_	NOUN	_	_	21	conj	_	SpaceAfter=No
+23	پراڻا	_	ADJ	_	_	24	nummod	_	_
+24	ڏهه	_	NUM	_	_	21	conj	_	SpaceAfter=No
 25	؟	_	PUNCT	_	_	24	punct	_	SpaceAfter=No
 26	“	_	PUNCT	_	_	24	punct	_	_
 27	سوال	_	NOUN	_	_	28	obj	_	_
@@ -3156,7 +3156,7 @@
 2	شادين	_	NOUN	_	_	11	obl	_	SpaceAfter=No
 3	،	_	PUNCT	_	_	6	punct	_	_
 4	اين	_	NOUN	_	_	6	nmod	_	_
-5	جي	_	ADP	_	_	6	punct	_	_
+5	جي	_	NOUN	_	_	6	punct	_	_
 6	اوز	_	NOUN	_	_	2	conj	_	_
 7	يا	_	CCONJ	_	_	10	cc	_	_
 8	ادب	_	NOUN	_	_	10	nmod	_	_
@@ -3234,7 +3234,7 @@
 11	گهڙين	_	NOUN	_	_	20	obl	_	_
 12	مان	_	ADP	_	_	11	case	_	_
 13	جيڪي	_	PRON	_	_	20	nsubj	_	_
-14	ويهه	_	ADJ	_	_	16	amod	_	_
+14	ويهه	_	NUM	_	_	16	nummod	_	_
 15	پنجويهه	_	NUM	_	_	16	nummod	_	_
 16	هزار	_	NOUN	_	_	17	nmod	_	_
 17	ميگا	_	NOUN	_	_	18	nmod	_	_
@@ -3294,8 +3294,8 @@
 # text = پر ڇا هليري ڪلنٽن آمريڪي پرڏيهي پاليسيءَ جي حوالي سان اهڙي قانونسازي جو واعدو ڪري سگهي ٿي ته جيئن آئنده آمريڪا دنيا ۾ آمريتن جي حمايت نه ڪري ۽ جمهوري حڪومتن جي تڏا ويڙهه نه ڪرائي سگهي؟!! ڪيتريون شگر ملون اڄ کان پيڙائي شروع ڪري سگهنديون؟ صرف ارباب حڪومت ئي نه هئي،
 1	پر	_	SCONJ	_	_	15	mark	_	_
 2	ڇا	_	PRON	_	_	15	obl	_	_
-3	هليري	_	NOUN	_	_	4	nmod	_	_
-4	ڪلنٽن	_	NOUN	_	_	15	nsubj	_	_
+3	هليري	_	PROPN	_	_	4	nmod	_	_
+4	ڪلنٽن	_	PROPN	_	_	15	nsubj	_	_
 5	آمريڪي	_	ADJ	_	_	7	amod	_	_
 6	پرڏيهي	_	ADJ	_	_	7	amod	_	_
 7	پاليسيءَ	_	NOUN	_	_	9	nmod	_	_
@@ -3405,7 +3405,7 @@
 17	تي	_	ADP	_	_	16	case	_	_
 18	ڪاوش	_	PROPN	_	_	20	nmod	_	_
 19	جي	_	ADP	_	_	18	case	_	_
-20	هائيڊپارڪ	_	NOUN	_	_	10	obl	_	_
+20	هائيڊپارڪ	_	PROPN	_	_	10	obl	_	_
 21	۾	_	ADP	_	_	20	case	_	_
 22	ڊاڪٽر	_	NOUN	_	_	25	nmod	_	_
 23	راجيش	_	PROPN	_	_	25	compound	_	_
@@ -3473,8 +3473,8 @@
 
 # sent_id = 5806
 # text = گل شير اوڏ/ڪراچي ڦٽاڪن کان پريشان شهري! اسان جي هڪ لک آباديءَ واري شهر ماتلي ۾ ڏينهن توڙي رات جو دير تائين شادين ۾ هوائي فائرنگ ٿيڻ، ڦٽاڪن فاٽڻ ۽ فضا ۾ آتشبازي ڪرڻ هڪ معمول بڻجي ويو آهي.
-1	گل	_	NOUN	_	_	3	compound	_	_
-2	شير	_	NOUN	_	_	3	nmod	_	_
+1	گل	_	PROPN	_	_	3	compound	_	_
+2	شير	_	PROPN	_	_	3	nmod	_	_
 3	اوڏ	_	PROPN	_	_	9	nmod	_	SpaceAfter=No
 4	/	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 5	ڪراچي	_	PROPN	_	_	6	nmod	_	_
@@ -3681,7 +3681,7 @@
 7	اصطلاح	_	NOUN	_	_	11	obl	_	_
 8	لاءِ	_	ADP	_	_	7	case	_	_
 9	Johannes	_	PROPN	_	_	10	nmod	_	_
-10	Becher	_	NOUN	_	_	11	nsubj	_	_
+10	Becher	_	PROPN	_	_	11	nsubj	_	_
 11	لکيو	_	VERB	_	_	0	root	_	_
 12	آهي	_	AUX	_	_	11	aux	_	_
 13	ته	_	SCONJ	_	_	11	mark	_	SpaceAfter=No
@@ -3804,7 +3804,7 @@
 50	۾	_	ADP	_	_	49	case	_	_
 51	هومر	_	PROPN	_	_	72	nmod	_	SpaceAfter=No
 52	،	_	PUNCT	_	_	53	punct	_	_
-53	دانتي	_	NOUN	_	_	51	conj	_	SpaceAfter=No
+53	دانتي	_	PROPN	_	_	51	conj	_	SpaceAfter=No
 54	،	_	PUNCT	_	_	53	punct	_	_
 55	شيڪسپيئر	_	PROPN	_	_	51	conj	_	SpaceAfter=No
 56	،	_	PUNCT	_	_	57	punct	_	_
@@ -3853,7 +3853,7 @@
 9	انعام	_	NOUN	_	_	12	nmod	_	_
 10	يافته	_	ADJ	_	_	12	amod	_	_
 11	بورس	_	PROPN	_	_	12	compound	_	_
-12	پيسترنڪ	_	NOUN	_	_	22	nsubj	_	_
+12	پيسترنڪ	_	PROPN	_	_	22	nsubj	_	_
 13	جڏهن	_	ADV	_	_	18	advmod	_	_
 14	حڪومت	_	NOUN	_	_	16	nmod	_	_
 15	جي	_	ADP	_	_	14	case	_	_
@@ -3895,7 +3895,7 @@
 # sent_id = 4280
 # text = "شاهنامو" به اهڙي طرح هڪ جيئرو جاڳندو شاهڪار آهي جو اڄ به اوڀر توڙي اولهه جي پڙهندڙن جي لاءِ دلچسپيءَ جو سبب آهي،
 1	"	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	شاهنامو	_	NOUN	_	_	10	nsubj	_	SpaceAfter=No
+2	شاهنامو	_	PROPN	_	_	10	nsubj	_	SpaceAfter=No
 3	"	_	PUNCT	_	_	2	punct	_	_
 4	به	_	ADP	_	_	2	case	_	_
 5	اهڙي	_	DET	_	_	6	det	_	_
@@ -3924,7 +3924,7 @@
 # sent_id = 4351
 # text = ايذرا پائونڊ مطابق: "جيڪو دور تخليقي ادب جي لحاظ کان عظيم هوندو آهي،
 1	ايذرا	_	PROPN	_	_	2	compound	_	_
-2	پائونڊ	_	NOUN	_	_	14	obl	_	_
+2	پائونڊ	_	PROPN	_	_	14	obl	_	_
 3	مطابق	_	ADP	_	_	2	case	_	SpaceAfter=No
 4	:	_	PUNCT	_	_	2	punct	_	_
 5	"	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -3942,7 +3942,7 @@
 
 # sent_id = 4673
 # text = هاڻوڪي محرم الحرام جي مناسبت سان پاڪستان ۾ وڌندڙ دهشتگرديءَ جي واقعن کي آڏو رکندي سخت اپاءَ ورتا ويا هئا ۽ سمورو ملڪ "هاءِ الرٽ" بنايو ويو هو.
-1	هاڻوڪي	_	ADJ	_	_	3	amod	_	_
+1	هاڻوڪي	_	ADV	_	_	3	amod	_	_
 2	محرم	_	PROPN	_	_	3	compound	_	_
 3	الحرام	_	PROPN	_	_	5	nmod	_	_
 4	جي	_	ADP	_	_	3	case	_	_
