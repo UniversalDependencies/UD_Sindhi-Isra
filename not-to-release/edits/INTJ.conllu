@@ -1,11 +1,10 @@
 # sent_id = 1044
 # text = شينهڻ چين ته : خبردار ، هو ڏسو ٿا ؟
-# semgrex pattern |{cpos:INTJ}| matched at 5:خبردار
 1	شينهڻ	_	NOUN	_	_	2	nsubj	_	_
 2	چين	_	VERB	_	_	0	root	_	_
 3	ته	_	SCONJ	_	_	2	mark	_	_
 4	:	_	PUNCT	_	_	2	punct	_	_
-5	خبردار	_	INTJ	_	_	8	obl	_	_
+5	خبردار	_	INTJ	_	_	8	discourse	_	_
 6	،	_	PUNCT	_	_	5	punct	_	_
 7	هو	_	DET	_	_	8	det	_	_
 8	ڏسو	_	VERB	_	_	2	obj	_	_
@@ -14,36 +13,32 @@
 
 # sent_id = 1394
 # text = چي : مار ،
-# semgrex pattern |{cpos:INTJ}| matched at 3:مار
 1	چي	_	VERB	_	_	0	root	_	_
 2	:	_	PUNCT	_	_	1	punct	_	_
-3	مار	_	INTJ	_	_	1	compound	_	_
+3	مار	_	INTJ	_	_	1	discourse	_	_
 4	،	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 1454
 # text = گدڙ کي ڏسي چيو ته : وٺ ڙي پلونگڙا ،
-# semgrex pattern |{cpos:INTJ}| matched at 8:ڙي
 1	گدڙ	_	NOUN	_	_	3	obj	_	_
 2	کي	_	ADP	_	_	1	case	_	_
 3	ڏسي	_	VERB	_	_	4	advcl	_	_
 4	چيو	_	VERB	_	_	0	root	_	_
 5	ته	_	SCONJ	_	_	4	mark	_	_
 6	:	_	PUNCT	_	_	4	punct	_	_
-7	وٺ	_	VERB	_	_	4	obj	_	_
-8	ڙي	_	INTJ	_	_	9	dep	_	_
-9	پلونگڙا	_	VERB	_	_	4	conj	_	_
+7	وٺ	_	VERB	_	_	4	ccomp	_	_
+8	ڙي	_	INTJ	_	_	7	discourse	_	_
+9	پلونگڙا	_	NOUN	_	_	7	obj	_	_
 10	،	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 516
 # text = اي يسوع!
-# semgrex pattern |{cpos:INTJ}| matched at 1:اي
 1	اي	_	INTJ	_	_	2	dep	_	_
 2	يسوع!	_	VERB	_	_	0	root	_	_
 
 # sent_id = 5715
 # text = افسوس جو ان ۾ ماهوار وظيفي جو ڪٿي به ذڪر ڪونهي.
-# semgrex pattern |{cpos:INTJ}| matched at 1:افسوس
-1	افسوس	_	INTJ	_	_	10	obl	_	_
+1	افسوس	_	INTJ	_	_	10	discourse	_	_
 2	جو	_	ADP	_	_	1	case	_	_
 3	ان	_	PRON	_	_	10	nmod	_	_
 4	۾	_	ADP	_	_	3	case	_	_
@@ -58,10 +53,9 @@
 
 # sent_id = 159
 # text = اوهان کي او سائين وساري نه سگھبو .
-# semgrex pattern |{cpos:INTJ}| matched at 3:او
 1	اوهان	اوهان	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
 2	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	1	case	_	_
-3	او	او	INTJ	-__نامعلوم	Number=Sing	5	vocative	_	_
+3	او	او	INTJ	-__نامعلوم	Number=Sing	5	discourse	_	_
 4	سائين	سائين	NOUN	JJ__صفت	Case=Nom|Number=Sing|Person=2	5	obj	_	_
 5	وساري	وسار	VERB	VB__فعل	Case=Acc|Number=Sing	0	root	_	_
 6	نه	نه	PART	RB__ظرف	Number=Sing	5	advmod	_	_
@@ -70,7 +64,6 @@
 
 # sent_id = 847
 # text = ٽوڪرين ٺاهڻ وارو وري رڙيون ڪرڻ لڳو، اڙي آهي ڪو، جيڪو مون کي بچائي، آءٌ انجام ڪريان ٿو ته جيڪو مون کي هن وڻ تان هيٺ لاهيندو، آءٌ انهيءَ جي ساري ڄمار خدمت ڪندس.
-# semgrex pattern |{cpos:INTJ}| matched at 9:اڙي
 1	ٽوڪرين	_	NOUN	_	_	2	obj	_	_
 2	ٺاهڻ	_	VERB	_	_	7	advcl	_	_
 3	وارو	_	ADP	_	_	2	mark	_	_
@@ -79,9 +72,9 @@
 6	ڪرڻ	_	VERB	_	_	7	xcomp	_	_
 7	لڳو	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	،	_	PUNCT	_	_	7	punct	_	_
-9	اڙي	_	INTJ	_	_	7	xcomp	_	_
-10	آهي	_	AUX	_	_	9	cop	_	_
-11	ڪو	_	DET	_	_	16	det	_	SpaceAfter=No
+9	اڙي	_	INTJ	_	_	7	discourse	_	_
+10	آهي	_	AUX	_	_	11	cop	_	_
+11	ڪو	_	PRON	_	_	7	xcomp	_	SpaceAfter=No
 12	،	_	PUNCT	_	_	11	punct	_	_
 13	جيڪو	_	DET	_	_	16	det	_	_
 14	مون	_	PRON	_	_	16	obj	_	_
@@ -113,7 +106,6 @@
 
 # sent_id = 32
 # text = سڌو شينهڻ وٽ آيو ۽ اچڻ سان هڪل ڪري چيائيس ته: او رَن! هـَـل، هلي پنهنجي نـَـر جو حال ڏس، جو ٽوڪون پئي ڪيئي ته ”مير خان اسان جي مهماني ته کاءُ.
-# semgrex pattern |{cpos:INTJ}| matched at 13:او
 1	سڌو	_	ADV	_	_	2	amod	_	_
 2	شينهڻ	_	NOUN	_	_	4	obl	_	_
 3	وٽ	_	ADP	_	_	2	case	_	_
@@ -126,7 +118,7 @@
 10	چيائيس	_	VERB	_	_	4	conj	_	_
 11	ته	_	SCONJ	_	_	10	mark	_	SpaceAfter=No
 12	:	_	PUNCT	_	_	10	punct	_	_
-13	او	_	INTJ	_	_	16	nsubj	_	_
+13	او	_	INTJ	_	_	16	discourse	_	_
 14	رَن	_	NOUN	_	_	16	nsubj	_	SpaceAfter=No
 15	!	_	SYM	_	_	16	punct	_	_
 16	هـَـل	_	VERB	_	_	10	advcl	_	SpaceAfter=No
@@ -151,11 +143,10 @@
 35	مهماني	_	NOUN	_	_	37	obj	_	_
 36	ته	_	SCONJ	_	_	35	dep	_	_
 37	کاءُ	_	VERB	_	_	28	advcl	_	SpaceAfter=No
-38	.	_	PUNCT	_	_	37	punct	_	SpaceAfter=No
+38	.	_	PUNCT	_	_	37	punct	_	_
 
 # sent_id = 125
 # text = ۽ اتي بيهي چوڻ لڳو ته: خبردار! هاڻي مان راڳ ڪريان ٿو،
-# semgrex pattern |{cpos:INTJ}| matched at 8:خبردار
 1	۽	_	CCONJ	_	_	5	cc	_	_
 2	اتي	_	ADV	_	_	3	advmod	_	_
 3	بيهي	_	VERB	_	_	5	advcl	_	_
@@ -163,7 +154,7 @@
 5	لڳو	_	VERB	_	_	0	root	_	_
 6	ته	_	SCONJ	_	_	5	mark	_	SpaceAfter=No
 7	:	_	PUNCT	_	_	5	punct	_	_
-8	خبردار	_	INTJ	_	_	13	nsubj	_	SpaceAfter=No
+8	خبردار	_	INTJ	_	_	5	discourse	_	SpaceAfter=No
 9	!	_	SYM	_	_	8	punct	_	_
 10	هاڻي	_	ADV	_	_	13	advmod	_	_
 11	مان	_	PRON	_	_	13	nsubj	_	_
@@ -174,8 +165,7 @@
 
 # sent_id = 263
 # text = اي منهنجا دوست! تون انجام ڪر ته مون کي ڪڏهن به ڇڏي نه ويندين.
-# semgrex pattern |{cpos:INTJ}| matched at 1:اي
-1	اي	_	INTJ	_	_	7	punct	_	_
+1	اي	_	INTJ	_	_	7	discourse	_	_
 2	منهنجا	_	PRON	_	_	3	nmod	_	_
 3	دوست	_	NOUN	_	_	7	nsubj	_	SpaceAfter=No
 4	!	_	SYM	_	_	3	punct	_	_
@@ -194,24 +184,22 @@
 
 # sent_id = 265
 # text = ڪڏهن به نه مهاراج! ڪڏهن به نه.
-# semgrex pattern |{cpos:INTJ}| matched at 4:مهاراج
 1	ڪڏهن	_	ADV	_	_	4	advmod	_	_
-2	به	_	ADP	_	_	1	case	_	_
-3	نه	_	PART	_	_	1	dep	_	_
-4	مهاراج	_	INTJ	_	_	0	root	_	SpaceAfter=No
+2	به	_	PART	_	_	1	dep	_	_
+3	نه	_	PART	_	_	1	advmod	_	_
+4	مهاراج	_	NOUN	_	_	0	root	_	SpaceAfter=No
 5	!	_	SYM	_	_	4	punct	_	_
 6	ڪڏهن	_	ADV	_	_	4	advmod	_	_
-7	به	_	ADP	_	_	6	case	_	_
-8	نه	_	PART	_	_	6	dep	_	SpaceAfter=No
+7	به	_	PART	_	_	6	dep	_	_
+8	نه	_	PART	_	_	6	advmod	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 409
 # text = چيتي چيس، سانڊا! اڄ رات جي مانيءَ ۾ توکي کائيندس.
-# semgrex pattern |{cpos:INTJ}| matched at 4:سانڊا
 1	چيتي	_	NOUN	_	_	2	nsubj	_	_
 2	چيس	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	،	_	PUNCT	_	_	2	punct	_	_
-4	سانڊا	_	INTJ	_	_	2	aux	_	SpaceAfter=No
+4	سانڊا	_	INTJ	_	_	2	discourse	_	SpaceAfter=No
 5	!	_	SYM	_	_	2	punct	_	_
 6	اڄ	_	ADV	_	_	12	advmod	_	_
 7	رات	_	NOUN	_	_	9	nmod	_	_
@@ -224,9 +212,7 @@
 
 # sent_id = 548
 # text = اڙي چيتا! جيڪڏهن توکي پنهنجي جان پياري آهي ته متان مٿي چڙهيو آهين.
-# semgrex pattern |{cpos:INTJ}| matched at 2:چيتا
-# semgrex pattern |{cpos:INTJ}| matched at 1:اڙي
-1	اڙي	_	INTJ	_	_	8	advmod	_	_
+1	اڙي	_	INTJ	_	_	8	discourse	_	_
 2	چيتا	_	INTJ	_	_	8	nsubj	_	SpaceAfter=No
 3	!	_	SYM	_	_	2	punct	_	_
 4	جيڪڏهن	_	SCONJ	_	_	8	mark	_	_
@@ -244,8 +230,7 @@
 
 # sent_id = 950
 # text = اڙي منهنجيون اکيون! ائين چئي وٺي کامي ڏانهن ڀڳو.
-# semgrex pattern |{cpos:INTJ}| matched at 1:اڙي
-1	اڙي	_	INTJ	_	_	10	punct	_	_
+1	اڙي	_	INTJ	_	_	10	discourse	_	_
 2	منهنجيون	_	PRON	_	_	3	nmod	_	_
 3	اکيون	_	NOUN	_	_	10	nsubj	_	SpaceAfter=No
 4	!	_	SYM	_	_	3	punct	_	_
@@ -259,9 +244,8 @@
 
 # sent_id = 2206
 # text = درياءَ ڙي درياءَ! مون کي پاڻي ڏي،
-# semgrex pattern |{cpos:INTJ}| matched at 2:ڙي
 1	درياءَ	_	NOUN	_	_	3	nmod	_	_
-2	ڙي	_	INTJ	_	_	3	amod	_	_
+2	ڙي	_	INTJ	_	_	8	discourse	_	_
 3	درياءَ	_	NOUN	_	_	8	nsubj	_	SpaceAfter=No
 4	!	_	SYM	_	_	3	punct	_	_
 5	مون	_	PRON	_	_	8	obj	_	_
@@ -272,7 +256,6 @@
 
 # sent_id = 2213
 # text = اتان ڪانگ اڏاڻو ۽ ڳوٺ ۾ ڪنڀار وٽ وڃي چوڻ لڳو: ڪنڀر ڙي ڪنڀر! پيالو ٺاهي ڏي،
-# semgrex pattern |{cpos:INTJ}| matched at 14:ڙي
 1	اتان	_	ADV	_	_	3	advmod	_	_
 2	ڪانگ	_	NOUN	_	_	3	nsubj	_	_
 3	اڏاڻو	_	VERB	_	_	0	root	_	_
@@ -286,7 +269,7 @@
 11	لڳو	_	VERB	_	_	3	conj	_	SpaceAfter=No
 12	:	_	PUNCT	_	_	11	punct	_	_
 13	ڪنڀر	_	NOUN	_	_	18	nsubj	_	_
-14	ڙي	_	INTJ	_	_	15	amod	_	_
+14	ڙي	_	INTJ	_	_	18	discourse	_	_
 15	ڪنڀر	_	NOUN	_	_	18	nsubj	_	SpaceAfter=No
 16	!	_	SYM	_	_	15	punct	_	_
 17	پيالو	_	NOUN	_	_	18	obj	_	_
@@ -296,7 +279,6 @@
 
 # sent_id = 2225
 # text = ڪانگ هن کي ڏسي چيو: لوهار ڙي لوهار! ٽيڪم ٺاهي ڏي،
-# semgrex pattern |{cpos:INTJ}| matched at 8:ڙي
 1	ڪانگ	_	NOUN	_	_	5	nsubj	_	_
 2	هن	_	DET	_	_	4	obj	_	_
 3	کي	_	ADP	_	_	2	det	_	_
@@ -304,7 +286,7 @@
 5	چيو	_	VERB	_	_	0	root	_	SpaceAfter=No
 6	:	_	PUNCT	_	_	5	punct	_	_
 7	لوهار	_	NOUN	_	_	12	nsubj	_	_
-8	ڙي	_	INTJ	_	_	9	amod	_	_
+8	ڙي	_	INTJ	_	_	12	discourse	_	_
 9	لوهار	_	NOUN	_	_	12	nsubj	_	SpaceAfter=No
 10	!	_	SYM	_	_	9	punct	_	_
 11	ٽيڪم	_	NOUN	_	_	12	obj	_	_
@@ -314,14 +296,13 @@
 
 # sent_id = 2514
 # text = السلام عليڪم! ڀائو، ڪر خبر، ڇا حال آهي؟ ڪڙميءَ جواب ۾ چيو،
-# semgrex pattern |{cpos:INTJ}| matched at 6:ڪر
-1	السلام	_	PROPN	_	_	2	compound	_	_
-2	عليڪم	_	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+1	السلام	_	INTJ	_	_	2	compound	_	_
+2	عليڪم	_	INTJ	_	_	6	discourse	_	SpaceAfter=No
 3	!	_	SYM	_	_	2	punct	_	_
-4	ڀائو	_	NOUN	_	_	7	nsubj	_	SpaceAfter=No
+4	ڀائو	_	NOUN	_	_	6	obj	_	SpaceAfter=No
 5	،	_	PUNCT	_	_	4	punct	_	_
-6	ڪر	_	INTJ	_	_	7	amod	_	_
-7	خبر	_	NOUN	_	_	10	nmod	_	SpaceAfter=No
+6	ڪر	_	VERB	_	_	10	xcomp	_	_
+7	خبر	_	NOUN	_	_	6	compound	_	SpaceAfter=No
 8	،	_	PUNCT	_	_	7	punct	_	_
 9	ڇا	_	PRON	_	_	10	nmod	_	_
 10	حال	_	NOUN	_	_	0	root	_	_
@@ -335,8 +316,7 @@
 
 # sent_id = 2564
 # text = ياخدا! منهنجي کائڻ لاءِ هن ٻنيءَ ۾ هڪڙو شينهن موڪل! ڪالهه صبح مون ٽن شينهن جو گوشت نيرن تي کاڌو هو.
-# semgrex pattern |{cpos:INTJ}| matched at 1:ياخدا
-1	ياخدا	_	INTJ	_	_	11	nsubj	_	SpaceAfter=No
+1	ياخدا	_	INTJ	_	_	11	discourse	_	SpaceAfter=No
 2	!	_	SYM	_	_	1	punct	_	_
 3	منهنجي	_	PRON	_	_	4	nmod	_	_
 4	کائڻ	_	VERB	_	_	11	advcl	_	_
@@ -363,7 +343,6 @@
 
 # sent_id = 4123
 # text = جڏهن هو سڀ ڪجهه ڳالهائي چڪا ته چرچل هنن کان پڇيو ته ”ڇا توهان جي ڪورٽن (عدالتن) ۾ ماڻهن کي انصاف ملي رهيو آهي؟“ هنن سڀني هائوڪار ۾ ڪنڌ ڌوڻيو ۽ چيو ”هائو! بلڪل ملي رهيو آهي.
-# semgrex pattern |{cpos:INTJ}| matched at 39:هائو
 1	جڏهن	_	ADV	_	_	5	advmod	_	_
 2	هو	_	DET	_	_	5	nsubj	_	_
 3	سڀ	_	ADJ	_	_	4	amod	_	_
@@ -412,8 +391,7 @@
 
 # sent_id = 4219
 # text = شل! هي اتساهه ڪڏهن وقت جي بي رحمي تي قربان نه ٿي وڃي.
-# semgrex pattern |{cpos:INTJ}| matched at 1:شل
-1	شل	_	INTJ	_	_	13	obl	_	SpaceAfter=No
+1	شل	_	INTJ	_	_	13	discourse	_	SpaceAfter=No
 2	!	_	SYM	_	_	1	punct	_	_
 3	هي	_	DET	_	_	4	det	_	_
 4	اتساهه	_	NOUN	_	_	13	nsubj	_	_
@@ -431,8 +409,7 @@
 
 # sent_id = 399
 # text = هاءِهاءِ ! اسلم کي ماري هنن ظلم ڪيو .
-# semgrex pattern |{cpos:INTJ}| matched at 1:هاءِهاءِ
-1	هاءِهاءِ	هاءِ	INTJ	UH__حرف_ندا	Number=Sing	5	nsubj	_	_
+1	هاءِهاءِ	هاءِ	INTJ	UH__حرف_ندا	Number=Sing	5	discourse	_	_
 2	!	!	SYM	SYM__نشاني	_	1	dep	_	_
 3	اسلم	اسلم	PROPN	NNP__اسم_خاص	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	obj	_	_
 4	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	3	case	_	_
@@ -444,8 +421,7 @@
 
 # sent_id = 400
 # text = گھوڙاڙي ! هُو ڇت تان ڪري پيو ۽ هوءَ ڏسندي رهي ،
-# semgrex pattern |{cpos:INTJ}| matched at 1:گھوڙاڙي
-1	گھوڙاڙي	گھوڙاڙي	INTJ	UH__حرف_ندا	Number=Sing	6	nsubj	_	_
+1	گھوڙاڙي	گھوڙاڙي	INTJ	UH__حرف_ندا	Number=Sing	6	discourse	_	_
 2	!	!	SYM	SYM__نشاني	_	1	punct	_	_
 3	هُو	هُو	PRON	_	_	6	nsubj	_	_
 4	ڇت	ڇت	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	obl	_	_
@@ -460,8 +436,7 @@
 
 # sent_id = 402
 # text = شاباش ! تون امتحان ۾ ڪامياب ٿي وئين .
-# semgrex pattern |{cpos:INTJ}| matched at 1:شاباش
-1	شاباش	شاباش	INTJ	UH__حرف_ندا	Number=Sing	7	nsubj	_	_
+1	شاباش	شاباش	INTJ	UH__حرف_ندا	Number=Sing	7	discourse	_	_
 2	!	!	SYM	SYM__نشاني	_	1	nmod	_	_
 3	تون	تون	PRON	PRP__ضمير	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 4	امتحان	امتحان	NOUN	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obl	_	_
@@ -473,8 +448,7 @@
 
 # sent_id = 403
 # text = افسوس ! آءَ تنهنجي مدد نه ڪري سگھيس .
-# semgrex pattern |{cpos:INTJ}| matched at 1:افسوس
-1	افسوس	افسوس	INTJ	UH__حرف_ندا	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+1	افسوس	افسوس	INTJ	UH__حرف_ندا	Gender=Masc|Number=Sing|Person=3	7	discourse	_	_
 2	!	!	SYM	SYM__نشاني	_	1	dep	_	_
 3	آءَ	آءَ	PRON	pRP__ضمير	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 4	تنهنجي	تنهنجي	PRON	PRP__ضمير	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nmod	_	_
@@ -486,8 +460,7 @@
 
 # sent_id = 404
 # text = افسوس ! آءَ تنهنجي هن وقت مدد نه ڪري سگھيس ،
-# semgrex pattern |{cpos:INTJ}| matched at 1:افسوس
-1	افسوس	افسوس	INTJ	UH__حرف_ندا	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+1	افسوس	افسوس	INTJ	UH__حرف_ندا	Gender=Masc|Number=Sing|Person=3	9	discourse	_	_
 2	!	!	SYM	SYM__نشاني	_	1	dep	_	_
 3	آءَ	آءَ	PRON	pRP__ضمير	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 4	تنهنجي	تنهنجي	PRON	PRP__ضمير	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
@@ -501,8 +474,7 @@
 
 # sent_id = 407
 # text = مار ! هن ههڙو قهر ڪيو .
-# semgrex pattern |{cpos:INTJ}| matched at 1:مار
-1	مار	مار	INTJ	UH__حرف_ندا	Number=Sing	6	nsubj	_	_
+1	مار	مار	INTJ	UH__حرف_ندا	Number=Sing	6	discourse	_	_
 2	!	!	SYM	SYM__نشاني	_	1	dep	_	_
 3	هن	هن	DET	DT__ضمير_اشارو	Case=Acc|Number=Sing|Person=3	5	det	_	_
 4	ههڙو	ههڙو	ADV	RB__ظرف	Number=Sing	5	amod	_	_
@@ -512,8 +484,7 @@
 
 # sent_id = 410
 # text = مار ! ايڏو وڏو گھر ،
-# semgrex pattern |{cpos:INTJ}| matched at 1:مار
-1	مار	مار	INTJ	UH__حرف_ندا	Number=Sing	5	nsubj	_	_
+1	مار	مار	INTJ	UH__حرف_ندا	Number=Sing	5	discourse	_	_
 2	!	!	SYM	SYM__نشاني	_	1	dep	_	_
 3	ايڏو	ايڏو	ADV	_	_	5	advmod	_	_
 4	وڏو	وڏو	ADJ	JJ__صفت	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
@@ -522,7 +493,6 @@
 
 # sent_id = 970
 # text = سڌو شينهڻ وٽ آيو ۽ اچڻ سان هڪل ڪري چيائينس ته : او رَن ! هـَـل ، هلي پنهنجي نـَـر جو حال ڏس ،
-# semgrex pattern |{cpos:INTJ}| matched at 13:او
 1	سڌو	_	ADJ	_	_	2	amod	_	_
 2	شينهڻ	_	NOUN	_	_	4	obl	_	_
 3	وٽ	_	ADP	_	_	2	case	_	_
@@ -535,7 +505,7 @@
 10	چيائينس	_	VERB	_	_	4	conj	_	_
 11	ته	_	SCONJ	_	_	10	mark	_	_
 12	:	_	PUNCT	_	_	16	punct	_	_
-13	او	_	INTJ	_	_	16	mark	_	_
+13	او	_	INTJ	_	_	16	discourse	_	_
 14	رَن	_	NOUN	_	_	16	nsubj	_	_
 15	!	_	SYM	_	_	16	punct	_	_
 16	هـَـل	_	VERB	_	_	10	advcl	_	_
@@ -550,11 +520,10 @@
 
 # sent_id = 974
 # text = ڇا ڏسي ته مار ! شينهن ته برابر وڻ ۾ ٽنگيو پيو آهي ۽ سندس رت ۾ وڻ سڄو ڳاڙهو ٿيو پيو آهي .
-# semgrex pattern |{cpos:INTJ}| matched at 4:مار
 1	ڇا	_	PRON	_	_	2	obl	_	_
 2	ڏسي	_	VERB	_	_	11	advcl	_	_
 3	ته	_	SCONJ	_	_	11	mark	_	_
-4	مار	_	INTJ	_	_	11	nsubj	_	_
+4	مار	_	INTJ	_	_	11	discourse	_	_
 5	!	_	SYM	_	_	4	dep	_	_
 6	شينهن	_	NOUN	_	_	11	nsubj	_	_
 7	ته	_	SCONJ	_	_	6	dep	_	_
@@ -578,7 +547,6 @@
 
 # sent_id = 1274
 # text = سو هڪل ڪري ڪڙميءَ کي چيائين ته : ڙي ڪڙمي ! هتان هيلوڪو ،
-# semgrex pattern |{cpos:INTJ}| matched at 9:ڙي
 1	سو	_	PRON	_	_	3	nsubj	_	_
 2	هڪل	_	NOUN	_	_	3	xcomp	_	_
 3	ڪري	_	VERB	_	_	6	advcl	_	_
@@ -587,7 +555,7 @@
 6	چيائين	_	VERB	_	_	0	root	_	_
 7	ته	_	SCONJ	_	_	6	mark	_	_
 8	:	_	PUNCT	_	_	6	punct	_	_
-9	ڙي	_	INTJ	_	_	6	mark	_	_
+9	ڙي	_	INTJ	_	_	6	discourse	_	_
 10	ڪڙمي	_	VERB	_	_	6	conj	_	_
 11	!	_	SYM	_	_	10	punct	_	_
 12	هتان	_	ADV	_	_	10	advmod	_	_
@@ -596,14 +564,13 @@
 
 # sent_id = 1292
 # text = اتي عزرائيل چيو ته : نه ڙي نه ! تون ڪوڙ ٿو ڳالهائين .
-# semgrex pattern |{cpos:INTJ}| matched at 7:ڙي
 1	اتي	_	ADV	_	_	3	advmod	_	_
 2	عزرائيل	_	PROPN	_	_	3	nsubj	_	_
 3	چيو	_	VERB	_	_	0	root	_	_
 4	ته	_	SCONJ	_	_	3	mark	_	_
 5	:	_	PUNCT	_	_	3	punct	_	_
 6	نه	_	PART	_	_	3	mark	_	_
-7	ڙي	_	INTJ	_	_	3	dep	_	_
+7	ڙي	_	INTJ	_	_	3	discourse	_	_
 8	نه	_	PART	_	_	13	advmod	_	_
 9	!	_	SYM	_	_	3	punct	_	_
 10	تون	_	PRON	_	_	13	nsubj	_	_
@@ -614,15 +581,14 @@
 
 # sent_id = 1362
 # text = گدڙ کي هڪل ڪري چيائين ته : اڙي چنڊا ! تون ته پر سال الله سائين سان ٻن شينهن جي آڻڻ جو واعدو ڪري آيو هئين ،
-# semgrex pattern |{cpos:INTJ}| matched at 8:اڙي
 1	گدڙ	_	NOUN	_	_	4	obj	_	_
 2	کي	_	ADP	_	_	1	case	_	_
 3	هڪل	_	NOUN	_	_	4	obl	_	_
 4	ڪري	_	VERB	_	_	5	xcomp	_	_
 5	چيائين	_	VERB	_	_	0	root	_	_
 6	ته	_	SCONJ	_	_	5	mark	_	_
-7	:	_	PUNCT	_	_	9	punct	_	_
-8	اڙي	_	INTJ	_	_	9	amod	_	_
+7	:	_	PUNCT	_	_	5	punct	_	_
+8	اڙي	_	INTJ	_	_	5	discourse	_	_
 9	چنڊا	_	ADJ	_	_	5	nsubj	_	_
 10	!	_	SYM	_	_	9	punct	_	_
 11	تون	_	PRON	_	_	24	nsubj	_	_
@@ -645,10 +611,9 @@
 
 # sent_id = 1441
 # text = ڏٺائين ته مار ! مصيبتون ڀڳيون اچن ،
-# semgrex pattern |{cpos:INTJ}| matched at 3:مار
 1	ڏٺائين	_	VERB	_	_	0	root	_	_
 2	ته	_	SCONJ	_	_	1	mark	_	_
-3	مار	_	INTJ	_	_	1	punct	_	_
+3	مار	_	INTJ	_	_	1	discourse	_	_
 4	!	_	SYM	_	_	3	punct	_	_
 5	مصيبتون	_	NOUN	_	_	6	obj	_	_
 6	ڀڳيون	_	VERB	_	_	1	obj	_	_
@@ -657,7 +622,6 @@
 
 # sent_id = 1449
 # text = دائي يڪدم رڙ ڪري چيو ته : اڙي ٽڪار ! وٺ هيٺئين شينهن کي .
-# semgrex pattern |{cpos:INTJ}| matched at 8:اڙي
 1	دائي	_	NOUN	_	_	4	nsubj	_	_
 2	يڪدم	_	ADV	_	_	4	advmod	_	_
 3	رڙ	_	NOUN	_	_	4	nsubj	_	_
@@ -665,7 +629,7 @@
 5	چيو	_	VERB	_	_	0	root	_	_
 6	ته	_	SCONJ	_	_	5	mark	_	_
 7	:	_	PUNCT	_	_	5	punct	_	_
-8	اڙي	_	INTJ	_	_	5	mark	_	_
+8	اڙي	_	INTJ	_	_	5	discourse	_	_
 9	ٽڪار	_	NOUN	_	_	11	nsubj	_	_
 10	!	_	SYM	_	_	9	punct	_	_
 11	وٺ	_	VERB	_	_	5	advcl	_	_
@@ -676,8 +640,7 @@
 
 # sent_id = 497
 # text = يا خدا اسان سڀني کي پنهنجي پناھ ۾ رک ۽ ظالمن کان بچاءِ .
-# semgrex pattern |{cpos:INTJ}| matched at 1:يا
-1	يا	يا	INTJ	DT__ضمير_اشارو	Number=Sing	2	compound	_	_
+1	يا	يا	INTJ	DT__ضمير_اشارو	Number=Sing	9	discourse	_	_
 2	خدا	خدا	PROPN	NNP__اسم_خاص	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 3	اسان	آءُ	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=1	4	nmod	_	_
 4	سڀني	سڀ	ADJ	JJ__صفت	Case=Nom|Number=Plur|Person=3	9	nmod	_	_
@@ -691,3 +654,4 @@
 12	کان	کان	ADP	IN__حرفِ_جر	Number=Sing	11	case	_	_
 13	بچاءِ	بچاءِ	VERB	PRP__ضمير	Case=Acc|Number=Sing	9	conj	_	_
 14	.	.	PUNCT	-__پورو_دم	_	13	punct	_	_
+
