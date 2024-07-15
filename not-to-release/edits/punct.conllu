@@ -1,32 +1,29 @@
 # sent_id = 880
 # text = اهو فنڊ مون پنهنجي لاءِ ناهي کوليو .
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 6:ناهي
 1	اهو	_	PRON	_	_	2	nmod	_	_
 2	فنڊ	_	NOUN	_	_	7	nsubj	_	_
 3	مون	_	PRON	_	_	7	nsubj	_	_
 4	پنهنجي	_	PRON	_	_	7	obl	_	_
 5	لاءِ	_	ADP	_	_	4	case	_	_
-6	ناهي	_	AUX	_	_	7	punct	_	_
+6	ناهي	_	AUX	_	_	7	aux	_	_
 7	کوليو	_	VERB	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 1070
-# text = متان گوڏي هيٺان اچو!
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 4:اچو!
-1	متان	_	ADV	_	_	3	advmod	_	_
-2	گوڏي	_	NOUN	_	_	0	root	_	_
+# text = متان گوڏي هيٺان اچو !
+1	متان	_	ADV	_	_	4	advmod	_	_
+2	گوڏي	_	NOUN	_	_	4	obl	_	_
 3	هيٺان	_	ADV	_	_	2	advmod	_	_
-4	اچو!	_	NOUN	_	_	2	punct	_	_
+4	اچو	_	VERB	_	_	_	_	_	_
+5	!	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 1245
 # text = هوم پيج
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 2:پيج
-1	هوم	_	NOUN	_	_	0	root	_	_
-2	پيج	_	NOUN	_	_	1	punct	_	_
+1	هوم	_	NOUN	_	_	2	nmod	_	_
+2	پيج	_	NOUN	_	_	0	null	_	_
 
 # sent_id = 135
 # text = پوڙهي ڏاڍي خوش پئي لڳي ته شڪر آهي جو باندرن ۽ شينهن مان ڇوٽڪارو مليو.
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 9:جو
 1	پوڙهي	_	NOUN	_	_	4	nsubj	_	_
 2	ڏاڍي	_	ADJ	_	_	3	amod	_	_
 3	خوش	_	ADJ	_	_	4	nsubj	_	_
@@ -35,7 +32,7 @@
 6	ته	_	SCONJ	_	_	5	mark	_	_
 7	شڪر	_	NOUN	_	_	15	obl	_	_
 8	آهي	_	AUX	_	_	7	cop	_	_
-9	جو	_	ADP	_	_	8	punct	_	_
+9	جو	_	PART	_	_	8	dep	_	_
 10	باندرن	_	NOUN	_	_	15	obl	_	_
 11	۽	_	CCONJ	_	_	12	cc	_	_
 12	شينهن	_	NOUN	_	_	10	conj	_	_
@@ -46,7 +43,6 @@
 
 # sent_id = 185
 # text = انهيءَ ڪري به ته هن جو مڙس ڪائو تان به پنهنجي ڀاءُ ڪائو لانگ وانگر ڏاڍو سهڻو، سلڇڻو ۽ محنتي هوندو هو.
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 10:به
 1	انهيءَ	_	DET	_	_	2	det	_	_
 2	ڪري	_	VERB	_	_	22	obl	_	_
 3	به	_	ADP	_	_	2	case	_	_
@@ -56,7 +52,7 @@
 7	مڙس	_	NOUN	_	_	22	nsubj	_	_
 8	ڪائو	_	NOUN	_	_	9	nmod	_	_
 9	تان	_	NOUN	_	_	22	nsubj	_	_
-10	به	_	ADP	_	_	9	punct	_	_
+10	به	_	PART	_	_	9	dep	_	_
 11	پنهنجي	_	PRON	_	_	12	nmod	_	_
 12	ڀاءُ	_	NOUN	_	_	14	nmod	_	_
 13	ڪائو	_	NOUN	_	_	14	nmod	_	_
@@ -73,8 +69,7 @@
 24	.	_	PUNCT	_	_	22	punct	_	_
 
 # sent_id = 872
-# text = ٻه نوڪر اندر آيا ۽ ماليڪٽ کي زبردستي کڻي محل ڏانهن ويا.اتي
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 13:.اتي
+# text = ٻه نوڪر اندر آيا ۽ ماليڪٽ کي زبردستي کڻي محل ڏانهن ويا.
 1	ٻه	_	NUM	_	_	2	nummod	_	_
 2	نوڪر	_	NOUN	_	_	4	nsubj	_	_
 3	اندر	_	NOUN	_	_	4	advmod	_	_
@@ -87,11 +82,10 @@
 10	محل	_	NOUN	_	_	12	obl	_	_
 11	ڏانهن	_	ADV	_	_	10	case	_	_
 12	ويا	_	VERB	_	_	4	conj	_	SpaceAfter=No
-13	.اتي	_	AUX	_	_	12	punct	_	_
+13	.	_	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 944
 # text = هوڏانهن سرڪاري پڌرائي موجب متحده جي نمائندن پاران شهيدن جي يادگار جي پيڙهه جو پٿر رکڻ واري تقريب ۾ شرڪت لاءِ وڃڻ سبب اجلاس ملتوي ڪيو ويو.
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 8:پاران
 1	هوڏانهن	_	ADV	_	_	26	advmod	_	_
 2	سرڪاري	_	ADJ	_	_	3	amod	_	_
 3	پڌرائي	_	NOUN	_	_	4	obl	_	_
@@ -99,7 +93,7 @@
 5	متحده	_	PROPN	_	_	7	nmod	_	_
 6	جي	_	ADP	_	_	7	compound	_	_
 7	نمائندن	_	NOUN	_	_	16	obl	_	_
-8	پاران	_	ADP	_	_	7	punct	_	_
+8	پاران	_	ADP	_	_	7	case	_	_
 9	شهيدن	_	NOUN	_	_	11	nmod	_	_
 10	جي	_	ADP	_	_	9	case	_	_
 11	يادگار	_	NOUN	_	_	13	nmod	_	_
@@ -123,7 +117,6 @@
 
 # sent_id = 951
 # text = ميثاق جمهوريت تي فوري طور عمل نه ڪرڻ وڏي غلطي هئي: وزيراعظم
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 13:وزيراعظم
 1	ميثاق	_	NOUN	_	_	2	compound	_	_
 2	جمهوريت	_	NOUN	_	_	8	obl	_	_
 3	تي	_	ADP	_	_	2	case	_	_
@@ -136,11 +129,10 @@
 10	غلطي	_	NOUN	_	_	0	root	_	_
 11	هئي	_	AUX	_	_	10	cop	_	SpaceAfter=No
 12	:	_	PUNCT	_	_	10	punct	_	_
-13	وزيراعظم	_	NOUN	_	_	10	punct	_	_
+13	وزيراعظم	_	NOUN	_	_	10	vocative	_	_
 
 # sent_id = 998
 # text = پيپلزپارٽي جي موجوده عوامي ۽ جمهوري حڪومت عوام جي امنگن جي ترجماني ڪندي جمهوريت جي استحڪام، ائين جي بالادستي، ادارن جي مضبوطيءَ سان گڏوگڏ ملڪ کي معاشي طور مستحڪم ڪرڻ لاءِ جدوجهد ڪري رهي آهي ۽ ان ڏس ۾ عوام جو ڀرپور ساٿ هئڻ سان گڏوگڏ اقتدار ۾ شريڪ پارٽين جي حمايت حاصل آهي.
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 19:جي
 1	پيپلزپارٽي	_	PROPN	_	_	4	nmod	_	_
 2	جي	_	ADP	_	_	1	case	_	_
 3	موجوده	_	ADJ	_	_	4	amod	_	_
@@ -159,13 +151,13 @@
 16	استحڪام	_	NOUN	_	_	7	nmod	_	SpaceAfter=No
 17	،	_	PUNCT	_	_	20	punct	_	_
 18	ائين	_	PRON	_	_	20	nmod	_	_
-19	جي	_	ADP	_	_	20	punct	_	_
+19	جي	_	ADP	_	_	18	case	_	_
 20	بالادستي	_	NOUN	_	_	16	conj	_	SpaceAfter=No
 21	،	_	PUNCT	_	_	24	punct	_	_
 22	ادارن	_	NOUN	_	_	24	nmod	_	_
-23	جي	_	ADP	_	_	24	nmod	_	_
+23	جي	_	ADP	_	_	22	case	_	_
 24	مضبوطيءَ	_	NOUN	_	_	16	conj	_	_
-25	سان	_	ADP	_	_	24	amod	_	_
+25	سان	_	ADP	_	_	24	case	_	_
 26	گڏوگڏ	_	ADV	_	_	32	advmod	_	_
 27	ملڪ	_	NOUN	_	_	30	nmod	_	_
 28	کي	_	ADP	_	_	27	case	_	_
@@ -201,13 +193,12 @@
 
 # sent_id = 282
 # text = ۽ ”سڀني“ مان مطلب صرف سياستدان، عدليه ۽ شهري نه آهن،
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 2:”
 1	۽	_	CCONJ	_	_	3	cc	_	_
 2	”	_	SCONJ	_	_	3	punct	_	SpaceAfter=No
 3	سڀني	_	ADJ	_	_	6	amod	_	SpaceAfter=No
 4	“	_	PUNCT	_	_	3	punct	_	_
 5	مان	_	ADP	_	_	3	case	_	_
-6	مطلب	_	NOUN	_	_	8	nsubj	_	_
+6	مطلب	_	NOUN	_	_	8	obl	_	_
 7	صرف	_	ADJ	_	_	8	amod	_	_
 8	سياستدان	_	NOUN	_	_	0	root	_	SpaceAfter=No
 9	،	_	PUNCT	_	_	10	punct	_	_
@@ -220,11 +211,10 @@
 
 # sent_id = 338
 # text = ان جي بجاءِ ”اسان سڀ هن عمل ۾ گڏ آهيون“ وارو لچڪدار موقف وڏا ڏور رس نتيجا ڏئي سگهي ٿو.
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 4:”
 1	ان	_	DET	_	_	3	nmod	_	_
 2	جي	_	ADP	_	_	1	case	_	_
 3	بجاءِ	_	ADV	_	_	10	obl	_	_
-4	”	_	SCONJ	_	_	3	punct	_	SpaceAfter=No
+4	”	_	SCONJ	_	_	5	punct	_	SpaceAfter=No
 5	اسان	_	PRON	_	_	10	nsubj	_	_
 6	سڀ	_	ADJ	_	_	8	amod	_	_
 7	هن	_	DET	_	_	8	det	_	_
@@ -247,14 +237,13 @@
 
 # sent_id = 564
 # text = نه رڳو اهڙن عالمي شاهڪارن لا”، بلڪه انهن تخليقي شاهڪارن لاءِ به جڳهه آهي،
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 7:”
 1	نه	_	ADV	_	_	2	compound	_	_
 2	رڳو	_	ADV	_	_	5	advmod	_	_
 3	اهڙن	_	ADJ	_	_	5	amod	_	_
 4	عالمي	_	ADJ	_	_	5	amod	_	_
 5	شاهڪارن	_	NOUN	_	_	15	nmod	_	_
 6	لا	_	CCONJ	_	_	5	case	_	SpaceAfter=No
-7	”	_	SCONJ	_	_	5	punct	_	SpaceAfter=No
+7	”	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 8	،	_	PUNCT	_	_	5	punct	_	_
 9	بلڪه	_	ADV	_	_	5	dep	_	_
 10	انهن	_	DET	_	_	12	det	_	_
@@ -268,9 +257,8 @@
 
 # sent_id = 5571
 # text = اهو هو پروفيسرن، اسٽنٽ پروفيسرن، ليڪچررن کي پنهنجي پين ڏئي ان تان هميشه هميشه لاءِ هٿ کڻڻ.
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 2:هو
-1	اهو	_	DET	_	_	19	nsubj	_	_
-2	هو	_	AUX	_	_	1	punct	_	_
+1	اهو	_	PRON	_	_	19	xcomp	_	_
+2	هو	_	AUX	_	_	1	cop	_	_
 3	پروفيسرن	_	NOUN	_	_	12	nsubj	_	SpaceAfter=No
 4	،	_	PUNCT	_	_	6	punct	_	_
 5	اسٽنٽ	_	NOUN	_	_	6	nmod	_	_
@@ -291,8 +279,7 @@
 20	.	_	PUNCT	_	_	19	punct	_	_
 
 # sent_id = 769
-# text = انهيءَ ننڍي ٽڪريءَ جي زمين اڄ ڏينهن تائين ڳاڙهي آهي ۽ هتي جا رهاڪو اڄ به ان کي ڳاڙهي ٽڪري ڪري سڏين ٿا.ٽڪري
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 24:.ٽڪري
+# text = انهيءَ ننڍي ٽڪريءَ جي زمين اڄ ڏينهن تائين ڳاڙهي آهي ۽ هتي جا رهاڪو اڄ به ان کي ڳاڙهي ٽڪري ڪري سڏين ٿا.
 1	انهيءَ	_	DET	_	_	3	det	_	_
 2	ننڍي	_	ADJ	_	_	3	amod	_	_
 3	ٽڪريءَ	_	NOUN	_	_	5	nmod	_	_
@@ -316,12 +303,11 @@
 21	ڪري	_	VERB	_	_	22	xcomp	_	_
 22	سڏين	_	VERB	_	_	9	conj	_	_
 23	ٿا	_	AUX	_	_	22	aux	_	SpaceAfter=No
-24	.ٽڪري	_	VERB	_	_	22	punct	_	_
+24	.	_	PUNCT	_	_	22	punct	_	_
 
 # sent_id = 309
 # text = اڙي جلاد! پهرين هن کي ڦاهيءَ تي چاڙهه.
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 1:اڙي
-1	اڙي	_	VERB	_	_	2	punct	_	_
+1	اڙي	_	INTJ	_	_	9	discourse	_	_
 2	جلاد	_	NOUN	_	_	9	nsubj	_	SpaceAfter=No
 3	!	_	SYM	_	_	2	punct	_	_
 4	پهرين	_	ADJ	_	_	5	amod	_	_
@@ -334,7 +320,6 @@
 
 # sent_id = 2575
 # text = ڀڄ ڙي ڀڄ، گدڙ! جهنگ ۾ اڄ اهڙو ته خوفناڪ ڀوت آيو آهي،
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 2:ڙي
 1	ڀڄ	_	VERB	_	_	2	nsubj	_	_
 2	ڙي	_	VERB	_	_	3	punct	_	_
 3	ڀڄ	_	VERB	_	_	14	nsubj	_	SpaceAfter=No
@@ -354,13 +339,12 @@
 
 # sent_id = 5611
 # text = جيڪي شادين، اين جي اوز يا ادب جا ڪاڄ ڪرائڻ لاءِ ڪارڊ ڇپائي پروگرامن جا ٽائيم ٽيبل لکن ٿا ۽ دعوتيا کانئن فونن تي تصديق ڪرائيندا: ”سائين!نئون ٽائيم يا پراڻو ٽائيم؟“ گهڙين جي ڪانٽن سان ڇيڙ ڇاڙ ڪرڻ کانپوءِ ڪجهه ”موکي متارا پارٽي“ جي دوستن کي شڪايت آهي ته پيگ پاڻي پي جيئن گهر ٿا پهچون،
-# semgrex pattern |{cpos:/^(?!PUNCT|SYM).*$/} <punct {}| matched at 5:جي
 1	جيڪي	_	PRON	_	_	19	nsubj	_	_
-2	شادين	_	NOUN	_	_	11	obl	_	SpaceAfter=No
-3	،	_	PUNCT	_	_	6	punct	_	_
-4	اين	_	NOUN	_	_	6	nmod	_	_
-5	جي	_	NOUN	_	_	6	punct	_	_
-6	اوز	_	NOUN	_	_	2	conj	_	_
+2	شادين	_	NOUN	_	_	4	conj	_	SpaceAfter=No
+3	،	_	PUNCT	_	_	2	punct	_	_
+4	اين	_	NOUN	_	_	_	_	_	_
+5	جي	_	NOUN	_	_	4	compound	_	_
+6	اوز	_	NOUN	_	_	5	compound	_	_
 7	يا	_	CCONJ	_	_	10	cc	_	_
 8	ادب	_	NOUN	_	_	10	nmod	_	_
 9	جا	_	ADP	_	_	10	case	_	_
@@ -383,9 +367,9 @@
 26	تصديق	_	NOUN	_	_	27	xcomp	_	_
 27	ڪرائيندا	_	VERB	_	_	19	conj	_	SpaceAfter=No
 28	:	_	PUNCT	_	_	27	punct	_	_
-29	”	_	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	”	_	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	سائين	_	NOUN	_	_	33	nmod	_	SpaceAfter=No
-31	!	_	SYM	_	_	30	punct	_	SpaceAfter=No
+31	!	_	PUNCT	_	_	30	punct	_	SpaceAfter=No
 32	نئون	_	ADJ	_	_	33	amod	_	_
 33	ٽائيم	_	NOUN	_	_	27	nsubj	_	_
 34	يا	_	CCONJ	_	_	36	cc	_	_
@@ -402,7 +386,7 @@
 45	ڪرڻ	_	VERB	_	_	56	advcl	_	_
 46	کانپوءِ	_	ADP	_	_	45	mark	_	_
 47	ڪجهه	_	ADJ	_	_	51	amod	_	_
-48	”	_	PUNCT	_	_	47	case	_	SpaceAfter=No
+48	”	_	PUNCT	_	_	47	punct	_	SpaceAfter=No
 49	موکي	_	NOUN	_	_	51	nmod	_	_
 50	متارا	_	NOUN	_	_	51	nmod	_	_
 51	پارٽي	_	NOUN	_	_	54	nmod	_	SpaceAfter=No
@@ -421,3 +405,4 @@
 64	ٿا	_	AUX	_	_	65	aux	_	_
 65	پهچون	_	VERB	_	_	56	advcl	_	SpaceAfter=No
 66	،	_	PUNCT	_	_	65	punct	_	_
+
