@@ -587,7 +587,7 @@
 
 # sent_id = 309
 # text = اڙي جلاد! پهرين هن کي ڦاهيءَ تي چاڙهه.
-1	اڙي	_	VERB	_	_	2	punct	_	_
+1	اڙي	_	INTJ	_	_	9	discourse	_	_
 2	جلاد	_	NOUN	_	_	9	nsubj	_	SpaceAfter=No
 3	!	_	SYM	_	_	2	punct	_	_
 4	پهرين	_	ADJ	_	_	5	amod	_	_
@@ -2996,11 +2996,11 @@
 # sent_id = 5611
 # text = جيڪي شادين، اين جي اوز يا ادب جا ڪاڄ ڪرائڻ لاءِ ڪارڊ ڇپائي پروگرامن جا ٽائيم ٽيبل لکن ٿا ۽ دعوتيا کانئن فونن تي تصديق ڪرائيندا: ”سائين!نئون ٽائيم يا پراڻو ٽائيم؟“ گهڙين جي ڪانٽن سان ڇيڙ ڇاڙ ڪرڻ کانپوءِ ڪجهه ”موکي متارا پارٽي“ جي دوستن کي شڪايت آهي ته پيگ پاڻي پي جيئن گهر ٿا پهچون،
 1	جيڪي	_	PRON	_	_	19	nsubj	_	_
-2	شادين	_	NOUN	_	_	11	obl	_	SpaceAfter=No
-3	،	_	PUNCT	_	_	6	punct	_	_
-4	اين	_	NOUN	_	_	6	nmod	_	_
-5	جي	_	NOUN	_	_	6	punct	_	_
-6	اوز	_	NOUN	_	_	2	conj	_	_
+2	شادين	_	NOUN	_	_	4	conj	_	SpaceAfter=No
+3	،	_	PUNCT	_	_	2	punct	_	_
+4	اين	_	NOUN	_	_	11	obl	_	_
+5	جي	_	NOUN	_	_	4	compound	_	_
+6	اوز	_	NOUN	_	_	5	compound	_	_
 7	يا	_	CCONJ	_	_	10	cc	_	_
 8	ادب	_	NOUN	_	_	10	nmod	_	_
 9	جا	_	ADP	_	_	10	case	_	_
@@ -3023,9 +3023,9 @@
 26	تصديق	_	NOUN	_	_	27	xcomp	_	_
 27	ڪرائيندا	_	VERB	_	_	19	conj	_	SpaceAfter=No
 28	:	_	PUNCT	_	_	27	punct	_	_
-29	”	_	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	”	_	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	سائين	_	NOUN	_	_	33	nmod	_	SpaceAfter=No
-31	!	_	SYM	_	_	30	punct	_	SpaceAfter=No
+31	!	_	PUNCT	_	_	30	punct	_	SpaceAfter=No
 32	نئون	_	ADJ	_	_	33	amod	_	_
 33	ٽائيم	_	NOUN	_	_	27	nsubj	_	_
 34	يا	_	CCONJ	_	_	36	cc	_	_
@@ -3042,7 +3042,7 @@
 45	ڪرڻ	_	VERB	_	_	56	advcl	_	_
 46	کانپوءِ	_	ADP	_	_	45	mark	_	_
 47	ڪجهه	_	ADJ	_	_	51	amod	_	_
-48	”	_	PUNCT	_	_	47	case	_	SpaceAfter=No
+48	”	_	PUNCT	_	_	47	punct	_	SpaceAfter=No
 49	موکي	_	NOUN	_	_	51	nmod	_	_
 50	متارا	_	NOUN	_	_	51	nmod	_	_
 51	پارٽي	_	NOUN	_	_	54	nmod	_	SpaceAfter=No

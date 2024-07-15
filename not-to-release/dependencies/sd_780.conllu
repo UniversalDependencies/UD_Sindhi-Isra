@@ -4146,14 +4146,14 @@
 11	،	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 880
-# text = اهو فنڊ مون پنهنجي لاءِ ناهي کوليو .
+# text = اهو فنڊ مون پنهنجي لاءِ ناهي کوليو.
 1	اهو	_	PRON	_	_	2	nmod	_	_
 2	فنڊ	_	NOUN	_	_	7	nsubj	_	_
 3	مون	_	PRON	_	_	7	nsubj	_	_
 4	پنهنجي	_	PRON	_	_	7	obl	_	_
 5	لاءِ	_	ADP	_	_	4	case	_	_
-6	ناهي	_	AUX	_	_	7	punct	_	_
-7	کوليو	_	VERB	_	_	0	root	_	_
+6	ناهي	_	AUX	_	_	7	aux	_	_
+7	کوليو	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 881
@@ -6883,10 +6883,11 @@
 
 # sent_id = 1070
 # text = متان گوڏي هيٺان اچو!
-1	متان	_	ADV	_	_	3	advmod	_	_
-2	گوڏي	_	NOUN	_	_	0	root	_	_
+1	متان	_	ADV	_	_	4	advmod	_	_
+2	گوڏي	_	NOUN	_	_	4	obl	_	_
 3	هيٺان	_	ADV	_	_	2	advmod	_	_
-4	اچو!	_	NOUN	_	_	2	punct	_	_
+4	اچو	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	!	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 1071
 # text = بس پوءِ ته شينهن هنبوڇيءَ ۾ پئجي ويا ،
@@ -9045,8 +9046,8 @@
 
 # sent_id = 1245
 # text = هوم پيج
-1	هوم	_	NOUN	_	_	0	root	_	_
-2	پيج	_	NOUN	_	_	1	punct	_	_
+1	هوم	_	NOUN	_	_	2	nmod	_	_
+2	پيج	_	NOUN	_	_	0	root	_	_
 
 # sent_id = 1246
 # text = لائبريري ڪئٽلاگ
