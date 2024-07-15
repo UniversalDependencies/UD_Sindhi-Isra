@@ -14,13 +14,13 @@
 1	متان	_	ADV	_	_	4	advmod	_	_
 2	گوڏي	_	NOUN	_	_	4	obl	_	_
 3	هيٺان	_	ADV	_	_	2	advmod	_	_
-4	اچو	_	VERB	_	_	_	_	_	_
+4	اچو	_	VERB	_	_	0	root	_	_
 5	!	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 1245
 # text = هوم پيج
 1	هوم	_	NOUN	_	_	2	nmod	_	_
-2	پيج	_	NOUN	_	_	0	null	_	_
+2	پيج	_	NOUN	_	_	0	root	_	_
 
 # sent_id = 135
 # text = پوڙهي ڏاڍي خوش پئي لڳي ته شڪر آهي جو باندرن ۽ شينهن مان ڇوٽڪارو مليو.
@@ -194,7 +194,7 @@
 # sent_id = 282
 # text = ۽ ”سڀني“ مان مطلب صرف سياستدان، عدليه ۽ شهري نه آهن،
 1	۽	_	CCONJ	_	_	3	cc	_	_
-2	”	_	SCONJ	_	_	3	punct	_	SpaceAfter=No
+2	”	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	سڀني	_	ADJ	_	_	6	amod	_	SpaceAfter=No
 4	“	_	PUNCT	_	_	3	punct	_	_
 5	مان	_	ADP	_	_	3	case	_	_
@@ -214,7 +214,7 @@
 1	ان	_	DET	_	_	3	nmod	_	_
 2	جي	_	ADP	_	_	1	case	_	_
 3	بجاءِ	_	ADV	_	_	10	obl	_	_
-4	”	_	SCONJ	_	_	5	punct	_	SpaceAfter=No
+4	”	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	اسان	_	PRON	_	_	10	nsubj	_	_
 6	سڀ	_	ADJ	_	_	8	amod	_	_
 7	هن	_	DET	_	_	8	det	_	_
@@ -342,7 +342,7 @@
 1	جيڪي	_	PRON	_	_	19	nsubj	_	_
 2	شادين	_	NOUN	_	_	4	conj	_	SpaceAfter=No
 3	،	_	PUNCT	_	_	2	punct	_	_
-4	اين	_	NOUN	_	_	_	_	_	_
+4	اين	_	NOUN	_	_	11	obl	_	_
 5	جي	_	NOUN	_	_	4	compound	_	_
 6	اوز	_	NOUN	_	_	5	compound	_	_
 7	يا	_	CCONJ	_	_	10	cc	_	_
