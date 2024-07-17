@@ -15,7 +15,7 @@
 13	اڄ	_	ADV	_	_	16	advmod	_	_
 14	توکي	_	PRON	_	_	16	obj	_	_
 15	ڇا	_	PRON	_	_	16	obj	_	_
-16	ٿي	_	AUX	_	_	11	obj	_	_
+16	ٿي	_	VERB	_	_	11	obj	_	_
 17	ويو	_	VERB	_	_	16	compound	_	_
 18	هو	_	AUX	_	_	16	aux	_	SpaceAfter=No
 19	؟	_	PUNCT	_	_	16	punct	_	_
@@ -60,7 +60,7 @@
 12	ڪو	_	DET	_	_	13	det	_	_
 13	جيت	_	NOUN	_	_	14	nsubj	_	_
 14	اچي	_	VERB	_	_	18	advcl	_	_
-15	ٿي	_	AUX	_	_	14	aux	_	_
+15	ٿي	_	VERB	_	_	14	compound	_	_
 16	وات	_	NOUN	_	_	18	obl	_	_
 17	۾	_	ADP	_	_	16	case	_	_
 18	پيو	_	VERB	_	_	9	advcl	_	_
@@ -118,7 +118,7 @@
 # sent_id = 4121
 # text = هر هڪ پنهنجو پاڻ کي غير محفوظ سمجهي رهيو آهي.
 1	هر	_	DET	_	_	2	det	_	_
-2	هڪ	_	ADJ	_	_	8	nsubj	_	_
+2	هڪ	_	NOUN	_	_	8	nsubj	_	_
 3	پنهنجو	_	PRON	_	_	4	nmod	_	_
 4	پاڻ	_	PRON	_	_	8	obj	_	_
 5	کي	_	ADP	_	_	4	case	_	_
@@ -192,12 +192,12 @@
 
 # sent_id = 4601
 # text = جيڪا ايندڙ 2015-16ع تائين هلندي ۽ ائين سراسري طور مذڪوره ورڇ مطابق پنجاب کي 51.
-1	جيڪا	_	DET	_	_	8	nsubj	_	_
+1	جيڪا	_	PRON	_	_	8	nsubj	_	_
 2	ايندڙ	_	VERB	_	_	3	acl	_	_
 3	2015	_	NUM	_	_	6	nummod	_	SpaceAfter=No
 4	-	_	PUNCT	_	_	5	cc	_	SpaceAfter=No
 5	16	_	NUM	_	_	3	nummod	_	SpaceAfter=No
-6	ع	_	NUM	_	_	8	obl	_	_
+6	ع	_	X	_	_	8	obl	_	_
 7	تائين	_	ADP	_	_	6	case	_	_
 8	هلندي	_	VERB	_	_	0	root	_	_
 9	۽	_	CCONJ	_	_	18	cc	_	_
@@ -366,7 +366,7 @@
 
 # sent_id = 4772
 # text = آخرڪار دهشتگردن جي انهن ڪارواين کان روڪڻ لاءِ پنهنجي جمهوري حڪومت ۾ به روڪ ٿام ته ٿيندي ته ته پوءِ ڪڏهن ٿيندي؟ هيءُ دهشت سان ڀريل خودڪش حملا بمم ڌماڪا پوري ملڪ جي 18 ڪروڙ عوام کي ڄڻ ته يرغمال ڪري ڇڏين ٿا.
-1	آخرڪار	_	ADJ	_	_	2	amod	_	_
+1	آخرڪار	_	ADV	_	_	2	amod	_	_
 2	دهشتگردن	_	NOUN	_	_	5	nmod	_	_
 3	جي	_	ADP	_	_	2	case	_	_
 4	انهن	_	DET	_	_	5	det	_	_
@@ -434,7 +434,7 @@
 2	جي	_	ADP	_	_	1	case	_	_
 3	آپريشن	_	NOUN	_	_	4	nmod	_	_
 4	ڪمانڊر	_	NOUN	_	_	6	nsubj	_	_
-5	وڌيڪ	_	ADJ	_	_	6	compound	_	_
+5	وڌيڪ	_	ADV	_	_	6	compound	_	_
 6	چيو	_	VERB	_	_	0	root	_	_
 7	ته	_	SCONJ	_	_	20	mark	_	_
 8	رياست	_	NOUN	_	_	11	obl	_	_
@@ -645,7 +645,7 @@
 # text = اهڙو اظهار هن سيوهڻ ۾ درگاهه قلندر آڏو عوامي جلسي کي خطاب ڪندي ڪيو،
 1	اهڙو	_	DET	_	_	2	det	_	_
 2	اظهار	_	NOUN	_	_	14	nsubj	_	_
-3	هن	_	DET	_	_	14	nsubj	_	_
+3	هن	_	PRON	_	_	14	nsubj	_	_
 4	سيوهڻ	_	PROPN	_	_	14	obl	_	_
 5	۾	_	ADP	_	_	4	case	_	_
 6	درگاهه	_	NOUN	_	_	7	nmod	_	_
@@ -710,8 +710,8 @@
 4	حضرات	_	NOUN	_	_	12	nsubj	_	SpaceAfter=No
 5	،	_	PUNCT	_	_	4	punct	_	_
 6	خوشيون	_	NOUN	_	_	12	nsubj	_	_
-7	خريد	_	NOUN	_	_	12	obl	_	_
-8	۾	_	ADP	_	_	7	case	_	_
+7	خريد	_	VERB	_	_	12	obl	_	_
+8	۾	_	ADP	_	_	7	mark	_	_
 9	”	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 10	گهٽ	_	ADJ	_	_	12	xcomp	_	SpaceAfter=No
 11	“	_	PUNCT	_	_	10	punct	_	_
@@ -721,7 +721,7 @@
 15	سچي	_	ADJ	_	_	16	amod	_	_
 16	ڳالهه	_	NOUN	_	_	18	nsubj	_	_
 17	ته	_	SCONJ	_	_	16	dep	_	_
-18	اها	_	DET	_	_	12	conj	_	_
+18	اها	_	PRON	_	_	12	conj	_	_
 19	آهي	_	AUX	_	_	18	cop	_	_
 20	ته	_	SCONJ	_	_	26	mark	_	_
 21	هاڻي	_	ADV	_	_	26	advmod	_	_
@@ -729,7 +729,7 @@
 23	اهو	_	DET	_	_	24	det	_	_
 24	ملهه	_	NOUN	_	_	26	nsubj	_	_
 25	به	_	ADP	_	_	24	case	_	_
-26	ڪونهي	_	VERB	_	_	18	advcl	_	SpaceAfter=No
+26	ڪونهي	_	VERB	_	_	18	obl	_	SpaceAfter=No
 27	،	_	PUNCT	_	_	26	punct	_	_
 
 # sent_id = 5504
@@ -785,7 +785,7 @@
 11	ڪري	_	VERB	_	_	7	conj	_	_
 12	چڪو	_	VERB	_	_	11	compound	_	_
 13	آهيان	_	AUX	_	_	11	aux	_	_
-14	نه	_	PART	_	_	11	mark	_	SpaceAfter=No
+14	نه	_	SCONJ	_	_	11	mark	_	SpaceAfter=No
 15	،	_	PUNCT	_	_	19	punct	_	_
 16	اکين	_	NOUN	_	_	19	obl	_	_
 17	۾	_	ADP	_	_	16	case	_	_
@@ -828,7 +828,7 @@
 22	ميلو	_	NOUN	_	_	27	nsubj	_	_
 23	تاريخ	_	NOUN	_	_	27	obl	_	_
 24	۾	_	ADP	_	_	23	case	_	_
-25	ست	_	ADJ	_	_	26	amod	_	_
+25	ست	_	NUM	_	_	26	nummod	_	_
 26	ڀيرا	_	NOUN	_	_	27	obl	_	_
 27	ملهايو	_	VERB	_	_	13	advcl	_	_
 28	ويو	_	VERB	_	_	27	compound	_	_
@@ -942,7 +942,7 @@
 23	سامونڊي	_	ADJ	_	_	24	amod	_	_
 24	جهاز	_	NOUN	_	_	27	obj	_	_
 25	کي	_	ADP	_	_	24	case	_	_
-26	هائيجيڪ	_	NOUN	_	_	27	compound	_	_
+26	هائيجيڪ	_	VERB	_	_	27	compound	_	_
 27	ڪري	_	VERB	_	_	9	advcl	_	_
 28	ورتو	_	VERB	_	_	27	compound	_	_
 29	آهي	_	AUX	_	_	27	aux	_	SpaceAfter=No
@@ -998,7 +998,7 @@
 18	مانيٽرنگ	_	NOUN	_	_	19	compound	_	_
 19	ڊيسڪ	_	NOUN	_	_	16	conj	_	SpaceAfter=No
 20	)	_	PUNCT	_	_	19	punct	_	_
-21	جي	_	ADP	_	_	16	case	_	_
+21	جي	_	NOUN	_	_	22	compound	_	_
 22	يو	_	NOUN	_	_	23	nmod	_	_
 23	آءِ	_	NOUN	_	_	28	nmod	_	_
 24	(	_	PUNCT	_	_	25	punct	_	SpaceAfter=No
@@ -1042,7 +1042,7 @@
 # sent_id = 92
 # text = اڃا هو گهڻو پرتي ڪونه ويو هو،
 1	اڃا	_	ADV	_	_	6	advmod	_	_
-2	هو	_	DET	_	_	6	nsubj	_	_
+2	هو	_	PRON	_	_	6	nsubj	_	_
 3	گهڻو	_	ADJ	_	_	4	amod	_	_
 4	پرتي	_	ADJ	_	_	6	xcomp	_	_
 5	ڪونه	_	PART	_	_	6	dep	_	_
