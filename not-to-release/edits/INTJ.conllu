@@ -15,7 +15,7 @@
 # text = چي : مار ،
 1	چي	_	VERB	_	_	0	root	_	_
 2	:	_	PUNCT	_	_	1	punct	_	_
-3	مار	_	INTJ	_	_	1	discourse	_	_
+3	مار	_		_	_	1	discourse	_	_
 4	،	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 1454
@@ -33,8 +33,9 @@
 
 # sent_id = 516
 # text = اي يسوع!
-1	اي	_	INTJ	_	_	2	dep	_	_
-2	يسوع!	_	VERB	_	_	0	root	_	_
+1	اي	_	INTJ	_	_	2	discourse	_	_
+2	يسوع	_	NOUN	_	_	0	root	_	_
+3	!	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 5715
 # text = افسوس جو ان ۾ ماهوار وظيفي جو ڪٿي به ذڪر ڪونهي.
@@ -213,7 +214,7 @@
 # sent_id = 548
 # text = اڙي چيتا! جيڪڏهن توکي پنهنجي جان پياري آهي ته متان مٿي چڙهيو آهين.
 1	اڙي	_	INTJ	_	_	8	discourse	_	_
-2	چيتا	_	INTJ	_	_	8	nsubj	_	SpaceAfter=No
+2	چيتا	_	NOUN	_	_	8	nsubj	_	SpaceAfter=No
 3	!	_	SYM	_	_	2	punct	_	_
 4	جيڪڏهن	_	SCONJ	_	_	8	mark	_	_
 5	توکي	_	PRON	_	_	8	nsubj	_	_
@@ -381,7 +382,7 @@
 36	۽	_	CCONJ	_	_	37	cc	_	_
 37	چيو	_	VERB	_	_	35	conj	_	_
 38	”	_	PUNCT	_	_	37	punct	_	SpaceAfter=No
-39	هائو	_	INTJ	_	_	42	nsubj	_	SpaceAfter=No
+39	هائو	_	INTJ	_	_	42	discourse	_	SpaceAfter=No
 40	!	_	SYM	_	_	39	punct	_	_
 41	بلڪل	_	ADV	_	_	42	advmod	_	_
 42	ملي	_	VERB	_	_	37	obj	_	_
