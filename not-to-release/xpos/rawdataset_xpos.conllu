@@ -1,0 +1,1237 @@
+# text = علي ڪتاب پڙھي ٿو.
+# sent_id = 1
+1	علي	علي	PROPN	_	_	3	nsubj	_	start_char=0|end_char=3
+2	ڪتاب	ڪتاب	NOUN	_	_	3	obj	_	start_char=4|end_char=8
+3	پڙھي	پڙھي	VERB	_	_	0	root	_	start_char=9|end_char=13
+4	ٿو	ٿو	AUX	_	_	3	aux	_	start_char=14|end_char=16|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=16|end_char=17|SpacesAfter=\n
+
+# text = سيما ڪتاب پڙھي ٿي.
+# sent_id = 2
+1	سيما	سيما	PROPN	_	_	3	nsubj	_	start_char=0|end_char=4
+2	ڪتاب	ڪتاب	NOUN	_	_	3	obj	_	start_char=5|end_char=9
+3	پڙھي	پڙھي	VERB	_	_	0	root	_	start_char=10|end_char=14
+4	ٿي	ٿي	AUX	_	_	3	aux	_	start_char=15|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=17|end_char=18|SpacesAfter=\n
+
+# text = چوڪرو راند کيڏي پيو.
+# sent_id = 3
+1	چوڪرو	چوڪرو	NOUN	_	_	3	nsubj	_	start_char=0|end_char=5
+2	راند	راند	NOUN	_	_	3	obj	_	start_char=6|end_char=10
+3	کيڏي	کيڏي	VERB	_	_	0	root	_	start_char=11|end_char=15
+4	پيو	پيو	VERB	_	_	3	compound	_	start_char=16|end_char=19|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=19|end_char=20|SpacesAfter=\n
+
+# text = چوڪرا راند کيڏن ٿا.
+# sent_id = 4
+1	چوڪرا	چوڪرا	NOUN	_	_	3	nsubj	_	start_char=0|end_char=5
+2	راند	راند	NOUN	_	_	3	obj	_	start_char=6|end_char=10
+3	کيڏن	کيڏن	VERB	_	_	0	root	_	start_char=11|end_char=15
+4	ٿا	ٿا	AUX	_	_	3	aux	_	start_char=16|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=18|end_char=19|SpacesAfter=\n
+
+# text = چوڪري کي نہ مار.
+# sent_id = 5
+1	چوڪري	چوڪري	NOUN	_	_	4	obj	_	start_char=0|end_char=5
+2	کي	کي	ADP	_	_	1	case	_	start_char=6|end_char=8
+3	نہ	نہ	PART	_	_	4	dep	_	start_char=9|end_char=11
+4	مار	مار	VERB	_	_	0	root	_	start_char=12|end_char=15|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	start_char=15|end_char=16|SpacesAfter=\n
+
+# text = ننڍو چوڪرو پھريون ڪتاب پڙھي ٿو.
+# sent_id = 6
+1	ننڍو	ننڍو	ADJ	_	_	2	amod	_	start_char=0|end_char=4|SpacesAfter=\s\s
+2	چوڪرو	چوڪرو	NOUN	_	_	5	nsubj	_	start_char=6|end_char=11
+3	پھريون	پھريون	ADJ	_	_	4	amod	_	start_char=12|end_char=18
+4	ڪتاب	ڪتاب	NOUN	_	_	5	obj	_	start_char=19|end_char=23
+5	پڙھي	پڙھي	VERB	_	_	0	root	_	start_char=24|end_char=28
+6	ٿو	ٿو	AUX	_	_	5	aux	_	start_char=29|end_char=31|SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	start_char=31|end_char=32|SpacesAfter=\n
+
+# text = ننڍي چوڪري چوٿون ڪتاب پڙھيو.
+# sent_id = 7
+1	ننڍي	ننڍي	ADJ	_	_	2	amod	_	start_char=0|end_char=4
+2	چوڪري	چوڪري	NOUN	_	_	5	nsubj	_	start_char=5|end_char=10
+3	چوٿون	چوٿون	ADJ	_	_	4	amod	_	start_char=11|end_char=16
+4	ڪتاب	ڪتاب	NOUN	_	_	5	nsubj	_	start_char=17|end_char=21
+5	پڙھيو	پڙھيو	VERB	_	_	0	root	_	start_char=22|end_char=27|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	start_char=27|end_char=28|SpacesAfter=\n
+
+# text = سھڻي ٻلي ڊوڙي ٿي.
+# sent_id = 8
+1	سھڻي	سھڻي	ADJ	_	_	2	amod	_	start_char=0|end_char=4
+2	ٻلي	ٻلي	NOUN	_	_	3	nsubj	_	start_char=5|end_char=8
+3	ڊوڙي	ڊوڙي	VERB	_	_	0	root	_	start_char=9|end_char=13
+4	ٿي	ٿي	AUX	_	_	3	aux	_	start_char=14|end_char=16|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=16|end_char=17|SpacesAfter=\n
+
+# text = پنج چوڪريون پڙھڻ آيون.
+# sent_id = 9
+1	پنج	پنج	ADJ	_	_	2	amod	_	start_char=0|end_char=3
+2	چوڪريون	چوڪريون	NOUN	_	_	4	nsubj	_	start_char=4|end_char=11
+3	پڙھڻ	پڙھڻ	VERB	_	_	4	xcomp	_	start_char=12|end_char=16
+4	آيون	آيون	VERB	_	_	0	root	_	start_char=17|end_char=21|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	start_char=21|end_char=22|SpacesAfter=\n
+
+# text = ھن سال پوک مان چئوڻا پيسا ملندا.
+# sent_id = 10
+1	ھن	ھن	DET	_	_	2	det	_	start_char=0|end_char=2
+2	سال	سال	NOUN	_	_	7	obl	_	start_char=3|end_char=6
+3	پوک	پوک	NOUN	_	_	7	obl	_	start_char=7|end_char=10
+4	مان	مان	ADP	_	_	3	case	_	start_char=11|end_char=14
+5	چئوڻا	چئوڻا	ADJ	_	_	6	amod	_	start_char=15|end_char=20
+6	پيسا	پيسا	NOUN	_	_	7	obj	_	start_char=21|end_char=25
+7	ملندا	ملندا	VERB	_	_	0	root	_	start_char=26|end_char=31|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	start_char=31|end_char=32|SpacesAfter=\n
+
+# text = منو ايڪڙ ڦٽيون پوکيون آھن.
+# sent_id = 11
+1	منو	منو	PROPN	_	_	2	nmod	_	start_char=0|end_char=3
+2	ايڪڙ	ايڪڙ	NOUN	_	_	3	nmod	_	start_char=4|end_char=8
+3	ڦٽيون	ڦٽيون	NOUN	_	_	4	obj	_	start_char=9|end_char=14
+4	پوکيون	پوکيون	VERB	_	_	0	root	_	start_char=15|end_char=21
+5	آھن	آھن	AUX	_	_	4	aux	_	start_char=22|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	start_char=25|end_char=26|SpacesAfter=\n
+
+# text = آئون راند کيڏان ھا.
+# sent_id = 12
+1	آئون	آئون	PRON	_	_	3	nsubj	_	start_char=0|end_char=4
+2	راند	راند	NOUN	_	_	3	obj	_	start_char=5|end_char=9
+3	کيڏان	کيڏان	VERB	_	_	0	root	_	start_char=10|end_char=15
+4	ھا	ھا	AUX	_	_	3	aux	_	start_char=16|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=18|end_char=19|SpacesAfter=\n
+
+# text = اسين راند کيڏون ھا.
+# sent_id = 13
+1	اسين	اسين	PRON	_	_	3	nsubj	_	start_char=0|end_char=4
+2	راند	راند	NOUN	_	_	3	obj	_	start_char=5|end_char=9
+3	کيڏون	کيڏون	VERB	_	_	0	root	_	start_char=10|end_char=15
+4	ھا	ھا	AUX	_	_	3	aux	_	start_char=16|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=18|end_char=19|SpacesAfter=\n
+
+# text = مون راند کيڏي ٿي.
+# sent_id = 14
+1	مون	مون	PRON	_	_	3	nsubj	_	start_char=0|end_char=3
+2	راند	راند	NOUN	_	_	3	obj	_	start_char=4|end_char=8
+3	کيڏي	کيڏي	VERB	_	_	0	root	_	start_char=9|end_char=13
+4	ٿي	ٿي	AUX	_	_	3	aux	_	start_char=14|end_char=16|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=16|end_char=17|SpacesAfter=\n
+
+# text = اسان راند کيڏياسين.
+# sent_id = 15
+1	اسان	اسان	PRON	_	_	3	nsubj	_	start_char=0|end_char=4
+2	راند	راند	NOUN	_	_	3	obj	_	start_char=5|end_char=9
+3	کيڏياسين	کيڏياسين	VERB	_	_	0	root	_	start_char=10|end_char=18|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	start_char=18|end_char=19|SpacesAfter=\n
+
+# text = احمد مون کي ڪتاب ڏنو.
+# sent_id = 16
+1	احمد	احمد	PROPN	_	_	5	nsubj	_	start_char=0|end_char=4
+2	مون	مون	PRON	_	_	5	obj	_	start_char=5|end_char=8
+3	کي	کي	ADP	_	_	2	case	_	start_char=9|end_char=11
+4	ڪتاب	ڪتاب	NOUN	_	_	5	obj	_	start_char=12|end_char=16
+5	ڏنو	ڏنو	VERB	_	_	0	root	_	start_char=17|end_char=20|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	start_char=20|end_char=21|SpacesAfter=\n
+
+# text = جاويد ھن کي ھي ڪتاب ڏنو.
+# sent_id = 17
+1	جاويد	جاويد	PROPN	_	_	6	nsubj	_	start_char=0|end_char=5
+2	ھن	ھن	DET	_	_	6	obj	_	start_char=6|end_char=8
+3	کي	کي	ADP	_	_	2	case	_	start_char=9|end_char=11
+4	ھي	ھي	DET	_	_	5	det	_	start_char=12|end_char=14
+5	ڪتاب	ڪتاب	NOUN	_	_	6	obj	_	start_char=15|end_char=19
+6	ڏنو	ڏنو	VERB	_	_	0	root	_	start_char=20|end_char=23|SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	start_char=23|end_char=24|SpacesAfter=\n
+
+# text = اھي ڪتاب پڙھڻ جھڙا آھن.
+# sent_id = 18
+1	اھي	اھي	DET	_	_	2	det	_	start_char=0|end_char=3
+2	ڪتاب	ڪتاب	NOUN	_	_	4	nsubj	_	start_char=4|end_char=8
+3	پڙھڻ	پڙھڻ	VERB	_	_	4	xcomp	_	start_char=9|end_char=13
+4	جھڙا	جھڙا	ADJ	_	_	0	root	_	start_char=14|end_char=18
+5	آھن	آھن	AUX	_	_	4	cop	_	start_char=19|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	start_char=22|end_char=23|SpacesAfter=\n
+
+# text = ھمراھ ڇا ٿو چوي؟
+# sent_id = 19
+1	ھمراھ	ھمراھ	NOUN	_	_	4	nsubj	_	start_char=0|end_char=5
+2	ڇا	ڇا	PRON	_	_	4	obj	_	start_char=6|end_char=8
+3	ٿو	ٿو	AUX	_	_	4	aux	_	start_char=9|end_char=11
+4	چوي	چوي	VERB	_	_	0	root	_	start_char=12|end_char=15|SpaceAfter=No
+5	؟	؟	PUNCT	_	_	4	punct	_	start_char=15|end_char=16|SpacesAfter=\n
+
+# text = ڪھڙا ڇوڪرا ماني کائيندا؟
+# sent_id = 20
+1	ڪھڙا	ڪھڙا	ADJ	_	_	2	amod	_	start_char=0|end_char=4
+2	ڇوڪرا	ڇوڪرا	NOUN	_	_	4	nsubj	_	start_char=5|end_char=10
+3	ماني	ماني	NOUN	_	_	4	obj	_	start_char=11|end_char=15
+4	کائيندا	کائيندا	VERB	_	_	0	root	_	start_char=16|end_char=23|SpaceAfter=No
+5	؟	؟	PUNCT	_	_	4	punct	_	start_char=23|end_char=24|SpacesAfter=\n
+
+# text = تون سڀاڻي اڇجانءِ.
+# sent_id = 21
+1	تون	تون	PRON	_	_	3	nsubj	_	start_char=0|end_char=3
+2	سڀاڻي	سڀاڻي	ADV	_	_	3	advmod	_	start_char=4|end_char=9
+3	اڇجانءِ	اڇجانءِ	VERB	_	_	0	root	_	start_char=10|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	start_char=17|end_char=18|SpacesAfter=\n
+
+# text = پاڻي آھستي پيئجي.
+# sent_id = 22
+1	پاڻي	پاڻي	NOUN	_	_	3	nsubj	_	start_char=0|end_char=4
+2	آھستي	آھستي	ADV	_	_	3	advmod	_	start_char=5|end_char=10
+3	پيئجي	پيئجي	VERB	_	_	0	root	_	start_char=11|end_char=16|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	start_char=16|end_char=17|SpacesAfter=\n
+
+# text = ڪاوڙ ڪانہ ڪبي آھي.
+# sent_id = 23
+1	ڪاوڙ	ڪاوڙ	NOUN	_	_	3	nsubj	_	start_char=0|end_char=4
+2	ڪانہ	ڪانہ	ADV	_	_	3	advmod	_	start_char=5|end_char=9
+3	ڪبي	ڪبي	VERB	_	_	0	root	_	start_char=10|end_char=13
+4	آھي	آھي	AUX	_	_	3	aux	_	start_char=14|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=17|end_char=18|SpacesAfter=\n
+
+# text = ھمراہ گھڻو ئي ڊوڙيو پر نہ پھتو.
+# sent_id = 24
+1	ھمراہ	ھمراہ	NOUN	_	_	4	nsubj	_	start_char=0|end_char=5
+2	گھڻو	گھڻو	ADJ	_	_	4	advmod	_	start_char=6|end_char=10
+3	ئي	ئي	PART	_	_	2	dep	_	start_char=11|end_char=13
+4	ڊوڙيو	ڊوڙيو	VERB	_	_	0	root	_	start_char=14|end_char=19
+5	پر	پر	SCONJ	_	_	7	mark	_	start_char=20|end_char=22
+6	نہ	نہ	PART	_	_	7	dep	_	start_char=23|end_char=25
+7	پھتو	پھتو	VERB	_	_	4	advcl	_	start_char=26|end_char=30|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	start_char=30|end_char=31|SpacesAfter=\n
+
+# text = ھو ڀلي اڇي.
+# sent_id = 25
+1	ھو	ھو	PRON	_	_	3	nsubj	_	start_char=0|end_char=2
+2	ڀلي	ڀلي	ADV	_	_	3	advmod	_	start_char=3|end_char=6
+3	اڇي	اڇي	VERB	_	_	0	root	_	start_char=7|end_char=10|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	start_char=10|end_char=11|SpacesAfter=\n
+
+# text = ھو ڀلي ھتي اچي.
+# sent_id = 26
+1	ھو	ھو	PRON	_	_	4	nsubj	_	start_char=0|end_char=2
+2	ڀلي	ڀلي	ADV	_	_	4	advmod	_	start_char=3|end_char=6
+3	ھتي	ھتي	ADV	_	_	4	advmod	_	start_char=7|end_char=10
+4	اچي	اچي	VERB	_	_	0	root	_	start_char=11|end_char=14|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	start_char=14|end_char=15|SpacesAfter=\n
+
+# text = ھو ويجھس آيو.
+# sent_id = 27
+1	ھو	ھو	PRON	_	_	3	nsubj	_	start_char=0|end_char=2
+2	ويجھس	ويجھس	VERB	_	_	3	xcomp	_	start_char=3|end_char=8
+3	آيو	آيو	VERB	_	_	0	root	_	start_char=9|end_char=12|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	start_char=12|end_char=13|SpacesAfter=\n
+
+# text = چوڪري جي ڪتاب جا پنا ڦاٽل آھن.
+# sent_id = 28
+1	چوڪري	چوڪري	NOUN	_	_	3	nmod	_	start_char=0|end_char=5
+2	جي	جي	ADP	_	_	1	case	_	start_char=6|end_char=8
+3	ڪتاب	ڪتاب	NOUN	_	_	5	nmod	_	start_char=9|end_char=13
+4	جا	جا	ADP	_	_	3	case	_	start_char=14|end_char=16
+5	پنا	پنا	NOUN	_	_	6	nsubj	_	start_char=17|end_char=20
+6	ڦاٽل	ڦاٽل	VERB	_	_	0	root	_	start_char=21|end_char=25
+7	آھن	آھن	AUX	_	_	6	aux	_	start_char=26|end_char=29|SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	start_char=29|end_char=30|SpacesAfter=\n
+
+# text = احمد ساڻس ھليو.
+# sent_id = 29
+1	احمد	احمد	PROPN	_	_	3	nsubj	_	start_char=0|end_char=4
+2	ساڻس	ساڻس	ADP	_	_	1	case	_	start_char=5|end_char=9
+3	ھليو	ھليو	VERB	_	_	0	root	_	start_char=10|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	start_char=14|end_char=15|SpacesAfter=\n
+
+# text = اسان ٻوڙ ۽ ماني کاڌي.
+# sent_id = 30
+1	اسان	اسان	PRON	_	_	5	nsubj	_	start_char=0|end_char=4
+2	ٻوڙ	ٻوڙ	NOUN	_	_	5	obj	_	start_char=5|end_char=8
+3	۽	۽	CCONJ	_	_	4	cc	_	start_char=9|end_char=10
+4	ماني	ماني	NOUN	_	_	2	conj	_	start_char=11|end_char=15
+5	کاڌي	کاڌي	VERB	_	_	0	root	_	start_char=16|end_char=20|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	start_char=20|end_char=21|SpacesAfter=\n
+
+# text = اسان ٻوڙ ۽ ماني کاڌي پر مزو ڪونہ آيو.
+# sent_id = 31
+1	اسان	اسان	PRON	_	_	5	nsubj	_	start_char=0|end_char=4
+2	ٻوڙ	ٻوڙ	NOUN	_	_	5	obj	_	start_char=5|end_char=8
+3	۽	۽	CCONJ	_	_	4	cc	_	start_char=9|end_char=10
+4	ماني	ماني	NOUN	_	_	2	conj	_	start_char=11|end_char=15
+5	کاڌي	کاڌي	VERB	_	_	0	root	_	start_char=16|end_char=20
+6	پر	پر	SCONJ	_	_	9	mark	_	start_char=21|end_char=23
+7	مزو	مزو	ADJ	_	_	9	nsubj	_	start_char=24|end_char=27
+8	ڪونہ	ڪونہ	ADV	_	_	9	advmod	_	start_char=28|end_char=32
+9	آيو	آيو	VERB	_	_	5	advcl	_	start_char=33|end_char=36|SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	start_char=36|end_char=37|SpacesAfter=\n
+
+# text = ھن کي بخار آھي.
+# sent_id = 32
+1	ھن	ھن	PRON	_	_	3	nsubj	_	start_char=0|end_char=2
+2	کي	کي	ADP	_	_	1	case	_	start_char=3|end_char=5
+3	بخار	بخار	NOUN	_	_	0	root	_	start_char=6|end_char=10
+4	آھي	آھي	AUX	_	_	3	cop	_	start_char=11|end_char=14|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=14|end_char=15|SpacesAfter=\n
+
+# text = بخار اٿم.
+# sent_id = 33
+1	بخار	بخار	PROPN	_	_	0	root	_	start_char=0|end_char=4
+2	اٿم	اٿم	VERB	_	_	1	cop	_	start_char=5|end_char=8|SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|SpacesAfter=\n
+
+# text = بخار آھيس.
+# sent_id = 34
+1	بخار	بخار	PROPN	_	_	0	root	_	start_char=0|end_char=4
+2	آھيس	آھيس	AUX	_	_	1	cop	_	start_char=5|end_char=9|SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|SpacesAfter=\n
+
+# text = تون ھيڏانھن اچ.
+# sent_id = 35
+1	تون	تون	PRON	_	_	3	nsubj	_	start_char=0|end_char=3
+2	ھيڏانھن	ھيڏانھن	ADV	_	_	3	advmod	_	start_char=4|end_char=11
+3	اچ	اچ	VERB	_	_	0	root	_	start_char=12|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	start_char=14|end_char=15|SpacesAfter=\n
+
+# text = آئون پنڌ ھلندو آھيان.
+# sent_id = 36
+1	آئون	آئون	PRON	_	_	3	nsubj	_	start_char=0|end_char=4
+2	پنڌ	پنڌ	NOUN	_	_	3	obl	_	start_char=5|end_char=8
+3	ھلندو	ھلندو	VERB	_	_	0	root	_	start_char=9|end_char=14
+4	آھيان	آھيان	AUX	_	_	3	aux	_	start_char=15|end_char=20|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=20|end_char=21|SpacesAfter=\n
+
+# text = ھمراہ گھمڻ ويو ھو.
+# sent_id = 37
+1	ھمراہ	ھمراہ	NOUN	_	_	3	nsubj	_	start_char=0|end_char=5
+2	گھمڻ	گھمڻ	VERB	_	_	3	xcomp	_	start_char=6|end_char=10
+3	ويو	ويو	VERB	_	_	0	root	_	start_char=11|end_char=14
+4	ھو	ھو	AUX	_	_	3	aux	_	start_char=15|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=17|end_char=18|SpacesAfter=\n
+
+# text = تو کي ھلڻو پوندو.
+# sent_id = 38
+1	تو	تو	PRON	_	_	3	nsubj	_	start_char=0|end_char=2
+2	کي	کي	ADP	_	_	1	case	_	start_char=3|end_char=5
+3	ھلڻو	ھلڻو	VERB	_	_	0	root	_	start_char=6|end_char=10
+4	پوندو	پوندو	VERB	_	_	3	compound	_	start_char=11|end_char=16|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=16|end_char=17|SpacesAfter=\n
+
+# text = مون ڍڳو ماريو آھي.
+# sent_id = 39
+1	مون	مون	PRON	_	_	3	nsubj	_	start_char=0|end_char=3
+2	ڍڳو	ڍڳو	NOUN	_	_	3	obj	_	start_char=4|end_char=7
+3	ماريو	ماريو	VERB	_	_	0	root	_	start_char=8|end_char=13
+4	آھي	آھي	AUX	_	_	3	aux	_	start_char=14|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=17|end_char=18|SpacesAfter=\n
+
+# text = گدڙ اڳي ئي مئل ھو.
+# sent_id = 40
+1	گدڙ	گدڙ	NOUN	_	_	4	nsubj	_	start_char=0|end_char=3
+2	اڳي	اڳي	ADV	_	_	4	advmod	_	start_char=4|end_char=7
+3	ئي	ئي	ADP	_	_	2	case	_	start_char=8|end_char=10
+4	مئل	مئل	VERB	_	_	0	root	_	start_char=11|end_char=14
+5	ھو	ھو	AUX	_	_	4	aux	_	start_char=15|end_char=17|SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	start_char=17|end_char=18|SpacesAfter=\n
+
+# text = استاد ڪتاب جو لکندڙ آھي.
+# sent_id = 41
+1	استاد	استاد	NOUN	_	_	4	nsubj	_	start_char=0|end_char=5
+2	ڪتاب	ڪتاب	NOUN	_	_	4	nmod	_	start_char=6|end_char=10
+3	جو	جو	ADP	_	_	2	case	_	start_char=11|end_char=13
+4	لکندڙ	لکندڙ	NOUN	_	_	0	root	_	start_char=14|end_char=19
+5	آھي	آھي	AUX	_	_	4	cop	_	start_char=20|end_char=23|SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	start_char=23|end_char=24|SpacesAfter=\n
+
+# text = ڇوڪرو ماني کائي اسڪول ويو.
+# sent_id = 42
+1	ڇوڪرو	ڇوڪرو	NOUN	_	_	5	nsubj	_	start_char=0|end_char=5
+2	ماني	ماني	NOUN	_	_	3	obj	_	start_char=6|end_char=10
+3	کائي	کائي	VERB	_	_	5	advcl	_	start_char=11|end_char=15
+4	اسڪول	اسڪول	NOUN	_	_	5	obl	_	start_char=16|end_char=21
+5	ويو	ويو	VERB	_	_	0	root	_	start_char=22|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	start_char=25|end_char=26|SpacesAfter=\n
+
+# text = تون ھن پاسي ڦر.
+# sent_id = 43
+1	تون	تون	PRON	_	_	4	nsubj	_	start_char=0|end_char=3
+2	ھن	ھن	DET	_	_	3	det	_	start_char=4|end_char=6
+3	پاسي	پاسي	NOUN	_	_	4	obl	_	start_char=7|end_char=11
+4	ڦر	ڦر	VERB	_	_	0	root	_	start_char=12|end_char=14|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	start_char=14|end_char=15|SpacesAfter=\n
+
+# text = تون پنکي کي ھن پاسي ڦير.
+# sent_id = 44
+1	تون	تون	PRON	_	_	6	nsubj	_	start_char=0|end_char=3
+2	پنکي	پنکي	NOUN	_	_	6	obj	_	start_char=4|end_char=8
+3	کي	کي	ADP	_	_	2	case	_	start_char=9|end_char=11
+4	ھن	ھن	DET	_	_	5	det	_	start_char=12|end_char=14
+5	پاسي	پاسي	NOUN	_	_	6	obl	_	start_char=15|end_char=19
+6	ڦير	ڦير	VERB	_	_	0	root	_	start_char=20|end_char=23|SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	start_char=23|end_char=24|SpacesAfter=\n
+
+# text = آئون ڪتاب لکان ٿو.
+# sent_id = 45
+1	آئون	آئون	PRON	_	_	3	nsubj	_	start_char=0|end_char=4
+2	ڪتاب	ڪتاب	NOUN	_	_	3	obj	_	start_char=5|end_char=9
+3	لکان	لکان	VERB	_	_	0	root	_	start_char=10|end_char=14
+4	ٿو	ٿو	AUX	_	_	3	aux	_	start_char=15|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=17|end_char=18|SpacesAfter=\n
+
+# text = تو علي کي ڪتاب ڏنو.
+# sent_id = 46
+1	تو	تو	PRON	_	_	5	nsubj	_	start_char=0|end_char=2
+2	علي	علي	PROPN	_	_	5	obj	_	start_char=3|end_char=6
+3	کي	کي	ADP	_	_	2	case	_	start_char=7|end_char=9
+4	ڪتاب	ڪتاب	NOUN	_	_	5	obj	_	start_char=10|end_char=14
+5	ڏنو	ڏنو	VERB	_	_	0	root	_	start_char=15|end_char=18|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	start_char=18|end_char=19|SpacesAfter=\n
+
+# text = علي تو کي ڪتاب ڏيندو.
+# sent_id = 47
+1	علي	علي	PROPN	_	_	5	nsubj	_	start_char=0|end_char=3
+2	تو	تو	PRON	_	_	5	obj	_	start_char=4|end_char=6
+3	کي	کي	ADP	_	_	2	case	_	start_char=7|end_char=9
+4	ڪتاب	ڪتاب	NOUN	_	_	5	obj	_	start_char=10|end_char=14
+5	ڏيندو	ڏيندو	VERB	_	_	0	root	_	start_char=15|end_char=20|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	start_char=20|end_char=21|SpacesAfter=\n
+
+# text = آئون احمد کي ڪتاب ڏيان ٿو.
+# sent_id = 48
+1	آئون	آئون	PRON	_	_	5	nsubj	_	start_char=0|end_char=4
+2	احمد	احمد	PROPN	_	_	5	obj	_	start_char=5|end_char=9
+3	کي	کي	ADP	_	_	2	case	_	start_char=10|end_char=12
+4	ڪتاب	ڪتاب	NOUN	_	_	5	obj	_	start_char=13|end_char=17
+5	ڏيان	ڏيان	VERB	_	_	0	root	_	start_char=18|end_char=22
+6	ٿو	ٿو	AUX	_	_	5	aux	_	start_char=23|end_char=25|SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	start_char=25|end_char=26|SpacesAfter=\n
+
+# text = احمد مون کي ڪتاب ڏئي پيو.
+# sent_id = 49
+1	احمد	احمد	PROPN	_	_	5	nsubj	_	start_char=0|end_char=4
+2	مون	مون	PRON	_	_	5	obj	_	start_char=5|end_char=8
+3	کي	کي	ADP	_	_	2	case	_	start_char=9|end_char=11
+4	ڪتاب	ڪتاب	NOUN	_	_	5	obj	_	start_char=12|end_char=16
+5	ڏئي	ڏئي	VERB	_	_	0	root	_	start_char=17|end_char=20
+6	پيو	پيو	VERB	_	_	5	compound	_	start_char=21|end_char=24|SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	start_char=24|end_char=25|SpacesAfter=\n
+
+# text = ڇوڪرو ڊوڙيو ھئو.
+# sent_id = 50
+1	ڇوڪرو	ڇوڪرو	NOUN	_	_	2	nsubj	_	start_char=0|end_char=5
+2	ڊوڙيو	ڊوڙيو	VERB	_	_	0	root	_	start_char=6|end_char=11
+3	ھئو	ھئو	AUX	_	_	2	aux	_	start_char=12|end_char=15|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	start_char=15|end_char=16|SpacesAfter=\n
+
+# text = ڪتاب احمد کان لکجي ٿو.
+# sent_id = 51
+1	ڪتاب	ڪتاب	NOUN	_	_	4	nsubj	_	start_char=0|end_char=4
+2	احمد	احمد	PROPN	_	_	4	obl	_	start_char=5|end_char=9
+3	کان	کان	ADP	_	_	2	case	_	start_char=10|end_char=13
+4	لکجي	لکجي	VERB	_	_	0	root	_	start_char=14|end_char=18
+5	ٿو	ٿو	AUX	_	_	4	aux	_	start_char=19|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	start_char=21|end_char=22|SpacesAfter=\n
+
+# text = احمد ڪتاب لکي ٿو.
+# sent_id = 52
+1	احمد	احمد	PROPN	_	_	3	nsubj	_	start_char=0|end_char=4
+2	ڪتاب	ڪتاب	NOUN	_	_	3	nsubj	_	start_char=5|end_char=9
+3	لکي	لکي	VERB	_	_	0	root	_	start_char=10|end_char=13
+4	ٿو	ٿو	AUX	_	_	3	aux	_	start_char=14|end_char=16|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	start_char=16|end_char=17|SpacesAfter=\n
+
+# text = خط لکانس ٿو.
+# sent_id = 53
+1	خط	خط	NOUN	_	_	2	obj	_	start_char=0|end_char=2
+2	لکانس	لکانس	VERB	_	_	0	root	_	start_char=3|end_char=8
+3	ٿو	ٿو	AUX	_	_	2	aux	_	start_char=9|end_char=11|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	start_char=11|end_char=12|SpacesAfter=\n
+
+# text = پنو ڦاڙيم پئي.
+# sent_id = 54
+1	پنو	پنو	NOUN	_	_	2	obj	_	start_char=0|end_char=3
+2	ڦاڙيم	ڦاڙيم	VERB	_	_	0	root	_	start_char=4|end_char=9
+3	پئي	پئي	VERB	_	_	2	compound	_	start_char=10|end_char=13|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	start_char=13|end_char=14|SpacesAfter=\n
+
+# text = چيومانو تہ ڪتاب پڙھو.
+# sent_id = 55
+1	چيومانو	چيومانو	VERB	_	_	0	root	_	start_char=0|end_char=7
+2	تہ	تہ	SCONJ	_	_	4	mark	_	start_char=8|end_char=10
+3	ڪتاب	ڪتاب	NOUN	_	_	4	nsubj	_	start_char=11|end_char=15
+4	پڙھو	پڙھو	VERB	_	_	1	advcl	_	start_char=16|end_char=20|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	start_char=20|end_char=21|SpacesAfter=\n
+
+# text = 15 رپيا ھٿ ڪري رکو.
+# sent_id = 56
+1	15	15	NUM	_	_	2	nummod	_	start_char=0|end_char=2
+2	رپيا	رپيا	NOUN	_	_	4	obj	_	start_char=3|end_char=7
+3	ھٿ	ھٿ	NOUN	_	_	4	compound	_	start_char=8|end_char=10
+4	ڪري	ڪري	VERB	_	_	0	root	_	start_char=11|end_char=14
+5	رکو	رکو	VERB	_	_	4	compound	_	start_char=15|end_char=18|SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	start_char=18|end_char=19|SpacesAfter=\n
+
+# text = مار! رڳو پنج رپيا مليا.
+# sent_id = 57
+1	مار!	مار!	INTJ	_	_	5	discourse	_	start_char=0|end_char=4
+2	رڳو	رڳو	ADJ	_	_	4	amod	_	start_char=5|end_char=8
+3	پنج	پنج	NUM	_	_	4	nummod	_	start_char=9|end_char=12
+4	رپيا	رپيا	NOUN	_	_	5	obj	_	start_char=13|end_char=17
+5	مليا	مليا	VERB	_	_	0	root	_	start_char=18|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	start_char=22|end_char=23|SpacesAfter=\n
+
+# text = واہ واہ جام پيسا مليا.
+# sent_id = 58
+1	واہ	واہ	NOUN	_	_	2	nmod	_	start_char=0|end_char=3
+2	واہ	واہ	NOUN	_	_	5	nsubj	_	start_char=4|end_char=7
+3	جام	جام	ADJ	_	_	4	amod	_	start_char=8|end_char=11
+4	پيسا	پيسا	NOUN	_	_	5	obj	_	start_char=12|end_char=16
+5	مليا	مليا	VERB	_	_	0	root	_	start_char=17|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	start_char=21|end_char=22|SpacesAfter=\n
+
+# text = مبارڪون توھان پاس ٿيا.
+# sent_id = 59
+1	مبارڪون	مبارڪون	NOUN	_	_	4	nsubj	_	start_char=0|end_char=7
+2	توھان	توھان	PRON	_	_	4	nsubj	_	start_char=8|end_char=13
+3	پاس	پاس	NOUN	_	_	4	compound	_	start_char=14|end_char=17
+4	ٿيا	ٿيا	VERB	_	_	0	root	_	start_char=18|end_char=21|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	start_char=21|end_char=22|SpacesAfter=\n
+
+# text = او مشتاق ڪٿي آھين؟
+# sent_id = 60
+1	او	او	INTJ	_	_	3	discourse	_	start_char=0|end_char=2
+2	مشتاق	مشتاق	PROPN	_	_	3	nsubj	_	start_char=3|end_char=8
+3	ڪٿي	ڪٿي	ADV	_	_	0	root	_	start_char=9|end_char=12
+4	آھين	آھين	AUX	_	_	3	cop	_	start_char=13|end_char=17|SpaceAfter=No
+5	؟	؟	PUNCT	_	_	3	punct	_	start_char=17|end_char=18|SpacesAfter=\n
+
+# text = هڪڙو گدڙ ڪنهن نيروٽيءَ جي دڪان ۾ ويو، کيس چيائين ته: مونکي نير جي ڪـُن ۾ مان هڪڙي ٽٻي ڏيار.
+# sent_id = 61
+1	هڪڙو	هڪڙو	ADJ	_	_	2	amod	_	start_char=0|end_char=4
+2	گدڙ	گدڙ	NOUN	_	_	8	nsubj	_	start_char=5|end_char=8
+3	ڪنهن	ڪنهن	PRON	_	_	4	nmod	_	start_char=9|end_char=13
+4	نيروٽيءَ	نيروٽيءَ	NOUN	_	_	6	nmod	_	start_char=14|end_char=22
+5	جي	جي	ADP	_	_	4	case	_	start_char=23|end_char=25
+6	دڪان	دڪان	NOUN	_	_	8	obl	_	start_char=26|end_char=30
+7	۾	۾	ADP	_	_	6	case	_	start_char=31|end_char=32
+8	ويو	ويو	VERB	_	_	0	root	_	start_char=33|end_char=36|SpaceAfter=No
+9	،	،	PUNCT	_	_	8	punct	_	start_char=36|end_char=37
+10	کيس	کيس	NOUN	_	_	11	nsubj	_	start_char=38|end_char=41
+11	چيائين	چيائين	VERB	_	_	8	conj	_	start_char=42|end_char=48
+12	ته	ته	SCONJ	_	_	11	mark	_	start_char=49|end_char=51|SpaceAfter=No
+13	:	:	PUNCT	_	_	11	punct	_	start_char=51|end_char=52
+14	مونکي	مونکي	PRON	_	_	22	nsubj	_	start_char=53|end_char=58
+15	نير	نير	NOUN	_	_	17	nmod	_	start_char=59|end_char=62
+16	جي	جي	ADP	_	_	15	case	_	start_char=63|end_char=65
+17	ڪـُن	ڪـُن	NOUN	_	_	22	obl	_	start_char=66|end_char=70
+18	۾	۾	ADP	_	_	17	case	_	start_char=71|end_char=72
+19	مان	مان	ADP	_	_	17	case	_	start_char=73|end_char=76
+20	هڪڙي	هڪڙي	ADJ	_	_	21	amod	_	start_char=77|end_char=81
+21	ٽٻي	ٽٻي	NOUN	_	_	22	obj	_	start_char=82|end_char=85
+22	ڏيار	ڏيار	VERB	_	_	11	ccomp	_	start_char=86|end_char=90|SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	start_char=90|end_char=91|SpacesAfter=\n
+
+# text = نيروٽيءَ گدڙ کي خوش ڪرڻ لاءِ کيس ڪـُن مان هڪڙي ٽٻي ڏياري.
+# sent_id = 62
+1	نيروٽيءَ	نيروٽيءَ	NOUN	_	_	5	nsubj	_	start_char=0|end_char=8
+2	گدڙ	گدڙ	NOUN	_	_	5	obj	_	start_char=9|end_char=12
+3	کي	کي	ADP	_	_	2	case	_	start_char=13|end_char=15
+4	خوش	خوش	ADJ	_	_	5	compound	_	start_char=16|end_char=19
+5	ڪرڻ	ڪرڻ	VERB	_	_	12	advcl	_	start_char=20|end_char=23
+6	لاءِ	لاءِ	ADP	_	_	5	mark	_	start_char=24|end_char=28
+7	کيس	کيس	ADP	_	_	5	mark	_	start_char=29|end_char=32
+8	ڪـُن	ڪـُن	NOUN	_	_	12	obl	_	start_char=33|end_char=37
+9	مان	مان	ADP	_	_	8	case	_	start_char=38|end_char=41
+10	هڪڙي	هڪڙي	ADJ	_	_	11	amod	_	start_char=42|end_char=46
+11	ٽٻي	ٽٻي	NOUN	_	_	12	obj	_	start_char=47|end_char=50
+12	ڏياري	ڏياري	VERB	_	_	0	root	_	start_char=51|end_char=56|SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	start_char=56|end_char=57|SpacesAfter=\n
+
+# text = گدڙ پنهنجي بدن جو رنگ مٽيل ڏسي سرهو ٿيو.
+# sent_id = 63
+1	گدڙ	گدڙ	NOUN	_	_	9	nsubj	_	start_char=0|end_char=3
+2	پنهنجي	پنهنجي	PRON	_	_	3	nmod	_	start_char=4|end_char=10
+3	بدن	بدن	NOUN	_	_	5	nmod	_	start_char=11|end_char=14
+4	جو	جو	ADP	_	_	3	case	_	start_char=15|end_char=17
+5	رنگ	رنگ	NOUN	_	_	6	obj	_	start_char=18|end_char=21
+6	مٽيل	مٽيل	VERB	_	_	7	advcl	_	start_char=22|end_char=26
+7	ڏسي	ڏسي	VERB	_	_	9	advcl	_	start_char=27|end_char=30
+8	سرهو	سرهو	NOUN	_	_	9	compound	_	start_char=31|end_char=35
+9	ٿيو	ٿيو	VERB	_	_	0	root	_	start_char=36|end_char=39|SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	start_char=39|end_char=40|SpacesAfter=\n
+
+# text = پوءِ ڪنن ۾ ڦولهڙيون وجهي، ٻين گدڙن وٽ آيو ۽ ساڻن صلاح ڪري پاڻ کيُ ”سلطان“جو لقب ڏيئي، تلاءَ جي ڪپ تي، هڪڙي وڏي سقـُڪل ڇيڻي تي چڙهي ويهي رهيو.
+# sent_id = 64
+1	پوءِ	پوءِ	ADP	_	_	10	mark	_	start_char=0|end_char=4
+2	ڪنن	ڪنن	NOUN	_	_	5	obl	_	start_char=5|end_char=8
+3	۾	۾	ADP	_	_	2	case	_	start_char=9|end_char=10
+4	ڦولهڙيون	ڦولهڙيون	NOUN	_	_	5	obj	_	start_char=11|end_char=19
+5	وجهي	وجهي	VERB	_	_	10	advcl	_	start_char=20|end_char=24|SpaceAfter=No
+6	،	،	PUNCT	_	_	5	punct	_	start_char=24|end_char=25
+7	ٻين	ٻين	ADJ	_	_	8	amod	_	start_char=26|end_char=29
+8	گدڙن	گدڙن	NOUN	_	_	10	obl	_	start_char=30|end_char=34
+9	وٽ	وٽ	ADP	_	_	8	case	_	start_char=35|end_char=37
+10	آيو	آيو	VERB	_	_	0	root	_	start_char=38|end_char=41
+11	۽	۽	CCONJ	_	_	22	cc	_	start_char=42|end_char=43
+12	ساڻن	ساڻن	ADP	_	_	14	mark	_	start_char=44|end_char=48
+13	صلاح	صلاح	NOUN	_	_	14	obl	_	start_char=49|end_char=53
+14	ڪري	ڪري	VERB	_	_	22	advcl	_	start_char=54|end_char=57
+15	پاڻ	پاڻ	PRON	_	_	22	nsubj	_	start_char=58|end_char=61
+16	کيُ	کيُ	NOUN	_	_	22	obl	_	start_char=62|end_char=65
+17	”	”	PUNCT	_	_	16	punct	_	start_char=66|end_char=67|SpaceAfter=No
+18	سلطان	سلطان	NOUN	_	_	21	nmod	_	start_char=67|end_char=72|SpaceAfter=No
+19	“	“	PUNCT	_	_	18	punct	_	start_char=72|end_char=73|SpaceAfter=No
+20	جو	جو	ADP	_	_	18	case	_	start_char=73|end_char=75
+21	لقب	لقب	NOUN	_	_	22	obj	_	start_char=76|end_char=79
+22	ڏيئي	ڏيئي	VERB	_	_	35	advcl	_	start_char=80|end_char=84|SpaceAfter=No
+23	،	،	PUNCT	_	_	22	punct	_	start_char=84|end_char=85
+24	تلاءَ	تلاءَ	NOUN	_	_	26	nmod	_	start_char=86|end_char=91
+25	جي	جي	ADP	_	_	24	case	_	start_char=92|end_char=94
+26	ڪپ	ڪپ	NOUN	_	_	35	obl	_	start_char=95|end_char=97
+27	تي	تي	ADP	_	_	26	case	_	start_char=98|end_char=100|SpaceAfter=No
+28	،	،	PUNCT	_	_	26	punct	_	start_char=100|end_char=101
+29	هڪڙي	هڪڙي	ADJ	_	_	32	amod	_	start_char=102|end_char=106
+30	وڏي	وڏي	ADJ	_	_	32	amod	_	start_char=107|end_char=110
+31	سقـُڪل	سقـُڪل	ADJ	_	_	32	amod	_	start_char=111|end_char=117
+32	ڇيڻي	ڇيڻي	NOUN	_	_	34	obl	_	start_char=118|end_char=122
+33	تي	تي	ADP	_	_	32	case	_	start_char=123|end_char=125
+34	چڙهي	چڙهي	VERB	_	_	35	xcomp	_	start_char=126|end_char=130
+35	ويهي	ويهي	VERB	_	_	10	conj	_	start_char=131|end_char=135
+36	رهيو	رهيو	VERB	_	_	35	compound	_	start_char=136|end_char=140|SpaceAfter=No
+37	.	.	PUNCT	_	_	35	punct	_	start_char=140|end_char=141|SpacesAfter=\n
+
+# text = ايتري ۾ ٻڪرين جو هڪڙو ڌڻ انهيءَ تلاءَ تي پاڻي پيڻ لاءِ آيو.
+# sent_id = 65
+1	ايتري	ايتري	ADJ	_	_	13	obl	_	start_char=0|end_char=5
+2	۾	۾	ADP	_	_	1	case	_	start_char=6|end_char=7
+3	ٻڪرين	ٻڪرين	NOUN	_	_	6	nmod	_	start_char=8|end_char=13
+4	جو	جو	ADP	_	_	3	case	_	start_char=14|end_char=16
+5	هڪڙو	هڪڙو	ADJ	_	_	6	amod	_	start_char=17|end_char=21
+6	ڌڻ	ڌڻ	VERB	_	_	13	nsubj	_	start_char=22|end_char=24
+7	انهيءَ	انهيءَ	DET	_	_	8	det	_	start_char=25|end_char=31
+8	تلاءَ	تلاءَ	NOUN	_	_	11	obl	_	start_char=32|end_char=37
+9	تي	تي	ADP	_	_	8	case	_	start_char=38|end_char=40
+10	پاڻي	پاڻي	NOUN	_	_	11	obj	_	start_char=41|end_char=45
+11	پيڻ	پيڻ	VERB	_	_	13	advcl	_	start_char=46|end_char=49
+12	لاءِ	لاءِ	ADP	_	_	11	mark	_	start_char=50|end_char=54
+13	آيو	آيو	VERB	_	_	0	root	_	start_char=55|end_char=58|SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	start_char=58|end_char=59|SpacesAfter=\n
+
+# text = گدڙ ڪاوڙ ۾ سيٽجي ٻڪرين کي پاڻي پيئڻ کان روڪيو ۽ چيائين ته: پهريائين منهنجي ساراهه ڪريو، پوءِ ڀلي پاڻي پيئو.
+# sent_id = 66
+1	گدڙ	گدڙ	NOUN	_	_	10	nsubj	_	start_char=0|end_char=3
+2	ڪاوڙ	ڪاوڙ	NOUN	_	_	4	obl	_	start_char=4|end_char=8
+3	۾	۾	ADP	_	_	2	case	_	start_char=9|end_char=10
+4	سيٽجي	سيٽجي	VERB	_	_	10	advcl	_	start_char=11|end_char=16
+5	ٻڪرين	ٻڪرين	NOUN	_	_	8	obj	_	start_char=17|end_char=22
+6	کي	کي	ADP	_	_	5	case	_	start_char=23|end_char=25
+7	پاڻي	پاڻي	NOUN	_	_	8	obj	_	start_char=26|end_char=30
+8	پيئڻ	پيئڻ	VERB	_	_	10	advcl	_	start_char=31|end_char=35
+9	کان	کان	ADP	_	_	8	mark	_	start_char=36|end_char=39
+10	روڪيو	روڪيو	VERB	_	_	0	root	_	start_char=40|end_char=45
+11	۽	۽	CCONJ	_	_	12	cc	_	start_char=46|end_char=47
+12	چيائين	چيائين	VERB	_	_	10	conj	_	start_char=48|end_char=54
+13	ته	ته	SCONJ	_	_	12	mark	_	start_char=55|end_char=57|SpaceAfter=No
+14	:	:	PUNCT	_	_	12	punct	_	start_char=57|end_char=58
+15	پهريائين	پهريائين	ADV	_	_	18	advmod	_	start_char=59|end_char=67
+16	منهنجي	منهنجي	PRON	_	_	17	nmod	_	start_char=68|end_char=74
+17	ساراهه	ساراهه	NOUN	_	_	18	compound	_	start_char=75|end_char=81
+18	ڪريو	ڪريو	VERB	_	_	12	obj	_	start_char=82|end_char=86|SpaceAfter=No
+19	،	،	PUNCT	_	_	18	punct	_	start_char=86|end_char=87
+20	پوءِ	پوءِ	ADP	_	_	23	mark	_	start_char=88|end_char=92
+21	ڀلي	ڀلي	ADV	_	_	23	advmod	_	start_char=93|end_char=96
+22	پاڻي	پاڻي	NOUN	_	_	23	obj	_	start_char=97|end_char=101
+23	پيئو	پيئو	VERB	_	_	12	ccomp	_	start_char=102|end_char=106|SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	start_char=106|end_char=107|SpacesAfter=\n
+
+# text = گدڙ پنهنجي ساراهه ٻڌي ڏاڍو خوش ٿيو، ۽ ٻڪرين کي پاڻي پيئڻ جي موڪل ڏنائين.
+# sent_id = 67
+1	گدڙ	گدڙ	NOUN	_	_	7	nsubj	_	start_char=0|end_char=3
+2	پنهنجي	پنهنجي	PRON	_	_	3	nmod	_	start_char=4|end_char=10
+3	ساراهه	ساراهه	NOUN	_	_	4	obj	_	start_char=11|end_char=17
+4	ٻڌي	ٻڌي	VERB	_	_	7	advcl	_	start_char=18|end_char=21
+5	ڏاڍو	ڏاڍو	ADJ	_	_	6	amod	_	start_char=22|end_char=26
+6	خوش	خوش	ADJ	_	_	7	xcomp	_	start_char=27|end_char=30
+7	ٿيو	ٿيو	VERB	_	_	0	root	_	start_char=31|end_char=34|SpaceAfter=No
+8	،	،	PUNCT	_	_	7	punct	_	start_char=34|end_char=35
+9	۽	۽	CCONJ	_	_	16	cc	_	start_char=36|end_char=37
+10	ٻڪرين	ٻڪرين	NOUN	_	_	13	obj	_	start_char=38|end_char=43
+11	کي	کي	ADP	_	_	10	case	_	start_char=44|end_char=46
+12	پاڻي	پاڻي	NOUN	_	_	13	obj	_	start_char=47|end_char=51
+13	پيئڻ	پيئڻ	VERB	_	_	15	nmod	_	start_char=52|end_char=56
+14	جي	جي	ADP	_	_	13	mark	_	start_char=57|end_char=59
+15	موڪل	موڪل	NOUN	_	_	16	compound	_	start_char=60|end_char=64
+16	ڏنائين	ڏنائين	VERB	_	_	7	conj	_	start_char=65|end_char=71|SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	start_char=71|end_char=72|SpacesAfter=\n
+
+# text = اهڙيءَ طرح وري ٻيا ڌڻ اچڻ لڳا.
+# sent_id = 68
+1	اهڙيءَ	اهڙيءَ	ADJ	_	_	2	amod	_	start_char=0|end_char=6
+2	طرح	طرح	NOUN	_	_	7	obl	_	start_char=7|end_char=10
+3	وري	وري	ADV	_	_	7	advmod	_	start_char=11|end_char=14
+4	ٻيا	ٻيا	ADJ	_	_	5	amod	_	start_char=15|end_char=18
+5	ڌڻ	ڌڻ	NOUN	_	_	7	nsubj	_	start_char=19|end_char=21
+6	اچڻ	اچڻ	VERB	_	_	7	xcomp	_	start_char=22|end_char=25
+7	لڳا	لڳا	VERB	_	_	0	root	_	start_char=26|end_char=29|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	start_char=29|end_char=30|SpacesAfter=\n
+
+# text = ڍڳيون، مينهون، اُٺ وغيره، جي پڻ گدڙ جي ساڳيءَ طرح ساراهه ڪندا، پاڻي پيئندا روانا ٿيا.
+# sent_id = 69
+1	ڍڳيون	ڍڳيون	NOUN	_	_	15	nsubj	_	start_char=0|end_char=5|SpaceAfter=No
+2	،	،	PUNCT	_	_	3	punct	_	start_char=5|end_char=6
+3	مينهون	مينهون	NOUN	_	_	1	conj	_	start_char=7|end_char=13|SpaceAfter=No
+4	،	،	PUNCT	_	_	3	punct	_	start_char=13|end_char=14
+5	اُٺ	اُٺ	NOUN	_	_	1	conj	_	start_char=15|end_char=18
+6	وغيره	وغيره	ADP	_	_	1	case	_	start_char=19|end_char=24|SpaceAfter=No
+7	،	،	PUNCT	_	_	5	punct	_	start_char=24|end_char=25
+8	جي	جي	ADP	_	_	1	case	_	start_char=26|end_char=28
+9	پڻ	پڻ	ADP	_	_	1	dep	_	start_char=29|end_char=31
+10	گدڙ	گدڙ	NOUN	_	_	13	nmod	_	start_char=32|end_char=35
+11	جي	جي	ADP	_	_	10	case	_	start_char=36|end_char=38
+12	ساڳيءَ	ساڳيءَ	ADJ	_	_	13	amod	_	start_char=39|end_char=45
+13	طرح	طرح	NOUN	_	_	15	obl	_	start_char=46|end_char=49
+14	ساراهه	ساراهه	NOUN	_	_	15	compound	_	start_char=50|end_char=56
+15	ڪندا	ڪندا	VERB	_	_	20	advcl	_	start_char=57|end_char=61|SpaceAfter=No
+16	،	،	PUNCT	_	_	15	punct	_	start_char=61|end_char=62
+17	پاڻي	پاڻي	NOUN	_	_	18	obj	_	start_char=63|end_char=67
+18	پيئندا	پيئندا	VERB	_	_	20	advcl	_	start_char=68|end_char=74
+19	روانا	روانا	VERB	_	_	20	compound	_	start_char=75|end_char=80
+20	ٿيا	ٿيا	VERB	_	_	0	root	_	start_char=81|end_char=84|SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	start_char=84|end_char=85|SpacesAfter=\n
+
+# text = پڇاڙيءَ ۾ هڪڙي پوڙهي رِڍَ سهڪندي سهڪندي تلاءُ تي آئي.
+# sent_id = 70
+1	پڇاڙيءَ	پڇاڙيءَ	NOUN	_	_	10	obl	_	start_char=0|end_char=7
+2	۾	۾	ADP	_	_	1	case	_	start_char=8|end_char=9
+3	هڪڙي	هڪڙي	ADJ	_	_	5	amod	_	start_char=10|end_char=14
+4	پوڙهي	پوڙهي	ADJ	_	_	5	amod	_	start_char=15|end_char=20
+5	رِڍَ	رِڍَ	NOUN	_	_	10	nsubj	_	start_char=21|end_char=25
+6	سهڪندي	سهڪندي	VERB	_	_	7	advcl	_	start_char=26|end_char=32
+7	سهڪندي	سهڪندي	VERB	_	_	10	advcl	_	start_char=33|end_char=39
+8	تلاءُ	تلاءُ	NOUN	_	_	10	obl	_	start_char=40|end_char=45
+9	تي	تي	ADP	_	_	8	case	_	start_char=46|end_char=48
+10	آئي	آئي	VERB	_	_	0	root	_	start_char=49|end_char=52|SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	start_char=52|end_char=53|SpacesAfter=\n
+
+# text = رِڍَ کي هئي سخت اُڃ، تنهن يڪدم کڻي پاڻيءَ ۾منهن هنيو.
+# sent_id = 71
+1	رِڍَ	رِڍَ	NOUN	_	_	12	nsubj	_	start_char=0|end_char=4
+2	کي	کي	ADP	_	_	1	case	_	start_char=5|end_char=7
+3	هئي	هئي	AUX	_	_	1	cop	_	start_char=8|end_char=11
+4	سخت	سخت	ADJ	_	_	5	amod	_	start_char=12|end_char=15
+5	اُڃ	اُڃ	NOUN	_	_	12	nsubj	_	start_char=16|end_char=19|SpaceAfter=No
+6	،	،	PUNCT	_	_	5	punct	_	start_char=19|end_char=20
+7	تنهن	تنهن	ُPRON	_	_	12	nsubj	_	start_char=21|end_char=25
+8	يڪدم	يڪدم	ADV	_	_	9	advmod	_	start_char=26|end_char=30
+9	کڻي	کڻي	VERB	_	_	12	advcl	_	start_char=31|end_char=34
+10	پاڻيءَ	پاڻيءَ	NOUN	_	_	11	nmod	_	start_char=35|end_char=41
+11	۾منهن	۾منهن	NOUN	_	_	12	compound	_	start_char=42|end_char=47
+12	هنيو	هنيو	VERB	_	_	0	root	_	start_char=48|end_char=52|SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	start_char=52|end_char=53|SpacesAfter=\n
+
+# text = انهيءَ تي گدڙ هڪل ڪري چيس ته: پهريائين منهنجي ساراهه ڪر، پوءِ پاڻي پيءُ!
+# sent_id = 72
+1	انهيءَ	انهيءَ	DET	_	_	6	obl	_	start_char=0|end_char=6
+2	تي	تي	ADP	_	_	1	case	_	start_char=7|end_char=9
+3	گدڙ	گدڙ	NOUN	_	_	6	nsubj	_	start_char=10|end_char=13
+4	هڪل	هڪل	NOUN	_	_	5	compound	_	start_char=14|end_char=17
+5	ڪري	ڪري	VERB	_	_	6	xcomp	_	start_char=18|end_char=21
+6	چيس	چيس	VERB	_	_	0	root	_	start_char=22|end_char=25
+7	ته	ته	SCONJ	_	_	6	mark	_	start_char=26|end_char=28|SpaceAfter=No
+8	:	:	PUNCT	_	_	6	punct	_	start_char=28|end_char=29
+9	پهريائين	پهريائين	ADV	_	_	12	advmod	_	start_char=30|end_char=38
+10	منهنجي	منهنجي	PRON	_	_	11	nmod	_	start_char=39|end_char=45
+11	ساراهه	ساراهه	NOUN	_	_	12	compound	_	start_char=46|end_char=52
+12	ڪر	ڪر	VERB	_	_	6	advcl	_	start_char=53|end_char=55|SpaceAfter=No
+13	،	،	PUNCT	_	_	12	punct	_	start_char=55|end_char=56
+14	پوءِ	پوءِ	ADP	_	_	16	mark	_	start_char=57|end_char=61
+15	پاڻي	پاڻي	NOUN	_	_	16	obj	_	start_char=62|end_char=66
+16	پيءُ	پيءُ	VERB	_	_	12	advcl	_	start_char=67|end_char=71|SpaceAfter=No
+17	!	!	PUNCT	_	_	16	punct	_	start_char=71|end_char=72|SpacesAfter=\n
+
+# text = رِڍَ چيس ته: ماما! ڏاڍي اُڃ لڳي اٿم، موڪل ڏينم ته پهرين پاڻي پيان، پوءِ تنهنجي ساراهه ڪنديس.
+# sent_id = 73
+1	رِڍَ	رِڍَ	NOUN	_	_	2	nsubj	_	start_char=0|end_char=4
+2	چيس	چيس	VERB	_	_	0	root	_	start_char=5|end_char=8
+3	ته	ته	SCONJ	_	_	2	mark	_	start_char=9|end_char=11|SpaceAfter=No
+4	:	:	PUNCT	_	_	2	punct	_	start_char=11|end_char=12
+5	ماما	ماما	NOUN	_	_	9	nsubj	_	start_char=13|end_char=17|SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	start_char=17|end_char=18
+7	ڏاڍي	ڏاڍي	ADJ	_	_	8	amod	_	start_char=19|end_char=23
+8	اُڃ	اُڃ	NOUN	_	_	9	nsubj	_	start_char=24|end_char=27
+9	لڳي	لڳي	VERB	_	_	2	obj	_	start_char=28|end_char=31
+10	اٿم	اٿم	VERB	_	_	9	aux	_	start_char=32|end_char=35|SpaceAfter=No
+11	،	،	PUNCT	_	_	9	punct	_	start_char=35|end_char=36
+12	موڪل	موڪل	NOUN	_	_	13	compound	_	start_char=37|end_char=41
+13	ڏينم	ڏينم	VERB	_	_	17	advcl	_	start_char=42|end_char=46
+14	ته	ته	SCONJ	_	_	17	mark	_	start_char=47|end_char=49
+15	پهرين	پهرين	ADJ	_	_	16	amod	_	start_char=50|end_char=55
+16	پاڻي	پاڻي	NOUN	_	_	17	obj	_	start_char=56|end_char=60
+17	پيان	پيان	VERB	_	_	9	advcl	_	start_char=61|end_char=65|SpaceAfter=No
+18	،	،	PUNCT	_	_	17	punct	_	start_char=65|end_char=66
+19	پوءِ	پوءِ	ADP	_	_	22	mark	_	start_char=67|end_char=71
+20	تنهنجي	تنهنجي	PRON	_	_	21	nmod	_	start_char=72|end_char=78
+21	ساراهه	ساراهه	NOUN	_	_	22	compound	_	start_char=79|end_char=85
+22	ڪنديس	ڪنديس	VERB	_	_	17	advcl	_	start_char=86|end_char=91|SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	start_char=91|end_char=92|SpacesAfter=\n
+
+# text = تنهن تي گدڙ کيس پاڻي پيئڻ جي موڪل ڏني.
+# sent_id = 74
+1	تنهن	تنهن	ُPRON	_	_	9	obl	_	start_char=0|end_char=4
+2	تي	تي	ADP	_	_	1	case	_	start_char=5|end_char=7
+3	گدڙ	گدڙ	NOUN	_	_	9	nsubj	_	start_char=8|end_char=11
+4	کيس	کيس	ADP	_	_	3	case	_	start_char=12|end_char=15
+5	پاڻي	پاڻي	NOUN	_	_	6	obj	_	start_char=16|end_char=20
+6	پيئڻ	پيئڻ	VERB	_	_	8	nmod	_	start_char=21|end_char=25
+7	جي	جي	ADP	_	_	6	mark	_	start_char=26|end_char=28
+8	موڪل	موڪل	NOUN	_	_	9	compound	_	start_char=29|end_char=33
+9	ڏني	ڏني	VERB	_	_	0	root	_	start_char=34|end_char=37|SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	start_char=37|end_char=38|SpacesAfter=\n
+
+# text = رِڍ- پاڻي پي ڍؤ ڪيو، ۽ اڳتي هلي هڪڙي وڻ جي ڀر ۾ بيهي سندس ساراهه ڪرڻ لڳي.
+# sent_id = 75
+1	رِڍ	رِڍ	NOUN	_	_	6	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	start_char=3|end_char=4
+3	پاڻي	پاڻي	NOUN	_	_	4	obj	_	start_char=5|end_char=9
+4	پي	پي	VERB	_	_	6	advcl	_	start_char=10|end_char=12
+5	ڍؤ	ڍؤ	NOUN	_	_	6	compound	_	start_char=13|end_char=15
+6	ڪيو	ڪيو	VERB	_	_	0	root	_	start_char=16|end_char=19|SpaceAfter=No
+7	،	،	PUNCT	_	_	6	punct	_	start_char=19|end_char=20
+8	۽	۽	CCONJ	_	_	20	cc	_	start_char=21|end_char=22
+9	اڳتي	اڳتي	ADV	_	_	10	advmod	_	start_char=23|end_char=27
+10	هلي	هلي	VERB	_	_	20	advcl	_	start_char=28|end_char=31
+11	هڪڙي	هڪڙي	ADJ	_	_	12	amod	_	start_char=32|end_char=36
+12	وڻ	وڻ	NOUN	_	_	14	nmod	_	start_char=37|end_char=39
+13	جي	جي	ADP	_	_	12	case	_	start_char=40|end_char=42
+14	ڀر	ڀر	NOUN	_	_	16	obl	_	start_char=43|end_char=45
+15	۾	۾	ADP	_	_	14	case	_	start_char=46|end_char=47
+16	بيهي	بيهي	VERB	_	_	20	advcl	_	start_char=48|end_char=52
+17	سندس	سندس	PRON	_	_	18	nmod	_	start_char=53|end_char=57
+18	ساراهه	ساراهه	NOUN	_	_	19	compound	_	start_char=58|end_char=64
+19	ڪرڻ	ڪرڻ	VERB	_	_	20	xcomp	_	start_char=65|end_char=68
+20	لڳي	لڳي	VERB	_	_	6	conj	_	start_char=69|end_char=72|SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	start_char=72|end_char=73|SpacesAfter=\n
+
+# text = ڪن تيڏي وچ ڦولهڙيان، ساڳيا گـدڙ ٻيٺاهين.
+# sent_id = 76
+1	ڪن	ڪن	NOUN	_	_	3	nmod	_	start_char=0|end_char=2
+2	تيڏي	تيڏي	ADJ	_	_	3	amod	_	start_char=3|end_char=7
+3	وچ	وچ	NOUN	_	_	4	nmod	_	start_char=8|end_char=10
+4	ڦولهڙيان	ڦولهڙيان	NOUN	_	_	8	nsubj	_	start_char=11|end_char=19|SpaceAfter=No
+5	،	،	PUNCT	_	_	4	punct	_	start_char=19|end_char=20
+6	ساڳيا	ساڳيا	ADJ	_	_	7	amod	_	start_char=21|end_char=26
+7	گـدڙ	گـدڙ	NOUN	_	_	8	nsubj	_	start_char=27|end_char=31
+8	ٻيٺاهين	ٻيٺاهين	VERB	_	_	0	root	_	start_char=32|end_char=39|SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	start_char=39|end_char=40|SpacesAfter=\n
+
+# text = اهو ٻڌڻ سان گدڙ سڙي پچي ويو ۽ رِڍَ تي حملو ڪيائين.
+# sent_id = 77
+1	اهو	اهو	DET	_	_	2	det	_	start_char=0|end_char=3
+2	ٻڌڻ	ٻڌڻ	VERB	_	_	6	advcl	_	start_char=4|end_char=7
+3	سان	سان	ADP	_	_	2	mark	_	start_char=8|end_char=11
+4	گدڙ	گدڙ	NOUN	_	_	6	nsubj	_	start_char=12|end_char=15
+5	سڙي	سڙي	VERB	_	_	6	xcomp	_	start_char=16|end_char=19
+6	پچي	پچي	VERB	_	_	0	root	_	start_char=20|end_char=23
+7	ويو	ويو	VERB	_	_	6	compound	_	start_char=24|end_char=27
+8	۽	۽	CCONJ	_	_	12	cc	_	start_char=28|end_char=29
+9	رِڍَ	رِڍَ	NOUN	_	_	12	obl	_	start_char=30|end_char=34
+10	تي	تي	ADP	_	_	9	case	_	start_char=35|end_char=37
+11	حملو	حملو	NOUN	_	_	12	compound	_	start_char=38|end_char=42
+12	ڪيائين	ڪيائين	VERB	_	_	6	conj	_	start_char=43|end_char=49|SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	start_char=49|end_char=50|SpacesAfter=\n
+
+# text = رِڍ گدڙ کي ڪاوڙ ۾ ڏسي هيڏانهن هوڏانهن نهاريو ته، کيس شڪاري ڪتا ڏسڻ ۾ آيا.
+# sent_id = 78
+1	رِڍ	رِڍ	NOUN	_	_	9	nsubj	_	start_char=0|end_char=3
+2	گدڙ	گدڙ	NOUN	_	_	6	obj	_	start_char=4|end_char=7
+3	کي	کي	ADP	_	_	2	case	_	start_char=8|end_char=10
+4	ڪاوڙ	ڪاوڙ	NOUN	_	_	6	obl	_	start_char=11|end_char=15
+5	۾	۾	ADP	_	_	4	case	_	start_char=16|end_char=17
+6	ڏسي	ڏسي	VERB	_	_	9	advcl	_	start_char=18|end_char=21
+7	هيڏانهن	هيڏانهن	ADV	_	_	9	advmod	_	start_char=22|end_char=29
+8	هوڏانهن	هوڏانهن	ADV	_	_	9	advmod	_	start_char=30|end_char=37
+9	نهاريو	نهاريو	VERB	_	_	0	root	_	start_char=38|end_char=44
+10	ته	ته	SCONJ	_	_	9	mark	_	start_char=45|end_char=47|SpaceAfter=No
+11	،	،	PUNCT	_	_	9	punct	_	start_char=47|end_char=48
+12	کيس	کيس	ADP	_	_	9	mark	_	start_char=49|end_char=52
+13	شڪاري	شڪاري	NOUN	_	_	14	nmod	_	start_char=53|end_char=58
+14	ڪتا	ڪتا	NOUN	_	_	15	obj	_	start_char=59|end_char=62
+15	ڏسڻ	ڏسڻ	VERB	_	_	17	advcl	_	start_char=63|end_char=66
+16	۾	۾	ADP	_	_	15	mark	_	start_char=67|end_char=68
+17	آيا	آيا	VERB	_	_	9	advcl	_	start_char=69|end_char=72|SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	start_char=72|end_char=73|SpacesAfter=\n
+
+# text = سو گدڙ کي رڙ ڪري چيائين ته: ماما گدڙ! هو ته ڏس تنهنجو پيرو کنيو پيا اچن.
+# sent_id = 79
+1	سو	سو	PRON	_	_	6	nsubj	_	start_char=0|end_char=2
+2	گدڙ	گدڙ	NOUN	_	_	5	obj	_	start_char=3|end_char=6
+3	کي	کي	ADP	_	_	2	case	_	start_char=7|end_char=9
+4	رڙ	رڙ	NOUN	_	_	5	compound	_	start_char=10|end_char=12
+5	ڪري	ڪري	VERB	_	_	6	xcomp	_	start_char=13|end_char=16
+6	چيائين	چيائين	VERB	_	_	0	root	_	start_char=17|end_char=23
+7	ته	ته	SCONJ	_	_	6	mark	_	start_char=24|end_char=26|SpaceAfter=No
+8	:	:	PUNCT	_	_	6	punct	_	start_char=26|end_char=27
+9	ماما	ماما	NOUN	_	_	10	nmod	_	start_char=28|end_char=32
+10	گدڙ	گدڙ	NOUN	_	_	17	nsubj	_	start_char=33|end_char=36|SpaceAfter=No
+11	!	!	PUNCT	_	_	10	punct	_	start_char=36|end_char=37
+12	هو	هو	DET	_	_	14	det	_	start_char=38|end_char=40
+13	ته	ته	SCONJ	_	_	12	dep	_	start_char=41|end_char=43
+14	ڏس	ڏس	VERB	_	_	17	advcl	_	start_char=44|end_char=46
+15	تنهنجو	تنهنجو	PRON	_	_	16	nmod	_	start_char=47|end_char=53
+16	پيرو	پيرو	NOUN	_	_	17	obj	_	start_char=54|end_char=58
+17	کنيو	کنيو	VERB	_	_	6	advcl	_	start_char=59|end_char=63
+18	پيا	پيا	VERB	_	_	17	compound	_	start_char=64|end_char=67
+19	اچن	اچن	VERB	_	_	17	compound	_	start_char=68|end_char=71|SpaceAfter=No
+20	.	.	PUNCT	_	_	17	punct	_	start_char=71|end_char=72|SpacesAfter=\n
+
+# text = گدڙ جو شڪاري ڪتن کي ڏٺو، سو وايون بطال ٿي ويس.
+# sent_id = 80
+1	گدڙ	گدڙ	NOUN	_	_	6	nsubj	_	start_char=0|end_char=3
+2	جو	جو	ADP	_	_	1	case	_	start_char=4|end_char=6
+3	شڪاري	شڪاري	NOUN	_	_	4	nmod	_	start_char=7|end_char=12
+4	ڪتن	ڪتن	NOUN	_	_	6	obj	_	start_char=13|end_char=16
+5	کي	کي	ADP	_	_	4	case	_	start_char=17|end_char=19
+6	ڏٺو	ڏٺو	VERB	_	_	0	root	_	start_char=20|end_char=23|SpaceAfter=No
+7	،	،	PUNCT	_	_	6	punct	_	start_char=23|end_char=24
+8	سو	سو	PRON	_	_	10	nsubj	_	start_char=25|end_char=27
+9	وايون	وايون	NOUN	_	_	10	nsubj	_	start_char=28|end_char=33
+10	بطال	بطال	NOUN	_	_	6	advcl	_	start_char=34|end_char=38
+11	ٿي	ٿي	AUX	_	_	10	cop	_	start_char=39|end_char=41
+12	ويس	ويس	VERB	_	_	10	compound	_	start_char=42|end_char=45|SpaceAfter=No
+13	.	.	PUNCT	_	_	10	punct	_	start_char=45|end_char=46|SpacesAfter=\n
+
+# text = ۽ جهنگ منهن ڪري وٺي ڀڳو ۽ وري ڪڏهن پاڻ کي سلطان نه سڏايائين.
+# sent_id = 81
+1	۽	۽	CCONJ	_	_	6	cc	_	start_char=0|end_char=1
+2	جهنگ	جهنگ	NOUN	_	_	4	obj	_	start_char=2|end_char=6
+3	منهن	منهن	NOUN	_	_	4	compound	_	start_char=7|end_char=11
+4	ڪري	ڪري	VERB	_	_	6	advcl	_	start_char=12|end_char=15
+5	وٺي	وٺي	VERB	_	_	6	xcomp	_	start_char=16|end_char=19
+6	ڀڳو	ڀڳو	VERB	_	_	0	root	_	start_char=20|end_char=23
+7	۽	۽	CCONJ	_	_	14	cc	_	start_char=24|end_char=25
+8	وري	وري	ADV	_	_	14	advmod	_	start_char=26|end_char=29
+9	ڪڏهن	ڪڏهن	ADV	_	_	14	advmod	_	start_char=30|end_char=34
+10	پاڻ	پاڻ	PRON	_	_	14	obj	_	start_char=35|end_char=38
+11	کي	کي	ADP	_	_	10	case	_	start_char=39|end_char=41
+12	سلطان	سلطان	NOUN	_	_	14	compound	_	start_char=42|end_char=47
+13	نه	نه	PART	_	_	14	dep	_	start_char=48|end_char=50
+14	سڏايائين	سڏايائين	VERB	_	_	6	conj	_	start_char=51|end_char=59|SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	start_char=59|end_char=60|SpacesAfter=\n
+
+# text = ڪنهن جهنگ ۾ هڪڙو شينهن پاڻي جي دُٻي تي غار ٺاهي اچي ويهي رهيو.
+# sent_id = 82
+1	ڪنهن	ڪنهن	DET	_	_	2	det	_	start_char=0|end_char=4
+2	جهنگ	جهنگ	NOUN	_	_	13	obl	_	start_char=5|end_char=9
+3	۾	۾	ADP	_	_	2	case	_	start_char=10|end_char=11
+4	هڪڙو	هڪڙو	ADJ	_	_	5	amod	_	start_char=12|end_char=16
+5	شينهن	شينهن	NOUN	_	_	13	nsubj	_	start_char=17|end_char=22
+6	پاڻي	پاڻي	NOUN	_	_	8	nmod	_	start_char=23|end_char=27
+7	جي	جي	ADP	_	_	6	case	_	start_char=28|end_char=30
+8	دُٻي	دُٻي	NOUN	_	_	11	obl	_	start_char=31|end_char=35
+9	تي	تي	ADP	_	_	8	case	_	start_char=36|end_char=38
+10	غار	غار	NOUN	_	_	11	obj	_	start_char=39|end_char=42
+11	ٺاهي	ٺاهي	VERB	_	_	13	advcl	_	start_char=43|end_char=47
+12	اچي	اچي	VERB	_	_	13	xcomp	_	start_char=48|end_char=51
+13	ويهي	ويهي	VERB	_	_	0	root	_	start_char=52|end_char=56
+14	رهيو	رهيو	VERB	_	_	13	compound	_	start_char=57|end_char=61|SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	start_char=61|end_char=62|SpacesAfter=\n
+
+# text = جهنگ جا جانور پاڻي پيئڻ لاءِ سـِـڪي مـُـئا هئا.
+# sent_id = 83
+1	جهنگ	جهنگ	NOUN	_	_	3	nmod	_	start_char=0|end_char=4
+2	جا	جا	ADP	_	_	1	case	_	start_char=5|end_char=7
+3	جانور	جانور	NOUN	_	_	8	nsubj	_	start_char=8|end_char=13
+4	پاڻي	پاڻي	NOUN	_	_	5	obj	_	start_char=14|end_char=18
+5	پيئڻ	پيئڻ	VERB	_	_	8	advcl	_	start_char=19|end_char=23
+6	لاءِ	لاءِ	ADP	_	_	5	mark	_	start_char=24|end_char=28
+7	سـِـڪي	سـِـڪي	VERB	_	_	8	xcomp	_	start_char=29|end_char=35
+8	مـُـئا	مـُـئا	VERB	_	_	0	root	_	start_char=36|end_char=42
+9	هئا	هئا	AUX	_	_	8	aux	_	start_char=43|end_char=46|SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	start_char=46|end_char=47|SpacesAfter=\n
+
+# text = انهيءَ جهنگ ۾هڪڙو گدڙ ۽ گداڙي رهندا هئا، تن کي به اچي اُڃ تپايو.
+# sent_id = 84
+1	انهيءَ	انهيءَ	DET	_	_	2	det	_	start_char=0|end_char=6
+2	جهنگ	جهنگ	NOUN	_	_	7	obl	_	start_char=7|end_char=11
+3	۾هڪڙو	۾هڪڙو	ADJ	_	_	4	amod	_	start_char=12|end_char=17
+4	گدڙ	گدڙ	NOUN	_	_	7	nsubj	_	start_char=18|end_char=21
+5	۽	۽	CCONJ	_	_	6	cc	_	start_char=22|end_char=23
+6	گداڙي	گداڙي	NOUN	_	_	4	conj	_	start_char=24|end_char=29
+7	رهندا	رهندا	VERB	_	_	0	root	_	start_char=30|end_char=35
+8	هئا	هئا	AUX	_	_	7	aux	_	start_char=36|end_char=39|SpaceAfter=No
+9	،	،	PUNCT	_	_	7	punct	_	start_char=39|end_char=40
+10	تن	تن	PRON	_	_	15	nsubj	_	start_char=41|end_char=43
+11	کي	کي	ADP	_	_	10	case	_	start_char=44|end_char=46
+12	به	به	ADP	_	_	10	case	_	start_char=47|end_char=49
+13	اچي	اچي	VERB	_	_	15	advcl	_	start_char=50|end_char=53
+14	اُڃ	اُڃ	NOUN	_	_	15	nsubj	_	start_char=54|end_char=57
+15	تپايو	تپايو	VERB	_	_	7	advcl	_	start_char=58|end_char=63|SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	start_char=63|end_char=64|SpacesAfter=\n
+
+# text = نيٺ گدڙ، گداڙيءَ کي چيو ته: مان ٽي سؤ ڪوڙ ٺاهيا آهن، ڪو نه ڪو ڪوڙ هڻي، پاڻي پي اينداسين.
+# sent_id = 85
+1	نيٺ	نيٺ	ADV	_	_	6	advmod	_	start_char=0|end_char=3
+2	گدڙ	گدڙ	NOUN	_	_	6	nsubj	_	start_char=4|end_char=7|SpaceAfter=No
+3	،	،	PUNCT	_	_	2	punct	_	start_char=7|end_char=8
+4	گداڙيءَ	گداڙيءَ	NOUN	_	_	6	iobj	_	start_char=9|end_char=16
+5	کي	کي	ADP	_	_	4	case	_	start_char=17|end_char=19
+6	چيو	چيو	VERB	_	_	0	root	_	start_char=20|end_char=23
+7	ته	ته	SCONJ	_	_	6	mark	_	start_char=24|end_char=26|SpaceAfter=No
+8	:	:	PUNCT	_	_	6	punct	_	start_char=26|end_char=27
+9	مان	مان	ADP	_	_	13	mark	_	start_char=28|end_char=31
+10	ٽي	ٽي	NUM	_	_	11	nummod	_	start_char=32|end_char=34
+11	سؤ	سؤ	NOUN	_	_	12	nmod	_	start_char=35|end_char=37
+12	ڪوڙ	ڪوڙ	NOUN	_	_	13	obj	_	start_char=38|end_char=41
+13	ٺاهيا	ٺاهيا	VERB	_	_	6	obj	_	start_char=42|end_char=47
+14	آهن	آهن	AUX	_	_	13	aux	_	start_char=48|end_char=51|SpaceAfter=No
+15	،	،	PUNCT	_	_	13	punct	_	start_char=51|end_char=52
+16	ڪو	ڪو	DET	_	_	19	det	_	start_char=53|end_char=55
+17	نه	نه	PART	_	_	16	dep	_	start_char=56|end_char=58
+18	ڪو	ڪو	DET	_	_	19	det	_	start_char=59|end_char=61
+19	ڪوڙ	ڪوڙ	NOUN	_	_	20	obj	_	start_char=62|end_char=65
+20	هڻي	هڻي	VERB	_	_	24	advcl	_	start_char=66|end_char=69|SpaceAfter=No
+21	،	،	PUNCT	_	_	20	punct	_	start_char=69|end_char=70
+22	پاڻي	پاڻي	NOUN	_	_	23	obj	_	start_char=71|end_char=75
+23	پي	پي	VERB	_	_	13	advcl	_	start_char=76|end_char=78
+24	اينداسين	اينداسين	VERB	_	_	23	compound	_	start_char=79|end_char=87|SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	start_char=87|end_char=88|SpacesAfter=\n
+
+# text = گداڙي هن سان گڏ تلاءُ ڏانهن هلڻ لڳي.
+# sent_id = 86
+1	گداڙي	گداڙي	NOUN	_	_	8	nsubj	_	start_char=0|end_char=5
+2	هن	هن	DET	_	_	8	obl	_	start_char=6|end_char=8
+3	سان	سان	ADP	_	_	2	case	_	start_char=9|end_char=12
+4	گڏ	گڏ	ADV	_	_	8	advmod	_	start_char=13|end_char=15
+5	تلاءُ	تلاءُ	NOUN	_	_	7	obl	_	start_char=16|end_char=21
+6	ڏانهن	ڏانهن	ADV	_	_	5	case	_	start_char=22|end_char=27
+7	هلڻ	هلڻ	VERB	_	_	8	xcomp	_	start_char=28|end_char=31
+8	لڳي	لڳي	VERB	_	_	0	root	_	start_char=32|end_char=35|SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	start_char=35|end_char=36|SpacesAfter=\n
+
+# text = هلڻ وقت گداڙيءَ گدڙ کي چيو ته: گدڙ، هلون ته هـُـنهين ٿا، ڇونه ڪجهه پاڻي ڍُڪ پيو هلون؟
+# sent_id = 87
+1	هلڻ	هلڻ	VERB	_	_	6	advcl	_	start_char=0|end_char=3
+2	وقت	وقت	NOUN	_	_	6	obl	_	start_char=4|end_char=7
+3	گداڙيءَ	گداڙيءَ	NOUN	_	_	6	nsubj	_	start_char=8|end_char=15
+4	گدڙ	گدڙ	NOUN	_	_	6	iobj	_	start_char=16|end_char=19
+5	کي	کي	ADP	_	_	4	case	_	start_char=20|end_char=22
+6	چيو	چيو	VERB	_	_	0	root	_	start_char=23|end_char=26
+7	ته	ته	SCONJ	_	_	6	mark	_	start_char=27|end_char=29|SpaceAfter=No
+8	:	:	PUNCT	_	_	6	punct	_	start_char=29|end_char=30
+9	گدڙ	گدڙ	NOUN	_	_	13	nsubj	_	start_char=31|end_char=34|SpaceAfter=No
+10	،	،	PUNCT	_	_	9	punct	_	start_char=34|end_char=35
+11	هلون	هلون	VERB	_	_	13	advcl	_	start_char=36|end_char=40
+12	ته	ته	SCONJ	_	_	11	mark	_	start_char=41|end_char=43
+13	هـُـنهين	هـُـنهين	VERB	_	_	6	advcl	_	start_char=44|end_char=52
+14	ٿا	ٿا	AUX	_	_	13	aux	_	start_char=53|end_char=55|SpaceAfter=No
+15	،	،	PUNCT	_	_	13	punct	_	start_char=55|end_char=56
+16	ڇونه	ڇونه	ADV	_	_	20	advmod	_	start_char=57|end_char=61
+17	ڪجهه	ڪجهه	ADJ	_	_	18	amod	_	start_char=62|end_char=66
+18	پاڻي	پاڻي	NOUN	_	_	20	obj	_	start_char=67|end_char=71
+19	ڍُڪ	ڍُڪ	NOUN	_	_	20	obj	_	start_char=72|end_char=75
+20	پيو	پيو	VERB	_	_	13	advcl	_	start_char=76|end_char=79
+21	هلون	هلون	VERB	_	_	20	compound	_	start_char=80|end_char=84|SpaceAfter=No
+22	؟	؟	PUNCT	_	_	20	punct	_	start_char=84|end_char=85|SpacesAfter=\n
+
+# text = گدڙ ۽ گداڙي پاڻي پي ڍؤ ڪيو، پوءِ شينهن سان گڏ هليا ۽ اچي پنهنجي گور تي بيٺا.
+# sent_id = 88
+1	گدڙ	گدڙ	NOUN	_	_	7	nsubj	_	start_char=0|end_char=3
+2	۽	۽	CCONJ	_	_	3	cc	_	start_char=4|end_char=5
+3	گداڙي	گداڙي	NOUN	_	_	1	conj	_	start_char=6|end_char=11
+4	پاڻي	پاڻي	NOUN	_	_	5	obj	_	start_char=12|end_char=16
+5	پي	پي	VERB	_	_	7	advcl	_	start_char=17|end_char=19
+6	ڍؤ	ڍؤ	NOUN	_	_	7	compound	_	start_char=20|end_char=22
+7	ڪيو	ڪيو	VERB	_	_	0	root	_	start_char=23|end_char=26|SpaceAfter=No
+8	،	،	PUNCT	_	_	7	punct	_	start_char=26|end_char=27
+9	پوءِ	پوءِ	ADP	_	_	7	mark	_	start_char=28|end_char=32
+10	شينهن	شينهن	NOUN	_	_	13	obl	_	start_char=33|end_char=38
+11	سان	سان	ADP	_	_	10	case	_	start_char=39|end_char=42
+12	گڏ	گڏ	ADV	_	_	13	advmod	_	start_char=43|end_char=45
+13	هليا	هليا	VERB	_	_	7	advcl	_	start_char=46|end_char=50
+14	۽	۽	CCONJ	_	_	19	cc	_	start_char=51|end_char=52
+15	اچي	اچي	VERB	_	_	19	advcl	_	start_char=53|end_char=56
+16	پنهنجي	پنهنجي	PRON	_	_	17	nmod	_	start_char=57|end_char=63
+17	گور	گور	NOUN	_	_	19	obl	_	start_char=64|end_char=67
+18	تي	تي	ADP	_	_	17	case	_	start_char=68|end_char=70
+19	بيٺا	بيٺا	VERB	_	_	13	conj	_	start_char=71|end_char=75|SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	start_char=75|end_char=76|SpacesAfter=\n
+
+# text = گدڙ چيو ته: مان ٻچا ڪڍي ٿو اچان.
+# sent_id = 89
+1	گدڙ	گدڙ	NOUN	_	_	2	nsubj	_	start_char=0|end_char=3
+2	چيو	چيو	VERB	_	_	0	root	_	start_char=4|end_char=7
+3	ته	ته	SCONJ	_	_	2	mark	_	start_char=8|end_char=10|SpaceAfter=No
+4	:	:	PUNCT	_	_	2	punct	_	start_char=10|end_char=11
+5	مان	مان	PRON	_	_	7	nsubj	_	start_char=12|end_char=15
+6	ٻچا	ٻچا	NOUN	_	_	7	obj	_	start_char=16|end_char=19
+7	ڪڍي	ڪڍي	VERB	_	_	2	obj	_	start_char=20|end_char=23
+8	ٿو	ٿو	AUX	_	_	7	aux	_	start_char=24|end_char=26
+9	اچان	اچان	VERB	_	_	7	compound	_	start_char=27|end_char=31|SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	start_char=31|end_char=32|SpacesAfter=\n
+
+# text = جڏهن گدڙ اندر ويو ۽ دير ڪيائين، تڏهن گداڙيءَ چيو ته: مان جهٽ پٽ ڪڍي ٿي اچان.
+# sent_id = 90
+1	جڏهن	جڏهن	ADV	_	_	4	advmod	_	start_char=0|end_char=4
+2	گدڙ	گدڙ	NOUN	_	_	4	nsubj	_	start_char=5|end_char=8
+3	اندر	اندر	NOUN	_	_	4	obl	_	start_char=9|end_char=13
+4	ويو	ويو	VERB	_	_	0	root	_	start_char=14|end_char=17
+5	۽	۽	CCONJ	_	_	7	cc	_	start_char=18|end_char=19
+6	دير	دير	NOUN	_	_	7	compound	_	start_char=20|end_char=23
+7	ڪيائين	ڪيائين	VERB	_	_	4	conj	_	start_char=24|end_char=30|SpaceAfter=No
+8	،	،	PUNCT	_	_	7	punct	_	start_char=30|end_char=31
+9	تڏهن	تڏهن	ADV	_	_	11	advmod	_	start_char=32|end_char=36
+10	گداڙيءَ	گداڙيءَ	NOUN	_	_	11	nsubj	_	start_char=37|end_char=44
+11	چيو	چيو	VERB	_	_	7	conj	_	start_char=45|end_char=48
+12	ته	ته	SCONJ	_	_	11	mark	_	start_char=49|end_char=51|SpaceAfter=No
+13	:	:	PUNCT	_	_	11	punct	_	start_char=51|end_char=52
+14	مان	مان	PRON	_	_	17	nsubj	_	start_char=53|end_char=56
+15	جهٽ	جهٽ	NOUN	_	_	16	nmod	_	start_char=57|end_char=60
+16	پٽ	پٽ	NOUN	_	_	17	obl	_	start_char=61|end_char=63
+17	ڪڍي	ڪڍي	VERB	_	_	11	obj	_	start_char=64|end_char=67
+18	ٿي	ٿي	AUX	_	_	17	aux	_	start_char=68|end_char=70
+19	اچان	اچان	VERB	_	_	17	compound	_	start_char=71|end_char=75|SpaceAfter=No
+20	.	.	PUNCT	_	_	17	punct	_	start_char=75|end_char=76|SpacesAfter=\n
+
+# text = ائين چئي اها به اندر ويئي ۽ وري نه موٽي.
+# sent_id = 91
+1	ائين	ائين	PRON	_	_	2	obl	_	start_char=0|end_char=4
+2	چئي	چئي	VERB	_	_	6	advcl	_	start_char=5|end_char=8
+3	اها	اها	DET	_	_	6	nsubj	_	start_char=9|end_char=12
+4	به	به	ADP	_	_	3	case	_	start_char=13|end_char=15
+5	اندر	اندر	NOUN	_	_	6	obl	_	start_char=16|end_char=20
+6	ويئي	ويئي	VERB	_	_	0	root	_	start_char=21|end_char=25
+7	۽	۽	CCONJ	_	_	10	cc	_	start_char=26|end_char=27
+8	وري	وري	ADV	_	_	10	advmod	_	start_char=28|end_char=31
+9	نه	نه	PART	_	_	10	advmod	_	start_char=32|end_char=34
+10	موٽي	موٽي	VERB	_	_	6	conj	_	start_char=35|end_char=39|SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	start_char=39|end_char=40|SpacesAfter=\n
+
+# text = تڏهن شينهن کين سڏ ڪيو.
+# sent_id = 92
+1	تڏهن	تڏهن	ADV	_	_	5	advmod	_	start_char=0|end_char=4
+2	شينهن	شينهن	NOUN	_	_	5	nsubj	_	start_char=5|end_char=10
+3	کين	کين	ADP	_	_	2	case	_	start_char=11|end_char=14
+4	سڏ	سڏ	NOUN	_	_	5	compound	_	start_char=15|end_char=17
+5	ڪيو	ڪيو	VERB	_	_	0	root	_	start_char=18|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	start_char=21|end_char=22|SpacesAfter=\n
+
+# text = گداڙيءَ اندران جواب ڏنو ته: شينهن شير خدا جا! تون موٽي وڃ، اسين پاڻ ۾ ٺهي ويا آهيون.
+# sent_id = 93
+1	گداڙيءَ	گداڙيءَ	NOUN	_	_	4	nsubj	_	start_char=0|end_char=7
+2	اندران	اندران	NOUN	_	_	4	nsubj	_	start_char=8|end_char=14
+3	جواب	جواب	NOUN	_	_	4	compound	_	start_char=15|end_char=19
+4	ڏنو	ڏنو	VERB	_	_	0	root	_	start_char=20|end_char=23
+5	ته	ته	SCONJ	_	_	4	mark	_	start_char=24|end_char=26|SpaceAfter=No
+6	:	:	PUNCT	_	_	4	punct	_	start_char=26|end_char=27
+7	شينهن	شينهن	NOUN	_	_	13	nsubj	_	start_char=28|end_char=33
+8	شير	شير	NOUN	_	_	9	nmod	_	start_char=34|end_char=37
+9	خدا	خدا	PROPN	_	_	13	obl	_	start_char=38|end_char=41
+10	جا	جا	ADP	_	_	9	case	_	start_char=42|end_char=44|SpaceAfter=No
+11	!	!	PUNCT	_	_	9	punct	_	start_char=44|end_char=45
+12	تون	تون	PRON	_	_	13	nsubj	_	start_char=46|end_char=49
+13	موٽي	موٽي	VERB	_	_	4	obj	_	start_char=50|end_char=54
+14	وڃ	وڃ	VERB	_	_	13	compound	_	start_char=55|end_char=57|SpaceAfter=No
+15	،	،	PUNCT	_	_	13	punct	_	start_char=57|end_char=58
+16	اسين	اسين	PRON	_	_	19	nsubj	_	start_char=59|end_char=63
+17	پاڻ	پاڻ	PRON	_	_	19	obl	_	start_char=64|end_char=67
+18	۾	۾	ADP	_	_	17	case	_	start_char=68|end_char=69
+19	ٺهي	ٺهي	VERB	_	_	13	advcl	_	start_char=70|end_char=73
+20	ويا	ويا	VERB	_	_	19	compound	_	start_char=74|end_char=77
+21	آهيون	آهيون	AUX	_	_	19	aux	_	start_char=78|end_char=83|SpaceAfter=No
+22	.	.	PUNCT	_	_	19	punct	_	start_char=83|end_char=84|SpacesAfter=\n
+
+# text = نيٺ شينهن ويچارو ارمان ڪندو هليو ويو.
+# sent_id = 94
+1	نيٺ	نيٺ	ADV	_	_	6	advmod	_	start_char=0|end_char=3
+2	شينهن	شينهن	NOUN	_	_	6	nsubj	_	start_char=4|end_char=9
+3	ويچارو	ويچارو	ADJ	_	_	5	advmod	_	start_char=10|end_char=16
+4	ارمان	ارمان	NOUN	_	_	5	compound	_	start_char=17|end_char=22
+5	ڪندو	ڪندو	VERB	_	_	6	xcomp	_	start_char=23|end_char=27
+6	هليو	هليو	VERB	_	_	0	root	_	start_char=28|end_char=32
+7	ويو	ويو	VERB	_	_	6	compound	_	start_char=33|end_char=36|SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	start_char=36|end_char=37|SpacesAfter=\n
+
+# text = گدڙ، ماني کاڌي، بعد ۾ مائيءَ کان ماني هضم ڪرائي پوءِ جند ڇڏيس.
+# sent_id = 95
+1	گدڙ	گدڙ	NOUN	_	_	4	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	،	،	PUNCT	_	_	1	punct	_	start_char=3|end_char=4
+3	ماني	ماني	NOUN	_	_	4	obj	_	start_char=5|end_char=9
+4	کاڌي	کاڌي	VERB	_	_	0	root	_	start_char=10|end_char=14|SpaceAfter=No
+5	،	،	PUNCT	_	_	4	punct	_	start_char=14|end_char=15
+6	بعد	بعد	NOUN	_	_	12	obl	_	start_char=16|end_char=19
+7	۾	۾	ADP	_	_	6	case	_	start_char=20|end_char=21
+8	مائيءَ	مائيءَ	NOUN	_	_	12	obl	_	start_char=22|end_char=28
+9	کان	کان	ADP	_	_	8	case	_	start_char=29|end_char=32
+10	ماني	ماني	NOUN	_	_	12	obj	_	start_char=33|end_char=37
+11	هضم	هضم	NOUN	_	_	12	compound	_	start_char=38|end_char=41
+12	ڪرائي	ڪرائي	VERB	_	_	15	advcl	_	start_char=42|end_char=47
+13	پوءِ	پوءِ	ADP	_	_	12	mark	_	start_char=48|end_char=52
+14	جند	جند	NOUN	_	_	15	obj	_	start_char=53|end_char=56
+15	ڇڏيس	ڇڏيس	VERB	_	_	4	advcl	_	start_char=57|end_char=61|SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	start_char=61|end_char=62|SpacesAfter=\n
+
+# text = مائي اها سربستي ڳالهه وڃي پنهنجي مڙس کي ٻڌائي.
+# sent_id = 96
+1	مائي	مائي	NOUN	_	_	9	nsubj	_	start_char=0|end_char=4
+2	اها	اها	DET	_	_	4	det	_	start_char=5|end_char=8
+3	سربستي	سربستي	ADJ	_	_	4	amod	_	start_char=9|end_char=15
+4	ڳالهه	ڳالهه	NOUN	_	_	5	obj	_	start_char=16|end_char=21
+5	وڃي	وڃي	VERB	_	_	9	advcl	_	start_char=22|end_char=25
+6	پنهنجي	پنهنجي	PRON	_	_	7	nmod	_	start_char=26|end_char=32
+7	مڙس	مڙس	NOUN	_	_	9	obj	_	start_char=33|end_char=36
+8	کي	کي	ADP	_	_	7	case	_	start_char=37|end_char=39
+9	ٻڌائي	ٻڌائي	VERB	_	_	0	root	_	start_char=40|end_char=45|SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	start_char=45|end_char=46|SpacesAfter=\n
+
+# text = مڙسس چيس: چڱو، هاڻي انهيءَ سان سڀاڻي مان پاڻهي پڄندس.
+# sent_id = 97
+1	مڙسس	مڙسس	NOUN	_	_	2	nsubj	_	start_char=0|end_char=4
+2	چيس	چيس	VERB	_	_	0	root	_	start_char=5|end_char=8|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=8|end_char=9
+4	چڱو	چڱو	ADJ	_	_	2	discourse	_	start_char=10|end_char=13|SpaceAfter=No
+5	،	،	PUNCT	_	_	4	punct	_	start_char=13|end_char=14
+6	هاڻي	هاڻي	ADV	_	_	12	advmod	_	start_char=15|end_char=19
+7	انهيءَ	انهيءَ	DET	_	_	12	obl	_	start_char=20|end_char=26
+8	سان	سان	ADP	_	_	7	case	_	start_char=27|end_char=30
+9	سڀاڻي	سڀاڻي	ADV	_	_	12	advmod	_	start_char=31|end_char=36
+10	مان	مان	PRON	_	_	12	nsubj	_	start_char=37|end_char=40
+11	پاڻهي	پاڻهي	DET	_	_	12	advmod	_	start_char=41|end_char=46
+12	پڄندس	پڄندس	VERB	_	_	2	ccomp	_	start_char=47|end_char=52|SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	start_char=52|end_char=53|SpacesAfter=\n
+
+# text = تون سڀاڻي سويرو منهنجا ڪپڙا پائي هـَـرن تي اچجانءِ ۽ مان دير سان تنهنجا ڪپڙا پائي، ماني کڻي ايندس.
+# sent_id = 98
+1	تون	تون	PRON	_	_	9	nsubj	_	start_char=0|end_char=3
+2	سڀاڻي	سڀاڻي	ADV	_	_	9	advmod	_	start_char=4|end_char=9
+3	سويرو	سويرو	ADJ	_	_	6	advmod	_	start_char=10|end_char=15
+4	منهنجا	منهنجا	PRON	_	_	5	nmod	_	start_char=16|end_char=22
+5	ڪپڙا	ڪپڙا	NOUN	_	_	6	obj	_	start_char=23|end_char=27
+6	پائي	پائي	VERB	_	_	9	advcl	_	start_char=28|end_char=32
+7	هـَـرن	هـَـرن	NOUN	_	_	9	obl	_	start_char=33|end_char=39
+8	تي	تي	ADP	_	_	7	case	_	start_char=40|end_char=42
+9	اچجانءِ	اچجانءِ	VERB	_	_	0	root	_	start_char=43|end_char=50
+10	۽	۽	CCONJ	_	_	19	cc	_	start_char=51|end_char=52
+11	مان	مان	PRON	_	_	19	nsubj	_	start_char=53|end_char=56
+12	دير	دير	NOUN	_	_	16	obl	_	start_char=57|end_char=60
+13	سان	سان	ADP	_	_	12	case	_	start_char=61|end_char=64
+14	تنهنجا	تنهنجا	PRON	_	_	15	nmod	_	start_char=65|end_char=71
+15	ڪپڙا	ڪپڙا	NOUN	_	_	16	obj	_	start_char=72|end_char=76
+16	پائي	پائي	VERB	_	_	19	advcl	_	start_char=77|end_char=81|SpaceAfter=No
+17	،	،	PUNCT	_	_	16	punct	_	start_char=81|end_char=82
+18	ماني	ماني	NOUN	_	_	19	obj	_	start_char=83|end_char=87
+19	کڻي	کڻي	VERB	_	_	9	conj	_	start_char=88|end_char=91
+20	ايندس	ايندس	VERB	_	_	19	compound	_	start_char=92|end_char=97|SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	start_char=97|end_char=98|SpacesAfter=\s\n
+
+# text = ڏسان ته اهو گيدي گدڙ مون کان ڪيئن ٿو ماني ڦري.
+# sent_id = 99
+1	ڏسان	ڏسان	VERB	_	_	0	root	_	start_char=0|end_char=4
+2	ته	ته	SCONJ	_	_	1	mark	_	start_char=5|end_char=7
+3	اهو	اهو	DET	_	_	5	det	_	start_char=8|end_char=11
+4	گيدي	گيدي	ADJ	_	_	5	amod	_	start_char=12|end_char=16
+5	گدڙ	گدڙ	NOUN	_	_	11	nsubj	_	start_char=17|end_char=20
+6	مون	مون	PRON	_	_	11	obl	_	start_char=21|end_char=24
+7	کان	کان	ADP	_	_	6	case	_	start_char=25|end_char=28
+8	ڪيئن	ڪيئن	PRON	_	_	11	obl	_	start_char=29|end_char=33
+9	ٿو	ٿو	AUX	_	_	11	aux	_	start_char=34|end_char=36
+10	ماني	ماني	VERB	_	_	11	xcomp	_	start_char=37|end_char=41
+11	ڦري	ڦري	VERB	_	_	1	advcl	_	start_char=42|end_char=45|SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	start_char=45|end_char=46|SpacesAfter=\n
+
