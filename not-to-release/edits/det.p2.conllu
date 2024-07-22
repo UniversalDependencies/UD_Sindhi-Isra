@@ -1,6 +1,5 @@
-# sent_id = 22
+# sent_id = 1
 # text = پر هن کي ڪو به ننڍو يا وڏو جانور هٿ نه آيو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:آيو
 1	پر	_	SCONJ	_	_	12	mark	_	_
 2	هن	_	DET	_	_	12	nsubj	_	_
 3	کي	_	ADP	_	_	2	case	_	_
@@ -15,15 +14,14 @@
 12	آيو	_	VERB	_	_	0	root	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 48
+# sent_id = 2
 # text = ڪاٺير وراڻيو، آءٌ مهاتما ٻُڌ جو قسم کڻي چوان ٿو ته آءٌ ڳوٺ جي ڪنهن به ماڻهوءَ سان اها ڳالهه نه ڪندس.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 2:وراڻيو
 1	ڪاٺير	_	NOUN	_	_	2	nsubj	_	_
 2	وراڻيو	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	،	_	PUNCT	_	_	2	punct	_	_
 4	آءٌ	_	PRON	_	_	10	nsubj	_	_
-5	مهاتما	_	NOUN	_	_	6	nmod	_	_
-6	ٻُڌ	_	NOUN	_	_	8	nmod	_	_
+5	مهاتما	_	PROPN	_	_	6	nmod	_	_
+6	ٻُڌ	_	PROPN	_	_	8	nmod	_	_
 7	جو	_	ADP	_	_	6	case	_	_
 8	قسم	_	NOUN	_	_	9	obj	_	_
 9	کڻي	_	VERB	_	_	10	advcl	_	_
@@ -33,7 +31,7 @@
 13	آءٌ	_	PRON	_	_	23	nsubj	_	_
 14	ڳوٺ	_	NOUN	_	_	18	nmod	_	_
 15	جي	_	ADP	_	_	14	case	_	_
-16	ڪنهن	_	DET	_	_	18	det	_	_
+16	ڪنهن	_	DET	_	_	18	nmod	_	_
 17	به	_	ADP	_	_	16	det	_	_
 18	ماڻهوءَ	_	NOUN	_	_	23	obl	_	_
 19	سان	_	ADP	_	_	18	case	_	_
@@ -43,9 +41,8 @@
 23	ڪندس	_	VERB	_	_	10	advcl	_	SpaceAfter=No
 24	.	_	PUNCT	_	_	23	punct	_	_
 
-# sent_id = 53
+# sent_id = 3
 # text = انهيءَ تي هن جي ٻارن کائونئس پڇيو، بابا، تون ڇو پيو کلين؟ پيءَ جواب ڏنو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:پڇيو
 1	انهيءَ	_	DET	_	_	7	obl	_	_
 2	تي	_	ADP	_	_	1	case	_	_
 3	هن	_	DET	_	_	5	nmod	_	_
@@ -66,9 +63,8 @@
 18	ڏنو	_	VERB	_	_	7	advcl	_	SpaceAfter=No
 19	،	_	PUNCT	_	_	18	punct	_	_
 
-# sent_id = 56
+# sent_id = 4
 # text = هن جي زال وري جهوپڙيءَ ۾ هڪ ڪنڊ ۾ پيل تئونريءَ تي ليٽي پيئي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 13:ليٽي
 1	هن	_	DET	_	_	3	nmod	_	_
 2	جي	_	ADP	_	_	1	det	_	_
 3	زال	_	NOUN	_	_	13	nsubj	_	_
@@ -85,9 +81,8 @@
 14	پيئي	_	VERB	_	_	13	compound	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	13	punct	_	_
 
-# sent_id = 75
+# sent_id = 5
 # text = انهيءَ کان پوءِ ڪاٺير يا ڪنهن ٻئي ماڻهوءَ وري اهو چيتو نه ڏٺو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 13:ڏٺو
 1	انهيءَ	_	DET	_	_	13	obl	_	_
 2	کان	_	ADP	_	_	1	case	_	_
 3	پوءِ	_	ADP	_	_	1	case	_	_
@@ -97,15 +92,14 @@
 7	ٻئي	_	ADJ	_	_	8	amod	_	_
 8	ماڻهوءَ	_	NOUN	_	_	4	conj	_	_
 9	وري	_	ADV	_	_	13	advmod	_	_
-10	اهو	_	DET	_	_	11	det	_	_
+10	اهو	_	DET	_	_	11	nmod	_	_
 11	چيتو	_	NOUN	_	_	13	obj	_	_
 12	نه	_	PART	_	_	13	dep	_	_
 13	ڏٺو	_	VERB	_	_	0	root	_	SpaceAfter=No
 14	.	_	PUNCT	_	_	13	punct	_	_
 
-# sent_id = 111
+# sent_id = 6
 # text = پر پٺتي ڀڄندي وقت وڃي ڪٽليءَ سان لڳو، جتان ڪفگير ٽپ ڏيئي ٻاهر نڪتو ۽ ٺڪاءَ ڪري اچي هن جي مٿي تي ڪِريو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 8:لڳو
 1	پر	_	SCONJ	_	_	8	mark	_	_
 2	پٺتي	_	ADV	_	_	3	advmod	_	_
 3	ڀڄندي	_	VERB	_	_	8	advcl	_	_
@@ -132,11 +126,10 @@
 24	ڪِريو	_	VERB	_	_	15	conj	_	SpaceAfter=No
 25	.	_	PUNCT	_	_	24	punct	_	_
 
-# sent_id = 122
+# sent_id = 7
 # text = ٿائوکام هر روز مشق ڪندو هو ۽ هن جو نشانو ڏينهون ڏينهن پڪو ٿيندو ويو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:ڪندو
 1	ٿائوکام	_	NOUN	_	_	5	nsubj	_	_
-2	هر	_	DET	_	_	3	det	_	_
+2	هر	_	DET	_	_	3	nmod	_	_
 3	روز	_	NOUN	_	_	5	obl	_	_
 4	مشق	_	NOUN	_	_	5	compound	_	_
 5	ڪندو	_	VERB	_	_	0	root	_	_
@@ -152,9 +145,8 @@
 15	ويو	_	VERB	_	_	14	compound	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	14	punct	_	_
 
-# sent_id = 124
+# sent_id = 8
 # text = گاڏڙي وٽ هنن ڀترن جو هڪڙو ڍير گڏ ڪيو ۽ هن جي نشاني بازيءَ جو تماشو ڏسڻ ويٺا.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:ڪيو
 1	گاڏڙي	_	NOUN	_	_	9	obl	_	_
 2	وٽ	_	ADP	_	_	1	case	_	_
 3	هنن	_	DET	_	_	9	nsubj	_	_
@@ -175,9 +167,8 @@
 18	ويٺا	_	VERB	_	_	9	conj	_	SpaceAfter=No
 19	.	_	PUNCT	_	_	18	punct	_	_
 
-# sent_id = 802
+# sent_id = 9
 # text = ٻڌڻي شروع ٿي ته حڪومت طرفان ڊپٽي اٽارني جنرل ڪي ڪي آغا دليل ڏيندي چيو ته 1973ع جي آئين ۾ ڪنهن به شق کي ناقابل ترميم قرار نٿو ڏئي سگهجي ،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 2:شروع
 1	ٻڌڻي	_	VERB	_	_	2	nsubj	_	_
 2	شروع	_	NOUN	_	_	0	root	_	_
 3	ٿي	_	AUX	_	_	2	cop	_	_
@@ -210,9 +201,8 @@
 30	سگهجي	_	VERB	_	_	29	compound	_	_
 31	،	_	PUNCT	_	_	29	punct	_	_
 
-# sent_id = 874
+# sent_id = 10
 # text = جڏهن ته نيشنل ڊزاسٽر مئنيجمينٽ اٿارٽي کي هدايت ڪئي آهي ته اهي ٻوڏ متاثر علائقن ۾ ڪنهن به قسم جي ڪوتاهي نه ڪن ،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:ڪئي
 1	جڏهن	_	ADV	_	_	9	advmod	_	_
 2	ته	_	SCONJ	_	_	1	dep	_	_
 3	نيشنل	_	NOUN	_	_	6	nmod	_	_
@@ -229,7 +219,7 @@
 14	متاثر	_	NOUN	_	_	15	nmod	_	_
 15	علائقن	_	NOUN	_	_	23	obl	_	_
 16	۾	_	ADP	_	_	15	case	_	_
-17	ڪنهن	_	DET	_	_	19	det	_	_
+17	ڪنهن	_	DET	_	_	19	nmod	_	_
 18	به	_	ADP	_	_	17	det	_	_
 19	قسم	_	NOUN	_	_	21	nmod	_	_
 20	جي	_	ADP	_	_	19	case	_	_
@@ -238,23 +228,21 @@
 23	ڪن	_	VERB	_	_	9	ccomp	_	_
 24	،	_	PUNCT	_	_	23	punct	_	_
 
-# sent_id = 963
+# sent_id = 11
 # text = اُن جي مٿان وٺي بـُـل ڏنائين ،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 6:ڏنائين
 1	اُن	_	DET	_	_	3	obl	_	_
 2	جي	_	ADP	_	_	1	det	_	_
 3	مٿان	_	ADV	_	_	6	advmod	_	_
 4	وٺي	_	VERB	_	_	6	advcl	_	_
-5	بـُـل	_	NOUN	_	_	6	xcomp	_	_
+5	بـُـل	_	VERB	_	_	6	xcomp	_	_
 6	ڏنائين	_	VERB	_	_	0	root	_	_
 7	،	_	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 1087
+# sent_id = 12
 # text = ان ڪري ڪنهن وڏي دڙي تي هلو ته اوهان جي ريت پوري ڪريان .
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:هلو
-1	ان	_	DET	_	_	2	det	_	_
+1	ان	_	DET	_	_	2	nsubj	_	_
 2	ڪري	_	VERB	_	_	7	advcl	_	_
-3	ڪنهن	_	PRON	_	_	5	det	_	_
+3	ڪنهن	_	PRON	_	_	5	nmod	_	_
 4	وڏي	_	ADJ	_	_	5	amod	_	_
 5	دڙي	_	NOUN	_	_	7	obl	_	_
 6	تي	_	ADP	_	_	5	case	_	_
@@ -267,9 +255,8 @@
 13	ڪريان	_	VERB	_	_	7	advcl	_	_
 14	.	_	PUNCT	_	_	13	punct	_	_
 
-# sent_id = 1490
+# sent_id = 13
 # text = انهن جا رهندڙ به پنهنجا بندوبست ڪري ڇڏين .
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:ڪري
 1	انهن	_	DET	_	_	3	obl	_	_
 2	جا	_	ADP	_	_	1	det	_	_
 3	رهندڙ	_	VERB	_	_	7	nsubj	_	_
@@ -280,9 +267,8 @@
 8	ڇڏين	_	VERB	_	_	7	compound	_	_
 9	.	_	PUNCT	_	_	7	punct	_	_
 
-# sent_id = 1495
+# sent_id = 14
 # text = اسان جا ماڻهو به عجيب طبيعت جا ٿي ويا آهن ،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:ويا
 1	اسان	_	PRON	_	_	3	nmod	_	_
 2	جا	_	ADP	_	_	1	det	_	_
 3	ماڻهو	_	NOUN	_	_	9	nsubj	_	_
@@ -295,9 +281,8 @@
 10	آهن	_	AUX	_	_	9	aux	_	_
 11	،	_	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 21
+# sent_id = 15
 # text = ڪمپا ڪابيرو جي پيءُ سندس علاج ڪرڻ لاءِ ملڪ جي سڀني جادوگراڻين کي گهرايو، پر ڪا به هن جو علاج نه ڪري سگهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 14:گهرايو
 1	ڪمپا	_	NOUN	_	_	2	nmod	_	_
 2	ڪابيرو	_	NOUN	_	_	4	nmod	_	_
 3	جي	_	ADP	_	_	2	case	_	_
@@ -314,7 +299,7 @@
 14	گهرايو	_	VERB	_	_	0	root	_	SpaceAfter=No
 15	،	_	PUNCT	_	_	14	punct	_	_
 16	پر	_	SCONJ	_	_	14	mark	_	_
-17	ڪا	_	DET	_	_	19	det	_	_
+17	ڪا	_	DET	_	_	19	nmod	_	_
 18	به	_	PART	_	_	17	det	_	_
 19	هن	_	PRON	_	_	21	nmod	_	_
 20	جو	_	ADP	_	_	19	case	_	_
@@ -324,9 +309,8 @@
 24	سگهي	_	AUX	_	_	23	compound	_	SpaceAfter=No
 25	.	_	PUNCT	_	_	23	punct	_	_
 
-# sent_id = 115
+# sent_id = 16
 # text = اسان جو رستو ڇو ٿا روڪيو؟ باندرن جي بادشاهه سان اهڙيءَ طرح ڳالهائڻ هڪ بلڪل نئين ڳالهه هئي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 6:روڪيو
 1	اسان	_	PRON	_	_	3	nmod	_	_
 2	جو	_	ADP	_	_	3	det	_	_
 3	رستو	_	NOUN	_	_	6	obj	_	_
@@ -348,9 +332,8 @@
 19	هئي	_	AUX	_	_	18	cop	_	SpaceAfter=No
 20	،	_	PUNCT	_	_	18	punct	_	_
 
-# sent_id = 273
+# sent_id = 17
 # text = ملڪ جو قانون هيءُ هوندو هو ته ڪو به پيءُ پنهنجي ڌيءَ سان شادي نٿي ڪري سگهيو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:هوندو
 1	ملڪ	_	NOUN	_	_	3	nmod	_	_
 2	جو	_	ADP	_	_	3	case	_	_
 3	قانون	_	NOUN	_	_	5	nsubj	_	_
@@ -358,7 +341,7 @@
 5	هوندو	_	VERB	_	_	0	root	_	_
 6	هو	_	AUX	_	_	5	aux	_	_
 7	ته	_	SCONJ	_	_	16	mark	_	_
-8	ڪو	_	DET	_	_	10	det	_	_
+8	ڪو	_	DET	_	_	10	nmod	_	_
 9	به	_	ADP	_	_	8	det	_	_
 10	پيءُ	_	NOUN	_	_	16	nsubj	_	_
 11	پنهنجي	_	PRON	_	_	12	nmod	_	_
@@ -370,10 +353,8 @@
 17	سگهيو	_	AUX	_	_	16	aux	_	SpaceAfter=No
 18	،	_	PUNCT	_	_	16	punct	_	_
 
-# sent_id = 348
+# sent_id = 18
 # text = انهن پوکن سان پوءِ وري ڪنهن به جانور هٿ چراند نه ڪئي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:ڪئي
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:ڪئي
 1	انهن	_	PRON	_	_	2	nmod	_	_
 2	پوکن	_	NOUN	_	_	12	obl	_	_
 3	سان	_	ADP	_	_	2	case	_	_
@@ -388,9 +369,8 @@
 12	ڪئي	_	VERB	_	_	0	root	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 526
+# sent_id = 19
 # text = جڏهن هن ٻڌايو ته ڍڳن کي بچائڻ لاءِ مون هن کي تنهنجي ڍڳِي ڏيڻ جو انجام ڪيو آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 3:ٻڌايو
 1	جڏهن	_	ADV	_	_	3	advmod	_	_
 2	هن	_	DET	_	_	3	nsubj	_	_
 3	ٻڌايو	_	VERB	_	_	0	root	_	_
@@ -411,9 +391,8 @@
 18	آهي	_	AUX	_	_	17	aux	_	SpaceAfter=No
 19	،	_	PUNCT	_	_	17	punct	_	_
 
-# sent_id = 539
+# sent_id = 20
 # text = ڪڙميءَ کي جيئن زال سمجهايو، هن به ائين ئي ڪيو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:سمجهايو
 1	ڪڙميءَ	_	NOUN	_	_	5	nsubj	_	_
 2	کي	_	ADP	_	_	1	case	_	_
 3	جيئن	_	ADV	_	_	5	obl	_	_
@@ -427,10 +406,8 @@
 11	ڪيو	_	VERB	_	_	5	advcl	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	11	punct	_	_
 
-# sent_id = 592
+# sent_id = 21
 # text = شينهن ايترو ته ڊنل هو جو پٿرن، ڇـِپـُن، ڪَنڊن، ڪِرڙن، رهڙن، رهنڊن، مطلب ته ڪنهن به شئي جو هوش نه رهيس.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 4:ڊنل
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 4:ڊنل
 1	شينهن	_	NOUN	_	_	4	nsubj	_	_
 2	ايترو	_	ADV	_	_	4	advmod	_	_
 3	ته	_	SCONJ	_	_	2	dep	_	_
@@ -460,10 +437,9 @@
 27	رهيس	_	VERB	_	_	4	advcl	_	SpaceAfter=No
 28	.	_	PUNCT	_	_	27	punct	_	_
 
-# sent_id = 596
+# sent_id = 22
 # text = تنهن جو ڪنهن پٿر يا ڇِپ جي ٿِڙي ڪرڻ جو آواز ٿي ٻڌو ته ويتر ٿي ڊنو ۽ ويتر ٿي زور زور سان ڀڳو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 13:ٻڌو
-1	تنهن	_	ADV	_	_	13	nsubj	_	_
+1	تنهن	_	PRON	_	_	13	obl	_	_
 2	جو	_	ADP	_	_	13	obl	_	_
 3	ڪنهن	_	PRON	_	_	4	det	_	_
 4	پٿر	_	NOUN	_	_	8	nmod	_	_
@@ -489,14 +465,13 @@
 24	ڀڳو	_	VERB	_	_	17	conj	_	SpaceAfter=No
 25	.	_	PUNCT	_	_	24	punct	_	_
 
-# sent_id = 612
+# sent_id = 23
 # text = مطلب ته مزدوريءَ جو ڪو به اهڙو ڪم نه هو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:هو
 1	مطلب	_	NOUN	_	_	10	obl	_	_
 2	ته	_	SCONJ	_	_	1	mark	_	_
 3	مزدوريءَ	_	NOUN	_	_	8	nmod	_	_
 4	جو	_	ADP	_	_	5	det	_	_
-5	ڪو	_	DET	_	_	8	det	_	_
+5	ڪو	_	DET	_	_	8	nmod	_	_
 6	به	_	ADP	_	_	5	dep	_	_
 7	اهڙو	_	DET	_	_	8	nummod	_	_
 8	ڪم	_	NOUN	_	_	10	nsubj	_	_
@@ -504,11 +479,9 @@
 10	هو	_	AUX	_	_	0	root	_	SpaceAfter=No
 11	،	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 615
+# sent_id = 24
 # text = اهڙي ڏکي مزدوريءَ جو اُجورو هن کي تمام ٿورو ملندو هو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:ملندو
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:ملندو
-1	اهڙي	_	ADJ	_	_	3	det	_	_
+1	اهڙي	_	DET	_	_	3	nmod	_	_
 2	ڏکي	_	ADJ	_	_	3	amod	_	_
 3	مزدوريءَ	_	NOUN	_	_	5	nmod	_	_
 4	جو	_	ADP	_	_	5	nmod	_	_
@@ -521,9 +494,8 @@
 11	هو	_	AUX	_	_	10	aux	_	SpaceAfter=No
 12	،	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 659
+# sent_id = 25
 # text = مڪاٽو هڪدم هٿ ٻڌي ادب سان هن کي سلام ڪيو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:ڪيو
 1	مڪاٽو	_	NOUN	_	_	10	nsubj	_	_
 2	هڪدم	_	ADV	_	_	4	advmod	_	_
 3	هٿ	_	NOUN	_	_	4	obj	_	_
@@ -536,23 +508,21 @@
 10	ڪيو	_	VERB	_	_	0	root	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 676
+# sent_id = 26
 # text = جيتوڻيڪ هڪ پئسي جي ڪا به قيمت نه هئي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:هئي
 1	جيتوڻيڪ	_	ADV	_	_	9	mark	_	_
 2	هڪ	_	NUM	_	_	3	nummod	_	_
 3	پئسي	_	NOUN	_	_	7	nmod	_	_
 4	جي	_	ADP	_	_	3	case	_	_
-5	ڪا	_	DET	_	_	7	det	_	_
+5	ڪا	_	DET	_	_	7	nmod	_	_
 6	به	_	ADP	_	_	5	det	_	_
 7	قيمت	_	NOUN	_	_	9	xcomp	_	_
 8	نه	_	PART	_	_	9	dep	_	_
 9	هئي	_	AUX	_	_	0	root	_	SpaceAfter=No
 10	،	_	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 679
+# sent_id = 27
 # text = ڪيترن ڏينهن تائين هن کي سمجهه ۾ ڪي به نه آيو ته ان ننڍڙي پئسي مان ڪهڙيءَ طرح فائدو حاصل ڪجي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 11:آيو
 1	ڪيترن	_	ADJ	_	_	2	amod	_	_
 2	ڏينهن	_	NOUN	_	_	11	obl	_	_
 3	تائين	_	ADP	_	_	2	case	_	_
@@ -576,10 +546,8 @@
 21	ڪجي	_	VERB	_	_	11	ccomp	_	SpaceAfter=No
 22	.	_	PUNCT	_	_	21	punct	_	_
 
-# sent_id = 692
+# sent_id = 28
 # text = هن کي جو ٻج مليا سو هن هڪدم زمين کوٽي ان ۾ ٻج پوکي ڇڏيا.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:مليا
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:مليا
 1	هن	_	DET	_	_	5	nsubj	_	_
 2	کي	_	ADP	_	_	1	det	_	_
 3	جو	_	ADP	_	_	4	case	_	_
@@ -597,9 +565,8 @@
 15	ڇڏيا	_	VERB	_	_	14	compound	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	14	punct	_	_
 
-# sent_id = 701
+# sent_id = 29
 # text = انهيءَ مان مون ٻج خريد ڪيا ۽ هيءُ سلاد پوکيو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 6:ڪيا
 1	انهيءَ	_	DET	_	_	6	obl	_	_
 2	مان	_	ADP	_	_	1	det	_	_
 3	مون	_	PRON	_	_	6	nsubj	_	_
@@ -612,10 +579,9 @@
 10	پوکيو	_	VERB	_	_	6	conj	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 703
+# sent_id = 30
 # text = بادشاهه کي هن ننڍي ڇوڪري جي سياڻپ ۽ محنت ڏاڍي وڻي ۽ هن کي پنهنجي محل ۾ نوڪر ڪري رکيائينس.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 11:وڻي
-1	بادشاهه	_	NOUN	_	_	11	nsubj	_	_
+1	بادشاهه	_	NOUN	_	_	11	obl	_	_
 2	کي	_	ADP	_	_	1	case	_	_
 3	هن	_	DET	_	_	5	nmod	_	_
 4	ننڍي	_	ADJ	_	_	5	nmod	_	_
@@ -637,10 +603,8 @@
 20	رکيائينس	_	VERB	_	_	11	conj	_	SpaceAfter=No
 21	.	_	PUNCT	_	_	20	punct	_	_
 
-# sent_id = 708
+# sent_id = 31
 # text = بادشاهه هن تي ڀروسو ڪرڻ لڳو ۽ هن کي وڏي ۾ وڏو عهدو ملندو ويو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 6:لڳو
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 6:لڳو
 1	بادشاهه	_	NOUN	_	_	6	nsubj	_	_
 2	هن	_	DET	_	_	6	obl	_	_
 3	تي	_	ADP	_	_	2	det	_	_
@@ -658,17 +622,15 @@
 15	ويو	_	VERB	_	_	14	compound	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	14	punct	_	_
 
-# sent_id = 721
+# sent_id = 32
 # text = موڳي ۽ بيوقوف هجڻ جي ڪري ڪا به زال هن سان شادي ڪرڻ لاءِ تيار نه هئي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 15:تيار
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 15:تيار
 1	موڳي	_	NOUN	_	_	4	obj	_	_
 2	۽	_	CCONJ	_	_	3	cc	_	_
 3	بيوقوف	_	ADJ	_	_	1	conj	_	_
 4	هجڻ	_	VERB	_	_	6	advcl	_	_
 5	جي	_	ADP	_	_	4	mark	_	_
 6	ڪري	_	VERB	_	_	15	advcl	_	_
-7	ڪا	_	DET	_	_	9	det	_	_
+7	ڪا	_	DET	_	_	9	nmod	_	_
 8	به	_	ADP	_	_	7	det	_	_
 9	زال	_	NOUN	_	_	15	nsubj	_	_
 10	هن	_	DET	_	_	13	obl	_	_
@@ -681,9 +643,8 @@
 17	هئي	_	AUX	_	_	15	cop	_	SpaceAfter=No
 18	.	_	PUNCT	_	_	15	punct	_	_
 
-# sent_id = 725
+# sent_id = 33
 # text = رات جو ماني کائڻ کان پوءِ ان جواڻ جماڻ زال هن کي چيو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 13:چيو
 1	رات	_	NOUN	_	_	4	obl	_	_
 2	جو	_	ADP	_	_	4	mark	_	_
 3	ماني	_	NOUN	_	_	4	obj	_	_
@@ -699,9 +660,8 @@
 13	چيو	_	VERB	_	_	0	root	_	SpaceAfter=No
 14	،	_	PUNCT	_	_	13	punct	_	_
 
-# sent_id = 735
+# sent_id = 34
 # text = انهيءَ لاءِ ته جتين ٺاهڻ وقت هن جتين کي نه پر پنهنجيءَ زال کي پئي ڏٺو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 15:پئي
 1	انهيءَ	_	DET	_	_	5	obl	_	_
 2	لاءِ	_	ADP	_	_	1	det	_	_
 3	ته	_	SCONJ	_	_	5	mark	_	_
@@ -720,9 +680,8 @@
 16	ڏٺو	_	VERB	_	_	15	compound	_	SpaceAfter=No
 17	.	_	PUNCT	_	_	15	punct	_	_
 
-# sent_id = 877
+# sent_id = 35
 # text = پر انهن مان ڪنهن به شيءَ کي ماليڪٽ هٿ نه لاتو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 11:لاتو
 1	پر	_	SCONJ	_	_	11	mark	_	_
 2	انهن	_	DET	_	_	11	obl	_	_
 3	مان	_	ADP	_	_	2	case	_	_
@@ -730,15 +689,14 @@
 5	به	_	ADP	_	_	4	det	_	_
 6	شيءَ	_	NOUN	_	_	8	nmod	_	_
 7	کي	_	ADP	_	_	6	case	_	_
-8	ماليڪٽ	_	NOUN	_	_	11	nsubj	_	_
+8	ماليڪٽ	_	PROPN	_	_	11	nsubj	_	_
 9	هٿ	_	NOUN	_	_	11	compound	_	_
 10	نه	_	PART	_	_	11	dep	_	_
 11	لاتو	_	VERB	_	_	0	root	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	11	punct	_	_
 
-# sent_id = 908
+# sent_id = 36
 # text = اتي اڪولا جو وفادار دوست هن کان موڪلائي واپس هليو ويو ۽ ماليڪٽ پنهنجي گهر ڏانهن ٻيڙي ڪاهڻ لڳي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:هليو
 1	اتي	_	ADV	_	_	10	advmod	_	_
 2	اڪولا	_	PROPN	_	_	5	nmod	_	_
 3	جو	_	ADP	_	_	2	case	_	_
@@ -760,9 +718,8 @@
 19	لڳي	_	VERB	_	_	10	conj	_	SpaceAfter=No
 20	.	_	PUNCT	_	_	19	punct	_	_
 
-# sent_id = 920
+# sent_id = 37
 # text = مڪسل هن کي حڪم ڏنو ته، هاڻي هر سال تون پنهنجي جان جوکي ۾ وجهي سمنڊ جي ڪناري تي ويندين ۽ منهنجي لاءِ هڪڙي نوجوان ڇوڪري جهلي ايندين.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:ڏنو
 1	مڪسل	_	NOUN	_	_	5	nsubj	_	_
 2	هن	_	DET	_	_	5	iobj	_	_
 3	کي	_	ADP	_	_	2	det	_	_
@@ -771,7 +728,7 @@
 6	ته	_	SCONJ	_	_	5	mark	_	SpaceAfter=No
 7	،	_	PUNCT	_	_	5	punct	_	_
 8	هاڻي	_	ADV	_	_	21	mark	_	_
-9	هر	_	DET	_	_	10	det	_	_
+9	هر	_	DET	_	_	10	nmod	_	_
 10	سال	_	NOUN	_	_	16	obl	_	_
 11	تون	_	PRON	_	_	21	nsubj	_	_
 12	پنهنجي	_	PRON	_	_	13	nmod	_	_
@@ -794,9 +751,8 @@
 29	ايندين	_	VERB	_	_	21	conj	_	SpaceAfter=No
 30	.	_	PUNCT	_	_	29	punct	_	_
 
-# sent_id = 52
+# sent_id = 38
 # text = ميڊيا سان ڪي به اختلاف ناهن،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:اختلاف
 1	ميڊيا	_	NOUN	_	_	5	nmod	_	_
 2	سان	_	ADP	_	_	1	case	_	_
 3	ڪي	_	NOUN	_	_	5	nmod	_	_
@@ -805,18 +761,17 @@
 6	ناهن	_	PART	_	_	5	cop	_	SpaceAfter=No
 7	،	_	PUNCT	_	_	5	punct	_	_
 
-# sent_id = 54
+# sent_id = 39
 # text = ميڊيا جي انهيءَ سيڪشن کي ڪا به هدايت نه پيا ڏيون ۽ نه وري ڪنٽرول ڪري رهيا آهيون.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 11:ڏيون
 1	ميڊيا	_	NOUN	_	_	4	nmod	_	_
 2	جي	_	ADP	_	_	1	case	_	_
 3	انهيءَ	_	DET	_	_	4	det	_	_
 4	سيڪشن	_	NOUN	_	_	10	obj	_	_
 5	کي	_	ADP	_	_	4	case	_	_
-6	ڪا	_	DET	_	_	8	det	_	_
+6	ڪا	_	DET	_	_	8	nmod	_	_
 7	به	_	PART	_	_	6	det	_	_
 8	هدايت	_	NOUN	_	_	10	obj	_	_
-9	نه	_	PART	_	_	10	dep	_	_
+9	نه	_	PART	_	_	10	nsubj	_	_
 10	پيا	_	VERB	_	_	11	xcomp	_	_
 11	ڏيون	_	VERB	_	_	0	root	_	_
 12	۽	_	CCONJ	_	_	16	cc	_	_
@@ -828,14 +783,13 @@
 18	آهيون	_	AUX	_	_	16	aux	_	SpaceAfter=No
 19	.	_	PUNCT	_	_	16	punct	_	_
 
-# sent_id = 72
+# sent_id = 40
 # text = حڪومت مخالف ميڊيا خلاف ڪو به قدم نه پيو کنيو وڃي:فوزيه وهاب
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:کنيو
 1	حڪومت	_	NOUN	_	_	3	nmod	_	_
 2	مخالف	_	ADJ	_	_	3	amod	_	_
 3	ميڊيا	_	NOUN	_	_	10	obl	_	_
 4	خلاف	_	ADP	_	_	3	case	_	_
-5	ڪو	_	DET	_	_	7	det	_	_
+5	ڪو	_	DET	_	_	7	nmod	_	_
 6	به	_	PART	_	_	5	det	_	_
 7	قدم	_	NOUN	_	_	9	obj	_	_
 8	نه	_	PART	_	_	9	dep	_	_
@@ -844,11 +798,10 @@
 11	وڃي	_	VERB	_	_	10	compound	_	SpaceAfter=No
 12	:	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
 13	فوزيه	_	PROPN	_	_	14	compound	_	_
-14	وهاب	_	NOUN	_	_	10	nsubj	_	_
+14	وهاب	_	PROPN	_	_	10	nsubj	_	_
 
-# sent_id = 113
+# sent_id = 41
 # text = هڪ انٽرويو ۾ راڻا ثناءُ الله چيو ته سرگوڌا ۾ گرفتار آمريڪين کي ڪنهن به صورت ۾ ڊي پورٽ نه ڪيو ويندو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:چيو
 1	هڪ	_	NUM	_	_	2	nummod	_	_
 2	انٽرويو	_	NOUN	_	_	7	obl	_	_
 3	۾	_	ADP	_	_	2	case	_	_
@@ -862,7 +815,7 @@
 11	گرفتار	_	NOUN	_	_	12	nmod	_	_
 12	آمريڪين	_	NOUN	_	_	21	obj	_	_
 13	کي	_	ADP	_	_	12	case	_	_
-14	ڪنهن	_	DET	_	_	16	det	_	_
+14	ڪنهن	_	DET	_	_	16	nsubj	_	_
 15	به	_	PART	_	_	14	det	_	_
 16	صورت	_	NOUN	_	_	21	obl	_	_
 17	۾	_	ADP	_	_	16	case	_	_
@@ -873,14 +826,13 @@
 22	ويندو	_	VERB	_	_	21	compound	_	SpaceAfter=No
 23	،	_	PUNCT	_	_	21	punct	_	_
 
-# sent_id = 152
+# sent_id = 42
 # text = جنهن جي سرڪاري طور ڪنهن به تصديق نه ڪئي آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:ڪئي
 1	جنهن	_	PRON	_	_	4	nmod	_	_
 2	جي	_	ADP	_	_	1	case	_	_
 3	سرڪاري	_	ADJ	_	_	4	amod	_	_
 4	طور	_	NOUN	_	_	9	obl	_	_
-5	ڪنهن	_	DET	_	_	7	det	_	_
+5	ڪنهن	_	DET	_	_	7	nsubj	_	_
 6	به	_	PART	_	_	5	det	_	_
 7	تصديق	_	NOUN	_	_	9	xcomp	_	_
 8	نه	_	PART	_	_	9	dep	_	_
@@ -888,12 +840,11 @@
 10	آهي	_	AUX	_	_	9	aux	_	SpaceAfter=No
 11	،	_	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 229
+# sent_id = 43
 # text = تنهنڪري نتيجتاً اهو به طئي نه ٿي سگهيو آهي ته دڪاندارن ۽ واپارين کي ان جو نقصان ڪير ڀري ڏيندو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:طئي
 1	تنهنڪري	_	ADV	_	_	5	advmod	_	_
 2	نتيجتاً	_	ADJ	_	_	5	amod	_	_
-3	اهو	_	DET	_	_	5	det	_	_
+3	اهو	_	DET	_	_	5	obj	_	_
 4	به	_	PART	_	_	3	det	_	_
 5	طئي	_	ADV	_	_	0	root	_	_
 6	نه	_	PART	_	_	5	dep	_	_
@@ -913,11 +864,10 @@
 20	ڏيندو	_	VERB	_	_	19	compound	_	SpaceAfter=No
 21	.	_	PUNCT	_	_	19	punct	_	_
 
-# sent_id = 248
+# sent_id = 44
 # text = ۽ جيڪو به واقعو جتي به ٿي رهيو آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:ٿي
 1	۽	_	CCONJ	_	_	7	cc	_	_
-2	جيڪو	_	DET	_	_	4	det	_	_
+2	جيڪو	_	DET	_	_	4	nmod	_	_
 3	به	_	ADP	_	_	2	det	_	_
 4	واقعو	_	NOUN	_	_	7	nsubj	_	_
 5	جتي	_	ADV	_	_	7	advmod	_	_
@@ -927,22 +877,21 @@
 9	آهي	_	AUX	_	_	7	aux	_	SpaceAfter=No
 10	،	_	PUNCT	_	_	7	punct	_	_
 
-# sent_id = 308
+# sent_id = 45
 # text = ان گفتگو کي ڪردار ڪشي ۽ الزام ڪنهن هڪ طرف موڙڻ وارو ڪو بيهودو کيل نه بڻائڻ گهرجي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 17:بڻائڻ
-1	ان	_	DET	_	_	2	det	_	_
+1	ان	_	DET	_	_	2	nmod	_	_
 2	گفتگو	_	NOUN	_	_	11	obj	_	_
 3	کي	_	ADP	_	_	2	case	_	_
 4	ڪردار	_	NOUN	_	_	5	nmod	_	_
 5	ڪشي	_	NOUN	_	_	11	obl	_	_
 6	۽	_	CCONJ	_	_	7	cc	_	_
 7	الزام	_	NOUN	_	_	5	conj	_	_
-8	ڪنهن	_	PRON	_	_	10	det	_	_
+8	ڪنهن	_	PRON	_	_	10	nmod	_	_
 9	هڪ	_	ADJ	_	_	10	amod	_	_
 10	طرف	_	NOUN	_	_	11	obl	_	_
 11	موڙڻ	_	VERB	_	_	17	advcl	_	_
 12	وارو	_	ADP	_	_	11	mark	_	_
-13	ڪو	_	DET	_	_	15	det	_	_
+13	ڪو	_	DET	_	_	15	nmod	_	_
 14	بيهودو	_	ADJ	_	_	15	amod	_	_
 15	کيل	_	NOUN	_	_	17	obj	_	_
 16	نه	_	PART	_	_	17	dep	_	_
@@ -950,9 +899,8 @@
 18	گهرجي	_	VERB	_	_	17	aux	_	SpaceAfter=No
 19	.	_	PUNCT	_	_	17	punct	_	_
 
-# sent_id = 311
+# sent_id = 46
 # text = جيڪا اسان جي ملڪ ۾ هونءَ به گهڻي ئي آهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 8:گهڻي
 1	جيڪا	_	DET	_	_	8	nsubj	_	_
 2	اسان	_	PRON	_	_	4	nmod	_	_
 3	جي	_	ADP	_	_	2	det	_	_
@@ -965,9 +913,8 @@
 10	آهي	_	AUX	_	_	8	cop	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	8	punct	_	_
 
-# sent_id = 320
+# sent_id = 47
 # text = ميڊيا جمهوري عمل سان مڪمل وفاداري رکندي ڪنهن به موضوع کي بحث هيٺ آڻي سگهي ٿي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 14:آڻي
 1	ميڊيا	_	NOUN	_	_	7	nsubj	_	_
 2	جمهوري	_	ADJ	_	_	3	amod	_	_
 3	عمل	_	NOUN	_	_	7	obl	_	_
@@ -975,7 +922,7 @@
 5	مڪمل	_	ADJ	_	_	6	amod	_	_
 6	وفاداري	_	NOUN	_	_	7	compound	_	_
 7	رکندي	_	VERB	_	_	14	advcl	_	_
-8	ڪنهن	_	DET	_	_	10	det	_	_
+8	ڪنهن	_	DET	_	_	10	nmod	_	_
 9	به	_	ADP	_	_	8	det	_	_
 10	موضوع	_	NOUN	_	_	14	obj	_	_
 11	کي	_	ADP	_	_	10	case	_	_
@@ -986,31 +933,28 @@
 16	ٿي	_	AUX	_	_	14	aux	_	SpaceAfter=No
 17	.	_	PUNCT	_	_	14	punct	_	_
 
-# sent_id = 367
+# sent_id = 48
 # text = انهن جي نظر ۾ پڻ اهي ئي محرڪ آهن.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 8:محرڪ
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 8:محرڪ
 1	انهن	_	DET	_	_	3	nmod	_	_
 2	جي	_	ADP	_	_	1	det	_	_
 3	نظر	_	NOUN	_	_	8	nmod	_	_
 4	۾	_	ADP	_	_	3	case	_	_
 5	پڻ	_	PART	_	_	3	dep	_	_
-6	اهي	_	DET	_	_	8	det	_	_
+6	اهي	_	DET	_	_	8	nmod	_	_
 7	ئي	_	ADP	_	_	6	det	_	_
 8	محرڪ	_	NOUN	_	_	0	root	_	_
 9	آهن	_	AUX	_	_	8	cop	_	SpaceAfter=No
 10	.	_	PUNCT	_	_	8	punct	_	_
 
-# sent_id = 371
+# sent_id = 49
 # text = هن کي خبر هوندي آهي ته ان خودڪش حملي سان ٽارگيٽ حاصل ٿئي يا نه ٿئي پر هن جي جان هلي ويندي پر ان جي باوجود هن جا قدم ناهن رڪجندا.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 4:هوندي
 1	هن	_	PRON	_	_	4	nsubj	_	_
 2	کي	_	ADP	_	_	1	case	_	_
 3	خبر	_	NOUN	_	_	4	compound	_	_
 4	هوندي	_	VERB	_	_	0	root	_	_
 5	آهي	_	AUX	_	_	4	aux	_	_
 6	ته	_	SCONJ	_	_	13	mark	_	_
-7	ان	_	DET	_	_	9	det	_	_
+7	ان	_	DET	_	_	9	nmod	_	_
 8	خودڪش	_	ADJ	_	_	9	amod	_	_
 9	حملي	_	NOUN	_	_	13	obl	_	_
 10	سان	_	ADP	_	_	9	case	_	_
@@ -1037,9 +981,8 @@
 31	رڪجندا	_	VERB	_	_	21	advcl	_	SpaceAfter=No
 32	.	_	PUNCT	_	_	31	punct	_	_
 
-# sent_id = 381
+# sent_id = 50
 # text = انهن کان علاوه هينئر تائين جيترا به خودڪش ڌماڪا ٿيا آهن،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:ٿيا
 1	انهن	_	DET	_	_	10	obl	_	_
 2	کان	_	ADP	_	_	1	det	_	_
 3	علاوه	_	ADJ	_	_	10	advmod	_	_
@@ -1053,17 +996,16 @@
 11	آهن	_	AUX	_	_	10	aux	_	SpaceAfter=No
 12	،	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 419
+# sent_id = 51
 # text = هنن جي اصل زبان يعني آئرش ۽ انگريزيءَ ۾ تمام وڏو فرق آهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:فرق
 1	هنن	_	PRON	_	_	4	nmod	_	_
 2	جي	_	ADP	_	_	1	det	_	_
 3	اصل	_	ADJ	_	_	4	amod	_	_
 4	زبان	_	NOUN	_	_	12	nmod	_	_
 5	يعني	_	ADP	_	_	4	case	_	_
-6	آئرش	_	NOUN	_	_	12	nmod	_	_
+6	آئرش	_	PROPN	_	_	12	nmod	_	_
 7	۽	_	CCONJ	_	_	8	cc	_	_
-8	انگريزيءَ	_	NOUN	_	_	6	conj	_	_
+8	انگريزيءَ	_	PROPN	_	_	6	conj	_	_
 9	۾	_	ADP	_	_	6	case	_	_
 10	تمام	_	ADV	_	_	11	advmod	_	_
 11	وڏو	_	ADJ	_	_	12	amod	_	_
@@ -1071,14 +1013,13 @@
 13	آهي	_	AUX	_	_	12	cop	_	SpaceAfter=No
 14	.	_	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 443
+# sent_id = 52
 # text = “ اڌ ڪلاڪ تائين چرچل هنن سڀني جا خوف ۽ وسوسا خاموشيءَ سان ٻڌندو رهيو ۽ پنهنجي عادت مطابق هن جو سگار هن جي چپن تي رکيو رهيو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 14:ٻڌندو
 1	“	_	PUNCT	_	_	14	mark	_	_
 2	اڌ	_	ADJ	_	_	3	amod	_	_
 3	ڪلاڪ	_	NOUN	_	_	14	obl	_	_
 4	تائين	_	ADP	_	_	3	case	_	_
-5	چرچل	_	NOUN	_	_	14	nsubj	_	_
+5	چرچل	_	PROPN	_	_	14	nsubj	_	_
 6	هنن	_	DET	_	_	7	det	_	_
 7	سڀني	_	ADJ	_	_	9	nmod	_	_
 8	جا	_	ADP	_	_	7	case	_	_
@@ -1104,11 +1045,9 @@
 28	رهيو	_	VERB	_	_	27	compound	_	SpaceAfter=No
 29	.	_	PUNCT	_	_	27	punct	_	_
 
-# sent_id = 472
+# sent_id = 53
 # text = هو همراهه خوشيءَ سان راضي ٿي ويو ۽ ٻنهي ڌرين کان بيان ورتو ۽ پوءِ طوطيءَ کان پڇڻ تي هن سڄو قصو ٻڌايو ۽ قسم نامي تي چيو ته هوءَ ته طوطي جي ئي زال آهي ۽ هن جو چٻري سان ڪنهن به قسم جو واسطو يا ڪو تعلق ناهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:راضي
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:راضي
-1	هو	_	DET	_	_	2	det	_	_
+1	هو	_	DET	_	_	2	nmod	_	_
 2	همراهه	_	NOUN	_	_	5	nsubj	_	_
 3	خوشيءَ	_	NOUN	_	_	5	obl	_	_
 4	سان	_	ADP	_	_	3	case	_	_
@@ -1145,11 +1084,11 @@
 35	زال	_	NOUN	_	_	28	obj	_	_
 36	آهي	_	AUX	_	_	35	cop	_	_
 37	۽	_	CCONJ	_	_	49	cc	_	_
-38	هن	_	DET	_	_	40	det	_	_
+38	هن	_	DET	_	_	40	nmod	_	_
 39	جو	_	ADP	_	_	38	det	_	_
 40	چٻري	_	NOUN	_	_	35	nmod	_	_
 41	سان	_	ADP	_	_	40	case	_	_
-42	ڪنهن	_	DET	_	_	44	det	_	_
+42	ڪنهن	_	DET	_	_	44	nmod	_	_
 43	به	_	ADP	_	_	42	det	_	_
 44	قسم	_	NOUN	_	_	46	nmod	_	_
 45	جو	_	ADP	_	_	44	case	_	_
@@ -1160,9 +1099,8 @@
 50	ناهي	_	AUX	_	_	49	cop	_	SpaceAfter=No
 51	.	_	PUNCT	_	_	35	punct	_	_
 
-# sent_id = 474
+# sent_id = 54
 # text = ان تي طوطو اوڇنگارون ڏئي رئڻ لڳو پر هن جي هڪ به نه ٻڌي وئي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:لڳو
 1	ان	_	DET	_	_	7	obl	_	_
 2	تي	_	ADP	_	_	1	case	_	_
 3	طوطو	_	NOUN	_	_	7	nsubj	_	_
@@ -1180,9 +1118,8 @@
 15	وئي	_	VERB	_	_	14	compound	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	14	punct	_	_
 
-# sent_id = 503
+# sent_id = 55
 # text = هي هڪ نااميدي ناهي پر سچ آهي ته اسان جي دنيا جي ڪناري تي نه ڪو ناکئو آهي ۽ نه ئي ڪا ٻيڙي آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 6:سچ
 1	هي	_	DET	_	_	3	det	_	_
 2	هڪ	_	ADJ	_	_	3	amod	_	_
 3	نااميدي	_	ADJ	_	_	6	amod	_	_
@@ -1198,20 +1135,19 @@
 13	ڪناري	_	NOUN	_	_	17	nmod	_	_
 14	تي	_	ADP	_	_	13	case	_	_
 15	نه	_	PART	_	_	17	dep	_	_
-16	ڪو	_	DET	_	_	17	det	_	_
+16	ڪو	_	DET	_	_	17	nmod	_	_
 17	ناکئو	_	NOUN	_	_	6	nmod	_	_
 18	آهي	_	AUX	_	_	17	cop	_	_
 19	۽	_	CCONJ	_	_	23	cc	_	_
 20	نه	_	PART	_	_	23	dep	_	_
 21	ئي	_	ADP	_	_	20	dep	_	_
-22	ڪا	_	DET	_	_	23	det	_	_
+22	ڪا	_	DET	_	_	23	nmod	_	_
 23	ٻيڙي	_	NOUN	_	_	17	conj	_	_
 24	آهي	_	AUX	_	_	23	cop	_	SpaceAfter=No
 25	،	_	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 510
+# sent_id = 56
 # text = پر هڪ ڀيرو ٻيهر يقين جڙي ٿو انهي يقين کي جڙڻ ۾ دنيا جي ڪنهن به نظريي يا ڏاهي جي بحث ڪردار ادا ناهي ڪيو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 6:جڙي
 1	پر	_	SCONJ	_	_	6	mark	_	_
 2	هڪ	_	ADJ	_	_	3	amod	_	_
 3	ڀيرو	_	NOUN	_	_	6	obl	_	_
@@ -1219,14 +1155,14 @@
 5	يقين	_	NOUN	_	_	6	nsubj	_	_
 6	جڙي	_	VERB	_	_	0	root	_	_
 7	ٿو	_	AUX	_	_	6	aux	_	_
-8	انهي	_	DET	_	_	9	det	_	_
+8	انهي	_	DET	_	_	9	nmod	_	_
 9	يقين	_	NOUN	_	_	11	obj	_	_
 10	کي	_	ADP	_	_	9	case	_	_
 11	جڙڻ	_	VERB	_	_	25	advcl	_	_
 12	۾	_	ADP	_	_	11	mark	_	_
 13	دنيا	_	NOUN	_	_	17	nmod	_	_
 14	جي	_	ADP	_	_	13	case	_	_
-15	ڪنهن	_	DET	_	_	17	det	_	_
+15	ڪنهن	_	DET	_	_	17	nmod	_	_
 16	به	_	ADP	_	_	15	det	_	_
 17	نظريي	_	NOUN	_	_	21	nmod	_	_
 18	يا	_	CCONJ	_	_	19	cc	_	_
@@ -1239,21 +1175,19 @@
 25	ڪيو	_	VERB	_	_	6	advcl	_	SpaceAfter=No
 26	.	_	PUNCT	_	_	25	punct	_	_
 
-# sent_id = 517
+# sent_id = 57
 # text = مان اڄ ڪا به شڪايت نه ڪندس،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:ڪندس
 1	مان	_	PRON	_	_	7	nsubj	_	_
 2	اڄ	_	ADV	_	_	7	advmod	_	_
-3	ڪا	_	DET	_	_	5	det	_	_
+3	ڪا	_	DET	_	_	5	nmod	_	_
 4	به	_	ADP	_	_	3	det	_	_
 5	شڪايت	_	NOUN	_	_	7	obj	_	_
 6	نه	_	PART	_	_	7	dep	_	_
 7	ڪندس	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	،	_	PUNCT	_	_	7	punct	_	_
 
-# sent_id = 532
+# sent_id = 58
 # text = اسان جا ٻار اسان کي اتساهه ڏيندڙ آهن ڇا اسان انهن جي معصوم دنيا کي تحفظ ڏئي سگهنداسين ۽ انهن جي يقين کي بچائي سهگنداسين؟
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:ڏيندڙ
 1	اسان	_	PRON	_	_	3	nmod	_	_
 2	جا	_	ADP	_	_	3	nmod	_	_
 3	ٻار	_	NOUN	_	_	7	nsubj	_	_
@@ -1281,10 +1215,9 @@
 25	سهگنداسين	_	VERB	_	_	24	compound	_	SpaceAfter=No
 26	؟	_	PUNCT	_	_	24	punct	_	_
 
-# sent_id = 608
+# sent_id = 59
 # text = ڪو به ترجمو تخليقي تحرير وانگي وفادار ۽ سچو تڏهن آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:تڏهن
-1	ڪو	_	DET	_	_	3	det	_	_
+1	ڪو	_	DET	_	_	3	nmod	_	_
 2	به	_	ADP	_	_	1	det	_	_
 3	ترجمو	_	NOUN	_	_	10	nsubj	_	_
 4	تخليقي	_	ADJ	_	_	5	amod	_	_
@@ -1297,9 +1230,8 @@
 11	آهي	_	AUX	_	_	10	cop	_	SpaceAfter=No
 12	،	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 701
+# sent_id = 60
 # text = ان تي اهو به چيو وڃي ٿو ته جيڪڏهن ڪڇندين ته ڪافر ٿيندين،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:چيو
 1	ان	_	DET	_	_	5	obl	_	_
 2	تي	_	ADP	_	_	1	case	_	_
 3	اهو	_	DET	_	_	5	obl	_	_
@@ -1315,9 +1247,8 @@
 13	ٿيندين	_	VERB	_	_	5	ccomp	_	SpaceAfter=No
 14	،	_	PUNCT	_	_	13	punct	_	_
 
-# sent_id = 742
+# sent_id = 61
 # text = اڳ اوهان کي شهيدن مهابي ووٽ مليا هاڻي اوهان جي ڪم کي ڏسي ماڻهن تير تي ٺپو هڻندا.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:مليا
 1	اڳ	_	NOUN	_	_	7	obl	_	_
 2	اوهان	_	PRON	_	_	7	nsubj	_	_
 3	کي	_	ADP	_	_	2	case	_	_
@@ -1338,9 +1269,8 @@
 18	هڻندا	_	VERB	_	_	7	advcl	_	SpaceAfter=No
 19	.	_	PUNCT	_	_	18	punct	_	_
 
-# sent_id = 4092
+# sent_id = 62
 # text = اسان واري بس اوما جي بس اڏي تي 7-5 منٽ بيٺي رهي ۽ اتي ماڻهو لاٿائين ۽ کنيائين.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 13:بيٺي
 1	اسان	_	PRON	_	_	3	nmod	_	_
 2	واري	_	ADP	_	_	1	det	_	_
 3	بس	_	NOUN	_	_	13	nsubj	_	_
@@ -1363,9 +1293,8 @@
 20	کنيائين	_	VERB	_	_	18	conj	_	SpaceAfter=No
 21	.	_	PUNCT	_	_	20	punct	_	_
 
-# sent_id = 4555
+# sent_id = 63
 # text = ان دوران انهن کي آبادگارن جون ادائگيون به ڪرڻيون هونديون آهن.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:ڪرڻيون
 1	ان	_	DET	_	_	9	obl	_	_
 2	دوران	_	ADP	_	_	1	case	_	_
 3	انهن	_	DET	_	_	9	nsubj	_	_
@@ -1379,15 +1308,14 @@
 11	آهن	_	AUX	_	_	9	aux	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 4593
+# sent_id = 64
 # text = ان کان اڳ جو اسان ڪنهن اهڙي غذائي بحران جو شڪار ٿيون،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:ٿيون
 1	ان	_	DET	_	_	3	nmod	_	_
 2	کان	_	ADP	_	_	1	det	_	_
 3	اڳ	_	NOUN	_	_	12	obl	_	_
 4	جو	_	ADP	_	_	3	case	_	_
 5	اسان	_	PRON	_	_	12	nsubj	_	_
-6	ڪنهن	_	DET	_	_	9	det	_	_
+6	ڪنهن	_	DET	_	_	9	nmod	_	_
 7	اهڙي	_	ADJ	_	_	9	amod	_	_
 8	غذائي	_	ADJ	_	_	9	amod	_	_
 9	بحران	_	NOUN	_	_	11	nmod	_	_
@@ -1396,9 +1324,8 @@
 12	ٿيون	_	VERB	_	_	0	root	_	SpaceAfter=No
 13	،	_	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 4649
+# sent_id = 65
 # text = جو پنجاب ان جو بار برداشت نه ڪري سگهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 8:ڪري
 1	جو	_	ADP	_	_	2	case	_	_
 2	پنجاب	_	PROPN	_	_	8	nsubj	_	_
 3	ان	_	PRON	_	_	5	nmod	_	_
@@ -1410,9 +1337,8 @@
 9	سگهي	_	AUX	_	_	8	aux	_	SpaceAfter=No
 10	.	_	PUNCT	_	_	8	punct	_	_
 
-# sent_id = 4668
+# sent_id = 66
 # text = تڏهن ئي دراصل سنڌ ۾ حقيقي خوشحالي جا ڪي واهڙ وهي سگهن ٿا يا ڪنهن خوشيءَ جو احساس جاڳي سگهجي ٿو ۽ وري ان سطح جو حصو وٺڻ لاءِ ضروري آهي ته وفاق کان مڪمل طور تي صوبائي ۽ قومي خودمختياري ورتي وڃي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 11:وهي
 1	تڏهن	_	ADV	_	_	11	advmod	_	_
 2	ئي	_	PART	_	_	1	dep	_	_
 3	دراصل	_	ADJ	_	_	4	amod	_	_
@@ -1458,9 +1384,8 @@
 43	وڃي	_	VERB	_	_	42	compound	_	SpaceAfter=No
 44	.	_	PUNCT	_	_	42	punct	_	_
 
-# sent_id = 4680
+# sent_id = 67
 # text = جڏهن ته 2009ع سال جي پڄاڻي جي آخري ڏينهن ۾ ڪراچي واري دهشتگردي جهڙوڪ سڄي سال جي ڪسر ڪڍي ڇڏي جو اندازن 45 کن عزادار شهيد ۽ ڪيترائي سخت زخمي ٿي ويا آهن جن ۾ به ڪي نوجوان اهڙا آهن جيڪي معذور بنجي بقايا زندگي گذاريندا.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 19:ڪڍي
 1	جڏهن	_	ADV	_	_	19	advmod	_	_
 2	ته	_	SCONJ	_	_	1	dep	_	_
 3	2009ع	_	NUM	_	_	4	nummod	_	_
@@ -1509,13 +1434,12 @@
 46	گذاريندا	_	VERB	_	_	39	advcl	_	SpaceAfter=No
 47	.	_	PUNCT	_	_	46	punct	_	_
 
-# sent_id = 4688
+# sent_id = 68
 # text = ان کان سواءِ انهن شرپسندن کي گرفتار ڪرڻ کان به لهرايو ويو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 11:لهرايو
 1	ان	_	DET	_	_	3	obl	_	_
 2	کان	_	ADP	_	_	1	det	_	_
 3	سواءِ	_	ADV	_	_	11	advmod	_	_
-4	انهن	_	DET	_	_	5	det	_	_
+4	انهن	_	DET	_	_	5	nmod	_	_
 5	شرپسندن	_	NOUN	_	_	8	obj	_	_
 6	کي	_	ADP	_	_	5	case	_	_
 7	گرفتار	_	NOUN	_	_	8	compound	_	_
@@ -1526,12 +1450,11 @@
 12	ويو	_	VERB	_	_	11	compound	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	11	punct	_	_
 
-# sent_id = 4689
+# sent_id = 69
 # text = حيرانگي ته اها به ٿي جو هن اهم جلوس جي نگراني ڪندڙن ۾ عمارتن جي ڇتين مٿان به سپاهي هٿيارن سان موجود هئا جڏهن ته هيليڪاپٽر به فضائي نگهباني ڪندي ڏٺا ويا.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:ٿي
 1	حيرانگي	_	NOUN	_	_	5	nsubj	_	_
 2	ته	_	SCONJ	_	_	1	dep	_	_
-3	اها	_	DET	_	_	5	det	_	_
+3	اها	_	DET	_	_	5	nsubj	_	_
 4	به	_	ADP	_	_	3	det	_	_
 5	ٿي	_	VERB	_	_	0	root	_	_
 6	جو	_	ADP	_	_	5	mark	_	_
@@ -1563,9 +1486,8 @@
 32	ويا	_	VERB	_	_	31	compound	_	SpaceAfter=No
 33	.	_	PUNCT	_	_	31	punct	_	_
 
-# sent_id = 4711
+# sent_id = 70
 # text = ڪراچي ۾ پهرين ئي ڏينهن کان ڪيترن ئي دهشتگرن کي پڪڙيو ويوهو جيڪي ڪنهن وڏي تباهي ڪرڻ جي رٿا ۾ هئا، پر سنڌ پوليس کي مليل ڳجهي اطلاعن مطابق ڇاپا هڻي ڪنهن اڻ وڻندڙ واقعي کان اڳ ۾ دهشتگردن کي اسلحي ۽ ڌماڪي دار مادي سميت گرفتار ڪري ورتو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 11:پڪڙيو
 1	ڪراچي	_	PROPN	_	_	11	obl	_	_
 2	۾	_	ADP	_	_	1	case	_	_
 3	پهرين	_	ADJ	_	_	5	amod	_	_
@@ -1618,9 +1540,8 @@
 50	ورتو	_	VERB	_	_	49	compound	_	SpaceAfter=No
 51	،	_	PUNCT	_	_	49	punct	_	_
 
-# sent_id = 4762
+# sent_id = 71
 # text = انهن جو دهشتگردي لٽ مار خودڪش حملن سان ڀري جو به واسطو نه رهيو آهي پر سنڌ جي دل ڪراچيءَ ۾ هيءُ جيڪو حملو ٿئي ٿو اهو ضروري ناهي ته خودڪش حملو ئي هجي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 14:رهيو
 1	انهن	_	DET	_	_	3	nmod	_	_
 2	جو	_	ADP	_	_	1	det	_	_
 3	دهشتگردي	_	NOUN	_	_	4	nmod	_	_
@@ -1642,7 +1563,7 @@
 19	دل	_	NOUN	_	_	20	nmod	_	_
 20	ڪراچيءَ	_	PROPN	_	_	25	obl	_	_
 21	۾	_	ADP	_	_	20	case	_	_
-22	هيءُ	_	DET	_	_	24	det	_	_
+22	هيءُ	_	DET	_	_	24	nmod	_	_
 23	جيڪو	_	DET	_	_	24	det	_	_
 24	حملو	_	NOUN	_	_	25	nsubj	_	_
 25	ٿئي	_	VERB	_	_	28	advcl	_	_
@@ -1657,9 +1578,8 @@
 34	هجي	_	VERB	_	_	14	advcl	_	SpaceAfter=No
 35	،	_	PUNCT	_	_	34	punct	_	_
 
-# sent_id = 4808
+# sent_id = 72
 # text = هوڏانهن ڊي جي آءِ ايس پي آر ميجر جنرل اطهر عباس چيو آهي ته ڏکڻ وزيرستان ۾ آپريشن ڪنهن به قبيلي خلاف نه پر دهشتگردن خلاف ٿي رهيو آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:چيو
 1	هوڏانهن	_	ADV	_	_	12	advmod	_	_
 2	ڊي	_	NOUN	_	_	3	nmod	_	_
 3	جي	_	NOUN	_	_	5	nmod	_	_
@@ -1691,10 +1611,8 @@
 29	آهي	_	AUX	_	_	27	aux	_	SpaceAfter=No
 30	،	_	PUNCT	_	_	27	punct	_	_
 
-# sent_id = 4815
+# sent_id = 73
 # text = فوج ڪنهن به فرد يا دهشتگرد سان ڪو به معاهدو ناهي ڪيو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:ڪيو
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:ڪيو
 1	فوج	_	NOUN	_	_	12	nsubj	_	_
 2	ڪنهن	_	PRON	_	_	4	det	_	_
 3	به	_	PART	_	_	2	det	_	_
@@ -1702,17 +1620,15 @@
 5	يا	_	CCONJ	_	_	6	cc	_	_
 6	دهشتگرد	_	NOUN	_	_	4	conj	_	_
 7	سان	_	ADP	_	_	4	case	_	_
-8	ڪو	_	DET	_	_	10	det	_	_
+8	ڪو	_	DET	_	_	10	nmod	_	_
 9	به	_	PART	_	_	8	dep	_	_
 10	معاهدو	_	NOUN	_	_	12	compound	_	_
 11	ناهي	_	AUX	_	_	12	aux	_	_
 12	ڪيو	_	VERB	_	_	0	root	_	SpaceAfter=No
 13	،	_	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 4828
+# sent_id = 74
 # text = اسلام آباد (بيورو رپورٽ) سرحد کي خالص بجلي منافعي جي مد ۾ 110 ارب ڏيڻ جو اعلان،پهرين قسط جلد جاري ٿيندي:وزيراعظم پشاور(بيورو رپورٽ) وزيراعظم سيد يوسف رضا گيلاني چيو آهي ته دهشتگردن جو ڪو به نظريو، دين ۽ مذهب نه آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 19:اعلان
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 19:اعلان
 1	اسلام	_	PROPN	_	_	2	compound	_	_
 2	آباد	_	NOUN	_	_	11	nmod	_	_
 3	(	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -1766,9 +1682,8 @@
 51	آهي	_	AUX	_	_	38	ccomp	_	SpaceAfter=No
 52	،	_	PUNCT	_	_	51	punct	_	_
 
-# sent_id = 4858
+# sent_id = 75
 # text = وزيراعظم چيو ته ڪشمير مسئلي جي حل کانسواءِ خطي ۾ ڇڪتاڻ برقرار رهندي، هن چيو ته اسان جي جذبي تي ڪير به شڪ نه ٿو ڪري سگهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 2:چيو
 1	وزيراعظم	_	NOUN	_	_	2	nsubj	_	_
 2	چيو	_	VERB	_	_	0	root	_	_
 3	ته	_	SCONJ	_	_	13	mark	_	_
@@ -1799,30 +1714,28 @@
 28	سگهي	_	AUX	_	_	27	aux	_	SpaceAfter=No
 29	،	_	PUNCT	_	_	27	punct	_	_
 
-# sent_id = 4861
+# sent_id = 76
 # text = اهو جيڪو فيصلو ڪندو اهو بهتر هوندو، وزيراعظم چيو ته هليري ڪلنٽن هتي وزٽ ڪيو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:هوندو
-1	اهو	_	DET	_	_	4	det	_	_
+1	اهو	_	DET	_	_	4	nsubj	_	_
 2	جيڪو	_	PRON	_	_	3	det	_	_
 3	فيصلو	_	NOUN	_	_	4	obj	_	_
 4	ڪندو	_	VERB	_	_	7	advcl	_	_
-5	اهو	_	DET	_	_	7	det	_	_
+5	اهو	_	DET	_	_	7	nsubj	_	_
 6	بهتر	_	ADJ	_	_	7	xcomp	_	_
 7	هوندو	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	،	_	PUNCT	_	_	7	punct	_	_
 9	وزيراعظم	_	NOUN	_	_	10	nsubj	_	_
 10	چيو	_	VERB	_	_	7	conj	_	_
 11	ته	_	SCONJ	_	_	16	mark	_	_
-12	هليري	_	NOUN	_	_	13	compound	_	_
-13	ڪلنٽن	_	NOUN	_	_	16	nsubj	_	_
+12	هليري	_	PROPN	_	_	13	compound	_	_
+13	ڪلنٽن	_	PROPN	_	_	16	nsubj	_	_
 14	هتي	_	ADV	_	_	16	advmod	_	_
 15	وزٽ	_	NOUN	_	_	16	xcomp	_	_
 16	ڪيو	_	VERB	_	_	10	obj	_	SpaceAfter=No
 17	،	_	PUNCT	_	_	16	punct	_	_
 
-# sent_id = 4875
+# sent_id = 77
 # text = ان سان اسان جي حڪومت سان لاڳاپن ۾ به انتشار پيدا ٿيڻ جو خدشو آهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 14:خدشو
 1	ان	_	DET	_	_	12	obl	_	_
 2	سان	_	ADP	_	_	1	case	_	_
 3	اسان	_	PRON	_	_	5	nmod	_	_
@@ -1840,9 +1753,8 @@
 15	آهي	_	AUX	_	_	14	cop	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	14	punct	_	_
 
-# sent_id = 4904
+# sent_id = 78
 # text = سنڌ ۾ پرڏيهين کي مسواڙ يا ليز تي پلاٽ،گهر ۽ فليٽ ڏيڻ تي پابندي لاڳو ڪراچي (بيورو رپورٽ) سنڌ جي گهرو کاتي پوليس کي اطلاع ڏيڻ بنا سڄي سنڌ ۾ غير ملڪين کي مسواڙ يا ليز تي رهائشي مقصد لاءِ گهر، بنگلو، فليٽ يا اپارٽمينٽ ڏيڻ تي قلم 144 تحت 90 ڏينهن لاءِ پابندي لاڳو ڪندي سڄي سنڌ جي اسٽيٽ ايجنٽن ۽ پراپرٽي ڊيلرز کي پابند ڪيو آهي ته گهرو کاتي جي اجازت بنا ۽ لاڳاپيل ٿاڻي کي ڄاڻ ڏيڻ کان بنا ڪو پلاٽ، رهائشي گهر، بنگلو، فليٽ يا اپارٽمينٽ ڪنهن به غير ملڪي شهريت رکندڙ شخص کي مسواڙ يا ليز تي نه ڏيندا ۽ نه ئي وڪرو ڪندا،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 73:ڪيو
 1	سنڌ	_	PROPN	_	_	17	obl	_	_
 2	۾	_	ADP	_	_	1	case	_	_
 3	پرڏيهين	_	PROPN	_	_	5	nmod	_	_
@@ -1931,7 +1843,7 @@
 86	ڏيڻ	_	VERB	_	_	73	advcl	_	_
 87	کان	_	ADP	_	_	86	mark	_	_
 88	بنا	_	ADJ	_	_	86	advmod	_	_
-89	ڪو	_	DET	_	_	90	det	_	_
+89	ڪو	_	DET	_	_	90	nmod	_	_
 90	پلاٽ	_	NOUN	_	_	105	obl	_	SpaceAfter=No
 91	،	_	PUNCT	_	_	93	punct	_	_
 92	رهائشي	_	ADJ	_	_	93	amod	_	_
@@ -1963,9 +1875,8 @@
 118	ڪندا	_	VERB	_	_	113	conj	_	SpaceAfter=No
 119	،	_	PUNCT	_	_	118	punct	_	_
 
-# sent_id = 4980
+# sent_id = 79
 # text = ترجمان قومي اسيمبلي جي ميمبرن، سينيٽرن، صوبائي اسيمبلي جي ميمبرن ۽ پارٽي جي عهديدارن کي درخواست ڪئي آهي ته هو وزير اعليٰ سان ملاقات جي سلسلي ۾ وزير اعليٰ سنڌ جي ايڊيشنل سيڪريٽري اسٽاف سان ملاقات جي سلسلي ۾ پهريان رابطو ڪن ته جيئن انهن کي ڪنهن به قسم جي ڏکيائي پيش نه اچي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 19:ڪئي
 1	ترجمان	_	NOUN	_	_	19	nsubj	_	_
 2	قومي	_	ADJ	_	_	3	amod	_	_
 3	اسيمبلي	_	NOUN	_	_	5	nmod	_	_
@@ -2014,7 +1925,7 @@
 46	جيئن	_	ADV	_	_	56	advmod	_	_
 47	انهن	_	PRON	_	_	56	iobj	_	_
 48	کي	_	ADP	_	_	47	case	_	_
-49	ڪنهن	_	DET	_	_	51	det	_	_
+49	ڪنهن	_	DET	_	_	51	nmod	_	_
 50	به	_	ADP	_	_	49	det	_	_
 51	قسم	_	NOUN	_	_	53	nmod	_	_
 52	جي	_	ADP	_	_	51	case	_	_
@@ -2024,9 +1935,8 @@
 56	اچي	_	VERB	_	_	44	advcl	_	SpaceAfter=No
 57	.	_	PUNCT	_	_	56	punct	_	_
 
-# sent_id = 5006
+# sent_id = 80
 # text = اسان ان خلاف ووٽ ڏينداسين، اسان جي گروپ جي رياض فتيانه پاران اين آر او خلاف ووٽ نه ڏيڻ تي ان کان پڇاڻو ڪيو ويندو ۽ کيس شوڪاز نوٽيس جاري ڪرڻ لاءِ به سوچي رهيا آهيون،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:ڏينداسين
 1	اسان	_	PRON	_	_	5	nsubj	_	_
 2	ان	_	DET	_	_	5	obl	_	_
 3	خلاف	_	ADP	_	_	2	case	_	_
@@ -2066,10 +1976,9 @@
 37	آهيون	_	AUX	_	_	35	aux	_	SpaceAfter=No
 38	،	_	PUNCT	_	_	35	punct	_	_
 
-# sent_id = 5108
+# sent_id = 81
 # text = هن چيو ته اسان جي زمين تي لاشارين قبضو ڪيو هو جيڪو اسان پوليس ذريعي خالي ڪرايو، واضح رهي ته انهي تڪرار ۾ ڪجهه وقت اڳ ۾ حاڪم جوڻيجو قتل ٿيو هو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 2:چيو
-1	هن	_	DET	_	_	2	nsubj	_	_
+1	هن	_	PRON	_	_	2	nsubj	_	_
 2	چيو	_	VERB	_	_	0	root	_	_
 3	ته	_	SCONJ	_	_	10	mark	_	_
 4	اسان	_	PRON	_	_	6	nmod	_	_
@@ -2080,7 +1989,7 @@
 9	قبضو	_	NOUN	_	_	10	xcomp	_	_
 10	ڪيو	_	VERB	_	_	2	obj	_	_
 11	هو	_	AUX	_	_	10	aux	_	_
-12	جيڪو	_	DET	_	_	17	det	_	_
+12	جيڪو	_	DET	_	_	17	nsubj	_	_
 13	اسان	_	PRON	_	_	17	nsubj	_	_
 14	پوليس	_	NOUN	_	_	17	obl	_	_
 15	ذريعي	_	ADP	_	_	14	case	_	_
@@ -2104,9 +2013,8 @@
 33	هو	_	AUX	_	_	32	aux	_	SpaceAfter=No
 34	.	_	PUNCT	_	_	32	punct	_	_
 
-# sent_id = 5117
+# sent_id = 82
 # text = جيل جي سپرنٽينڊنٽ قمر رضا شاهه ڪاوش پاران رابطي ڪرڻ تي ٻڌايو ته ڪجهه شرپسند قيدين محرم ملاح، ستار ڪيريو، گل محمد ملاح ۽ ٻين موبائيل فون، چرس ۽ نشي آور شين رکڻ جي اجازت گھري، ھن چيو ته اسان اھڙي ڪا به اجازت نه ٿا ڏيون،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:ٻڌايو
 1	جيل	_	NOUN	_	_	3	nmod	_	_
 2	جي	_	ADP	_	_	1	case	_	_
 3	سپرنٽينڊنٽ	_	NOUN	_	_	6	nmod	_	_
@@ -2152,7 +2060,7 @@
 43	ته	_	SCONJ	_	_	50	mark	_	_
 44	اسان	_	PRON	_	_	50	nsubj	_	_
 45	اھڙي	_	ADJ	_	_	48	amod	_	_
-46	ڪا	_	DET	_	_	48	det	_	_
+46	ڪا	_	DET	_	_	48	nmod	_	_
 47	به	_	ADP	_	_	46	det	_	_
 48	اجازت	_	NOUN	_	_	50	compound	_	_
 49	نه	_	PART	_	_	50	dep	_	_
@@ -2160,9 +2068,8 @@
 51	ڏيون	_	VERB	_	_	50	compound	_	SpaceAfter=No
 52	،	_	PUNCT	_	_	50	punct	_	_
 
-# sent_id = 5200
+# sent_id = 83
 # text = هن ٻڌايو ته 8 سال اڳ سندس والدين هن جي شادي ميرپور ماٿيلو جي گل ڪالوني جي رهواسي غلام سرور سومرو سان ڪرائي جنهن مان مونکي هڪ نياڻي ڪوثر ۽ پٽ عبدالغفارآهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 2:ٻڌايو
 1	هن	_	DET	_	_	2	nsubj	_	_
 2	ٻڌايو	_	VERB	_	_	0	root	_	_
 3	ته	_	SCONJ	_	_	23	mark	_	_
@@ -2197,14 +2104,13 @@
 32	عبدالغفارآهي	_	PROPN	_	_	23	advcl	_	SpaceAfter=No
 33	،	_	PUNCT	_	_	32	punct	_	_
 
-# sent_id = 5314
+# sent_id = 84
 # text = اڄ امتحاني مرڪزن ۾ ڪنهن به غير واسطيدار ماڻهو کي نه ڇڏيو ويندو ۽ سيڪيورٽي لاءِ واڪ ٿرو گيٽ لڳايا ويندا،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:ڇڏيو
 1	اڄ	_	ADV	_	_	12	advmod	_	_
 2	امتحاني	_	ADJ	_	_	3	amod	_	_
 3	مرڪزن	_	NOUN	_	_	12	obl	_	_
 4	۾	_	ADP	_	_	3	case	_	_
-5	ڪنهن	_	DET	_	_	9	det	_	_
+5	ڪنهن	_	DET	_	_	9	nmod	_	_
 6	به	_	PART	_	_	5	det	_	_
 7	غير	_	NOUN	_	_	9	nmod	_	_
 8	واسطيدار	_	ADJ	_	_	9	amod	_	_
@@ -2223,9 +2129,8 @@
 21	ويندا	_	VERB	_	_	20	compound	_	SpaceAfter=No
 22	،	_	PUNCT	_	_	20	punct	_	_
 
-# sent_id = 5329
+# sent_id = 85
 # text = ان کان اڳ بشير خان قريشي حضرت قلندر لعل شهباز جي درگاهه تي حاضري ڀري چادر چاڙهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 17:چاڙهي
 1	ان	_	DET	_	_	3	nmod	_	_
 2	کان	_	ADP	_	_	1	det	_	_
 3	اڳ	_	NOUN	_	_	17	obl	_	_
@@ -2245,10 +2150,8 @@
 17	چاڙهي	_	VERB	_	_	0	root	_	SpaceAfter=No
 18	.	_	PUNCT	_	_	17	punct	_	_
 
-# sent_id = 5368
+# sent_id = 86
 # text = جنهن ۾ صدر جي غير مقبوليت جي مهر آخر لڳڻي هئي ۽ ڪيري لوگر بل پويان مخالفت واري مهم کي ته پاڻ ڪنهن به صورت ۾ پاڻمرادو اٿي پيل مخالفت چوڻ جي غلطي نٿا ڪريون.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:لڳڻي
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:لڳڻي
 1	جنهن	_	PRON	_	_	10	obl	_	_
 2	۾	_	ADP	_	_	1	case	_	_
 3	صدر	_	NOUN	_	_	6	nmod	_	_
@@ -2271,7 +2174,7 @@
 20	کي	_	ADP	_	_	19	case	_	_
 21	ته	_	SCONJ	_	_	19	dep	_	_
 22	پاڻ	_	PRON	_	_	28	nsubj	_	_
-23	ڪنهن	_	PRON	_	_	25	det	_	_
+23	ڪنهن	_	PRON	_	_	25	nmod	_	_
 24	به	_	ADP	_	_	23	det	_	_
 25	صورت	_	NOUN	_	_	28	obl	_	_
 26	۾	_	ADP	_	_	25	case	_	_
@@ -2286,16 +2189,15 @@
 35	ڪريون	_	VERB	_	_	10	conj	_	SpaceAfter=No
 36	.	_	PUNCT	_	_	35	punct	_	_
 
-# sent_id = 5375
+# sent_id = 87
 # text = جتي لاقانونيت جي واڳ به دراصل انهن ئي ڀوتارن جي هٿ ۾ آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 11:هٿ
 1	جتي	_	ADV	_	_	11	advmod	_	_
 2	لاقانونيت	_	NOUN	_	_	4	nmod	_	_
 3	جي	_	ADP	_	_	2	case	_	_
 4	واڳ	_	NOUN	_	_	11	nsubj	_	_
 5	به	_	ADP	_	_	4	case	_	_
 6	دراصل	_	ADV	_	_	11	advmod	_	_
-7	انهن	_	DET	_	_	9	det	_	_
+7	انهن	_	DET	_	_	9	nmod	_	_
 8	ئي	_	ADP	_	_	7	det	_	_
 9	ڀوتارن	_	NOUN	_	_	11	nmod	_	_
 10	جي	_	ADP	_	_	9	case	_	_
@@ -2304,9 +2206,8 @@
 13	آهي	_	AUX	_	_	11	cop	_	SpaceAfter=No
 14	،	_	PUNCT	_	_	11	punct	_	_
 
-# sent_id = 5396
+# sent_id = 88
 # text = سنڌ ۾ ڇوڪرين جي تعليم جي سراسري رپورٽ پيش ڪجي ته شايد اها پڻ حيران ڪندڙ حد تائين افسوسناڪ هجي ٿي ته سنڌ ۾ ڇوڪرين جي تعليم جي حوالي سان نه اسڪول آهن،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:ڪجي
 1	سنڌ	_	PROPN	_	_	10	obl	_	_
 2	۾	_	ADP	_	_	1	case	_	_
 3	ڇوڪرين	_	NOUN	_	_	5	nmod	_	_
@@ -2342,9 +2243,8 @@
 33	آهن	_	AUX	_	_	32	cop	_	SpaceAfter=No
 34	،	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 5419
+# sent_id = 89
 # text = پر گڏوگڏ اهي به ڇو عزتدار سڏائجن، جن صلاحيو ۽ روڪيو ته پوليس ۾ ڪيس نه درج ٿئي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:سڏائجن
 1	پر	_	SCONJ	_	_	7	mark	_	_
 2	گڏوگڏ	_	ADV	_	_	7	advmod	_	_
 3	اهي	_	DET	_	_	7	nsubj	_	_
@@ -2366,9 +2266,8 @@
 19	ٿئي	_	VERB	_	_	12	obj	_	SpaceAfter=No
 20	.	_	PUNCT	_	_	19	punct	_	_
 
-# sent_id = 5438
+# sent_id = 90
 # text = نه پنهنجي وومين منسٽري ۽ نه ئي ڪنهن ٻي سرڪاري ڌر مدد ڪئي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 13:ڪئي
 1	نه	_	PART	_	_	13	dep	_	_
 2	پنهنجي	_	PRON	_	_	4	nmod	_	_
 3	وومين	_	NOUN	_	_	4	nmod	_	_
@@ -2384,11 +2283,10 @@
 13	ڪئي	_	VERB	_	_	0	root	_	SpaceAfter=No
 14	.	_	PUNCT	_	_	13	punct	_	_
 
-# sent_id = 5497
+# sent_id = 91
 # text = انهن ۾ مرڪن جا گلاب ڪٿان ٽڙندا عبدالواحد، دعا ڪر، بلڪه سڀ دعا ٿا ڪيون ته وري ڪي موسمون موٽن ۽ خريدارن جي فهرست ۾ اسان به اچي سگهون.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 11:ڪر
 1	انهن	_	PRON	_	_	7	obl	_	_
-2	۾	_	ADP	_	_	1	case	_	_
+2	۾	_	ADP	_	_	1	det	_	_
 3	مرڪن	_	NOUN	_	_	5	nmod	_	_
 4	جا	_	ADP	_	_	3	case	_	_
 5	گلاب	_	NOUN	_	_	7	nsubj	_	_
@@ -2420,9 +2318,8 @@
 31	سگهون	_	AUX	_	_	30	aux	_	SpaceAfter=No
 32	.	_	PUNCT	_	_	30	punct	_	_
 
-# sent_id = 5502
+# sent_id = 92
 # text = هن اديءَ به اهڙو ڪجهه ئي محسوس ڪيو هوندو، جيڪي ڪجهه هن لکيو آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 8:ڪيو
 1	هن	_	PRON	_	_	2	nmod	_	_
 2	اديءَ	_	NOUN	_	_	8	nsubj	_	_
 3	به	_	ADP	_	_	2	case	_	_
@@ -2440,9 +2337,8 @@
 15	آهي	_	AUX	_	_	14	aux	_	SpaceAfter=No
 16	،	_	PUNCT	_	_	14	punct	_	_
 
-# sent_id = 5506
+# sent_id = 93
 # text = پر خواب نگر اهو ئي ”اڇو، اجرو“ ۽ گلابي گلابي آهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 13:گلابي
 1	پر	_	SCONJ	_	_	13	mark	_	_
 2	خواب	_	NOUN	_	_	3	nmod	_	_
 3	نگر	_	NOUN	_	_	13	nsubj	_	_
@@ -2459,9 +2355,8 @@
 14	آهي	_	AUX	_	_	13	cop	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	13	punct	_	_
 
-# sent_id = 5579
+# sent_id = 94
 # text = يونيورسٽين مان فائينل ڪرڻ کان پوءِ اسان جي استاد قبيلي جي اڪثريت ٻه شيون هميشه هميشه لاءِ اتي ئي ڇڏي ڪاليجن ۽ اسڪولن جو رخ ڪندي آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 26:ڪندي
 1	يونيورسٽين	_	NOUN	_	_	4	obl	_	_
 2	مان	_	ADP	_	_	1	case	_	_
 3	فائينل	_	NOUN	_	_	4	compound	_	_
@@ -2491,9 +2386,8 @@
 27	آهي	_	AUX	_	_	26	aux	_	SpaceAfter=No
 28	،	_	PUNCT	_	_	26	punct	_	_
 
-# sent_id = 5634
+# sent_id = 95
 # text = انهن جو ٽائيم خراب نه ڪريو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 6:ڪريو
 1	انهن	_	DET	_	_	3	nmod	_	_
 2	جو	_	ADP	_	_	1	det	_	_
 3	ٽائيم	_	NOUN	_	_	6	obj	_	_
@@ -2502,9 +2396,8 @@
 6	ڪريو	_	VERB	_	_	0	root	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 5692
+# sent_id = 96
 # text = ان جي ڪٿ ڇو نٿي ڪئي وڃي؟ حڪومتي بيوسي خود زرعي تباهيءَ جو سبب بڻجي رهي آهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 6:ڪئي
 1	ان	_	DET	_	_	3	nmod	_	_
 2	جي	_	ADP	_	_	1	det	_	_
 3	ڪٿ	_	NOUN	_	_	6	nsubj	_	_
@@ -2525,13 +2418,12 @@
 18	آهي	_	AUX	_	_	16	aux	_	SpaceAfter=No
 19	.	_	PUNCT	_	_	16	punct	_	_
 
-# sent_id = 5709
+# sent_id = 97
 # text = پر ان لاءِ ڪنهن به ڪاموري، وس واري اک به نه پٽي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 13:پٽي
 1	پر	_	SCONJ	_	_	13	mark	_	_
 2	ان	_	DET	_	_	13	obl	_	_
 3	لاءِ	_	ADP	_	_	2	case	_	_
-4	ڪنهن	_	DET	_	_	6	det	_	_
+4	ڪنهن	_	DET	_	_	6	nmod	_	_
 5	به	_	ADP	_	_	4	det	_	_
 6	ڪاموري	_	NOUN	_	_	13	nsubj	_	SpaceAfter=No
 7	،	_	PUNCT	_	_	8	punct	_	_
@@ -2543,9 +2435,8 @@
 13	پٽي	_	VERB	_	_	0	root	_	SpaceAfter=No
 14	.	_	PUNCT	_	_	13	punct	_	_
 
-# sent_id = 5739
+# sent_id = 98
 # text = جهڙو اسان جا سنڌي هنڌو ڀائر ورهاڱي کان جاري رکيو اچن.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:رکيو
 1	جهڙو	_	ADV	_	_	10	advmod	_	_
 2	اسان	_	PRON	_	_	4	nmod	_	_
 3	جا	_	ADP	_	_	2	det	_	_
@@ -2559,10 +2450,8 @@
 11	اچن	_	VERB	_	_	10	compound	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 5751
+# sent_id = 99
 # text = جو ماضيءَ ۾ لاڙڪاڻو نوابشاهه روٽ تي ڪا به سروس نه هلائي ويندي هئي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:هلائي
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:هلائي
 1	جو	_	ADP	_	_	12	mark	_	_
 2	ماضيءَ	_	NOUN	_	_	12	obl	_	_
 3	۾	_	ADP	_	_	2	case	_	_
@@ -2579,9 +2468,8 @@
 14	هئي	_	AUX	_	_	12	aux	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 5765
+# sent_id = 100
 # text = مطلب ته استاد انهن جي اندر اخلاقيات کي پروان چڙهائيندو آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:چڙهائيندو
 1	مطلب	_	NOUN	_	_	10	obl	_	_
 2	ته	_	SCONJ	_	_	10	mark	_	_
 3	استاد	_	NOUN	_	_	10	nsubj	_	_
@@ -2595,9 +2483,8 @@
 11	آهي	_	AUX	_	_	10	aux	_	SpaceAfter=No
 12	،	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 5797
+# sent_id = 101
 # text = سهراب فقير راڳ کي ايڏي ته گهرائي ۽ سچائي سان ڳائيندو هو جو دوران راڳ ڪا به چرپر برداشت نه ڪندو هو ۽ چوندو هو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 11:ڳائيندو
 1	سهراب	_	PROPN	_	_	2	nmod	_	_
 2	فقير	_	PROPN	_	_	11	nsubj	_	_
 3	راڳ	_	NOUN	_	_	11	obj	_	_
@@ -2613,7 +2500,7 @@
 13	جو	_	ADP	_	_	11	mark	_	_
 14	دوران	_	ADV	_	_	21	advmod	_	_
 15	راڳ	_	NOUN	_	_	21	nsubj	_	_
-16	ڪا	_	DET	_	_	18	det	_	_
+16	ڪا	_	DET	_	_	18	nmod	_	_
 17	به	_	ADP	_	_	16	det	_	_
 18	چرپر	_	NOUN	_	_	21	obj	_	_
 19	برداشت	_	NOUN	_	_	21	xcomp	_	_
@@ -2625,17 +2512,16 @@
 25	هو	_	AUX	_	_	24	aux	_	SpaceAfter=No
 26	،	_	PUNCT	_	_	24	punct	_	_
 
-# sent_id = 5812
+# sent_id = 102
 # text = پر ماتلي ۾ پوليس اهڙين هدايتن مطابق ڪا به چرپر نه ڪئي آهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:ڪئي
 1	پر	_	SCONJ	_	_	12	mark	_	_
-2	ماتلي	_	NOUN	_	_	12	obl	_	_
+2	ماتلي	_	PROPN	_	_	12	obl	_	_
 3	۾	_	ADP	_	_	2	case	_	_
 4	پوليس	_	NOUN	_	_	12	nsubj	_	_
-5	اهڙين	_	DET	_	_	6	det	_	_
+5	اهڙين	_	DET	_	_	6	nmod	_	_
 6	هدايتن	_	NOUN	_	_	12	obl	_	_
 7	مطابق	_	ADP	_	_	6	case	_	_
-8	ڪا	_	DET	_	_	10	det	_	_
+8	ڪا	_	DET	_	_	10	nmod	_	_
 9	به	_	PART	_	_	8	det	_	_
 10	چرپر	_	NOUN	_	_	12	obj	_	_
 11	نه	_	PART	_	_	12	dep	_	_
@@ -2643,9 +2529,8 @@
 13	آهي	_	AUX	_	_	12	aux	_	SpaceAfter=No
 14	.	_	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 5816
+# sent_id = 103
 # text = احمد شهزاد 9 بالن تي 31 رنسون ٺاهيون، جڏهن ته فيصل اقبال 26 رنسون ٺاهيون، ان کان پهرين کيڏيل ميچن ۾ پاڪستان کي سريلنڪا ۽ انگلينڊ شڪست ڏئي ڇڏي هئي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 8:ٺاهيون
 1	احمد	_	PROPN	_	_	2	compound	_	_
 2	شهزاد	_	PROPN	_	_	8	nsubj	_	_
 3	9	_	NUM	_	_	4	nummod	_	_
@@ -2680,14 +2565,12 @@
 32	هئي	_	AUX	_	_	30	aux	_	SpaceAfter=No
 33	.	_	PUNCT	_	_	30	punct	_	_
 
-# sent_id = 5821
+# sent_id = 104
 # text = ياد رهي ته گذريل سال قطرينا ڪيف جي سالگرهه پارٽي ۾ شاهه رخ خان ۽ سلمان خان وچ ۾ پيدا ٿيل تڪرار کانپوءِ ميڊيا شاهه رخ خان ۽ قطرينا ڪيف جي ڪنهن به موقعي تي هڪٻئي سان ملڻ تي شاهه رخ خان ۽ سلمان خان واري اشو کي اٿاريندي رهي آهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 2:رهي
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 2:رهي
 1	ياد	_	VERB	_	_	2	compound	_	_
 2	رهي	_	VERB	_	_	0	root	_	_
 3	ته	_	SCONJ	_	_	49	mark	_	_
-4	گذريل	_	VERB	_	_	5	amod	_	_
+4	گذريل	_	VERB	_	_	5	nmod	_	_
 5	سال	_	NOUN	_	_	7	nmod	_	_
 6	قطرينا	_	PROPN	_	_	7	compound	_	_
 7	ڪيف	_	NOUN	_	_	9	nmod	_	_
@@ -2737,15 +2620,14 @@
 51	آهي	_	AUX	_	_	49	aux	_	SpaceAfter=No
 52	.	_	PUNCT	_	_	49	punct	_	_
 
-# sent_id = 5828
+# sent_id = 105
 # text = هڪ سيگمينٽ ”سيليبرٽي آف دي ويڪ“ جنهن ۾ ڪنهن به هڪ شخص سان ڳالهه ٻولهه ڪئي ويندي آهي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 18:ڪئي
 1	هڪ	_	NUM	_	_	2	nummod	_	_
 2	سيگمينٽ	_	NOUN	_	_	18	nsubj	_	_
 3	”	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	سيليبرٽي	_	PROPN	_	_	7	nmod	_	_
 5	آف	_	ADP	_	_	4	case	_	_
-6	دي	_	NUM	_	_	7	nummod	_	_
+6	دي	_	PART	_	_	7	nummod	_	_
 7	ويڪ	_	NOUN	_	_	18	obl	_	SpaceAfter=No
 8	“	_	PUNCT	_	_	7	punct	_	_
 9	جنهن	_	PRON	_	_	18	obl	_	_
@@ -2762,9 +2644,8 @@
 20	آهي	_	AUX	_	_	18	aux	_	SpaceAfter=No
 21	.	_	PUNCT	_	_	18	punct	_	_
 
-# sent_id = 5833
+# sent_id = 106
 # text = ان کانسواءِ ڏسندڙ فون ڪري ڪنهن به گيت جي هن پروگرام ۾ فرمائش ڪري سگهن ٿا.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 14:ڪري
 1	ان	_	DET	_	_	5	obl	_	_
 2	کانسواءِ	_	ADP	_	_	1	case	_	_
 3	ڏسندڙ	_	VERB	_	_	5	xcomp	_	_
@@ -2783,9 +2664,8 @@
 16	ٿا	_	AUX	_	_	14	aux	_	SpaceAfter=No
 17	.	_	PUNCT	_	_	14	punct	_	_
 
-# sent_id = 5863
+# sent_id = 107
 # text = ٿر ۾ وسڪاري دوران توڙي عام طور ٿر ۾ ايندڙ سياح مارئي جو کوهه ڏسڻ لاءِ ايندا رهن ٿا پر اتي سرڪاري طور ڪا به سهولت مهيا نه ڪئي وئي آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 17:ايندا
 1	ٿر	_	PROPN	_	_	10	obl	_	_
 2	۾	_	ADP	_	_	1	case	_	_
 3	وسڪاري	_	NOUN	_	_	10	obl	_	_
@@ -2809,7 +2689,7 @@
 21	اتي	_	ADV	_	_	29	advmod	_	_
 22	سرڪاري	_	ADJ	_	_	23	amod	_	_
 23	طور	_	NOUN	_	_	29	obl	_	_
-24	ڪا	_	DET	_	_	26	det	_	_
+24	ڪا	_	DET	_	_	26	nmod	_	_
 25	به	_	PART	_	_	24	det	_	_
 26	سهولت	_	NOUN	_	_	29	obj	_	_
 27	مهيا	_	NOUN	_	_	29	compound	_	_
@@ -2819,9 +2699,8 @@
 31	آهي	_	AUX	_	_	29	aux	_	SpaceAfter=No
 32	،	_	PUNCT	_	_	29	punct	_	_
 
-# sent_id = 5318
+# sent_id = 108
 # text = جڏهن ته جاچ آفيسر اسماعيل جت ٻڌايو ته اسان جي جاچ ۾ ٻنهي جوابدارن خلاف شاهديون مليون آهن،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:ٻڌايو
 1	جڏهن	_	ADV	_	_	7	advmod	_	_
 2	ته	_	SCONJ	_	_	7	mark	_	_
 3	جاچ	_	NOUN	_	_	4	nmod	_	_
@@ -2842,9 +2721,8 @@
 18	آهن	_	AUX	_	_	17	aux	_	SpaceAfter=No
 19	،	_	PUNCT	_	_	17	punct	_	_
 
-# sent_id = 1077
+# sent_id = 109
 # text = راڳ کان پوءِ سڀ شينهن گڏجي گدڙ وٽ آيا ۽ کيس عرض ڪيائون ته اسان جي ريت آهي ته شاديءَ ۾ جي به مهمان ايندا آهن ،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:آيا
 1	راڳ	_	NOUN	_	_	9	obl	_	_
 2	کان	_	ADP	_	_	1	case	_	_
 3	پوءِ	_	ADP	_	_	1	case	_	_
@@ -2873,9 +2751,8 @@
 26	آهن	_	AUX	_	_	25	aux	_	_
 27	،	_	PUNCT	_	_	25	punct	_	_
 
-# sent_id = 310
+# sent_id = 110
 # text = پهريدارن ڦاهيءَ جو ڦندو هن جي ڳچيءَ ۾ وڌو ۽ جلاد رسيءَ کي وٺي زور سان ڇڪيو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:وڌو
 1	پهريدارن	_	NOUN	_	_	9	nsubj	_	_
 2	ڦاهيءَ	_	NOUN	_	_	4	nmod	_	_
 3	جو	_	ADP	_	_	2	case	_	_
@@ -2895,10 +2772,9 @@
 17	ڇڪيو	_	VERB	_	_	9	conj	_	SpaceAfter=No
 18	.	_	PUNCT	_	_	17	punct	_	_
 
-# sent_id = 439
+# sent_id = 111
 # text = اها اُس ۾ سـُڪي هن جي جسم تي ڄمي ويندي هئي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:ڄمي
-1	اها	_	DET	_	_	2	det	_	_
+1	اها	_	DET	_	_	2	nmod	_	_
 2	اُس	_	NOUN	_	_	9	obl	_	_
 3	۾	_	ADP	_	_	2	case	_	_
 4	سـُڪي	_	ADJ	_	_	9	nsubj	_	_
@@ -2911,9 +2787,8 @@
 11	هئي	_	AUX	_	_	9	aux	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 441
+# sent_id = 112
 # text = جنهنڪري هن جي بدن تي گپ جو تهه ٿلهو ٿيندو ويو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:ٿيندو
 1	جنهنڪري	_	ADV	_	_	10	advmod	_	_
 2	هن	_	DET	_	_	4	nmod	_	_
 3	جي	_	ADP	_	_	2	det	_	_
@@ -2927,9 +2802,8 @@
 11	ويو	_	VERB	_	_	10	compound	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 461
+# sent_id = 113
 # text = هن چيتي ۽ سانڊي جي ويڙهه ڏٺي هئي ۽ هن چيتي جون ڳالهيون به ٻڌيون هيون ۽ هن جا زخم به ڏٺا هئا.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:ڏٺي
 1	هن	_	DET	_	_	7	nsubj	_	_
 2	چيتي	_	NOUN	_	_	6	nmod	_	_
 3	۽	_	CCONJ	_	_	4	cc	_	_
@@ -2955,12 +2829,11 @@
 23	هئا	_	AUX	_	_	22	aux	_	SpaceAfter=No
 24	.	_	PUNCT	_	_	22	punct	_	_
 
-# sent_id = 467
+# sent_id = 114
 # text = ڇاڪاڻ ته هن جي مرضي نه هئي ته سانڊي کان هارائڻ جي خبر ماڻهن کي پوي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:مرضي
 1	ڇاڪاڻ	_	ADV	_	_	5	advmod	_	_
 2	ته	_	SCONJ	_	_	5	mark	_	_
-3	هن	_	DET	_	_	5	det	_	_
+3	هن	_	DET	_	_	5	nmod	_	_
 4	جي	_	ADP	_	_	3	det	_	_
 5	مرضي	_	NOUN	_	_	0	root	_	_
 6	نه	_	PART	_	_	5	advmod	_	_
@@ -2976,9 +2849,8 @@
 16	پوي	_	VERB	_	_	5	advcl	_	SpaceAfter=No
 17	.	_	PUNCT	_	_	16	punct	_	_
 
-# sent_id = 500
+# sent_id = 115
 # text = هن جي ڌيءَ چوڻ لڳي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:لڳي
 1	هن	_	DET	_	_	3	nmod	_	_
 2	جي	_	ADP	_	_	1	det	_	_
 3	ڌيءَ	_	NOUN	_	_	5	nsubj	_	_
@@ -2986,9 +2858,8 @@
 5	لڳي	_	VERB	_	_	0	root	_	SpaceAfter=No
 6	،	_	PUNCT	_	_	5	punct	_	_
 
-# sent_id = 736
+# sent_id = 116
 # text = انهيءَ تي بادشاهه حڪم ڏنو ته انهن جي جاءِ تي نوان سپاهي اچي بيهن.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:ڏنو
 1	انهيءَ	_	DET	_	_	5	obl	_	_
 2	تي	_	ADP	_	_	1	case	_	_
 3	بادشاهه	_	NOUN	_	_	5	nsubj	_	_
@@ -3005,9 +2876,8 @@
 14	بيهن	_	VERB	_	_	13	aux	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	13	punct	_	_
 
-# sent_id = 841
+# sent_id = 117
 # text = جو وڻ تان ڪِرندي وقت هن جا هٿ کجيءَ جي ٽارن ۾ ڦٻجي ويا ۽ هن جي جان بچي ويئي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 13:ڦٻجي
 1	جو	_	ADP	_	_	13	mark	_	_
 2	وڻ	_	NOUN	_	_	4	obl	_	_
 3	تان	_	ADP	_	_	2	case	_	_
@@ -3030,9 +2900,8 @@
 20	ويئي	_	VERB	_	_	19	compound	_	SpaceAfter=No
 21	.	_	PUNCT	_	_	19	punct	_	_
 
-# sent_id = 842
+# sent_id = 118
 # text = هاڻي هو وڻ جي ٽارين ۾ پئي لڙڪيو ۽ هن جي دانهن مٿان دانهن پئي پيئي ته اڙي ڪِران ٿو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 8:لڙڪيو
 1	هاڻي	_	ADV	_	_	7	advmod	_	_
 2	هو	_	DET	_	_	7	nsubj	_	_
 3	وڻ	_	NOUN	_	_	5	nmod	_	_
@@ -3055,10 +2924,9 @@
 20	ٿو	_	AUX	_	_	19	aux	_	SpaceAfter=No
 21	،	_	PUNCT	_	_	19	punct	_	_
 
-# sent_id = 853
+# sent_id = 119
 # text = هنن جو اهي دانهون ڪوڪون ٻڌيون ته اهي حيران ٿي اتي بيهي رهيا.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:بيهي
-1	هنن	_	DET	_	_	4	det	_	_
+1	هنن	_	DET	_	_	4	nmod	_	_
 2	جو	_	ADP	_	_	1	det	_	_
 3	اهي	_	DET	_	_	4	det	_	_
 4	دانهون	_	NOUN	_	_	5	nmod	_	_
@@ -3073,9 +2941,8 @@
 13	رهيا	_	VERB	_	_	12	compound	_	SpaceAfter=No
 14	.	_	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 893
+# sent_id = 120
 # text = هاڻي ڪفگير به هنن سان گڏ گهوڙي تي چڙهي ويٺو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:چڙهي
 1	هاڻي	_	ADV	_	_	9	advmod	_	_
 2	ڪفگير	_	NOUN	_	_	9	nsubj	_	_
 3	به	_	ADP	_	_	2	case	_	_
@@ -3088,9 +2955,8 @@
 10	ويٺو	_	VERB	_	_	9	compound	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 916
+# sent_id = 121
 # text = پر اندران ڪو به جواب نه مليو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:مليو
 1	پر	_	SCONJ	_	_	7	mark	_	_
 2	اندران	_	ADV	_	_	7	advmod	_	_
 3	ڪو	_	DET	_	_	5	nmod	_	_
@@ -3100,9 +2966,8 @@
 7	مليو	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	7	punct	_	_
 
-# sent_id = 1071
+# sent_id = 122
 # text = هن جو نالو ٿائو کام هو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:کام
 1	هن	_	DET	_	_	3	nmod	_	_
 2	جو	_	ADP	_	_	1	det	_	_
 3	نالو	_	NOUN	_	_	5	nsubj	_	_
@@ -3111,9 +2976,8 @@
 6	هو	_	AUX	_	_	5	cop	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	5	punct	_	_
 
-# sent_id = 1106
+# sent_id = 123
 # text = پوءِ جيئن ئي هو وڻ جي ٿـُڙ کي ٽيڪ ڏيئي ويٺو ته هن جي نظر زمين تي ٺهيل جانورن جي شڪلين تي وڃي پيئي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:ڏيئي
 1	پوءِ	_	ADP	_	_	10	mark	_	_
 2	جيئن	_	ADV	_	_	10	advmod	_	_
 3	ئي	_	ADP	_	_	2	dep	_	_
@@ -3140,15 +3004,14 @@
 24	پيئي	_	VERB	_	_	23	compound	_	SpaceAfter=No
 25	.	_	PUNCT	_	_	23	punct	_	_
 
-# sent_id = 1135
+# sent_id = 124
 # text = ان گهڻ ڳالهائو وزير کي ڪا به خبر نه هئي ته ساڻس ڪهڙي جـُٺ ٿيڻ واري آهي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 8:خبر
-1	ان	_	DET	_	_	3	det	_	_
+1	ان	_	DET	_	_	3	nmod	_	_
 2	گهڻ	_	ADJ	_	_	3	amod	_	_
 3	ڳالهائو	_	NOUN	_	_	4	nmod	_	_
 4	وزير	_	NOUN	_	_	8	nsubj	_	_
 5	کي	_	ADP	_	_	4	case	_	_
-6	ڪا	_	DET	_	_	8	det	_	_
+6	ڪا	_	DET	_	_	8	nmod	_	_
 7	به	_	ADP	_	_	6	det	_	_
 8	خبر	_	NOUN	_	_	0	root	_	_
 9	نه	_	PART	_	_	8	advmod	_	_
@@ -3162,11 +3025,10 @@
 17	آهي	_	AUX	_	_	15	aux	_	SpaceAfter=No
 18	،	_	PUNCT	_	_	15	punct	_	_
 
-# sent_id = 1256
+# sent_id = 125
 # text = جيڪي هن پيتيءَ ۾ بند ڪري ان جي ڪلف جي ڪنجي پاڻ وٽ لڪائي ڇڏي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 14:لڪائي
 1	جيڪي	_	ADV	_	_	6	advmod	_	_
-2	هن	_	PRON	_	_	6	nmod	_	_
+2	هن	_	PRON	_	_	6	obl	_	_
 3	پيتيءَ	_	NOUN	_	_	6	obl	_	_
 4	۾	_	ADP	_	_	3	case	_	_
 5	بند	_	VERB	_	_	6	compound	_	_
@@ -3182,9 +3044,8 @@
 15	ڇڏي	_	VERB	_	_	14	compound	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	14	punct	_	_
 
-# sent_id = 1262
+# sent_id = 126
 # text = پوءِ ڇا ٿيو جو راجا راڻيءَ جي پيءُ جو موڪليل ڪوڙو خواب ڏٺو، جنهن ۾ هن کي چيو ويو ته ڪمپا ڪابيرو جي لاءِ هڪ اڇو هاٿي جنهن جا ڏند ڪارا هجن،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 3:ٿيو
 1	پوءِ	_	ADP	_	_	3	mark	_	_
 2	ڇا	_	PRON	_	_	3	nsubj	_	_
 3	ٿيو	_	VERB	_	_	0	root	_	_
@@ -3220,9 +3081,8 @@
 33	هجن	_	VERB	_	_	19	ccomp	_	SpaceAfter=No
 34	،	_	PUNCT	_	_	33	punct	_	_
 
-# sent_id = 1279
+# sent_id = 127
 # text = انهيءَ کان سواءِ هڪ خوفناڪ پکي راڪ به اوهان جي راهه روڪيندو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 12:روڪيندو
 1	انهيءَ	_	DET	_	_	12	obl	_	_
 2	کان	_	ADP	_	_	1	det	_	_
 3	سواءِ	_	ADV	_	_	12	advmod	_	_
@@ -3237,9 +3097,8 @@
 12	روڪيندو	_	VERB	_	_	0	root	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 262
+# sent_id = 128
 # text = راجا وراڻيو، آءٌ ڪيترو نه خوش قسمت آهيان! منهنجي خيال ۾ ڪنهن به راجا وٽ تو جهڙو سياڻو وزير نه هوندو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 2:وراڻيو
 1	راجا	_	NOUN	_	_	2	nsubj	_	_
 2	وراڻيو	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	،	_	PUNCT	_	_	2	punct	_	_
@@ -3253,7 +3112,7 @@
 11	منهنجي	_	PRON	_	_	12	nmod	_	_
 12	خيال	_	NOUN	_	_	23	obl	_	_
 13	۾	_	ADP	_	_	12	case	_	_
-14	ڪنهن	_	DET	_	_	16	det	_	_
+14	ڪنهن	_	DET	_	_	16	nmod	_	_
 15	به	_	ADP	_	_	14	det	_	_
 16	راجا	_	NOUN	_	_	23	obl	_	_
 17	وٽ	_	ADP	_	_	16	case	_	_
@@ -3265,9 +3124,8 @@
 23	هوندو	_	VERB	_	_	8	advcl	_	SpaceAfter=No
 24	.	_	PUNCT	_	_	23	punct	_	_
 
-# sent_id = 2225
+# sent_id = 129
 # text = ڪانگ هن کي ڏسي چيو: لوهار ڙي لوهار! ٽيڪم ٺاهي ڏي،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 5:چيو
 1	ڪانگ	_	NOUN	_	_	5	nsubj	_	_
 2	هن	_	DET	_	_	4	obj	_	_
 3	کي	_	ADP	_	_	2	det	_	_
@@ -3283,9 +3141,8 @@
 13	ڏي	_	VERB	_	_	12	compound	_	SpaceAfter=No
 14	،	_	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 2583
+# sent_id = 130
 # text = جڏهن اوهان جيون اکيون اُس ۾ چنجهيون نه ٿين ها، ته اوهان هن جي چيلهه تي ڊگهن وارن جون لڙڪيل چوٽيون ضرور ڏسو ها! ڊڄڻي شينهن پنهنجي ڳالهه کي مٿي ڪندي چيو،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:ٿين
 1	جڏهن	_	ADV	_	_	9	advmod	_	_
 2	اوهان	_	PRON	_	_	4	nmod	_	_
 3	جيون	_	PRON	_	_	4	nmod	_	_
@@ -3312,7 +3169,7 @@
 24	ڏسو	_	VERB	_	_	9	advcl	_	_
 25	ها	_	AUX	_	_	24	aux	_	SpaceAfter=No
 26	!	_	PUNCT	_	_	24	punct	_	_
-27	ڊڄڻي	_	VERB	_	_	28	acl	_	_
+27	ڊڄڻي	_	VERB	_	_	28	amod	_	_
 28	شينهن	_	NOUN	_	_	34	nsubj	_	_
 29	پنهنجي	_	PRON	_	_	30	nmod	_	_
 30	ڳالهه	_	NOUN	_	_	33	obj	_	_
@@ -3322,9 +3179,8 @@
 34	چيو	_	VERB	_	_	24	advcl	_	SpaceAfter=No
 35	،	_	PUNCT	_	_	34	punct	_	_
 
-# sent_id = 2870
+# sent_id = 131
 # text = جيڪر اهو ملڪ به آءٌ ڏسي سگهان! اهو چوندي هن جي اکين مان چلڪو ۽ چمڪو ڏسڻ ۾ آيو.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 6:ڏسي
 1	جيڪر	_	ADV	_	_	6	advmod	_	_
 2	اهو	_	DET	_	_	3	det	_	_
 3	ملڪ	_	NOUN	_	_	6	obj	_	_
@@ -3347,9 +3203,8 @@
 20	آيو	_	VERB	_	_	6	advcl	_	SpaceAfter=No
 21	.	_	PUNCT	_	_	20	punct	_	_
 
-# sent_id = 3437
+# sent_id = 132
 # text = هاڻي هلي ڇا ڪنديس! باقي تون مون کي جادوءَ جو اهو شيشو ڏيئي وڃ ته جيئن آءٌ به اهو سڀ ڪجهه ڏسي سگهان، جيڪو انسانن جي دنيا ۾ ٿئي پيو ۽ اهو به ڏسي سگهان ته اتي توسان ڇا ٿو وهي واپري.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 14:ڏيئي
 1	هاڻي	_	ADV	_	_	4	advmod	_	_
 2	هلي	_	VERB	_	_	4	advcl	_	_
 3	ڇا	_	PRON	_	_	4	obj	_	_
@@ -3396,22 +3251,20 @@
 44	واپري	_	VERB	_	_	36	obj	_	SpaceAfter=No
 45	.	_	PUNCT	_	_	43	punct	_	_
 
-# sent_id = 4202
+# sent_id = 133
 # text = ها! اڄ ڪو به جهيڙو نه ڪندس،
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 8:ڪندس
 1	ها	_	AUX	_	_	8	nsubj	_	SpaceAfter=No
 2	!	_	PUNCT	_	_	1	punct	_	_
 3	اڄ	_	ADV	_	_	8	advmod	_	_
-4	ڪو	_	DET	_	_	6	det	_	_
+4	ڪو	_	DET	_	_	6	nmod	_	_
 5	به	_	ADP	_	_	4	det	_	_
 6	جهيڙو	_	NOUN	_	_	8	obj	_	_
 7	نه	_	PART	_	_	8	dep	_	_
 8	ڪندس	_	VERB	_	_	0	root	_	SpaceAfter=No
 9	،	_	PUNCT	_	_	8	punct	_	_
 
-# sent_id = 5453
+# sent_id = 134
 # text = قيمت چڪايو ۽ پوءِ ٻئي نشاني جي تلاش شروع ڪريو! جرڳي جي ڏنل پاور کي لاقانونيت جي ائين ور چاڙهي ڇڏجي جو نه ڪنهن غريب جو ٻار سلامت رهي، نه ڪنهن جي ننگ جي ڪا ضمانت هجي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 2:چڪايو
 1	قيمت	_	NOUN	_	_	2	nsubj	_	_
 2	چڪايو	_	VERB	_	_	0	root	_	_
 3	۽	_	CCONJ	_	_	10	cc	_	_
@@ -3453,10 +3306,8 @@
 39	هجي	_	VERB	_	_	30	advcl	_	SpaceAfter=No
 40	.	_	PUNCT	_	_	39	punct	_	_
 
-# sent_id = 4245
+# sent_id = 135
 # text = تنهن ڪري انهيءَ کي "انسان جو دور" چوڻ گهرجي.
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:چوڻ
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:چوڻ
 1	تنهن	_	ُPRON	_	_	2	det	_	_
 2	ڪري	_	VERB	_	_	10	advcl	_	_
 3	انهيءَ	_	DET	_	_	10	obj	_	_
@@ -3470,10 +3321,9 @@
 11	گهرجي	_	VERB	_	_	10	compound	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 35
+# sent_id = 136
 # text = ڪنهن به معاشري ۾ ترقي جو معمار ٻار کي سمجهيو وڃي ٿو .
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 10:سمجهيو
-1	ڪنهن	_	PRON	_	_	3	det	_	_
+1	ڪنهن	_	PRON	_	_	3	nmod	_	_
 2	به	_	PART	_	_	1	dep	_	_
 3	معاشري	_	NOUN	_	_	10	obl	_	_
 4	۾	_	ADP	_	_	3	case	_	_
@@ -3487,77 +3337,72 @@
 12	ٿو	_	AUX	_	_	10	aux	_	_
 13	.	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 390
+# sent_id = 137
 # text = اسلم هن جي دڪان تي تمام گھڻو گوڙگڙٻڙ ڪيو .
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 9:ڪيو
-1	اسلم	اسلم	PROPN	NNP__اسم_خاص	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
-2	هن	هن	DET	DT__ضمير_اشارو	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
-3	جي	جي	ADP	IN__حرفِ_جر	Number=Sing	2	det	_	_
-4	دڪان	دڪان	NOUN	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
-5	تي	تي	ADP	PRP__حرفِ_جر	Number=Sing	4	case	_	_
-6	تمام	تمام	ADV	RB__ظرف	Number=Sing	7	advmod	_	_
-7	گھڻو	گھڻو	ADJ	JJ__صفت	Case=Nom|Number=Sing	8	amod	_	_
-8	گوڙگڙٻڙ	گوڙ	NOUN	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	compound	_	_
-9	ڪيو	ڪيو	VERB	VB__فعل	Number=Sing	0	root	_	_
-10	.	.	PUNCT	-__پورو_دم	_	9	punct	_	_
+1	اسلم	اسلم	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+2	هن	هن	DET	_	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
+3	جي	جي	ADP	_	Number=Sing	2	det	_	_
+4	دڪان	دڪان	NOUN	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
+5	تي	تي	ADP	_	Number=Sing	4	case	_	_
+6	تمام	تمام	ADV	_	Number=Sing	7	advmod	_	_
+7	گھڻو	گھڻو	ADJ	_	Case=Nom|Number=Sing	8	amod	_	_
+8	گوڙگڙٻڙ	گوڙ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	compound	_	_
+9	ڪيو	ڪيو	VERB	_	Number=Sing	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 412
+# sent_id = 138
 # text = اسان کي پاڻ ۾ محبت سان رهڻ گھرجي ۽ ڪنهن به قسم جي گڙٻڙ نه ڪرڻ گھرجي .
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 7:رهڻ
-1	اسان	آءُ	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
-2	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	1	case	_	_
-3	پاڻ	پاڻ	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=2	7	obl	_	_
-4	۾	۾	ADP	IN__حرفِ_جر	Number=Sing	3	case	_	_
-5	محبت	محبت	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
-6	سان	سان	ADP	IN__حرفِ_جر	Number=Sing	5	case	_	_
-7	رهڻ	ره	VERB	VB__فعل	Number=Sing	0	root	_	_
-8	گھرجي	گھرج	AUX	VB__فعل_معاون	Number=Sing	7	aux	_	_
-9	۽	۽	CCONJ	CC__حرف_جملو	Number=Sing	16	cc	_	_
-10	ڪنهن	ڪنهن	DET	DT__ضمير_اشارو	Case=Nom|Number=Sing	12	det	_	_
-11	به	به	ADP	IN__حرفِ_جر	Number=Sing	10	det	_	_
-12	قسم	قسم	NOUN	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
-13	جي	جي	ADP	IN__حرفِ_جر	Number=Sing	12	case	_	_
-14	گڙٻڙ	گڙٻڙ	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	compound	_	_
-15	نه	نه	ADV	RB__ظرف	Number=Sing	16	advmod	_	_
-16	ڪرڻ	ڪر	VERB	VB__فعل	Number=Sing	7	conj	_	_
-17	گھرجي	گھرج	VERB	VB__فعل_معاون	Number=Sing	16	aux	_	_
-18	.	.	PUNCT	-__پورو_دم	_	7	punct	_	_
+1	اسان	آءُ	PRON	_	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
+2	کي	کي	ADP	_	Number=Sing	1	case	_	_
+3	پاڻ	پاڻ	PRON	_	Case=Nom|Number=Plur|Person=2	7	obl	_	_
+4	۾	۾	ADP	_	Number=Sing	3	case	_	_
+5	محبت	محبت	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
+6	سان	سان	ADP	_	Number=Sing	5	case	_	_
+7	رهڻ	ره	VERB	_	Number=Sing	0	root	_	_
+8	گھرجي	گھرج	AUX	_	Number=Sing	7	aux	_	_
+9	۽	۽	CCONJ	_	Number=Sing	16	cc	_	_
+10	ڪنهن	ڪنهن	DET	_	Case=Nom|Number=Sing	12	nmod	_	_
+11	به	به	ADP	_	Number=Sing	10	det	_	_
+12	قسم	قسم	NOUN	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+13	جي	جي	ADP	_	Number=Sing	12	case	_	_
+14	گڙٻڙ	گڙٻڙ	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	compound	_	_
+15	نه	نه	ADV	_	Number=Sing	16	advmod	_	_
+16	ڪرڻ	ڪر	VERB	_	Number=Sing	7	conj	_	_
+17	گھرجي	گھرج	VERB	_	Number=Sing	16	aux	_	_
+18	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = 519
+# sent_id = 139
 # text = اسان جي ڪمزوري اها آهي ته اسان جلدي ۾ هار مڃي ويندا آهيون پر ڪاميابي جو بهترين رستو آهي ته هڪ ڀيرو ٻيهر ڪوشش ڪرڻ گھرجي .
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 4:اها
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 4:اها
-1	اسان	آءُ	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=1	3	nmod	_	_
-2	جي	جي	ADP	IN__حرفِ_جر	Number=Sing	1	case	_	_
-3	ڪمزوري	ڪمزور	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	4	det	_	_
-4	اها	اها	DET	DT__ضمير_اشارو	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	_
-5	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	4	aux	_	_
-6	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	11	mark	_	_
-7	اسان	آءُ	PRON	PRP__ضمير	Case=Nom|Number=Plur|Person=1	11	nsubj	_	_
-8	جلدي	جلد	ADV	RB__ظرف	Number=Sing	11	advmod	_	_
-9	۾	۾	ADP	IN__حرفِ_جر	Number=Sing	8	case	_	_
-10	هار	هار	NOUN	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	compound	_	_
-11	مڃي	مڃ	VERB	VB__فعل	Number=Sing	4	det	_	_
-12	ويندا	ويندو	VERB	VBG__فعل	Number=Plur	11	xcomp	_	_
-13	آهيون	آهي	AUX	VB__فعل_معاون	Number=Plur	11	aux	_	_
-14	پر	پر	CCONJ	CC__حرف_جملو	Number=Sing	18	cc	_	_
-15	ڪاميابي	ڪامياب	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	18	nmod	_	_
-16	جو	جو	ADP	IN__حرفِ_جر	Case=Acc|Number=Sing	15	case	_	_
-17	بهترين	بهتر	ADJ	JJ__صفت	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	amod	_	_
-18	رستو	رستو	NOUN	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	conj	_	_
-19	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	18	cop	_	_
-20	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	25	mark	_	_
-21	هڪ	هڪ	NUM	CD__صفت_عددي	Number=Sing	22	nummod	_	_
-22	ڀيرو	ڀيرو	NOUN	RB__ظرف	Case=Nom|Number=Sing	25	obl	_	_
-23	ٻيهر	ٻيهر	ADV	CD__صفت_عددي	Number=Sing	25	advmod	_	_
-24	ڪوشش	ڪوشش	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	25	compound	_	_
-25	ڪرڻ	ڪر	VERB	VB__فعل	Number=Sing	11	conj	_	_
-26	گھرجي	گھرج	VERB	VB__فعل_معاون	Number=Sing	25	aux	_	_
-27	.	.	PUNCT	-__پورو_دم	_	25	punct	_	_
+1	اسان	آءُ	PRON	_	Case=Nom|Number=Plur|Person=1	3	nmod	_	_
+2	جي	جي	ADP	_	Number=Sing	1	case	_	_
+3	ڪمزوري	ڪمزور	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	4	det	_	_
+4	اها	اها	DET	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	_
+5	آهي	آهي	AUX	_	Number=Sing	4	aux	_	_
+6	ته	ته	ADP	_	Number=Sing	11	mark	_	_
+7	اسان	آءُ	PRON	_	Case=Nom|Number=Plur|Person=1	11	nsubj	_	_
+8	جلدي	جلد	ADV	_	Number=Sing	11	advmod	_	_
+9	۾	۾	ADP	_	Number=Sing	8	case	_	_
+10	هار	هار	NOUN	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	compound	_	_
+11	مڃي	مڃ	VERB	_	Number=Sing	4	det	_	_
+12	ويندا	ويندو	VERB	_	Number=Plur	11	xcomp	_	_
+13	آهيون	آهي	AUX	_	Number=Plur	11	aux	_	_
+14	پر	پر	CCONJ	_	Number=Sing	18	cc	_	_
+15	ڪاميابي	ڪامياب	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	18	nmod	_	_
+16	جو	جو	ADP	_	Case=Acc|Number=Sing	15	case	_	_
+17	بهترين	بهتر	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	amod	_	_
+18	رستو	رستو	NOUN	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	conj	_	_
+19	آهي	آهي	AUX	_	Number=Sing	18	cop	_	_
+20	ته	ته	ADP	_	Number=Sing	25	mark	_	_
+21	هڪ	هڪ	NUM	_	Number=Sing	22	nummod	_	_
+22	ڀيرو	ڀيرو	NOUN	_	Case=Nom|Number=Sing	25	obl	_	_
+23	ٻيهر	ٻيهر	ADV	_	Number=Sing	25	advmod	_	_
+24	ڪوشش	ڪوشش	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	25	compound	_	_
+25	ڪرڻ	ڪر	VERB	_	Number=Sing	11	conj	_	_
+26	گھرجي	گھرج	VERB	_	Number=Sing	25	aux	_	_
+27	.	.	PUNCT	_	_	25	punct	_	_
 
-# sent_id = 679
+# sent_id = 140
 # text = ان جو ڪارڻ سنڌو درياءَ ۾ پنجاب کان ايندڙ خطرناڪ ٻوڏ جا وهڪرا آهن
-# semgrex pattern |{$} >> ({cpos:/^(?!DET).*$/} <det {})| matched at 13:وهڪرا
 1	ان	_	DET	_	_	3	nmod	_	_
 2	جو	_	ADP	_	_	1	det	_	_
 3	ڪارڻ	_	NOUN	_	_	13	nsubj	_	_
@@ -3572,4 +3417,3 @@
 12	جا	_	ADP	_	_	11	case	_	_
 13	وهڪرا	_	NOUN	_	_	0	root	_	_
 14	آهن	_	AUX	_	_	13	cop	_	_
-
