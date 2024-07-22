@@ -65,8 +65,8 @@
 
 # sent_id = 4
 # text = هن جي زال وري جهوپڙيءَ ۾ هڪ ڪنڊ ۾ پيل تئونريءَ تي ليٽي پيئي.
-1	هن	_	DET	_	_	3	nmod	_	_
-2	جي	_	ADP	_	_	1	det	_	_
+1	هن	_	PRON	_	_	3	nmod	_	_
+2	جي	_	ADP	_	_	1	case	_	_
 3	زال	_	NOUN	_	_	13	nsubj	_	_
 4	وري	_	ADV	_	_	10	advmod	_	_
 5	جهوپڙيءَ	_	NOUN	_	_	10	obl	_	_
@@ -204,37 +204,37 @@
 # sent_id = 10
 # text = جڏهن ته نيشنل ڊزاسٽر مئنيجمينٽ اٿارٽي کي هدايت ڪئي آهي ته اهي ٻوڏ متاثر علائقن ۾ ڪنهن به قسم جي ڪوتاهي نه ڪن ،
 1	جڏهن	_	ADV	_	_	9	advmod	_	_
-2	ته	_	SCONJ	_	_	1	dep	_	_
+2	ته	_	SCONJ	_	_	1	mark	_	_
 3	نيشنل	_	NOUN	_	_	6	nmod	_	_
 4	ڊزاسٽر	_	NOUN	_	_	6	nmod	_	_
 5	مئنيجمينٽ	_	NOUN	_	_	6	nmod	_	_
-6	اٿارٽي	_	VERB	_	_	9	iobj	_	_
+6	اٿارٽي	_	NOUN	_	_	9	obj	_	_
 7	کي	_	ADP	_	_	6	case	_	_
 8	هدايت	_	NOUN	_	_	9	compound	_	_
 9	ڪئي	_	VERB	_	_	0	root	_	_
 10	آهي	_	AUX	_	_	9	aux	_	_
 11	ته	_	SCONJ	_	_	23	mark	_	_
-12	اهي	_	DET	_	_	23	nsubj	_	_
+12	اهي	_	PRON	_	_	23	nsubj	_	_
 13	ٻوڏ	_	NOUN	_	_	15	nmod	_	_
 14	متاثر	_	NOUN	_	_	15	nmod	_	_
 15	علائقن	_	NOUN	_	_	23	obl	_	_
 16	۾	_	ADP	_	_	15	case	_	_
-17	ڪنهن	_	DET	_	_	19	nmod	_	_
-18	به	_	ADP	_	_	17	det	_	_
+17	ڪنهن	_	PRON	_	_	19	nmod	_	_
+18	به	_	PART	_	_	19	dep	_	_
 19	قسم	_	NOUN	_	_	21	nmod	_	_
 20	جي	_	ADP	_	_	19	case	_	_
-21	ڪوتاهي	_	DET	_	_	23	xcomp	_	_
-22	نه	_	PART	_	_	23	dep	_	_
+21	ڪوتاهي	_	NOUN	_	_	23	obj	_	_
+22	نه	_	PART	_	_	23	advmod	_	_
 23	ڪن	_	VERB	_	_	9	ccomp	_	_
 24	،	_	PUNCT	_	_	23	punct	_	_
 
 # sent_id = 11
 # text = اُن جي مٿان وٺي بـُـل ڏنائين ،
-1	اُن	_	DET	_	_	3	obl	_	_
-2	جي	_	ADP	_	_	1	det	_	_
-3	مٿان	_	ADV	_	_	6	advmod	_	_
+1	اُن	_	PRON	_	_	4	obl	_	_
+2	جي	_	ADP	_	_	1	case	_	_
+3	مٿان	_	ADV	_	_	4	advmod	_	_
 4	وٺي	_	VERB	_	_	6	advcl	_	_
-5	بـُـل	_	VERB	_	_	6	xcomp	_	_
+5	بـُـل	_	NOUN	_	_	6	obj	_	_
 6	ڏنائين	_	VERB	_	_	0	root	_	_
 7	،	_	PUNCT	_	_	6	punct	_	_
 
