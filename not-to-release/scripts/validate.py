@@ -1,5 +1,7 @@
 import sys
 
+import networkx as nx
+
 from stanza.utils.conll import CoNLL
 
 def validate(new_doc, print_sent_idx=False):
@@ -65,10 +67,30 @@ def validate(new_doc, print_sent_idx=False):
                 printed = True
                 print("MULTIPLE ROOTS")
             problem_sentences.add(sent_idx)
+            possible_roots = [(x.text, x.upos, x.id) for x in sent.words if x.deprel == 'root']
             if print_sent_idx:
-                print(sent_idx, sent.sent_id)
+                print(sent_idx, sent.sent_id, possible_roots)
             else:
-                print(sent.sent_id)
+                print(sent.sent_id, possible_roots)
+
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        graph = nx.MultiDiGraph()
+        for word_idx, word in enumerate(sent.words):
+            if word.parent is None or word.deprel is None:
+                continue
+            graph.add_edge(word.head, word.id, word.deprel)
+        try:
+            cycle = nx.find_cycle(graph)
+            if not printed:
+                printed = True
+                print("CYCLES")
+            print("Cycle in sentence %s" % sent.sent_id)
+            for edge in cycle:
+                print(edge[0], sent.words[edge[0]-1].text, edge[1], sent.words[edge[1]-1].text, edge[2])
+        except nx.NetworkXNoCycle:
+            pass
+
 
     return problem_sentences
 
