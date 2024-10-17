@@ -26,6 +26,8 @@ def merge_edits(new_doc):
             text = sentence.text.replace(" ", "")
             if text in sentences:
                 new_sentences.append(sentences[text])
+                if sentence.sent_id:
+                    new_sentences[-1].sent_id = sentence.sent_id
                 del sentences[text]
                 edited = True
             else:
