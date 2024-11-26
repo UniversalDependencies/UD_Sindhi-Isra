@@ -120,7 +120,10 @@ def validate(new_doc, print_sent_idx=False):
                         print("XPOS ERRORS")
                     print("Sentence %d word %d had xpos %s which is not allowed for upos %s" % (sent_idx, word_idx, word.xpos, word.upos))
             else:
-                print(word.upos, word.xpos)
+                if not printed:
+                    printed = True
+                    print("XPOS ERRORS")
+                print("Sentence %d word %d had unknown upos |%s| with xpos |%s|" % (sent_idx, word_idx, word.upos, word.xpos))
 
     return problem_sentences
 
