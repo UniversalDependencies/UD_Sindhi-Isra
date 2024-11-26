@@ -19,6 +19,7 @@ ALLOWED_UPOS_TO_XPOS = {
     "PART":  ["PART"],
     "NUM":   ["NUM"],
     "DET":   ["PRD"],
+    "INTJ":  ["INTJ"],
 }
 
 def validate(new_doc, print_sent_idx=False):
