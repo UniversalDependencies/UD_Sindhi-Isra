@@ -125,6 +125,15 @@ def validate(new_doc, print_sent_idx=False):
                     print("XPOS ERRORS")
                 print("Sentence %d word %d had unknown upos |%s| with xpos |%s|" % (sent_idx, word_idx, word.upos, word.xpos))
 
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word.feats == '':
+                if not printed:
+                    printed = True
+                    print("FEAT ERRORS")
+                print("Sentence %s word %d had blank features" % (sent_idx, word_idx))
+
     return problem_sentences
 
 def main():
