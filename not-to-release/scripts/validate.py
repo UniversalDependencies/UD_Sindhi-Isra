@@ -53,7 +53,7 @@ def validate(new_doc, print_sent_idx=False):
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word in sent.words:
-            if word.deprel is None:
+            if word.deprel is None or word.deprel == "":
                 if not printed:
                     print("UNLABELED ARCS")
                     printed = True
