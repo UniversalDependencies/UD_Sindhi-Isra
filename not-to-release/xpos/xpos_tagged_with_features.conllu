@@ -1,4 +1,5 @@
 # text = علي ڪتاب پڙھي ٿو.
+# sent_id = 0
 1	علي	علي	PROPN	NNP	Case=Nom|Gend=Masc|Number=Sg	3	nsubj	_	_
 2	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	3	obj	_	_
 3	پڙھي	پڙھي	VERB	VM	Aspect=Imp|Number=Sg|Person=3	0	root	_	_
@@ -6,6 +7,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = سيما ڪتاب پڙھي ٿي.
+# sent_id = 1
 1	سيما	سيما	PROPN	NNP	Case=Nom|Gend=Fem|Number=Sg	3	nsubj	_	_
 2	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	3	obj	_	_
 3	پڙھي	پڙھي	VERB	VM	Aspect=Imp|Number=Sg|Person=3	0	root	_	_
@@ -13,6 +15,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = چوڪرو راند کيڏي پيو.
+# sent_id = 2
 1	چوڪرو	چوڪرو	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	3	nsubj	_	_
 2	راند	راند	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	3	obj	_	_
 3	کيڏي	کيڏي	VERB	VM	Aspect=Imp|Number=Sg|Person=3	0	root	_	_
@@ -20,6 +23,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = چوڪرا راند کيڏن ٿا.
+# sent_id = 3
 1	چوڪرا	چوڪرا	NOUN	NN	Case=Nom|Gend=Masc|Number=Pl	3	nsubj	_	_
 2	راند	راند	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	3	obj	_	_
 3	کيڏن	کيڏن	VERB	VM	Aspect=Imp|Number=Pl|Person=3	0	root	_	_
@@ -27,6 +31,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = چوڪري کي نہ مار.
+# sent_id = 4
 1	چوڪري	چوڪري	NOUN	NN	Case=Obl|Gend=Fem|Number=Sg	4	obj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
 3	نہ	نہ	PART	PART	_	4	dep	_	_
@@ -34,6 +39,7 @@
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = ننڍو چوڪرو پھريون ڪتاب پڙھي ٿو.
+# sent_id = 5
 1	ننڍو	ننڍو	ADJ	JJ	Case=Nom|Degree=Comp|Gend=Masc|Number=Sg	2	amod	_	_
 2	چوڪرو	چوڪرو	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	5	nsubj	_	_
 3	پھريون	پھريون	ADJ	JJO	Case=Nom|Gend=Masc|Number=Sg	4	amod	_	_
@@ -43,6 +49,7 @@
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = ننڍي چوڪري چوٿون ڪتاب پڙھيو.
+# sent_id = 6
 1	ننڍي	ننڍي	ADJ	JJ	Case=Obl|Degree=Comp|Gend=Masc|Number=Sg	2	amod	_	_
 2	چوڪري	چوڪري	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	5	nsubj	_	_
 3	چوٿون	چوٿون	ADJ	JJO	Case=Nom|Gend=Masc|Number=Sg	4	amod	_	_
@@ -51,6 +58,7 @@
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = سھڻي ٻلي ڊوڙي ٿي.
+# sent_id = 7
 1	سھڻي	سھڻي	ADJ	JJ	Case=Nom|Degree=Pos|Gend=Fem|Number=Sg	2	amod	_	_
 2	ٻلي	ٻلي	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	3	nsubj	_	_
 3	ڊوڙي	ڊوڙي	VERB	VM	Aspect=Imp|Number=Sg|Person=3	0	root	_	_
@@ -58,6 +66,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = پنج چوڪريون پڙھڻ آيون.
+# sent_id = 8
 1	پنج	پنج	ADJ	JJC	Case=Nom	2	amod	_	_
 2	چوڪريون	چوڪريون	NOUN	NN	Case=Nom|Gend=Fem|Number=Pl	4	nsubj	_	_
 3	پڙھڻ	پڙھڻ	VERB	VM	VerbForm=Inf	4	xcomp	_	_
@@ -65,6 +74,7 @@
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = ھن سال پوک مان چئوڻا پيسا ملندا.
+# sent_id = 9
 1	ھن	ھن	DET	PRD	Case=Obl|Number=Sg	2	det	_	_
 2	سال	سال	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	7	obl	_	_
 3	پوک	پوک	NOUN	NN	Case=Obl|Gend=Fem|Number=Sg	7	obl	_	_
@@ -75,6 +85,7 @@
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # text = منو ايڪڙ ڦٽيون پوکيون آھن.
+# sent_id = 10
 1	منو	منو	ADJ	JJF	Case=Nom|Gend=Masc|Number=Sg	2	amod	_	_
 2	ايڪڙ	ايڪڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	3	nmod	_	_
 3	ڦٽيون	ڦٽيون	NOUN	NN	Case=Nom|Gend=Fem|Number=Pl	4	obj	_	_
@@ -83,6 +94,7 @@
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = آئون راند کيڏان ھا.
+# sent_id = 11
 1	آئون	آئون	PRON	PRP	Case=Nom|Number=Sg|Person=1	3	nsubj	_	_
 2	راند	راند	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	3	obj	_	_
 3	کيڏان	کيڏان	VERB	VMX	Aspect=Imp|Number[Subj]=Sg|Person[Subj]=1	0	root	_	_
@@ -90,6 +102,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = اسين راند کيڏون ھا.
+# sent_id = 12
 1	اسين	اسين	PRON	PRP	Case=Nom|Number=Pl|Person=1	3	nsubj	_	_
 2	راند	راند	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	3	obj	_	_
 3	کيڏون	کيڏون	VERB	VMX	Aspect=Imp|Number[Subj]=Pl|Person[Subj]=1	0	root	_	_
@@ -97,6 +110,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = مون راند کيڏي ٿي.
+# sent_id = 13
 1	مون	مون	PRON	PRP	Case=Obl|Number=Sg|Person=1	3	nsubj	_	_
 2	راند	راند	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	3	obj	_	_
 3	کيڏي	کيڏي	VERB	VM	Aspect=Imp|Gend=Fem|Number=Sg	0	root	_	_
@@ -104,12 +118,14 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = اسان راند کيڏياسين.
+# sent_id = 14
 1	اسان	اسان	PRON	PRP	Case=Obl|Number=Pl|Person=1	3	nsubj	_	_
 2	راند	راند	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	3	obj	_	_
 3	کيڏياسين	کيڏياسين	VERB	VMX	Aspect=Perf|Number[Subj]=Pl|Person[Subj]=1|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = احمد مون کي ڪتاب ڏنو.
+# sent_id = 15
 1	احمد	احمد	PROPN	NNP	Case=Nom|Gend=Masc|Number=Sg	5	nsubj	_	_
 2	مون	مون	PRON	PRP	Case=Obl|Number=Sg|Person=1	5	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
@@ -118,6 +134,7 @@
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = جاويد ھن کي ھي ڪتاب ڏنو.
+# sent_id = 16
 1	جاويد	جاويد	PROPN	NNP	Case=Nom|Gend=Masc|Number=Sg	6	nsubj	_	_
 2	ھن	ھن	PRON	PRP	Case=Obl|Number=Sg|Person=3	6	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
@@ -127,6 +144,7 @@
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # text = اھي ڪتاب پڙھڻ جھڙا آھن.
+# sent_id = 17
 1	اھي	اھي	DET	PRD	Case=Obl|Number=Pl	2	det	_	_
 2	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gend=Masc|Number=Pl	4	nsubj	_	_
 3	پڙھڻ	پڙھڻ	VERB	VM	VerbForm=Inf	4	xcomp	_	_
@@ -135,6 +153,7 @@
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = ھمراھ ڇا ٿو چوي؟
+# sent_id = 18
 1	ھمراھ	ھمراھ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	nsubj	_	_
 2	ڇا	ڇا	PRON	PRWH	Case=Nom	4	obj	_	_
 3	ٿو	ٿو	AUX	VAUX	Gend=Masc|Number=Sg|Tense=Present	4	aux	_	_
@@ -142,6 +161,7 @@
 5	؟	؟	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = ڪھڙا ڇوڪرا ماني کائيندا؟
+# sent_id = 19
 1	ڪھڙا	ڪھڙا	PRON	PRWH	Case=Nom|Number=Pl	2	nmod	_	_
 2	ڇوڪرا	ڇوڪرا	NOUN	NN	Case=Nom|Gend=Masc|Number=Pl	4	nsubj	_	_
 3	ماني	ماني	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	4	obj	_	_
@@ -149,18 +169,21 @@
 5	؟	؟	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = تون سڀاڻي اڇجانءِ.
+# sent_id = 20
 1	تون	تون	PRON	PRP	Case=Nom|Number=Sg|Person=2	3	nsubj	_	_
 2	سڀاڻي	سڀاڻي	ADV	ADT	Gend=Masc	3	advmod	_	_
 3	اڇجانءِ	اڇجانءِ	VERB	VMX	Mood=Des|Number[Subj]=Sg|Person[Subj]=1|Tense=Future	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = پاڻي آھستي پيئجي.
+# sent_id = 21
 1	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	3	nsubj	_	_
 2	آھستي	آھستي	ADV	ADM	_	3	advmod	_	_
 3	پيئجي	پيئجي	VERB	VMDL	Mood=Des|Number=Sg|Person=3|Voice=Pass	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = ڪاوڙ ڪانہ ڪبي آھي.
+# sent_id = 22
 1	ڪاوڙ	ڪاوڙ	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	3	nsubj	_	_
 2	ڪانہ	ڪانہ	ADV	ADN	_	3	advmod	_	_
 3	ڪبي	ڪبي	VERB	VM	Aspect=Imp|Gend=Fem|Number=Sg|Person=3|Voice=Pass	0	root	_	_
@@ -168,6 +191,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = ھمراہ گھڻو ئي ڊوڙيو پر نہ پھتو.
+# sent_id = 23
 1	ھمراہ	ھمراہ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	nsubj	_	_
 2	گھڻو	گھڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gend=Masc|Number=Sg	4	advmod	_	_
 3	ئي	ئي	PART	PART	Type=Emph	2	dep	_	_
@@ -178,12 +202,14 @@
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # text = ھو ڀلي اڇي.
+# sent_id = 24
 1	ھو	ھو	PRON	PRP	Case=Nom|Gend=Masc|Number=Sg|Person=3	3	nsubj	_	_
 2	ڀلي	ڀلي	ADV	ADA	_	3	advmod	_	_
 3	اڇي	اڇي	VERB	VM	Aspect=Imp|Number=Sg|Person=3	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = ھو ڀلي ھتي اچي.
+# sent_id = 25
 1	ھو	ھو	PRON	PRP	Case=Nom|Gend=Masc|Number=Sg|Person=3	4	nsubj	_	_
 2	ڀلي	ڀلي	ADV	ADA	_	4	advmod	_	_
 3	ھتي	ھتي	ADV	ADP	Case=Nom	4	advmod	_	_
@@ -191,12 +217,14 @@
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = ھو ويجھس آيو.
+# sent_id = 26
 1	ھو	ھو	PRON	PRP	Case=Nom|Gend=Masc|Number=Sg|Person=3	3	nsubj	_	_
 2	ويجھس	ويجھس	ADV	ADPX	Number=Sg|Person=3	3	advmod	_	_
 3	آيو	آيو	VERB	VM	Aspect=Perf|Number=Sg|Person=3	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = چوڪري جي ڪتاب جا پنا ڦاٽل آھن.
+# sent_id = 27
 1	چوڪري	چوڪري	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	3	nmod	_	_
 2	جي	جي	ADP	PSP	Case=Obl|Gend=Masc|Number=Sg|Type=Gen	1	case	_	_
 3	ڪتاب	ڪتاب	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	5	nmod	_	_
@@ -207,12 +235,14 @@
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # text = احمد ساڻس ھليو.
+# sent_id = 28
 1	احمد	احمد	PROPN	NNP	Case=Nom|Gend=Masc|Number=Sg	3	nsubj	_	_
 2	ساڻس	ساڻس	ADP	PSPX	Case=Obl|Number=Sg|Person=3	1	case	_	_
 3	ھليو	ھليو	VERB	VM	Aspect=Perf|Number=Sg|Person=3	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = اسان ٻوڙ ۽ ماني کاڌي.
+# sent_id = 29
 1	اسان	اسان	PRON	PRP	Case=Obl|Number=Pl|Person=1	5	nsubj	_	_
 2	ٻوڙ	ٻوڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	5	obj	_	_
 3	۽	۽	CCONJ	CC	_	4	cc	_	_
@@ -221,6 +251,7 @@
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = اسان ٻوڙ ۽ ماني کاڌي پر مزو ڪونہ آيو.
+# sent_id = 30
 1	اسان	اسان	PRON	PRP	Case=Obl|Number=Pl|Person=1	5	nsubj	_	_
 2	ٻوڙ	ٻوڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	5	obj	_	_
 3	۽	۽	CCONJ	CC	_	4	cc	_	_
@@ -233,6 +264,7 @@
 10	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # text = ھن کي بخار آھي.
+# sent_id = 31
 1	ھن	ھن	PRON	PRP	Case=Obl|Number=Sg|Person=3	3	nsubj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
 3	بخار	بخار	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	0	root	_	_
@@ -240,22 +272,26 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = بخار اٿم.
+# sent_id = 32
 1	بخار	بخار	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	0	root	_	_
 2	اٿم	اٿم	AUX	VAUXX	Number=Sg|Person=1|Tense=Present	1	cop	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = بخار آھيس.
+# sent_id = 33
 1	بخار	بخار	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	0	root	_	_
 2	آھيس	آھيس	AUX	VAUXX	Number=Sg|Person=3|Tense=Present	1	cop	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = تون ھيڏانھن اچ.
+# sent_id = 34
 1	تون	تون	PRON	PRP	Case=Nom|Number=Sg|Person=2	3	nsubj	_	_
 2	ھيڏانھن	ھيڏانھن	ADV	ADP	_	3	advmod	_	_
 3	اچ	اچ	VERB	VM	Aspect=Imp|Number=Sg|Person=2	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = آئون پنڌ ھلندو آھيان.
+# sent_id = 35
 1	آئون	آئون	PRON	PRP	Case=Nom|Number=Sg|Person=1	3	nsubj	_	_
 2	پنڌ	پنڌ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	3	obl	_	_
 3	ھلندو	ھلندو	VERB	VM	Gend=Masc|Number=Sg|VerbForm=PresPart	0	root	_	_
@@ -263,6 +299,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = ھمراہ گھمڻ ويو ھو.
+# sent_id = 36
 1	ھمراہ	ھمراہ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	3	nsubj	_	_
 2	گھمڻ	گھمڻ	VERB	VM	VerbForm=Inf	3	xcomp	_	_
 3	ويو	ويو	VERB	VM	Aspect=Perf|Number=Sg|Person=3	0	root	_	_
@@ -270,6 +307,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = تو کي ھلڻو پوندو.
+# sent_id = 37
 1	تو	تو	PRON	PRP	Case=Obl|Number=Sg|Person=2	3	nsubj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
 3	ھلڻو	ھلڻو	VERB	VM	VerbForm=FutPart	0	root	_	_
@@ -277,6 +315,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = مون ڍڳو ماريو آھي.
+# sent_id = 38
 1	مون	مون	PRON	PRP	Case=Obl|Number=Sg|Person=1	3	nsubj	_	_
 2	ڍڳو	ڍڳو	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	3	obj	_	_
 3	ماريو	ماريو	VERB	VM	Aspect=Perf|Gend=Masc|Number=Sg|Person=3	0	root	_	_
@@ -284,6 +323,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = گدڙ اڳي ئي مئل ھو.
+# sent_id = 39
 1	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	nsubj	_	_
 2	اڳي	اڳي	ADV	ADT	_	4	advmod	_	_
 3	ئي	ئي	PART	PART	Type=Emph	2	dep	_	_
@@ -292,6 +332,7 @@
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = استاد ڪتاب جو لکندڙ آھي.
+# sent_id = 40
 1	استاد	استاد	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	nsubj	_	_
 2	ڪتاب	ڪتاب	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	4	obl	_	_
 3	جو	جو	ADP	PSP	Case=Nom|Gend=Masc|Number=Sg|Type=Gen	2	case	_	_
@@ -300,6 +341,7 @@
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = ڇوڪرو ماني کائي اسڪول ويو.
+# sent_id = 41
 1	ڇوڪرو	ڇوڪرو	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	5	nsubj	_	_
 2	ماني	ماني	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	3	obj	_	_
 3	کائي	کائي	VERB	VM	VerbForm=ConjPart	5	advcl	_	_
@@ -308,6 +350,7 @@
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = تون ھن پاسي ڦر.
+# sent_id = 42
 1	تون	تون	PRON	PRP	Case=Nom|Number=Sg|Person=2	4	nsubj	_	_
 2	ھن	ھن	DET	PRD	Case=Obl|Number=Sg	3	det	_	_
 3	پاسي	پاسي	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	4	obl	_	_
@@ -315,6 +358,7 @@
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = تون پنکي کي ھن پاسي ڦير.
+# sent_id = 43
 1	تون	تون	PRON	PRP	Case=Nom|Number=Sg|Person=2	6	nsubj	_	_
 2	پنکي	پنکي	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	6	obj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
@@ -324,6 +368,7 @@
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # text = آئون ڪتاب لکان ٿو.
+# sent_id = 44
 1	آئون	آئون	PRON	PRP	Case=Nom|Number=Sg|Person=1	3	nsubj	_	_
 2	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	3	obj	_	_
 3	لکان	لکان	VERB	VM	Aspect=Imp|Number=Sg|Person=1	0	root	_	_
@@ -331,6 +376,7 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = تو علي کي ڪتاب ڏنو.
+# sent_id = 45
 1	تو	تو	PRON	PRP	Case=Obl|Number=Sg|Person=2	5	nsubj	_	_
 2	علي	علي	PROPN	NNP	Case=Obl|Gend=Masc|Number=Sg	5	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
@@ -339,6 +385,7 @@
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = علي تو کي ڪتاب ڏيندو.
+# sent_id = 46
 1	علي	علي	PROPN	NNP	Case=Nom|Gend=Masc|Number=Sg	5	nsubj	_	_
 2	تو	تو	PRON	PRP	Case=Obl|Number=Sg|Person=2	5	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
@@ -347,6 +394,7 @@
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = آئون احمد کي ڪتاب ڏيان ٿو.
+# sent_id = 47
 1	آئون	آئون	PRON	PRP	Case=Nom|Number=Sg|Person=1	5	nsubj	_	_
 2	احمد	احمد	PROPN	NNP	Case=Nom|Gend=Masc|Number=Sg	5	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
@@ -356,6 +404,7 @@
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = احمد مون کي ڪتاب ڏئي پيو.
+# sent_id = 48
 1	احمد	احمد	PROPN	NNP	Case=Nom|Gend=Masc|Number=Sg	5	nsubj	_	_
 2	مون	مون	PRON	PRP	Case=Obl|Number=Sg|Person=1	5	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
@@ -365,12 +414,14 @@
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = ڇوڪرو ڊوڙيو ھئو.
+# sent_id = 49
 1	ڇوڪرو	ڇوڪرو	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	2	nsubj	_	_
 2	ڊوڙيو	ڊوڙيو	VERB	VM	Aspect=Perf|Gend=Masc|Number=Sg	0	root	_	_
 3	ھئو	ھئو	AUX	VAUX	Number=Sg|Person=3|Tense=Past	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # text = ڪتاب احمد کان لکجي ٿو.
+# sent_id = 50
 1	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	nsubj	_	_
 2	احمد	احمد	PROPN	NNP	Case=Abl|Gend=Masc|Number=Sg	4	obl	_	_
 3	کان	کان	ADP	PSP	_	2	case	_	_
@@ -379,6 +430,7 @@
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = احمد ڪتاب لکي ٿو.
+# sent_id = 51
 1	احمد	احمد	PROPN	NNP	Case=Nom|Gend=Masc|Number=Sg	3	nsubj	_	_
 2	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	3	nsubj	_	_
 3	لکي	لکي	VERB	VM	Aspect=Imp|Number=Sg|Person=3	0	root	_	_
@@ -386,18 +438,21 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = خط لکانس ٿو.
+# sent_id = 52
 1	خط	خط	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	2	obj	_	_
 2	لکانس	لکانس	VERB	VMX	Aspect=Imp|Number[Subj]=Sg|Person[Subj]=1|Number[Obj]=Sg|Person[Obj]=2	0	root	_	_
 3	ٿو	ٿو	AUX	VAUX	Gend=Masc|Number=Sg|Tense=Present	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # text = پنو ڦاڙيم پئي.
+# sent_id = 53
 1	پنو	پنو	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	2	obj	_	_
 2	ڦاڙيم	ڦاڙيم	VERB	VMX	Person[Subj]=1|Number[Subj]=Sg|VerbForm=PastPart	0	root	_	_
 3	پئي	پئي	VERB	VM	Number=Sg|Person=1|Tense=Past	2	compound	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # text = چيومانو تہ ڪتاب پڙھو.
+# sent_id = 54
 1	چيومانو	چيومانو	VERB	VMX	Aspect=Perf|Number[Subj]=Sg|Person[Subj]=1|Number[Obj]=Pl|Person[Obj]=2	0	root	_	_
 2	تہ	تہ	SCONJ	CS	_	4	mark	_	_
 3	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	nsubj	_	_
@@ -405,6 +460,7 @@
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = 15 رپيا ھٿ ڪري رکو.
+# sent_id = 55
 1	15	15	NUM	NUM	_	2	nummod	_	_
 2	رپيا	رپيا	NOUN	NN	Case=Nom|Gend=Masc|Number=Pl	4	obj	_	_
 3	ھٿ	ھٿ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	compound	_	_
@@ -413,6 +469,7 @@
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = مار ! رڳو پنج رپيا مليا.
+# sent_id = 56
 1	مار	مار	INTJ	INTJ	_	6	discourse	_	_
 2	!	!	PUNCT	PUNCT	_	1	punct	_	_
 3	رڳو	رڳو	ADJ	JJ	Case=Nom|Degree=Pos|Gend=Masc|Number=Sg	5	amod	_	_
@@ -422,6 +479,7 @@
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # text = واہ واہ جام پيسا مليا.
+# sent_id = 57
 1	واہ	واہ	INTJ	INTJ	_	2	compound	_	_
 2	واہ	واہ	INTJ	INTJ	_	5	discourse	_	_
 3	جام	جام	ADJ	JJ	Degree=Pos	4	amod	_	_
@@ -430,6 +488,7 @@
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = مبارڪون توھان پاس ٿيا.
+# sent_id = 58
 1	مبارڪون	مبارڪون	NOUN	NN	Case=Nom|Gend=Fem|Number=Pl	4	xcomp	_	_
 2	توھان	توھان	PRON	PRP	Case=Obl|Number=Pl|Person=2	4	nsubj	_	_
 3	پاس	پاس	NOUN	NN	Case=Nom	4	compound	_	_
@@ -437,6 +496,7 @@
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = او مشتاق ڪٿي آھين؟
+# sent_id = 59
 1	او	او	INTJ	INTJ	Type=Call	3	discourse	_	_
 2	مشتاق	مشتاق	PROPN	NNP	Case=Nom|Gend=Masc|Number=Sg	3	nsubj	_	_
 3	ڪٿي	ڪٿي	ADV	ADP	_	0	root	_	_
@@ -444,6 +504,7 @@
 5	؟	؟	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = هڪڙو گدڙ ڪنهن نيروٽيءَ جي دڪان ۾ ويو، کيس چيائين ته: مونکي نير جي ڪـُن ۾ مان هڪڙي ٽٻي ڏيار.
+# sent_id = 60
 1	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gend=Masc|Number=Sg	2	amod	_	_
 2	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	8	nsubj	_	_
 3	ڪنهن	ڪنهن	PRON	PRWH	Case=Obl|Number=Sg	4	nmod	_	_
@@ -469,6 +530,7 @@
 23	.	.	PUNCT	PUNCT	_	22	punct	_	_
 
 # text = نيروٽيءَ گدڙ کي خوش ڪرڻ لاءِ کيس ڪـُن مان هڪڙي ٽٻي ڏياري.
+# sent_id = 61
 1	نيروٽيءَ	نيروٽيءَ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	5	nsubj	_	_
 2	گدڙ	گدڙ	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	5	obj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
@@ -484,6 +546,7 @@
 13	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # text = گدڙ پنهنجي بدن جو رنگ مٽيل ڏسي سرهو ٿيو.
+# sent_id = 62
 1	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	9	nsubj	_	_
 2	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Number=Sg|Person=1	3	nmod	_	_
 3	بدن	بدن	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	5	nmod	_	_
@@ -496,6 +559,7 @@
 10	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # text = پوءِ ڪنن ۾ ڦولهڙيون وجهي، ٻين گدڙن وٽ آيو ۽ ساڻن صلاح ڪري پاڻ کيُ ”سلطان“جو لقب ڏيئي، تلاءَ جي ڪپ تي، هڪڙي وڏي سقـُڪل ڇيڻي تي چڙهي ويهي رهيو.
+# sent_id = 63
 1	پوءِ	پوءِ	ADV	ADT	_	10	advmod	_	_
 2	ڪنن	ڪنن	NOUN	NN	Case=Obl|Gend=Masc|Number=Pl	5	obl	_	_
 3	۾	۾	ADP	PSP	Type=Loc	2	case	_	_
@@ -535,6 +599,7 @@
 37	.	.	PUNCT	PUNCT	_	35	punct	_	_
 
 # text = ايتري ۾ ٻڪرين جو هڪڙو ڌڻ انهيءَ تلاءَ تي پاڻي پيڻ لاءِ آيو.
+# sent_id = 64
 1	ايتري	ايتري	ADJ	JJ	Case=Obl|Gend=Masc|Number=Sg	13	obl	_	_
 2	۾	۾	ADP	PSP	Type=Loc	1	case	_	_
 3	ٻڪرين	ٻڪرين	NOUN	NN	Case=Obl|Gend=Fem|Number=Pl	6	nmod	_	_
@@ -551,6 +616,7 @@
 14	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
 # text = گدڙ ڪاوڙ ۾ سيٽجي ٻڪرين کي پاڻي پيئڻ کان روڪيو ۽ چيائين ته: پهريائين منهنجي ساراهه ڪريو، پوءِ ڀلي پاڻي پيئو.
+# sent_id = 65
 1	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	10	nsubj	_	_
 2	ڪاوڙ	ڪاوڙ	NOUN	NN	Case=Obl|Gend=Fem|Number=Sg	4	obl	_	_
 3	۾	۾	ADP	PSP	Type=Loc	2	case	_	_
@@ -577,6 +643,7 @@
 24	.	.	PUNCT	PUNCT	_	23	punct	_	_
 
 # text = گدڙ پنهنجي ساراهه ٻڌي ڏاڍو خوش ٿيو، ۽ ٻڪرين کي پاڻي پيئڻ جي موڪل ڏنائين.
+# sent_id = 66
 1	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	nsubj	_	_
 2	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gend=Fem|Number=Sg	3	nmod	_	_
 3	ساراهه	ساراهه	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	4	obj	_	_
@@ -596,6 +663,7 @@
 17	.	.	PUNCT	PUNCT	_	16	punct	_	_
 
 # text = اهڙيءَ طرح وري ٻيا ڌڻ اچڻ لڳا.
+# sent_id = 67
 1	اهڙيءَ	اهڙيءَ	DET	PRD	Case=Nom|Gend=Fem|Number=Sg	2	det	_	_
 2	طرح	طرح	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	7	obl	_	_
 3	وري	وري	ADV	ADM	_	7	advmod	_	_
@@ -606,6 +674,7 @@
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # text = ڍڳيون، مينهون، اُٺ وغيره، جي پڻ گدڙ جي ساڳيءَ طرح ساراهه ڪندا، پاڻي پيئندا روانا ٿيا.
+# sent_id = 68
 1	ڍڳيون	ڍڳيون	NOUN	NN	Case=Nom|Gend=Fem|Number=Pl	19	nsubj	_	SpaceAfter=No
 2	،	،	PUNCT	PUNCT	_	3	punct	_	_
 3	مينهون	مينهون	NOUN	NN	Case=Nom|Gend=Fem|Number=Pl	1	conj	_	SpaceAfter=No
@@ -629,6 +698,7 @@
 21	.	.	PUNCT	PUNCT	_	19	punct	_	_
 
 # text = پڇاڙيءَ ۾ هڪڙي پوڙهي رِڍَ سهڪندي سهڪندي تلاءُ تي آئي.
+# sent_id = 69
 1	پڇاڙيءَ	پڇاڙيءَ	NOUN	NN	Case=Obl|Gend=Fem|Number=Sg	10	obl	_	_
 2	۾	۾	ADP	PSP	Type=Loc	1	case	_	_
 3	هڪڙي	هڪڙي	ADJ	JJC	Case=Nom|Gend=Fem|Number=Sg	5	amod	_	_
@@ -642,6 +712,7 @@
 11	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
 # text = رِڍَ کي هئي سخت اُڃ، تنهن يڪدم کڻي پاڻيءَ ۾ منهن هنيو.
+# sent_id = 70
 1	رِڍَ	رِڍَ	NOUN	NN	Case=Obl|Gend=Fem|Number=Sg	5	nsubj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
 3	هئي	هئي	AUX	VAUX	Number=Sg|Tense=Past	5	cop	_	_
@@ -658,6 +729,7 @@
 14	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
 # text = انهيءَ تي گدڙ هڪل ڪري چيس ته: پهريائين منهنجي ساراهه ڪر، پوءِ پاڻي پيءُ!
+# sent_id = 71
 1	انهيءَ	انهيءَ	DET	PRD	Case=Obl|Number=Sg|Person=3	6	obl	_	_
 2	تي	تي	ADP	PSP	Type=Loc	1	case	_	_
 3	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	6	nsubj	_	_
@@ -677,6 +749,7 @@
 17	!	!	PUNCT	PUNCT	_	16	punct	_	_
 
 # text = رِڍَ چيس ته: ماما! ڏاڍي اُڃ لڳي اٿم، موڪل ڏينم ته پهرين پاڻي پيان، پوءِ تنهنجي ساراهه ڪنديس.
+# sent_id = 72
 1	رِڍَ	رِڍَ	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	2	nsubj	_	_
 2	چيس	چيس	VERB	VMX	Aspect=Perf|Number[Obj]=Sg|Person[Obj]=2	0	root	_	_
 3	ته	ته	SCONJ	CS	_	2	mark	_	SpaceAfter=No
@@ -702,6 +775,7 @@
 23	.	.	PUNCT	PUNCT	_	22	punct	_	_
 
 # text = تنهن تي گدڙ کيس پاڻي پيئڻ جي موڪل ڏني.
+# sent_id = 73
 1	تنهن	تنهن	PRON	PRL	Case=Obl|Number=Sg|Person=3	9	obl	_	_
 2	تي	تي	ADP	PSP	Type=Loc	1	case	_	_
 3	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	9	nsubj	_	_
@@ -714,6 +788,7 @@
 10	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # text = رِڍ- پاڻي پي ڍؤ ڪيو، ۽ اڳتي هلي هڪڙي وڻ جي ڀر ۾ بيهي سندس ساراهه ڪرڻ لڳي.
+# sent_id = 74
 1	رِڍ	رِڍ	NOUN	NN	Case=Nom|Gend=fem|Number=Sg	6	nsubj	_	SpaceAfter=No
 2	-	-	PUNCT	PUNCT	_	1	punct	_	_
 3	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	obj	_	_
@@ -737,6 +812,7 @@
 21	.	.	PUNCT	PUNCT	_	20	punct	_	_
 
 # text = ڪن تيڏي وچ ڦولهڙيان، ساڳيا گـدڙ ٻيٺاهين.
+# sent_id = 75
 1	ڪن	ڪن	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	nmod	_	_
 2	تيڏي	تيڏي	PRON	PRP	Case=Gen|Gend=Masc|Number=Sg|Person=2	1	nmod	_	_
 3	وچ	وچ	ADP	PSP	_	1	case	_	_
@@ -748,6 +824,7 @@
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # text = اهو ٻڌڻ سان گدڙ سڙي پچي ويو ۽ رِڍَ تي حملو ڪيائين.
+# sent_id = 76
 1	اهو	اهو	PRON	PRD	Case=Nom|Gend=Masc|Number=Sg	2	nsubj	_	_
 2	ٻڌڻ	ٻڌڻ	VERB	VM	VerbForm=Inf	6	advcl	_	_
 3	سان	سان	ADP	PSP	_	2	mark	_	_
@@ -763,6 +840,7 @@
 13	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # text = رِڍ گدڙ کي ڪاوڙ ۾ ڏسي هيڏانهن هوڏانهن نهاريو ته، کيس شڪاري ڪتا ڏسڻ ۾ آيا.
+# sent_id = 77
 1	رِڍ	رِڍ	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	9	nsubj	_	_
 2	گدڙ	گدڙ	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	6	obj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
@@ -783,6 +861,7 @@
 18	.	.	PUNCT	PUNCT	_	17	punct	_	_
 
 # text = سو گدڙ کي رڙ ڪري چيائين ته: ماما گدڙ! هو ته ڏس تنهنجو پيرو کنيو پيا اچن.
+# sent_id = 78
 1	سو	سو	PRON	PRL	Case=Nom|Gend=Masc|Number=Sg	6	nsubj	_	_
 2	گدڙ	گدڙ	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	5	obj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
@@ -805,6 +884,7 @@
 20	.	.	PUNCT	PUNCT	_	17	punct	_	_
 
 # text = گدڙ جو شڪاري ڪتن کي ڏٺو، سو وايون بطال ٿي ويس.
+# sent_id = 79
 1	گدڙ	گدڙ	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	6	nsubj	_	_
 2	جو	جو	ADP	PSP	_	1	case	_	_
 3	شڪاري	شڪاري	NOUN	NN	Case=Nom|Gend=Masc	4	nmod	_	_
@@ -820,6 +900,7 @@
 13	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
 # text = ۽ جهنگ منهن ڪري وٺي ڀڳو ۽ وري ڪڏهن پاڻ کي سلطان نه سڏايائين.
+# sent_id = 80
 1	۽	۽	CCONJ	CC	_	6	cc	_	_
 2	جهنگ	جهنگ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	obl	_	_
 3	منهن	منهن	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	compound	_	_
@@ -837,6 +918,7 @@
 15	.	.	PUNCT	PUNCT	_	14	punct	_	_
 
 # text = ڪنهن جهنگ ۾ هڪڙو شينهن پاڻي جي دُٻي تي غار ٺاهي اچي ويهي رهيو.
+# sent_id = 81
 1	ڪنهن	ڪنهن	DET	PRD	Case=Obl|Number=Sg	2	det	_	_
 2	جهنگ	جهنگ	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	13	obl	_	_
 3	۾	۾	ADP	PSP	Type=Loc	2	case	_	_
@@ -854,6 +936,7 @@
 15	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
 # text = جهنگ جا جانور پاڻي پيئڻ لاءِ سـِـڪي مـُـئا هئا.
+# sent_id = 82
 1	جهنگ	جهنگ	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	3	nmod	_	_
 2	جا	جا	ADP	PSP	Case=Nom|Gend=Masc|Number=Pl|Type=Gen	1	case	_	_
 3	جانور	جانور	NOUN	NN	Case=Nom|Gend=Masc|Number=Pl	8	nsubj	_	_
@@ -866,6 +949,7 @@
 10	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # text = انهيءَ جهنگ ۾ هڪڙو گدڙ ۽ گداڙي رهندا هئا، تن کي به اچي اُڃ تپايو.
+# sent_id = 83
 1	انهيءَ	انهيءَ	DET	PRD	Case=Obl|Number=Sg	2	det	_	_
 2	جهنگ	جهنگ	NOUN	NN	Case=Obl|Gend=Masc|Number=Sg	7	obl	_	_
 3	۾	۾	ADP	PSP	Type=Loc	2	case	_	_
@@ -885,6 +969,7 @@
 17	.	.	PUNCT	PUNCT	_	16	punct	_	_
 
 # text = نيٺ گدڙ، گداڙيءَ کي چيو ته: مان ٽي سؤ ڪوڙ ٺاهيا آهن، ڪو نه ڪو ڪوڙ هڻي، پاڻي پي اينداسين.
+# sent_id = 84
 1	نيٺ	نيٺ	ADV	ADV	_	6	advmod	_	_
 2	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	6	nsubj	_	SpaceAfter=No
 3	،	،	PUNCT	PUNCT	_	2	punct	_	_
@@ -912,6 +997,7 @@
 25	.	.	PUNCT	PUNCT	_	23	punct	_	_
 
 # text = گداڙي هن سان گڏ تلاءُ ڏانهن هلڻ لڳي.
+# sent_id = 85
 1	گداڙي	گداڙي	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	8	nsubj	_	_
 2	هن	هن	DET	PRD	Case=Obl|Number=Sg	8	obl	_	_
 3	سان	سان	ADP	PSP	_	2	case	_	_
@@ -923,6 +1009,7 @@
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # text = هلڻ وقت گداڙيءَ گدڙ کي چيو ته: گدڙ، هلون ته هـُـنهين ٿا، ڇونه ڪجهه پاڻي ڍُڪ پيو هلون؟
+# sent_id = 86
 1	هلڻ	هلڻ	VERB	VM	VerbForm=Inf	6	advcl	_	_
 2	وقت	وقت	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	6	obl	_	_
 3	گداڙيءَ	گداڙيءَ	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	6	nsubj	_	_
@@ -947,6 +1034,7 @@
 22	؟	؟	PUNCT	PUNCT	_	20	punct	_	_
 
 # text = گدڙ ۽ گداڙي پاڻي پي ڍؤ ڪيو، پوءِ شينهن سان گڏ هليا ۽ اچي پنهنجي گور تي بيٺا.
+# sent_id = 87
 1	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	7	nsubj	_	_
 2	۽	۽	CCONJ	CC	_	3	cc	_	_
 3	گداڙي	گداڙي	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	1	conj	_	_
@@ -969,6 +1057,7 @@
 20	.	.	PUNCT	PUNCT	_	19	punct	_	_
 
 # text = گدڙ چيو ته: مان ٻچا ڪڍي ٿو اچان.
+# sent_id = 88
 1	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	2	nsubj	_	_
 2	چيو	چيو	VERB	VM	_	0	root	_	_
 3	ته	ته	SCONJ	CS	_	2	mark	_	SpaceAfter=No
@@ -981,6 +1070,7 @@
 10	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # text = جڏهن گدڙ اندر ويو ۽ دير ڪيائين، تڏهن گداڙيءَ چيو ته: مان جهٽ پٽ ڪڍي ٿي اچان.
+# sent_id = 89
 1	جڏهن	جڏهن	ADV	ADT	_	4	advmod	_	_
 2	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	nsubj	_	_
 3	اندر	اندر	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	obl	_	_
@@ -1003,6 +1093,7 @@
 20	.	.	PUNCT	PUNCT	_	17	punct	_	_
 
 # text = ائين چئي اها به اندر ويئي ۽ وري نه موٽي.
+# sent_id = 90
 1	ائين	ائين	PRON	PRL	_	2	obl	_	_
 2	چئي	چئي	VERB	VM	VerbForm=ConjPart	6	advcl	_	_
 3	اها	اها	DET	PRD	Case=Nom|Gend=Fem|Number=Sg	6	nsubj	_	_
@@ -1016,6 +1107,7 @@
 11	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
 # text = تڏهن شينهن کين سڏ ڪيو.
+# sent_id = 91
 1	تڏهن	تڏهن	ADV	ADT	_	5	advmod	_	_
 2	شينهن	شينهن	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	5	nsubj	_	_
 3	کين	کين	ADP	PSPX	Case=Obl|Number=Pl|Person=3	2	case	_	_
@@ -1024,6 +1116,7 @@
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = گداڙيءَ اندران جواب ڏنو ته: شينهن شير خدا جا! تون موٽي وڃ، اسين پاڻ ۾ ٺهي ويا آهيون.
+# sent_id = 92
 1	گداڙيءَ	گداڙيءَ	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	4	nsubj	_	_
 2	اندران	اندران	NOUN	NN	Case=Abl|Gend=Fem|Number=Sg	4	obl	_	_
 3	جواب	جواب	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	obj	_	_
@@ -1048,6 +1141,7 @@
 22	.	.	PUNCT	PUNCT	_	19	punct	_	_
 
 # text = نيٺ شينهن ويچارو ارمان ڪندو هليو ويو.
+# sent_id = 93
 1	نيٺ	نيٺ	ADV	ADV	_	6	advmod	_	_
 2	شينهن	شينهن	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	6	nsubj	_	_
 3	ويچارو	ويچارو	ADJ	JJ	Case=Nom|Gend=Masc|Number=Sg	2	amod	_	_
@@ -1058,6 +1152,7 @@
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # text = گدڙ، ماني کاڌي، بعد ۾ مائيءَ کان ماني هضم ڪرائي پوءِ جند ڇڏيس.
+# sent_id = 94
 1	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gend=Masc|Number=Sg	4	nsubj	_	SpaceAfter=No
 2	،	،	PUNCT	PUNCT	_	1	punct	_	_
 3	ماني	ماني	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	4	obj	_	_
@@ -1076,6 +1171,7 @@
 16	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
 # text = مائي اها سربستي ڳالهه وڃي پنهنجي مڙس کي ٻڌائي.
+# sent_id = 95
 1	مائي	مائي	NOUN	NN	Case=Nom|Gend=Fem|Number=Sg	9	nsubj	_	_
 2	اها	اها	DET	PRD	_	4	det	_	_
 3	سربستي	سربستي	ADJ	JJ	Case=Nom|Gend=Fem|Number=Sg	4	amod	_	_
@@ -1088,6 +1184,7 @@
 10	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # text = مڙسس چيس: چڱو، هاڻي انهيءَ سان سڀاڻي مان پاڻهي پڄندس.
+# sent_id = 96
 1	مڙسس	مڙسس	NOUN	NNX	Case=Nom|Gend=Masc|Number=Sg|Person=3	2	nsubj	_	_
 2	چيس	چيس	VERB	VMX	Number[Obj]=Sg|Person[Obj]=3	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	PUNCT	_	2	punct	_	_
@@ -1103,6 +1200,7 @@
 13	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # text = تون سڀاڻي سويرو منهنجا ڪپڙا پائي هـَـرن تي اچجانءِ ۽ مان دير سان تنهنجا ڪپڙا پائي، ماني کڻي ايندس.
+# sent_id = 97
 1	تون	تون	PRON	PRP	Case=Nom|Number=Sg|Person=2	9	nsubj	_	_
 2	سڀاڻي	سڀاڻي	ADV	ADT	_	9	advmod	_	_
 3	سويرو	سويرو	ADV	ADT	_	6	advmod	_	_
@@ -1126,6 +1224,7 @@
 21	.	.	PUNCT	PUNCT	_	19	punct	_	_
 
 # text = ڏسان ته اهو گيدي گدڙ مون کان ڪيئن ٿو ماني ڦري.
+# sent_id = 98
 1	ڏسان	ڏسان	VERB	VM	Number=Sg|Person=1	0	root	_	_
 2	ته	ته	SCONJ	CS	_	1	mark	_	_
 3	اهو	اهو	DET	PRD	Case=Nom|Gend=Masc|Number=Sg	5	det	_	_
