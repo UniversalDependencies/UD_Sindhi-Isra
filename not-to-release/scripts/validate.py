@@ -1,3 +1,4 @@
+import argparse
 import sys
 
 import networkx as nx
@@ -22,7 +23,7 @@ ALLOWED_UPOS_TO_XPOS = {
     "INTJ":  ["INTJ"],
 }
 
-def validate(new_doc, print_sent_idx=False):
+def validate(new_doc, print_sent_idx=False, check_xpos=True):
     problem_sentences = set()
 
     printed = False
@@ -109,22 +110,23 @@ def validate(new_doc, print_sent_idx=False):
         except nx.NetworkXNoCycle:
             pass
 
-    printed = False
-    for sent_idx, sent in enumerate(new_doc.sentences):
-        for word_idx, word in enumerate(sent.words):
-            if not word.xpos or not word.upos:
-                continue
-            if word.upos in ALLOWED_UPOS_TO_XPOS:
-                if word.xpos not in ALLOWED_UPOS_TO_XPOS[word.upos]:
+    if check_xpos:
+        printed = False
+        for sent_idx, sent in enumerate(new_doc.sentences):
+            for word_idx, word in enumerate(sent.words):
+                if not word.xpos or not word.upos:
+                    continue
+                if word.upos in ALLOWED_UPOS_TO_XPOS:
+                    if word.xpos not in ALLOWED_UPOS_TO_XPOS[word.upos]:
+                        if not printed:
+                            printed = True
+                            print("XPOS ERRORS")
+                        print("Sentence %s (%d) word %d |%s| had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.xpos, word.upos))
+                else:
                     if not printed:
                         printed = True
                         print("XPOS ERRORS")
-                    print("Sentence %s (%d) word %d |%s| had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.xpos, word.upos))
-            else:
-                if not printed:
-                    printed = True
-                    print("XPOS ERRORS")
-                print("Sentence %s (%d) word %d |%s| had unknown upos |%s| with xpos |%s|" % (sent.sent_id, sent_idx, word_idx, word.text, word.upos, word.xpos))
+                    print("Sentence %s (%d) word %d |%s| had unknown upos |%s| with xpos |%s|" % (sent.sent_id, sent_idx, word_idx, word.text, word.upos, word.xpos))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -138,8 +140,13 @@ def validate(new_doc, print_sent_idx=False):
     return problem_sentences
 
 def main():
-    new_doc = CoNLL.conll2doc(sys.argv[1])
-    validate(new_doc)
+    parser = argparse.ArgumentParser(description='Validate a file of SD dependencies & tags')
+    parser.add_argument('filename', help='File to validate')
+    parser.add_argument('--no_check_xpos', action='store_false', dest='check_xpos', help="Don't check the xpos in the file")
+    args = parser.parse_args()
+
+    new_doc = CoNLL.conll2doc(args.filename)
+    validate(new_doc, check_xpos=args.check_xpos)
 
 if __name__ == '__main__':
     main()
