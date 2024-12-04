@@ -119,12 +119,12 @@ def validate(new_doc, print_sent_idx=False):
                     if not printed:
                         printed = True
                         print("XPOS ERRORS")
-                    print("Sentence %d word %d had xpos %s which is not allowed for upos %s" % (sent_idx, word_idx, word.xpos, word.upos))
+                    print("Sentence %s (%d) word %d |%s| had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.xpos, word.upos))
             else:
                 if not printed:
                     printed = True
                     print("XPOS ERRORS")
-                print("Sentence %d word %d had unknown upos |%s| with xpos |%s|" % (sent_idx, word_idx, word.upos, word.xpos))
+                print("Sentence %s (%d) word %d |%s| had unknown upos |%s| with xpos |%s|" % (sent.sent_id, sent_idx, word_idx, word.text, word.upos, word.xpos))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
