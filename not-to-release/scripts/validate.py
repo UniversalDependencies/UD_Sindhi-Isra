@@ -38,7 +38,15 @@ ALLOWED_UPOS_TO_FEATS = {
     "PROPN": ['Case=Abl', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Sg'],
     "PUNCT": [],
     "SCONJ": [],
-    "VERB":  ['Aspect=Con', 'Aspect=Imp', 'Aspect=Perf', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Gend[Obj]=Masc', 'Gend[Subj]=Fem', 'Gend[Subj]=Masc', 'Mood=Des', 'Number=Pl', 'Number=Sg', 'Number[Obj]=1', 'Number[Obj]=Pl', 'Number[Obj]=Sg', 'Number[Subj]=Pl', 'Number[Subj]=Sg', 'Person=1', 'Person=2', 'Person=3', 'Person[Obj]=1', 'Person[Obj]=2', 'Person[Obj]=3', 'Person[Subj]=1', 'Person[Subj]=2', 'Person[Subj]=3', 'Personx=2', 'Tense=Future', 'Tense=Past', 'Tense=Present', 'Type=Gen', 'VerbForm=Caus', 'VerbForm=ConjPart', 'VerbForm=FutPart', 'VerbForm=Futpart', 'VerbForm=Inf', 'VerbForm=PastPart', 'VerbForm=PresPart', 'VerbForm=VerbNoun', 'Voice=Act', 'Voice=Pass'],
+    "VERB":  ['Aspect=Con', 'Aspect=Imp', 'Aspect=Perf',
+              'Case=Nom', 'Case=Obl',
+              'Gend=Fem', 'Gend=Masc', 'Gend[Obj]=Masc', 'Gend[Subj]=Fem', 'Gend[Subj]=Masc',
+              'Mood=Des',
+              'Number=Pl', 'Number=Sg', 'Number[Obj]=1', 'Number[Obj]=Pl', 'Number[Obj]=Sg', 'Number[Subj]=Pl', 'Number[Subj]=Sg',
+              'Person=1', 'Person=2', 'Person=3', 'Person[Obj]=1', 'Person[Obj]=2', 'Person[Obj]=3', 'Person[Subj]=1', 'Person[Subj]=2', 'Person[Subj]=3', 'Personx=2',
+              'Tense=Future', 'Tense=Past', 'Tense=Present',
+              'Type=Gen',
+              'VerbForm=Caus', 'VerbForm=ConjPart', 'VerbForm=FutPart', 'VerbForm=Futpart', 'VerbForm=Inf', 'VerbForm=PastPart', 'VerbForm=PresPart', 'VerbForm=VerbNoun', 'Voice=Act', 'Voice=Pass'],
 }
 
 DISALLOWED_BLANK_FEATS = {"NOUN", "PROPN"}
