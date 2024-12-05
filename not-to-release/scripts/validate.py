@@ -24,9 +24,9 @@ ALLOWED_UPOS_TO_XPOS = {
 }
 
 ALLOWED_UPOS_TO_FEATS = {
-    "ADJ":   ['Aspect=Imp', 'Aspect=Perf', 'Case=Nom', 'Case=Obl', 'Degree=Comp', 'Degree=Pos', 'Degree=Super', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3', 'Tense=Past', 'Tense=Present'],
+    "ADJ":   ['Case=Nom', 'Case=Obl', 'Degree=Comp', 'Degree=Pos', 'Degree=Super', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3'],
     "ADP":   ['Aspect=Imp', 'Aspect=Perf', 'Case=Gen', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3', 'Tense=Past', 'Tense=Present', 'Type=Gen', 'Type=Loc', 'VerbForm=Inf', 'VerbForm=PresPart', 'Voice=Act'],
-    "ADV":   ['Aspect=Perf', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3', 'VerbForm=ConjPart'],
+    "ADV":   ['Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3'],
     "AUX":   ['AuxType=Be', 'Gend=Fem', 'Gend=Masc', 'Mood=Subj', 'Number=Pl', 'Number=Sg', 'Person=1', 'Person=2', 'Person=3', 'Tense=Future', 'Tense=Past', 'Tense=Present'],
     "CCONJ": [],
     "DET":   ['Case=Gen', 'Case=Nom', 'Case=Obl', 'Degree=Pos', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3'],
