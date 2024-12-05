@@ -23,7 +23,27 @@ ALLOWED_UPOS_TO_XPOS = {
     "INTJ":  ["INTJ"],
 }
 
-def validate(new_doc, print_sent_idx=False, check_xpos=True):
+ALLOWED_UPOS_TO_FEATS = {
+    "ADJ":   ['Aspect=Imp', 'Aspect=Perf', 'Case=Nom', 'Case=Obl', 'Degree=Comp', 'Degree=Pos', 'Degree=Super', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3', 'Tense=Past', 'Tense=Present'],
+    "ADP":   ['Aspect=Imp', 'Aspect=Perf', 'Case=Gen', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3', 'Tense=Past', 'Tense=Present', 'Type=Gen', 'Type=Loc', 'VerbForm=Inf', 'VerbForm=PresPart', 'Voice=Act'],
+    "ADV":   ['Aspect=Perf', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3', 'VerbForm=ConjPart'],
+    "AUX":   ['AuxType=Be', 'Gend=Fem', 'Gend=Masc', 'Mood=Subj', 'Number=Pl', 'Number=Sg', 'Person=1', 'Person=2', 'Person=3', 'Tense=Future', 'Tense=Past', 'Tense=Present'],
+    "CCONJ": [],
+    "DET":   ['Case=Gen', 'Case=Nom', 'Case=Obl', 'Degree=Pos', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3'],
+    "INTJ":  ['Type=Call'],
+    "NOUN":  ['Aspect=Imp', 'Case=Abl', 'Case=Nom', 'Case=Obl', 'Case=Voc', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3', 'Tense=Present', 'Type=Gen', 'Type=Loc', 'VerbForm=ConjPart', 'VerbForm=PresPart'],
+    "NUM":   ['Case=Nom', 'Number=Sg'],
+    "PART":  ['Type=Emph'],
+    "PRON":  ['Aspect=Perf', 'Case=Gen', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=1', 'Person=2', 'Person=3', 'Tense=Present', 'VerbForm=ConjPart'],
+    "PROPN": ['Case=Abl', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Sg'],
+    "PUNCT": [],
+    "SCONJ": [],
+    "VERB":  ['Aspect=Con', 'Aspect=Imp', 'Aspect=Perf', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Gend[Obj]=Masc', 'Gend[Subj]=Fem', 'Gend[Subj]=Masc', 'Mood=Des', 'Number=Pl', 'Number=Sg', 'Number[Obj]=1', 'Number[Obj]=Pl', 'Number[Obj]=Sg', 'Number[Subj]=Pl', 'Number[Subj]=Sg', 'Person=1', 'Person=2', 'Person=3', 'Person[Obj]=1', 'Person[Obj]=2', 'Person[Obj]=3', 'Person[Subj]=1', 'Person[Subj]=2', 'Person[Subj]=3', 'Personx=2', 'Tense=Future', 'Tense=Past', 'Tense=Present', 'Type=Gen', 'VerbForm=Caus', 'VerbForm=ConjPart', 'VerbForm=FutPart', 'VerbForm=Futpart', 'VerbForm=Inf', 'VerbForm=PastPart', 'VerbForm=PresPart', 'VerbForm=VerbNoun', 'Voice=Act', 'Voice=Pass'],
+}
+
+DISALLOWED_BLANK_FEATS = {"NOUN", "PROPN"}
+
+def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     problem_sentences = set()
 
     printed = False
@@ -134,8 +154,35 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True):
             if word.feats == '':
                 if not printed:
                     printed = True
-                    print("FEAT ERRORS")
-                print("Sentence %s word %d had blank features" % (sent_idx, word_idx))
+                    print("BLANK FEAT ERRORS")
+                print("Sentence %s (%d) word %d had blank features" % (sent.sent_id, sent_idx, word_idx))
+
+    if check_feats:
+        printed = False
+        for sent_idx, sent in enumerate(new_doc.sentences):
+            for word_idx, word in enumerate(sent.words):
+                if not word.upos:
+                    continue
+                if word.upos not in ALLOWED_UPOS_TO_FEATS:
+                    if not printed:
+                        printed = True
+                        print("FEATURE ERRORS")
+                    print("Sentence %s (%d) word %d had an unexpected upos %s with features" % (sent.sent_id, sent_idx, word_idx, word.upos))
+                    continue
+                if not word.feats or word.feats == '_':
+                    if word.upos in DISALLOWED_BLANK_FEATS:
+                        if not printed:
+                            printed = True
+                            print("FEATURE ERRORS")
+                        print("Sentence %s (%d) word %d had blank features, which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.upos))
+                    continue
+                feat_pieces = word.feats.split("|")
+                for feat in feat_pieces:
+                    if feat not in ALLOWED_UPOS_TO_FEATS[word.upos]:
+                        if not printed:
+                            printed = True
+                            print("FEATURE ERRORS")
+                        print("Sentence %s (%d) word %d had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx, feat, word.upos))
 
     return problem_sentences
 
@@ -143,10 +190,11 @@ def main():
     parser = argparse.ArgumentParser(description='Validate a file of SD dependencies & tags')
     parser.add_argument('filename', help='File to validate')
     parser.add_argument('--no_check_xpos', action='store_false', dest='check_xpos', help="Don't check the xpos in the file")
+    parser.add_argument('--no_check_feats', action='store_false', dest='check_feats', help="Don't check the feats in the file")
     args = parser.parse_args()
 
     new_doc = CoNLL.conll2doc(args.filename)
-    validate(new_doc, check_xpos=args.check_xpos)
+    validate(new_doc, check_xpos=args.check_xpos, check_feats=args.check_feats)
 
 if __name__ == '__main__':
     main()
