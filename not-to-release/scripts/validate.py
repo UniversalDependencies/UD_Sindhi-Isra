@@ -46,7 +46,7 @@ ALLOWED_UPOS_TO_FEATS = {
               'Person=1', 'Person=2', 'Person=3', 'Person[Obj]=1', 'Person[Obj]=2', 'Person[Obj]=3', 'Person[Subj]=1', 'Person[Subj]=2', 'Person[Subj]=3', 'Personx=2',
               'Tense=Future', 'Tense=Past', 'Tense=Present',
               'Type=Gen',
-              'VerbForm=Caus', 'VerbForm=ConjPart', 'VerbForm=FutPart', 'VerbForm=Futpart', 'VerbForm=Inf', 'VerbForm=PastPart', 'VerbForm=PresPart', 'VerbForm=VerbNoun', 'Voice=Act', 'Voice=Pass'],
+              'VerbForm=Caus', 'VerbForm=ConjPart', 'VerbForm=FutPart', 'VerbForm=Inf', 'VerbForm=PastPart', 'VerbForm=PresPart', 'VerbForm=VerbNoun', 'Voice=Act', 'Voice=Pass'],
 }
 
 DISALLOWED_BLANK_FEATS = {"NOUN", "PROPN"}
