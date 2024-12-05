@@ -24,8 +24,8 @@ ALLOWED_UPOS_TO_XPOS = {
 }
 
 ALLOWED_UPOS_TO_FEATS = {
-    "ADJ":   ['Case=Nom', 'Case=Obl', 'Degree=Comp', 'Degree=Pos', 'Degree=Super', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3'],
-    "ADP":   ['Case=Gen', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3', 'Type=Gen', 'Type=Loc', 'Voice=Act'],
+    "ADJ":   ['Case=Nom', 'Case=Obl', 'Degree=Comp', 'Degree=Pos', 'Degree=Super', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg'],
+    "ADP":   ['Case=Gen', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3', 'Type=Gen', 'Type=Loc'],
     "ADV":   ['Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Pl', 'Number=Sg', 'Person=3'],
     "AUX":   ['AuxType=Be', 'Gend=Fem', 'Gend=Masc', 'Mood=Subj', 'Number=Pl', 'Number=Sg', 'Person=1', 'Person=2', 'Person=3', 'Tense=Future', 'Tense=Past', 'Tense=Present'],
     "CCONJ": [],
