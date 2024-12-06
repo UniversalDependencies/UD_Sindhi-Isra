@@ -5,6 +5,8 @@ import networkx as nx
 
 from stanza.utils.conll import CoNLL
 
+ALLOWED_UPOS = { "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "VERB"}
+
 ALLOWED_UPOS_TO_XPOS = {
     "NOUN":  ["NN", "NNX"],
     "PROPN": ["NNP"],
@@ -54,6 +56,16 @@ DISALLOWED_BLANK_FEATS = {"NOUN", "PROPN"}
 
 def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     problem_sentences = set()
+
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word.upos not in ALLOWED_UPOS:
+                if not printed:
+                    print("UNKNOWN UPOS")
+                    printed = True
+                problem_sentences.add(sent_idx)
+                print("Sentence %s (%d) word %d had an unknown upos |%s|" % (sent.sent_id, sent_idx, word_idx, word.upos))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
