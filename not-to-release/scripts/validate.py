@@ -5,7 +5,7 @@ import networkx as nx
 
 from stanza.utils.conll import CoNLL
 
-ALLOWED_UPOS = { "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "VERB"}
+ALLOWED_UPOS = { "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB"}
 
 ALLOWED_UPOS_TO_XPOS = {
     "NOUN":  ["NN", "NNX"],
@@ -40,6 +40,7 @@ ALLOWED_UPOS_TO_FEATS = {
     "PROPN": ['Case=Abl', 'Case=Nom', 'Case=Acc', 'Gend=Fem', 'Gend=Masc', 'Number=Sing'],
     "PUNCT": [],
     "SCONJ": [],
+    "SYM":   [],
     "VERB":  ['Aspect=Con', 'Aspect=Imp', 'Aspect=Perf',
               'Case=Nom', 'Case=Acc',
               'Gend=Fem', 'Gend=Masc', 'Gend[Obj]=Masc', 'Gend[Subj]=Fem', 'Gend[Subj]=Masc',
