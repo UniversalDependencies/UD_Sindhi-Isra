@@ -33,7 +33,7 @@ ALLOWED_UPOS_TO_FEATS = {
     "INTJ":  ['Type=Call'],
     "NOUN":  ['Case=Abl', 'Case=Nom', 'Case=Obl', 'Case=Voc', 'Gend=Fem', 'Gend=Masc', 'Number=Plur', 'Number=Sing', 'Person=3', 'Type=Gen', 'Type=Loc'],
     "NUM":   ['Case=Nom', 'Number=Sing'],
-    "PART":  ['Type=Emph'],
+    "PART":  ['PartType=Emp'],
     "PRON":  ['Case=Gen', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=2', 'Person=3'],
     "PROPN": ['Case=Abl', 'Case=Nom', 'Case=Obl', 'Gend=Fem', 'Gend=Masc', 'Number=Sing'],
     "PUNCT": [],
