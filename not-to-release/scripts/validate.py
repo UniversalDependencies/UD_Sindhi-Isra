@@ -32,7 +32,7 @@ ALLOWED_UPOS_TO_FEATS = {
     "AUX":   ['AuxType=Be', 'Gend=Fem', 'Gend=Masc', 'Mood=Sub', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=2', 'Person=3', 'Tense=Fut', 'Tense=Past', 'Tense=Pres'],
     "CCONJ": [],
     "DET":   ['Case=Gen', 'Case=Nom', 'Case=Acc', 'Gend=Fem', 'Gend=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
-    "INTJ":  ['Type=Call'],
+    "INTJ":  [],
     "NOUN":  ['Case=Abl', 'Case=Nom', 'Case=Acc', 'Case=Voc', 'Gend=Fem', 'Gend=Masc', 'Number=Plur', 'Number=Sing', 'Person=3', 'Type=Gen', 'Type=Loc'],
     "NUM":   ['Case=Nom', 'Number=Sing'],
     "PART":  ['PartType=Emp'],
