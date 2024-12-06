@@ -129,7 +129,10 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 continue
             graph.add_edge(word.head, word.id, word.deprel)
         try:
+            # will throw an error if there is no cycle
             cycle = nx.find_cycle(graph)
+
+            problem_sentences.add(sent_idx)
             if not printed:
                 printed = True
                 print("CYCLES")
@@ -147,11 +150,13 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     continue
                 if word.upos in ALLOWED_UPOS_TO_XPOS:
                     if word.xpos not in ALLOWED_UPOS_TO_XPOS[word.upos]:
+                        problem_sentences.add(sent_idx)
                         if not printed:
                             printed = True
                             print("XPOS ERRORS")
                         print("Sentence %s (%d) word %d |%s| had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.xpos, word.upos))
                 else:
+                    problem_sentences.add(sent_idx)
                     if not printed:
                         printed = True
                         print("XPOS ERRORS")
@@ -161,6 +166,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if word.feats == '':
+                problem_sentences.add(sent_idx)
                 if not printed:
                     printed = True
                     print("BLANK FEAT ERRORS")
@@ -173,6 +179,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 if not word.upos:
                     continue
                 if word.upos not in ALLOWED_UPOS_TO_FEATS:
+                    problem_sentences.add(sent_idx)
                     if not printed:
                         printed = True
                         print("FEATURE ERRORS")
@@ -180,6 +187,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     continue
                 if not word.feats or word.feats == '_':
                     if word.upos in DISALLOWED_BLANK_FEATS:
+                        problem_sentences.add(sent_idx)
                         if not printed:
                             printed = True
                             print("FEATURE ERRORS")
@@ -188,6 +196,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 feat_pieces = word.feats.split("|")
                 for feat in feat_pieces:
                     if feat not in ALLOWED_UPOS_TO_FEATS[word.upos]:
+                        problem_sentences.add(sent_idx)
                         if not printed:
                             printed = True
                             print("FEATURE ERRORS")
