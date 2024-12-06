@@ -197,13 +197,15 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
 
 def main():
     parser = argparse.ArgumentParser(description='Validate a file of SD dependencies & tags')
-    parser.add_argument('filename', help='File to validate')
+    parser.add_argument('filename', nargs='+', help='File to validate')
     parser.add_argument('--no_check_xpos', action='store_false', dest='check_xpos', help="Don't check the xpos in the file")
     parser.add_argument('--no_check_feats', action='store_false', dest='check_feats', help="Don't check the feats in the file")
     args = parser.parse_args()
 
-    new_doc = CoNLL.conll2doc(args.filename)
-    validate(new_doc, check_xpos=args.check_xpos, check_feats=args.check_feats)
+    for filename in args.filename:
+        print("Validating %s" % filename)
+        new_doc = CoNLL.conll2doc(filename)
+        validate(new_doc, check_xpos=args.check_xpos, check_feats=args.check_feats)
 
 if __name__ == '__main__':
     main()
