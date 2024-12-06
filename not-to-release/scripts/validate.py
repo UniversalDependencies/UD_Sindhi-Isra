@@ -42,7 +42,7 @@ ALLOWED_UPOS_TO_FEATS = {
               'Case=Nom', 'Case=Obl',
               'Gend=Fem', 'Gend=Masc', 'Gend[Obj]=Masc', 'Gend[Subj]=Fem', 'Gend[Subj]=Masc',
               'Mood=Des',
-              'Number=Plur', 'Number=Sing', 'Number[Obj]=1', 'Number[Obj]=Pl', 'Number[Obj]=Sg', 'Number[Subj]=Pl', 'Number[Subj]=Sg',
+              'Number=Plur', 'Number=Sing', 'Number[Obj]=1', 'Number[Obj]=Plur', 'Number[Obj]=Sing', 'Number[Subj]=Plur', 'Number[Subj]=Sing',
               'Person=1', 'Person=2', 'Person=3', 'Person[Obj]=1', 'Person[Obj]=2', 'Person[Obj]=3', 'Person[Subj]=1', 'Person[Subj]=2', 'Person[Subj]=3', 'Personx=2',
               'Tense=Fut', 'Tense=Past', 'Tense=Pres',
               'Type=Gen',

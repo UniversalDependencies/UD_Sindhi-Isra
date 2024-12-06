@@ -19,7 +19,7 @@
 1	چوڪرو	چوڪرو	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	3	nsubj	_	_
 2	راند	راند	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	3	obj	_	_
 3	کيڏي	کيڏي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
-4	پيو	پيو	VERB	VM	Aspect=Con|Gend=Masc|Number[Subj]=Sg|Tense=Pres	3	compound	_	SpaceAfter=No
+4	پيو	پيو	VERB	VM	Aspect=Con|Gend=Masc|Number[Subj]=Sing|Tense=Pres	3	compound	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = چوڪرا راند کيڏن ٿا.
@@ -97,7 +97,7 @@
 # sent_id = 11
 1	آئون	آئون	PRON	PRP	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
 2	راند	راند	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	3	obj	_	_
-3	کيڏان	کيڏان	VERB	VMX	Aspect=Imp|Number[Subj]=Sg|Person[Subj]=1	0	root	_	_
+3	کيڏان	کيڏان	VERB	VMX	Aspect=Imp|Number[Subj]=Sing|Person[Subj]=1	0	root	_	_
 4	ھا	ھا	AUX	VAUX	Mood=Sub|Tense=Past	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -105,7 +105,7 @@
 # sent_id = 12
 1	اسين	اسين	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
 2	راند	راند	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	3	obj	_	_
-3	کيڏون	کيڏون	VERB	VMX	Aspect=Imp|Number[Subj]=Pl|Person[Subj]=1	0	root	_	_
+3	کيڏون	کيڏون	VERB	VMX	Aspect=Imp|Number[Subj]=Plur|Person[Subj]=1	0	root	_	_
 4	ھا	ھا	AUX	VAUX	Mood=Sub|Tense=Past	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -121,7 +121,7 @@
 # sent_id = 14
 1	اسان	اسان	PRON	PRP	Case=Obl|Number=Plur|Person=1	3	nsubj	_	_
 2	راند	راند	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	3	obj	_	_
-3	کيڏياسين	کيڏياسين	VERB	VMX	Aspect=Perf|Number[Subj]=Pl|Person[Subj]=1|Tense=Past	0	root	_	SpaceAfter=No
+3	کيڏياسين	کيڏياسين	VERB	VMX	Aspect=Perf|Number[Subj]=Plur|Person[Subj]=1|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = احمد مون کي ڪتاب ڏنو.
@@ -172,7 +172,7 @@
 # sent_id = 20
 1	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
 2	سڀاڻي	سڀاڻي	ADV	ADT	Gend=Masc	3	advmod	_	_
-3	اڇجانءِ	اڇجانءِ	VERB	VMX	Mood=Des|Number[Subj]=Sg|Person[Subj]=1|Tense=Fut	0	root	_	SpaceAfter=No
+3	اڇجانءِ	اڇجانءِ	VERB	VMX	Mood=Des|Number[Subj]=Sing|Person[Subj]=1|Tense=Fut	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = پاڻي آھستي پيئجي.
@@ -440,20 +440,20 @@
 # text = خط لکانس ٿو.
 # sent_id = 52
 1	خط	خط	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	2	obj	_	_
-2	لکانس	لکانس	VERB	VMX	Aspect=Imp|Number[Subj]=Sg|Person[Subj]=1|Number[Obj]=Sg|Person[Obj]=2	0	root	_	_
+2	لکانس	لکانس	VERB	VMX	Aspect=Imp|Number[Subj]=Sing|Person[Subj]=1|Number[Obj]=Sing|Person[Obj]=2	0	root	_	_
 3	ٿو	ٿو	AUX	VAUX	Gend=Masc|Number=Sing|Tense=Pres	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # text = پنو ڦاڙيم پئي.
 # sent_id = 53
 1	پنو	پنو	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	2	obj	_	_
-2	ڦاڙيم	ڦاڙيم	VERB	VMX	Person[Subj]=1|Number[Subj]=Sg|VerbForm=PastPart	0	root	_	_
+2	ڦاڙيم	ڦاڙيم	VERB	VMX	Person[Subj]=1|Number[Subj]=Sing|VerbForm=PastPart	0	root	_	_
 3	پئي	پئي	VERB	VM	Number=Sing|Person=1|Tense=Past	2	compound	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # text = چيومانو تہ ڪتاب پڙھو.
 # sent_id = 54
-1	چيومانو	چيومانو	VERB	VMX	Aspect=Perf|Number[Subj]=Sg|Person[Subj]=1|Number[Obj]=Pl|Person[Obj]=2	0	root	_	_
+1	چيومانو	چيومانو	VERB	VMX	Aspect=Perf|Number[Subj]=Sing|Person[Subj]=1|Number[Obj]=Plur|Person[Obj]=2	0	root	_	_
 2	تہ	تہ	SCONJ	CS	_	4	mark	_	_
 3	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	4	nsubj	_	_
 4	پڙھو	پڙھو	VERB	VM	Aspect=Imp|Number=Plur|Person=3	1	advcl	_	SpaceAfter=No
@@ -751,7 +751,7 @@
 # text = رِڍَ چيس ته: ماما! ڏاڍي اُڃ لڳي اٿم، موڪل ڏينم ته پهرين پاڻي پيان، پوءِ تنهنجي ساراهه ڪنديس.
 # sent_id = 72
 1	رِڍَ	رِڍَ	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	2	nsubj	_	_
-2	چيس	چيس	VERB	VMX	Aspect=Perf|Number[Obj]=Sg|Person[Obj]=2	0	root	_	_
+2	چيس	چيس	VERB	VMX	Aspect=Perf|Number[Obj]=Sing|Person[Obj]=2	0	root	_	_
 3	ته	ته	SCONJ	CS	_	2	mark	_	SpaceAfter=No
 4	:	:	PUNCT	PUNCT	_	2	punct	_	_
 5	ماما	ماما	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
@@ -762,7 +762,7 @@
 10	اٿم	اٿم	AUX	VAUXX	Number=Sing|Person=1|Tense=Pres	9	aux	_	SpaceAfter=No
 11	،	،	PUNCT	PUNCT	_	9	punct	_	_
 12	موڪل	موڪل	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	13	compound	_	_
-13	ڏينم	ڏينم	VERB	VMX	Number[Subj]=Sg|Person[Subj]=2|Number[Obj]=1|Person[Obj]=1	17	advcl	_	_
+13	ڏينم	ڏينم	VERB	VMX	Number[Subj]=Sing|Person[Subj]=2|Number[Obj]=1|Person[Obj]=1	17	advcl	_	_
 14	ته	ته	SCONJ	CS	_	17	mark	_	_
 15	پهرين	پهرين	ADV	ADT	_	17	advmod	_	_
 16	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	17	obj	_	_
@@ -771,7 +771,7 @@
 19	پوءِ	پوءِ	ADV	ADT	_	22	advmod	_	_
 20	تنهنجي	تنهنجي	PRON	PRP	Case=Gen|Gend=Fem|Number=Sing|Person=2	21	nmod	_	_
 21	ساراهه	ساراهه	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	22	compound	_	_
-22	ڪنديس	ڪنديس	VERB	VMX	Gend[Subj]=Fem|Number[Subj]=Sg|Person[Subj]=1	17	advcl	_	SpaceAfter=No
+22	ڪنديس	ڪنديس	VERB	VMX	Gend[Subj]=Fem|Number[Subj]=Sing|Person[Subj]=1	17	advcl	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	22	punct	_	_
 
 # text = تنهن تي گدڙ کيس پاڻي پيئڻ جي موڪل ڏني.
@@ -867,7 +867,7 @@
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	رڙ	رڙ	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	5	compound	_	_
 5	ڪري	ڪري	VERB	VM	_	6	xcomp	_	_
-6	چيائين	چيائين	VERB	VMX	Aspect=Perf|Number[Subj]=Sg|Person[Subj]=3	0	root	_	_
+6	چيائين	چيائين	VERB	VMX	Aspect=Perf|Number[Subj]=Sing|Person[Subj]=3	0	root	_	_
 7	ته	ته	SCONJ	CS	_	6	mark	_	SpaceAfter=No
 8	:	:	PUNCT	PUNCT	_	6	punct	_	_
 9	ماما	ماما	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	10	nmod	_	_
@@ -896,7 +896,7 @@
 9	وايون	وايون	NOUN	NN	Case=Nom|Gend=Fem|Number=Plur	10	nsubj	_	_
 10	بطال	بطال	ADJ	JJ	Case=Nom	6	advcl	_	_
 11	ٿي	ٿي	AUX	VAUX	AuxType=Be	10	cop	_	_
-12	ويس	ويس	VERB	VMX	Aspect=Perf|Number[Subj]=Sg|Person[Subj]=2	10	compound	_	SpaceAfter=No
+12	ويس	ويس	VERB	VMX	Aspect=Perf|Number[Subj]=Sing|Person[Subj]=2	10	compound	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
 # text = ۽ جهنگ منهن ڪري وٺي ڀڳو ۽ وري ڪڏهن پاڻ کي سلطان نه سڏايائين.
@@ -914,7 +914,7 @@
 11	کي	کي	ADP	PSP	_	10	case	_	_
 12	سلطان	سلطان	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	14	compound	_	_
 13	نه	نه	PART	PART	_	14	dep	_	_
-14	سڏايائين	سڏايائين	VERB	VMX	Number[Subj]=Sg|Person[Subj]=3	6	conj	_	SpaceAfter=No
+14	سڏايائين	سڏايائين	VERB	VMX	Number[Subj]=Sing|Person[Subj]=3	6	conj	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	14	punct	_	_
 
 # text = ڪنهن جهنگ ۾ هڪڙو شينهن پاڻي جي دُٻي تي غار ٺاهي اچي ويهي رهيو.
@@ -993,7 +993,7 @@
 21	،	،	PUNCT	PUNCT	_	20	punct	_	_
 22	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	23	obj	_	_
 23	پي	پي	VERB	VM	VerbForm=ConjPart	13	advcl	_	_
-24	اينداسين	اينداسين	VERB	VMX	Number[Subj]=Pl|Person[Subj]=1|VerbForm=PresPart	23	compound	_	SpaceAfter=No
+24	اينداسين	اينداسين	VERB	VMX	Number[Subj]=Plur|Person[Subj]=1|VerbForm=PresPart	23	compound	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	23	punct	_	_
 
 # text = گداڙي هن سان گڏ تلاءُ ڏانهن هلڻ لڳي.
@@ -1167,7 +1167,7 @@
 12	ڪرائي	ڪرائي	VERB	VM	VerbForm=ConjPart	15	advcl	_	_
 13	پوءِ	پوءِ	ADV	ADT	_	15	advmod	_	_
 14	جند	جند	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	15	obj	_	_
-15	ڇڏيس	ڇڏيس	VERB	VMX	Aspect=Perf|Number[Subj]=Sg|Person[Subj]=3	4	advcl	_	SpaceAfter=No
+15	ڇڏيس	ڇڏيس	VERB	VMX	Aspect=Perf|Number[Subj]=Sing|Person[Subj]=3	4	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
 # text = مائي اها سربستي ڳالهه وڃي پنهنجي مڙس کي ٻڌائي.
@@ -1186,7 +1186,7 @@
 # text = مڙسس چيس: چڱو، هاڻي انهيءَ سان سڀاڻي مان پاڻهي پڄندس.
 # sent_id = 96
 1	مڙسس	مڙسس	NOUN	NNX	Case=Nom|Gend=Masc|Number=Sing|Person=3	2	nsubj	_	_
-2	چيس	چيس	VERB	VMX	Number[Obj]=Sg|Person[Obj]=3	0	root	_	SpaceAfter=No
+2	چيس	چيس	VERB	VMX	Number[Obj]=Sing|Person[Obj]=3	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	PUNCT	_	2	punct	_	_
 4	چڱو	چڱو	ADJ	JJ	Case=Nom|Degree=Pos|Gend=Masc|Number=Sing	2	discourse	_	SpaceAfter=No
 5	،	،	PUNCT	PUNCT	_	4	punct	_	_
@@ -1196,7 +1196,7 @@
 9	سڀاڻي	سڀاڻي	ADV	ADT	_	12	advmod	_	_
 10	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	12	nsubj	_	_
 11	پاڻهي	پاڻهي	PRON	PRP	Case=Nom|Number=Sing|Person=1	12	obj	_	_
-12	پڄندس	پڄندس	VERB	VMX	Number[Subj]=Sg|Person[Subj]=1	2	ccomp	_	SpaceAfter=No
+12	پڄندس	پڄندس	VERB	VMX	Number[Subj]=Sing|Person[Subj]=1	2	ccomp	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # text = تون سڀاڻي سويرو منهنجا ڪپڙا پائي هـَـرن تي اچجانءِ ۽ مان دير سان تنهنجا ڪپڙا پائي، ماني کڻي ايندس.
@@ -1209,7 +1209,7 @@
 6	پائي	پائي	VERB	VM	VerbForm=ConjPart	9	advcl	_	_
 7	هـَـرن	هـَـرن	NOUN	NN	Case=Obl|Gend=Masc|Number=Plur	9	obl	_	_
 8	تي	تي	ADP	PSP	Type=Loc	7	case	_	_
-9	اچجانءِ	اچجانءِ	VERB	VMX	Number[Subj]=Sg|Person[Subj]=2	0	root	_	_
+9	اچجانءِ	اچجانءِ	VERB	VMX	Number[Subj]=Sing|Person[Subj]=2	0	root	_	_
 10	۽	۽	CCONJ	CC	_	19	cc	_	_
 11	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	19	nsubj	_	_
 12	دير	دير	NOUN	NN	Case=Obl|Gend=Fem|Number=Sing	16	obl	_	_
@@ -1220,7 +1220,7 @@
 17	،	،	PUNCT	PUNCT	_	16	punct	_	_
 18	ماني	ماني	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	19	obj	_	_
 19	کڻي	کڻي	VERB	VM	_	9	conj	_	_
-20	ايندس	ايندس	VERB	VMX	Number[Subj]=Sg|Person[Subj]=1|Tense=Fut	19	compound	_	SpaceAfter=No
+20	ايندس	ايندس	VERB	VMX	Number[Subj]=Sing|Person[Subj]=1|Tense=Fut	19	compound	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	19	punct	_	_
 
 # text = ڏسان ته اهو گيدي گدڙ مون کان ڪيئن ٿو ماني ڦري.
