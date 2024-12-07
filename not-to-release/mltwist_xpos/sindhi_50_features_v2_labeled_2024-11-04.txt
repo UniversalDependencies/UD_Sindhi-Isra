@@ -1,14 +1,14 @@
 # sent_id = 0
 # text = اهي اسڪول وڃن ٿا.
-1	اهي	_	DET	PRD	Case=Nom|Number=Plur|Gend=Masc	3	nsubj	_	_
-2	اسڪول	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	3	obj	_	_
-3	وڃن	_	VERB	VM	Aspect=Perf|Gend=Masc|Number=Plur|Tense=Pres|Voice=Act	0	root	_	_
-4	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres|Gend=Masc	3	aux	_	SpaceAfter=No
+1	اهي	_	DET	PRD	Case=Nom|Number=Plur|Gender=Masc	3	nsubj	_	_
+2	اسڪول	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+3	وڃن	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Tense=Pres|Voice=Act	0	root	_	_
+4	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres|Gender=Masc	3	aux	_	SpaceAfter=No
 5	.	_	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 1
 # text = اسان مسلمان آهيون.
-1	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1|Gend=Masc	2	nsubj	_	_
+1	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1|Gender=Masc	2	nsubj	_	_
 2	مسلمان	_	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
 3	آهيون	_	AUX	VAUX	Number=Plur|Tense=Pres|AuxType=Be	2	cop	_	SpaceAfter=No
 4	.	_	PUNCT	PUNCT	_	2	punct	_	_
@@ -16,39 +16,39 @@
 # sent_id = 2
 # text = آئون پنجين ڪلاس ۾ پڙهان ٿو.
 1	آئون	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
-2	پنجين	_	ADJ	JJC	Case=Acc|Gend=Masc|Number=Sing	3	amod	_	_
-3	ڪلاس	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	5	obl	_	_
+2	پنجين	_	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	_
+3	ڪلاس	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
 4	۾	_	ADP	PSP	Type=Loc	3	case	_	_
-5	پڙهان	_	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres|Voice=Act|Gend=Masc	0	root	_	_
-6	ٿو	_	AUX	VAUX	Gend=Masc|Number=Sing|Tense=Pres	5	aux	_	SpaceAfter=No
+5	پڙهان	_	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres|Voice=Act|Gender=Masc	0	root	_	_
+6	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	aux	_	SpaceAfter=No
 7	.	_	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 3
 # text = هيءُ منهنجو دوست آهي.
 1	هيءُ	_	DET	PRD	Case=Nom|Number=Sing	3	nsubj	_	_
-2	منهنجو	_	PRON	PRP	Case=Gen|Gend=Masc|Number=Sing	3	nmod	_	_
-3	دوست	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	0	root	_	_
+2	منهنجو	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+3	دوست	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	SpaceAfter=No
 5	.	_	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 4
 # text = لفظ ٻار جي لفظي معنيٰ آهي.
-1	لفظ	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	5	nsubj	_	_
-2	ٻار	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	5	nmod	_	_
-3	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	2	case	_	_
-4	لفظي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gend=Masc|Number=Sing	5	amod	_	_
-5	معنيٰ	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	0	root	_	_
+1	لفظ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	ٻار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+3	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
+4	لفظي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	معنيٰ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	آهي	_	AUX	VAUX	Number=Plur|Tense=Pres	5	cop	_	SpaceAfter=No
 7	.	_	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 5
 # text = لفظ ٻال سنسڪرت جي لفظ بال مان ورتل آهي.
-1	لفظ	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	2	nmod	_	_
-2	ٻال	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	8	nsubj	_	_
-3	سنسڪرت	_	PROPN	NNP	Case=Acc|Gend=Masc	5	nmod	_	_
-4	جي	_	ADP	PSP	Case=Acc|Gend=Masc|Number=Sing|Type=Gen	3	case	_	_
-5	لفظ	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	6	nmod	_	_
-6	بال	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	8	obl	_	_
+1	لفظ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	ٻال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	سنسڪرت	_	PROPN	NNP	Case=Acc|Gender=Masc	5	nmod	_	_
+4	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	3	case	_	_
+5	لفظ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	بال	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 7	مان	_	ADP	PSP	Type=Loc	6	case	_	_
 8	ورتل	_	VERB	VM	Aspect=Perf|Number=Sing|Tense=Past|Voice=Act	0	root	_	_
 9	آهي	_	AUX	VAUX	Number=Plur|Tense=Pres	8	aux	_	SpaceAfter=No
@@ -57,136 +57,136 @@
 # sent_id = 6
 # text = جنهن جي معنيٰ آهي.
 1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	1	case	_	_
-3	معنيٰ	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	0	root	_	_
+2	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+3	معنيٰ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	آهي	_	AUX	VAUX	Number=Plur|Tense=Pres	3	cop	_	SpaceAfter=No
 5	.	_	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 7
 # text = انسائيڪليوپيڊيا برٽينڪا موجب ٻار چوڏهن کان پندرهن سالن جي عمر وارو ٻالڪ آهي.
-1	انسائيڪليوپيڊيا	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	2	compound	_	_
-2	برٽينڪا	_	PROPN	NNP	Case=Acc|Gend=Masc	12	obl	_	_
+1	انسائيڪليوپيڊيا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	_
+2	برٽينڪا	_	PROPN	NNP	Case=Acc|Gender=Masc	12	obl	_	_
 3	موجب	_	ADP	PSP	_	2	case	_	_
-4	ٻار	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	12	nsubj	_	_
+4	ٻار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 5	چوڏهن	_	NUM	NUM	_	8	nummod	_	_
-6	کان	_	ADP	PSP	Type=Loc|Gend=Masc	5	case	_	_
+6	کان	_	ADP	PSP	Type=Loc|Gender=Masc	5	case	_	_
 7	پندرهن	_	NUM	NUM	_	8	nummod	_	_
-8	سالن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	10	nmod	_	_
-9	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	8	case	_	_
-10	عمر	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	12	nmod	_	_
-11	وارو	_	ADP	PSP	Case=Nom|Gend=Masc|Number=Sing|Type=Gen	10	case	_	_
-12	ٻالڪ	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	0	root	_	_
+8	سالن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_
+9	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	8	case	_	_
+10	عمر	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+11	وارو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	10	case	_	_
+12	ٻالڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 13	آهي	_	AUX	VAUX	Number=Plur|Tense=Pres	12	cop	_	SpaceAfter=No
 14	.	_	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 8
 # text = جيڪو ڪا آکاڻي يا ڪو تصويري ڪتاب پڙهي ٿو.
-1	جيڪو	_	DET	PRD	Case=Nom|Number=Sing|Gend=Masc	8	nsubj	_	_
-2	ڪا	_	DET	PRD	Case=Nom|Number=Sing|Gend=Fem	3	det	_	_
-3	آکاڻي	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	8	obj	_	_
+1	جيڪو	_	DET	PRD	Case=Nom|Number=Sing|Gender=Masc	8	nsubj	_	_
+2	ڪا	_	DET	PRD	Case=Nom|Number=Sing|Gender=Fem	3	det	_	_
+3	آکاڻي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_
 4	يا	_	CCONJ	CC	_	7	cc	_	_
-5	ڪو	_	DET	PRD	Case=Nom|Number=Sing|Gend=Masc	7	det	_	_
+5	ڪو	_	DET	PRD	Case=Nom|Number=Sing|Gender=Masc	7	det	_	_
 6	تصويري	_	ADJ	JJ	Case=Nom|Number=Sing|Degree=Pos	7	amod	_	_
-7	ڪتاب	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	3	conj	_	_
+7	ڪتاب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 8	پڙهي	_	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres|Voice=Act	0	root	_	_
-9	ٿو	_	AUX	VAUX	Gend=Masc|Number=Sing|Tense=Pres	8	aux	_	SpaceAfter=No
+9	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	8	aux	_	SpaceAfter=No
 10	.	_	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 9
 # text = ان موجب ٻار يا ٻال لفظ ننڍي عمر جي لکڻ پڙهڻ ڄاڻيندڙ ماڻهوءَ ڏانهن اشارو ڪري ٿو.
 1	ان	_	DET	PRD	Case=Acc|Number=Sing	16	obl	_	_
 2	موجب	_	ADP	PSP	Type=Loc	1	case	_	_
-3	ٻار	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	16	nsubj	_	_
+3	ٻار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 4	يا	_	CCONJ	CC	_	5	cc	_	_
-5	ٻال	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	3	conj	_	_
-6	لفظ	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	16	nsubj	_	_
-7	ننڍي	_	ADJ	JJ	Case=Acc|Gend=Masc|Number=Sing	8	amod	_	_
-8	عمر	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	10	obl	_	_
-9	جي	_	ADP	PSP	Case=Acc|Gend=Masc|Number=Sing|Type=Gen	8	case	_	_
-10	لکڻ	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	11	advcl	_	_
+5	ٻال	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+6	لفظ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+7	ننڍي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
+8	عمر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+9	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	8	case	_	_
+10	لکڻ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	advcl	_	_
 11	پڙهڻ	_	VERB	VM	VerbForm=Inf	12	advcl	_	_
-12	ڄاڻيندڙ	_	VERB	VM	Aspect=Imp|Gend=Fem|Number=Sing|VerbForm=PresPart	13	amod	_	_
-13	ماڻهوءَ	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	16	obj	_	_
+12	ڄاڻيندڙ	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	13	amod	_	_
+13	ماڻهوءَ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
 14	ڏانهن	_	ADV	ADP	_	13	case	_	_
-15	اشارو	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	16	advmod	_	_
+15	اشارو	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	advmod	_	_
 16	ڪري	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
-17	ٿو	_	AUX	VAUX	Gend=Masc|Number=Sing|Tense=Pres	16	aux	_	SpaceAfter=No
+17	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	16	aux	_	SpaceAfter=No
 18	.	_	PUNCT	PUNCT	_	16	punct	_	_
 
 # sent_id = 10
 # text = جڏهن ته ٻاراڻو مان مراد ٻارن جو ٻار جهڙو ناداني وارو ڪم آهي.
 1	جڏهن	_	ADV	ADT	_	12	mark	_	_
 2	ته	_	SCONJ	CS	_	12	dep	_	_
-3	ٻاراڻو	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gend=Masc|Number=Sing	5	amod	_	_
+3	ٻاراڻو	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	5	amod	_	_
 4	مان	_	ADP	PSP	_	3	case	_	_
-5	مراد	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	12	nsubj	_	_
-6	ٻارن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	8	nmod	_	_
-7	جو	_	ADP	PSP	Case=Nom|Gend=Masc|Number=Sing|Type=Gen	6	case	_	_
-8	ٻار	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	10	nmod	_	_
-9	جهڙو	_	PRON	PRL	Number=Plur|Gend=Masc|Case=Nom	10	nmod	_	_
-10	ناداني	_	ADJ	JJ	Case=Acc|Gend=Fem|Number=Sing	12	nmod	_	_
-11	وارو	_	ADP	PSP	Case=Nom|Gend=Masc|Number=Sing|Type=Gen	10	case	_	_
-12	ڪم	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	0	root	_	_
+5	مراد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+6	ٻارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
+7	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	6	case	_	_
+8	ٻار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+9	جهڙو	_	PRON	PRL	Number=Plur|Gender=Masc|Case=Nom	10	nmod	_	_
+10	ناداني	_	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+11	وارو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	10	case	_	_
+12	ڪم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 13	آهي	_	AUX	VAUX	Number=Plur|Tense=Pres	12	cop	_	SpaceAfter=No
 14	.	_	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 11
 # text = لفظ اَدَبُ جي لفظي معنيٰ آهي.
-1	لفظ	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	5	nsubj	_	_
-2	اَدَبُ	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	1	nmod	_	_
-3	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	2	case	_	_
+1	لفظ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	اَدَبُ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
+3	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
 4	لفظي	_	ADJ	JJ	Case=Nom|Degree=Pos	5	amod	_	_
-5	معنيٰ	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	0	root	_	_
+5	معنيٰ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	آهي	_	AUX	VAUX	Number=Plur|Tense=Pres	5	cop	_	SpaceAfter=No
 7	.	_	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 12
 # text = نئين جديد انسائيڪليوپيڊيا موجب ٻاراڻي ادب مان مراد ڪوتائون.
-1	نئين	_	ADJ	JJ	Case=Nom|Degree=Pos|Gend=Masc|Number=Sing	3	amod	_	_
+1	نئين	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 2	جديد	_	ADJ	JJ	Case=Nom|Degree=Pos	3	amod	_	_
-3	انسائيڪليوپيڊيا	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	6	nmod	_	_
+3	انسائيڪليوپيڊيا	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 4	موجب	_	ADP	PSP	Type=Loc	3	case	_	_
-5	ٻاراڻي	_	ADJ	JJ	Case=Acc|Gend=Masc|Number=Sing|Degree=Pos	6	amod	_	_
-6	ادب	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	8	nmod	_	_
+5	ٻاراڻي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing|Degree=Pos	6	amod	_	_
+6	ادب	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
 7	مان	_	ADP	PSP	Type=Loc	6	case	_	_
-8	مراد	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	0	root	_	_
-9	ڪوتائون	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+8	مراد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+9	ڪوتائون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
 10	.	_	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 13
 # text = اھي آکاڻيون جيڪي ٻارن لاءِ لکيون ويون هجن.
 1	اھي	_	DET	PRD	Case=Nom|Number=Sing	2	det	_	_
-2	آکاڻيون	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Plur	6	nsubj	_	_
+2	آکاڻيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
 3	جيڪي	_	PRON	PRWH	Case=Nom|Number=Plur	6	nsubj	_	_
-4	ٻارن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	6	obl	_	_
+4	ٻارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_
 5	لاءِ	_	ADP	PSP	_	4	case	_	_
-6	لکيون	_	VERB	VM	Aspect=Perf|Gend=Fem|Number=Plur	0	root	_	_
-7	ويون	_	VERB	VM	Aspect=Perf|Gend=Fem|Number=Plur	6	compound	_	_
+6	لکيون	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	0	root	_	_
+7	ويون	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	6	compound	_	_
 8	هجن	_	VERB	VM	Number=Plur|Tense=Pres	6	compound	_	SpaceAfter=No
 9	.	_	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 14
 # text = اهڙا ڪتاب به جيڪي اصل ۾ وڏن لاءِ لکيا ويا هئا.
-1	اهڙا	_	DET	PRD	Case=Nom|Number=Plur|Gend=Masc	2	det	_	_
-2	ڪتاب	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Plur	9	nsubj	_	_
+1	اهڙا	_	DET	PRD	Case=Nom|Number=Plur|Gender=Masc	2	det	_	_
+2	ڪتاب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 3	به	_	PART	PART	_	2	dep	_	_
-4	جيڪي	_	PRON	PRWH	Case=Nom|Number=Plur|Gend=Masc	9	nsubj	_	_
-5	اصل	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	9	obl	_	_
+4	جيڪي	_	PRON	PRWH	Case=Nom|Number=Plur|Gender=Masc	9	nsubj	_	_
+5	اصل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 6	۾	_	ADP	PSP	Type=Loc	5	case	_	_
-7	وڏن	_	ADJ	JJ	Case=Acc|Gend=Masc|Number=Sing|Degree=Cmp	9	obl	_	_
+7	وڏن	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing|Degree=Cmp	9	obl	_	_
 8	لاءِ	_	ADP	PSP	Type=Loc	7	case	_	_
-9	لکيا	_	VERB	VM	Aspect=Perf|Gend=Masc|Number=Plur|Tense=Past	0	root	_	_
-10	ويا	_	VERB	VM	Aspect=Perf|Gend=Masc|Number=Plur|Tense=Past	9	compound	_	_
-11	هئا	_	AUX	VAUX	Number=Plur|Tense=Past|Gend=Masc	9	aux	_	SpaceAfter=No
+9	لکيا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
+10	ويا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past	9	compound	_	_
+11	هئا	_	AUX	VAUX	Number=Plur|Tense=Past|Gender=Masc	9	aux	_	SpaceAfter=No
 12	.	_	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 15
 # text = پر هينئر ٻارن کان پڙهيا وڃن ٿا.
 1	پر	_	SCONJ	CS	_	5	mark	_	_
 2	هينئر	_	ADV	ADT	_	5	advmod	_	_
-3	ٻارن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	5	nsubj	_	_
-4	کان	_	ADP	PSP	Type=Loc|Gend=Masc|Number=Plur	3	case	_	_
-5	پڙهيا	_	VERB	VM	Aspect=Perf|Number=Plur|Tense=Pres|Voice=Act|Gend=Masc	0	root	_	_
+3	ٻارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	کان	_	ADP	PSP	Type=Loc|Gender=Masc|Number=Plur	3	case	_	_
+5	پڙهيا	_	VERB	VM	Aspect=Perf|Number=Plur|Tense=Pres|Voice=Act|Gender=Masc	0	root	_	_
 6	وڃن	_	VERB	VM	Number=Plur|Person=3	5	compound	_	_
 7	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	5	aux	_	SpaceAfter=No
 8	.	_	PUNCT	PUNCT	_	5	punct	_	_
@@ -195,11 +195,11 @@
 # text = اهي به ٻاراڻي ادب ۾ ڳڻجن ٿا.
 1	اهي	_	DET	PRD	Case=Nom|Number=Plur	6	nsubj	_	_
 2	به	_	PART	PART	_	1	dep	_	_
-3	ٻاراڻي	_	ADJ	JJ	Case=Acc|Gend=Masc|Number=Sing	4	amod	_	_
-4	ادب	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	6	obl	_	_
+3	ٻاراڻي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	_
+4	ادب	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
 5	۾	_	ADP	PSP	Type=Loc	4	case	_	_
 6	ڳڻجن	_	VERB	VM	Aspect=Imp|Number=Plur|Tense=Pres|Voice=Act	0	root	_	_
-7	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres|Gend=Masc	6	aux	_	SpaceAfter=No
+7	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres|Gender=Masc	6	aux	_	SpaceAfter=No
 8	.	_	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 17
@@ -207,39 +207,39 @@
 1	مٿي	_	ADV	ADV	_	3	advmod	_	_
 2	بيان	_	NOUN	NN	Case=Nom|Number=Sing	3	obl	_	_
 3	ڪيل	_	VERB	VM	VerbForm=PastPart|Aspect=Perf|Tense=Past|Voice=Pass	4	acl	_	_
-4	لفظن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	7	nmod	_	_
-5	جي	_	ADP	PSP	Case=Acc|Gend=Masc|Number=Sing|Type=Gen	4	case	_	_
+4	لفظن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
+5	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
 6	لفظي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
-7	معنيٰ	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	12	nmod	_	_
-8	مطابق	_	ADP	PSP	Type=Loc|Gend=Fem	7	case	_	_
-9	ٻاراڻو	_	ADJ	JJ	Case=Nom|Gend=Masc|Number=Sing|Degree=Pos	10	amod	_	_
-10	ادب	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	12	nsubj	_	_
-11	مان	_	ADP	PSP	Type=Loc|Gend=Fem	10	case	_	_
-12	مراد	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	0	root	_	_
+7	معنيٰ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+8	مطابق	_	ADP	PSP	Type=Loc|Gender=Fem	7	case	_	_
+9	ٻاراڻو	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing|Degree=Pos	10	amod	_	_
+10	ادب	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	مان	_	ADP	PSP	Type=Loc|Gender=Fem	10	case	_	_
+12	مراد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 13	آهي	_	AUX	VAUX	Number=Plur|Tense=Pres	12	cop	_	SpaceAfter=No
 14	.	_	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 18
 # text = نثر ۽ نظم ۾ ٻارن جي ذهنيت مطابق لکيل ادب يعني اهڙو ادب جيڪو خالص ٻارن جي ذهني صلاحيتن کي وڌائي.
-1	نثر	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	9	nsubj	_	_
+1	نثر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 2	۽	_	CCONJ	CC	_	3	cc	_	_
-3	نظم	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	1	conj	_	_
+3	نظم	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
 4	۾	_	ADP	PSP	Type=Loc	1	case	_	_
-5	ٻارن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	7	nmod	_	_
-6	جي	_	ADP	PSP	Case=Acc|Gend=Fem|Number=Sing|Type=Gen	5	case	_	_
-7	ذهنيت	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	9	obl	_	_
+5	ٻارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
+6	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	5	case	_	_
+7	ذهنيت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 8	مطابق	_	ADP	PSP	Type=Loc	7	case	_	_
 9	لکيل	_	VERB	VM	VerbForm=PastPart|Aspect=Perf|Tense=Past	10	acl	_	_
-10	ادب	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	21	obl	_	_
+10	ادب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	obl	_	_
 11	يعني	_	CCONJ	CC	_	13	mark	_	_
-12	اهڙو	_	DET	PRD	Case=Nom|Number=Sing|Gend=Masc	13	det	_	_
-13	ادب	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	21	nsubj	_	_
+12	اهڙو	_	DET	PRD	Case=Nom|Number=Sing|Gender=Masc	13	det	_	_
+13	ادب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
 14	جيڪو	_	DET	PRD	Case=Nom|Number=Sing	21	nsubj	_	_
 15	خالص	_	ADJ	JJ	Case=Nom|Number=Sing|Degree=Pos	16	amod	_	_
-16	ٻارن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	19	nmod	_	_
-17	جي	_	ADP	PSP	Case=Acc|Gend=Fem|Number=Sing|Type=Gen	16	case	_	_
+16	ٻارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	nmod	_	_
+17	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	16	case	_	_
 18	ذهني	_	ADJ	JJ	Degree=Pos	19	amod	_	_
-19	صلاحيتن	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Plur	21	obj	_	_
+19	صلاحيتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_
 20	کي	_	ADP	PSP	Type=Loc	19	case	_	_
 21	وڌائي	_	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	SpaceAfter=No
 22	.	_	PUNCT	PUNCT	_	21	punct	_	_
@@ -248,15 +248,15 @@
 # text = انهن ۾ عقل ۽ شعور پيدا ڪرڻ نصيحت ۽ اخلاقي تربيت ڪرڻ لاءِ لکيو وڃي.
 1	انهن	_	DET	PRD	Case=Acc|Number=Plur	7	nsubj	_	_
 2	۾	_	ADP	PSP	Type=Loc	1	case	_	_
-3	عقل	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	6	obj	_	_
+3	عقل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 4	۽	_	CCONJ	CC	_	5	cc	_	_
-5	شعور	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	3	conj	_	_
+5	شعور	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 6	پيدا	_	VERB	VM	Aspect=Imp	7	compound	_	_
 7	ڪرڻ	_	VERB	VM	VerbForm=Inf	14	advcl	_	_
-8	نصيحت	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	12	nsubj	_	_
+8	نصيحت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 9	۽	_	CCONJ	CC	_	10	cc	_	_
 10	اخلاقي	_	ADJ	JJ	Case=Nom|Degree=Pos	8	conj	_	_
-11	تربيت	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	12	compound	_	_
+11	تربيت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	compound	_	_
 12	ڪرڻ	_	VERB	VM	VerbForm=Inf|Aspect=Imp	14	advcl	_	_
 13	لاءِ	_	ADP	PSP	_	12	mark	_	_
 14	لکيو	_	VERB	VM	Aspect=Perf|Number=Sing|Voice=Act	0	root	_	_
@@ -267,24 +267,24 @@
 # text = ان کي ٻاراڻو ادب چئجي ٿو.
 1	ان	_	DET	PRD	Case=Acc|Number=Sing	5	obj	_	_
 2	کي	_	ADP	PSP	Type=Loc	1	case	_	_
-3	ٻاراڻو	_	ADJ	JJ	Case=Nom|Gend=Masc|Number=Sing|Degree=Pos	4	amod	_	_
-4	ادب	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	5	nsubj	_	_
+3	ٻاراڻو	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing|Degree=Pos	4	amod	_	_
+4	ادب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	چئجي	_	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres|Voice=Pass	0	root	_	_
-6	ٿو	_	AUX	VAUX	Gend=Masc|Number=Sing|Tense=Pres	5	aux	_	SpaceAfter=No
+6	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	aux	_	SpaceAfter=No
 7	.	_	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 21
 # text = هن ڪائنات ۾ هر جاندار جي بقا لاءِ پنهنجو نسل پيدا ڪن ٿا.
 1	هن	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
-2	ڪائنات	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	12	obl	_	_
+2	ڪائنات	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 3	۾	_	ADP	PSP	Type=Loc	2	case	_	_
 4	هر	_	ADJ	JJ	Number=Sing	5	det	_	_
-5	جاندار	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	7	nmod	_	_
-6	جي	_	ADP	PSP	Case=Acc|Gend=Fem|Number=Sing|Type=Gen	5	case	_	_
-7	بقا	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	12	nsubj	_	_
+5	جاندار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+6	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	5	case	_	_
+7	بقا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nsubj	_	_
 8	لاءِ	_	ADP	PSP	Number=Sing	7	case	_	_
-9	پنهنجو	_	PRON	PRP	Case=Gen|Gend=Masc|Number=Sing|Person=2	10	nmod	_	_
-10	نسل	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	11	obj	_	_
+9	پنهنجو	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	10	nmod	_	_
+10	نسل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
 11	پيدا	_	VERB	VM	Aspect=Imp	12	xcomp	_	_
 12	ڪن	_	VERB	VM	Number=Plur|Aspect=Perf	0	root	_	_
 13	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	12	aux	_	SpaceAfter=No
@@ -292,9 +292,9 @@
 
 # sent_id = 22
 # text = جيڪي ان نسل کي زنده رکن ٿا.
-1	جيڪي	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|Gend=Masc	6	nsubj	_	_
+1	جيڪي	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|Gender=Masc	6	nsubj	_	_
 2	ان	_	DET	PRD	Case=Acc|Number=Sing	3	det	_	_
-3	نسل	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	6	obj	_	_
+3	نسل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 4	کي	_	ADP	PSP	Type=Loc	3	case	_	_
 5	زنده	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	compound	_	_
 6	رکن	_	VERB	VM	Aspect=Perf|Number=Plur|Voice=Act	0	root	_	_
@@ -303,12 +303,12 @@
 
 # sent_id = 23
 # text = اڄ جا ننڍا سڀاڻ جا وڏا ٿين ٿا.
-1	اڄ	_	NOUN	NN	Case=Acc|Gend=Masc	3	nmod	_	_
-2	جا	_	ADP	PSP	Case=Nom|Gend=Masc|Number=Sing|Type=Gen	1	case	_	_
-3	ننڍا	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gend=Masc|Number=Plur	7	nsubj	_	_
-4	سڀاڻ	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	6	nmod	_	_
-5	جا	_	ADP	PSP	Case=Nom|Gend=Masc|Number=Plur|Type=Gen	4	case	_	_
-6	وڏا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gend=Masc|Number=Plur	7	xcomp	_	_
+1	اڄ	_	NOUN	NN	Case=Acc|Gender=Masc	3	nmod	_	_
+2	جا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+3	ننڍا	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	سڀاڻ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+5	جا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	4	case	_	_
+6	وڏا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	xcomp	_	_
 7	ٿين	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
 8	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	7	aux	_	SpaceAfter=No
 9	.	_	PUNCT	PUNCT	_	7	punct	_	_
@@ -319,44 +319,44 @@
 2	ائين	_	PRON	PRL	_	11	obl	_	_
 3	اهي	_	PRON	PRP	Case=Nom|Number=Plur	11	nsubj	_	_
 4	پنهنجي	_	DET	PRD	Case=Acc|Number=Sing	5	nmod	_	_
-5	نسل	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	11	obj	_	_
+5	نسل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 6	کي	_	ADP	PSP	_	5	case	_	_
 7	هن	_	DET	PRD	Case=Acc|Number=Sing	8	det	_	_
-8	ڪائنات	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	11	obl	_	_
+8	ڪائنات	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 9	۾	_	ADP	PSP	Type=Loc	8	case	_	_
 10	باقي	_	ADJ	JJ	Case=Nom|Degree=Pos	11	compound	_	_
 11	رکن	_	VERB	VM	Number=Plur|Aspect=Imp|Voice=Act	0	root	_	_
-12	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres|Gend=Masc	11	aux	_	SpaceAfter=No
+12	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres|Gender=Masc	11	aux	_	SpaceAfter=No
 13	.	_	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = 25
 # text = ڏٺو وڃي ته هن ڪائنات ۾ جن جاندارن جا نسل نه بچيا آهن.
-1	ڏٺو	_	VERB	VM	Gend=Masc|Number=Sing	0	root	_	_
+1	ڏٺو	_	VERB	VM	Gender=Masc|Number=Sing	0	root	_	_
 2	وڃي	_	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres	1	compound	_	_
 3	ته	_	SCONJ	CS	_	12	mark	_	_
 4	هن	_	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
-5	ڪائنات	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	12	obl	_	_
+5	ڪائنات	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 6	۾	_	ADP	PSP	Type=Loc	5	case	_	_
 7	جن	_	DET	PRD	Case=Acc|Number=Plur	8	det	_	_
-8	جاندارن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	10	nmod	_	_
-9	جا	_	ADP	PSP	Case=Nom|Gend=Masc|Number=Plur|Type=Gen	8	case	_	_
-10	نسل	_	NOUN	NN	Case=Nom|Gend=Masc	12	nsubj	_	_
+8	جاندارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_
+9	جا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	8	case	_	_
+10	نسل	_	NOUN	NN	Case=Nom|Gender=Masc	12	nsubj	_	_
 11	نه	_	PART	PART	_	12	advmod	_	_
-12	بچيا	_	VERB	VM	Aspect=Perf|Gend=Masc|Number=Plur	1	advcl	_	_
+12	بچيا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	1	advcl	_	_
 13	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	12	aux	_	SpaceAfter=No
 14	.	_	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 26
 # text = ان جو سبب انهن جاندارن جي نسل جي واڌ نه ٿيڻ آهي.
 1	ان	_	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
-2	جو	_	ADP	PSP	Case=Nom|Gend=Masc|Number=Sing|Type=Gen	1	case	_	_
-3	سبب	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	11	nsubj	_	_
+2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+3	سبب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 4	انهن	_	DET	PRD	Case=Acc|Number=Plur	5	det	_	_
-5	جاندارن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	7	nmod	_	_
-6	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	5	case	_	_
-7	نسل	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	9	nmod	_	_
-8	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	7	case	_	_
-9	واڌ	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	11	compound	_	_
+5	جاندارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
+6	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	5	case	_	_
+7	نسل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+8	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	7	case	_	_
+9	واڌ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	compound	_	_
 10	نه	_	PART	PART	_	11	advmod	_	_
 11	ٿيڻ	_	VERB	VM	Aspect=Imp|Number=Plur|VerbForm=Inf	0	root	_	_
 12	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
@@ -365,13 +365,13 @@
 # sent_id = 27
 # text = جنهن سبب اهي هن ڪائنات مان ميسارجي ويا آهن.
 1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	2	det	_	_
-2	سبب	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	7	obl	_	_
+2	سبب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
 3	اهي	_	DET	PRD	Case=Nom|Number=Plur	7	nsubj	_	_
 4	هن	_	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
-5	ڪائنات	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	7	obl	_	_
+5	ڪائنات	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 6	مان	_	ADP	PSP	_	5	case	_	_
 7	ميسارجي	_	VERB	VM	Aspect=Perf|Voice=Pass	0	root	_	_
-8	ويا	_	VERB	VM	Aspect=Perf|Gend=Masc|Number=Plur	7	compound	_	_
+8	ويا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	7	compound	_	_
 9	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	7	aux	_	SpaceAfter=No
 10	.	_	PUNCT	PUNCT	_	7	punct	_	_
 
@@ -379,7 +379,7 @@
 # text = جن ۾ ڊائنوسورز وغيره اچي وڃن ٿا.
 1	جن	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	5	obl	_	_
 2	۾	_	ADP	PSP	Type=Loc	1	case	_	_
-3	ڊائنوسورز	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Plur	5	nsubj	_	_
+3	ڊائنوسورز	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 4	وغيره	_	PART	PART	_	3	dep	_	_
 5	اچي	_	VERB	VM	Aspect=Imp	0	root	_	_
 6	وڃن	_	VERB	VM	Number=Plur|Person=3	5	compound	_	_
@@ -388,30 +388,30 @@
 
 # sent_id = 29
 # text = جهڙي ريت هر جاندار جي نسل جي واڌ ويجهه ضروري آهي.
-1	جهڙي	_	DET	PRD	Case=Nom|Number=Sing|Gend=Fem	2	det	_	_
-2	ريت	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	10	obl	_	_
+1	جهڙي	_	DET	PRD	Case=Nom|Number=Sing|Gender=Fem	2	det	_	_
+2	ريت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	_
 3	هر	_	ADJ	JJ	Number=Sing|Case=Nom	4	det	_	_
-4	جاندار	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	6	nmod	_	_
-5	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	4	case	_	_
-6	نسل	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	8	nmod	_	_
-7	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	6	case	_	_
-8	واڌ	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	10	nsubj	_	_
-9	ويجهه	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	8	compound	_	_
+4	جاندار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+5	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	4	case	_	_
+6	نسل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+7	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	6	case	_	_
+8	واڌ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	ويجهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	compound	_	_
 10	ضروري	_	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
 11	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	10	cop	_	SpaceAfter=No
 12	.	_	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = 30
 # text = اهڙي طرح انساني نسل لاءِ به پيدائش جو سلسلو جاري رکڻ ضروري آهي.
-1	اهڙي	_	DET	PRD	Case=Nom|Number=Sing|Gend=Fem	2	det	_	_
-2	طرح	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	11	obl	_	_
+1	اهڙي	_	DET	PRD	Case=Nom|Number=Sing|Gender=Fem	2	det	_	_
+2	طرح	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obl	_	_
 3	انساني	_	ADJ	JJ	Case=Nom|Number=Sing	4	amod	_	_
-4	نسل	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	11	nsubj	_	_
+4	نسل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nsubj	_	_
 5	لاءِ	_	ADP	PSP	_	4	case	_	_
 6	به	_	PART	PART	_	4	dep	_	_
-7	پيدائش	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	9	nmod	_	_
-8	جو	_	ADP	PSP	Case=Nom|Gend=Masc|Number=Sing|Type=Gen	7	case	_	_
-9	سلسلو	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	11	obj	_	_
+7	پيدائش	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+8	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	7	case	_	_
+9	سلسلو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
 10	جاري	_	VERB	VM	Aspect=Imp|Tense=Pres	11	compound	_	_
 11	رکڻ	_	VERB	VM	Aspect=Perf	0	root	_	_
 12	ضروري	_	ADJ	JJ	Case=Nom|Degree=Pos	11	acl	_	_
@@ -421,37 +421,37 @@
 # sent_id = 31
 # text = سڀني جاندارن جي خاصيتن کي ڏسجي ٿو.
 1	سڀني	_	ADJ	JJ	Case=Acc|Number=Plur	2	amod	_	_
-2	جاندارن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	4	nmod	_	_
-3	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	2	case	_	_
-4	خاصيتن	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Plur	6	obj	_	_
+2	جاندارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
+3	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
+4	خاصيتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 5	کي	_	ADP	PSP	_	4	case	_	_
 6	ڏسجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
-7	ٿو	_	AUX	VAUX	Gend=Masc|Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
+7	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
 8	.	_	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 32
 # text = ته انسان سڀني جاندارن کان عقل ۽ شعور جي آڌار تي تمام گهڻو مختلف آهي.
 1	ته	_	SCONJ	CS	_	14	mark	_	_
-2	انسان	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	14	nsubj	_	_
+2	انسان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 3	سڀني	_	ADJ	JJO	Case=Nom|Number=Plur	4	amod	_	_
-4	جاندارن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	14	obl	_	_
+4	جاندارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
 5	کان	_	ADP	PSP	Type=Loc	4	case	_	_
-6	عقل	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	10	nmod	_	_
+6	عقل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
 7	۽	_	CCONJ	CC	_	8	cc	_	_
-8	شعور	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	6	conj	_	_
-9	جي	_	ADP	PSP	Case=Acc|Gend=Fem|Number=Sing|Type=Gen	6	case	_	_
-10	آڌار	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	14	nmod	_	_
+8	شعور	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_
+9	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	6	case	_	_
+10	آڌار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
 11	تي	_	ADP	PSP	Type=Loc	10	case	_	_
 12	تمام	_	ADV	ADV	_	13	advmod	_	_
-13	گهڻو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gend=Masc|Number=Sing	14	amod	_	_
+13	گهڻو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 14	مختلف	_	ADJ	JJ	Case=Nom|Number=Sing	0	root	_	_
 15	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	14	cop	_	SpaceAfter=No
 16	.	_	PUNCT	PUNCT	_	14	punct	_	_
 
 # sent_id = 33
 # text = اهو انسان ئي آهي.
-1	اهو	_	DET	PRD	Case=Nom|Number=Sing|Gend=Masc	2	det	_	_
-2	انسان	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	0	root	_	_
+1	اهو	_	DET	PRD	Case=Nom|Number=Sing|Gender=Masc	2	det	_	_
+2	انسان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	ئي	_	PART	PART	_	2	mark	_	_
 4	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	2	cop	_	SpaceAfter=No
 5	.	_	PUNCT	PUNCT	_	2	punct	_	_
@@ -459,56 +459,56 @@
 # sent_id = 34
 # text = جنهن پنهنجي عقل سان هن ڪائنات جي نقشن کي تبديل ڪري ڇڏيو آهي.
 1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	11	nsubj	_	_
-2	پنهنجي	_	PRON	PRP	Case=Gen|Gend=Masc|Number=Sing|Person=1	3	nmod	_	_
-3	عقل	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	11	obl	_	_
+2	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	3	nmod	_	_
+3	عقل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 4	سان	_	ADP	PSP	_	3	case	_	_
 5	هن	_	DET	PRD	Case=Acc|Number=Sing	6	det	_	_
-6	ڪائنات	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	8	nmod	_	_
-7	جي	_	ADP	PSP	Case=Acc|Gend=Fem|Number=Sing|Type=Gen	6	case	_	_
-8	نقشن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	11	obj	_	_
+6	ڪائنات	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
+7	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	6	case	_	_
+8	نقشن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
 9	کي	_	ADP	PSP	_	8	case	_	_
-10	تبديل	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	11	compound	_	_
+10	تبديل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	_
 11	ڪري	_	VERB	VM	Aspect=Perf|Voice=Act	0	root	_	_
-12	ڇڏيو	_	VERB	VM	Aspect=Perf|Gend=Masc|Number=Sing|Person=3	11	compound	_	_
+12	ڇڏيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	11	compound	_	_
 13	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
 14	.	_	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = 35
 # text = زندگيءَ جي گذارڻ جي سڀني طور طريقن ۾ خوبي پيدا ڪئي آهي.
-1	زندگيءَ	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	3	obj	_	_
-2	جي	_	ADP	PSP	Case=Acc|Gend=Fem|Number=Sing|Type=Gen	1	case	_	_
+1	زندگيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+2	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
 3	گذارڻ	_	VERB	VM	VerbForm=Inf|Aspect=Imp	7	nmod	_	_
-4	جي	_	ADP	PSP	Case=Acc|Gend=Fem|Number=Sing|Type=Gen	3	mark	_	_
-5	سڀني	_	ADJ	JJ	Case=Acc|Gend=Masc|Number=Plur	7	amod	_	_
-6	طور	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	7	nmod	_	_
-7	طريقن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	11	obl	_	_
+4	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	3	mark	_	_
+5	سڀني	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	7	amod	_	_
+6	طور	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+7	طريقن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 8	۾	_	ADP	PSP	_	7	case	_	_
-9	خوبي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gend=Fem|Number=Sing	10	compound	_	_
+9	خوبي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	compound	_	_
 10	پيدا	_	VERB	VM	_	11	xcomp	_	_
-11	ڪئي	_	VERB	VM	Aspect=Perf|Gend=Fem|Number=Sing|Person=3	0	root	_	_
+11	ڪئي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
 12	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
 13	.	_	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = 36
 # text = انسان پنهنجي زندگيءَ جي لاهن چاڙهن، پنهنجي نقصانن کي پنهنجي سامهون رکي ٻين لاءِ نيڪ هدايتون ڏيندو رهيو آهي.
-1	انسان	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	18	nsubj	_	_
-2	پنهنجي	_	DET	PRD	Case=Gen|Number=Sing|Gend=Fem	3	det	_	_
-3	زندگيءَ	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	5	nmod	_	_
-4	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	3	case	_	_
-5	لاهن	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Plur	12	obj	_	_
-6	چاڙهن،	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Plur	5	compound	_	_
-7	پنهنجي	_	DET	PRD	Case=Gen|Gend=Masc	8	det	_	_
-8	نقصانن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	5	nmod	_	_
+1	انسان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+2	پنهنجي	_	DET	PRD	Case=Gen|Number=Sing|Gender=Fem	3	det	_	_
+3	زندگيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+4	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
+5	لاهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	obj	_	_
+6	چاڙهن،	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	compound	_	_
+7	پنهنجي	_	DET	PRD	Case=Gen|Gender=Masc	8	det	_	_
+8	نقصانن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_
 9	کي	_	ADP	PSP	_	8	case	_	_
-10	پنهنجي	_	PRON	PRP	Case=Gen|Number=Sing|Gend=Masc|Person=1	11	nmod	_	_
+10	پنهنجي	_	PRON	PRP	Case=Gen|Number=Sing|Gender=Masc|Person=1	11	nmod	_	_
 11	سامهون	_	ADV	ADP	_	12	advmod	_	_
 12	رکي	_	VERB	VM	VerbForm=ConjPart|Aspect=Perf|Tense=Pres	18	advcl	_	_
 13	ٻين	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	17	obl	_	_
 14	لاءِ	_	ADP	PSP	_	13	case	_	_
 15	نيڪ	_	NOUN	NN	Case=Nom	16	compound	_	_
-16	هدايتون	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Plur	17	obj	_	_
-17	ڏيندو	_	VERB	VM	Gend=Masc|Number=Sing|VerbForm=PresPart|Aspect=Imp	18	xcomp	_	_
-18	رهيو	_	VERB	VM	Aspect=Perf|Gend=Masc|Number=Sing|Person=3	0	root	_	_
+16	هدايتون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	obj	_	_
+17	ڏيندو	_	VERB	VM	Gender=Masc|Number=Sing|VerbForm=PresPart|Aspect=Imp	18	xcomp	_	_
+18	رهيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 19	آهي	_	AUX	VAUX	Number=Plur|Tense=Pres	18	aux	_	SpaceAfter=No
 20	.	_	PUNCT	PUNCT	_	18	punct	_	_
 
@@ -517,11 +517,11 @@
 1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	10	obl	_	_
 2	مان	_	ADP	PSP	_	1	case	_	_
 3	سندس	_	DET	PRD	Case=Nom|Number=Sing	4	det	_	_
-4	مقصد	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	10	nsubj	_	_
+4	مقصد	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 5	ٻين	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	10	obj	_	_
 6	کي	_	ADP	PSP	_	5	case	_	_
 7	انهن	_	DET	PRD	Case=Acc|Number=Plur	8	det	_	_
-8	نقصانن	_	NOUN	NN	Case=Abl|Gend=Masc|Number=Plur	10	obl	_	_
+8	نقصانن	_	NOUN	NN	Case=Abl|Gender=Masc|Number=Plur	10	obl	_	_
 9	کان	_	ADP	PSP	_	8	case	_	_
 10	بچائڻ	_	VERB	VM	VerbForm=Inf	0	root	_	_
 11	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	10	aux	_	SpaceAfter=No
@@ -529,64 +529,64 @@
 
 # sent_id = 38
 # text = انسان پنهنجي زندگيءَ ۾ ڪيل تحقيقن ۽ ايجادن جو علم ٻين تائين پهچائڻ لاءِ مختلف طريقا اپنايا آهن.
-1	انسان	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	17	nsubj	_	_
-2	پنهنجي	_	DET	PRD	Case=Acc|Number=Sing|Gend=Fem	3	det	_	_
-3	زندگيءَ	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	17	obl	_	_
+1	انسان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+2	پنهنجي	_	DET	PRD	Case=Acc|Number=Sing|Gender=Fem	3	det	_	_
+3	زندگيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
 4	۾	_	ADP	PSP	Type=Loc	3	case	_	_
 5	ڪيل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart	6	acl	_	_
-6	تحقيقن	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Plur	10	nmod	_	_
+6	تحقيقن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	_
 7	۽	_	CCONJ	CC	_	8	cc	_	_
-8	ايجادن	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Plur	6	conj	_	_
-9	جو	_	ADP	PSP	Case=Nom|Gend=Masc|Number=Sing|Type=Gen	6	case	_	_
-10	علم	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	13	obj	_	_
+8	ايجادن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+9	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	6	case	_	_
+10	علم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 11	ٻين	_	ADJ	JJ	Case=Acc|Number=Plur	13	advmod	_	_
 12	تائين	_	ADP	PSP	Type=Loc	11	case	_	_
 13	پهچائڻ	_	VERB	VM	VerbForm=Inf|Aspect=Imp	17	xcomp	_	_
 14	لاءِ	_	ADP	PSP	_	13	mark	_	_
 15	مختلف	_	ADJ	JJ	Case=Nom	16	amod	_	_
-16	طريقا	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Plur	17	obj	_	_
-17	اپنايا	_	VERB	VM	Aspect=Perf|Gend=Masc|Number=Plur	0	root	_	_
+16	طريقا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	obj	_	_
+17	اپنايا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
 18	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	17	aux	_	SpaceAfter=No
 19	.	_	PUNCT	PUNCT	_	17	punct	_	_
 
 # sent_id = 39
 # text = اهڙي طرح علمن جي لکجڻ جي شروعات ٿئي ٿي.
-1	اهڙي	_	DET	PRD	Case=Nom|Number=Sing|Gend=Fem	2	det	_	_
-2	طرح	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	8	obl	_	_
-3	علمن	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	5	nsubj	_	_
-4	جي	_	ADP	PSP	Case=Acc|Gend=Fem|Number=Sing|Type=Gen	3	case	_	_
+1	اهڙي	_	DET	PRD	Case=Nom|Number=Sing|Gender=Fem	2	det	_	_
+2	طرح	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	_
+3	علمن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
 5	لکجڻ	_	VERB	VM	VerbForm=Inf|Aspect=Imp	7	nmod	_	_
-6	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	5	dep	_	_
-7	شروعات	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	8	compound	_	_
+6	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	5	dep	_	_
+7	شروعات	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	compound	_	_
 8	ٿئي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
-9	ٿي	_	AUX	VAUX	Gend=Fem|Number=Sing|Tense=Pres	8	aux	_	SpaceAfter=No
+9	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	8	aux	_	SpaceAfter=No
 10	.	_	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 40
 # text = انسان پنهنجي علم کي پنهنجي نسل ڏانهن منتقل ڪرڻ تمام ضروري سمجهيو.
-1	انسان	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	12	nsubj	_	_
-2	پنهنجي	_	DET	PRD	Case=Acc|Number=Sing|Gend=Masc	3	det	_	_
-3	علم	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	9	obj	_	_
+1	انسان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	پنهنجي	_	DET	PRD	Case=Acc|Number=Sing|Gender=Masc	3	det	_	_
+3	علم	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 4	کي	_	ADP	PSP	_	3	case	_	_
 5	پنهنجي	_	DET	PRD	Case=Acc|Number=Sing	6	nmod	_	_
-6	نسل	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	9	obl	_	_
+6	نسل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 7	ڏانهن	_	ADV	ADP	_	6	case	_	_
 8	منتقل	_	VERB	VM	_	9	compound	_	_
 9	ڪرڻ	_	VERB	VM	VerbForm=Inf	12	xcomp	_	_
 10	تمام	_	ADV	ADM	_	11	advmod	_	_
 11	ضروري	_	ADJ	JJ	Case=Nom	12	advcl	_	_
-12	سمجهيو	_	VERB	VM	Aspect=Perf|Gend=Masc|Number=Sing	0	root	_	SpaceAfter=No
+12	سمجهيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 13	.	_	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 41
 # text = ۽ ٻاراڻو ادب جو بنياد پوي ٿو.
 1	۽	_	CCONJ	CC	_	6	cc	_	_
-2	ٻاراڻو	_	ADJ	JJ	Case=Nom|Gend=Masc|Number=Sing	3	amod	_	_
-3	ادب	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	5	nmod	_	_
-4	جو	_	ADP	PSP	Case=Nom|Gend=Masc|Number=Sing|Type=Gen	3	case	_	_
-5	بنياد	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	6	nsubj	_	_
+2	ٻاراڻو	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	ادب	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+4	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	3	case	_	_
+5	بنياد	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 6	پوي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
-7	ٿو	_	AUX	VAUX	Gend=Masc|Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
+7	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
 8	.	_	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 42
@@ -594,7 +594,7 @@
 1	ڇاڪاڻ	_	SCONJ	CS	_	4	mark	_	_
 2	ته	_	SCONJ	CS	_	4	mark	_	_
 3	اهي	_	DET	PRD	Case=Nom|Number=Sing	4	det	_	_
-4	ٻار	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Plur	0	root	_	_
+4	ٻار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 5	ئي	_	PART	PART	_	4	mark	_	_
 6	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	4	cop	_	SpaceAfter=No
 7	.	_	PUNCT	PUNCT	_	4	punct	_	_
@@ -602,12 +602,12 @@
 # sent_id = 43
 # text = جن کي اڳتي هلي پنهنجي نسل کي راھ راست تي پهچائڻو آهي.
 1	جن	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	11	nsubj	_	_
-2	کي	_	ADP	PSP	Type=Gen|Case=Nom|Gend=Fem|Number=Sing	1	case	_	_
+2	کي	_	ADP	PSP	Type=Gen|Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	اڳتي	_	ADV	ADV	_	4	compound	_	_
 4	هلي	_	VERB	VM	Number=Sing|VerbForm=ConjPart|Aspect=Imp	11	advcl	_	_
-5	پنهنجي	_	PRON	PRP	Case=Gen|Gend=Masc|Number=Sing|Person=1	6	nmod	_	_
-6	نسل	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	11	obj	_	_
-7	کي	_	ADP	PSP	Type=Gen|Case=Nom|Gend=Fem|Number=Plur	6	case	_	_
+5	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	6	nmod	_	_
+6	نسل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+7	کي	_	ADP	PSP	Type=Gen|Case=Nom|Gender=Fem|Number=Plur	6	case	_	_
 8	راھ	_	NOUN	NN	Case=Nom|Number=Sing	11	obl	_	_
 9	راست	_	NOUN	NN	Case=Acc|Number=Sing	8	compound	_	_
 10	تي	_	ADP	PSP	Type=Loc	8	case	_	_
@@ -620,83 +620,83 @@
 1	ان	_	DET	PRD	Case=Acc|Number=Sing	2	case	_	_
 2	ڪري	_	VERB	VM	VerbForm=ConjPart|Aspect=Imp	7	advcl	_	_
 3	ئي	_	PART	PART	_	2	mark	_	_
-4	ٻاراڻو	_	ADJ	JJ	Case=Nom|Gend=Masc|Number=Sing	5	amod	_	_
-5	ادب	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	7	nsubj	_	_
+4	ٻاراڻو	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	ادب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 6	تخليق	_	NOUN	NN	Case=Nom	7	compound	_	_
-7	ٿيو	_	VERB	VM	Aspect=Perf|Gend=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+7	ٿيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 8	.	_	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = 45
 # text = هن ڪائنات ۾ سماج ۾ بنيادي ايڪو گهر کي تصور ڪيو وڃي ٿو.
 1	هن	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
-2	ڪائنات	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	11	obl	_	_
+2	ڪائنات	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 3	۾	_	ADP	PSP	Type=Loc	2	case	_	_
-4	سماج	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	11	obl	_	_
+4	سماج	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 5	۾	_	ADP	PSP	Type=Loc	4	case	_	_
 6	بنيادي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
-7	ايڪو	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	11	nsubj	_	_
-8	گهر	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	11	obj	_	_
+7	ايڪو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+8	گهر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 9	کي	_	ADP	PSP	_	8	case	_	_
-10	تصور	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	11	compound	_	_
+10	تصور	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	_
 11	ڪيو	_	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
 12	وڃي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	11	compound	_	_
-13	ٿو	_	AUX	VAUX	Gend=Masc|Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
+13	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
 14	.	_	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = 46
 # text = جنهن گهر ۾ زال ۽ مڙس بنيادي ٿنڀا آهن.
 1	جنهن	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
-2	گهر	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	8	obl	_	_
+2	گهر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 3	۾	_	ADP	PSP	Type=Loc	2	case	_	_
-4	زال	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	8	nsubj	_	_
+4	زال	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 5	۽	_	CCONJ	CC	_	6	cc	_	_
-6	مڙس	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	4	conj	_	_
+6	مڙس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
 7	بنيادي	_	ADJ	JJ	Case=Nom	8	amod	_	_
-8	ٿنڀا	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Plur	0	root	_	_
+8	ٿنڀا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 9	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	8	cop	_	SpaceAfter=No
 10	.	_	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 47
 # text = انهن جي تعلقات جي سبب نسل جي واڌ لاءِ ٻار جو جنم ٿئي ٿو.
 1	انهن	_	DET	PRD	Case=Acc|Number=Plur	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	1	case	_	_
-3	تعلقات	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Plur	13	obl	_	_
-4	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	3	case	_	_
-5	سبب	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	3	nmod	_	_
-6	نسل	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	8	nmod	_	_
-7	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	6	case	_	_
-8	واڌ	_	NOUN	NN	Case=Acc|Gend=Fem|Number=Sing	13	nsubj	_	_
+2	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+3	تعلقات	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
+4	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
+5	سبب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+6	نسل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+7	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	6	case	_	_
+8	واڌ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nsubj	_	_
 9	لاءِ	_	ADP	PSP	_	8	case	_	_
 10	ٻار	_	NOUN	NN	Case=Acc|Number=Sing	12	nmod	_	_
-11	جو	_	ADP	PSP	Case=Nom|Gend=Masc|Number=Sing|Type=Gen	10	case	_	_
-12	جنم	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	13	compound	_	_
+11	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	10	case	_	_
+12	جنم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	compound	_	_
 13	ٿئي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
-14	ٿو	_	AUX	VAUX	Gend=Masc|Number=Sing|Tense=Pres	13	aux	_	_
+14	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	13	aux	_	_
 15	.	_	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = 48
 # text = ٻار سماج جي بنيادي ايڪي جي سونهن هوندو آهي.
-1	ٻار	_	NOUN	NN	Case=Nom|Gend=Masc|Number=Sing	8	nsubj	_	_
-2	سماج	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	5	nmod	_	_
-3	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	2	case	_	_
+1	ٻار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	سماج	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+3	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
 4	بنيادي	_	ADJ	JJ	Case=Nom	5	amod	_	_
-5	ايڪي	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	7	nmod	_	_
-6	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	5	case	_	_
-7	سونهن	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Sing	8	xcomp	_	_
-8	هوندو	_	VERB	VM	Aspect=Imp|Gend=Masc|Number=Sing|Person=3|VerbForm=PresPart	0	root	_	_
+5	ايڪي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+6	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	5	case	_	_
+7	سونهن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	xcomp	_	_
+8	هوندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=PresPart	0	root	_	_
 9	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	8	aux	_	SpaceAfter=No
 10	.	_	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 49
 # text = هن جي جنم تي گهر ۾ خوشيون اچن ٿيون.
 1	هن	_	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Nom|Gend=Fem|Number=Sing|Type=Gen	1	case	_	_
-3	جنم	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	8	nsubj	_	_
+2	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+3	جنم	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nsubj	_	_
 4	تي	_	ADP	PSP	Type=Loc	3	case	_	_
-5	گهر	_	NOUN	NN	Case=Acc|Gend=Masc|Number=Sing	8	obl	_	_
+5	گهر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 6	۾	_	ADP	PSP	Type=Loc	5	case	_	_
-7	خوشيون	_	NOUN	NN	Case=Nom|Gend=Fem|Number=Plur	8	nsubj	_	_
+7	خوشيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
 8	اچن	_	VERB	VM	Number=Plur|Aspect=Imp|Tense=Pres|Person=3	0	root	_	_
-9	ٿيون	_	AUX	VAUX	Gend=Fem|Number=Plur|Tense=Pres	8	aux	_	SpaceAfter=No
+9	ٿيون	_	AUX	VAUX	Gender=Fem|Number=Plur|Tense=Pres	8	aux	_	SpaceAfter=No
 10	.	_	PUNCT	PUNCT	_	8	punct	_	_
 
