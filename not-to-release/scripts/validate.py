@@ -33,7 +33,7 @@ ALLOWED_UPOS_TO_FEATS = {
     "CCONJ": [],
     "DET":   ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gend=Fem', 'Gend=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
     "INTJ":  [],
-    "NOUN":  ['Case=Abl', 'Case=Acc', 'Case=Nom', 'Case=Voc', 'Gend=Fem', 'Gend=Masc', 'Number=Plur', 'Number=Sing', 'Person=3', 'Type=Gen', 'Type=Loc'],
+    "NOUN":  ['Case=Abl', 'Case=Acc', 'Case=Nom', 'Case=Voc', 'Gend=Fem', 'Gend=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
     "NUM":   ['Case=Nom', 'Number=Sing'],
     "PART":  ['PartType=Emp'],
     "PRON":  ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gend=Fem', 'Gend=Masc', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=2', 'Person=3'],
