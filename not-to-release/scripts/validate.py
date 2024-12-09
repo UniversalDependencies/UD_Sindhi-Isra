@@ -48,7 +48,6 @@ ALLOWED_UPOS_TO_FEATS = {
               'Number=Plur', 'Number=Sing', 'Number[Obj]=Plur', 'Number[Obj]=Sing', 'Number[Subj]=Plur', 'Number[Subj]=Sing',
               'Person=1', 'Person=2', 'Person=3', 'Person[Obj]=1', 'Person[Obj]=2', 'Person[Obj]=3', 'Person[Subj]=1', 'Person[Subj]=2', 'Person[Subj]=3', 'Personx=2',
               'Tense=Fut', 'Tense=Past', 'Tense=Pres',
-              'Type=Gen',
               'VerbForm=Caus', 'VerbForm=ConjPart', 'VerbForm=FutPart', 'VerbForm=Inf', 'VerbForm=PastPart', 'VerbForm=PresPart', 'VerbForm=VerbNoun',
               'Voice=Act', 'Voice=Pass'],
 }
