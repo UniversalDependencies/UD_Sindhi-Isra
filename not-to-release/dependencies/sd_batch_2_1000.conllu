@@ -1012,12 +1012,12 @@
 
 # sent_id = 54
 # text = اهائي آهي ڪمپا ڪابيرو جي آڱر.
-1	اهائي	_	ADV	_	_	6	obl	_	_
-2	آهي	_	VERB	_	_	1	dep	_	_
-3	ڪمپا	_	NOUN	_	_	4	nmod	_	_
-4	ڪابيرو	_	NOUN	_	_	6	nmod	_	_
+1	اهائي	_	PRON	_	_	6	nsubj	_	_
+2	آهي	_	AUX	_	_	0	root	_	_
+3	ڪمپا	_	PROPN	_	_	4	compound	_	_
+4	ڪابيرو	_	PROPN	_	_	6	nmod	_	_
 5	جي	_	ADP	_	_	4	case	_	_
-6	آڱر	_	NOUN	_	_	0	root	_	SpaceAfter=No
+6	آڱر	_	NOUN	_	_	2	cop	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 55
@@ -8932,29 +8932,29 @@
 
 # sent_id = 497
 # text = پر ڳالهه هيءَ آهي ته منهنجي بٺيءَ ۾ باهه ته آهي ئي ڪين، جيڪڏهن تنهنجي مرضي آهي ته آءٌ تنهنجي لاءِ ٽيڪم ٺاهيان ته پوءِ مون کي ڪٿان باهه آڻي ڏي.
-1	پر	_	SCONJ	_	_	3	mark	_	_
-2	ڳالهه	_	NOUN	_	_	3	nsubj	_	_
-3	هيءَ	_	VERB	_	_	0	root	_	_
-4	آهي	_	AUX	_	_	3	aux	_	_
-5	ته	_	SCONJ	_	_	11	mark	_	_
+1	پر	_	SCONJ	_	_	2	mark	_	_
+2	ڳالهه	_	NOUN	_	_	9	advcl	_	_
+3	هيءَ	_	DET	_	_	2	det	_	_
+4	آهي	_	AUX	_	_	2	cop	_	_
+5	ته	_	SCONJ	_	_	7	mark	_	_
 6	منهنجي	_	PRON	_	_	7	nmod	_	_
-7	بٺيءَ	_	NOUN	_	_	11	obl	_	_
+7	بٺيءَ	_	NOUN	_	_	9	obl	_	_
 8	۾	_	ADP	_	_	7	case	_	_
-9	باهه	_	NOUN	_	_	11	nmod	_	_
+9	باهه	_	NOUN	_	_	17	advcl	_	_
 10	ته	_	SCONJ	_	_	9	dep	_	_
-11	آهي	_	VERB	_	_	3	det	_	_
-12	ئي	_	PART	_	_	11	dep	_	_
-13	ڪين	_	ADV	_	_	17	cop	_	SpaceAfter=No
-14	،	_	PUNCT	_	_	17	punct	_	_
+11	آهي	_	AUX	_	_	9	cop	_	_
+12	ئي	_	PART	_	_	9	dep	_	_
+13	ڪين	_	ADV	_	_	9	advmod	_	SpaceAfter=No
+14	،	_	PUNCT	_	_	9	punct	_	_
 15	جيڪڏهن	_	SCONJ	_	_	17	mark	_	_
 16	تنهنجي	_	PRON	_	_	17	nmod	_	_
-17	مرضي	_	NOUN	_	_	11	conj	_	_
+17	مرضي	_	NOUN	_	_	0	root	_	_
 18	آهي	_	AUX	_	_	17	cop	_	_
-19	ته	_	SCONJ	_	_	24	mark	_	_
+19	ته	_	SCONJ	_	_	17	mark	_	_
 20	آءٌ	_	PRON	_	_	24	nsubj	_	_
 21	تنهنجي	_	PRON	_	_	24	obl	_	_
-22	لاءِ	_	ADV	_	_	24	advmod	_	_
-23	ٽيڪم	_	NOUN	_	_	24	xcomp	_	_
+22	لاءِ	_	ADP	_	_	21	case	_	_
+23	ٽيڪم	_	NOUN	_	_	24	obj	_	_
 24	ٺاهيان	_	VERB	_	_	17	advcl	_	_
 25	ته	_	SCONJ	_	_	31	mark	_	_
 26	پوءِ	_	ADV	_	_	31	advmod	_	_
