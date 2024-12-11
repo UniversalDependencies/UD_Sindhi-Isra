@@ -1,4 +1,5 @@
 import argparse
+import re
 import sys
 
 import networkx as nx
@@ -54,6 +55,8 @@ ALLOWED_UPOS_TO_FEATS = {
 
 DISALLOWED_BLANK_FEATS = {"NOUN", "PROPN"}
 
+ALLOWED_PUNCT_CHARS = re.compile(r"[؟–؛!\"().,-/:،“”]+")
+
 def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     problem_sentences = set()
 
@@ -78,6 +81,29 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 print(sent_idx, sent.sent_id)
             else:
                 print(sent.sent_id)
+
+    '''
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if ALLOWED_PUNCT_CHARS.match(word.text) and word.upos != "PUNCT":
+                if not printed:
+                    print("PUNCT WORDS LABELED NON-PUNCT")
+                    printed = True
+                problem_sentences.add(sent_idx)
+                print("Sentence %s (%d) word %d has a punct word |%s| labeled %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.upos))
+    '''
+
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if not ALLOWED_PUNCT_CHARS.match(word.text) and word.upos == "PUNCT":
+                if not printed:
+                    print("NON PUNCT WORDS LABELED PUNCT")
+                    printed = True
+                problem_sentences.add(sent_idx)
+                print("Sentence %s (%d) word %d has a non-punct word |%s| labeled %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.upos))
+
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
