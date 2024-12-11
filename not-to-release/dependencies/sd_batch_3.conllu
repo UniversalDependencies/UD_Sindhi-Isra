@@ -7240,7 +7240,7 @@
 # sent_id = 332
 # text = ۽ ”نظام“، جنهن جي ڳالهه ڪئي وڃي ٿي اُهو گورننس جو هڪ نظام آهي.
 1	۽	_	CCONJ	_	_	9	cc	_	_
-2	”	_	SCONJ	_	_	9	mark	_	SpaceAfter=No
+2	”	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	نظام	_	NOUN	_	_	9	nsubj	_	SpaceAfter=No
 4	“	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 5	،	_	PUNCT	_	_	3	punct	_	_
@@ -9252,8 +9252,8 @@
 5	ٻوليءَ	_	NOUN	_	_	7	nmod	_	_
 6	جو	_	ADP	_	_	5	case	_	_
 7	لفظ	_	NOUN	_	_	12	nsubj	_	_
-8	”	_	CCONJ	_	_	9	cc	_	SpaceAfter=No
-9	ڊائل	_	NOUN	_	_	7	conj	_	SpaceAfter=No
+8	”	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	ڊائل	_	NOUN	_	_	12	obj	_	SpaceAfter=No
 10	“	_	PUNCT	_	_	9	punct	_	_
 11	استعمال	_	NOUN	_	_	12	compound	_	_
 12	ڪن	_	VERB	_	_	0	root	_	SpaceAfter=No
@@ -9469,7 +9469,7 @@
 
 # sent_id = 444
 # text = “ چرچل وات مان سگار ڪڍيو ۽ چيو ”منهنجا هم وطنو، وڃو ۽ عوام کي ٻڌائي ڇڏيو ته دشمن توهان تي ڪڏهن به حاوي نه ٿيندو.
-1	“	_	PUNCT	_	_	6	mark	_	_
+1	“	_	PUNCT	_	_	2	punct	_	_
 2	چرچل	_	NOUN	_	_	6	nsubj	_	_
 3	وات	_	NOUN	_	_	6	obl	_	_
 4	مان	_	ADP	_	_	3	case	_	_
@@ -9477,7 +9477,7 @@
 6	ڪڍيو	_	VERB	_	_	0	root	_	_
 7	۽	_	CCONJ	_	_	8	cc	_	_
 8	چيو	_	VERB	_	_	6	conj	_	_
-9	”	_	SCONJ	_	_	6	mark	_	SpaceAfter=No
+9	”	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	منهنجا	_	PRON	_	_	12	nmod	_	_
 11	هم	_	ADJ	_	_	12	amod	_	_
 12	وطنو	_	NOUN	_	_	8	nsubj	_	SpaceAfter=No
@@ -9642,7 +9642,7 @@
 8	ملئي	_	ADJ	_	_	9	amod	_	_
 9	زبان	_	NOUN	_	_	14	obl	_	_
 10	۾	_	ADP	_	_	9	case	_	_
-11	”	_	NUM	_	_	12	nummod	_	SpaceAfter=No
+11	”	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	حڪايت	_	NOUN	_	_	14	obj	_	SpaceAfter=No
 13	“	_	PUNCT	_	_	12	punct	_	_
 14	سڏجي	_	VERB	_	_	0	root	_	_
@@ -10394,20 +10394,19 @@
 1	نئين	_	ADJ	_	_	2	amod	_	_
 2	سال	_	NOUN	_	_	4	nmod	_	_
 3	جي	_	ADP	_	_	2	case	_	_
-4	شروعات	_	NOUN	_	_	10	obl	_	_
+4	شروعات	_	NOUN	_	_	9	obl	_	_
 5	دوران	_	ADP	_	_	4	case	_	_
 6	منهنجي	_	PRON	_	_	7	nmod	_	_
-7	دوست	_	NOUN	_	_	10	nsubj	_	_
-8	اي	_	NOUN	_	_	9	nmod	_	_
-9	–ميل	_	NOUN	_	_	10	xcomp	_	_
-10	ڪئي	_	VERB	_	_	0	root	_	_
-11	۽	_	CCONJ	_	_	16	cc	_	_
-12	ان	_	PRON	_	_	16	nsubj	_	_
-13	هي	_	DET	_	_	15	det	_	_
-14	مٿيون	_	ADJ	_	_	15	amod	_	_
-15	بحث	_	NOUN	_	_	16	compound	_	_
-16	ڪيو	_	VERB	_	_	10	conj	_	SpaceAfter=No
-17	.	_	PUNCT	_	_	16	punct	_	_
+7	دوست	_	NOUN	_	_	9	nsubj	_	_
+8	اي–ميل	_	NOUN	_	_	9	xcomp	_	_
+9	ڪئي	_	VERB	_	_	0	root	_	_
+10	۽	_	CCONJ	_	_	15	cc	_	_
+11	ان	_	PRON	_	_	15	nsubj	_	_
+12	هي	_	DET	_	_	14	det	_	_
+13	مٿيون	_	ADJ	_	_	14	amod	_	_
+14	بحث	_	NOUN	_	_	15	compound	_	_
+15	ڪيو	_	VERB	_	_	9	conj	_	SpaceAfter=No
+16	.	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 485
 # text = ان سان گڏوگڏ هن مون کي صلاح ڏني ته تون وٽ ٻه سمونڊ آهن،
@@ -15311,7 +15310,7 @@
 # sent_id = 755
 # text = لوين توڙي هارن جا هزار سندن ڪلهن تي پون ته پوءِ اهو شهرت جو نشو جڏهن چڙهي ٿو ته اکيون خمارجيو وڃن ۽ پوءِ سنڌي چوڻي وانگر ته ”ڍءُ جهلي مينهن جو ڦر يا واڻئي جو ٻار“.
 1	لوين	_	NOUN	_	_	5	nmod	_	_
-2	توڙي	_	ADV	_	_	3	cc	_	_
+2	توڙي	_	CCONJ	_	_	3	cc	_	_
 3	هارن	_	NOUN	_	_	1	conj	_	_
 4	جا	_	ADP	_	_	1	case	_	_
 5	هزار	_	NOUN	_	_	9	nsubj	_	_
@@ -15338,7 +15337,7 @@
 26	چوڻي	_	NOUN	_	_	21	obl	_	_
 27	وانگر	_	ADV	_	_	31	advmod	_	_
 28	ته	_	SCONJ	_	_	27	dep	_	_
-29	”	_	SCONJ	_	_	27	case	_	SpaceAfter=No
+29	”	_	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	ڍءُ	_	NOUN	_	_	31	obj	_	_
 31	جهلي	_	VERB	_	_	38	advcl	_	_
 32	مينهن	_	NOUN	_	_	34	nmod	_	_
