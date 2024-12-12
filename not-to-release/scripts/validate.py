@@ -55,7 +55,8 @@ ALLOWED_UPOS_TO_FEATS = {
 
 DISALLOWED_BLANK_FEATS = {"NOUN", "PROPN"}
 
-ALLOWED_PUNCT_CHARS = re.compile(r"[؟–؛!\"().,-/:،“”]+")
+ALLOWED_PUNCT_CHARS = r"؟–؛!\"().,-/:،“”"
+ALLOWED_PUNCT_WORD = re.compile("[%s]+" % ALLOWED_PUNCT_CHARS)
 
 def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     problem_sentences = set()
@@ -85,7 +86,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
-            if ALLOWED_PUNCT_CHARS.match(word.text) and word.upos != "PUNCT":
+            if ALLOWED_PUNCT_WORD.match(word.text) and word.upos != "PUNCT":
                 if not printed:
                     print("PUNCT WORDS LABELED NON-PUNCT")
                     printed = True
@@ -95,7 +96,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
-            if not ALLOWED_PUNCT_CHARS.match(word.text) and word.upos == "PUNCT":
+            if not ALLOWED_PUNCT_WORD.match(word.text) and word.upos == "PUNCT":
                 if not printed:
                     print("NON PUNCT WORDS LABELED PUNCT")
                     printed = True
