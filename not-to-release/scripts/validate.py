@@ -102,6 +102,22 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 problem_sentences.add(sent_idx)
                 print("Sentence %s (%d) word %d has a non-punct word |%s| labeled %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.upos))
 
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word_idx == len(sent.words) - 1:
+                continue
+            token = word.parent
+            if token.spaces_after != '':
+                continue
+            next_word = sent.words[word_idx+1]
+            if word.upos != "PUNCT" and next_word.upos != "PUNCT":
+                if not printed:
+                    print("UNEXPECTED SpaceAfter=No")
+                    printed = True
+                problem_sentences.add(sent_idx)
+                print("Sentence %s (%d) word %d has SpaceAfter=No between two non-punct words" % (sent.sent_id, sent_idx, word_idx))
+
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
