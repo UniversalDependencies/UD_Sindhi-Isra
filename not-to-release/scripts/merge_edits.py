@@ -1,9 +1,10 @@
+import argparse
 import glob
 import sys
 
 from stanza.utils.conll import CoNLL
 
-def merge_edits(new_doc):
+def merge_edits(new_doc, merge_xpos=False):
     sentences = {}
     for sentence in new_doc.sentences:
         if not sentence.text:
@@ -13,7 +14,10 @@ def merge_edits(new_doc):
             raise ValueError("Multiple copies of sentence found: %s = %s" % (sentence.sent_id, sentence.text))
         sentences[text] = sentence
 
-    filenames = glob.glob("../dependencies/*conllu")
+    if merge_xpos:
+        filenames = glob.glob("../mltwist_xpos/*conllu") + glob.glob("../mltwist_xpos/*txt")
+    else:
+        filenames = glob.glob("../dependencies/*conllu")
     for filename in filenames:
         print(filename)
 
@@ -46,8 +50,14 @@ def merge_edits(new_doc):
         print("All sentences accounted for!")
 
 def main():
-    new_doc = CoNLL.conll2doc(sys.argv[1])
-    merge_edits(new_doc)
+    parser = argparse.ArgumentParser(description='Validate a file of SD dependencies & tags')
+    parser.add_argument('filename', help='File to merge')
+    parser.add_argument('--merge_xpos', action='store_true', default=False, dest='merge_xpos',
+                        help="Merge into the xpos directory instead of the dependencies directory")
+    args = parser.parse_args()
+
+    new_doc = CoNLL.conll2doc(args.filename)
+    merge_edits(new_doc, merge_xpos=args.merge_xpos)
 
 if __name__ == '__main__':
     main()
