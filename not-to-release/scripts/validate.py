@@ -42,7 +42,7 @@ ALLOWED_UPOS_TO_FEATS = {
     "PUNCT": [],
     "SCONJ": [],
     "SYM":   [],
-    "VERB":  ['Aspect=Con', 'Aspect=Imp', 'Aspect=Perf',
+    "VERB":  ['Aspect=Imp', 'Aspect=Perf', 'Aspect=Prog',
               'Case=Acc', 'Case=Nom',
               'Gender=Fem', 'Gender=Masc', 'Gender[Obj]=Masc', 'Gender[Subj]=Fem', 'Gender[Subj]=Masc',
               'Mood=Des',
