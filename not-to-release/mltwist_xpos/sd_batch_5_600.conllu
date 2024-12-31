@@ -4591,7 +4591,7 @@
 20	هتي	_	ADV	ADT	_	26	advmod	_	_
 21	خراب	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	22	amod	_	_
 22	گورننس	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
-23	ان	_	DET	PRD	Case=Acc|Number=Sing	26	nmod	_	_
+23	ان	_	PRON	PRD	Case=Acc|Number=Sing	26	nmod	_	_
 24	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	23	case	_	_
 25	وڏو	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	26	amod	_	_
 26	سبب	_	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	16	conj	_	_
@@ -7159,18 +7159,18 @@
 # sent_id = 5612
 # text = ته ڪلاڪ اڳتي گهڙيون هجڻ ڪري ”وزارت داخلا“ طرفان ڪڙڪيدار پڇا ٿي ٿئي ته، ”ٽائيم ڏٺو اٿوَ، هي ٽائيم گهر اچڻ جو آهي؟“ اسان جو هڪ دوست ڏڪندڙ ٽنگن ۽ آواز ۾ ان جو جواب اهو ڏيندو آهي ته، ”آئون پراڻي ٽائيم تي پي پهتو آهيان،
 1	ته	_	SCONJ	CS	_	5	mark	_	_
-2	ڪلاڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	اڳتي	_	ADV	ADP	_	4	advmod	_	_
-4	گهڙيون	_	VERB	VM	Aspect=Perf|Number=Plur	5	advcl	_	_
+2	ڪلاڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
+3	اڳتي	_	ADV	ADP	_	5	advmod	_	_
+4	گهڙيون	_	VERB	VM	Aspect=Perf|Number=Plur	5	nsubj	_	_
 5	هجڻ	_	VERB	VM	VerbForm=Inf	15	advcl	_	_
-6	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=ConjPart	15	advcl	_	_
+6	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=ConjPart	5	compound	_	_
 7	”	_	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 8	وزارت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_
-9	داخلا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+9	داخلا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 10	“	_	PUNCT	PUNCT	_	9	punct	_	_
 11	طرفان	_	ADV	ADT	_	15	advmod	_	_
 12	ڪڙڪيدار	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	13	amod	_	_
-13	پڇا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	xcomp	_	_
+13	پڇا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 14	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	15	aux	_	_
 15	ٿئي	_	VERB	VM	Aspect=Perf|Number=Sing|Person=3	0	root	_	_
 16	ته	_	SCONJ	CS	_	20	mark	_	SpaceAfter=No
@@ -7197,10 +7197,10 @@
 37	۽	_	CCONJ	CC	_	38	cc	_	_
 38	آواز	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	36	conj	_	_
 39	۾	_	ADP	PSP	Type=Loc	36	case	_	_
-40	ان	_	DET	PRD	Case=Acc|Number=Sing	42	nmod	_	_
+40	ان	_	PRON	PRD	Case=Acc|Number=Sing	42	nmod	_	_
 41	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	40	case	_	_
-42	جواب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	44	obj	_	_
-43	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	44	det	_	_
+42	جواب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	44	iobj	_	_
+43	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	44	obj	_	_
 44	ڏيندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	20	advcl	_	_
 45	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	44	aux	_	_
 46	ته	_	SCONJ	CS	_	44	mark	_	SpaceAfter=No
@@ -7590,8 +7590,8 @@
 
 # sent_id = 5634
 # text = انهن جو ٽائيم خراب نه ڪريو.
-1	انهن	_	DET	PRD	Case=Acc|Number=Plur	3	nmod	_	_
-2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	det	_	_
+1	انهن	_	PRON	PRD	Case=Acc|Number=Plur	3	nmod	_	_
+2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
 3	ٽائيم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 4	خراب	_	ADJ	JJ	Case=Nom|Number=Sing	6	compound	_	_
 5	نه	_	PART	PART	_	6	dep	_	_
@@ -7903,7 +7903,7 @@
 # sent_id = 5647
 # text = اهو ان جو ئي نتيجو آهي،
 1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_
-2	ان	_	DET	PRD	Case=Acc|Number=Sing	5	nmod	_	_
+2	ان	_	PRON	PRD	Case=Acc|Number=Sing	5	nmod	_	_
 3	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	2	case	_	_
 4	ئي	_	PART	PART	_	2	dep	_	_
 5	نتيجو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -8058,7 +8058,7 @@
 
 # sent_id = 5654
 # text = ان جو ذميوار به آمريڪا آهي،
-1	ان	_	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
+1	ان	_	PRON	PRD	Case=Acc|Number=Sing	3	nmod	_	_
 2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
 3	ذميوار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	به	_	ADP	PSP	_	3	dep	_	_
@@ -9474,7 +9474,7 @@
 
 # sent_id = 5724
 # text = ان جو احساس ڪرسي تي ويٺلن کي ڪڏهن ٿيندو؟ اسان جي صدر پاڪستان، گورنر سنڌ، وزير اعليٰ سنڌ، صوبائي صحت وزير ۽ وس وارن ڪامورن کي اپيل ٿا ڪريون ته مهرباني ڪري انهيءَ جائز مسئلي کي حل ڪيو وڃي.
-1	ان	_	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
+1	ان	_	PRON	PRD	Case=Acc|Number=Sing	3	nmod	_	_
 2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	det	_	_
 3	احساس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 4	ڪرسي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
