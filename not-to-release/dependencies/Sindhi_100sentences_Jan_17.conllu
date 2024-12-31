@@ -53,18 +53,19 @@
 9	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 4
-# text = جو ٻار ٻولي جي سکيا حاصل ڪري لفظ اچاري ٿو.
-1	جو	_	DET	_	_	2	det	_	_
-2	ٻار	_	NOUN	_	_	9	nsubj	_	_
-3	ٻولي	_	NOUN	_	_	5	nmod	_	_
-4	جي	_	ADP	_	_	3	case	_	_
-5	سکيا	_	NOUN	_	_	7	obj	_	_
-6	حاصل	_	NOUN	_	_	7	compound	_	_
-7	ڪري	_	VERB	_	_	9	advcl	_	_
-8	لفظ	_	NOUN	_	_	9	obj	_	_
-9	اچاري	_	VERB	_	_	0	root	_	_
-10	ٿو	_	AUX	_	_	9	aux	_	SpaceAfter=No
-11	.	_	PUNCT	_	_	9	punct	_	_
+# text = جو ٻار ٻولي جي سکيا حاصل ڪري لفظ اچاري ٿو .
+# at 1 جو is a DET.
+1	جو	_	DET	PRD	Number=Sing	2	det	_	_
+2	ٻار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	ٻولي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+4	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
+5	سکيا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	_
+6	حاصل	_	NOUN	NN	Case=Nom|Number=Sing	7	compound	_	_
+7	ڪري	_	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=ConjPart|Voice=Act	9	advcl	_	_
+8	لفظ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
+9	اچاري	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
+10	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	9	aux	_	_
+11	.	_	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 5
 # text = تڏهن سندس والدين جا تمام جا تمام ٿڪ دور ٿي وڃن ٿا.

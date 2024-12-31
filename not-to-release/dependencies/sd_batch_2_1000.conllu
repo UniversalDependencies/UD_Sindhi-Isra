@@ -2383,6 +2383,7 @@
 
 # sent_id = 135
 # text = پوڙهي ڏاڍي خوش پئي لڳي ته شڪر آهي جو باندرن ۽ شينهن مان ڇوٽڪارو مليو.
+# جو is PART here and correctly tagged with dep relation.
 1	پوڙهي	_	NOUN	_	_	4	nsubj	_	_
 2	ڏاڍي	_	ADJ	_	_	3	amod	_	_
 3	خوش	_	ADJ	_	_	4	nsubj	_	_
@@ -5884,13 +5885,13 @@
 5	تي	_	ADP	_	_	4	case	_	_
 6	ايتري	_	ADJ	_	_	8	amod	_	_
 7	ته	_	SCONJ	_	_	6	dep	_	_
-8	لڙاٽ	_	NOUN	_	_	9	compound	_	_
+8	لڙاٽ	_	NOUN	_	_	9	obj	_	_
 9	پکيڙي	_	VERB	_	_	0	root	_	_
 10	جو	_	SCONJ	_	_	14	mark	_	_
-11	سڀئي	_	ADJ	_	_	12	nummod	_	_
+11	سڀئي	_	ADJ	_	_	12	amod	_	_
 12	سوئر	_	NOUN	_	_	14	nsubj	_	_
 13	رستو	_	NOUN	_	_	14	obj	_	_
-14	ڀلجي	_	VERB	_	_	9	advcl	_	_
+14	ڀلجي	_	VERB	_	_	9	ccomp	_	_
 15	ويا	_	VERB	_	_	14	compound	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	14	punct	_	_
 
@@ -7203,10 +7204,10 @@
 5	ڪهڙي	_	PRON	_	_	6	amod	_	_
 6	ماڻهوءَ	_	NOUN	_	_	9	obj	_	_
 7	کي	_	ADP	_	_	6	case	_	_
-8	کٽيءَ	_	NOUN	_	_	9	compound	_	_
+8	کٽيءَ	_	NOUN	_	_	9	nsubj	_	_
 9	کنيو	_	VERB	_	_	0	root	_	_
 10	آهي	_	AUX	_	_	9	compound	_	_
-11	جو	_	ADV	_	_	12	advmod	_	_
+11	جو	_	PRON	_	_	12	nsubj	_	_
 12	ايندو	_	VERB	_	_	9	advcl	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	12	punct	_	_
 
@@ -7284,7 +7285,7 @@
 # sent_id = 401
 # text = رات جو جڏهن چانڊوڪي ٿيندي آهي،
 1	رات	_	NOUN	_	_	5	obl	_	_
-2	جو	_	ADV	_	_	5	advmod	_	_
+2	جو	_	ADP	_	_	1	case	_	_
 3	جڏهن	_	ADV	_	_	5	advmod	_	_
 4	چانڊوڪي	_	ADJ	_	_	5	xcomp	_	_
 5	ٿيندي	_	VERB	_	_	0	root	_	_
