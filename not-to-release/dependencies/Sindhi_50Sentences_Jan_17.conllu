@@ -115,20 +115,21 @@
 
 # sent_id = 10
 # text = جڏهن ته ٻاراڻو مان مراد ٻارن جو ٻار جهڙو ناداني وارو ڪم آهي.
-1	جڏهن	_	SCONJ	_	_	12	mark	_	_
-2	ته	_	PART	_	_	12	dep	_	_
-3	ٻاراڻو	_	ADJ	_	_	5	amod	_	_
-4	مان	_	ADP	_	_	3	case	_	_
-5	مراد	_	NOUN	_	_	12	nsubj	_	_
-6	ٻارن	_	NOUN	_	_	8	nmod	_	_
-7	جو	_	ADP	_	_	6	case	_	_
-8	ٻار	_	NOUN	_	_	10	nmod	_	_
-9	جهڙو	_	PRON	_	_	10	nmod	_	_
-10	ناداني	_	ADJ	_	_	12	nmod	_	_
-11	وارو	_	ADP	_	_	10	case	_	_
-12	ڪم	_	NOUN	_	_	0	root	_	_
-13	آهي	_	AUX	_	_	12	cop	_	SpaceAfter=No
-14	.	_	PUNCT	_	_	12	punct	_	_
+# semgrex pattern |{word:/^ته$/}=intensifier <=reln {}=head !<mark {}=head !</advmod:emph/ {}=head| matched at 2:ته  intensifier=2:ته head=12:ڪم
+1	جڏهن	_	ADV	ADT	_	12	advmod	_	_
+2	ته	_	PART	PART	_	1	advmod:emph	_	_
+3	ٻاراڻو	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	5	amod	_	_
+4	مان	_	ADP	PSP	_	3	case	_	_
+5	مراد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+6	ٻارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
+7	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	6	case	_	_
+8	ٻار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+9	جهڙو	_	PRON	PRL	Case=Nom|Gender=Masc|Number=Plur	10	nmod	_	_
+10	ناداني	_	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+11	وارو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	10	case	_	_
+12	ڪم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+13	آهي	_	AUX	VAUX	Number=Plur|Tense=Pres	12	cop	_	SpaceAfter=No
+14	.	_	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 11
 # text = لفظ اَدَبُ جي لفظي معنيٰ آهي.
