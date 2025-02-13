@@ -3391,18 +3391,19 @@
 
 # sent_id = 654
 # text = صوف روزانو کائڻ گھرجي ڇو ته صحت ئي سڀ ڪجھ آهي .
-1	صوف	صوف	PROPN	NNP__اسم_خاص	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	روزانو	روز	ADV	RB__ظرف	Number=Sing	3	advmod	_	_
-3	کائڻ	کاءِ	VERB	VB__فعل	Number=Sing	0	root	_	_
-4	گھرجي	گھرج	VERB	VB__فعل_معاون	Number=Sing	3	compound	_	_
-5	ڇو	ڇو	ADV	RB__ظرف	Number=Sing	3	advmod	_	_
-6	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	3	case	_	_
-7	صحت	صحت	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
-8	ئي	ئي	PART	_	_	7	dep	_	_
-9	سڀ	سڀ	ADJ	JJ__صفت	Case=Nom|Number=Plur|Person=3	10	amod	_	_
-10	ڪجھ	ڪجھ	ADV	RB__ظرف	Number=Sing	3	advmod	_	_
-11	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	10	cop	_	_
-12	.	.	PUNCT	-__پورو_دم	_	3	punct	_	_
+# semgrex pattern |{word:/^ته$/}=intensifier <=reln {}=head !<mark {}=head !</advmod:emph/ {}=head| matched at 6:ته  intensifier=6:ته head=3:کائڻ
+1	صوف	صوف	PROPN	NNP	Case=Nom|Gender=Masc	3	nsubj	_	_
+2	روزانو	روز	ADV	ADV	_	3	advmod	_	_
+3	کائڻ	کاءِ	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	_
+4	گھرجي	گھرج	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=PresPart|Voice=Act	3	compound	_	_
+5	ڇو	ڇو	SCONJ	CS	_	3	mark	_	_
+6	ته	ته	SCONJ	CS	_	5	compound	_	_
+7	صحت	صحت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+8	ئي	ئي	PART	PART	_	7	dep	_	_
+9	سڀ	سڀ	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	ڪجھ	ڪجھ	ADV	ADV	_	3	ccomp	_	_
+11	آهي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
+12	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 655
 # text = موت کي ياد ڪرڻ سان دنيا جي ظالمن جو خوف ختم ٿي وڃي ٿو .

@@ -3391,17 +3391,18 @@
 
 # sent_id = 654
 # text = صوف روزانو کائڻ گھرجي ڇو ته صحت ئي سڀ ڪجھ آهي .
+# semgrex pattern |{word:/^ته$/}=intensifier <=reln {}=head !<mark {}=head !</advmod:emph/ {}=head| matched at 6:ته  intensifier=6:ته head=3:کائڻ
 1	صوف	صوف	PROPN	NNP	Case=Nom|Gender=Masc	3	nsubj	_	_
 2	روزانو	روز	ADV	ADV	_	3	advmod	_	_
-3	کائڻ	کاءِ	VERB	VM	Aspect=Imp|VerbForm=Inf|Tense=Pres|Voice=Act	0	root	_	_
-4	گھرجي	گھرج	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act|VerbForm=PresPart|Tense=Pres	3	compound	_	_
-5	ڇو	ڇو	ADV	ADT	_	3	advmod	_	_
-6	ته	ته	SCONJ	CS	_	3	case	_	_
-7	صحت	صحت	NOUN	NN	Case=Nom|Number=Sing|Gender=Fem	10	nsubj	_	_
+3	کائڻ	کاءِ	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	_
+4	گھرجي	گھرج	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=PresPart|Voice=Act	3	compound	_	_
+5	ڇو	ڇو	SCONJ	CS	_	3	mark	_	_
+6	ته	ته	SCONJ	CS	_	5	compound	_	_
+7	صحت	صحت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 8	ئي	ئي	PART	PART	_	7	dep	_	_
-9	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur|Degree=Pos|Gender=Fem	10	amod	_	_
-10	ڪجھ	ڪجھ	ADV	ADV	_	3	advmod	_	_
-11	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres|Person=3|Gender=Fem	10	cop	_	_
+9	سڀ	سڀ	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	ڪجھ	ڪجھ	ADV	ADV	_	3	ccomp	_	_
+11	آهي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
 12	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 655
