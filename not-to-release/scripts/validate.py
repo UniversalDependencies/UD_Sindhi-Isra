@@ -246,7 +246,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     if not printed:
                         printed = True
                         print("FEATURE ERRORS")
-                    print("Sentence %s (%d) word %d had an unexpected upos %s with features" % (sent.sent_id, sent_idx, word_idx, word.upos))
+                    print("Sentence %s (%d) word %d (line %d) had an unexpected upos %s with features" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.upos))
                     continue
                 if not word.feats or word.feats == '_':
                     if word.upos in DISALLOWED_BLANK_FEATS:
@@ -254,7 +254,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                         if not printed:
                             printed = True
                             print("FEATURE ERRORS")
-                        print("Sentence %s (%d) word %d had blank features, which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.upos))
+                        print("Sentence %s (%d) word %d (line %d) had blank features, which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.upos))
                     continue
                 feat_pieces = word.feats.split("|")
                 for feat in feat_pieces:
@@ -263,7 +263,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                         if not printed:
                             printed = True
                             print("FEATURE ERRORS")
-                        print("Sentence %s (%d) word %d had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx, feat, word.upos))
+                        print("Sentence %s (%d) word %d (line %d) had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx, word.line_number, feat, word.upos))
 
     return problem_sentences
 
@@ -276,7 +276,7 @@ def main():
 
     for filename in args.filename:
         print("Validating %s" % filename)
-        new_doc = CoNLL.conll2doc(filename)
+        new_doc = CoNLL.conll2doc(filename, keep_line_numbers=True)
         validate(new_doc, check_xpos=args.check_xpos, check_feats=args.check_feats)
 
 if __name__ == '__main__':
