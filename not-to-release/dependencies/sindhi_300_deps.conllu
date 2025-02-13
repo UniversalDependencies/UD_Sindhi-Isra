@@ -900,14 +900,14 @@
 
 # sent_id = 341
 # text = اچو ته هن دنيا کي خوبصورت بڻايون .
-1	اچو	اچ	VERB	PRP__ضمير	Number=Plur	7	obl	_	_
-2	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	1	case	_	_
-3	هن	هن	DET	DT__ضمير_اشارو	Case=Acc|Number=Sing|Person=3	4	det	_	_
-4	دنيا	دنيا	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	obj	_	_
-5	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	4	case	_	_
-6	خوبصورت	خوبصورت	ADJ	JJ__صفت	Case=Acc|Number=Sing|Person=3	7	xcomp	_	_
-7	بڻايون	بڻاءِ	VERB	VB__فعل	Number=Plur	0	root	_	_
-8	.	.	PUNCT	-__پورو_دم	_	7	punct	_	_
+1	اچو	اچ	VERB	VM	Aspect=Imp|Number=Sing|Person=3	7	ccomp	_	_
+2	ته	ته	SCONJ	CS	_	7	mark	_	_
+3	هن	هن	DET	PRD	Case=Acc|Number=Sing	4	det	_	_
+4	دنيا	دنيا	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+5	کي	کي	ADP	PSP	_	4	case	_	_
+6	خوبصورت	خوبصورت	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	xcomp	_	_
+7	بڻايون	بڻاءِ	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
+8	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = 342
 # text = ڪمپيوٽر جي استعمال ماڻهن کي اڪيلو ڪيو آهي .
@@ -1248,12 +1248,12 @@
 
 # sent_id = 379
 # text = اچو ته گڏجي تعليم بچايون .
-1	اچو	اچ	VERB	_	_	5	obl	_	_
-2	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	1	advmod	_	_
-3	گڏجي	گڏ	ADV	RB__ظرف	Number=Sing	5	advmod	_	_
-4	تعليم	تعليم	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
-5	بچايون	بچاءُ	VERB	VB__فعل	Number=Plur	0	root	_	_
-6	.	.	PUNCT	-__پورو_دم	_	5	punct	_	_
+1	اچو	اچ	VERB	VM	Aspect=Imp|Number=Sing|Person=3	5	ccomp	_	_
+2	ته	ته	SCONJ	CS	_	5	mark	_	_
+3	گڏجي	گڏ	ADV	ADV	_	5	advmod	_	_
+4	تعليم	تعليم	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	بچايون	بچاءُ	VERB	VM	Aspect=Imp|Number=Plur|Person=3	0	root	_	_
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 380
 # text = موسم جو ڪو ڀروسو ئي نه رهيو آهي .
@@ -1481,17 +1481,17 @@
 
 # sent_id = 401
 # text = جڏهن ته هُو ڇت تي هن لاءِ ئي چڙهيو هو .
-1	جڏهن	جڏهن	CCONJ	CC__حرف_جملو	Number=Sing	9	cc	_	_
-2	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	1	conj	_	_
-3	هُو	هُو	DET	DT__ضمير_اشارو	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
-4	ڇت	ڇت	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	obl	_	_
-5	تي	تي	ADP	PRP__حرفِ_جر	Number=Sing	4	case	_	_
-6	هن	هن	DET	DT__ضمير_اشارو	Case=Acc|Number=Sing|Person=3	9	obl	_	_
-7	لاءِ	لاءِ	ADP	IN__حرفِ_جر	Number=Sing	6	case	_	_
-8	ئي	ئي	ADV	RB__ظرف	Number=Sing	9	advmod	_	_
-9	چڙهيو	چڙه	VERB	VBD__فعل	Number=Sing	0	root	_	_
-10	هو	هو	VERB	VB__فعل	Number=Sing	9	compound	_	_
-11	.	.	PUNCT	-__پورو_دم	_	9	punct	_	_
+1	جڏهن	جڏهن	ADV	ADT	_	9	advmod	_	_
+2	ته	ته	PART	PART	_	1	advmod:emph	_	_
+3	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+4	ڇت	ڇت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+5	تي	تي	ADP	PSP	Type=Loc	4	case	_	_
+6	هن	هن	DET	PRD	Case=Acc|Number=Sing	9	obl	_	_
+7	لاءِ	لاءِ	ADP	PSP	_	6	case	_	_
+8	ئي	ئي	PART	PART	_	6	advmod:emph	_	_
+9	چڙهيو	چڙه	VERB	VM	Aspect=Perf|Number=Sing|Person=3	0	root	_	_
+10	هو	هو	AUX	VAUX	Number=Sing|Tense=Past	9	compound	_	_
+11	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 405
 # text = پر ٻئي دفعي تنهنجي مدد ضرور ڪندس .
@@ -1897,17 +1897,17 @@
 
 # sent_id = 442
 # text = مهانگائي ته ماڻهن کي تمام گھڻو پريشاني ۾ وڌو آهي .
-1	مهانگائي	مهانگ	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
-2	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	1	case	_	_
-3	ماڻهن	ماڻهو	NOUN	NN__اسم	Case=Nom|Number=Plur	9	obj	_	_
-4	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	3	case	_	_
-5	تمام	تمام	ADV	RB__ظرف	Number=Sing	6	advmod	_	_
-6	گھڻو	گھڻو	ADJ	JJ__صفت	Case=Nom|Number=Sing	7	amod	_	_
-7	پريشاني	پريشان	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obl	_	_
-8	۾	۾	ADP	IN__حرفِ_جر	Number=Sing	7	case	_	_
-9	وڌو	وڌو	VERB	VB__فعل	Number=Sing	0	root	_	_
-10	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	9	aux	_	_
-11	.	.	PUNCT	-__پورو_دم	_	9	punct	_	_
+1	مهانگائي	مهانگ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+2	ته	ته	PART	PART	_	1	advmod:emph	_	_
+3	ماڻهن	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+4	کي	کي	ADP	PSP	_	3	case	_	_
+5	تمام	تمام	ADV	ADV	_	6	advmod	_	_
+6	گھڻو	گھڻو	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
+7	پريشاني	پريشان	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+8	۾	۾	ADP	PSP	Type=Loc	7	case	_	_
+9	وڌو	وڌو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	0	root	_	_
+10	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	9	aux	_	_
+11	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 443
 # text = هن عيد تي مهانگائي تمام گھڻي رهي .
@@ -2236,16 +2236,16 @@
 
 # sent_id = 468
 # text = هنن سياستدانن ته ملڪ کي تباھ ڪري ڇڏيو آهي .
-1	هنن	هن	DET	DT__ضمير_اشارو	Case=Acc|Number=Plur|Person=3	2	det	_	_
-2	سياستدانن	سياست	NOUN	NNS__اسم	Case=Nom|Number=Plur	7	nsubj	_	_
-3	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	2	case	_	_
-4	ملڪ	ملڪ	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	obj	_	_
-5	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	4	case	_	_
-6	تباھ	تباھ	ADJ	JJ__صفت	Case=Acc|Number=Sing|Person=3	7	compound	_	_
-7	ڪري	ڪر	VERB	VB__فعل	Number=Sing	0	root	_	_
-8	ڇڏيو	ڇڏ	VERB	VBD__فعل	Number=Sing	7	compound	_	_
-9	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	7	aux	_	_
-10	.	.	PUNCT	-__پورو_دم	_	7	punct	_	_
+1	هنن	هن	DET	PRD	Case=Acc|Gender=Masc|Number=Plur	2	det	_	_
+2	سياستدانن	سياست	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	ته	ته	PART	PART	_	2	advmod:emph	_	_
+4	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+5	کي	کي	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	4	case	_	_
+6	تباھ	تباھ	ADJ	JJ	Case=Nom|Degree=Pos	7	compound	_	_
+7	ڪري	ڪر	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=PresPart|Voice=Act	0	root	_	_
+8	ڇڏيو	ڇڏ	VERB	VM	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	7	compound	_	_
+9	آهي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Pres	7	aux	_	_
+10	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = 469
 # text = اڄڪلھ سگھڙن جون ڪچهريون نه پيون ٿين .
@@ -2260,16 +2260,16 @@
 
 # sent_id = 470
 # text = حڪومت کي گھرجي ته سگھڙن جي مالي سهائتا ڪري .
-1	حڪومت	حڪومت	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
-2	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	1	case	_	_
-3	گھرجي	گھرج	AUX	VB__فعل_معاون	Number=Sing	1	cop	_	_
-4	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	1	case	_	_
-5	سگھڙن	سگھڙ	NOUN	NNS__اسم	Case=Nom|Number=Plur	8	nmod	_	_
-6	جي	جي	ADP	IN__حرفِ_جر	Number=Sing	5	case	_	_
-7	مالي	مالي	ADJ	JJ__صفت	Case=Nom|Number=Sing|Person=3	8	amod	_	_
-8	سهائتا	سهائتا	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
-9	ڪري	ڪر	VERB	VB__فعل	Number=Sing	0	root	_	_
-10	.	.	PUNCT	-__پورو_دم	_	9	punct	_	_
+1	حڪومت	حڪومت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	کي	کي	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+3	گھرجي	گھرج	VERB	VM	Aspect=Imp|Number=Sing	9	ccomp	_	_
+4	ته	ته	SCONJ	CS	_	9	mark	_	_
+5	سگھڙن	سگھڙ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
+6	جي	جي	ADP	PSP	Case=Nom|Number=Sing|Type=Gen	5	case	_	_
+7	مالي	مالي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	8	amod	_	_
+8	سهائتا	سهائتا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	ڪري	ڪر	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
+10	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 471
 # text = ڀٽائي جي شاعري کي سمجھڻ لاءِ ادارا کلڻ گھرجن .
@@ -3110,19 +3110,19 @@
 
 # sent_id = 641
 # text = اچو ته گڏجي راند کيڏون ، راندروند سان صحت بهتر ٿئي ٿي .
-1	اچو	اچ	VERB	PRP__ضمير	Number=Plur	5	obl	_	_
-2	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	1	case	_	_
-3	گڏجي	گڏ	ADV	RB__ظرف	Number=Sing	5	advmod	_	_
-4	راند	راند	NOUN	NN__اسم	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	compound	_	_
-5	کيڏون	کيڏ	VERB	VB__فعل	Number=Plur	11	advcl	_	_
-6	،	،	PUNCT	-__بيهڪ_جي_نشاني	_	5	punct	_	_
-7	راندروند	راند	NOUN	NN__اسم	Case=Nom|Number=Sing|Person=3	11	obl	_	_
-8	سان	سان	ADP	IN__حرفِ_جر	Number=Sing	7	case	_	_
-9	صحت	صحت	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
-10	بهتر	بهتر	ADJ	JJ__صفت	Case=Nom|Number=Sing|Person=3	11	compound	_	_
-11	ٿئي	ٿي	VERB	VB__فعل	Number=Sing	0	root	_	_
-12	ٿي	ٿي	AUX	VB__فعل	Number=Sing	11	aux	_	_
-13	.	.	PUNCT	-__پورو_دم	_	11	punct	_	_
+1	اچو	اچ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	_
+2	ته	ته	SCONJ	CS	_	5	mark	_	_
+3	گڏجي	گڏ	ADV	ADV	_	5	advmod	_	_
+4	راند	راند	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	_
+5	کيڏون	کيڏ	VERB	VMX	Aspect=Perf|Case=Acc|Number=Plur|Tense=Pres	11	advcl	_	_
+6	،	،	PUNCT	PUNCT	_	5	punct	_	_
+7	راندروند	راند	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+8	سان	سان	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	7	case	_	_
+9	صحت	صحت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	بهتر	بهتر	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	compound	_	_
+11	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
+12	ٿي	ٿي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Pres	11	aux	_	_
+13	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = 642
 # text = ڌڻي پاڪ سڀني ماڻهن کي خوش ۽ صحتمند رکي .
