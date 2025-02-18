@@ -1809,7 +1809,7 @@
 13	هر	_	DET	PRD	Case=Nom|Number=Sing	14	det	_	_
 14	حڪومت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obl	_	_
 15	۾	_	ADP	PSP	Type=Loc	14	case	_	_
-16	هزارين	_	ADJ	JJC	Case=Nom|Gender=Masc|Number=Plur	17	nummod	_	_
+16	هزارين	_	ADJ	JJC	Case=Nom|Gender=Masc|Number=Plur	17	amod	_	_
 17	ماڻهو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
 18	هوندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	11	obj	_	_
 19	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	18	aux	_	_
@@ -1904,7 +1904,7 @@
 2	وقت	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 3	پاڪستان	_	PROPN	NNP	Case=Acc|Gender=Masc	6	nmod	_	_
 4	جون	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Plur|Type=Gen	3	case	_	_
-5	سڀئي	_	ADJ	JJ	Case=Nom|Number=Plur	6	nummod	_	_
+5	سڀئي	_	ADJ	JJ	Case=Nom|Number=Plur	6	amod	_	_
 6	شڪايتون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	obj	_	_
 7	دور	_	ADV	ADP	_	8	compound	_	_
 8	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
@@ -6436,13 +6436,13 @@
 8	نه	_	PART	PART	_	9	dep	_	_
 9	پوندي	_	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	_
 10	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	9	aux	_	_
-11	ته	_	SCONJ	CS	_	14	mark	_	_
-12	شام	_	PROPN	NNP	Case=Nom|Gender=Masc	14	nummod	_	_
+11	ته	_	SCONJ	CS	_	9	mark	_	_
+12	شام	_	PROPN	NNP	Case=Nom|Gender=Masc	14	nmod	_	_
 13	جا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	12	case	_	_
-14	ست	_	NUM	NUM	_	9	obj	_	_
-15	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	14	nummod	_	_
+14	ست	_	ADJ	JJ	Case=Nom|Gender=Masc	9	ccomp	_	_
+15	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	14	cop	_	_
 16	يا	_	CCONJ	CC	_	17	cc	_	_
-17	صبح	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
+17	صبح	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	conj	_	_
 18	جا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	17	case	_	SpaceAfter=No
 19	.	_	PUNCT	PUNCT	_	9	punct	_	_
 
@@ -6705,7 +6705,7 @@
 3	۾	_	ADP	PSP	Type=Loc	2	case	_	_
 4	کيسن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
 5	۾	_	ADP	PSP	Type=Loc	4	case	_	_
-6	هزارين	_	ADJ	JJM	Case=Nom|Number=Plur	7	nummod	_	_
+6	هزارين	_	ADJ	JJM	Case=Nom|Number=Plur	7	amod	_	_
 7	رپيا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 8	،	_	PUNCT	PUNCT	_	7	punct	_	_
 
@@ -7119,7 +7119,7 @@
 17	نوان	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	18	amod	_	_
 18	يارهن	_	NUM	NUM	_	27	obl	_	_
 19	يا	_	CCONJ	CC	_	21	cc	_	_
-20	پراڻا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	21	nummod	_	_
+20	پراڻا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
 21	يارهن	_	NUM	NUM	_	18	conj	_	SpaceAfter=No
 22	“	_	PUNCT	PUNCT	_	21	punct	_	_
 23	وري	_	ADV	ADM	_	27	advmod	_	_
@@ -7138,10 +7138,10 @@
 36	ته	_	SCONJ	CS	_	35	mark	_	SpaceAfter=No
 37	،	_	PUNCT	PUNCT	_	35	punct	_	_
 38	”	_	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
-39	نوان	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	40	nummod	_	_
+39	نوان	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	40	amod	_	_
 40	ٻارهن	_	NUM	NUM	_	35	obl	_	_
 41	يا	_	CCONJ	CC	_	43	cc	_	_
-42	پراڻا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	43	nummod	_	_
+42	پراڻا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	43	amod	_	_
 43	ٻارهن	_	NUM	NUM	_	40	conj	_	SpaceAfter=No
 44	“	_	PUNCT	PUNCT	_	40	punct	_	SpaceAfter=No
 45	.	_	PUNCT	PUNCT	_	12	punct	_	_
@@ -11288,7 +11288,7 @@
 12	5	_	NUM	NUM	_	13	nummod	_	_
 13	اوورن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	22	obl	_	_
 14	۾	_	ADP	PSP	Type=Loc	13	case	_	_
-15	هڪ	_	ADJ	JJC	Case=Nom|Number=Sing	16	nummod	_	_
+15	هڪ	_	ADJ	JJC	Case=Nom|Number=Sing	16	amod	_	_
 16	وڪيٽ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	_
 17	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	16	case	_	_
 18	نقصان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
@@ -12285,9 +12285,9 @@
 6	سسئي	_	PROPN	NNP	Case=Nom|Gender=Fem	7	compound	_	_
 7	پليجو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
 8	2	_	NUM	NUM	_	9	nummod	_	_
-9	مئي	_	PROPN	NNP	Case=Nom|Gender=Masc	10	nummod	_	_
+9	مئي	_	PROPN	NNP	Case=Nom|Gender=Masc	10	nmod	_	_
 10	2008ع	_	NUM	NUM	_	28	obl	_	_
-11	تي	_	ADP	PSP	Type=Loc	10	nummod	_	_
+11	تي	_	ADP	PSP	Type=Loc	10	case	_	_
 12	ٿر	_	PROPN	NNP	Case=Nom|Gender=Masc	21	obl	_	_
 13	۾	_	ADP	PSP	Type=Loc	12	case	_	_
 14	مارئي	_	PROPN	NNP	Case=Nom|Gender=Fem	17	nmod	_	_
@@ -12306,7 +12306,7 @@
 27	اعلان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	xcomp	_	_
 28	ڪيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 29	هو	_	AUX	VAUX	Number=Sing|Tense=Past	28	aux	_	_
-30	ته	_	SCONJ	CS	_	42	mark	_	_
+30	ته	_	SCONJ	CS	_	28	mark	_	_
 31	هاڻي	_	ADV	ADT	_	42	advmod	_	_
 32	هر	_	ADJ	JJ	Case=Nom|Number=Sing	33	amod	_	_
 33	سال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	42	obl	_	_
@@ -12318,7 +12318,7 @@
 39	مارئي	_	PROPN	NNP	Case=Nom|Gender=Masc	41	nmod	_	_
 40	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	39	case	_	_
 41	ميلو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	42	obj	_	_
-42	ملهايو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Voice=Act	28	obj	_	_
+42	ملهايو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Voice=Act	28	ccomp	_	_
 43	ويندو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	42	compound	_	SpaceAfter=No
 44	،	_	PUNCT	PUNCT	_	42	punct	_	_
 
@@ -12543,15 +12543,15 @@
 # text = جنهن ۾ سال 1997ع ۾ ڀالوا ۾ هڪ ڏينهن ۽ هڪ ڏينهن مٺي ۾ گڏيل طور تي ميلو ملهايو ويو،
 1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	19	obl	_	_
 2	۾	_	ADP	PSP	Type=Loc	1	case	_	_
-3	سال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nummod	_	_
+3	سال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 4	1997ع	_	NUM	NUM	_	19	obl	_	_
 5	۾	_	ADP	PSP	Type=Loc	4	case	_	_
 6	ڀالوا	_	PROPN	NNP	Case=Nom|Gender=Masc	19	obl	_	_
 7	۾	_	ADP	PSP	Type=Loc	6	case	_	_
-8	هڪ	_	NUM	NUM	_	9	nummod	_	_
+8	هڪ	_	ADJ	JJ	Case=Nom	9	amod	_	_
 9	ڏينهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	_
 10	۽	_	CCONJ	CC	_	12	cc	_	_
-11	هڪ	_	NUM	NUM	_	12	nummod	_	_
+11	هڪ	_	ADJ	JJ	Case=Nom	12	amod	_	_
 12	ڏينهن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	_
 13	مٺي	_	PROPN	NNP	Case=Nom|Gender=Masc	19	obl	_	_
 14	۾	_	ADP	PSP	Type=Loc	13	case	_	_
@@ -12567,7 +12567,7 @@
 # text = جنهن بعد سال 2003ع ۾ به مارئي جو ميلو ثقافت کاتي طرفان مٺي ۾ملهايو ويو هو،
 1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	14	obl	_	_
 2	بعد	_	ADP	PSP	_	1	case	_	_
-3	سال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nummod	_	_
+3	سال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 4	2003ع	_	NUM	NUM	_	14	obl	_	_
 5	۾	_	ADP	PSP	Type=Loc	4	case	_	_
 6	به	_	PART	PART	_	4	advmod:emph	_	_
@@ -12609,7 +12609,7 @@
 3	گذريل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart	4	amod	_	_
 4	سال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	_
 5	2	_	NUM	NUM	_	6	nummod	_	_
-6	مئي	_	PROPN	NNP	Case=Nom|Gender=Masc	7	nummod	_	_
+6	مئي	_	PROPN	NNP	Case=Nom|Gender=Masc	7	nmod	_	_
 7	2008ع	_	NUM	NUM	_	17	obl	_	_
 8	تي	_	ADP	PSP	Type=Loc	7	case	_	_
 9	مارئي	_	PROPN	NNP	Case=Nom|Gender=Masc	10	nmod	_	_
