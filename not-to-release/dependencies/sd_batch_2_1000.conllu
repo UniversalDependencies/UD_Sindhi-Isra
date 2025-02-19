@@ -1110,10 +1110,10 @@
 3	تي	_	ADP	_	_	2	case	_	_
 4	ڪيانگان	_	PROPN	_	_	8	nmod	_	_
 5	جون	_	ADP	_	_	4	case	_	_
-6	سڀئي	_	ADJ	_	_	8	nummod	_	_
-7	ريتون	_	NOUN	_	_	8	nummod	_	_
-8	رسمون	_	NOUN	_	_	10	obj	_	_
-9	پوريون	_	NOUN	_	_	10	compound	_	_
+6	سڀئي	_	ADJ	_	_	8	amod	_	_
+7	ريتون	_	NOUN	_	_	8	compound	_	_
+8	رسمون	_	NOUN	_	_	10	nsubj	_	_
+9	پوريون	_	NOUN	_	_	10	obj	_	_
 10	ڪيون	_	VERB	_	_	0	root	_	_
 11	ويون	_	VERB	_	_	10	compound	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	10	punct	_	_
@@ -10999,12 +10999,12 @@
 # sent_id = 612
 # text = مطلب ته مزدوريءَ جو ڪو به اهڙو ڪم نه هو،
 1	مطلب	_	NOUN	_	_	10	obl	_	_
-2	ته	_	SCONJ	_	_	1	mark	_	_
-3	مزدوريءَ	_	NOUN	_	_	8	nmod	_	_
-4	جو	_	ADP	_	_	5	det	_	_
-5	ڪو	_	DET	_	_	8	det	_	_
+2	ته	_	PART	_	_	1	advmod:emph	_	_
+3	مزدوريءَ	_	NOUN	_	_	7	nmod	_	_
+4	جو	_	ADP	_	_	3	case	_	_
+5	ڪو	_	DET	_	_	7	det	_	_
 6	به	_	PART	_	_	5	advmod:emph	_	_
-7	اهڙو	_	DET	_	_	8	nummod	_	_
+7	اهڙو	_	PRON	_	_	8	nmod	_	_
 8	ڪم	_	NOUN	_	_	10	nsubj	_	_
 9	نه	_	PART	_	_	10	dep	_	_
 10	هو	_	AUX	_	_	0	root	_	SpaceAfter=No
@@ -11138,13 +11138,13 @@
 # sent_id = 622
 # text = هڪڙي شام، جڏهن موسم ڏاڍي وڻندڙ هئي،
 1	هڪڙي	_	ADJ	_	_	2	amod	_	_
-2	شام	_	NOUN	_	_	8	obl	_	SpaceAfter=No
+2	شام	_	NOUN	_	_	7	obl	_	SpaceAfter=No
 3	،	_	PUNCT	_	_	2	punct	_	_
-4	جڏهن	_	ADV	_	_	8	advmod	_	_
-5	موسم	_	NOUN	_	_	7	nummod	_	_
+4	جڏهن	_	ADV	_	_	7	advmod	_	_
+5	موسم	_	NOUN	_	_	7	nsubj	_	_
 6	ڏاڍي	_	ADJ	_	_	7	amod	_	_
-7	وڻندڙ	_	NOUN	_	_	8	xcomp	_	_
-8	هئي	_	AUX	_	_	0	root	_	SpaceAfter=No
+7	وڻندڙ	_	NOUN	_	_	0	root	_	_
+8	هئي	_	AUX	_	_	7	cop	_	SpaceAfter=No
 9	،	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 623
