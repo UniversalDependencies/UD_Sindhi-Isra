@@ -1199,7 +1199,7 @@
 3	ان	_	PRON	_	_	4	nmod	_	_
 4	ڌيءَ	_	NOUN	_	_	6	nmod	_	_
 5	جي	_	ADP	_	_	6	nmod	_	_
-6	شادي	_	NOUN	_	_	11	nsubj	_	_
+6	شادي	_	NOUN	_	_	11	obj	_	_
 7	پري	_	ADV	_	_	9	nmod	_	_
 8	جي	_	ADP	_	_	9	nmod	_	_
 9	ڳوٺ	_	NOUN	_	_	11	obl	_	_
@@ -1504,7 +1504,7 @@
 # sent_id = 85
 # text = اسين سڀ بکيا آهيون ۽ توکي کائي اسين ڏاڍا خوش ٿينداسون.
 1	اسين	_	PRON	_	_	3	nsubj	_	_
-2	سڀ	_	ADJ	_	_	3	nsubj	_	_
+2	سڀ	_	ADJ	_	_	3	xcomp	_	_
 3	بکيا	_	VERB	_	_	0	root	_	_
 4	آهيون	_	AUX	_	_	3	cop	_	_
 5	۽	_	CCONJ	_	_	10	cc	_	_
@@ -2204,7 +2204,7 @@
 2	ڏسي	_	VERB	_	_	0	root	_	_
 3	ته	_	SCONJ	_	_	2	mark	_	_
 4	اڳيان	_	ADV	_	_	5	amod	_	_
-5	چندا	_	VERB	_	_	11	nsubj	_	_
+5	چندا	_	VERB	_	_	11	advcl	_	_
 6	۽	_	CCONJ	_	_	9	cc	_	_
 7	ان	_	PRON	_	_	9	nmod	_	_
 8	جي	_	ADP	_	_	7	case	_	_
@@ -2258,7 +2258,7 @@
 22	هن	_	DET	_	_	23	nsubj	_	_
 23	پڇيو	_	VERB	_	_	20	conj	_	SpaceAfter=No
 24	،	_	PUNCT	_	_	23	punct	_	_
-25	اڙي	_	VERB	_	_	32	nsubj	_	SpaceAfter=No
+25	اڙي	_	VERB	_	_	32	advcl	_	SpaceAfter=No
 26	،	_	PUNCT	_	_	25	punct	_	_
 27	تو	_	PRON	_	_	32	nsubj	_	_
 28	رستي	_	NOUN	_	_	32	obl	_	_
@@ -3672,7 +3672,7 @@
 10	پاسي	_	NOUN	_	_	11	obl	_	_
 11	ويو	_	VERB	_	_	6	advcl	_	SpaceAfter=No
 12	؟	_	PUNCT	_	_	11	punct	_	_
-13	خود	_	PRON	_	_	17	nsubj	_	_
+13	خود	_	PRON	_	_	17	advmod	_	_
 14	هن	_	PRON	_	_	17	nsubj	_	_
 15	کي	_	ADP	_	_	14	case	_	_
 16	به	_	PART	_	_	14	advmod:emph	_	_
@@ -4056,7 +4056,7 @@
 
 # sent_id = 225
 # text = هن مان سموري سگهه نڪري ويئي ۽ هوءَ بي حال ٿي ڪِري پيئي ۽ اتي جو اتي مري ويئي.
-1	هن	_	PRON	_	_	5	nsubj	_	_
+1	هن	_	PRON	_	_	5	obl	_	_
 2	مان	_	ADP	_	_	4	amod	_	_
 3	سموري	_	ADJ	_	_	4	amod	_	_
 4	سگهه	_	NOUN	_	_	5	nsubj	_	_
@@ -4120,7 +4120,7 @@
 3	اها	_	DET	_	_	6	det	_	_
 4	ڏک	_	NOUN	_	_	6	amod	_	_
 5	واري	_	ADP	_	_	6	amod	_	_
-6	ڪهاڻي	_	NOUN	_	_	9	nsubj	_	_
+6	ڪهاڻي	_	NOUN	_	_	9	obj	_	_
 7	وهندڙ	_	VERB	_	_	8	amod	_	_
 8	درياءَ	_	NOUN	_	_	9	nsubj	_	_
 9	ٻڌائيندو	_	VERB	_	_	0	root	_	_
@@ -4417,7 +4417,7 @@
 
 # sent_id = 242
 # text = ڀلا آءٌ پٿر ڪيئن کڻي ايندس؟ ائين چوڻ وقت هن جي اکين مان ڳوڙهن جا ٽي ڦوڙا نڪري ڳلن تي ڪريا.
-1	ڀلا	_	ADV	_	_	5	nsubj	_	_
+1	ڀلا	_	ADV	_	_	5	advmod	_	_
 2	آءٌ	_	PRON	_	_	5	nsubj	_	_
 3	پٿر	_	NOUN	_	_	5	obj	_	_
 4	ڪيئن	_	ADV	_	_	5	obl	_	_
@@ -4774,7 +4774,7 @@
 2	ديوتا	_	NOUN	_	_	9	nsubj	_	_
 3	اهو	_	DET	_	_	5	det	_	_
 4	بچيل	_	ADJ	_	_	5	nmod	_	_
-5	آنو	_	NOUN	_	_	9	nsubj	_	_
+5	آنو	_	NOUN	_	_	9	obj	_	_
 6	سردار	_	NOUN	_	_	7	nmod	_	_
 7	ديوتا	_	NOUN	_	_	9	obl	_	_
 8	وٽ	_	ADP	_	_	7	case	_	_
@@ -4824,7 +4824,7 @@
 1	نانگ	_	NOUN	_	_	2	nmod	_	_
 2	ديوتا	_	NOUN	_	_	7	nsubj	_	_
 3	اهو	_	DET	_	_	4	det	_	_
-4	آنو	_	NOUN	_	_	7	nsubj	_	_
+4	آنو	_	NOUN	_	_	7	obj	_	_
 5	پنهنجي	_	PRON	_	_	6	nmod	_	_
 6	گهر	_	NOUN	_	_	7	obl	_	_
 7	کڻي	_	VERB	_	_	0	root	_	_
@@ -5639,7 +5639,7 @@
 2	اسين	_	PRON	_	_	9	nsubj	_	_
 3	اهي	_	DET	_	_	5	det	_	_
 4	سڀئي	_	NUM	_	_	5	nummod	_	_
-5	چانور	_	NOUN	_	_	9	nsubj	_	_
+5	چانور	_	NOUN	_	_	9	obj	_	_
 6	تو	_	PRON	_	_	9	obl	_	_
 7	وٽ	_	ADP	_	_	6	case	_	_
 8	ڪونه	_	ADV	_	_	9	advmod	_	_
@@ -5679,7 +5679,7 @@
 6	هڪ	_	NUM	_	_	9	nummod	_	_
 7	ٿلهو	_	ADJ	_	_	9	amod	_	_
 8	متارو	_	ADJ	_	_	9	nmod	_	_
-9	ڍڳو	_	NOUN	_	_	10	nsubj	_	_
+9	ڍڳو	_	NOUN	_	_	10	xcomp	_	_
 10	ٿي	_	VERB	_	_	0	root	_	_
 11	ويو	_	VERB	_	_	10	compound	_	_
 12	هو	_	AUX	_	_	10	aux	_	_
@@ -6156,7 +6156,7 @@
 # sent_id = 335
 # text = تون پاڻ ميدان ۾ لهي اچ ۽ مقابلو ڪري ڏس ته ڪير ڏاڍو آهي.
 1	تون	_	PRON	_	_	5	nsubj	_	_
-2	پاڻ	_	PRON	_	_	5	nsubj	_	_
+2	پاڻ	_	PRON	_	_	5	obj	_	_
 3	ميدان	_	NOUN	_	_	5	obl	_	_
 4	۾	_	ADP	_	_	5	mark	_	_
 5	لهي	_	VERB	_	_	0	root	_	_
@@ -6362,7 +6362,7 @@
 2	نوجوان	_	NOUN	_	_	3	nmod	_	_
 3	ديوتا	_	NOUN	_	_	14	nsubj	_	_
 4	نڀاڳي	_	ADJ	_	_	5	nmod	_	_
-5	ڍڳي	_	VERB	_	_	14	nsubj	_	_
+5	ڍڳي	_	VERB	_	_	14	obj	_	_
 6	۽	_	CCONJ	_	_	8	cc	_	_
 7	ٻنهي	_	NUM	_	_	8	nummod	_	_
 8	سوئرن	_	NOUN	_	_	5	conj	_	_
@@ -6642,7 +6642,7 @@
 
 # sent_id = 361
 # text = مون کي سڀئي ماڻهو دشمن ڪري سڏيندا آهن.
-1	مون	_	PRON	_	_	7	nsubj	_	_
+1	مون	_	PRON	_	_	7	obj	_	_
 2	کي	_	ADP	_	_	1	case	_	_
 3	سڀئي	_	NUM	_	_	4	nummod	_	_
 4	ماڻهو	_	NOUN	_	_	7	nsubj	_	_
@@ -7776,7 +7776,7 @@
 24	ٻوٽيءَ	_	NOUN	_	_	27	nmod	_	_
 25	جون	_	ADP	_	_	24	case	_	_
 26	ٿوريون	_	ADJ	_	_	27	nmod	_	_
-27	پاڙون	_	NOUN	_	_	32	nsubj	_	_
+27	پاڙون	_	NOUN	_	_	32	obj	_	_
 28	دوست	_	NOUN	_	_	32	obj	_	_
 29	کي	_	ADP	_	_	28	case	_	_
 30	خوشيءَ	_	NOUN	_	_	32	obl	_	_
@@ -8116,7 +8116,7 @@
 4	پراڻو	_	ADJ	_	_	5	amod	_	_
 5	سفر	_	NOUN	_	_	7	nmod	_	_
 6	جو	_	ADP	_	_	7	case	_	_
-7	ساٿي	_	NOUN	_	_	8	nsubj	_	_
+7	ساٿي	_	NOUN	_	_	8	nmod	_	_
 8	دشمن	_	NOUN	_	_	0	root	_	_
 9	هو	_	AUX	_	_	8	cop	_	SpaceAfter=No
 10	.	_	PUNCT	_	_	8	punct	_	_
@@ -8777,7 +8777,7 @@
 6	پوءِ	_	ADV	_	_	10	advmod	_	_
 7	توکي	_	PRON	_	_	10	nsubj	_	_
 8	جيترو	_	ADV	_	_	9	amod	_	_
-9	پاڻي	_	NOUN	_	_	10	nsubj	_	_
+9	پاڻي	_	NOUN	_	_	10	obj	_	_
 10	کپي	_	VERB	_	_	4	advcl	_	SpaceAfter=No
 11	،	_	PUNCT	_	_	10	punct	_	_
 
@@ -8801,7 +8801,7 @@
 # sent_id = 488
 # text = پر مون کي مٽي ڪانهي.
 1	پر	_	SCONJ	_	_	5	mark	_	_
-2	مون	_	PRON	_	_	5	nsubj	_	_
+2	مون	_	PRON	_	_	5	iobj	_	_
 3	کي	_	ADP	_	_	2	case	_	_
 4	مٽي	_	NOUN	_	_	5	nsubj	_	_
 5	ڪانهي	_	VERB	_	_	0	root	_	SpaceAfter=No
@@ -9322,7 +9322,7 @@
 13	،	_	PUNCT	_	_	12	punct	_	_
 14	جو	_	ADP	_	_	17	mark	_	_
 15	ڪڙمي	_	NOUN	_	_	17	nsubj	_	_
-16	اصل	_	ADV	_	_	17	nsubj	_	_
+16	اصل	_	ADV	_	_	17	advmod	_	_
 17	دهلجي	_	VERB	_	_	12	advcl	_	_
 18	ويو	_	VERB	_	_	17	compound	_	SpaceAfter=No
 19	.	_	PUNCT	_	_	17	punct	_	_
@@ -9343,7 +9343,7 @@
 12	شينهن	_	NOUN	_	_	21	nsubj	_	_
 13	شير	_	NOUN	_	_	14	nmod	_	_
 14	خدا	_	PROPN	_	_	15	nmod	_	_
-15	جاٰ	_	NOUN	_	_	21	nsubj	_	_
+15	جاٰ	_	NOUN	_	_	21	obl	_	_
 16	منهنجن	_	PRON	_	_	17	nmod	_	_
 17	ڍڳن	_	NOUN	_	_	19	nmod	_	_
 18	جي	_	ADP	_	_	17	case	_	_
@@ -9701,7 +9701,7 @@
 
 # sent_id = 534
 # text = ڀلا تون ئي ڪا اٽڪل ٻڌاءِ.
-1	ڀلا	_	ADV	_	_	6	nsubj	_	_
+1	ڀلا	_	ADV	_	_	6	advmod	_	_
 2	تون	_	PRON	_	_	6	nsubj	_	_
 3	ئي	_	ADP	_	_	2	case	_	_
 4	ڪا	_	DET	_	_	5	det	_	_
@@ -9756,7 +9756,7 @@
 
 # sent_id = 539
 # text = ڪڙميءَ کي جيئن زال سمجهايو، هن به ائين ئي ڪيو.
-1	ڪڙميءَ	_	NOUN	_	_	5	nsubj	_	_
+1	ڪڙميءَ	_	NOUN	_	_	5	obj	_	_
 2	کي	_	ADP	_	_	1	case	_	_
 3	جيئن	_	ADV	_	_	5	obl	_	_
 4	زال	_	NOUN	_	_	5	nsubj	_	_
@@ -9796,7 +9796,7 @@
 # sent_id = 541
 # text = شينهن جو ٻڌو ته اڃا به مون کي ڍڳيءَ جي لاءِ ترسڻو پوندو ته ڪاوڙ وچان گجگوڙ ڪرڻ لڳو ۽ پنهنجو پڇ زور زور سان زمين تي هڻڻ لڳو.
 1	شينهن	_	NOUN	_	_	3	nsubj	_	_
-2	جو	_	ADP	_	_	3	nsubj	_	_
+2	جو	_	ADP	_	_	3	mark	_	_
 3	ٻڌو	_	VERB	_	_	0	root	_	_
 4	ته	_	SCONJ	_	_	12	mark	_	_
 5	اڃا	_	ADV	_	_	12	advmod	_	_
@@ -10258,7 +10258,7 @@
 4	ڊڄي	_	ADV	_	_	0	root	_	_
 5	ڪير	_	PRON	_	_	8	nsubj	_	_
 6	ٿو	_	AUX	_	_	4	aux	_	SpaceAfter=No
-7	؟	_	PUNCT	_	_	8	nsubj	_	_
+7	؟	_	PUNCT	_	_	8	punct	_	_
 8	هلو	_	VERB	_	_	4	conj	_	_
 9	ته	_	SCONJ	_	_	13	mark	_	_
 10	پاڻ	_	PRON	_	_	13	nsubj	_	_
@@ -10692,7 +10692,7 @@
 1	نيٺ	_	ADV	_	_	8	advmod	_	_
 2	گدڙ	_	NOUN	_	_	8	nsubj	_	_
 3	دانهون	_	NOUN	_	_	4	nmod	_	_
-4	ڪوڪون	_	NOUN	_	_	8	nsubj	_	_
+4	ڪوڪون	_	NOUN	_	_	8	obj	_	_
 5	۽	_	CCONJ	_	_	6	cc	_	_
 6	آزي	_	NOUN	_	_	4	conj	_	_
 7	نيزاري	_	NOUN	_	_	8	xcomp	_	_
@@ -11414,7 +11414,7 @@
 1	مون	_	PRON	_	_	5	nsubj	_	_
 2	کي	_	ADP	_	_	1	case	_	_
 3	ڏاڍي	_	ADJ	_	_	4	amod	_	_
-4	اُڃ	_	NOUN	_	_	5	nsubj	_	_
+4	اُڃ	_	NOUN	_	_	5	xcomp	_	_
 5	لڳي	_	VERB	_	_	0	root	_	_
 6	آهي	_	AUX	_	_	5	aux	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	5	punct	_	_
@@ -11746,7 +11746,7 @@
 2	کي	_	ADP	_	_	1	case	_	_
 3	تمام	_	ADV	_	_	5	amod	_	_
 4	سٺا	_	ADJ	_	_	5	amod	_	_
-5	ڪپڙا	_	NOUN	_	_	6	nsubj	_	_
+5	ڪپڙا	_	NOUN	_	_	6	obj	_	_
 6	پيا	_	VERB	_	_	0	root	_	_
 7	هئا	_	AUX	_	_	6	compound	_	SpaceAfter=No
 8	،	_	PUNCT	_	_	6	punct	_	_
@@ -11764,7 +11764,7 @@
 # text = اهو ماڻهو پاڻ پرار وانگ هو.
 1	اهو	_	DET	_	_	2	det	_	_
 2	ماڻهو	_	NOUN	_	_	5	nsubj	_	_
-3	پاڻ	_	PRON	_	_	5	nsubj	_	_
+3	پاڻ	_	PRON	_	_	5	nmod	_	_
 4	پرار	_	NOUN	_	_	5	nmod	_	_
 5	وانگ	_	NOUN	_	_	0	root	_	_
 6	هو	_	AUX	_	_	5	cop	_	SpaceAfter=No
@@ -12038,7 +12038,7 @@
 5	کي	_	ADP	_	_	4	det	_	_
 6	سمجهه	_	NOUN	_	_	11	obl	_	_
 7	۾	_	ADP	_	_	11	mark	_	_
-8	ڪي	_	VERB	_	_	11	nsubj	_	_
+8	ڪي	_	VERB	_	_	11	advcl	_	_
 9	به	_	PART	_	_	8	advmod:emph	_	_
 10	نه	_	PART	_	_	11	dep	_	_
 11	آيو	_	VERB	_	_	0	root	_	_
@@ -12864,7 +12864,7 @@
 5	پنهنجي	_	PRON	_	_	6	nmod	_	_
 6	قسمت	_	NOUN	_	_	8	nmod	_	_
 7	تي	_	ADP	_	_	6	case	_	_
-8	اعتبار	_	NOUN	_	_	11	nsubj	_	_
+8	اعتبار	_	NOUN	_	_	11	compound	_	_
 9	ئي	_	ADV	_	_	11	advmod	_	_
 10	نه	_	PART	_	_	11	dep	_	_
 11	پئي	_	VERB	_	_	0	root	_	_
@@ -12989,7 +12989,7 @@
 1	اهڙيءَ	_	ADJ	_	_	2	amod	_	_
 2	طرح	_	NOUN	_	_	9	obl	_	_
 3	اهي	_	DET	_	_	4	det	_	_
-4	جتيون	_	NOUN	_	_	9	nsubj	_	_
+4	جتيون	_	NOUN	_	_	9	obj	_	_
 5	ڪنهن	_	PRON	_	_	9	nsubj	_	_
 6	به	_	PART	_	_	5	advmod:emph	_	_
 7	خريد	_	NOUN	_	_	9	compound	_	_
@@ -14400,7 +14400,7 @@
 26	جي	_	ADP	_	_	25	case	_	_
 27	گرم	_	ADJ	_	_	29	amod	_	_
 28	گرم	_	NOUN	_	_	29	amod	_	_
-29	ڪافي	_	ADJ	_	_	32	nsubj	_	_
+29	ڪافي	_	ADJ	_	_	32	xcomp	_	_
 30	اڳواٽ	_	NOUN	_	_	32	obl	_	_
 31	ئي	_	ADP	_	_	32	advmod	_	_
 32	ٺاهيو	_	VERB	_	_	9	advcl	_	_
@@ -15322,7 +15322,7 @@
 11	کائڻ	_	VERB	_	_	5	obl	_	_
 12	لاءِ	_	ADP	_	_	15	mark	_	_
 13	لذيذ	_	ADJ	_	_	14	nmod	_	_
-14	کاڌا	_	VERB	_	_	15	nsubj	_	_
+14	کاڌا	_	VERB	_	_	15	xcomp	_	_
 15	هوندا	_	VERB	_	_	0	root	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	15	punct	_	_
 
@@ -17193,7 +17193,7 @@
 3	ڪاميٽي	_	NOUN	_	_	10	nsubj	_	_
 4	ترت	_	ADV	_	_	10	advmod	_	_
 5	پنهنجون	_	PRON	_	_	6	nmod	_	_
-6	سفارشون	_	NOUN	_	_	10	nsubj	_	_
+6	سفارشون	_	NOUN	_	_	10	obj	_	_
 7	پارليامينٽ	_	NOUN	_	_	10	obl	_	_
 8	۾	_	ADP	_	_	10	obl	_	_
 9	پيش	_	VERB	_	_	10	compound	_	_
@@ -17223,7 +17223,7 @@
 19	جي	_	ADP	_	_	18	mark	_	_
 20	خوشخبري	_	ADJ	_	_	24	nsubj	_	_
 21	جلد	_	NOUN	_	_	24	advmod	_	_
-22	عوام	_	NOUN	_	_	24	nsubj	_	_
+22	عوام	_	NOUN	_	_	24	obl	_	_
 23	سامهون	_	ADV	_	_	24	xcomp	_	_
 24	ايندي	_	VERB	_	_	2	obj	_	SpaceAfter=No
 25	،	_	PUNCT	_	_	24	punct	_	_
@@ -17862,7 +17862,7 @@
 9	صدر	_	NOUN	_	_	12	nmod	_	_
 10	آصف	_	PROPN	_	_	12	compound	_	_
 11	علي	_	PROPN	_	_	12	compound	_	_
-12	زرداري	_	NOUN	_	_	17	nsubj	_	_
+12	زرداري	_	NOUN	_	_	17	obj	_	_
 13	کي	_	ADP	_	_	12	case	_	_
 14	خراج	_	NOUN	_	_	15	compound	_	_
 15	تحسين	_	NOUN	_	_	17	compound	_	_
