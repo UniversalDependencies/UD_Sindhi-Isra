@@ -55,7 +55,7 @@ ALLOWED_UPOS_TO_FEATS = {
 
 DISALLOWED_BLANK_FEATS = {"NOUN", "PROPN"}
 
-ALLOWED_PUNCT_CHARS = r"؟–؛!\"().,-/:،“”"
+ALLOWED_PUNCT_CHARS = r"؟–؛!\"().۔,-/:،“”"
 ALLOWED_PUNCT_WORD = re.compile("[%s]+" % ALLOWED_PUNCT_CHARS)
 
 def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
