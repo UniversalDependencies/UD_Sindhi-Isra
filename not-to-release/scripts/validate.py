@@ -263,7 +263,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                         if not printed:
                             printed = True
                             print("FEATURE ERRORS")
-                        print("Sentence %s (%d) word %d (line %d) had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx, word.line_number, feat, word.upos))
+                        print("Sentence %s (%d) word %d |%s| (line %d) had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, feat, word.upos))
 
     return problem_sentences
 
