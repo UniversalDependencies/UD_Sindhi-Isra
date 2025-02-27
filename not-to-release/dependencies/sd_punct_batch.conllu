@@ -1670,9 +1670,9 @@
 # sent_id = 2515
 # text = وعليڪم السلام! ڀائو، آءٌ چڱو ڀلو آهيان.
 1	وعليڪم	_	PROPN	_	_	2	compound	_	_
-2	السلام	_	PROPN	_	_	8	nsubj	_	SpaceAfter=No
+2	السلام	_	PROPN	_	_	8	discourse	_	SpaceAfter=No
 3	!	_	PUNCT	_	_	2	punct	_	_
-4	ڀائو	_	NOUN	_	_	8	nsubj	_	SpaceAfter=No
+4	ڀائو	_	NOUN	_	_	8	vocative	_	SpaceAfter=No
 5	،	_	PUNCT	_	_	4	punct	_	_
 6	آءٌ	_	PRON	_	_	8	nsubj	_	_
 7	چڱو	_	ADJ	_	_	8	amod	_	_
@@ -1781,10 +1781,10 @@
 6	پڇيو	_	VERB	_	_	0	root	_	SpaceAfter=No
 7	،	_	PUNCT	_	_	6	punct	_	_
 8	منهنجا	_	PRON	_	_	9	nmod	_	_
-9	سائين	_	NOUN	_	_	16	nsubj	_	SpaceAfter=No
+9	سائين	_	NOUN	_	_	16	vocative	_	SpaceAfter=No
 10	!	_	PUNCT	_	_	9	punct	_	_
 11	منهنجا	_	PRON	_	_	12	nmod	_	_
-12	مالڪ	_	NOUN	_	_	16	nsubj	_	SpaceAfter=No
+12	مالڪ	_	NOUN	_	_	16	vocative	_	SpaceAfter=No
 13	!	_	PUNCT	_	_	12	punct	_	_
 14	تون	_	PRON	_	_	16	nsubj	_	_
 15	ڪيڏانهن	_	ADV	_	_	16	advmod	_	_
@@ -1793,7 +1793,7 @@
 18	؟	_	PUNCT	_	_	16	punct	_	_
 19	شينهن	_	NOUN	_	_	23	nsubj	_	SpaceAfter=No
 20	،	_	PUNCT	_	_	19	punct	_	_
-21	جيڪو	_	DET	_	_	22	nsubj	_	_
+21	جيڪو	_	DET	_	_	19	det	_	_
 22	ڀڄندو	_	VERB	_	_	23	xcomp	_	_
 23	پئي	_	VERB	_	_	6	advcl	_	_
 24	ويو	_	VERB	_	_	23	compound	_	SpaceAfter=No
@@ -1803,9 +1803,9 @@
 # text = ڀڄ ڙي ڀڄ، گدڙ! جهنگ ۾ اڄ اهڙو ته خوفناڪ ڀوت آيو آهي،
 1	ڀڄ	_	VERB	_	_	2	nsubj	_	_
 2	ڙي	_	INTJ	_	_	3	discourse	_	_
-3	ڀڄ	_	VERB	_	_	14	nsubj	_	SpaceAfter=No
+3	ڀڄ	_	VERB	_	_	14	advcl	_	SpaceAfter=No
 4	،	_	PUNCT	_	_	3	punct	_	_
-5	گدڙ	_	NOUN	_	_	14	nsubj	_	SpaceAfter=No
+5	گدڙ	_	NOUN	_	_	14	vocative	_	SpaceAfter=No
 6	!	_	PUNCT	_	_	5	punct	_	_
 7	جهنگ	_	NOUN	_	_	14	obl	_	_
 8	۾	_	ADP	_	_	7	case	_	_
@@ -2091,16 +2091,16 @@
 2	سوچيو	_	VERB	_	_	0	root	_	_
 3	ته	_	SCONJ	_	_	2	mark	_	SpaceAfter=No
 4	،	_	PUNCT	_	_	5	punct	_	_
-5	سلاد	_	NOUN	_	_	14	nsubj	_	SpaceAfter=No
+5	سلاد	_	NOUN	_	_	14	vocative	_	SpaceAfter=No
 6	!	_	PUNCT	_	_	5	punct	_	_
 7	اهڙا	_	DET	_	_	10	det	_	_
 8	ننڍا	_	ADJ	_	_	10	amod	_	_
 9	ننڍا	_	ADJ	_	_	10	amod	_	_
-10	ٻوٽا	_	NOUN	_	_	14	nsubj	_	_
+10	ٻوٽا	_	NOUN	_	_	14	obj	_	_
 11	ته	_	PART	PART	_	10	advmod:emph	_	_
 12	آءٌ	_	PRON	_	_	14	nsubj	_	_
 13	به	_	PART	_	_	12	advmod:emph	_	_
-14	پوکي	_	VERB	_	_	2	obj	_	_
+14	پوکي	_	VERB	_	_	2	advcl	_	_
 15	سگهان	_	AUX	_	_	14	aux	_	_
 16	ٿو	_	AUX	_	_	14	aux	_	SpaceAfter=No
 17	.	_	PUNCT	_	_	14	punct	_	_
@@ -2205,12 +2205,12 @@
 # sent_id = 2954
 # text = بادشاهه سلامت! جيڪو پئسو اوهان مون کي بخشيو هو،
 1	بادشاهه	_	NOUN	_	_	2	nmod	_	_
-2	سلامت	_	NOUN	_	_	9	nsubj	_	SpaceAfter=No
+2	سلامت	_	NOUN	_	_	9	vocative	_	SpaceAfter=No
 3	!	_	PUNCT	_	_	2	punct	_	_
 4	جيڪو	_	DET	_	_	5	det	_	_
-5	پئسو	_	NOUN	_	_	9	nsubj	_	_
+5	پئسو	_	NOUN	_	_	9	obj	_	_
 6	اوهان	_	PRON	_	_	9	nsubj	_	_
-7	مون	_	PRON	_	_	9	obj	_	_
+7	مون	_	PRON	_	_	9	iobj	_	_
 8	کي	_	ADP	_	_	7	case	_	_
 9	بخشيو	_	VERB	_	_	0	root	_	_
 10	هو	_	AUX	_	_	9	aux	_	SpaceAfter=No

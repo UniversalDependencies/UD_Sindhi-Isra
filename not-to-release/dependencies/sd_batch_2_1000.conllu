@@ -3242,14 +3242,14 @@
 # text = ڪائو لانگ ويچاري ته دل جو سور دل ۾ ئي رکيو،
 1	ڪائو	_	NOUN	_	_	2	nmod	_	_
 2	لانگ	_	NOUN	_	_	11	nsubj	_	_
-3	ويچاري	_	VERB	_	_	11	nsubj	_	_
-4	ته	_	PART	PART	_	3	advmod:emph	_	_
+3	ويچاري	_	ADJ	_	_	2	amod	_	_
+4	ته	_	PART	PART	_	2	advmod:emph	_	_
 5	دل	_	NOUN	_	_	7	nmod	_	_
 6	جو	_	ADP	_	_	5	case	_	_
-7	سور	_	NOUN	_	_	11	nsubj	_	_
+7	سور	_	NOUN	_	_	11	obj	_	_
 8	دل	_	NOUN	_	_	11	obl	_	_
-9	۾	_	ADP	_	_	11	obl	_	_
-10	ئي	_	ADV	_	_	11	advmod	_	_
+9	۾	_	ADP	_	_	8	case	_	_
+10	ئي	_	PART	_	_	8	advmod:emph	_	_
 11	رکيو	_	VERB	_	_	0	root	_	SpaceAfter=No
 12	،	_	PUNCT	_	_	11	punct	_	_
 
@@ -6485,7 +6485,7 @@
 # sent_id = 351
 # text = ميان دوست ۽ ميان دشمن ايران جي ڪهاڻي ڪنهن هنڌ ڪو ماڻهو رهندو هو.
 1	ميان	_	NOUN	_	_	2	compound	_	_
-2	دوست	_	NOUN	_	_	13	nsubj	_	_
+2	دوست	_	NOUN	_	_	6	nmod	_	_
 3	۽	_	CCONJ	_	_	5	cc	_	_
 4	ميان	_	NOUN	_	_	5	nmod	_	_
 5	دشمن	_	NOUN	_	_	2	conj	_	_
@@ -10327,16 +10327,16 @@
 
 # sent_id = 574
 # text = پـوءِ تـه اوهـان کـي اتـي ڇڏي آءٌ ڀڄي ڪونه سگهندس.
-1	پـوءِ	_	ADV	_	_	10	nsubj	_	_
-2	تـه	_	SCONJ	_	_	10	nsubj	_	_
-3	اوهـان	_	NOUN	_	_	5	nmod	_	_
-4	کـي	_	NOUN	_	_	5	compound	_	_
-5	اتـي	_	NOUN	_	_	6	compound	_	_
-6	ڇڏي	_	VERB	_	_	10	advcl	_	_
-7	آءٌ	_	PRON	_	_	10	nsubj	_	_
-8	ڀڄي	_	VERB	_	_	10	advcl	_	_
+1	پـوءِ	_	ADV	_	_	6	advmod	_	_
+2	تـه	_	PART	_	_	1	advmod:emph	_	_
+3	اوهـان	_	NOUN	_	_	6	obj	_	_
+4	کـي	_	ADP	_	_	3	case	_	_
+5	اتـي	_	ADV	_	_	6	advmod	_	_
+6	ڇڏي	_	VERB	_	_	8	advcl	_	_
+7	آءٌ	_	PRON	_	_	8	nsubj	_	_
+8	ڀڄي	_	VERB	_	_	0	root	_	_
 9	ڪونه	_	PART	_	_	10	dep	_	_
-10	سگهندس	_	AUX	_	_	0	root	_	SpaceAfter=No
+10	سگهندس	_	AUX	_	_	8	compound	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 575
@@ -12375,17 +12375,17 @@
 
 # sent_id = 699
 # text = سو هڪدم گوڏن ڀر جهڪي تازي سلاد جا وڏا وڏا ڇـُڳا هن بادشاهه جي خذمت ۾ پيش ڪيا.
-1	سو	_	PRON	_	_	18	nsubj	_	_
-2	هڪدم	_	ADV	_	_	5	obl	_	_
-3	گوڏن	_	NOUN	_	_	4	nmod	_	_
-4	ڀر	_	NOUN	_	_	5	advmod	_	_
+1	سو	_	PRON	_	_	5	nsubj	_	_
+2	هڪدم	_	ADV	_	_	5	advmod	_	_
+3	گوڏن	_	NOUN	_	_	5	obl	_	_
+4	ڀر	_	NOUN	_	_	3	compound	_	_
 5	جهڪي	_	VERB	_	_	18	advcl	_	_
 6	تازي	_	ADJ	_	_	7	amod	_	_
 7	سلاد	_	NOUN	_	_	11	nmod	_	_
 8	جا	_	ADP	_	_	7	case	_	_
 9	وڏا	_	ADJ	_	_	11	amod	_	_
 10	وڏا	_	ADJ	_	_	11	amod	_	_
-11	ڇـُڳا	_	NOUN	_	_	18	nsubj	_	_
+11	ڇـُڳا	_	NOUN	_	_	18	obj	_	_
 12	هن	_	DET	_	_	18	nsubj	_	_
 13	بادشاهه	_	NOUN	_	_	15	nmod	_	_
 14	جي	_	ADP	_	_	13	case	_	_

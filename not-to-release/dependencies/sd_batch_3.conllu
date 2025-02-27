@@ -3511,7 +3511,7 @@
 # sent_id = 167
 # text = اسلام آباد(آن لائن)پاڪستان پيپلز پارٽي جي مرڪزي اڳواڻ صفدر عباسي ۽ شهيد بينظير ڀٽو جي اڳوڻي پوليٽيڪل سيڪريٽري ناهيد خان چيو آهي ته زمين ڦاٽي يا آسمان بي بي جا قتل هڪ ڏينهن ضرور وائکا ٿيندا،
 1	اسلام	_	PROPN	_	_	2	compound	_	_
-2	آباد	_	NOUN	_	_	25	nsubj	_	SpaceAfter=No
+2	آباد	_	NOUN	_	_	25	obl	_	SpaceAfter=No
 3	(	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	آن	_	NOUN	_	_	5	nmod	_	_
 5	لائن	_	NOUN	_	_	2	conj	_	SpaceAfter=No
@@ -3523,7 +3523,7 @@
 11	مرڪزي	_	ADJ	_	_	12	amod	_	_
 12	اڳواڻ	_	NOUN	_	_	14	nmod	_	_
 13	صفدر	_	PROPN	_	_	14	compound	_	_
-14	عباسي	_	NOUN	_	_	25	nsubj	_	_
+14	عباسي	_	NOUN	_	_	25	obl	_	_
 15	۽	_	CCONJ	_	_	18	cc	_	_
 16	شهيد	_	NOUN	_	_	18	nmod	_	_
 17	بينظير	_	PROPN	_	_	18	compound	_	_
@@ -3538,7 +3538,7 @@
 26	آهي	_	AUX	_	_	25	mark	_	_
 27	ته	_	SCONJ	_	_	29	mark	_	_
 28	زمين	_	NOUN	_	_	29	nsubj	_	_
-29	ڦاٽي	_	VERB	_	_	25	obj	_	_
+29	ڦاٽي	_	VERB	_	_	25	acl	_	_
 30	يا	_	CCONJ	_	_	31	cc	_	_
 31	آسمان	_	NOUN	_	_	29	conj	_	_
 32	بي	_	NOUN	_	_	33	compound	_	_
@@ -3548,7 +3548,7 @@
 36	هڪ	_	ADJ	_	_	37	nummod	_	_
 37	ڏينهن	_	NOUN	_	_	40	obl	_	_
 38	ضرور	_	NOUN	_	_	40	obl	_	_
-39	وائکا	_	VERB	_	_	40	xcomp	_	_
+39	وائکا	_	ADJ	_	_	40	xcomp	_	_
 40	ٿيندا	_	VERB	_	_	29	conj	_	SpaceAfter=No
 41	،	_	PUNCT	_	_	40	punct	_	_
 
@@ -4094,22 +4094,22 @@
 2	جي	_	ADP	_	_	1	case	_	_
 3	حل	_	NOUN	_	_	27	obl	_	_
 4	لاءِ	_	ADP	_	_	3	case	_	_
-5	شهري	_	NOUN	_	_	7	nmod	_	_
+5	شهري	_	ADJ	_	_	7	amod	_	_
 6	ايڪشن	_	NOUN	_	_	7	nmod	_	_
 7	ڪاميٽي	_	NOUN	_	_	9	nmod	_	_
 8	جي	_	ADP	_	_	7	case	_	_
-9	اڳواڻن	_	NOUN	_	_	27	nsubj	_	SpaceAfter=No
-10	،	_	PUNCT	_	_	13	punct	_	_
-11	شهري	_	NOUN	_	_	9	conj	_	SpaceAfter=No
-12	،	_	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	صحافي	_	NOUN	_	_	9	conj	_	SpaceAfter=No
+9	اڳواڻن	_	NOUN	_	_	20	conj	_	SpaceAfter=No
+10	،	_	PUNCT	_	_	9	punct	_	_
+11	شهري	_	ADJ	_	_	13	conj	_	SpaceAfter=No
+12	،	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	صحافي	_	NOUN	_	_	15	conj	_	SpaceAfter=No
 14	،	_	PUNCT	_	_	13	punct	_	_
-15	سياسي	_	NOUN	_	_	9	conj	_	_
+15	سياسي	_	ADJ	_	_	17	conj	_	_
 16	۽	_	CCONJ	_	_	17	cc	_	_
-17	سماجي	_	ADJ	_	_	9	conj	_	_
+17	سماجي	_	ADJ	_	_	18	amod	_	_
 18	تنظيمن	_	NOUN	_	_	20	nmod	_	_
 19	جي	_	ADP	_	_	18	case	_	_
-20	اڳواڻڻ	_	NOUN	_	_	27	nsubj	_	_
+20	اڳواڻڻ	_	NOUN	_	_	27	obl	_	_
 21	پاران	_	ADP	_	_	20	case	_	_
 22	لڳاتار	_	ADJ	_	_	24	amod	_	_
 23	بک	_	NOUN	_	_	24	nmod	_	_
@@ -8677,7 +8677,7 @@
 
 # sent_id = 420
 # text = مون کي ته آئرش ٻولي بروهي ٻوليءَ وانگر تمام ڏکي زبان لڳندي آهي.
-1	مون	_	PRON	_	_	12	nsubj	_	_
+1	مون	_	PRON	_	_	12	obl	_	_
 2	کي	_	ADP	_	_	1	case	_	_
 3	ته	_	PART	PART	_	1	advmod:emph	_	_
 4	آئرش	_	NOUN	_	_	5	nmod	_	_
@@ -8687,7 +8687,7 @@
 8	وانگر	_	ADP	_	_	7	case	_	_
 9	تمام	_	ADV	_	_	10	advmod	_	_
 10	ڏکي	_	ADJ	_	_	11	amod	_	_
-11	زبان	_	NOUN	_	_	12	nsubj	_	_
+11	زبان	_	NOUN	_	_	12	compound	_	_
 12	لڳندي	_	VERB	_	_	0	root	_	_
 13	آهي	_	AUX	_	_	12	aux	_	SpaceAfter=No
 14	.	_	PUNCT	_	_	12	punct	_	_
@@ -15470,14 +15470,14 @@
 # sent_id = 774
 # text = جيڪي دهشتگرد هاڻي پوين پساهن ۾ آهن اهي جيڪي سڪرات واريون ڇڙيون هڻي رهيا آهن،
 1	جيڪي	_	DET	_	_	2	det	_	_
-2	دهشتگرد	_	NOUN	_	_	13	nsubj	_	_
+2	دهشتگرد	_	NOUN	_	_	5	nsubj	_	_
 3	هاڻي	_	ADV	_	_	5	advmod	_	_
 4	پوين	_	ADJ	_	_	5	amod	_	_
-5	پساهن	_	NOUN	_	_	13	obl	_	_
+5	پساهن	_	NOUN	_	_	13	advcl	_	_
 6	۾	_	ADP	_	_	5	case	_	_
 7	آهن	_	AUX	_	_	5	cop	_	_
-8	اهي	_	DET	_	_	13	nsubj	_	_
-9	جيڪي	_	PRON	_	_	13	nsubj	_	_
+8	اهي	_	DET	_	_	9	det	_	_
+9	جيڪي	_	PRON	_	_	10	nmod	_	_
 10	سڪرات	_	NOUN	_	_	12	nmod	_	_
 11	واريون	_	ADP	_	_	10	case	_	_
 12	ڇڙيون	_	NOUN	_	_	13	obj	_	_
