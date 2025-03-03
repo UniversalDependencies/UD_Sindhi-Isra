@@ -6374,9 +6374,9 @@
 2	گهڙي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
 3	کن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 4	لاءِ	_	ADP	PSP	_	3	case	_	_
-5	خوش	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	xcomp	_	_
-6	ان	_	DET	PRD	Case=Nom|Number=Sing	7	det	_	_
-7	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	8	xcomp	_	_
+5	خوش	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	8	xcomp	_	_
+6	ان	_	DET	PRD	Case=Nom|Number=Sing	8	obl	_	_
+7	ڪري	_	ADP	PSP	_	6	case	_	_
 8	ٿيندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	0	root	_	_
 9	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	8	aux	_	SpaceAfter=No
 10	،	_	PUNCT	PUNCT	_	8	punct	_	_
@@ -8157,14 +8157,14 @@
 
 # sent_id = 5661
 # text = ان ڪري هن وقت آمريڪا لاءِ لازم ٿو بڻجي ته اهو پاڪستان ۾ جمهوريت جو ساٿ ڏئي ۽ مستقبل ۾ ڪنهن به آمر جي حمايت جي غلطيءَ جو ورجاءُ نه ٿيڻ گهرجي.
-1	ان	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
-2	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=ConjPart	9	advcl	_	_
+1	ان	_	DET	PRD	Case=Acc|Number=Sing	9	obl	_	_
+2	ڪري	_	ADP	PSP	_	1	case	_	_
 3	هن	_	DET	PRD	Case=Acc|Number=Sing	4	det	_	_
 4	وقت	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
-5	آمريڪا	_	PROPN	NNP	Case=Nom|Gender=Masc	9	nsubj	_	_
+5	آمريڪا	_	PROPN	NNP	Case=Nom|Gender=Masc	9	obl	_	_
 6	لاءِ	_	ADP	PSP	_	5	case	_	_
-7	لازم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	xcomp	_	_
-8	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	9	aux	_	_
+7	لازم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	ٿو	_	AUX	VAUX	AuxType=Be|Gender=Masc|Number=Sing	9	aux	_	_
 9	بڻجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
 10	ته	_	SCONJ	CS	_	17	mark	_	_
 11	اهو	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -8715,12 +8715,12 @@
 2	هر	_	DET	PRD	Case=Nom|Number=Sing	3	det	_	_
 3	ڀيري	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	_
 4	شگر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
-5	ملز	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+5	ملز	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 6	وارا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	5	case	_	_
 7	حڪم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 8	عدولي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
-9	ان	_	DET	PRD	Case=Nom|Number=Sing	10	det	_	_
-10	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=ConjPart	11	xcomp	_	_
+9	ان	_	DET	PRD	Case=Nom|Number=Sing	11	obl	_	_
+10	ڪري	_	ADP	PSP	_	9	case	_	_
 11	ڪن	_	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	0	root	_	_
 12	ٿا	_	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	11	aux	_	_
 13	جو	_	ADP	PSP	_	15	mark	_	_
@@ -8732,13 +8732,13 @@
 19	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	18	case	_	_
 20	دير	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_
 21	سان	_	ADP	PSP	_	20	case	_	_
-22	ڪٽائي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	xcomp	_	_
+22	ڪٽائي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	obj	_	_
 23	ٿيڻ	_	VERB	VM	VerbForm=Inf	25	advcl	_	_
 24	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	23	mark	_	_
 25	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=ConjPart	28	advcl	_	_
 26	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	27	det	_	_
 27	سوڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	obj	_	_
-28	کائيندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	15	obj	_	_
+28	کائيندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	15	advcl	_	_
 29	۽	_	CCONJ	CC	_	33	cc	_	_
 30	وزن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	33	obl	_	_
 31	۾	_	ADP	PSP	Type=Loc	30	case	_	_
@@ -10459,7 +10459,7 @@
 # sent_id = 5776
 # text = نصابي ڪورس، مفت تعليم، ڪپڙا، غير نصابي سرگرمين جو سامان، وظيفو، اڃا حڪومت ڇا ڪري؟ حڪومت ته پنهنجا حق ادا ڪري رهي آهي،
 1	نصابي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	_
-2	ڪورس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+2	ڪورس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	،	_	PUNCT	PUNCT	_	5	punct	_	_
 4	مفت	_	ADJ	JJ	Case=Nom|Degree=Pos	5	amod	_	_
 5	تعليم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
@@ -10477,7 +10477,7 @@
 17	اڃا	_	ADV	ADT	_	20	advmod	_	_
 18	حڪومت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
 19	ڇا	_	PRON	PRWH	_	20	obj	_	_
-20	ڪري	_	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	SpaceAfter=No
+20	ڪري	_	VERB	VM	Aspect=Perf|Number=Sing	2	acl:relcl	_	SpaceAfter=No
 21	؟	_	PUNCT	PUNCT	_	20	punct	_	_
 22	حڪومت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
 23	ته	_	PART	PART	_	22	advmod:emph	_	_
@@ -12662,13 +12662,13 @@
 
 # sent_id = 5862
 # text = جنهن ڪري سوين سالن جي تاريخ رکندڙ مارئي جو کوهه آهستي آهستي ڊهي رهيو آهي،
-1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	2	obl	_	_
-2	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=ConjPart	13	advcl	_	_
+1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	13	obl	_	_
+2	ڪري	_	ADP	PSP	_	1	case	_	_
 3	سوين	_	ADJ	JJ	Case=Nom|Number=Plur	4	amod	_	_
 4	سالن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
 5	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	4	case	_	_
-6	تاريخ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obl	_	_
-7	رکندڙ	_	VERB	VM	Aspect=Imp	8	acl	_	_
+6	تاريخ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	رکندڙ	_	VERB	VM	Aspect=Imp	8	acl:relcl	_	_
 8	مارئي	_	PROPN	NNP	Case=Nom|Gender=Masc	10	nmod	_	_
 9	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	8	case	_	_
 10	کوهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
@@ -13098,8 +13098,8 @@
 
 # sent_id = 5874
 # text = جنهن ڪري جوڊيشل لاڪپ فوري طور کولي اتي قيدين کي ترسائي قيدين، پوليس ۽ قيدين جي مائٽن لاءِ سهولت پيدا ڪئي وڃي،
-1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	2	obl	_	_
-2	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=ConjPart	22	advcl	_	_
+1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	22	obl	_	_
+2	ڪري	_	ADP	PSP	_	1	case	_	_
 3	جوڊيشل	_	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
 4	لاڪپ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	_
 5	فوري	_	ADV	ADV	_	6	amod	_	_
@@ -13118,7 +13118,7 @@
 18	مائٽن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
 19	لاءِ	_	ADP	PSP	_	18	case	_	_
 20	سهولت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	obj	_	_
-21	پيدا	_	VERB	VM	_	22	xcomp	_	_
+21	پيدا	_	ADJ	JJ	Case=Nom	22	xcomp	_	_
 22	ڪئي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 23	وڃي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	22	compound	_	SpaceAfter=No
 24	،	_	PUNCT	PUNCT	_	22	punct	_	_
@@ -13145,8 +13145,8 @@
 
 # sent_id = 5876
 # text = جنهن ڪري انتظاميا کي گهرجي ته ان کي فوري طور استعمال ڪري پريشانيون ختم ڪيون وڃن،
-1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	2	obl	_	_
-2	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=ConjPart	5	advcl	_	_
+1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	5	obl	_	_
+2	ڪري	_	ADP	PSP	_	1	case	_	_
 3	انتظاميا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nsubj	_	_
 4	کي	_	ADP	PSP	_	3	case	_	_
 5	گهرجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
@@ -13159,7 +13159,7 @@
 12	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	15	advcl	_	_
 13	پريشانيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	obj	_	_
 14	ختم	_	ADJ	JJ	Case=Nom	15	compound	_	_
-15	ڪيون	_	VERB	VM	Aspect=Perf|Number=Plur	5	obj	_	_
+15	ڪيون	_	VERB	VM	Aspect=Perf|Number=Plur	5	ccomp	_	_
 16	وڃن	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	15	compound	_	SpaceAfter=No
 17	،	_	PUNCT	PUNCT	_	15	punct	_	_
 
@@ -13197,8 +13197,8 @@
 
 # sent_id = 5878
 # text = جنهن ڪري استعمال کان اڳ ئي عمارت زبون حال ٿي وئي آهي.
-1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	2	obl	_	_
-2	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=ConjPart	9	advcl	_	_
+1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	9	obl	_	_
+2	ڪري	_	ADP	PSP	_	1	case	_	_
 3	استعمال	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 4	کان	_	ADP	PSP	_	3	case	_	_
 5	اڳ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
@@ -13206,7 +13206,7 @@
 7	عمارت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 8	زبون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_
 9	حال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-10	ٿي	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	9	cop	_	_
+10	ٿي	_	AUX	VAUX	AuxType=Be|Gender=Masc|Number=Sing	9	cop	_	_
 11	وئي	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
 12	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	9	cop	_	SpaceAfter=No
 13	.	_	PUNCT	PUNCT	_	9	punct	_	_
