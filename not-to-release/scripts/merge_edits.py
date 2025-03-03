@@ -15,7 +15,7 @@ def merge_edits(new_doc, merge_xpos=False):
         sentences[text] = sentence
 
     if merge_xpos:
-        filenames = glob.glob("../mltwist_xpos/*conllu") + glob.glob("../mltwist_xpos/*txt") + ["../xpos_standard/xpos_tagged_with_features.conllu"]
+        filenames = glob.glob("../xpos_features/*conllu") + glob.glob("../xpos_features/*txt") + ["../xpos_standard/xpos_tagged_with_features.conllu"]
     else:
         filenames = glob.glob("../dependencies/*conllu")
     for filename in filenames:
