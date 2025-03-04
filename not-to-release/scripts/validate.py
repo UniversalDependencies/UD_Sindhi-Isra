@@ -217,7 +217,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                         if not printed:
                             printed = True
                             print("XPOS ERRORS")
-                        print("Sentence %s (%d) word %d |%s| had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.xpos, word.upos))
+                        print("Sentence %s (%d) word %d |%s| (line %d) had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, word.xpos, word.upos))
                 else:
                     problem_sentences.add(sent_idx)
                     if not printed:
