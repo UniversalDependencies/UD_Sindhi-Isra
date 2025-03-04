@@ -69,7 +69,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     print("UNKNOWN UPOS")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d had an unknown upos |%s|" % (sent.sent_id, sent_idx, word_idx, word.upos))
+                print("Sentence %s (%d) word %d |%s| (line %d) had an unknown upos |%s|" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, word.upos))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
