@@ -198,22 +198,22 @@
 # sent_id = 4072
 # text = برطانيه وارن جو قبضو آهي ان ڪري ان حصي کي به UK (گڏيل بادشاهت) چيو ٿو وڃي.
 1	برطانيه	_	PROPN	_	_	4	nmod	_	_
-2	وارن	_	ADP	_	_	4	nmod	_	_
-3	جو	_	ADP	_	_	2	case	_	_
+2	وارن	_	ADP	_	_	1	case	_	_
+3	جو	_	ADP	_	_	1	case	_	_
 4	قبضو	_	NOUN	_	_	0	root	_	_
 5	آهي	_	AUX	_	_	4	cop	_	_
-6	ان	_	DET	_	_	7	det	_	_
-7	ڪري	_	VERB	_	_	17	advcl	_	_
+6	ان	_	DET	_	_	17	obl	_	_
+7	ڪري	_	ADP	_	_	6	case	_	_
 8	ان	_	DET	_	_	9	det	_	_
 9	حصي	_	NOUN	_	_	17	obj	_	_
 10	کي	_	ADP	_	_	9	case	_	_
 11	به	_	PART	_	_	9	advmod:emph	_	_
 12	UK	_	PROPN	_	_	17	nsubj	_	_
 13	(	_	PUNCT	_	_	15	punct	_	SpaceAfter=No
-14	گڏيل	_	NOUN	_	_	15	compound	_	_
-15	بادشاهت	_	NOUN	_	_	12	conj	_	SpaceAfter=No
+14	گڏيل	_	ADJ	_	_	15	amod	_	_
+15	بادشاهت	_	NOUN	_	_	12	appos	_	SpaceAfter=No
 16	)	_	PUNCT	_	_	15	punct	_	_
-17	چيو	_	VERB	_	_	4	acl:relcl	_	_
+17	چيو	_	VERB	_	_	4	advcl	_	_
 18	ٿو	_	AUX	_	_	17	aux	_	_
 19	وڃي	_	VERB	_	_	17	compound	_	SpaceAfter=No
 20	.	_	PUNCT	_	_	17	punct	_	_
@@ -3000,22 +3000,22 @@
 
 # sent_id = 4617
 # text = ان ڪري، ائين نٿو چئي سگهجي ته هن اين ايف سي ايوارڊ مان ننڍن صوبن خاص طور سنڌ صوبي کي ڪو وڏو معاشي فائدو مليو آهي يا ملندو.
-1	ان	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	6	advcl	_	SpaceAfter=No
+1	ان	_	DET	_	_	6	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	SpaceAfter=No
 3	،	_	PUNCT	_	_	2	punct	_	_
 4	ائين	_	PRON	_	_	6	nsubj	_	_
 5	نٿو	_	PART	_	_	6	dep	_	_
 6	چئي	_	VERB	_	_	0	root	_	_
 7	سگهجي	_	VERB	_	_	6	compound	_	_
 8	ته	_	SCONJ	_	_	26	mark	_	_
-9	هن	_	DET	_	_	10	det	_	_
+9	هن	_	DET	_	_	13	det	_	_
 10	اين	_	NOUN	_	_	11	nmod	_	_
 11	ايف	_	NOUN	_	_	13	nmod	_	_
 12	سي	_	NOUN	_	_	13	nmod	_	_
 13	ايوارڊ	_	NOUN	_	_	26	obl	_	_
 14	مان	_	ADP	_	_	13	case	_	_
 15	ننڍن	_	ADJ	_	_	16	amod	_	_
-16	صوبن	_	NOUN	_	_	26	nsubj	_	_
+16	صوبن	_	NOUN	_	_	26	dislocated	_	_
 17	خاص	_	ADJ	_	_	18	amod	_	_
 18	طور	_	NOUN	_	_	26	obl	_	_
 19	سنڌ	_	PROPN	_	_	20	compound	_	_
@@ -3052,8 +3052,8 @@
 
 # sent_id = 4619
 # text = ان ڪري ملڪي ناڻي ۾ سندس وڏو حصو ٺهي ٿو،
-1	ان	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	9	advcl	_	_
+1	ان	_	DET	_	_	9	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	ملڪي	_	ADJ	_	_	4	amod	_	_
 4	ناڻي	_	NOUN	_	_	9	obl	_	_
 5	۾	_	ADP	_	_	4	case	_	_
@@ -3962,16 +3962,16 @@
 
 # sent_id = 4661
 # text = ان ڪري ائين سمجهڻ ته مالياتي ايوارڊ مان صرف 24.
-1	ان	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	4	advcl	_	_
-3	ائين	_	PRON	_	_	4	obl	_	_
+1	ان	_	DET	_	_	4	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
+3	ائين	_	PRON	_	_	4	nsubj	_	_
 4	سمجهڻ	_	VERB	_	_	0	root	_	_
 5	ته	_	SCONJ	_	_	4	mark	_	_
 6	مالياتي	_	NOUN	_	_	7	nmod	_	_
 7	ايوارڊ	_	NOUN	_	_	4	obl	_	_
 8	مان	_	ADP	_	_	7	case	_	_
 9	صرف	_	ADJ	_	_	10	amod	_	_
-10	24	_	NUM	_	_	7	nummod	_	SpaceAfter=No
+10	24	_	NUM	_	_	4	dislocated	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 4662
@@ -4070,8 +4070,8 @@
 
 # sent_id = 4667
 # text = ان ڪري قومي مالياتي ايوارڊ ۾ ناڻي جي ورڇ ۾ گهٽ مان گهٽ سنڌ جو حصو 40 سيڪڙو هجڻ گهرجي.
-1	ان	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	19	advcl	_	_
+1	ان	_	DET	_	_	19	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	قومي	_	ADJ	_	_	4	compound	_	_
 4	مالياتي	_	NOUN	_	_	5	nmod	_	_
 5	ايوارڊ	_	NOUN	_	_	19	obl	_	_
@@ -4080,14 +4080,14 @@
 8	جي	_	ADP	_	_	7	case	_	_
 9	ورڇ	_	NOUN	_	_	19	obl	_	_
 10	۾	_	ADP	_	_	9	case	_	_
-11	گهٽ	_	ADJ	_	_	13	obl	_	_
+11	گهٽ	_	ADJ	_	_	13	amod	_	_
 12	مان	_	ADP	_	_	11	case	_	_
 13	گهٽ	_	ADJ	_	_	14	amod	_	_
 14	سنڌ	_	PROPN	_	_	16	nmod	_	_
 15	جو	_	ADP	_	_	14	case	_	_
 16	حصو	_	NOUN	_	_	19	nsubj	_	_
 17	40	_	NUM	_	_	18	nummod	_	_
-18	سيڪڙو	_	NOUN	_	_	19	xcomp	_	_
+18	سيڪڙو	_	NOUN	_	_	19	obj	_	_
 19	هجڻ	_	VERB	_	_	0	root	_	_
 20	گهرجي	_	VERB	_	_	19	compound	_	SpaceAfter=No
 21	.	_	PUNCT	_	_	19	punct	_	_
@@ -4240,8 +4240,10 @@
 79	ڪنديون	_	VERB	_	_	67	advcl	_	SpaceAfter=No
 80	.	_	PUNCT	_	_	79	punct	_	_
 
-# sent_id = 4674
-# text = دهشتگرديءَ واري صورتحال سبب سرڪار پاران غيرمعمولي قدم کڻندي حفاظتي انتظام سخت ڪرڻ ۽ مختلف ايجنسين کي چوڪس رکڻ وارا منظر ڏسڻ ۽ آيا جنهن ڪري ڪراچي کانسواءِ پوري ملڪ ۾ پهرين محرم کان ڏهين محرم تائين حالتون گهڻي حد تائين امن واريون رهيون.
+# newdoc
+# newpar
+# sent_id = 4674a
+# text = دهشتگرديءَ واري صورتحال سبب سرڪار پاران غيرمعمولي قدم کڻندي حفاظتي انتظام سخت ڪرڻ ۽ مختلف ايجنسين کي چوڪس رکڻ وارا منظر ڏسڻ ۾ آيا.
 1	دهشتگرديءَ	_	NOUN	_	_	3	nmod	_	_
 2	واري	_	ADP	_	_	1	case	_	_
 3	صورتحال	_	NOUN	_	_	9	obl	_	_
@@ -4253,40 +4255,44 @@
 9	کڻندي	_	VERB	_	_	13	advcl	_	_
 10	حفاظتي	_	ADJ	_	_	11	amod	_	_
 11	انتظام	_	NOUN	_	_	13	obj	_	_
-12	سخت	_	ADJ	_	_	13	compound	_	_
-13	ڪرڻ	_	VERB	_	_	19	advcl	_	_
+12	سخت	_	ADJ	_	_	13	xcomp	_	_
+13	ڪرڻ	_	VERB	_	_	19	conj	_	_
 14	۽	_	CCONJ	_	_	19	cc	_	_
 15	مختلف	_	ADJ	_	_	16	amod	_	_
 16	ايجنسين	_	NOUN	_	_	19	obj	_	_
 17	کي	_	ADP	_	_	16	case	_	_
-18	چوڪس	_	NOUN	_	_	19	compound	_	_
-19	رکڻ	_	VERB	_	_	21	obl	_	_
+18	چوڪس	_	ADJ	_	_	19	xcomp	_	_
+19	رکڻ	_	VERB	_	_	21	acl	_	_
 20	وارا	_	ADP	_	_	19	mark	_	_
 21	منظر	_	NOUN	_	_	22	obj	_	_
 22	ڏسڻ	_	VERB	_	_	0	root	_	_
-23	۽	_	CCONJ	_	_	24	cc	_	_
-24	آيا	_	VERB	_	_	22	conj	_	_
-25	جنهن	_	PRON	_	_	26	obl	_	_
-26	ڪري	_	VERB	_	_	44	advcl	_	_
-27	ڪراچي	_	PROPN	_	_	30	nmod	_	_
-28	کانسواءِ	_	ADP	_	_	27	case	_	_
-29	پوري	_	ADJ	_	_	30	amod	_	_
-30	ملڪ	_	NOUN	_	_	44	obl	_	_
-31	۾	_	ADP	_	_	30	case	_	_
-32	پهرين	_	ADJ	_	_	33	amod	_	_
-33	محرم	_	NOUN	_	_	44	obl	_	_
-34	کان	_	ADP	_	_	33	case	_	_
-35	ڏهين	_	NUM	_	_	36	nummod	_	_
-36	محرم	_	PROPN	_	_	44	obl	_	_
-37	تائين	_	ADP	_	_	36	case	_	_
-38	حالتون	_	NOUN	_	_	44	nsubj	_	_
-39	گهڻي	_	ADJ	_	_	40	amod	_	_
-40	حد	_	NOUN	_	_	44	obl	_	_
-41	تائين	_	ADP	_	_	40	case	_	_
-42	امن	_	NOUN	_	_	44	obl	_	_
-43	واريون	_	ADP	_	_	42	case	_	_
-44	رهيون	_	VERB	_	_	24	ccomp	_	SpaceAfter=No
-45	.	_	PUNCT	_	_	44	punct	_	_
+23	۾	_	ADP	_	_	22	mark	_	_
+24	آيا	_	VERB	_	_	22	compound	_	SpaceAfter=No
+25	.	_	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4674b
+# text = جنهن ڪري ڪراچي کانسواءِ پوري ملڪ ۾ پهرين محرم کان ڏهين محرم تائين حالتون گهڻي حد تائين امن واريون رهيون.
+1	جنهن	_	PRON	_	_	20	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
+3	ڪراچي	_	PROPN	_	_	6	nmod	_	_
+4	کانسواءِ	_	ADP	_	_	3	case	_	_
+5	پوري	_	ADJ	_	_	6	amod	_	_
+6	ملڪ	_	NOUN	_	_	20	obl	_	_
+7	۾	_	ADP	_	_	6	case	_	_
+8	پهرين	_	ADJ	_	_	9	amod	_	_
+9	محرم	_	NOUN	_	_	20	obl	_	_
+10	کان	_	ADP	_	_	9	case	_	_
+11	ڏهين	_	NUM	_	_	12	nummod	_	_
+12	محرم	_	PROPN	_	_	20	obl	_	_
+13	تائين	_	ADP	_	_	12	case	_	_
+14	حالتون	_	NOUN	_	_	20	nsubj	_	_
+15	گهڻي	_	ADJ	_	_	16	amod	_	_
+16	حد	_	NOUN	_	_	20	obl	_	_
+17	تائين	_	ADP	_	_	16	case	_	_
+18	امن	_	NOUN	_	_	20	obl	_	_
+19	واريون	_	ADP	_	_	18	case	_	_
+20	رهيون	_	VERB	_	_	0	root	_	SpaceAfter=No
+21	.	_	PUNCT	_	_	20	punct	_	_
 
 # sent_id = 4675
 # text = اهو امن جيڪو دهشت ڦهلائيندڙ وحشين کي پسند نٿو اچي ان لاءِ انهن ڏهين محرم تي سنڌ جي گاديءَ واري هنڌ ڪراچيءَ ۾ مزارِ قائد اعظم کان ڪجهه پرڀرو امام مظلوم ڪربلا حضرت حسين عليه السلام جي ياد ۾ نڪتل عاشوري جي مرڪزي ماتمي جلوس مٿان اهڙو خونخوار ڌماڪو ڪيو ويو آهي جنهن بابت سرڪار جي ادارن کي اها خبر نه پئجي سگهي آهي ته اهو آپگهاتي ڌماڪو يا ڪار ڌماڪو يا اڳواٽ رکيل بم ڌماڪو هو جيڪو جلوس جي لنگهڻ مهل وڏي ٺڪاءَ سان ڦاٽو يا ڦاڙيو ويوجنهن سان ڪيترائي ماتمي عزادار شهيد ۽ گهڻا معذور ۽ زخمي ٿي ويا.
@@ -12090,42 +12096,42 @@
 
 # sent_id = 4953
 # text = ان ڪري هنن سنڌ حڪومت کان مطالبو ڪيو آهي ته ان نوٽيفڪيشن ۾ ترميم ڪندي وڏي وزير پاران ناظمن مٿان اها پابندي لڳائڻ جي حوالي سان 20 جولاءِ 2009ع تي جاري ڪيل پهريون نوٽيفڪيشن واپس ورتو وڃي.
-1	ان	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	8	advcl	_	_
+1	ان	_	DET	_	_	8	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	هنن	_	PRON	_	_	8	nsubj	_	_
 4	سنڌ	_	PROPN	_	_	5	nmod	_	_
 5	حڪومت	_	NOUN	_	_	8	obl	_	_
 6	کان	_	ADP	_	_	5	case	_	_
-7	مطالبو	_	NOUN	_	_	8	compound	_	_
+7	مطالبو	_	NOUN	_	_	8	obj	_	_
 8	ڪيو	_	VERB	_	_	0	root	_	_
 9	آهي	_	AUX	_	_	8	aux	_	_
 10	ته	_	SCONJ	_	_	36	mark	_	_
 11	ان	_	DET	_	_	12	det	_	_
 12	نوٽيفڪيشن	_	NOUN	_	_	15	obl	_	_
 13	۾	_	ADP	_	_	12	case	_	_
-14	ترميم	_	NOUN	_	_	15	obl	_	_
+14	ترميم	_	NOUN	_	_	15	obj	_	_
 15	ڪندي	_	VERB	_	_	36	advcl	_	_
 16	وڏي	_	ADJ	_	_	17	compound	_	_
 17	وزير	_	NOUN	_	_	23	obl	_	_
 18	پاران	_	ADP	_	_	17	case	_	_
-19	ناظمن	_	NOUN	_	_	23	obl	_	_
+19	ناظمن	_	NOUN	_	_	23	nsubj	_	_
 20	مٿان	_	ADV	_	_	23	advmod	_	_
 21	اها	_	DET	_	_	22	det	_	_
 22	پابندي	_	NOUN	_	_	23	obj	_	_
-23	لڳائڻ	_	VERB	_	_	25	nmod	_	_
+23	لڳائڻ	_	VERB	_	_	25	acl	_	_
 24	جي	_	ADP	_	_	23	mark	_	_
 25	حوالي	_	NOUN	_	_	32	obl	_	_
 26	سان	_	ADP	_	_	25	case	_	_
 27	20	_	NUM	_	_	28	nummod	_	_
-28	جولاءِ	_	PROPN	_	_	29	nummod	_	_
+28	جولاءِ	_	PROPN	_	_	29	nmod	_	_
 29	2009ع	_	NUM	_	_	32	obl	_	_
 30	تي	_	ADP	_	_	29	case	_	_
-31	جاري	_	VERB	_	_	32	xcomp	_	_
+31	جاري	_	ADJ	_	_	32	xcomp	_	_
 32	ڪيل	_	VERB	_	_	34	acl	_	_
 33	پهريون	_	ADJ	_	_	34	amod	_	_
 34	نوٽيفڪيشن	_	NOUN	_	_	36	obj	_	_
-35	واپس	_	VERB	_	_	36	xcomp	_	_
-36	ورتو	_	VERB	_	_	8	obj	_	_
+35	واپس	_	ADJ	_	_	36	xcomp	_	_
+36	ورتو	_	VERB	_	_	8	ccomp	_	_
 37	وڃي	_	VERB	_	_	36	compound	_	SpaceAfter=No
 38	.	_	PUNCT	_	_	36	punct	_	_
 
@@ -12269,15 +12275,15 @@
 
 # sent_id = 4959
 # text = ان ڪري 20 جولاءِ 2009ع وارو اصل نوٽيفڪيشن بحال ٿي ويو آهي.
-1	ان	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	9	advcl	_	_
+1	ان	_	DET	_	_	9	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	20	_	NUM	_	_	4	nummod	_	_
-4	جولاءِ	_	PROPN	_	_	5	nummod	_	_
+4	جولاءِ	_	PROPN	_	_	5	nmod	_	_
 5	2009ع	_	NUM	_	_	8	nummod	_	_
 6	وارو	_	ADP	_	_	5	case	_	_
 7	اصل	_	ADJ	_	_	8	amod	_	_
 8	نوٽيفڪيشن	_	NOUN	_	_	9	nsubj	_	_
-9	بحال	_	NOUN	_	_	0	root	_	_
+9	بحال	_	ADJ	_	_	0	root	_	_
 10	ٿي	_	VERB	_	_	9	xcomp	_	_
 11	ويو	_	VERB	_	_	10	compound	_	_
 12	آهي	_	AUX	_	_	9	aux	_	SpaceAfter=No
@@ -12343,13 +12349,13 @@
 
 # sent_id = 4963
 # text = ان ڪري ان جي واپسيءَ کانپوءِ ئي ان جي منظوريءَ سان نئون ترميمي نوٽيفڪيشن جاري ٿي سگهي ٿو.
-1	ان	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	16	advcl	_	_
+1	ان	_	DET	_	_	16	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	ان	_	DET	_	_	5	nmod	_	_
 4	جي	_	ADP	_	_	3	case	_	_
 5	واپسيءَ	_	NOUN	_	_	16	obl	_	_
 6	کانپوءِ	_	ADP	_	_	5	case	_	_
-7	ئي	_	ADP	_	_	5	dep	_	_
+7	ئي	_	PART	_	_	5	advmod:emph	_	_
 8	ان	_	DET	_	_	10	nmod	_	_
 9	جي	_	ADP	_	_	8	case	_	_
 10	منظوريءَ	_	NOUN	_	_	16	obl	_	_
@@ -12357,7 +12363,7 @@
 12	نئون	_	ADJ	_	_	14	amod	_	_
 13	ترميمي	_	NOUN	_	_	14	nmod	_	_
 14	نوٽيفڪيشن	_	NOUN	_	_	16	nsubj	_	_
-15	جاري	_	VERB	_	_	16	xcomp	_	_
+15	جاري	_	ADJ	_	_	16	xcomp	_	_
 16	ٿي	_	AUX	_	_	0	root	_	_
 17	سگهي	_	AUX	_	_	16	aux	_	_
 18	ٿو	_	AUX	_	_	16	aux	_	SpaceAfter=No
@@ -14307,7 +14313,7 @@
 5	جي	_	ADP	_	_	4	case	_	_
 6	ڪيس	_	NOUN	_	_	12	nmod	_	_
 7	۾	_	ADP	_	_	6	case	_	_
-8	انٽرا	_	PROPN	_	_	9	nmod	_	_
+8	انٽرا	_	ADJ	_	_	9	amod	_	_
 9	ڪورٽ	_	NOUN	_	_	10	nmod	_	_
 10	اپيل	_	NOUN	_	_	12	nmod	_	_
 11	جو	_	ADP	_	_	10	case	_	_
@@ -14323,20 +14329,20 @@
 21	تحت	_	ADP	_	_	20	case	_	_
 22	سپريم	_	ADJ	_	_	24	amod	_	_
 23	جوڊيشل	_	NOUN	_	_	24	nmod	_	_
-24	ڪائونسل	_	NOUN	_	_	27	obj	_	_
+24	ڪائونسل	_	NOUN	_	_	27	iobj	_	_
 25	کي	_	ADP	_	_	24	case	_	_
 26	ريفرنس	_	NOUN	_	_	27	obj	_	_
 27	موڪلڻ	_	VERB	_	_	28	advcl	_	_
 28	شامل	_	NOUN	_	_	0	root	_	_
 29	آهي	_	AUX	_	_	28	cop	_	_
-30	ان	_	DET	_	_	31	det	_	_
-31	ڪري	_	VERB	_	_	42	advcl	_	_
+30	ان	_	DET	_	_	42	obl	_	_
+31	ڪري	_	ADP	_	_	30	case	_	_
 32	توهين	_	NOUN	_	_	33	nmod	_	_
 33	عدالت	_	NOUN	_	_	34	nmod	_	_
 34	ڪيس	_	NOUN	_	_	36	nmod	_	_
 35	جي	_	ADP	_	_	34	case	_	_
-36	ٻڌڻي	_	VERB	_	_	42	advcl	_	_
-37	لاءِ	_	ADP	_	_	36	mark	_	_
+36	ٻڌڻي	_	NOUN	_	_	42	obl	_	_
+37	لاءِ	_	ADP	_	_	36	case	_	_
 38	5	_	NUM	_	_	41	nummod	_	_
 39	رڪني	_	ADJ	_	_	41	amod	_	_
 40	لارجر	_	NOUN	_	_	41	nmod	_	_
@@ -16631,8 +16637,8 @@
 
 # sent_id = 5096
 # text = جنهن ڪري سندس پٽ آصف گوپانگ کي سازش تحت قتل ڪري لاش رائيس ڪئنال ۾ لوڙهيو ويو،
-1	جنهن	_	PRON	_	_	2	obl	_	_
-2	ڪري	_	VERB	_	_	16	advcl	_	_
+1	جنهن	_	PRON	_	_	11	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	سندس	_	PRON	_	_	4	nmod	_	_
 4	پٽ	_	NOUN	_	_	6	nmod	_	_
 5	آصف	_	PROPN	_	_	6	compound	_	_
@@ -16640,7 +16646,7 @@
 7	کي	_	ADP	_	_	6	case	_	_
 8	سازش	_	NOUN	_	_	11	obl	_	_
 9	تحت	_	ADP	_	_	8	case	_	_
-10	قتل	_	VERB	_	_	11	compound	_	_
+10	قتل	_	ADJ	_	_	11	compound	_	_
 11	ڪري	_	VERB	_	_	16	advcl	_	_
 12	لاش	_	NOUN	_	_	16	nsubj	_	_
 13	رائيس	_	PROPN	_	_	14	compound	_	_
@@ -17146,21 +17152,21 @@
 77	ڇڏيو	_	VERB	_	_	76	compound	_	SpaceAfter=No
 78	،	_	PUNCT	_	_	76	punct	_	_
 
-# sent_id = 5112
-# text = جيل جي اندروني ذريعن موجب بند وارڊ ڪيل قيدين محرم ۽ ستار ڪيريو ايس ٽي پي جي قيدي مظھر تي الزام ھڻندي چيو ته مظھر ڪھيري انتظاميا جو خاص رعايت يافته قيدي آھي ان کي سھولتون ملن ٿيون تنھن ڪري اسان کي ان جو ڪو فيصلو قبول ناھي، قيدين پاران يرغمال ڪيل سپاھين مان ھڪ سپاھي جھيڙي دوران ڀڄي ويو،
+# sent_id = 5112a
+# text = جيل جي اندروني ذريعن موجب بند وارڊ ڪيل قيدين محرم ۽ ستار ڪيريو ايس ٽي پي جي قيدي مظھر تي الزام ھڻندي چيو ته مظھر ڪھيري انتظاميا جو خاص رعايت يافته قيدي آھي.
 1	جيل	_	NOUN	_	_	4	nmod	_	_
 2	جي	_	ADP	_	_	1	case	_	_
 3	اندروني	_	ADJ	_	_	4	amod	_	_
 4	ذريعن	_	NOUN	_	_	8	obl	_	_
 5	موجب	_	ADP	_	_	4	case	_	_
-6	بند	_	NOUN	_	_	8	obl	_	_
-7	وارڊ	_	NOUN	_	_	8	obl	_	_
-8	ڪيل	_	VERB	_	_	10	acl	_	_
-9	قيدين	_	NOUN	_	_	10	nmod	_	_
-10	محرم	_	PROPN	_	_	13	nmod	_	_
+6	بند	_	ADJ	_	_	7	amod	_	_
+7	وارڊ	_	NOUN	_	_	8	obj	_	_
+8	ڪيل	_	VERB	_	_	9	acl	_	_
+9	قيدين	_	NOUN	_	_	22	nsubj	_	_
+10	محرم	_	PROPN	_	_	22	dislocated	_	_
 11	۽	_	CCONJ	_	_	12	cc	_	_
 12	ستار	_	NOUN	_	_	10	conj	_	_
-13	ڪيريو	_	NOUN	_	_	23	nsubj	_	_
+13	ڪيريو	_	NOUN	_	_	12	compound	_	_
 14	ايس	_	NOUN	_	_	16	nmod	_	_
 15	ٽي	_	NOUN	_	_	16	compound	_	_
 16	پي	_	NOUN	_	_	18	nmod	_	_
@@ -17168,48 +17174,59 @@
 18	قيدي	_	NOUN	_	_	19	nmod	_	_
 19	مظھر	_	PROPN	_	_	23	obl	_	_
 20	تي	_	ADP	_	_	19	case	_	_
-21	الزام	_	NOUN	_	_	22	obl	_	_
+21	الزام	_	NOUN	_	_	22	obj	_	_
 22	ھڻندي	_	VERB	_	_	23	compound	_	_
 23	چيو	_	VERB	_	_	0	root	_	_
-24	ته	_	SCONJ	_	_	37	mark	_	_
+24	ته	_	SCONJ	_	_	32	mark	_	_
 25	مظھر	_	PROPN	_	_	26	compound	_	_
-26	ڪھيري	_	NOUN	_	_	37	nsubj	_	_
+26	ڪھيري	_	NOUN	_	_	32	nsubj	_	_
 27	انتظاميا	_	NOUN	_	_	30	nmod	_	_
 28	جو	_	ADP	_	_	27	case	_	_
 29	خاص	_	ADJ	_	_	30	amod	_	_
 30	رعايت	_	NOUN	_	_	32	nmod	_	_
 31	يافته	_	ADJ	_	_	32	amod	_	_
-32	قيدي	_	NOUN	_	_	37	nsubj	_	_
-33	آھي	_	AUX	_	_	32	cop	_	_
-34	ان	_	DET	_	_	37	obj	_	_
-35	کي	_	ADP	_	_	34	case	_	_
-36	سھولتون	_	NOUN	_	_	37	obj	_	_
-37	ملن	_	VERB	_	_	23	obj	_	_
-38	ٿيون	_	AUX	_	_	37	aux	_	_
-39	تنھن	_	PRON	_	_	40	obl	_	_
-40	ڪري	_	VERB	_	_	47	advcl	_	_
-41	اسان	_	PRON	_	_	47	nsubj	_	_
-42	کي	_	ADP	_	_	41	case	_	_
-43	ان	_	DET	_	_	46	nmod	_	_
-44	جو	_	ADP	_	_	43	case	_	_
-45	ڪو	_	DET	_	_	46	det	_	_
-46	فيصلو	_	NOUN	_	_	47	nsubj	_	_
-47	قبول	_	NOUN	_	_	37	obl	_	_
-48	ناھي	_	AUX	_	_	47	cop	_	SpaceAfter=No
-49	،	_	PUNCT	_	_	47	punct	_	_
-50	قيدين	_	NOUN	_	_	53	obl	_	_
-51	پاران	_	ADP	_	_	50	case	_	_
-52	يرغمال	_	NOUN	_	_	53	compound	_	_
-53	ڪيل	_	VERB	_	_	54	acl	_	_
-54	سپاھين	_	NOUN	_	_	60	obl	_	_
-55	مان	_	ADP	_	_	54	case	_	_
-56	ھڪ	_	ADJ	_	_	57	amod	_	_
-57	سپاھي	_	NOUN	_	_	60	nsubj	_	_
-58	جھيڙي	_	NOUN	_	_	60	obl	_	_
-59	دوران	_	ADP	_	_	58	case	_	_
-60	ڀڄي	_	VERB	_	_	47	advcl	_	_
-61	ويو	_	VERB	_	_	60	compound	_	SpaceAfter=No
-62	،	_	PUNCT	_	_	60	punct	_	_
+32	قيدي	_	NOUN	_	_	23	ccomp	_	_
+33	آھي	_	AUX	_	_	32	cop	_	SpaceAfter=No
+34	.	_	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5112b
+# text = ان کي سھولتون ملن ٿيون.
+1	ان	_	DET	_	_	4	obj	_	_
+2	کي	_	ADP	_	_	1	case	_	_
+3	سھولتون	_	NOUN	_	_	4	obj	_	_
+4	ملن	_	VERB	_	_	0	root	_	_
+5	ٿيون	_	AUX	_	_	4	aux	_	SpaceAfter=No
+6	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 5112c
+# text = تنھن ڪري اسان کي ان جو ڪو فيصلو قبول ناھي،
+1	تنھن	_	PRON	_	_	9	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
+3	اسان	_	PRON	_	_	9	obj	_	_
+4	کي	_	ADP	_	_	3	case	_	_
+5	ان	_	DET	_	_	8	nmod	_	_
+6	جو	_	ADP	_	_	5	case	_	_
+7	ڪو	_	DET	_	_	8	det	_	_
+8	فيصلو	_	NOUN	_	_	9	nsubj	_	_
+9	قبول	_	NOUN	_	_	0	root	_	_
+10	ناھي	_	AUX	_	_	9	cop	_	SpaceAfter=No
+11	،	_	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5112d
+# text = قيدين پاران يرغمال ڪيل سپاھين مان ھڪ سپاھي جھيڙي دوران ڀڄي ويو،
+1	قيدين	_	NOUN	_	_	4	obl	_	_
+2	پاران	_	ADP	_	_	1	case	_	_
+3	يرغمال	_	NOUN	_	_	4	compound	_	_
+4	ڪيل	_	VERB	_	_	5	acl	_	_
+5	سپاھين	_	NOUN	_	_	11	obl	_	_
+6	مان	_	ADP	_	_	5	case	_	_
+7	ھڪ	_	ADJ	_	_	8	amod	_	_
+8	سپاھي	_	NOUN	_	_	11	nsubj	_	_
+9	جھيڙي	_	NOUN	_	_	11	obl	_	_
+10	دوران	_	ADP	_	_	9	case	_	_
+11	ڀڄي	_	VERB	_	_	0	root	_	_
+12	ويو	_	VERB	_	_	11	compound	_	SpaceAfter=No
+13	،	_	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 5113
 # text = جڏھن ته 4 سپاھين کي آزاد ڪرائڻ لاءِ جيل سپرنٽينڊنٽ قمر رضا شاهه پاران ضلعي جي پوليس گھرائي وئي،
@@ -19174,17 +19191,17 @@
 
 # sent_id = 5176
 # text = جنهن ڪري هن پنجاب مان لڏي اچي گيهلپور ۾ رهائش اختيار ڪئي هئي،
-1	جنهن	_	PRON	_	_	2	obl	_	_
-2	ڪري	_	VERB	_	_	12	advcl	_	_
-3	هن	_	DET	_	_	7	det	_	_
+1	جنهن	_	PRON	_	_	6	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
+3	هن	_	DET	_	_	6	nsubj	_	_
 4	پنجاب	_	PROPN	_	_	6	obl	_	_
 5	مان	_	ADP	_	_	4	case	_	_
-6	لڏي	_	VERB	_	_	7	advcl	_	_
-7	اچي	_	VERB	_	_	12	advcl	_	_
+6	لڏي	_	VERB	_	_	12	advcl	_	_
+7	اچي	_	VERB	_	_	6	compound	_	_
 8	گيهلپور	_	PROPN	_	_	12	obl	_	_
 9	۾	_	ADP	_	_	8	case	_	_
-10	رهائش	_	NOUN	_	_	12	acl	_	_
-11	اختيار	_	NOUN	_	_	12	compound	_	_
+10	رهائش	_	NOUN	_	_	12	nsubj	_	_
+11	اختيار	_	NOUN	_	_	12	obj	_	_
 12	ڪئي	_	VERB	_	_	0	root	_	_
 13	هئي	_	AUX	_	_	12	aux	_	SpaceAfter=No
 14	،	_	PUNCT	_	_	12	punct	_	_
@@ -19403,8 +19420,8 @@
 
 # sent_id = 5184
 # text = جنهن ڪري حيدرآباد جا ڊرائينگ ٽيچر گريڊ ۽ مراعتن کان محروم آهن،
-1	جنهن	_	PRON	_	_	2	obl	_	_
-2	ڪري	_	VERB	_	_	11	advcl	_	_
+1	جنهن	_	PRON	_	_	11	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	حيدرآباد	_	PROPN	_	_	6	nmod	_	_
 4	جا	_	ADP	_	_	3	case	_	_
 5	ڊرائينگ	_	NOUN	_	_	6	nmod	_	_
@@ -19499,8 +19516,8 @@
 
 # sent_id = 5187
 # text = جنهن ڪري متاثر استاد سخت پريشاني جو شڪار آهن،
-1	جنهن	_	PRON	_	_	2	obl	_	_
-2	ڪري	_	VERB	_	_	8	advcl	_	_
+1	جنهن	_	PRON	_	_	8	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	متاثر	_	ADJ	_	_	4	amod	_	_
 4	استاد	_	NOUN	_	_	8	nsubj	_	_
 5	سخت	_	ADJ	_	_	6	amod	_	_

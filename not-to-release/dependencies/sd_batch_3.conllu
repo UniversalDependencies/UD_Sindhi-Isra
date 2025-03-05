@@ -34,8 +34,8 @@
 
 # sent_id = 3
 # text = ان ڪري صدر آصف علي زرداري جي روح مان شهيدن جو ڏنل اهو حوصلو، عزم ۽ عوام ملڪ جي خاطر جارحانه رويو نروار ٿي رهيو آهي،
-1	ان	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	25	advcl	_	_
+1	ان	_	DET	_	_	12	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	صدر	_	NOUN	_	_	6	nmod	_	_
 4	آصف	_	PROPN	_	_	6	compound	_	_
 5	علي	_	PROPN	_	_	6	compound	_	_
@@ -47,17 +47,17 @@
 11	جو	_	ADP	_	_	10	case	_	_
 12	ڏنل	_	VERB	_	_	14	acl	_	_
 13	اهو	_	DET	_	_	14	det	_	_
-14	حوصلو	_	NOUN	_	_	25	nsubj	_	SpaceAfter=No
+14	حوصلو	_	NOUN	_	_	25	obl	_	SpaceAfter=No
 15	،	_	PUNCT	_	_	16	punct	_	_
 16	عزم	_	NOUN	_	_	14	conj	_	_
-17	۽	_	CCONJ	_	_	21	cc	_	_
+17	۽	_	CCONJ	_	_	19	cc	_	_
 18	عوام	_	NOUN	_	_	19	nmod	_	_
-19	ملڪ	_	NOUN	_	_	23	nmod	_	_
+19	ملڪ	_	NOUN	_	_	16	conj	_	_
 20	جي	_	ADP	_	_	19	case	_	_
-21	خاطر	_	ADJ	_	_	23	amod	_	_
-22	جارحانه	_	NOUN	_	_	23	nmod	_	_
+21	خاطر	_	ADP	_	_	19	case	_	_
+22	جارحانه	_	ADJ	_	_	23	amod	_	_
 23	رويو	_	NOUN	_	_	25	nsubj	_	_
-24	نروار	_	NOUN	_	_	25	xcomp	_	_
+24	نروار	_	ADJ	_	_	25	xcomp	_	_
 25	ٿي	_	VERB	_	_	0	root	_	_
 26	رهيو	_	VERB	_	_	25	compound	_	_
 27	آهي	_	AUX	_	_	25	aux	_	SpaceAfter=No
@@ -1903,9 +1903,9 @@
 
 # sent_id = 94
 # text = انهي ڪري پاڪستان يا چين ڪنهن کي به ڪشمير جي معاملي ۾ مداخلت جو حق ناهي،
-1	انهي	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	15	advcl	_	_
-3	پاڪستان	_	PROPN	_	_	15	nsubj	_	_
+1	انهي	_	DET	_	_	15	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
+3	پاڪستان	_	PROPN	_	_	15	dislocated	_	_
 4	يا	_	CCONJ	_	_	5	cc	_	_
 5	چين	_	PROPN	_	_	3	conj	_	_
 6	ڪنهن	_	PRON	_	_	15	nsubj	_	_
@@ -1913,7 +1913,7 @@
 8	به	_	PART	_	_	6	advmod:emph	_	_
 9	ڪشمير	_	NOUN	_	_	11	nmod	_	_
 10	جي	_	ADP	_	_	9	case	_	_
-11	معاملي	_	NOUN	_	_	15	nmod	_	_
+11	معاملي	_	NOUN	_	_	15	obl	_	_
 12	۾	_	ADP	_	_	11	case	_	_
 13	مداخلت	_	NOUN	_	_	15	nmod	_	_
 14	جو	_	ADP	_	_	13	case	_	_
@@ -3702,19 +3702,19 @@
 
 # sent_id = 173
 # text = جنهن ڪري اهو چئي سگهجي ٿو ته بينظير اسپتال پهچڻ کان اڳ شهيد ٿي چڪي هئي،
-1	جنهن	_	PRON	_	_	2	obl	_	_
-2	ڪري	_	VERB	_	_	4	advcl	_	_
-3	اهو	_	DET	_	_	4	det	_	_
+1	جنهن	_	PRON	_	_	4	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
+3	اهو	_	PRON	_	_	4	nsubj	_	_
 4	چئي	_	VERB	_	_	0	root	_	_
 5	سگهجي	_	VERB	_	_	4	compound	_	_
 6	ٿو	_	AUX	_	_	4	aux	_	_
 7	ته	_	SCONJ	_	_	14	mark	_	_
 8	بينظير	_	PROPN	_	_	10	nsubj	_	_
-9	اسپتال	_	NOUN	_	_	10	obl	_	_
-10	پهچڻ	_	VERB	_	_	12	nmod	_	_
+9	اسپتال	_	NOUN	_	_	10	obj	_	_
+10	پهچڻ	_	VERB	_	_	12	acl	_	_
 11	کان	_	ADP	_	_	10	mark	_	_
 12	اڳ	_	NOUN	_	_	14	obl	_	_
-13	شهيد	_	NOUN	_	_	14	xcomp	_	_
+13	شهيد	_	ADJ	_	_	14	xcomp	_	_
 14	ٿي	_	VERB	_	_	4	obj	_	_
 15	چڪي	_	VERB	_	_	14	compound	_	_
 16	هئي	_	AUX	_	_	14	aux	_	SpaceAfter=No
@@ -11668,7 +11668,7 @@
 # sent_id = 577
 # text = ادبي تخليق- شاعري، ناٽڪ، ڪهاڻي، ڪلا، تاريخ کان انهيءَ ڪري وڏي حيثيت رکن ٿا،
 1	ادبي	_	ADJ	_	_	2	amod	_	_
-2	تخليق-	_	NOUN	_	_	3	nmod	_	_
+2	تخليق-	_	NOUN	_	_	17	dislocated	_	_
 3	شاعري	_	NOUN	_	_	17	nsubj	_	SpaceAfter=No
 4	،	_	PUNCT	_	_	5	punct	_	_
 5	ناٽڪ	_	NOUN	_	_	3	conj	_	SpaceAfter=No
@@ -11677,12 +11677,12 @@
 8	،	_	PUNCT	_	_	7	punct	_	_
 9	ڪلا	_	NOUN	_	_	3	conj	_	SpaceAfter=No
 10	،	_	PUNCT	_	_	9	punct	_	_
-11	تاريخ	_	NOUN	_	_	14	obl	_	_
+11	تاريخ	_	NOUN	_	_	17	obl	_	_
 12	کان	_	ADP	_	_	11	case	_	_
-13	انهيءَ	_	DET	_	_	14	det	_	_
-14	ڪري	_	VERB	_	_	17	advcl	_	_
+13	انهيءَ	_	DET	_	_	17	obl	_	_
+14	ڪري	_	ADP	_	_	13	case	_	_
 15	وڏي	_	ADJ	_	_	16	amod	_	_
-16	حيثيت	_	NOUN	_	_	17	xcomp	_	_
+16	حيثيت	_	NOUN	_	_	17	obj	_	_
 17	رکن	_	VERB	_	_	0	root	_	_
 18	ٿا	_	AUX	_	_	17	aux	_	SpaceAfter=No
 19	،	_	PUNCT	_	_	17	punct	_	_
@@ -12237,8 +12237,8 @@
 
 # sent_id = 606
 # text = جنهن ڪري فرانس ۾ انقلاب آيو،
-1	جنهن	_	PRON	_	_	2	obl	_	_
-2	ڪري	_	VERB	_	_	6	advcl	_	_
+1	جنهن	_	PRON	_	_	6	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	فرانس	_	PROPN	_	_	6	obl	_	_
 4	۾	_	ADP	_	_	3	case	_	_
 5	انقلاب	_	NOUN	_	_	6	nsubj	_	_
@@ -14823,22 +14823,22 @@
 
 # sent_id = 743
 # text = ان ڪري رڳو تون هل مان اچان ٿو ۽ ڏنو پٽ ڇٽي وارو قصو هاڻي ڪوتاهه ٿيڻ گهرجي.
-1	ان	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	7	advcl	_	_
-3	رڳو	_	ADV	_	_	5	advmod	_	_
+1	ان	_	DET	_	_	5	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
+3	رڳو	_	ADJ	_	_	4	amod	_	_
 4	تون	_	PRON	_	_	5	nsubj	_	_
 5	هل	_	VERB	_	_	7	advcl	_	_
-6	مان	_	ADP	_	_	5	mark	_	_
+6	مان	_	PRON	_	_	7	nsubj	_	_
 7	اچان	_	VERB	_	_	0	root	_	_
 8	ٿو	_	AUX	_	_	7	aux	_	_
 9	۽	_	CCONJ	_	_	17	cc	_	_
-10	ڏنو	_	VERB	_	_	11	obl	_	_
-11	پٽ	_	NOUN	_	_	12	obj	_	_
-12	ڇٽي	_	VERB	_	_	14	nmod	_	_
-13	وارو	_	ADP	_	_	12	mark	_	_
+10	ڏنو	_	PROPN	_	_	12	nmod	_	_
+11	پٽ	_	NOUN	_	_	10	flat	_	_
+12	ڇٽي	_	PROPN	_	_	14	nmod	_	_
+13	وارو	_	ADP	_	_	12	case	_	_
 14	قصو	_	NOUN	_	_	17	nsubj	_	_
 15	هاڻي	_	ADV	_	_	17	advmod	_	_
-16	ڪوتاهه	_	ADJ	_	_	17	compound	_	_
+16	ڪوتاهه	_	ADJ	_	_	17	xcomp	_	_
 17	ٿيڻ	_	VERB	_	_	7	conj	_	_
 18	گهرجي	_	VERB	_	_	17	aux	_	SpaceAfter=No
 19	.	_	PUNCT	_	_	17	punct	_	_
@@ -15141,15 +15141,15 @@
 
 # sent_id = 761
 # text = ان ڪري رات جو ميڊيا تي ٿيندڙ واهه واهه ۽ ڊاهه ڊاهه ٻڌي صبح جو جيڪي پروانا جاري ڪيا ٿا وڃن انهن ۾ ڌُرائپ جي بوءِ پڌري ٿي اچي.
-1	ان	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	19	advcl	_	_
+1	ان	_	DET	_	_	7	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	رات	_	NOUN	_	_	7	obl	_	_
 4	جو	_	ADP	_	_	3	case	_	_
 5	ميڊيا	_	NOUN	_	_	7	obl	_	_
 6	تي	_	ADP	_	_	5	case	_	_
 7	ٿيندڙ	_	VERB	_	_	9	acl	_	_
 8	واهه	_	NOUN	_	_	9	nmod	_	_
-9	واهه	_	NOUN	_	_	13	obl	_	_
+9	واهه	_	NOUN	_	_	13	nsubj	_	_
 10	۽	_	CCONJ	_	_	12	cc	_	_
 11	ڊاهه	_	NOUN	_	_	12	nmod	_	_
 12	ڊاهه	_	NOUN	_	_	9	conj	_	_
@@ -15158,7 +15158,7 @@
 15	جو	_	ADP	_	_	14	case	_	_
 16	جيڪي	_	PRON	_	_	17	nmod	_	_
 17	پروانا	_	NOUN	_	_	19	obj	_	_
-18	جاري	_	VERB	_	_	19	xcomp	_	_
+18	جاري	_	ADV	_	_	19	advmod	_	_
 19	ڪيا	_	VERB	_	_	0	root	_	_
 20	ٿا	_	AUX	_	_	19	aux	_	_
 21	وڃن	_	VERB	_	_	19	compound	_	_
@@ -15446,22 +15446,22 @@
 
 # sent_id = 773
 # text = ان ڪري هن وقت عوام کي سچيت ۽ قانون لاڳو ڪندڙ ادارن کي هردم تيار رهڻ جي ضرورت آهي.
-1	ان	_	DET	_	_	2	det	_	_
-2	ڪري	_	VERB	_	_	18	advcl	_	_
+1	ان	_	DET	_	_	16	obl	_	_
+2	ڪري	_	ADP	_	_	1	case	_	_
 3	هن	_	DET	_	_	4	det	_	_
 4	وقت	_	NOUN	_	_	18	obl	_	_
 5	عوام	_	NOUN	_	_	16	obj	_	_
 6	کي	_	ADP	_	_	5	case	_	_
-7	سچيت	_	NOUN	_	_	16	obl	_	_
+7	سچيت	_	ADJ	_	_	12	conj	_	_
 8	۽	_	CCONJ	_	_	12	cc	_	_
 9	قانون	_	NOUN	_	_	11	obl	_	_
 10	لاڳو	_	ADJ	_	_	11	compound	_	_
 11	ڪندڙ	_	VERB	_	_	12	acl	_	_
-12	ادارن	_	NOUN	_	_	16	obj	_	_
+12	ادارن	_	NOUN	_	_	16	iobj	_	_
 13	کي	_	ADP	_	_	12	case	_	_
 14	هردم	_	NOUN	_	_	16	obl	_	_
 15	تيار	_	NOUN	_	_	16	compound	_	_
-16	رهڻ	_	VERB	_	_	18	nmod	_	_
+16	رهڻ	_	VERB	_	_	18	acl	_	_
 17	جي	_	ADP	_	_	16	mark	_	_
 18	ضرورت	_	NOUN	_	_	0	root	_	_
 19	آهي	_	AUX	_	_	18	cop	_	SpaceAfter=No
