@@ -118977,38 +118977,41 @@
 18	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
 19	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 5776
-# text = نصابي ڪورس، مفت تعليم، ڪپڙا، غير نصابي سرگرمين جو سامان، وظيفو، اڃا حڪومت ڇا ڪري؟ حڪومت ته پنهنجا حق ادا ڪري رهي آهي،
-1	نصابي	_	_	_	_	0	root	_	_
-2	ڪورس	_	_	_	_	1	dep	_	SpaceAfter=No
-3	،	_	_	_	_	1	dep	_	_
-4	مفت	_	_	_	_	1	dep	_	_
-5	تعليم	_	_	_	_	1	dep	_	SpaceAfter=No
-6	،	_	_	_	_	1	dep	_	_
-7	ڪپڙا	_	_	_	_	1	dep	_	SpaceAfter=No
-8	،	_	_	_	_	1	dep	_	_
-9	غير	_	_	_	_	1	dep	_	_
-10	نصابي	_	_	_	_	1	dep	_	_
-11	سرگرمين	_	_	_	_	1	dep	_	_
-12	جو	_	_	_	_	1	dep	_	_
-13	سامان	_	_	_	_	1	dep	_	SpaceAfter=No
-14	،	_	_	_	_	1	dep	_	_
-15	وظيفو	_	_	_	_	1	dep	_	SpaceAfter=No
-16	،	_	_	_	_	1	dep	_	_
-17	اڃا	_	_	_	_	1	dep	_	_
-18	حڪومت	_	_	_	_	1	dep	_	_
-19	ڇا	_	_	_	_	1	dep	_	_
-20	ڪري	_	_	_	_	1	dep	_	SpaceAfter=No
-21	؟	_	_	_	_	1	dep	_	_
-22	حڪومت	_	_	_	_	1	dep	_	_
-23	ته	_	_	_	_	1	dep	_	_
-24	پنهنجا	_	_	_	_	1	dep	_	_
-25	حق	_	_	_	_	1	dep	_	_
-26	ادا	_	_	_	_	1	dep	_	_
-27	ڪري	_	_	_	_	1	dep	_	_
-28	رهي	_	_	_	_	1	dep	_	_
-29	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-30	،	_	_	_	_	1	dep	_	_
+# sent_id = 5776a
+# text = نصابي ڪورس، مفت تعليم، ڪپڙا، غير نصابي سرگرمين جو سامان، وظيفو، اڃا حڪومت ڇا ڪري؟
+1	نصابي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	_
+2	ڪورس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	dislocated	_	SpaceAfter=No
+3	،	_	PUNCT	PUNCT	_	5	punct	_	_
+4	مفت	_	ADJ	JJ	Case=Nom|Degree=Pos	5	amod	_	_
+5	تعليم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	،	_	PUNCT	PUNCT	_	5	punct	_	_
+7	ڪپڙا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+8	،	_	PUNCT	PUNCT	_	7	punct	_	_
+9	غير	_	ADJ	JJ	Case=Nom|Degree=Pos	11	amod	_	_
+10	نصابي	_	ADJ	JJ	Case=Nom|Degree=Pos	11	amod	_	_
+11	سرگرمين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	_
+12	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	11	case	_	_
+13	سامان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+14	،	_	PUNCT	PUNCT	_	15	punct	_	_
+15	وظيفو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+16	،	_	PUNCT	PUNCT	_	15	punct	_	_
+17	اڃا	_	ADV	ADT	_	20	advmod	_	_
+18	حڪومت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+19	ڇا	_	PRON	PRWH	_	20	obj	_	_
+20	ڪري	_	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	SpaceAfter=No
+21	؟	_	PUNCT	PUNCT	_	20	punct	_	_
+
+# sent_id = 5776b
+# text = حڪومت ته پنهنجا حق ادا ڪري رهي آهي،
+1	حڪومت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	ته	_	PART	PART	_	1	advmod:emph	_	_
+3	پنهنجا	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	4	nmod	_	_
+4	حق	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
+5	ادا	_	NOUN	NN	Case=Nom	6	compound	_	_
+6	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+7	رهي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	6	compound	_	_
+8	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
+9	،	_	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 5777
 # text = توهان ۽ اسان جو حق (فرض) ڇا آهي،

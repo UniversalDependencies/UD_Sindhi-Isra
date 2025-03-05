@@ -3079,8 +3079,8 @@
 
 # sent_id = 1087
 # text = ان ڪري ڪنهن وڏي دڙي تي هلو ته اوهان جي ريت پوري ڪريان .
-1	ان	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
-2	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=ConjPart	7	advcl	_	_
+1	ان	_	DET	PRD	Case=Acc|Number=Sing	7	obl	_	_
+2	ڪري	_	ADP	PSP	_	1	case	_	_
 3	ڪنهن	_	PRON	PRWH	Case=Acc|Number=Sing	5	det	_	_
 4	وڏي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
 5	دڙي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
@@ -3089,9 +3089,9 @@
 8	ته	_	SCONJ	CS	_	13	mark	_	_
 9	اوهان	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	11	nmod	_	_
 10	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	9	case	_	_
-11	ريت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
-12	پوري	_	VERB	VM	Aspect=Imp|Number=Sing	13	xcomp	_	_
-13	ڪريان	_	VERB	VM	Aspect=Imp|Number=Sing|Person=1	7	advcl	_	_
+11	ريت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+12	پوري	_	ADJ	JJ	Case=Nom|Number=Sing	13	xcomp	_	_
+13	ڪريان	_	VERB	VM	Aspect=Imp|Number=Sing|Person=1	7	ccomp	_	_
 14	.	_	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = 1088
@@ -5179,7 +5179,7 @@
 # sent_id = 1258
 # text = پر ڇا ڪري جو شينهن سان پڄڻ جي جاءِ ڪانه هيس ،
 1	پر	_	SCONJ	CS	_	3	mark	_	_
-2	ڇا	_	PRON	PRWH	_	3	obl	_	_
+2	ڇا	_	PRON	PRWH	_	3	obj	_	_
 3	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	11	advcl	_	_
 4	جو	_	ADP	PSP	_	3	mark	_	_
 5	شينهن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
@@ -5187,7 +5187,7 @@
 7	پڄڻ	_	VERB	VM	VerbForm=Inf	9	nmod	_	_
 8	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	7	mark	_	_
 9	جاءِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
-10	ڪانه	_	PART	PART	_	11	advmod	_	_
+10	ڪانه	_	PART	PART	_	11	dep	_	_
 11	هيس	_	VERB	VMX	Number=Sing|Number[subj]=Sing|Person=3|Person[subj]=3	0	root	_	_
 12	،	_	PUNCT	PUNCT	_	11	punct	_	_
 
@@ -8210,25 +8210,25 @@
 
 # sent_id = 1493
 # text = ان ڪري پاڻي جي مقدار جي گهٽ ٿيڻ جو آسرو سکر بئراج کان هيٺ سمنڊ تائين جا رهواسي نه ڪن ،
-1	ان	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
-2	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=ConjPart|Voice=Act	20	advcl	_	_
+1	ان	_	DET	PRD	Case=Acc|Number=Sing	8	obl	_	_
+2	ڪري	_	ADP	PSP	_	1	case	_	_
 3	پاڻي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 4	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
-5	مقدار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+5	مقدار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 6	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	5	case	_	_
-7	گهٽ	_	ADJ	JJ	Case=Nom|Degree=Pos	8	compound	_	_
-8	ٿيڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	10	nmod	_	_
+7	گهٽ	_	ADJ	JJ	Case=Nom|Degree=Pos	8	xcomp	_	_
+8	ٿيڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	10	acl	_	_
 9	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	8	mark	_	_
 10	آسرو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
 11	سکر	_	PROPN	NNP	Case=Nom|Gender=Masc	12	compound	_	_
-12	بئراج	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+12	بئراج	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
 13	کان	_	ADP	PSP	_	12	case	_	_
 14	هيٺ	_	ADV	ADV	_	20	advmod	_	_
 15	سمنڊ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
 16	تائين	_	ADP	PSP	Type=Loc	15	case	_	_
 17	جا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	15	case	_	_
 18	رهواسي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
-19	نه	_	PART	PART	_	20	advmod	_	_
+19	نه	_	PART	PART	_	20	dep	_	_
 20	ڪن	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
 21	،	_	PUNCT	PUNCT	_	20	punct	_	_
 
