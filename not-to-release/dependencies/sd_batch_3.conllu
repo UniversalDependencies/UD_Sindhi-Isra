@@ -6082,6 +6082,7 @@
 
 # sent_id = 287
 # text = مثال طور دهشتگردي جي واقعن ۽ منظرن کي بي ڌڙڪ ۽ بنا ڪنهن ريگيلويشن جي نشر ڪرڻ وغيره.
+# semgrex pattern |{word:وغيره}| matched at 18:وغيره
 1	مثال	_	NOUN	_	_	2	nmod	_	_
 2	طور	_	NOUN	_	_	17	obl	_	_
 3	دهشتگردي	_	NOUN	_	_	5	nmod	_	_
@@ -6090,10 +6091,10 @@
 6	۽	_	CCONJ	_	_	7	cc	_	_
 7	منظرن	_	NOUN	_	_	5	conj	_	_
 8	کي	_	ADP	_	_	5	case	_	_
-9	بي	_	NOUN	_	_	10	compound	_	_
+9	بي	_	ADJ	_	_	10	amod	_	_
 10	ڌڙڪ	_	NOUN	_	_	17	obl	_	_
 11	۽	_	CCONJ	_	_	14	cc	_	_
-12	بنا	_	NOUN	_	_	14	nmod	_	_
+12	بنا	_	ADJ	_	_	14	amod	_	_
 13	ڪنهن	_	PRON	_	_	14	nmod	_	_
 14	ريگيلويشن	_	NOUN	_	_	10	conj	_	_
 15	جي	_	ADP	_	_	14	case	_	_
@@ -12054,6 +12055,7 @@
 
 # sent_id = 598
 # text = دنيا جون زرخيز ۽ ترقي يافته ٻوليون، انگريزي، فرانسيسي، اسپيني، جرمن، روسي يا اٽالين وغيره رڳو پنهنجي تخليقي ادب ۽ مقامي تحريرن جي ڪري اڳڀريون ناهن،
+# semgrex pattern |{word:وغيره}| matched at 20:وغيره
 1	دنيا	_	NOUN	_	_	3	nmod	_	_
 2	جون	_	ADP	_	_	1	case	_	_
 3	زرخيز	_	NOUN	_	_	7	nmod	_	_
@@ -12074,15 +12076,15 @@
 18	يا	_	CCONJ	_	_	19	cc	_	_
 19	اٽالين	_	PROPN	_	_	7	conj	_	_
 20	وغيره	_	PART	_	_	19	dep	_	_
-21	رڳو	_	ADV	_	_	24	amod	_	_
+21	رڳو	_	ADJ	_	_	24	amod	_	_
 22	پنهنجي	_	PRON	_	_	24	nmod	_	_
 23	تخليقي	_	ADJ	_	_	24	amod	_	_
-24	ادب	_	NOUN	_	_	29	obl	_	_
+24	ادب	_	NOUN	_	_	30	obl	_	_
 25	۽	_	CCONJ	_	_	27	cc	_	_
 26	مقامي	_	ADJ	_	_	27	amod	_	_
 27	تحريرن	_	NOUN	_	_	24	conj	_	_
-28	جي	_	ADP	_	_	27	case	_	_
-29	ڪري	_	VERB	_	_	30	xcomp	_	_
+28	جي	_	ADP	_	_	24	case	_	_
+29	ڪري	_	ADP	_	_	24	case	_	_
 30	اڳڀريون	_	ADJ	_	_	0	root	_	_
 31	ناهن	_	PART	_	_	30	dep	_	SpaceAfter=No
 32	،	_	PUNCT	_	_	30	punct	_	_

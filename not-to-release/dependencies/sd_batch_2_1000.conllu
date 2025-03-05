@@ -10980,6 +10980,7 @@
 
 # sent_id = 611
 # text = ڪڏهن جهنگ وڍي صفا ڪندو هو ۽ ڪڏهن جانورن کي گاهه وغيره ڏيندو هو.
+# semgrex pattern |{word:وغيره}| matched at 12:وغيره
 1	ڪڏهن	_	ADV	_	_	5	advmod	_	_
 2	جهنگ	_	NOUN	_	_	3	obj	_	_
 3	وڍي	_	VERB	_	_	5	advcl	_	_
@@ -10988,7 +10989,7 @@
 6	هو	_	AUX	_	_	5	aux	_	_
 7	۽	_	CCONJ	_	_	13	cc	_	_
 8	ڪڏهن	_	ADV	_	_	13	advmod	_	_
-9	جانورن	_	NOUN	_	_	13	obj	_	_
+9	جانورن	_	NOUN	_	_	13	iobj	_	_
 10	کي	_	ADP	_	_	9	case	_	_
 11	گاهه	_	NOUN	_	_	13	obj	_	_
 12	وغيره	_	PART	_	_	11	dep	_	_

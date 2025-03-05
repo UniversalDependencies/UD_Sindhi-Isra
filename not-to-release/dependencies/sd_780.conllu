@@ -7504,27 +7504,27 @@
 
 # sent_id = 1118
 # text = ڍڳيون ، مينهون ، اُٺ وغيره ، جي پڻ گدڙ جي ساڳيءَ طرح ساراهه ڪندا ، پاڻي پيئندا روانا ٿيا .
-1	ڍڳيون	_	NOUN	_	_	15	nsubj	_	_
-2	،	_	PUNCT	_	_	3	punct	_	_
-3	مينهون	_	NOUN	_	_	1	conj	_	_
-4	،	_	PUNCT	_	_	3	punct	_	_
-5	اُٺ	_	NOUN	_	_	1	conj	_	_
-6	وغيره	_	ADP	_	_	1	case	_	_
-7	،	_	PUNCT	_	_	5	punct	_	_
-8	جي	_	ADP	_	_	1	case	_	_
-9	پڻ	_	ADP	_	_	1	dep	_	_
-10	گدڙ	_	NOUN	_	_	13	nmod	_	_
-11	جي	_	ADP	_	_	10	case	_	_
-12	ساڳيءَ	_	ADJ	_	_	13	amod	_	_
-13	طرح	_	NOUN	_	_	15	obl	_	_
-14	ساراهه	_	NOUN	_	_	15	compound	_	_
-15	ڪندا	_	VERB	_	_	20	advcl	_	_
-16	،	_	PUNCT	_	_	15	punct	_	_
-17	پاڻي	_	NOUN	_	_	18	obj	_	_
-18	پيئندا	_	VERB	_	_	20	advcl	_	_
-19	روانا	_	VERB	_	_	20	compound	_	_
-20	ٿيا	_	VERB	_	_	0	root	_	_
-21	.	_	PUNCT	_	_	20	punct	_	_
+1	ڍڳيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	dislocated	_	_
+2	،	_	PUNCT	PUNCT	_	1	punct	_	_
+3	مينهون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	_
+4	،	_	PUNCT	PUNCT	_	3	punct	_	_
+5	اُٺ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+6	وغيره	_	PART	PART	_	5	part	_	_
+7	،	_	PUNCT	PUNCT	_	5	punct	_	_
+8	جي	_	PRON	PRL	Case=Nom|Number=Plur	15	nsubj	_	_
+9	پڻ	_	PART	PART	_	8	advmod:emph	_	_
+10	گدڙ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+11	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing	10	case	_	_
+12	ساڳيءَ	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	طرح	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obl	_	_
+14	ساراهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	compound	_	_
+15	ڪندا	_	VERB	VM	Gender=Masc|Number=Plur|Person=3|VerbForm=PresPart	20	advcl	_	_
+16	،	_	PUNCT	PUNCT	_	15	punct	_	_
+17	پاڻي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
+18	پيئندا	_	VERB	VM	Gender=Masc|Number=Plur|Person=3|VerbForm=PresPart	20	advcl	_	_
+19	روانا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Person=3	20	compound	_	_
+20	ٿيا	_	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+21	.	_	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = 1119
 # text = پڇاڙيءَ ۾ هڪڙي پوڙهي رِڍَ سهڪندي سهڪندي تلاءُ تي آئي .
@@ -12146,17 +12146,17 @@
 
 # sent_id = 1488
 # text = اهي ڪچا وغيره مڪمل خالي ڪري وڃن ۽ اهي شهر ،
-1	اهي	_	DET	_	_	2	det	_	_
-2	ڪچا	_	NOUN	_	_	6	obj	_	_
-3	وغيره	_	ADP	_	_	2	case	_	_
-4	مڪمل	_	NOUN	_	_	6	advmod	_	_
-5	خالي	_	ADJ	_	_	6	compound	_	_
-6	ڪري	_	VERB	_	_	0	root	_	_
-7	وڃن	_	VERB	_	_	6	compound	_	_
-8	۽	_	CCONJ	_	_	10	cc	_	_
-9	اهي	_	DET	_	_	10	det	_	_
-10	شهر	_	NOUN	_	_	6	conj	_	_
-11	،	_	PUNCT	_	_	6	punct	_	_
+1	اهي	_	DET	PRD	Case=Nom|Gender=Masc|Number=Plur	2	det	_	_
+2	ڪچا	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+3	وغيره	_	PART	PART	_	2	dep	_	_
+4	مڪمل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	advmod	_	_
+5	خالي	_	ADJ	JJ	Case=Nom|Degree=Pos	6	compound	_	_
+6	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+7	وڃن	_	VERB	VM	Aspect=Perf|Number=Plur|Person=3	6	compound	_	_
+8	۽	_	CCONJ	CC	_	10	cc	_	_
+9	اهي	_	DET	PRD	Case=Nom|Gender=Masc|Number=Plur	10	det	_	_
+10	شهر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+11	،	_	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 1489
 # text = جيڪي درياءَ جي ڪناري سان آهن ،

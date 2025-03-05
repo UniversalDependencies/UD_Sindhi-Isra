@@ -28,18 +28,19 @@
 
 # sent_id = 9
 # text = جو اهو پنهنجي طرفي-سڀ ترقي جي بلندين تي وڃي رسي ۽ جيڪو صوبو وري ڪنهن ٻي اسم (مثال طور روينيو وغيره) ۾ وڏي وسعت۽ سگهه رکندڙ ۽ وڌ مان وڌ ناڻو وفاق کي ڏيڻ/ ڪمائڻ جي صلاحيت رکي ٿو ته ان کي ايترو به نه ڏنو وڃي،
-1	جو	_	ADP	_	_	12	mark	_	_
-2	اهو	_	DET	_	_	4	det	_	_
+# semgrex pattern |{word:وغيره}| matched at 24:وغيره
+1	جو	_	ADP	_	_	11	mark	_	_
+2	اهو	_	DET	_	_	11	nsubj	_	_
 3	پنهنجي	_	PRON	_	_	4	nmod	_	_
 4	طرفي	_	ADJ	_	_	7	amod	_	SpaceAfter=No
-5	-	_	PUNCT	_	_	4	case	_	SpaceAfter=No
+5	-	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 6	سڀ	_	ADJ	_	_	7	amod	_	_
 7	ترقي	_	NOUN	_	_	9	nmod	_	_
 8	جي	_	ADP	_	_	7	case	_	_
-9	بلندين	_	NOUN	_	_	12	obl	_	_
+9	بلندين	_	NOUN	_	_	11	obl	_	_
 10	تي	_	ADP	_	_	9	case	_	_
-11	وڃي	_	VERB	_	_	12	xcomp	_	_
-12	رسي	_	VERB	_	_	0	root	_	_
+11	وڃي	_	VERB	_	_	0	root	_	_
+12	رسي	_	VERB	_	_	11	compound	_	_
 13	۽	_	CCONJ	_	_	30	cc	_	_
 14	جيڪو	_	DET	_	_	15	det	_	_
 15	صوبو	_	NOUN	_	_	30	nsubj	_	_
@@ -63,14 +64,14 @@
 33	مان	_	ADP	_	_	32	case	_	_
 34	وڌ	_	ADJ	_	_	35	amod	_	_
 35	ناڻو	_	NOUN	_	_	38	obj	_	_
-36	وفاق	_	NOUN	_	_	38	obj	_	_
+36	وفاق	_	NOUN	_	_	38	iobj	_	_
 37	کي	_	ADP	_	_	36	case	_	_
 38	ڏيڻ	_	VERB	_	_	42	nmod	_	SpaceAfter=No
 39	/	_	PUNCT	_	_	40	cc	_	_
 40	ڪمائڻ	_	VERB	_	_	38	conj	_	_
 41	جي	_	ADP	_	_	38	mark	_	_
-42	صلاحيت	_	NOUN	_	_	43	xcomp	_	_
-43	رکي	_	VERB	_	_	12	conj	_	_
+42	صلاحيت	_	NOUN	_	_	43	nsubj	_	_
+43	رکي	_	VERB	_	_	11	conj	_	_
 44	ٿو	_	AUX	_	_	43	aux	_	_
 45	ته	_	SCONJ	_	_	51	mark	_	_
 46	ان	_	PRON	_	_	51	obj	_	_
