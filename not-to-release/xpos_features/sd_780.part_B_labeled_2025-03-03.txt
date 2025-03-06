@@ -3261,7 +3261,7 @@
 9	مان	_	ADP	PSP	_	8	case	_	_
 10	هڪڙي	_	ADJ	JJC	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
 11	ٽُٻي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
-12	ڏيار	_	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=Trans|Voice=Act	2	ccomp	_	_
+12	ڏيار	_	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	2	ccomp	_	_
 13	.	_	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 1100
@@ -4808,8 +4808,8 @@
 5	:	_	PUNCT	PUNCT	_	3	punct	_	_
 6	هاڻي	_	ADV	ADT	_	9	advmod	_	_
 7	کاڌو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
-8	هضم	_	NOUN	NN	_	9	compound	_	_
-9	ڪراءِ	_	VERB	VM	Number=Sing|Person=2|VerbForm=Caus	3	ccomp	_	_
+8	هضم	_	NOUN	NN	Case=Nom	9	compound	_	_
+9	ڪراءِ	_	VERB	VM	Number=Sing|Person=2	3	ccomp	_	_
 10	.	_	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 1223
@@ -5690,8 +5690,8 @@
 6	ته	_	PART	PART	_	5	advmod:emph	_	_
 7	لڪڻ	_	VERB	VM	VerbForm=Inf	9	nmod	_	_
 8	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	7	mark	_	_
-9	جاءِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-10	ڪانهي	_	VERB	VAUXN	_	2	advcl	_	_
+9	جاءِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	_
+10	ڪانهي	_	AUX	VAUX	_	9	cop	_	_
 11	،	_	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = 1306
@@ -7447,10 +7447,10 @@
 # text = شينهن جي وڃڻ کان پوءِ دائي ،
 1	شينهن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 2	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
-3	وڃڻ	_	VERB	VM	VerbForm=Inf	6	nmod	_	_
+3	وڃڻ	_	VERB	VM	VerbForm=Inf	0	root	_	_
 4	کان	_	ADP	PSP	_	3	mark	_	_
 5	پوءِ	_	ADP	PSP	_	3	mark	_	_
-6	دائي	_	NOUN	NN	_	0	root	_	_
+6	دائي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nsubj	_	_
 7	،	_	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 1454
