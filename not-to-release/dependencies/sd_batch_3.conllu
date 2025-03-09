@@ -10948,8 +10948,8 @@
 10	ڏنا	_	VERB	_	_	0	root	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 531
-# text = اهڙو ئي اتساهه انهن ٻارن هڪ ڀيرو ٻيهر ڏنو آهي هڪ نئين سفر ڏانهن ۽ هڪ نئين خواب ڏانهن جتي ناانصافي ۽ لالچي ماڻهن کي للڪاري سگهجي ٿو انهي وقت جڏهن اسان پنهنجي اندر ۾ اتساهه کي مرڻ نه ڏيون ۽ اهو اتساهه جو ٻارن ۾ موجود آهي.
+# sent_id = 531a
+# text = اهڙو ئي اتساهه انهن ٻارن هڪ ڀيرو ٻيهر ڏنو آهي.
 1	اهڙو	_	DET	_	_	3	det	_	_
 2	ئي	_	ADP	_	_	1	dep	_	_
 3	اتساهه	_	NOUN	_	_	9	nsubj	_	_
@@ -10957,48 +10957,56 @@
 5	ٻارن	_	NOUN	_	_	9	nsubj	_	_
 6	هڪ	_	ADJ	_	_	7	amod	_	_
 7	ڀيرو	_	NOUN	_	_	9	obl	_	_
-8	ٻيهر	_	NOUN	_	_	9	obl	_	_
+8	ٻيهر	_	ADV	_	_	9	advmod	_	_
 9	ڏنو	_	VERB	_	_	0	root	_	_
-10	آهي	_	AUX	_	_	9	aux	_	_
-11	هڪ	_	ADJ	_	_	13	amod	_	_
-12	نئين	_	ADJ	_	_	13	amod	_	_
-13	سفر	_	NOUN	_	_	26	obl	_	_
-14	ڏانهن	_	ADV	_	_	13	case	_	_
-15	۽	_	CCONJ	_	_	18	cc	_	_
-16	هڪ	_	ADJ	_	_	18	amod	_	_
-17	نئين	_	ADJ	_	_	18	amod	_	_
-18	خواب	_	NOUN	_	_	21	conj	_	_
-19	ڏانهن	_	ADV	_	_	18	case	_	_
-20	جتي	_	ADV	_	_	26	advmod	_	_
-21	ناانصافي	_	NOUN	_	_	24	nmod	_	_
-22	۽	_	CCONJ	_	_	23	cc	_	_
-23	لالچي	_	NOUN	_	_	21	conj	_	_
-24	ماڻهن	_	NOUN	_	_	26	obj	_	_
-25	کي	_	ADP	_	_	24	case	_	_
-26	للڪاري	_	VERB	_	_	9	conj	_	_
-27	سگهجي	_	VERB	_	_	26	compound	_	_
-28	ٿو	_	AUX	_	_	26	aux	_	_
-29	انهي	_	DET	_	_	30	det	_	_
-30	وقت	_	NOUN	_	_	40	obl	_	_
-31	جڏهن	_	ADV	_	_	40	advmod	_	_
-32	اسان	_	PRON	_	_	40	nsubj	_	_
-33	پنهنجي	_	PRON	_	_	34	nmod	_	_
-34	اندر	_	NOUN	_	_	38	obl	_	_
-35	۾	_	ADP	_	_	34	case	_	_
-36	اتساهه	_	NOUN	_	_	38	obj	_	_
-37	کي	_	ADP	_	_	36	case	_	_
-38	مرڻ	_	VERB	_	_	40	advcl	_	_
-39	نه	_	PART	_	_	40	dep	_	_
-40	ڏيون	_	VERB	_	_	26	advcl	_	_
-41	۽	_	CCONJ	_	_	47	cc	_	_
-42	اهو	_	DET	_	_	43	det	_	_
-43	اتساهه	_	NOUN	_	_	47	nsubj	_	_
-44	جو	_	ADP	_	_	43	case	_	_
-45	ٻارن	_	NOUN	_	_	47	nmod	_	_
-46	۾	_	ADP	_	_	45	case	_	_
-47	موجود	_	ADV	_	_	40	conj	_	_
-48	آهي	_	AUX	_	_	47	cop	_	SpaceAfter=No
-49	.	_	PUNCT	_	_	47	punct	_	_
+10	آهي	_	AUX	_	_	9	aux	_	SpaceAfter=No
+11	.	_	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 531b
+# text = هڪ نئين سفر ڏانهن ۽ هڪ نئين خواب ڏانهن جتي ناانصافي ۽ لالچي ماڻهن کي للڪاري سگهجي ٿو.
+1	هڪ	_	ADJ	_	_	3	amod	_	_
+2	نئين	_	ADJ	_	_	3	amod	_	_
+3	سفر	_	NOUN	_	_	8	conj	_	_
+4	ڏانهن	_	ADP	_	_	3	case	_	_
+5	۽	_	CCONJ	_	_	8	cc	_	_
+6	هڪ	_	ADJ	_	_	8	amod	_	_
+7	نئين	_	ADJ	_	_	8	amod	_	_
+8	خواب	_	NOUN	_	_	11	conj	_	_
+9	ڏانهن	_	ADP	_	_	8	case	_	_
+10	جتي	_	ADV	_	_	16	advmod	_	_
+11	ناانصافي	_	NOUN	_	_	14	nmod	_	_
+12	۽	_	CCONJ	_	_	13	cc	_	_
+13	لالچي	_	NOUN	_	_	11	conj	_	_
+14	ماڻهن	_	NOUN	_	_	16	obj	_	_
+15	کي	_	ADP	_	_	14	case	_	_
+16	للڪاري	_	VERB	_	_	0	root	_	_
+17	سگهجي	_	VERB	_	_	16	compound	_	_
+18	ٿو	_	AUX	_	_	16	aux	_	SpaceAfter=No
+19	.	_	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 531c
+# text = انهي وقت جڏهن اسان پنهنجي اندر ۾ اتساهه کي مرڻ نه ڏيون ۽ اهو اتساهه جو ٻارن ۾ موجود آهي.
+1	انهي	_	DET	_	_	2	det	_	_
+2	وقت	_	NOUN	_	_	12	obl	_	_
+3	جڏهن	_	ADV	_	_	12	advmod	_	_
+4	اسان	_	PRON	_	_	12	nsubj	_	_
+5	پنهنجي	_	PRON	_	_	6	nmod	_	_
+6	اندر	_	NOUN	_	_	10	obl	_	_
+7	۾	_	ADP	_	_	6	case	_	_
+8	اتساهه	_	NOUN	_	_	10	obj	_	_
+9	کي	_	ADP	_	_	8	case	_	_
+10	مرڻ	_	VERB	_	_	12	advcl	_	_
+11	نه	_	PART	_	_	12	dep	_	_
+12	ڏيون	_	VERB	_	_	0	root	_	_
+13	۽	_	CCONJ	_	_	19	cc	_	_
+14	اهو	_	DET	_	_	15	det	_	_
+15	اتساهه	_	NOUN	_	_	19	nsubj	_	_
+16	جو	_	ADP	_	_	15	case	_	_
+17	ٻارن	_	NOUN	_	_	19	nmod	_	_
+18	۾	_	ADP	_	_	17	case	_	_
+19	موجود	_	ADJ	_	_	12	conj	_	_
+20	آهي	_	AUX	_	_	19	cop	_	SpaceAfter=No
+21	.	_	PUNCT	_	_	19	punct	_	_
 
 # sent_id = 532
 # text = اسان جا ٻار اسان کي اتساهه ڏيندڙ آهن ڇا اسان انهن جي معصوم دنيا کي تحفظ ڏئي سگهنداسين ۽ انهن جي يقين کي بچائي سهگنداسين؟
