@@ -1151,46 +1151,53 @@
 29	لڳا	_	VERB	_	_	19	advcl	_	SpaceAfter=No
 30	.	_	PUNCT	_	_	29	punct	_	_
 
-# sent_id = 62
-# text = هن جو خيال هو ته جيڪڏهن راجا کي ڪنهن بهاني سان پنهنجي ملڪ مان ٻاهر موڪلي ته تنبي ۽ پوڙهي نيپال جي ڪهاڻي پراڻي زماني جي ڳالهه آهي ته هڪڙي پوڙهي مائيءَ کي هڪ ڌيءَ هوندي هئي.
+# sent_id = 1493a
+# text = هن جو خيال هو ته جيڪڏهن راجا کي ڪنهن بهاني سان پنهنجي ملڪ مان ٻاهر موڪلي.
 1	هن	_	PRON	_	_	3	nsubj	_	_
-2	جو	_	ADP	_	_	3	det	_	_
-3	خيال	_	NOUN	_	_	4	xcomp	_	_
-4	هو	_	AUX	_	_	0	root	_	_
+2	جو	_	ADP	_	_	1	case	_	_
+3	خيال	_	NOUN	_	_	0	root	_	_
+4	هو	_	AUX	_	_	3	cop	_	_
 5	ته	_	SCONJ	_	_	16	mark	_	_
 6	جيڪڏهن	_	SCONJ	_	_	16	mark	_	_
-7	راجا	_	NOUN	_	_	10	nmod	_	_
+7	راجا	_	NOUN	_	_	16	obj	_	_
 8	کي	_	ADP	_	_	7	case	_	_
 9	ڪنهن	_	PRON	_	_	10	nmod	_	_
 10	بهاني	_	NOUN	_	_	16	obl	_	_
-11	سان	_	ADP	_	_	16	mark	_	_
+11	سان	_	ADP	_	_	10	case	_	_
 12	پنهنجي	_	PRON	_	_	13	nmod	_	_
 13	ملڪ	_	NOUN	_	_	16	obl	_	_
-14	مان	_	ADP	_	_	16	mark	_	_
-15	ٻاهر	_	NOUN	_	_	16	obl	_	_
-16	موڪلي	_	VERB	_	_	3	obj	_	_
-17	ته	_	SCONJ	_	_	27	mark	_	_
-18	تنبي	_	NOUN	_	_	23	nmod	_	_
-19	۽	_	CCONJ	_	_	20	cc	_	_
-20	پوڙهي	_	NOUN	_	_	18	conj	_	_
-21	نيپال	_	PROPN	_	_	23	nmod	_	_
-22	جي	_	ADP	_	_	21	case	_	_
-23	ڪهاڻي	_	NOUN	_	_	27	nsubj	_	_
-24	پراڻي	_	ADJ	_	_	25	amod	_	_
-25	زماني	_	NOUN	_	_	27	nmod	_	_
-26	جي	_	ADP	_	_	27	case	_	_
-27	ڳالهه	_	NOUN	_	_	16	conj	_	_
-28	آهي	_	AUX	_	_	27	cop	_	_
-29	ته	_	SCONJ	_	_	36	mark	_	_
-30	هڪڙي	_	NUM	_	_	32	nummod	_	_
-31	پوڙهي	_	ADJ	_	_	32	nmod	_	_
-32	مائيءَ	_	NOUN	_	_	36	obj	_	_
-33	کي	_	ADP	_	_	32	case	_	_
-34	هڪ	_	NUM	_	_	35	nummod	_	_
-35	ڌيءَ	_	NOUN	_	_	36	nsubj	_	_
-36	هوندي	_	VERB	_	_	27	acl	_	_
-37	هئي	_	AUX	_	_	36	aux	_	SpaceAfter=No
-38	.	_	PUNCT	_	_	36	punct	_	_
+14	مان	_	ADP	_	_	13	case	_	_
+15	ٻاهر	_	ADV	_	_	16	advmod	_	_
+16	موڪلي	_	VERB	_	_	3	ccomp	_	SpaceAfter=No
+17	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 1493b
+# text = تنبي ۽ پوڙهي نيپال جي ڪهاڻي.
+1	تنبي	_	NOUN	_	_	6	parataxis	_	_
+2	۽	_	CCONJ	_	_	3	cc	_	_
+3	پوڙهي	_	NOUN	_	_	1	conj	_	_
+4	نيپال	_	PROPN	_	_	6	nmod	_	_
+5	جي	_	ADP	_	_	4	case	_	_
+6	ڪهاڻي	_	NOUN	_	_	0	root	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1493c
+# text = پراڻي زماني جي ڳالهه آهي ته هڪڙي پوڙهي مائيءَ کي هڪ ڌيءَ هوندي هئي.
+1	پراڻي	_	ADJ	_	_	2	amod	_	_
+2	زماني	_	NOUN	_	_	4	nmod	_	_
+3	جي	_	ADP	_	_	2	case	_	_
+4	ڳالهه	_	NOUN	_	_	0	root	_	_
+5	آهي	_	AUX	_	_	4	cop	_	_
+6	ته	_	SCONJ	_	_	13	mark	_	_
+7	هڪڙي	_	NUM	_	_	9	nummod	_	_
+8	پوڙهي	_	ADJ	_	_	9	nmod	_	_
+9	مائيءَ	_	NOUN	_	_	13	obj	_	_
+10	کي	_	ADP	_	_	9	case	_	_
+11	هڪ	_	NUM	_	_	12	nummod	_	_
+12	ڌيءَ	_	NOUN	_	_	13	nsubj	_	_
+13	هوندي	_	VERB	_	_	4	acl	_	_
+14	هئي	_	AUX	_	_	13	aux	_	SpaceAfter=No
+15	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 63
 # text = پوڙهيءَ پنهنجي ان ڌيءَ جي شادي پري جي ڳوٺ ۾ ڪرائي.
