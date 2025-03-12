@@ -66945,36 +66945,37 @@
 32	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
 33	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 3676
-# text = ان ڪري صدر آصف علي زرداري جي روح مان شهيدن جو ڏنل اهو حوصلو، عزم ۽ عوام ملڪ جي خاطر جارحانه رويو نروار ٿي رهيو آهي،
-1	ان	_	_	_	_	0	root	_	_
-2	ڪري	_	_	_	_	1	dep	_	_
-3	صدر	_	_	_	_	1	dep	_	_
-4	آصف	_	_	_	_	1	dep	_	_
-5	علي	_	_	_	_	1	dep	_	_
-6	زرداري	_	_	_	_	1	dep	_	_
-7	جي	_	_	_	_	1	dep	_	_
-8	روح	_	_	_	_	1	dep	_	_
-9	مان	_	_	_	_	1	dep	_	_
-10	شهيدن	_	_	_	_	1	dep	_	_
-11	جو	_	_	_	_	1	dep	_	_
-12	ڏنل	_	_	_	_	1	dep	_	_
-13	اهو	_	_	_	_	1	dep	_	_
-14	حوصلو	_	_	_	_	1	dep	_	SpaceAfter=No
-15	،	_	_	_	_	1	dep	_	_
-16	عزم	_	_	_	_	1	dep	_	_
-17	۽	_	_	_	_	1	dep	_	_
-18	عوام	_	_	_	_	1	dep	_	_
-19	ملڪ	_	_	_	_	1	dep	_	_
-20	جي	_	_	_	_	1	dep	_	_
-21	خاطر	_	_	_	_	1	dep	_	_
-22	جارحانه	_	_	_	_	1	dep	_	_
-23	رويو	_	_	_	_	1	dep	_	_
-24	نروار	_	_	_	_	1	dep	_	_
-25	ٿي	_	_	_	_	1	dep	_	_
-26	رهيو	_	_	_	_	1	dep	_	_
-27	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-28	،	_	_	_	_	1	dep	_	_
+# sent_id = 3676a
+# text = ان ڪري صدر آصف علي زرداري جي روح مان شهيدن جو ڏنل اهو حوصلو، عزم ۽ عوام ۽ ملڪ جي خاطر جارحانه رويو نروار ٿي رهيو آهي،
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing	12	obl	_	_
+2	ڪري	ڪري	ADP	PSP	_	1	case	_	_
+3	صدر	صدر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+4	آصف	آصف	PROPN	NNP	Case=Nom|Gender=Masc	6	compound	_	_
+5	علي	علي	PROPN	NNP	Case=Nom|Gender=Masc	6	compound	_	_
+6	زرداري	زرداري	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+7	جي	جي	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	6	case	_	_
+8	روح	روح	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+9	مان	مان	ADP	PSP	Type=Loc	8	case	_	_
+10	شهيدن	شهيدن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	_
+11	جو	جو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	10	case	_	_
+12	ڏنل	ڏنل	VERB	VM	Aspect=Perf|Tense=Past|VerbForm=PastPart|Voice=Pass	14	acl	_	_
+13	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	14	det	_	_
+14	حوصلو	حوصلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+15	،	،	PUNCT	PUNCT	_	16	punct	_	_
+16	عزم	عزم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+17	۽	۽	CCONJ	CC	_	20	cc	_	_
+18	عوام	عوام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+19	۽	۽	CCONJ	CC	_	20	cc	_	_
+20	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	conj	_	_
+21	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	20	case	_	_
+22	خاطر	خاطر	ADP	PSP	_	20	case	_	_
+23	جارحانه	جارحانه	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	24	amod	_	_
+24	رويو	رويو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+25	نروار	نروار	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	26	compound	_	_
+26	ٿي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	0	root	_	_
+27	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	26	compound	_	_
+28	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	26	aux	_	SpaceAfter=No
+29	،	،	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
 
 # sent_id = 3677
 # text = جنهن وقت جي آمرن کي هڪ اڻڄاتل خوف ۾ مبتلا ڪري ڇڏيو آهي،
@@ -67913,46 +67914,62 @@
 6	ناهن	_	_	_	_	1	dep	_	SpaceAfter=No
 7	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 3726
-# text = جمهوريت لاءِ ميڊيا وڏيون قربانيون ڏنيون آهن جن کي اسان سلام پيش ڪريون ٿا ميڊيا جو سيڪشن پنهنجي راءِ ٿاڦي رهيو آهي اهو صحافت نه پيو ڪري اسان ان جي باري ۾ پنهنجي راءِ ڏئي رهيا آهيون،
-1	جمهوريت	_	_	_	_	0	root	_	_
-2	لاءِ	_	_	_	_	1	dep	_	_
-3	ميڊيا	_	_	_	_	1	dep	_	_
-4	وڏيون	_	_	_	_	1	dep	_	_
-5	قربانيون	_	_	_	_	1	dep	_	_
-6	ڏنيون	_	_	_	_	1	dep	_	_
-7	آهن	_	_	_	_	1	dep	_	_
-8	جن	_	_	_	_	1	dep	_	_
-9	کي	_	_	_	_	1	dep	_	_
-10	اسان	_	_	_	_	1	dep	_	_
-11	سلام	_	_	_	_	1	dep	_	_
-12	پيش	_	_	_	_	1	dep	_	_
-13	ڪريون	_	_	_	_	1	dep	_	_
-14	ٿا	_	_	_	_	1	dep	_	_
-15	ميڊيا	_	_	_	_	1	dep	_	_
-16	جو	_	_	_	_	1	dep	_	_
-17	سيڪشن	_	_	_	_	1	dep	_	_
-18	پنهنجي	_	_	_	_	1	dep	_	_
-19	راءِ	_	_	_	_	1	dep	_	_
-20	ٿاڦي	_	_	_	_	1	dep	_	_
-21	رهيو	_	_	_	_	1	dep	_	_
-22	آهي	_	_	_	_	1	dep	_	_
-23	اهو	_	_	_	_	1	dep	_	_
-24	صحافت	_	_	_	_	1	dep	_	_
-25	نه	_	_	_	_	1	dep	_	_
-26	پيو	_	_	_	_	1	dep	_	_
-27	ڪري	_	_	_	_	1	dep	_	_
-28	اسان	_	_	_	_	1	dep	_	_
-29	ان	_	_	_	_	1	dep	_	_
-30	جي	_	_	_	_	1	dep	_	_
-31	باري	_	_	_	_	1	dep	_	_
-32	۾	_	_	_	_	1	dep	_	_
-33	پنهنجي	_	_	_	_	1	dep	_	_
-34	راءِ	_	_	_	_	1	dep	_	_
-35	ڏئي	_	_	_	_	1	dep	_	_
-36	رهيا	_	_	_	_	1	dep	_	_
-37	آهيون	_	_	_	_	1	dep	_	SpaceAfter=No
-38	،	_	_	_	_	1	dep	_	_
+# sent_id = 3726a
+# text = جمهوريت لاءِ ميڊيا وڏيون قربانيون ڏنيون آهن.
+1	جمهوريت	جمهوريت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+2	لاءِ	لاءِ	ADP	PSP	_	1	case	_	_
+3	ميڊيا	ميڊيا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	وڏيون	وڏيون	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+5	قربانيون	قربانيون	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	obj	_	_
+6	ڏنيون	ڏنيون	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	0	root	_	_
+7	آهن	آهن	AUX	VAUX	Number=Plur|Tense=Pres	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 3726b
+# text = جن کي اسان سلام پيش ڪريون ٿا.
+1	جن	جن	PRON	PRP	Case=Acc|Number=Plur|Person=3	6	iobj	_	_
+2	کي	کي	ADP	PSP	_	1	case	_	_
+3	اسان	اسان	PRON	PRP	Case=Acc|Number=Plur|Person=1	6	nsubj	_	_
+4	سلام	سلام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	_
+5	پيش	پيش	NOUN	NN	Case=Nom	6	compound	_	_
+6	ڪريون	ڪريون	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	0	root	_	_
+7	ٿا	ٿا	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 3726c
+# text = ميڊيا جو سيڪشن پنهنجي راءِ ٿاڦي رهيو آهي.
+1	ميڊيا	ميڊيا	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+2	جو	جو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+3	سيڪشن	سيڪشن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	5	nmod	_	_
+5	راءِ	راءِ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
+6	ٿاڦي	ٿاڦي	VERB	VM	Aspect=Imp|Number=Sing	0	root	_	_
+7	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	6	compound	_	_
+8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 3726d
+# text = اهو صحافت نه پيو ڪري.
+1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	صحافت	صحافت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	_
+3	نه	نه	PART	PART	_	4	advmod	_	_
+4	پيو	پيو	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	0	root	_	_
+5	ڪري	ڪري	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	4	compound	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 3726e
+# text = اسان ان جي باري ۾ پنهنجي راءِ ڏئي رهيا آهيون،
+1	اسان	اسان	PRON	PRP	Case=Acc|Number=Plur|Person=1	8	nsubj	_	_
+2	ان	ان	DET	PRD	Case=Acc	4	nmod	_	_
+3	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	2	case	_	_
+4	باري	باري	NOUN	NN	Case=Acc|Number=Sing	8	obl	_	_
+5	۾	۾	ADP	PSP	Type=Loc	4	case	_	_
+6	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	7	nmod	_	_
+7	راءِ	راءِ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_
+8	ڏئي	ڏئي	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+9	رهيا	رهيا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Voice=Act	8	compound	_	_
+10	آهيون	آهيون	AUX	VAUX	Number=Plur|Tense=Pres	8	aux	_	SpaceAfter=No
+11	،	،	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 
 # sent_id = 3727
 # text = ميڊيا جي انهيءَ سيڪشن کي ڪا به هدايت نه پيا ڏيون ۽ نه وري ڪنٽرول ڪري رهيا آهيون.
@@ -68204,45 +68221,53 @@
 15	سگهجي	_	_	_	_	1	dep	_	SpaceAfter=No
 16	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 3740
-# text = ذريعن موجب چارٽر آف ڊيموڪريسي 17 هين ترميم جي خاتمي تي به ڳالهيون ڪيون وزيراعظم چيو ته ان سلسلي ۾ آئيني ڪاميٽي جو ڪم آخري مرحلي ۾ آهي اهم پيڪيج جلد پارليامينٽ ۾ پيش ڪيو ويندو،
-1	ذريعن	_	_	_	_	0	root	_	_
-2	موجب	_	_	_	_	1	dep	_	_
-3	چارٽر	_	_	_	_	1	dep	_	_
-4	آف	_	_	_	_	1	dep	_	_
-5	ڊيموڪريسي	_	_	_	_	1	dep	_	_
-6	17	_	_	_	_	1	dep	_	_
-7	هين	_	_	_	_	1	dep	_	_
-8	ترميم	_	_	_	_	1	dep	_	_
-9	جي	_	_	_	_	1	dep	_	_
-10	خاتمي	_	_	_	_	1	dep	_	_
-11	تي	_	_	_	_	1	dep	_	_
-12	به	_	_	_	_	1	dep	_	_
-13	ڳالهيون	_	_	_	_	1	dep	_	_
-14	ڪيون	_	_	_	_	1	dep	_	_
-15	وزيراعظم	_	_	_	_	1	dep	_	_
-16	چيو	_	_	_	_	1	dep	_	_
-17	ته	_	_	_	_	1	dep	_	_
-18	ان	_	_	_	_	1	dep	_	_
-19	سلسلي	_	_	_	_	1	dep	_	_
-20	۾	_	_	_	_	1	dep	_	_
-21	آئيني	_	_	_	_	1	dep	_	_
-22	ڪاميٽي	_	_	_	_	1	dep	_	_
-23	جو	_	_	_	_	1	dep	_	_
-24	ڪم	_	_	_	_	1	dep	_	_
-25	آخري	_	_	_	_	1	dep	_	_
-26	مرحلي	_	_	_	_	1	dep	_	_
-27	۾	_	_	_	_	1	dep	_	_
-28	آهي	_	_	_	_	1	dep	_	_
-29	اهم	_	_	_	_	1	dep	_	_
-30	پيڪيج	_	_	_	_	1	dep	_	_
-31	جلد	_	_	_	_	1	dep	_	_
-32	پارليامينٽ	_	_	_	_	1	dep	_	_
-33	۾	_	_	_	_	1	dep	_	_
-34	پيش	_	_	_	_	1	dep	_	_
-35	ڪيو	_	_	_	_	1	dep	_	_
-36	ويندو	_	_	_	_	1	dep	_	SpaceAfter=No
-37	،	_	_	_	_	1	dep	_	_
+# sent_id = 3740a
+# text = ذريعن موجب چارٽر آف ڊيموڪريسي 17 هين ترميم جي خاتمي تي به ڳالهيون ڪيون.
+1	ذريعن	ذريعن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+2	موجب	موجب	ADP	PSP	Type=Loc	1	case	_	_
+3	چارٽر	چارٽر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+4	آف	آف	ADP	PSP	Type=Loc	3	case	_	_
+5	ڊيموڪريسي	ڊيموڪريسي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
+6	17	17	NUM	NUM	_	8	nummod	_	_
+7	هين	هين	ADJ	JJ	Case=Nom	8	amod	_	_
+8	ترميم	ترميم	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+9	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	8	case	_	_
+10	خاتمي	خاتمي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+11	تي	تي	ADP	PSP	Type=Loc	10	case	_	_
+12	به	به	PART	PART	_	10	advmod:emph	_	_
+13	ڳالهيون	ڳالهيون	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	obj	_	_
+14	ڪيون	ڪيون	VERB	VM	Aspect=Perf|Number=Plur|Person=3	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 3740b
+# text = وزيراعظم چيو ته ان سلسلي ۾ آئيني ڪاميٽي جو ڪم آخري مرحلي ۾ آهي.
+1	وزيراعظم	وزيراعظم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	چيو	چيو	VERB	VM	Aspect=Perf|Tense=Pres|Voice=Act	0	root	_	_
+3	ته	ته	SCONJ	CS	_	12	mark	_	_
+4	ان	ان	DET	PRD	Case=Acc	5	det	_	_
+5	سلسلي	سلسلي	NOUN	NN	Case=Acc|Number=Sing	12	obl	_	_
+6	۾	۾	ADP	PSP	Type=Loc	5	case	_	_
+7	آئيني	آئيني	ADJ	JJ	Case=Nom|Degree=Pos	8	amod	_	_
+8	ڪاميٽي	ڪاميٽي	NOUN	NN	Case=Acc|Number=Sing	10	nmod	_	_
+9	جو	جو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	8	case	_	_
+10	ڪم	ڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	آخري	آخري	ADJ	JJ	Case=Nom|Degree=Pos	12	amod	_	_
+12	مرحلي	مرحلي	NOUN	NN	Case=Acc	2	ccomp	_	_
+13	۾	۾	ADP	PSP	Type=Loc	12	case	_	_
+14	آهي	آهي	AUX	VAUX	Person=3|Tense=Pres	12	cop	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 3740c
+# text = اهم پيڪيج جلد پارليامينٽ ۾ پيش ڪيو ويندو،
+1	اهم	اهم	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	_
+2	پيڪيج	پيڪيج	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	جلد	جلد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
+4	پارليامينٽ	پارليامينٽ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+5	۾	۾	ADP	PSP	Type=Loc	4	case	_	_
+6	پيش	پيش	NOUN	NN	Case=Nom|Number=Sing	7	obj	_	_
+7	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
+8	ويندو	ويندو	VERB	VM	Aspect=Perf|Number=Sing|Person=3|Voice=Act	7	compound	_	SpaceAfter=No
+9	،	،	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 
 # sent_id = 3741
 # text = وزيراعظم چيو ته ان بل ۾ صوبن کي خودمختياري ڏيڻ جو به معاملو شامل آهي،
@@ -69805,46 +69830,57 @@
 10	ٿا	_	_	_	_	1	dep	_	SpaceAfter=No
 11	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 3800
-# text = پ پ به نواز ليگ کي هڪ قوت تسليم ڪرڻ جو حوصلو ڪري، هن چيو ته پاڪستان جا 2 سياستدان آهن جن اينٽي اسٽيبلشمينٽ سياست ڪئي انهن ۾ هڪ ذوالفقار ڀٽو ۽ ٻيو نواز شريف آهي،
-1	پ	_	_	_	_	0	root	_	_
-2	پ	_	_	_	_	1	dep	_	_
-3	به	_	_	_	_	1	dep	_	_
-4	نواز	_	_	_	_	1	dep	_	_
-5	ليگ	_	_	_	_	1	dep	_	_
-6	کي	_	_	_	_	1	dep	_	_
-7	هڪ	_	_	_	_	1	dep	_	_
-8	قوت	_	_	_	_	1	dep	_	_
-9	تسليم	_	_	_	_	1	dep	_	_
-10	ڪرڻ	_	_	_	_	1	dep	_	_
-11	جو	_	_	_	_	1	dep	_	_
-12	حوصلو	_	_	_	_	1	dep	_	_
-13	ڪري	_	_	_	_	1	dep	_	SpaceAfter=No
-14	،	_	_	_	_	1	dep	_	_
-15	هن	_	_	_	_	1	dep	_	_
-16	چيو	_	_	_	_	1	dep	_	_
-17	ته	_	_	_	_	1	dep	_	_
-18	پاڪستان	_	_	_	_	1	dep	_	_
-19	جا	_	_	_	_	1	dep	_	_
-20	2	_	_	_	_	1	dep	_	_
-21	سياستدان	_	_	_	_	1	dep	_	_
-22	آهن	_	_	_	_	1	dep	_	_
-23	جن	_	_	_	_	1	dep	_	_
-24	اينٽي	_	_	_	_	1	dep	_	_
-25	اسٽيبلشمينٽ	_	_	_	_	1	dep	_	_
-26	سياست	_	_	_	_	1	dep	_	_
-27	ڪئي	_	_	_	_	1	dep	_	_
-28	انهن	_	_	_	_	1	dep	_	_
-29	۾	_	_	_	_	1	dep	_	_
-30	هڪ	_	_	_	_	1	dep	_	_
-31	ذوالفقار	_	_	_	_	1	dep	_	_
-32	ڀٽو	_	_	_	_	1	dep	_	_
-33	۽	_	_	_	_	1	dep	_	_
-34	ٻيو	_	_	_	_	1	dep	_	_
-35	نواز	_	_	_	_	1	dep	_	_
-36	شريف	_	_	_	_	1	dep	_	_
-37	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-38	،	_	_	_	_	1	dep	_	_
+# sent_id = 3800a
+# text = پ پ به نواز ليگ کي هڪ قوت تسليم ڪرڻ جو حوصلو ڪري،
+1	پ	پ	ADV	ADT	_	2	compound	_	_
+2	پ	پ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+3	به	به	PART	PART	_	2	advmod:emph	_	_
+4	نواز	نواز	PROPN	NNP	Case=Nom|Gender=Masc	5	nmod	_	_
+5	ليگ	ليگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	iobj	_	_
+6	کي	کي	ADP	PSP	_	5	case	_	_
+7	هڪ	هڪ	ADJ	JJ	Case=Nom	8	amod	_	_
+8	قوت	قوت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
+9	تسليم	تسليم	NOUN	NN	Case=Nom|Number=Sing	10	compound	_	_
+10	ڪرڻ	ڪرڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	12	nmod	_	_
+11	جو	جو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	10	mark	_	_
+12	حوصلو	حوصلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	compound	_	_
+13	ڪري	ڪري	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	SpaceAfter=No
+14	،	،	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 3800b
+# text = هن چيو ته پاڪستان جا 2 سياستدان آهن.
+1	هن	هن	PRON	PRP	Case=Acc|Number=Sing|Person=3	2	nsubj	_	_
+2	چيو	چيو	VERB	VM	Aspect=Perf	0	root	_	_
+3	ته	ته	SCONJ	CS	_	7	mark	_	_
+4	پاڪستان	پاڪستان	PROPN	NNP	Case=Acc|Gender=Masc	7	nmod	_	_
+5	جا	جا	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	4	case	_	_
+6	2	2	NUM	NUM	_	7	nummod	_	_
+7	سياستدان	سياستدان	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	ccomp	_	_
+8	آهن	آهن	AUX	VAUX	Number=Plur|Tense=Pres	7	cop	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 3800c
+# text = جن اينٽي اسٽيبلشمينٽ سياست ڪئي.
+1	جن	جن	PRON	PRP	Case=Acc|Number=Plur|Person=3	5	nsubj	_	_
+2	اينٽي	اينٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
+3	اسٽيبلشمينٽ	اسٽيبلشمينٽ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
+4	سياست	سياست	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
+5	ڪئي	ڪئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 3800d
+# text = انهن ۾ هڪ ذوالفقار ڀٽو ۽ ٻيو نواز شريف آهي،
+1	انهن	انهن	DET	PRD	Case=Acc|Number=Plur	5	nmod	_	_
+2	۾	۾	ADP	PSP	Type=Loc	1	case	_	_
+3	هڪ	هڪ	ADJ	JJ	Case=Nom|Number=Sing	5	amod	_	_
+4	ذوالفقار	ذوالفقار	PROPN	NNP	Case=Nom|Gender=Masc	5	compound	_	_
+5	ڀٽو	ڀٽو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	۽	۽	CCONJ	CC	_	9	cc	_	_
+7	ٻيو	ٻيو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	_
+8	نواز	نواز	PROPN	NNP	Case=Nom|Gender=Masc	9	nmod	_	_
+9	شريف	شريف	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+10	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	9	cop	_	SpaceAfter=No
+11	،	،	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 
 # sent_id = 3801
 # text = نواز شريف جيتوڻيڪ جنرل ضياءُ سان گڏ رهيو پر هن وقت تي آمريت مان نڪري عملي ثبوت ڏنو،
@@ -71206,28 +71242,178 @@
 26	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
 27	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 3851
+# sent_id = 3851a
 # text = تفريحي ماڳ انگرادوس رائس جي هڪ ننڍي هوٽل جي عمارت ۽ ان جي ڀرپاسي واريون عمارتون ڊهي تباهه ٿيون،
-1	تفريحي	_	_	_	_	0	root	_	_
-2	ماڳ	_	_	_	_	1	dep	_	_
-3	انگرادوس	_	_	_	_	1	dep	_	_
-4	رائس	_	_	_	_	1	dep	_	_
-5	جي	_	_	_	_	1	dep	_	_
-6	هڪ	_	_	_	_	1	dep	_	_
-7	ننڍي	_	_	_	_	1	dep	_	_
-8	هوٽل	_	_	_	_	1	dep	_	_
-9	جي	_	_	_	_	1	dep	_	_
-10	عمارت	_	_	_	_	1	dep	_	_
-11	۽	_	_	_	_	1	dep	_	_
-12	ان	_	_	_	_	1	dep	_	_
-13	جي	_	_	_	_	1	dep	_	_
-14	ڀرپاسي	_	_	_	_	1	dep	_	_
-15	واريون	_	_	_	_	1	dep	_	_
-16	عمارتون	_	_	_	_	1	dep	_	_
-17	ڊهي	_	_	_	_	1	dep	_	_
-18	تباهه	_	_	_	_	1	dep	_	_
-19	ٿيون	_	_	_	_	1	dep	_	SpaceAfter=No
-20	،	_	_	_	_	1	dep	_	_
+1	تفريحي	تفريحي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	_
+2	ماڳ	ماڳ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	انگرادوس	انگرادوس	PROPN	NNP	Case=Nom|Gender=Masc	4	nmod	_	_
+4	رائس	رائس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+5	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+6	هڪ	هڪ	ADJ	JJ	Case=Nom|Number=Sing	8	amod	_	_
+7	ننڍي	ننڍي	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
+8	هوٽل	هوٽل	PROPN	NNP	Case=Nom|Gender=Masc	10	nmod	_	_
+9	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	8	case	_	_
+10	عمارت	عمارت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	conj	_	_
+11	۽	۽	CCONJ	CC	_	14	cc	_	_
+12	ان	ان	DET	PRD	Case=Acc|Number=Sing	14	nmod	_	_
+13	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	12	case	_	_
+14	ڀرپاسي	ڀرپاسي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+15	واريون	واريون	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	14	case	_	_
+16	عمارتون	عمارتون	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+17	ڊهي	ڊهي	VERB	VM	Aspect=Imp	0	root	_	_
+18	تباهه	تباهه	ADJ	JJ	Case=Nom	17	compound	_	_
+19	ٿيون	ٿيون	AUX	VAUX	Number=Plur|Tense=Pres	17	aux	_	SpaceAfter=No
+20	،	،	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 3851b
+# text = اسلام آباد (اي پي پي) پاڪستان پيپلز پارٽي جي باني ۽ اڳوڻي وزيراعظم شهيد ذوالفقار علي ڀٽو جي 82 هين سالگره 5 جنوري اڱاري ڏينهن ملهائي ويندي.
+1	اسلام	اسلام	PROPN	NNP	Case=Nom|Gender=Masc	2	compound	_	_
+2	آباد	آباد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+3	(	(	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+4	اي	اي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+5	پي	پي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
+6	پي	پي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+7	)	)	PUNCT	PUNCT	_	6	punct	_	_
+8	پاڪستان	پاڪستان	PROPN	NNP	Case=Nom|Gender=Masc	10	nmod	_	_
+9	پيپلز	پيپلز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	_
+10	پارٽي	پارٽي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+11	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	10	case	_	_
+12	باني	باني	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_
+13	۽	۽	CCONJ	CC	_	15	cc	_	_
+14	اڳوڻي	اڳوڻي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	15	amod	_	_
+15	وزيراعظم	وزيراعظم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+16	شهيد	شهيد	PROPN	NNP	Case=Nom|Gender=Masc	19	compound	_	_
+17	ذوالفقار	ذوالفقار	PROPN	NNP	Case=Nom|Gender=Masc	19	compound	_	_
+18	علي	علي	PROPN	NNP	Case=Nom|Gender=Masc	19	compound	_	_
+19	ڀٽو	ڀٽو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
+20	جي	جي	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	19	case	_	_
+21	82	82	NUM	NUM	_	23	nummod	_	_
+22	هين	هين	NUM	NUM	_	23	nummod	_	_
+23	سالگره	سالگره	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+24	5	5	NUM	NUM	_	25	nummod	_	_
+25	جنوري	جنوري	PROPN	NNP	Case=Nom|Gender=Fem	27	nmod	_	_
+26	اڱاري	اڱاري	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	27	amod	_	_
+27	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	obl	_	_
+28	ملهائي	ملهائي	VERB	VM	Aspect=Perf|Number=Sing|Voice=Act	0	root	_	_
+29	ويندي	ويندي	VERB	VM	Aspect=Perf|Number=Sing|Person=3	28	compound	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 3851c
+# text = قائد عوام کي پاڪستان اندر ڪروڙين ماڻهن جي حمايت حاصل هئي،
+1	قائد	قائد	PROPN	NNP	Case=Nom|Gender=Masc	2	compound	_	_
+2	عوام	عوام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nsubj	_	_
+3	کي	کي	ADP	PSP	_	2	case	_	_
+4	پاڪستان	پاڪستان	PROPN	NNP	Case=Acc|Gender=Masc	5	obl	_	_
+5	اندر	اندر	ADV	ADP	_	10	advmod	_	_
+6	ڪروڙين	ڪروڙين	NUM	NUM	_	7	nummod	_	_
+7	ماڻهن	ماڻهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	_
+8	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	7	case	_	_
+9	حمايت	حمايت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	_
+10	حاصل	حاصل	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
+11	هئي	هئي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	10	cop	_	SpaceAfter=No
+12	،	،	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 3851d
+# text = ان موقعي تي صحافين عبرت عيوضي قربان پنهور مٿان پوليس جي وحشياڻي تشدد جي سخت لفظن ۾ مذمت ڪندي وزيراعليٰ سنڌ سيد قائم علي شاهه، گهرو وزير ڊاڪٽر ذوالفقار مرزا، آءِ جي سنڌ، آر پي او، ڊي آءِ جي حيدرآباد ۽ ڊي پي او ڄامشورو کان مطالبو ڪيو.
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+2	موقعي	موقعي	NOUN	NN	Case=Acc|Number=Sing	19	obl	_	_
+3	تي	تي	ADP	PSP	Type=Loc	2	case	_	_
+4	صحافين	صحافين	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+5	عبرت	عبرت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
+6	عيوضي	عيوضي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
+7	قربان	قربان	PROPN	NNP	Case=Nom|Gender=Masc	8	compound	_	_
+8	پنهور	پنهور	PROPN	NNP	Case=Nom|Gender=Masc	19	obl	_	_
+9	مٿان	مٿان	ADV	ADP	_	8	amod	_	_
+10	پوليس	پوليس	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
+11	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	10	case	_	_
+12	وحشياڻي	وحشياڻي	ADJ	JJ	Case=Nom|Degree=Pos	13	amod	_	_
+13	تشدد	تشدد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+14	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	13	case	_	_
+15	سخت	سخت	ADJ	JJ	Case=Nom|Degree=Pos	16	amod	_	_
+16	لفظن	لفظن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obl	_	_
+17	۾	۾	ADP	PSP	Type=Loc	16	case	_	_
+18	مذمت	مذمت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	compound	_	_
+19	ڪندي	ڪندي	VERB	VM	Aspect=Imp|Voice=Act	52	advcl	_	_
+20	وزيراعليٰ	وزيراعليٰ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_
+21	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	25	nmod	_	_
+22	سيد	سيد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	compound	_	_
+23	قائم	قائم	PROPN	NNP	Case=Nom|Gender=Masc	25	compound	_	_
+24	علي	علي	PROPN	NNP	Case=Nom|Gender=Masc	25	compound	_	_
+25	شاهه	شاهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	49	conj	_	SpaceAfter=No
+26	،	،	PUNCT	PUNCT	_	28	punct	_	_
+27	گهرو	گهرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nmod	_	_
+28	وزير	وزير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	nmod	_	_
+29	ڊاڪٽر	ڊاڪٽر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	compound	_	_
+30	ذوالفقار	ذوالفقار	PROPN	NNP	Case=Nom|Gender=Masc	31	compound	_	_
+31	مرزا	مرزا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+32	،	،	PUNCT	PUNCT	_	35	punct	_	_
+33	آءِ	آءِ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	nmod	_	_
+34	جي	جي	ADP	PSP	_	35	compound	_	_
+35	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	25	conj	_	SpaceAfter=No
+36	،	،	PUNCT	PUNCT	_	35	punct	_	_
+37	آر	آر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	39	nmod	_	_
+38	پي	پي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	39	nmod	_	_
+39	او	او	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+40	،	،	PUNCT	PUNCT	_	39	punct	_	_
+41	ڊي	ڊي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	42	nmod	_	_
+42	آءِ	آءِ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	44	nmod	_	_
+43	جي	جي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	42	compound	_	_
+44	حيدرآباد	حيدرآباد	PROPN	NNP	Case=Nom|Gender=Masc	25	conj	_	_
+45	۽	۽	CCONJ	CC	_	48	cc	_	_
+46	ڊي	ڊي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	48	nmod	_	_
+47	پي	پي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	48	nmod	_	_
+48	او	او	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	49	nmod	_	_
+49	ڄامشورو	ڄامشورو	PROPN	NNP	Case=Nom|Gender=Masc	52	obl	_	_
+50	کان	کان	ADP	PSP	_	49	case	_	_
+51	مطالبو	مطالبو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	52	obj	_	_
+52	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+53	.	.	PUNCT	PUNCT	_	52	punct	_	SpaceAfter=No
+
+# sent_id = 3851e
+# text = ملڪ جي معيشت جيڪا هاڻي قرضن جي سهاري هلي پُئي،
+1	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+2	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+3	معيشت	معيشت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	acl:relcl	_	_
+4	جيڪا	جيڪا	DET	PRD	Case=Nom|Number=Sing	9	nsubj	_	_
+5	هاڻي	هاڻي	ADV	ADT	_	9	advmod	_	_
+6	قرضن	قرضن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
+7	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	6	case	_	_
+8	سهاري	سهاري	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obl	_	_
+9	هلي	هلي	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	0	root	_	_
+10	پُئي	پُئي	VERB	VM	Aspect=Perf|Number=Sing|Person=3	9	compound	_	SpaceAfter=No
+11	،	،	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 3851f
+# text = ڇا اُها ان سمورن معاملن کي منهن ڏيڻ جي قابل آهي؟
+1	ڇا	ڇا	PRON	PRWH	_	10	obl	_	_
+2	اُها	اُها	PRON	PRP	Case=Acc|Number=Sing|Person=1	10	nsubj	_	_
+3	ان	ان	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
+4	سمورن	سمورن	ADJ	JJ	Case=Acc|Number=Plur	5	amod	_	_
+5	معاملن	معاملن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	iobj	_	_
+6	کي	کي	ADP	PSP	_	5	case	_	_
+7	منهن	منهن	NOUN	NN	Case=Nom|Number=Sing	8	obj	_	_
+8	ڏيڻ	ڏيڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	10	nmod	_	_
+9	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	8	mark	_	_
+10	قابل	قابل	NOUN	NN	Case=Nom	0	root	_	_
+11	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	10	cop	_	SpaceAfter=No
+12	؟	؟	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 3851g
+# text = آخر ڪيستائين لاش ڍوئيندا رهنداسين، ۽ معيشت کي برباد ٿيندي ڏسندا رهنداسين.
+1	آخر	آخر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+2	ڪيستائين	ڪيستائين	ADV	ADT	_	4	advmod	_	_
+3	لاش	لاش	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+4	ڍوئيندا	ڍوئيندا	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart	0	root	_	_
+5	رهنداسين	رهنداسين	VERB	VMX	Aspect=Imp|Number=Plur|Person=3	4	compound	_	SpaceAfter=No
+6	،	،	PUNCT	PUNCT	_	5	punct	_	_
+7	۽	۽	CCONJ	CC	_	12	cc	_	_
+8	معيشت	معيشت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+9	کي	کي	ADP	PSP	_	8	case	_	_
+10	برباد	برباد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	_
+11	ٿيندي	ٿيندي	VERB	VM	Aspect=Imp|Voice=Act	12	xcomp	_	_
+12	ڏسندا	ڏسندا	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	4	conj	_	_
+13	رهنداسين	رهنداسين	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	12	compound	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 
 # sent_id = 3852
 # text = جنهن ۾ 35 ماڻهو مارجي ويا،
@@ -72933,45 +73119,51 @@
 8	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
 9	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 3926
-# text = ملڪ جي معيشت جيڪا هاڻي قرضن جي سهاري هلي پُئي، ڇا اُها ان سمورن معاملن کي منهن ڏيڻ جي قابل آهي؟ آخر ڪيستائين لاش ڍوئيندا رهنداسين، ۽ معيشت کي برباد ٿيندي ڏسندا رهنداسين.
-1	ملڪ	_	_	_	_	0	root	_	_
-2	جي	_	_	_	_	1	dep	_	_
-3	معيشت	_	_	_	_	1	dep	_	_
-4	جيڪا	_	_	_	_	1	dep	_	_
-5	هاڻي	_	_	_	_	1	dep	_	_
-6	قرضن	_	_	_	_	1	dep	_	_
-7	جي	_	_	_	_	1	dep	_	_
-8	سهاري	_	_	_	_	1	dep	_	_
-9	هلي	_	_	_	_	1	dep	_	_
-10	پُئي	_	_	_	_	1	dep	_	SpaceAfter=No
-11	،	_	_	_	_	1	dep	_	_
-12	ڇا	_	_	_	_	1	dep	_	_
-13	اُها	_	_	_	_	1	dep	_	_
-14	ان	_	_	_	_	1	dep	_	_
-15	سمورن	_	_	_	_	1	dep	_	_
-16	معاملن	_	_	_	_	1	dep	_	_
-17	کي	_	_	_	_	1	dep	_	_
-18	منهن	_	_	_	_	1	dep	_	_
-19	ڏيڻ	_	_	_	_	1	dep	_	_
-20	جي	_	_	_	_	1	dep	_	_
-21	قابل	_	_	_	_	1	dep	_	_
-22	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-23	؟	_	_	_	_	1	dep	_	_
-24	آخر	_	_	_	_	1	dep	_	_
-25	ڪيستائين	_	_	_	_	1	dep	_	_
-26	لاش	_	_	_	_	1	dep	_	_
-27	ڍوئيندا	_	_	_	_	1	dep	_	_
-28	رهنداسين	_	_	_	_	1	dep	_	SpaceAfter=No
-29	،	_	_	_	_	1	dep	_	_
-30	۽	_	_	_	_	1	dep	_	_
-31	معيشت	_	_	_	_	1	dep	_	_
-32	کي	_	_	_	_	1	dep	_	_
-33	برباد	_	_	_	_	1	dep	_	_
-34	ٿيندي	_	_	_	_	1	dep	_	_
-35	ڏسندا	_	_	_	_	1	dep	_	_
-36	رهنداسين	_	_	_	_	1	dep	_	SpaceAfter=No
-37	.	_	_	_	_	1	dep	_	_
+# sent_id = 3926a
+# text = ملڪ جي معيشت جيڪا هاڻي قرضن جي سهاري هلي پُئي،
+1	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+2	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+3	معيشت	معيشت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	acl:relcl	_	_
+4	جيڪا	جيڪا	DET	PRD	Case=Nom|Number=Sing	9	nsubj	_	_
+5	هاڻي	هاڻي	ADV	ADT	_	9	advmod	_	_
+6	قرضن	قرضن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
+7	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	6	case	_	_
+8	سهاري	سهاري	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obl	_	_
+9	هلي	هلي	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	0	root	_	_
+10	پُئي	پُئي	VERB	VM	Aspect=Perf|Number=Sing|Person=3	9	compound	_	SpaceAfter=No
+11	،	،	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 3926b
+# text = ڇا اُها ان سمورن معاملن کي منهن ڏيڻ جي قابل آهي؟
+1	ڇا	ڇا	PRON	PRWH	_	10	obl	_	_
+2	اُها	اُها	PRON	PRP	Case=Acc|Number=Sing|Person=1	10	nsubj	_	_
+3	ان	ان	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
+4	سمورن	سمورن	ADJ	JJ	Case=Acc|Number=Plur	5	amod	_	_
+5	معاملن	معاملن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	iobj	_	_
+6	کي	کي	ADP	PSP	_	5	case	_	_
+7	منهن	منهن	NOUN	NN	Case=Nom|Number=Sing	8	obj	_	_
+8	ڏيڻ	ڏيڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	10	nmod	_	_
+9	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	8	mark	_	_
+10	قابل	قابل	NOUN	NN	Case=Nom	0	root	_	_
+11	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	10	cop	_	SpaceAfter=No
+12	؟	؟	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 3926c
+# text = آخر ڪيستائين لاش ڍوئيندا رهنداسين، ۽ معيشت کي برباد ٿيندي ڏسندا رهنداسين.
+1	آخر	آخر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+2	ڪيستائين	ڪيستائين	ADV	ADT	_	4	advmod	_	_
+3	لاش	لاش	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+4	ڍوئيندا	ڍوئيندا	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart	0	root	_	_
+5	رهنداسين	رهنداسين	VERB	VMX	Aspect=Imp|Number=Plur|Person=3	4	compound	_	SpaceAfter=No
+6	،	،	PUNCT	PUNCT	_	5	punct	_	_
+7	۽	۽	CCONJ	CC	_	12	cc	_	_
+8	معيشت	معيشت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+9	کي	کي	ADP	PSP	_	8	case	_	_
+10	برباد	برباد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	_
+11	ٿيندي	ٿيندي	VERB	VM	Aspect=Imp|Voice=Act	12	xcomp	_	_
+12	ڏسندا	ڏسندا	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	4	conj	_	_
+13	رهنداسين	رهنداسين	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	12	compound	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 
 # sent_id = 3927
 # text = حڪومت جي لاءِ چئلينج صرف اهو نه آهي ته اُها صرف دهشتگردن خلاف عسڪري ڪارروائي ڪري.
@@ -74184,45 +74376,48 @@
 10	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
 11	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 3991
-# text = ان کي خبر آهي ته اڪثر اهڙي معلومات اهڙن ادارن يا شخصن جي سازشي ڄار پاران تيار ڪئي ويندي آهي جيڪي اسلام آباد، جي ايڇ ڪيو ۽ آءِ ايس آءِ جي آس پاس رهندا آهن.
-1	ان	_	_	_	_	0	root	_	_
-2	کي	_	_	_	_	1	dep	_	_
-3	خبر	_	_	_	_	1	dep	_	_
-4	آهي	_	_	_	_	1	dep	_	_
-5	ته	_	_	_	_	1	dep	_	_
-6	اڪثر	_	_	_	_	1	dep	_	_
-7	اهڙي	_	_	_	_	1	dep	_	_
-8	معلومات	_	_	_	_	1	dep	_	_
-9	اهڙن	_	_	_	_	1	dep	_	_
-10	ادارن	_	_	_	_	1	dep	_	_
-11	يا	_	_	_	_	1	dep	_	_
-12	شخصن	_	_	_	_	1	dep	_	_
-13	جي	_	_	_	_	1	dep	_	_
-14	سازشي	_	_	_	_	1	dep	_	_
-15	ڄار	_	_	_	_	1	dep	_	_
-16	پاران	_	_	_	_	1	dep	_	_
-17	تيار	_	_	_	_	1	dep	_	_
-18	ڪئي	_	_	_	_	1	dep	_	_
-19	ويندي	_	_	_	_	1	dep	_	_
-20	آهي	_	_	_	_	1	dep	_	_
-21	جيڪي	_	_	_	_	1	dep	_	_
-22	اسلام	_	_	_	_	1	dep	_	_
-23	آباد	_	_	_	_	1	dep	_	SpaceAfter=No
-24	،	_	_	_	_	1	dep	_	_
-25	جي	_	_	_	_	1	dep	_	_
-26	ايڇ	_	_	_	_	1	dep	_	_
-27	ڪيو	_	_	_	_	1	dep	_	_
-28	۽	_	_	_	_	1	dep	_	_
-29	آءِ	_	_	_	_	1	dep	_	_
-30	ايس	_	_	_	_	1	dep	_	_
-31	آءِ	_	_	_	_	1	dep	_	_
-32	جي	_	_	_	_	1	dep	_	_
-33	آس	_	_	_	_	1	dep	_	_
-34	پاس	_	_	_	_	1	dep	_	_
-35	رهندا	_	_	_	_	1	dep	_	_
-36	آهن	_	_	_	_	1	dep	_	SpaceAfter=No
-37	.	_	_	_	_	1	dep	_	_
+# sent_id = 3991a
+# text = ان کي خبر آهي ته اڪثر اهڙي معلومات اهڙن ادارن يا شخصن جي سازشي ڄار پاران تيار ڪئي ويندي آهي
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing	3	nsubj	_	_
+2	کي	کي	ADP	PSP	_	1	case	_	_
+3	خبر	خبر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
+5	ته	ته	SCONJ	CS	_	18	mark	_	_
+6	اڪثر	اڪثر	ADV	ADV	_	18	advmod	_	_
+7	اهڙي	اهڙي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	معلومات	معلومات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+9	اهڙن	اهڙن	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	ادارن	ادارن	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nmod	_	_
+11	يا	يا	CCONJ	CC	_	12	cc	_	_
+12	شخصن	شخصن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_
+13	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	10	case	_	_
+14	سازشي	سازشي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	15	amod	_	_
+15	ڄار	ڄار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+16	پاران	پاران	ADP	PSP	Type=Loc	15	case	_	_
+17	تيار	تيار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	_
+18	ڪئي	ڪئي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	3	ccomp	_	_
+19	ويندي	ويندي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	18	compound	_	_
+20	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	18	aux	_	SpaceAfter=No
+
+# sent_id = 3991b
+# text = جيڪي اسلام آباد، جي ايڇ ڪيو ۽ آءِ ايس آءِ جي آس پاس رهندا آهن.
+1	جيڪي	جيڪي	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+2	اسلام	اسلام	PROPN	NNP	Case=Nom|Gender=Masc	3	compound	_	_
+3	آباد	آباد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+4	،	،	PUNCT	PUNCT	_	7	punct	_	_
+5	جي	جي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	ايڇ	ايڇ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	3	conj	_	_
+8	۽	۽	CCONJ	CC	_	11	cc	_	_
+9	آءِ	آءِ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+10	ايس	ايس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+11	آءِ	آءِ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	_
+12	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	11	case	_	_
+13	آس	آس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+14	پاس	پاس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	compound	_	_
+15	رهندا	رهندا	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	_
+16	آهن	آهن	AUX	VAUX	Number=Plur|Tense=Pres	15	aux	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 
 # sent_id = 3992
 # text = ميڊيا انڊسٽريءَ وٽ اها طاقت آهي ته اُها مذاڪرن ۽ بحثن کي جنم ڏئي ۽ انهن جي اڳواڻي ڪري، صرف انهن کي رپورٽ ڪرڻ ڪافي ناهي هوندو.
@@ -75890,44 +76085,47 @@
 2	مشتاق	_	_	_	_	1	dep	_	_
 3	سومرو	_	_	_	_	1	dep	_	_
 
-# sent_id = 4064
-# text = اتر آئرلينڊ، ڏکڻ آئرلينڊ، ريپبلڪ آف آئرلينڊ، برطانيه وارو آئرلينڊ، آزاد آئرلينڊ، بيلفاسٽ ۾ دهشتگرديءَ جا واقعا، آئرلينڊ ۽ برطانيه جو پاڻ ۾ جهيڙو جيڪو صدين کان هلندڙ آهي.
-1	اتر	_	_	_	_	0	root	_	_
-2	آئرلينڊ	_	_	_	_	1	dep	_	SpaceAfter=No
-3	،	_	_	_	_	1	dep	_	_
-4	ڏکڻ	_	_	_	_	1	dep	_	_
-5	آئرلينڊ	_	_	_	_	1	dep	_	SpaceAfter=No
-6	،	_	_	_	_	1	dep	_	_
-7	ريپبلڪ	_	_	_	_	1	dep	_	_
-8	آف	_	_	_	_	1	dep	_	_
-9	آئرلينڊ	_	_	_	_	1	dep	_	SpaceAfter=No
-10	،	_	_	_	_	1	dep	_	_
-11	برطانيه	_	_	_	_	1	dep	_	_
-12	وارو	_	_	_	_	1	dep	_	_
-13	آئرلينڊ	_	_	_	_	1	dep	_	SpaceAfter=No
-14	،	_	_	_	_	1	dep	_	_
-15	آزاد	_	_	_	_	1	dep	_	_
-16	آئرلينڊ	_	_	_	_	1	dep	_	SpaceAfter=No
-17	،	_	_	_	_	1	dep	_	_
-18	بيلفاسٽ	_	_	_	_	1	dep	_	_
-19	۾	_	_	_	_	1	dep	_	_
-20	دهشتگرديءَ	_	_	_	_	1	dep	_	_
-21	جا	_	_	_	_	1	dep	_	_
-22	واقعا	_	_	_	_	1	dep	_	SpaceAfter=No
-23	،	_	_	_	_	1	dep	_	_
-24	آئرلينڊ	_	_	_	_	1	dep	_	_
-25	۽	_	_	_	_	1	dep	_	_
-26	برطانيه	_	_	_	_	1	dep	_	_
-27	جو	_	_	_	_	1	dep	_	_
-28	پاڻ	_	_	_	_	1	dep	_	_
-29	۾	_	_	_	_	1	dep	_	_
-30	جهيڙو	_	_	_	_	1	dep	_	_
-31	جيڪو	_	_	_	_	1	dep	_	_
-32	صدين	_	_	_	_	1	dep	_	_
-33	کان	_	_	_	_	1	dep	_	_
-34	هلندڙ	_	_	_	_	1	dep	_	_
-35	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-36	.	_	_	_	_	1	dep	_	_
+# sent_id = 4064a
+# text = اتر آئرلينڊ، ڏکڻ آئرلينڊ، ريپبلڪ آف آئرلينڊ، برطانيه وارو آئرلينڊ، آزاد آئرلينڊ، بيلفاسٽ ۾ دهشتگرديءَ جا واقعا،
+1	اتر	اتر	PROPN	NNP	Case=Nom|Gender=Fem	2	compound	_	_
+2	آئرلينڊ	آئرلينڊ	PROPN	NNP	Case=Nom|Gender=Masc	22	obl	_	SpaceAfter=No
+3	،	،	PUNCT	PUNCT	_	5	punct	_	_
+4	ڏکڻ	ڏکڻ	PROPN	NNP	Case=Nom|Gender=Masc	5	compound	_	_
+5	آئرلينڊ	آئرلينڊ	PROPN	NNP	Case=Nom|Gender=Masc	2	conj	_	SpaceAfter=No
+6	،	،	PUNCT	PUNCT	_	5	punct	_	_
+7	ريپبلڪ	ريپبلڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+8	آف	آف	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	آئرلينڊ	آئرلينڊ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+10	،	،	PUNCT	PUNCT	_	13	punct	_	_
+11	برطانيه	برطانيه	PROPN	NNP	Case=Nom|Gender=Masc	13	nmod	_	_
+12	وارو	وارو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	11	case	_	_
+13	آئرلينڊ	آئرلينڊ	PROPN	NNP	Case=Nom|Gender=Masc	2	conj	_	SpaceAfter=No
+14	،	،	PUNCT	PUNCT	_	13	punct	_	_
+15	آزاد	آزاد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	compound	_	_
+16	آئرلينڊ	آئرلينڊ	PROPN	NNP	Case=Nom|Gender=Masc	2	conj	_	SpaceAfter=No
+17	،	،	PUNCT	PUNCT	_	16	punct	_	_
+18	بيلفاسٽ	بيلفاسٽ	PROPN	NNP	Case=Nom|Gender=Masc	2	conj	_	_
+19	۾	۾	ADP	PSP	Type=Loc	18	case	_	_
+20	دهشتگرديءَ	دهشتگرديءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	nmod	_	_
+21	جا	جا	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	20	case	_	_
+22	واقعا	واقعا	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+23	،	،	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 4064b
+# text = آئرلينڊ ۽ برطانيه جو پاڻ ۾ جهيڙو جيڪو صدين کان هلندڙ آهي.
+1	آئرلينڊ	آئرلينڊ	PROPN	NNP	Case=Nom|Gender=Masc	5	nmod	_	_
+2	۽	۽	CCONJ	CC	_	3	cc	_	_
+3	برطانيه	برطانيه	PROPN	NNP	Case=Nom|Gender=Masc	1	conj	_	_
+4	جو	جو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+5	پاڻ	پاڻ	PRON	PRP	Case=Acc|Number=Plur|Person=3	7	nmod	_	_
+6	۾	۾	ADP	PSP	Type=Loc	5	case	_	_
+7	جهيڙو	جهيڙو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+8	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	11	dislocated	_	_
+9	صدين	صدين	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	_
+10	کان	کان	ADP	PSP	_	9	case	_	_
+11	هلندڙ	هلندڙ	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=Vnoun	0	root	_	_
+12	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
 
 # sent_id = 4065
 # text = اهي سڀ ڳجهارتون سمجهڻ جيترون ڏکيون آهن،
@@ -76406,84 +76604,101 @@
 12	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
 13	.	_	_	_	_	1	dep	_	_
 
-# sent_id = 4089
-# text = سڀ کان وڌيڪ حيرت ان تي ٿي ته ڪٿي به بس کي روڪيو نه ويو ۽ مسافرن جا پاسپورٽ ۽ ويزا ڪٿي به چيڪ نه ڪيا ويا بلڪ مون کي ته ڪابه چيڪ پوسٽ نظر نه آئي، جنهن تي ڪابه پوليس يا بارڊر سيڪيورٽي فورس موجود هجي صرف هڪ ننڍڙو بورڊ نظر آيو جنهن تي ان ضلعي جو نالو لکيل هو يعني ”ڪائونٽي ڊائون“ جيڪو ضلعو UK واري آئرلينڊ ۾ موجود آهي.
-1	سڀ	_	_	_	_	0	root	_	_
-2	کان	_	_	_	_	1	dep	_	_
-3	وڌيڪ	_	_	_	_	1	dep	_	_
-4	حيرت	_	_	_	_	1	dep	_	_
-5	ان	_	_	_	_	1	dep	_	_
-6	تي	_	_	_	_	1	dep	_	_
-7	ٿي	_	_	_	_	1	dep	_	_
-8	ته	_	_	_	_	1	dep	_	_
-9	ڪٿي	_	_	_	_	1	dep	_	_
-10	به	_	_	_	_	1	dep	_	_
-11	بس	_	_	_	_	1	dep	_	_
-12	کي	_	_	_	_	1	dep	_	_
-13	روڪيو	_	_	_	_	1	dep	_	_
-14	نه	_	_	_	_	1	dep	_	_
-15	ويو	_	_	_	_	1	dep	_	_
-16	۽	_	_	_	_	1	dep	_	_
-17	مسافرن	_	_	_	_	1	dep	_	_
-18	جا	_	_	_	_	1	dep	_	_
-19	پاسپورٽ	_	_	_	_	1	dep	_	_
-20	۽	_	_	_	_	1	dep	_	_
-21	ويزا	_	_	_	_	1	dep	_	_
-22	ڪٿي	_	_	_	_	1	dep	_	_
-23	به	_	_	_	_	1	dep	_	_
-24	چيڪ	_	_	_	_	1	dep	_	_
-25	نه	_	_	_	_	1	dep	_	_
-26	ڪيا	_	_	_	_	1	dep	_	_
-27	ويا	_	_	_	_	1	dep	_	_
-28	بلڪ	_	_	_	_	1	dep	_	_
-29	مون	_	_	_	_	1	dep	_	_
-30	کي	_	_	_	_	1	dep	_	_
-31	ته	_	_	_	_	1	dep	_	_
-32	ڪابه	_	_	_	_	1	dep	_	_
-33	چيڪ	_	_	_	_	1	dep	_	_
-34	پوسٽ	_	_	_	_	1	dep	_	_
-35	نظر	_	_	_	_	1	dep	_	_
-36	نه	_	_	_	_	1	dep	_	_
-37	آئي	_	_	_	_	1	dep	_	SpaceAfter=No
-38	،	_	_	_	_	1	dep	_	_
-39	جنهن	_	_	_	_	1	dep	_	_
-40	تي	_	_	_	_	1	dep	_	_
-41	ڪابه	_	_	_	_	1	dep	_	_
-42	پوليس	_	_	_	_	1	dep	_	_
-43	يا	_	_	_	_	1	dep	_	_
-44	بارڊر	_	_	_	_	1	dep	_	_
-45	سيڪيورٽي	_	_	_	_	1	dep	_	_
-46	فورس	_	_	_	_	1	dep	_	_
-47	موجود	_	_	_	_	1	dep	_	_
-48	هجي	_	_	_	_	1	dep	_	_
-49	صرف	_	_	_	_	1	dep	_	_
-50	هڪ	_	_	_	_	1	dep	_	_
-51	ننڍڙو	_	_	_	_	1	dep	_	_
-52	بورڊ	_	_	_	_	1	dep	_	_
-53	نظر	_	_	_	_	1	dep	_	_
-54	آيو	_	_	_	_	1	dep	_	_
-55	جنهن	_	_	_	_	1	dep	_	_
-56	تي	_	_	_	_	1	dep	_	_
-57	ان	_	_	_	_	1	dep	_	_
-58	ضلعي	_	_	_	_	1	dep	_	_
-59	جو	_	_	_	_	1	dep	_	_
-60	نالو	_	_	_	_	1	dep	_	_
-61	لکيل	_	_	_	_	1	dep	_	_
-62	هو	_	_	_	_	1	dep	_	_
-63	يعني	_	_	_	_	1	dep	_	_
-64	”	_	_	_	_	1	dep	_	SpaceAfter=No
-65	ڪائونٽي	_	_	_	_	1	dep	_	_
-66	ڊائون	_	_	_	_	1	dep	_	SpaceAfter=No
-67	“	_	_	_	_	1	dep	_	_
-68	جيڪو	_	_	_	_	1	dep	_	_
-69	ضلعو	_	_	_	_	1	dep	_	_
-70	UK	_	_	_	_	1	dep	_	_
-71	واري	_	_	_	_	1	dep	_	_
-72	آئرلينڊ	_	_	_	_	1	dep	_	_
-73	۾	_	_	_	_	1	dep	_	_
-74	موجود	_	_	_	_	1	dep	_	_
-75	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-76	.	_	_	_	_	1	dep	_	_
+# sent_id = 4089a
+# text = سڀ کان وڌيڪ حيرت ان تي ٿي ته ڪٿي به بس کي روڪيو نه ويو ۽ مسافرن جا پاسپورٽ ۽ ويزا ڪٿي به چيڪ نه ڪيا ويا
+1	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur	4	nmod	_	_
+2	کان	کان	ADP	PSP	_	1	case	_	_
+3	وڌيڪ	وڌيڪ	ADJ	JJ	Case=Nom|Degree=Pos	4	amod	_	_
+4	حيرت	حيرت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	ان	ان	DET	PRD	Case=Acc|Number=Sing	7	obl	_	_
+6	تي	تي	ADP	PSP	Type=Loc	5	case	_	_
+7	ٿي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
+8	ته	ته	SCONJ	CS	_	13	mark	_	_
+9	ڪٿي	ڪٿي	ADV	ADT	_	13	advmod	_	_
+10	به	به	PART	PART	_	9	advmod:emph	_	_
+11	بس	بس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+12	کي	کي	ADP	PSP	_	11	case	_	_
+13	روڪيو	روڪيو	VERB	VM	Aspect=Perf	7	advcl	_	_
+14	نه	نه	PART	PART	_	13	dep	_	_
+15	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	13	compound	_	_
+16	۽	۽	CCONJ	CC	_	26	cc	_	_
+17	مسافرن	مسافرن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	nmod	_	_
+18	جا	جا	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	17	case	_	_
+19	پاسپورٽ	پاسپورٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+20	۽	۽	CCONJ	CC	_	21	cc	_	_
+21	ويزا	ويزا	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	conj	_	_
+22	ڪٿي	ڪٿي	ADV	ADT	_	26	advmod	_	_
+23	به	به	PART	PART	_	22	advmod:emph	_	_
+24	چيڪ	چيڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	obj	_	_
+25	نه	نه	PART	PART	_	26	dep	_	_
+26	ڪيا	ڪيا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	13	conj	_	_
+27	ويا	ويا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	26	compound	_	SpaceAfter=No
+
+# sent_id = 4089b
+# text = بلڪ مون کي ته ڪابه چيڪ پوسٽ نظر نه آئي، جنهن تي ڪابه.
+1	بلڪ	بلڪ	ADV	ADT	_	10	advmod	_	_
+2	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	10	nsubj	_	_
+3	کي	کي	ADP	PSP	_	2	case	_	_
+4	ته	ته	PART	PART	_	2	advmod:emph	_	_
+5	ڪابه	ڪابه	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	چيڪ	چيڪ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+7	پوسٽ	پوسٽ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
+8	نظر	نظر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	_
+9	نه	نه	PART	PART	_	10	dep	_	_
+10	آئي	آئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+11	،	،	PUNCT	PUNCT	_	10	punct	_	_
+12	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	14	nmod	_	_
+13	تي	تي	ADP	PSP	Type=Loc	12	case	_	_
+14	ڪابه	ڪابه	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	dislocated	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 4089c
+# text = پوليس يا بارڊر سيڪيورٽي فورس موجود هجي
+1	پوليس	پوليس	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+2	يا	يا	CCONJ	CC	_	5	cc	_	_
+3	بارڊر	بارڊر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+4	سيڪيورٽي	سيڪيورٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
+5	فورس	فورس	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	موجود	موجود	ADV	ADV	_	0	root	_	_
+7	هجي	هجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	6	compound	_	SpaceAfter=No
+
+# sent_id = 4089d
+# text = صرف هڪ ننڍڙو بورڊ نظر آيو.
+1	صرف	صرف	ADJ	JJ	Case=Nom	4	amod	_	_
+2	هڪ	هڪ	ADJ	JJ	Case=Nom|Number=Sing	4	amod	_	_
+3	ننڍڙو	ننڍڙو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	4	amod	_	_
+4	بورڊ	بورڊ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	نظر	نظر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
+6	آيو	آيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 4089e
+# text = جنهن تي ان ضلعي جو نالو لکيل هو.
+1	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	7	obl	_	_
+2	تي	تي	ADP	PSP	Type=Loc	1	case	_	_
+3	ان	ان	DET	PRD	Case=Acc|Number=Sing	4	det	_	_
+4	ضلعي	ضلعي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+5	جو	جو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+6	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	لکيل	لکيل	VERB	VM	Aspect=Perf|VerbForm=PastPart	0	root	_	_
+8	هو	هو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	7	aux	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 4089f
+# text = يعني ”ڪائونٽي ڊائون“ جيڪو ضلعوUK واري آئرلينڊ ۾ موجود آهي.
+1	يعني	يعني	ADP	PSP	_	11	mark	_	_
+2	”	”	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+3	ڪائونٽي	ڪائونٽي	PROPN	NNP	Case=Nom|Gender=Masc	4	nmod	_	_
+4	ڊائون	ڊائون	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	dislocated	_	SpaceAfter=No
+5	“	“	PUNCT	PUNCT	_	4	punct	_	_
+6	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	ضلعوUK	ضلعوUK	PROPN	NNP	Case=Nom|Gender=Masc	9	nmod	_	_
+8	واري	واري	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	7	case	_	_
+9	آئرلينڊ	آئرلينڊ	PROPN	NNP	Case=Nom|Gender=Masc	11	nmod	_	_
+10	۾	۾	ADP	PSP	Type=Loc	9	case	_	_
+11	موجود	موجود	ADV	ADV	_	0	root	_	_
+12	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	11	cop	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
 
 # sent_id = 4090
 # text = ڪافي سال پهرين UK واري آئرلينڊ جي شهر اوما ۾ آءِ آر اي (IRA) آئرش ريپبلڪن آرميءَ وارن بم جو هڪ زبردست ڌماڪو ڪيو هو،
@@ -78515,62 +78730,74 @@
 13	رهيا	_	_	_	_	1	dep	_	SpaceAfter=No
 14	.	_	_	_	_	1	dep	_	_
 
-# sent_id = 4178
-# text = اسان نئين سال جي شروعات ڀل اُميدن سان ڪريون جيستائين انهن اميدن جي درست نمائندگي ڪندڙ ڪو هيرو نه آهي.
-1	اسان	_	_	_	_	0	root	_	_
-2	نئين	_	_	_	_	1	dep	_	_
-3	سال	_	_	_	_	1	dep	_	_
-4	جي	_	_	_	_	1	dep	_	_
-5	شروعات	_	_	_	_	1	dep	_	_
-6	ڀل	_	_	_	_	1	dep	_	_
-7	اُميدن	_	_	_	_	1	dep	_	_
-8	سان	_	_	_	_	1	dep	_	_
-9	ڪريون	_	_	_	_	1	dep	_	_
-10	جيستائين	_	_	_	_	1	dep	_	_
-11	انهن	_	_	_	_	1	dep	_	_
-12	اميدن	_	_	_	_	1	dep	_	_
-13	جي	_	_	_	_	1	dep	_	_
-14	درست	_	_	_	_	1	dep	_	_
-15	نمائندگي	_	_	_	_	1	dep	_	_
-16	ڪندڙ	_	_	_	_	1	dep	_	_
-17	ڪو	_	_	_	_	1	dep	_	_
-18	هيرو	_	_	_	_	1	dep	_	_
-19	نه	_	_	_	_	1	dep	_	_
-20	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-21	.	_	_	_	_	1	dep	_	_
+# sent_id = 4178a
+# text = اسان نئين سال جي شروعات ڀل اُميدن سان ڪريون.
+1	اسان	اسان	PRON	PRP	Case=Acc|Number=Plur|Person=1	9	dislocated	_	_
+2	نئين	نئين	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	سال	سال	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+4	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
+5	شروعات	شروعات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	ڀل	ڀل	ADV	ADV	_	9	advmod	_	_
+7	اُميدن	اُميدن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_
+8	سان	سان	ADP	PSP	_	7	case	_	_
+9	ڪريون	ڪريون	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 
-# sent_id = 4179
-# text = دنيا هڪ اهڙي ماڳ ڏانهن وڌي رهي آهي جنهن ماڳ جي اڳواڻي اهي لالچي ماڻهو ڪري رهيا آهن جن پنهنجن بدصورت چهرن مٿان مهذب پڻي جا ماسڪ پاتا آهن.
-1	دنيا	_	_	_	_	0	root	_	_
-2	هڪ	_	_	_	_	1	dep	_	_
-3	اهڙي	_	_	_	_	1	dep	_	_
-4	ماڳ	_	_	_	_	1	dep	_	_
-5	ڏانهن	_	_	_	_	1	dep	_	_
-6	وڌي	_	_	_	_	1	dep	_	_
-7	رهي	_	_	_	_	1	dep	_	_
-8	آهي	_	_	_	_	1	dep	_	_
-9	جنهن	_	_	_	_	1	dep	_	_
-10	ماڳ	_	_	_	_	1	dep	_	_
-11	جي	_	_	_	_	1	dep	_	_
-12	اڳواڻي	_	_	_	_	1	dep	_	_
-13	اهي	_	_	_	_	1	dep	_	_
-14	لالچي	_	_	_	_	1	dep	_	_
-15	ماڻهو	_	_	_	_	1	dep	_	_
-16	ڪري	_	_	_	_	1	dep	_	_
-17	رهيا	_	_	_	_	1	dep	_	_
-18	آهن	_	_	_	_	1	dep	_	_
-19	جن	_	_	_	_	1	dep	_	_
-20	پنهنجن	_	_	_	_	1	dep	_	_
-21	بدصورت	_	_	_	_	1	dep	_	_
-22	چهرن	_	_	_	_	1	dep	_	_
-23	مٿان	_	_	_	_	1	dep	_	_
-24	مهذب	_	_	_	_	1	dep	_	_
-25	پڻي	_	_	_	_	1	dep	_	_
-26	جا	_	_	_	_	1	dep	_	_
-27	ماسڪ	_	_	_	_	1	dep	_	_
-28	پاتا	_	_	_	_	1	dep	_	_
-29	آهن	_	_	_	_	1	dep	_	SpaceAfter=No
-30	.	_	_	_	_	1	dep	_	_
+# sent_id = 4178b
+# text = جيستائين انهن اميدن جي درست نمائندگي ڪندڙ ڪو هيرو نه آهي.
+1	جيستائين	جيستائين	ADV	ADT	_	9	advmod	_	_
+2	انهن	انهن	DET	PRD	Case=Acc|Number=Plur	3	det	_	_
+3	اميدن	اميدن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
+4	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
+5	درست	درست	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
+6	نمائندگي	نمائندگي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	_
+7	ڪندڙ	ڪندڙ	VERB	VM	Aspect=Imp	9	acl	_	_
+8	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	9	det	_	_
+9	هيرو	هيرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+10	نه	نه	PART	PART	_	9	advmod	_	_
+11	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	9	cop	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 4179a
+# text = دنيا هڪ اهڙي ماڳ ڏانهن وڌي رهي آهي.
+1	دنيا	دنيا	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	هڪ	هڪ	ADJ	JJ	Case=Nom|Number=Sing	4	amod	_	_
+3	اهڙي	اهڙي	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	ماڳ	ماڳ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+5	ڏانهن	ڏانهن	ADV	ADP	_	4	case	_	_
+6	وڌي	وڌي	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+7	رهي	رهي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	6	compound	_	_
+8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 4179b
+# text = جنهن ماڳ جي اڳواڻي اهي لالچي ماڻهو ڪري رهيا آهن.
+1	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	2	nmod	_	_
+2	ماڳ	ماڳ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+3	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
+4	اڳواڻي	اڳواڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	dislocated	_	_
+5	اهي	اهي	DET	PRD	Case=Nom|Number=Plur	7	det	_	_
+6	لالچي	لالچي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	ڪري	ڪري	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+9	رهيا	رهيا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	8	compound	_	_
+10	آهن	آهن	AUX	VAUX	Number=Plur|Tense=Pres	8	aux	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 4179c
+# text = جن پنهنجن بدصورت چهرن مٿان مهذب پڻي جا ماسڪ پاتا آهن.
+1	جن	جن	PRON	PRP	Case=Acc|Number=Plur|Person=3	10	nsubj	_	_
+2	پنهنجن	پنهنجن	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	4	nmod	_	_
+3	بدصورت	بدصورت	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
+4	چهرن	چهرن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+5	مٿان	مٿان	ADV	ADP	_	10	advmod	_	_
+6	مهذب	مهذب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	پڻي	پڻي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+8	جا	جا	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	7	case	_	_
+9	ماسڪ	ماسڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	obj	_	_
+10	پاتا	پاتا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Voice=Act	0	root	_	_
+11	آهن	آهن	AUX	VAUX	Number=Plur|Tense=Pres	10	aux	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 
 # sent_id = 4180
 # text = جنهن جو پهريون مثال عالمي سياست تي ويٺل خوفناڪ چهرن جو آهي.
@@ -81865,47 +82092,50 @@
 5	هجي	_	_	_	_	1	dep	_	SpaceAfter=No
 6	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 4368
-# text = انهن لاءِ به جيڪي اٽي لٽي ۽ اجهي جا واعدا ڪري عوام جي ووٽن جي ونجهه سان جمهوريت جي ٻيڙي پار لڳائڻ جو وچن ڪري آيا هجن ۽ انهن لاءِ به جن کي منزل نه رڳو رهنما گهرجي.
-1	انهن	_	_	_	_	0	root	_	_
-2	لاءِ	_	_	_	_	1	dep	_	_
-3	به	_	_	_	_	1	dep	_	_
-4	جيڪي	_	_	_	_	1	dep	_	_
-5	اٽي	_	_	_	_	1	dep	_	_
-6	لٽي	_	_	_	_	1	dep	_	_
-7	۽	_	_	_	_	1	dep	_	_
-8	اجهي	_	_	_	_	1	dep	_	_
-9	جا	_	_	_	_	1	dep	_	_
-10	واعدا	_	_	_	_	1	dep	_	_
-11	ڪري	_	_	_	_	1	dep	_	_
-12	عوام	_	_	_	_	1	dep	_	_
-13	جي	_	_	_	_	1	dep	_	_
-14	ووٽن	_	_	_	_	1	dep	_	_
-15	جي	_	_	_	_	1	dep	_	_
-16	ونجهه	_	_	_	_	1	dep	_	_
-17	سان	_	_	_	_	1	dep	_	_
-18	جمهوريت	_	_	_	_	1	dep	_	_
-19	جي	_	_	_	_	1	dep	_	_
-20	ٻيڙي	_	_	_	_	1	dep	_	_
-21	پار	_	_	_	_	1	dep	_	_
-22	لڳائڻ	_	_	_	_	1	dep	_	_
-23	جو	_	_	_	_	1	dep	_	_
-24	وچن	_	_	_	_	1	dep	_	_
-25	ڪري	_	_	_	_	1	dep	_	_
-26	آيا	_	_	_	_	1	dep	_	_
-27	هجن	_	_	_	_	1	dep	_	_
-28	۽	_	_	_	_	1	dep	_	_
-29	انهن	_	_	_	_	1	dep	_	_
-30	لاءِ	_	_	_	_	1	dep	_	_
-31	به	_	_	_	_	1	dep	_	_
-32	جن	_	_	_	_	1	dep	_	_
-33	کي	_	_	_	_	1	dep	_	_
-34	منزل	_	_	_	_	1	dep	_	_
-35	نه	_	_	_	_	1	dep	_	_
-36	رڳو	_	_	_	_	1	dep	_	_
-37	رهنما	_	_	_	_	1	dep	_	_
-38	گهرجي	_	_	_	_	1	dep	_	SpaceAfter=No
-39	.	_	_	_	_	1	dep	_	_
+# sent_id = 4368a
+# text = انهن لاءِ به جيڪي اٽي لٽي ۽ اجهي جا واعدا ڪري عوام جي ووٽن جي ونجهه سان جمهوريت جي ٻيڙي پار لڳائڻ جو وچن ڪري آيا هجن
+1	انهن	انهن	DET	PRD	Case=Acc|Number=Plur	11	obl	_	_
+2	لاءِ	لاءِ	ADP	PSP	_	1	case	_	_
+3	به	به	PART	PART	_	1	advmod:emph	_	_
+4	جيڪي	جيڪي	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+5	اٽي	اٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
+6	لٽي	لٽي	VERB	VM	Aspect=Perf|VerbForm=Conv	10	nmod	_	_
+7	۽	۽	CCONJ	CC	_	8	cc	_	_
+8	اجهي	اجهي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_
+9	جا	جا	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	6	case	_	_
+10	واعدا	واعدا	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	obj	_	_
+11	ڪري	ڪري	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	25	advcl	_	_
+12	عوام	عوام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
+13	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	12	case	_	_
+14	ووٽن	ووٽن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	nmod	_	_
+15	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	14	case	_	_
+16	ونجهه	ونجهه	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
+17	سان	سان	ADP	PSP	_	16	case	_	_
+18	جمهوريت	جمهوريت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	_
+19	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	18	case	_	_
+20	ٻيڙي	ٻيڙي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	obj	_	_
+21	پار	پار	VERB	VM	Aspect=Imp	22	compound	_	_
+22	لڳائڻ	لڳائڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	24	nmod	_	_
+23	جو	جو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	22	mark	_	_
+24	وچن	وچن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	obj	_	_
+25	ڪري	ڪري	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+26	آيا	آيا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	25	compound	_	_
+27	هجن	هجن	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	25	compound	_	SpaceAfter=No
+
+# sent_id = 4368b
+# text = ۽ انهن لاءِ به جن کي منزل نه رڳو رهنما گهرجي.
+1	۽	۽	CCONJ	CC	_	11	cc	_	_
+2	انهن	انهن	DET	PRD	Case=Acc|Number=Plur	11	obl	_	_
+3	لاءِ	لاءِ	ADP	PSP	_	2	case	_	_
+4	به	به	PART	PART	_	2	advmod:emph	_	_
+5	جن	جن	PRON	PRP	Case=Acc|Number=Plur|Person=3	11	iobj	_	_
+6	کي	کي	ADP	PSP	_	5	case	_	_
+7	منزل	منزل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+8	نه	نه	PART	PART	_	11	advmod	_	_
+9	رڳو	رڳو	ADV	ADV	_	10	amod	_	_
+10	رهنما	رهنما	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
+11	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
 
 # sent_id = 4369
 # text = انهن لاءِ به اقتدار ئي سڀ ڪجهه آهي،
@@ -82509,47 +82739,50 @@
 26	وڃجي	_	_	_	_	1	dep	_	SpaceAfter=No
 27	.	_	_	_	_	1	dep	_	_
 
-# sent_id = 4399
-# text = انصاف جا رکوالا پاڻ جيڪو ڪن اهو حق ۽ سچ، ساڳئي ڪار ڪي ٻيا ڪن ته انصاف جو ڏنڊو بلند ٿيو ايڏي ته زور سان اچي مٿي تي لڳي جو ساهه کڻڻ جي به ڀيڻي نه رهي.
-1	انصاف	_	_	_	_	0	root	_	_
-2	جا	_	_	_	_	1	dep	_	_
-3	رکوالا	_	_	_	_	1	dep	_	_
-4	پاڻ	_	_	_	_	1	dep	_	_
-5	جيڪو	_	_	_	_	1	dep	_	_
-6	ڪن	_	_	_	_	1	dep	_	_
-7	اهو	_	_	_	_	1	dep	_	_
-8	حق	_	_	_	_	1	dep	_	_
-9	۽	_	_	_	_	1	dep	_	_
-10	سچ	_	_	_	_	1	dep	_	SpaceAfter=No
-11	،	_	_	_	_	1	dep	_	_
-12	ساڳئي	_	_	_	_	1	dep	_	_
-13	ڪار	_	_	_	_	1	dep	_	_
-14	ڪي	_	_	_	_	1	dep	_	_
-15	ٻيا	_	_	_	_	1	dep	_	_
-16	ڪن	_	_	_	_	1	dep	_	_
-17	ته	_	_	_	_	1	dep	_	_
-18	انصاف	_	_	_	_	1	dep	_	_
-19	جو	_	_	_	_	1	dep	_	_
-20	ڏنڊو	_	_	_	_	1	dep	_	_
-21	بلند	_	_	_	_	1	dep	_	_
-22	ٿيو	_	_	_	_	1	dep	_	_
-23	ايڏي	_	_	_	_	1	dep	_	_
-24	ته	_	_	_	_	1	dep	_	_
-25	زور	_	_	_	_	1	dep	_	_
-26	سان	_	_	_	_	1	dep	_	_
-27	اچي	_	_	_	_	1	dep	_	_
-28	مٿي	_	_	_	_	1	dep	_	_
-29	تي	_	_	_	_	1	dep	_	_
-30	لڳي	_	_	_	_	1	dep	_	_
-31	جو	_	_	_	_	1	dep	_	_
-32	ساهه	_	_	_	_	1	dep	_	_
-33	کڻڻ	_	_	_	_	1	dep	_	_
-34	جي	_	_	_	_	1	dep	_	_
-35	به	_	_	_	_	1	dep	_	_
-36	ڀيڻي	_	_	_	_	1	dep	_	_
-37	نه	_	_	_	_	1	dep	_	_
-38	رهي	_	_	_	_	1	dep	_	SpaceAfter=No
-39	.	_	_	_	_	1	dep	_	_
+# sent_id = 4399a
+# text = انصاف جا رکوالا پاڻ جيڪو ڪن اهو حق ۽ سچ،
+1	انصاف	انصاف	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+2	جا	جا	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	1	case	_	_
+3	رکوالا	رکوالا	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	پاڻ	پاڻ	PRON	PRP	Case=Acc	3	nmod	_	_
+5	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
+6	ڪن	ڪن	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
+7	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
+8	حق	حق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	acl:relcl	_	_
+9	۽	۽	CCONJ	CC	_	10	cc	_	_
+10	سچ	سچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	،	،	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 4399b
+# text = ساڳئي ڪار ڪي ٻيا ڪن ته انصاف جو ڏنڊو بلند ٿيو ايڏي ته زور سان اچي مٿي تي لڳي جو ساهه کڻڻ جي به ڀيڻي نه رهي.
+1	ساڳئي	ساڳئي	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	ڪار	ڪار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ڪي	ڪي	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nmod	_	_
+4	ٻيا	ٻيا	ADJ	JJ	Case=Nom|Gender=Masc|Number=Plur	5	compound	_	_
+5	ڪن	ڪن	VERB	VM	Aspect=Imp|Number=Plur|Person=3	11	ccomp	_	_
+6	ته	ته	SCONJ	CS	_	5	mark	_	_
+7	انصاف	انصاف	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+8	جو	جو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	7	case	_	_
+9	ڏنڊو	ڏنڊو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	بلند	بلند	ADJ	JJ	Case=Nom|Degree=Pos	11	compound	_	_
+11	ٿيو	ٿيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	19	advcl	_	_
+12	ايڏي	ايڏي	VERB	VM	Aspect=Imp|Number=Sing	14	amod	_	_
+13	ته	ته	PART	PART	_	12	advmod:emph	_	_
+14	زور	زور	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+15	سان	سان	ADP	PSP	_	14	case	_	_
+16	اچي	اچي	VERB	VM	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
+17	مٿي	مٿي	ADV	ADP	_	19	obl	_	_
+18	تي	تي	ADP	PSP	Type=Loc	17	case	_	_
+19	لڳي	لڳي	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
+20	جو	جو	ADP	PSP	_	19	mark	_	_
+21	ساهه	ساهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
+22	کڻڻ	کڻڻ	VERB	VM	VerbForm=Inf	25	nmod	_	_
+23	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	22	mark	_	_
+24	به	به	PART	PART	_	22	advmod:emph	_	_
+25	ڀيڻي	ڀيڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	xcomp	_	_
+26	نه	نه	PART	PART	_	27	advmod	_	_
+27	رهي	رهي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	19	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
 
 # sent_id = 4400
 # text = ان تي اهو به چيو وڃي ٿو ته جيڪڏهن ڪڇندين ته ڪافر ٿيندين،
@@ -83227,31 +83460,35 @@
 25	رکو	_	_	_	_	1	dep	_	SpaceAfter=No
 26	.	_	_	_	_	1	dep	_	_
 
-# sent_id = 4434
-# text = ڪرپشن جا الزام رڳو آصف زرداري تي ناهن سمورا منهنجي سر جا سائين ساڳي ”راڳ روپيو“ سدائين آلاپيندا رهيا آهن.
-1	ڪرپشن	_	_	_	_	0	root	_	_
-2	جا	_	_	_	_	1	dep	_	_
-3	الزام	_	_	_	_	1	dep	_	_
-4	رڳو	_	_	_	_	1	dep	_	_
-5	آصف	_	_	_	_	1	dep	_	_
-6	زرداري	_	_	_	_	1	dep	_	_
-7	تي	_	_	_	_	1	dep	_	_
-8	ناهن	_	_	_	_	1	dep	_	_
-9	سمورا	_	_	_	_	1	dep	_	_
-10	منهنجي	_	_	_	_	1	dep	_	_
-11	سر	_	_	_	_	1	dep	_	_
-12	جا	_	_	_	_	1	dep	_	_
-13	سائين	_	_	_	_	1	dep	_	_
-14	ساڳي	_	_	_	_	1	dep	_	_
-15	”	_	_	_	_	1	dep	_	SpaceAfter=No
-16	راڳ	_	_	_	_	1	dep	_	_
-17	روپيو	_	_	_	_	1	dep	_	SpaceAfter=No
-18	“	_	_	_	_	1	dep	_	_
-19	سدائين	_	_	_	_	1	dep	_	_
-20	آلاپيندا	_	_	_	_	1	dep	_	_
-21	رهيا	_	_	_	_	1	dep	_	_
-22	آهن	_	_	_	_	1	dep	_	SpaceAfter=No
-23	.	_	_	_	_	1	dep	_	_
+# sent_id = 4434a
+# text = ڪرپشن جا الزام رڳو آصف زرداري تي ناهن.
+1	ڪرپشن	ڪرپشن	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
+2	جا	جا	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	1	case	_	_
+3	الزام	الزام	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	رڳو	رڳو	ADJ	JJ	Case=Nom	6	amod	_	_
+5	آصف	آصف	PROPN	NNP	Case=Nom|Gender=Masc	6	compound	_	_
+6	زرداري	زرداري	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+7	تي	تي	ADP	PSP	Type=Loc	6	case	_	_
+8	ناهن	ناهن	AUX	VAUX	Number=Plur|Tense=Pres	6	cop	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 4434b
+# text = سمورا منهنجي سر جا سائين ساڳي ”راڳ روپيو“ سدائين آلاپيندا رهيا آهن.
+1	سمورا	سمورا	ADJ	JJ	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+2	منهنجي	منهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	3	nmod	_	_
+3	سر	سر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+4	جا	جا	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	3	case	_	_
+5	سائين	سائين	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+6	ساڳي	ساڳي	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
+7	”	”	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+8	راڳ	راڳ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	روپيو	روپيو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+10	“	“	PUNCT	PUNCT	_	9	punct	_	_
+11	سدائين	سدائين	ADV	ADP	_	12	advmod	_	_
+12	آلاپيندا	آلاپيندا	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart	0	root	_	_
+13	رهيا	رهيا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	12	compound	_	_
+14	آهن	آهن	AUX	VAUX	Number=Plur|Tense=Pres	12	aux	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 
 # sent_id = 4435
 # text = انهن تي الزام ثابت پڻ ٿيا،
@@ -83361,35 +83598,43 @@
 11	گهرجي	_	_	_	_	1	dep	_	SpaceAfter=No
 12	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 4443
-# text = جن تي ماضي ۾ الزام لڳا انهن کي ڀلي اوهين عدالتن مان آجو ڪرايو پر جيڪي هن وقت هٿ ٽنگيو بيٺا آهن انهن کي ته روڪيو.
-1	جن	_	_	_	_	0	root	_	_
-2	تي	_	_	_	_	1	dep	_	_
-3	ماضي	_	_	_	_	1	dep	_	_
-4	۾	_	_	_	_	1	dep	_	_
-5	الزام	_	_	_	_	1	dep	_	_
-6	لڳا	_	_	_	_	1	dep	_	_
-7	انهن	_	_	_	_	1	dep	_	_
-8	کي	_	_	_	_	1	dep	_	_
-9	ڀلي	_	_	_	_	1	dep	_	_
-10	اوهين	_	_	_	_	1	dep	_	_
-11	عدالتن	_	_	_	_	1	dep	_	_
-12	مان	_	_	_	_	1	dep	_	_
-13	آجو	_	_	_	_	1	dep	_	_
-14	ڪرايو	_	_	_	_	1	dep	_	_
-15	پر	_	_	_	_	1	dep	_	_
-16	جيڪي	_	_	_	_	1	dep	_	_
-17	هن	_	_	_	_	1	dep	_	_
-18	وقت	_	_	_	_	1	dep	_	_
-19	هٿ	_	_	_	_	1	dep	_	_
-20	ٽنگيو	_	_	_	_	1	dep	_	_
-21	بيٺا	_	_	_	_	1	dep	_	_
-22	آهن	_	_	_	_	1	dep	_	_
-23	انهن	_	_	_	_	1	dep	_	_
-24	کي	_	_	_	_	1	dep	_	_
-25	ته	_	_	_	_	1	dep	_	_
-26	روڪيو	_	_	_	_	1	dep	_	SpaceAfter=No
-27	.	_	_	_	_	1	dep	_	_
+# sent_id = 4443a
+# text = جن تي ماضي ۾ الزام لڳا.
+1	جن	جن	PRON	PRP	Case=Acc|Number=Plur|Person=3	6	obl	_	_
+2	تي	تي	ADP	PSP	Type=Loc	1	case	_	_
+3	ماضي	ماضي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+4	۾	۾	ADP	PSP	Type=Loc	3	case	_	_
+5	الزام	الزام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	لڳا	لڳا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 4443b
+# text = انهن کي ڀلي اوهين عدالتن مان آجو ڪرايو پر جيڪي هن وقت هٿ ٽنگيو بيٺا آهن.
+1	انهن	انهن	DET	PRD	Case=Acc|Number=Plur	8	obj	_	_
+2	کي	کي	ADP	PSP	_	1	case	_	_
+3	ڀلي	ڀلي	ADV	ADA	_	8	advmod	_	_
+4	اوهين	اوهين	ADV	ADT	_	8	nsubj	_	_
+5	عدالتن	عدالتن	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_
+6	مان	مان	ADP	PSP	Type=Loc	5	case	_	_
+7	آجو	آجو	ADJ	JJ	Case=Nom|Number=Sing	8	xcomp	_	_
+8	ڪرايو	ڪرايو	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
+9	پر	پر	SCONJ	CS	_	8	mark	_	_
+10	جيڪي	جيڪي	PRON	PRP	Case=Nom|Number=Plur|Person=2	14	nsubj	_	_
+11	هن	هن	DET	PRD	Case=Acc|Number=Sing	12	det	_	_
+12	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
+13	هٿ	هٿ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	_
+14	ٽنگيو	ٽنگيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Voice=Act	8	ccomp	_	_
+15	بيٺا	بيٺا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	14	compound	_	_
+16	آهن	آهن	AUX	VAUX	Number=Plur|Tense=Pres	14	cop	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 4443c
+# text = انهن کي ته روڪيو.
+1	انهن	انهن	DET	PRD	Case=Acc|Number=Plur	4	obj	_	_
+2	کي	کي	ADP	PSP	_	1	case	_	_
+3	ته	ته	PART	PART	_	1	advmod:emph	_	_
+4	روڪيو	روڪيو	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
 
 # sent_id = 4444
 # text = اڳ اوهان کي شهيدن مهابي ووٽ مليا هاڻي اوهان جي ڪم کي ڏسي ماڻهن تير تي ٺپو هڻندا.
@@ -83923,40 +84168,43 @@
 15	پي	_	_	_	_	1	dep	_	SpaceAfter=No
 16	.	_	_	_	_	1	dep	_	_
 
-# sent_id = 4471
-# text = جيڪڏهن ان وقت پ پ جي قيادت سياسي اٻهرائپ کان ڪم وٺي الهه توهار ڪري ها ته گهڻو ڪجهه ٿئي ها ٻيو نه به پر رت جون نديون ضرور وهن ها.
-1	جيڪڏهن	_	_	_	_	0	root	_	_
-2	ان	_	_	_	_	1	dep	_	_
-3	وقت	_	_	_	_	1	dep	_	_
-4	پ	_	_	_	_	1	dep	_	_
-5	پ	_	_	_	_	1	dep	_	_
-6	جي	_	_	_	_	1	dep	_	_
-7	قيادت	_	_	_	_	1	dep	_	_
-8	سياسي	_	_	_	_	1	dep	_	_
-9	اٻهرائپ	_	_	_	_	1	dep	_	_
-10	کان	_	_	_	_	1	dep	_	_
-11	ڪم	_	_	_	_	1	dep	_	_
-12	وٺي	_	_	_	_	1	dep	_	_
-13	الهه	_	_	_	_	1	dep	_	_
-14	توهار	_	_	_	_	1	dep	_	_
-15	ڪري	_	_	_	_	1	dep	_	_
-16	ها	_	_	_	_	1	dep	_	_
-17	ته	_	_	_	_	1	dep	_	_
-18	گهڻو	_	_	_	_	1	dep	_	_
-19	ڪجهه	_	_	_	_	1	dep	_	_
-20	ٿئي	_	_	_	_	1	dep	_	_
-21	ها	_	_	_	_	1	dep	_	_
-22	ٻيو	_	_	_	_	1	dep	_	_
-23	نه	_	_	_	_	1	dep	_	_
-24	به	_	_	_	_	1	dep	_	_
-25	پر	_	_	_	_	1	dep	_	_
-26	رت	_	_	_	_	1	dep	_	_
-27	جون	_	_	_	_	1	dep	_	_
-28	نديون	_	_	_	_	1	dep	_	_
-29	ضرور	_	_	_	_	1	dep	_	_
-30	وهن	_	_	_	_	1	dep	_	_
-31	ها	_	_	_	_	1	dep	_	SpaceAfter=No
-32	.	_	_	_	_	1	dep	_	_
+# sent_id = 4471a
+# text = جيڪڏهن ان وقت پ پ جي قيادت سياسي اٻهرائپ کان ڪم وٺي الهه توهار ڪري ها ته گهڻو ڪجهه ٿئي ها
+1	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	15	mark	_	_
+2	ان	ان	DET	PRD	Case=Acc|Number=Sing	3	det	_	_
+3	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	_
+4	پ	پ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
+5	پ	پ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+6	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	5	case	_	_
+7	قيادت	قيادت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+8	سياسي	سياسي	ADJ	JJ	Case=Nom|Degree=Pos	9	amod	_	_
+9	اٻهرائپ	اٻهرائپ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+10	کان	کان	ADP	PSP	_	9	case	_	_
+11	ڪم	ڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	compound	_	_
+12	وٺي	وٺي	VERB	VM	Aspect=Perf|VerbForm=Conv	15	advcl	_	_
+13	الهه	الهه	VERB	VM	Aspect=Perf|VerbForm=Conv	15	obj	_	_
+14	توهار	توهار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	compound	_	_
+15	ڪري	ڪري	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
+16	ها	ها	AUX	VAUX	Number=Sing|Tense=Past	15	aux	_	_
+17	ته	ته	SCONJ	CS	_	20	mark	_	_
+18	گهڻو	گهڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	ڪجهه	ڪجهه	ADJ	JJ	Case=Nom|Degree=Pos	20	compound	_	_
+20	ٿئي	ٿئي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	15	ccomp	_	_
+21	ها	ها	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	20	aux	_	SpaceAfter=No
+
+# sent_id = 4471b
+# text = ٻيو نه به پر رت جون نديون ضرور وهن ها.
+1	ٻيو	ٻيو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	نه	نه	PART	PART	PartType=Emp	1	dep	_	_
+3	به	به	PART	PART	_	2	flat	_	_
+4	پر	پر	SCONJ	CS	_	9	mark	_	_
+5	رت	رت	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+6	جون	جون	ADP	PSP	Case=Nom|Gender=Fem|Number=Plur|Type=Gen	5	case	_	_
+7	نديون	نديون	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+8	ضرور	ضرور	ADV	ADP	_	9	advmod	_	_
+9	وهن	وهن	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
+10	ها	ها	AUX	VAUX	Number=Plur|Tense=Past	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 
 # sent_id = 4472
 # text = آصف زرداري جو ان وقت پاڪستان کپي چوڻ 1971ع واري ”اِڌر تم، اُڌر هم“ جي بلڪل الٽ هو ۽ خيرن سان پيارو پاڪستان سلامت آهي.
