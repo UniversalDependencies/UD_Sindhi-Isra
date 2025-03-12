@@ -31,13 +31,13 @@
 1	نوجوان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 2	!	_	PUNCT	PUNCT	_	1	punct	_	_
 3	ڇا	_	PRON	PRWH	_	6	obl	_	_
-4	آءٌ	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
+4	آءٌ	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nmod	_	_
 5	توسان	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	obl	_	_
 6	هلي	_	VERB	VM	Aspect=Imp|Number=Sing	0	root	_	_
 7	سگهان	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	6	compound	_	_
 8	ٿي	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
 9	؟	_	PUNCT	PUNCT	_	11	punct	_	_
-10	نوجوان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	نوجوان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
 11	وراڻيو	_	VERB	VM	Aspect=Perf|Number=Sing	6	conj	_	_
 12	ڇو	_	PRON	PRWH	_	20	obl	_	_
 13	نه	_	PART	PART	_	12	dep	_	SpaceAfter=No
@@ -518,7 +518,7 @@
 7	باهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
 8	،	_	PUNCT	PUNCT	_	10	punct	_	_
 9	الهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
-10	تلهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	تلهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
 11	سڙي	_	VERB	VM	Aspect=Imp	37	advcl	_	_
 12	رک	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	_
 13	گجو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
@@ -575,7 +575,7 @@
 22	لکين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
 23	رپين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	nmod	_	_
 24	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	23	case	_	_
-25	سامان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+25	سامان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	nmod	_	_
 26	سڙي	_	VERB	VM	Aspect=Imp	0	root	_	_
 27	رک	_	VERB	VM	Aspect=Imp	26	compound	_	_
 28	ٿي	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	26	aux	_	_
@@ -648,7 +648,7 @@
 14	ناظم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
 15	ادا	_	PROPN	NNP	Case=Nom|Gender=Masc	17	compound	_	_
 16	محمد	_	PROPN	NNP	Case=Nom|Gender=Masc	17	compound	_	_
-17	ميمڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+17	ميمڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_
 18	پهچي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	27	advcl	_	_
 19	باهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nmod	_	_
 20	متاثرن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_
@@ -839,7 +839,7 @@
 10	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	9	aux	_	_
 11	ته	_	SCONJ	CS	_	23	mark	_	_
 12	جوابدار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
-13	الياس	_	PROPN	NNP	Case=Nom|Gender=Masc	14	nsubj	_	_
+13	الياس	_	PROPN	NNP	Case=Nom|Gender=Masc	14	nmod	_	_
 14	هليو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	23	advcl	_	_
 15	اي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_
 16	ميل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	obl	_	_
@@ -877,7 +877,7 @@
 
 # sent_id = 5309
 # text = انتظام سخت ڪراچي/حيدرآباد/سکر/ڄامشورو (نمائندن وٽان) ميڊيڪل ۾ داخلا لاءِ سنڌ ۾ پري انٽري ٽيسٽ اڄ هڪ ئي وقت ورتي ويندي،
-1	انتظام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+1	انتظام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nmod	_	_
 2	سخت	_	ADJ	JJ	Case=Nom|Degree=Pos	3	amod	_	_
 3	ڪراچي	_	PROPN	NNP	Case=Nom|Gender=Masc	27	obl	_	SpaceAfter=No
 4	/	_	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
@@ -1042,7 +1042,7 @@
 8	جوابدارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	nmod	_	_
 9	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	8	case	_	_
 10	طبي	_	ADJ	JJ	Case=Nom|Degree=Pos	11	amod	_	_
-11	چڪاس	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	41	nsubj	_	_
+11	چڪاس	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	41	nmod	_	_
 12	سجاول	_	PROPN	NNP	Case=Nom|Gender=Masc	19	nmod	_	SpaceAfter=No
 13	(	_	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 14	ن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
@@ -1105,7 +1105,7 @@
 4	جوابدار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 5	محمد	_	PROPN	NNP	Case=Nom|Gender=Masc	6	compound	_	_
 6	شاهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-7	پاڻ	_	PRON	PRP	Case=Acc	12	nsubj	_	_
+7	پاڻ	_	PRON	PRP	Case=Acc	12	nmod	_	_
 8	به	_	PART	PART	_	7	advmod:emph	_	_
 9	ڏوهه	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
 10	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	9	case	_	_
@@ -1282,7 +1282,7 @@
 1	هن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	2	nsubj	_	_
 2	چيو	_	VERB	VM	Aspect=Perf	0	root	_	_
 3	ته	_	SCONJ	CS	_	16	mark	_	_
-4	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	16	nsubj	_	_
+4	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	16	nmod	_	_
 5	7	_	NUM	NUM	_	6	nummod	_	_
 6	نومبر	_	PROPN	NNP	Case=Nom|Gender=Masc	16	obl	_	_
 7	تي	_	ADP	PSP	Type=Loc	6	case	_	_
@@ -1299,7 +1299,7 @@
 18	چاهيون	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	2	obj	_	_
 19	ٿا	_	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	18	aux	_	_
 20	۽	_	CCONJ	CC	_	23	cc	_	_
-21	کين	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	23	nsubj	_	_
+21	کين	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	23	nmod	_	_
 22	ٻڌائڻ	_	VERB	VM	VerbForm=Inf	23	xcomp	_	_
 23	چاهيون	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	18	conj	_	_
 24	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	23	aux	_	_
@@ -1702,7 +1702,7 @@
 16	خطرو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
 17	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	16	cop	_	SpaceAfter=No
 18	:	_	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
-19	هليري	_	PROPN	NNP	Case=Nom|Gender=Masc	34	nsubj	_	_
+19	هليري	_	PROPN	NNP	Case=Nom|Gender=Masc	34	nmod	_	_
 20	واشنگٽن	_	PROPN	NNP	Case=Nom|Gender=Masc	31	nmod	_	_
 21	(	_	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
 22	اي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nmod	_	_
@@ -1828,7 +1828,7 @@
 23	پاڪستاني	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
 24	قيادت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	nmod	_	_
 25	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	24	case	_	_
-26	عزم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+26	عزم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nmod	_	_
 27	گهڻو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
 28	متاثر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	compound	_	_
 29	ڪيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	18	advcl	_	_
@@ -1996,7 +1996,7 @@
 3	به	_	PART	PART	_	1	advmod:emph	_	_
 4	آمريڪا	_	PROPN	NNP	Case=Nom|Gender=Masc	7	obl	_	_
 5	تي	_	ADP	PSP	Type=Loc	4	case	_	_
-6	اعتماد	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	اعتماد	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
 7	گهٽ	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
 8	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	7	cop	_	SpaceAfter=No
 9	،	_	PUNCT	PUNCT	_	7	punct	_	_
@@ -2154,7 +2154,7 @@
 12	صدر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
 13	بش	_	PROPN	NNP	Case=Nom|Gender=Masc	15	nmod	_	_
 14	نئين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	_
-15	دهلي	_	PROPN	NNP	Case=Nom|Gender=Masc	27	nsubj	_	_
+15	دهلي	_	PROPN	NNP	Case=Nom|Gender=Masc	27	nmod	_	_
 16	(	_	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
 17	آن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_
 18	لائن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
@@ -2215,7 +2215,7 @@
 27	۽	_	CCONJ	CC	_	28	cc	_	_
 28	جمهوريت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	conj	_	_
 29	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	26	case	_	_
-30	قيام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+30	قيام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	33	nmod	_	_
 31	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	33	nmod	_	_
 32	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	31	case	_	_
 33	ترجيح	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	_
@@ -2234,7 +2234,7 @@
 8	شاهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	_
 9	عبدالله	_	PROPN	NNP	Case=Nom|Gender=Masc	11	nmod	_	_
 10	سان	_	ADP	PSP	_	9	case	_	_
-11	ملاقات	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+11	ملاقات	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	33	nmod	_	_
 12	رياض	_	PROPN	NNP	Case=Nom|Gender=Masc	33	nsubj	_	_
 13	(	_	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 14	مانيٽرنگ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	compound	_	_
@@ -2246,7 +2246,7 @@
 20	سربراهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
 21	احمد	_	PROPN	NNP	Case=Nom|Gender=Masc	23	compound	_	_
 22	شجاع	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	compound	_	_
-23	پاشا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+23	پاشا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	33	nmod	_	_
 24	ڪالهه	_	ADV	ADT	_	33	advmod	_	_
 25	رياض	_	PROPN	NNP	Case=Nom|Gender=Masc	33	obl	_	_
 26	۾	_	ADP	PSP	Type=Loc	25	case	_	_
@@ -2308,7 +2308,7 @@
 6	شهزاده	_	PROPN	NNP	Case=Nom|Gender=Masc	9	compound	_	_
 7	مقرن	_	PROPN	NNP	Case=Nom|Gender=Masc	9	compound	_	_
 8	بن	_	PROPN	NNP	Case=Nom|Gender=Masc	9	compound	_	_
-9	عبدالعزيز	_	PROPN	NNP	Case=Nom|Gender=Masc	11	nsubj	_	_
+9	عبدالعزيز	_	PROPN	NNP	Case=Nom|Gender=Masc	11	nmod	_	_
 10	پڻ	_	ADP	PSP	_	9	dep	_	_
 11	موجود	_	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 12	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	11	cop	_	SpaceAfter=No
@@ -2554,10 +2554,10 @@
 30	کچڙي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	33	nmod	_	_
 31	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	30	case	_	_
 32	ڪا	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	33	det	_	_
-33	بوءِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+33	بوءِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	34	nmod	_	_
 34	اچي	_	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	41	advcl	_	_
 35	ته	_	SCONJ	CS	_	41	mark	_	_
-36	اها	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing	41	nsubj	_	_
+36	اها	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
 37	غير	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	39	nmod	_	_
 38	حقيقي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	39	amod	_	_
 39	هرگز	_	ADV	ADT	_	41	advmod	_	_
@@ -2778,7 +2778,7 @@
 3	حڪمران	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 4	پارٽي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
 5	،	_	PUNCT	PUNCT	_	4	punct	_	_
-6	جيڪا	_	PRON	PRP	Case=Acc|Number=Sing	13	nsubj	_	_
+6	جيڪا	_	PRON	PRP	Case=Acc|Number=Sing	13	nmod	_	_
 7	هن	_	DET	PRD	Case=Acc|Number=Sing	8	det	_	_
 8	ديس	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
 9	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	8	case	_	_
@@ -2985,7 +2985,7 @@
 12	جتي	_	ADV	ADT	_	27	advmod	_	_
 13	ڀنگين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	nmod	_	_
 14	وارا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	13	case	_	_
-15	لاڏائو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+15	لاڏائو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nmod	_	_
 16	پڻ	_	ADP	PSP	Type=Loc	15	dep	_	_
 17	پيراڻي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
 18	گدي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	_
@@ -3051,7 +3051,7 @@
 29	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	28	case	_	_
 30	محبتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	32	nmod	_	_
 31	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	30	case	_	_
-32	مرڪز	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+32	مرڪز	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	nmod	_	_
 33	اها	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	34	det	_	_
 34	شخصيت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
 35	رهي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	19	advcl	_	SpaceAfter=No
@@ -3081,7 +3081,7 @@
 # text = اهو ڀنگو بهڻ، جنهن جو ناظم عوام دوست جي ٽڪيٽ تي چونڊجي آيل، اهو ڀنگو بهڻ جنهن مشرف جي دور ۾ به پنهنجي وفاداري جو مرڪز ان کي ئي ٺاهيو، جيڪا عذابن ۽ عقابن ۾ جلاوطن هئي،
 1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
 2	ڀنگو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	_
-3	بهڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+3	بهڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 4	،	_	PUNCT	PUNCT	_	3	punct	_	_
 5	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
 6	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	5	case	_	_
@@ -3096,7 +3096,7 @@
 15	،	_	PUNCT	PUNCT	_	13	punct	_	_
 16	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	18	det	_	_
 17	ڀنگو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	compound	_	_
-18	بهڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+18	بهڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	32	nmod	_	_
 19	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	32	nsubj	_	_
 20	مشرف	_	PROPN	NNP	Case=Nom|Gender=Masc	22	nmod	_	_
 21	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	20	case	_	_
@@ -3126,7 +3126,7 @@
 1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
 2	ئي	_	PART	PART	_	1	dep	_	_
 3	ڀنگو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
-4	بهڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+4	بهڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
 5	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	17	obl	_	_
 6	تي	_	ADP	PSP	Type=Loc	5	case	_	_
 7	ڪڏهن	_	ADV	ADT	_	17	advmod	_	_
@@ -3147,7 +3147,7 @@
 1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
 2	ئي	_	PART	PART	_	1	dep	_	_
 3	ڀنگو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
-4	بهڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+4	بهڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
 5	جتي	_	ADV	ADT	_	10	advmod	_	_
 6	استادي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
 7	پيشي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
@@ -3309,7 +3309,7 @@
 2	ماسترن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nsubj	_	_
 3	کي	_	ADP	PSP	_	2	case	_	SpaceAfter=No
 4	،	_	PUNCT	PUNCT	_	2	punct	_	_
-5	جن	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	9	nsubj	_	_
+5	جن	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	9	nmod	_	_
 6	کي	_	ADP	PSP	_	5	case	_	_
 7	شڪارين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	_
 8	جون	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Plur|Type=Gen	7	case	_	_
@@ -3479,14 +3479,14 @@
 22	ماستر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
 23	ڄڻ	_	ADV	ADT	_	25	nmod	_	_
 24	ته	_	PART	PART	_	23	advmod:emph	_	_
-25	پيءُ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	SpaceAfter=No
+25	پيءُ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
 26	،	_	PUNCT	PUNCT	_	29	punct	_	_
 27	ڄڻ	_	ADV	ADT	_	29	amod	_	_
 28	ته	_	PART	PART	_	27	advmod:emph	_	_
 29	رهبر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
 30	،	_	PUNCT	PUNCT	_	29	punct	_	_
 31	پر	_	SCONJ	CS	_	37	mark	_	_
-32	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+32	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	37	nmod:poss	_	_
 33	ڇوڪريءَ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	nmod	_	_
 34	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	33	case	_	_
 35	والد	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	obj	_	_
@@ -3512,7 +3512,7 @@
 2	عجيب	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
 3	منطق	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 4	تي	_	ADP	PSP	Type=Loc	3	case	_	_
-5	توهان	_	PRON	PRP	Case=Nom|Number=Plur|Person=2	8	nsubj	_	_
+5	توهان	_	PRON	PRP	Case=Nom|Number=Plur|Person=2	8	nmod	_	_
 6	پاڻ	_	PRON	PRP	Case=Acc|Person=1	8	nsubj	_	_
 7	به	_	PART	PART	_	6	advmod:emph	_	_
 8	شرمندا	_	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
@@ -3667,7 +3667,7 @@
 12	ته	_	SCONJ	CS	_	24	mark	_	_
 13	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	15	det	_	_
 14	هيڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
-15	ماستر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+15	ماستر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nmod	_	_
 16	پاڻ	_	PRON	PRP	Case=Acc	24	nsubj	_	_
 17	به	_	PART	PART	_	16	advmod:emph	_	_
 18	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	19	nmod	_	_
@@ -3702,7 +3702,7 @@
 1	جڏهن	_	ADV	ADT	Case=Acc|Number=Sing	9	advmod	_	_
 2	هيڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 3	ماستر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-4	پاڻ	_	PRON	PRP	Case=Acc|Number=Sing	9	nsubj	_	_
+4	پاڻ	_	PRON	PRP	Case=Acc|Number=Sing	9	nmod:poss	_	_
 5	ان	_	DET	PRD	Case=Acc|Number=Sing	7	det	_	_
 6	ذهني	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	عذاب	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
@@ -3970,7 +3970,7 @@
 8	ڪنهن	_	PRON	PRWH	Case=Acc|Gender=Masc|Number=Sing	11	det	_	_
 9	ٻي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
 10	سرڪاري	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
-11	ڌر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+11	ڌر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
 12	مدد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	compound	_	_
 13	ڪئي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 14	.	_	PUNCT	PUNCT	_	13	punct	_	_
@@ -4087,7 +4087,7 @@
 
 # sent_id = 5444
 # text = ها، پر رپورٽس ٻڌائين ٿيون ته فيض گنج جي استاد تنظيمن جا همراهه اڃا تائين هيڊ ماستر مان هٿ نٿا ڪڍن.
-1	ها	_	DET	PRD	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No
+1	ها	_	DET	PRD	Case=Nom|Number=Sing	5	aux	_	SpaceAfter=No
 2	،	_	PUNCT	PUNCT	_	1	punct	_	_
 3	پر	_	SCONJ	CS	_	5	mark	_	_
 4	رپورٽس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -4116,7 +4116,7 @@
 1	اها	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
 2	رپورٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
 3	،	_	PUNCT	PUNCT	_	2	punct	_	_
-4	جيڪا	_	PRON	PRP	Case=Acc|Number=Sing	10	nsubj	_	_
+4	جيڪا	_	PRON	PRP	Case=Acc|Number=Sing	10	nmod	_	_
 5	هاڻ	_	ADV	ADT	_	10	advmod	_	_
 6	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	8	nmod	_	_
 7	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	6	case	_	_
@@ -4184,7 +4184,7 @@
 
 # sent_id = 5448
 # text = ان کين وڌيڪ سياسي پاور ڏيئي ڇڏيا ۽ اهو سياسي پاور ئي هو،
-1	ان	_	DET	PRD	Case=Acc|Number=Sing	6	nsubj	_	_
+1	ان	_	DET	PRD	Case=Acc|Number=Sing	6	nmod:poss	_	_
 2	کين	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	6	nsubj	_	_
 3	وڌيڪ	_	ADJ	JJ	Case=Nom|Degree=Pos	5	amod	_	_
 4	سياسي	_	ADJ	JJ	Case=Nom	5	amod	_	_
@@ -4234,7 +4234,7 @@
 8	۽	_	CCONJ	CC	_	9	cc	_	_
 9	روايتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	_
 10	کي	_	ADP	PSP	_	9	case	_	_
-11	انهن	_	DET	PRD	Case=Acc|Number=Plur	16	nsubj	_	_
+11	انهن	_	DET	PRD	Case=Acc|Number=Plur	16	nmod:poss	_	_
 12	سدائين	_	ADV	ADV	_	16	advmod	_	_
 13	پي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
 14	کڙين	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obl	_	_
@@ -4593,7 +4593,7 @@
 13	۾	_	ADP	PSP	Type=Loc	12	case	_	_
 14	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	16	det	_	_
 15	ٻاهريون	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
-16	هٿ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+16	هٿ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
 17	نه	_	PART	PART	_	16	dep	_	SpaceAfter=No
 18	،	_	PUNCT	PUNCT	_	16	punct	_	_
 19	پر	_	SCONJ	CS	_	26	mark	_	_
@@ -4676,7 +4676,7 @@
 6	سگهي	_	AUX	VAUX	Number=Sing|Tense=Pres	5	compound	_	_
 7	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	5	aux	_	_
 8	عزيزانِ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nmod	_	_
-9	مَن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+9	مَن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 10	،	_	PUNCT	PUNCT	_	9	punct	_	_
 11	چاهت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
 12	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	11	case	_	_
@@ -4947,7 +4947,7 @@
 
 # sent_id = 5489
 # text = مان پاڻ ان سان سهمت آهيان،
-1	مان	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=1	5	nsubj	_	_
+1	مان	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=1	5	nmod:poss	_	_
 2	پاڻ	_	PRON	PRP	Case=Acc	5	nsubj	_	_
 3	ان	_	DET	PRD	Case=Acc|Number=Sing	5	obl	_	_
 4	سان	_	ADP	PSP	_	3	case	_	_
@@ -5336,7 +5336,7 @@
 # text = ”خواب نگر“ ڪمتريءَ جو سوچي به نٿو سگهي ادي، هي دڪان ڪو عام دڪان ڪونهي،
 1	”	_	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 2	خواب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
-3	نگر	_	PROPN	NNP	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No
+3	نگر	_	PROPN	NNP	Case=Nom|Gender=Masc	7	nmod	_	SpaceAfter=No
 4	“	_	PUNCT	PUNCT	_	3	punct	_	_
 5	ڪمتريءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 6	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	5	case	_	_
@@ -5485,7 +5485,7 @@
 
 # sent_id = 5516
 # text = منظر انهن رنگن جا ئي منظر هوندا آهنعڪس ته اهو ئي نظر اچڻو آهي،
-1	منظر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+1	منظر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
 2	انهن	_	DET	PRD	Case=Acc|Number=Plur	3	det	_	_
 3	رنگن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
 4	جا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	3	case	_	_
@@ -5623,7 +5623,7 @@
 5	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	4	mark	_	_
 6	ناهي	_	AUX	VAUX	Number=Sing|Tense=Pres	4	aux	_	_
 7	عزيزانِ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nmod	_	_
-8	من	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+8	من	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 9	،	_	PUNCT	PUNCT	_	8	punct	_	_
 10	ڳالهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 11	مسند	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
@@ -5819,7 +5819,7 @@
 6	آيو	_	VERB	VM	Aspect=Perf|Number=Sing|Person=3	5	compound	_	_
 7	آهيان	_	AUX	VAUX	Number=Sing|Tense=Pres	5	aux	_	_
 8	ته	_	SCONJ	CS	_	16	mark	_	_
-9	قبلا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+9	قبلا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 10	،	_	PUNCT	PUNCT	_	9	punct	_	_
 11	”	_	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 12	شينهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
@@ -6062,7 +6062,7 @@
 1	هڪڙي	_	ADJ	JJC	Case=Nom|Gender=Fem|Number=Sing	2	advmod	_	_
 2	ملي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 3	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	2	compound	_	_
-4	حياتي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+4	حياتي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 5	،	_	PUNCT	PUNCT	_	4	punct	_	_
 6	۽	_	CCONJ	CC	_	14	cc	_	_
 7	ان	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	14	obl	_	_
@@ -6159,7 +6159,7 @@
 4	رنگ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 5	کا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
 6	کپڙي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
-7	پهنني	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+7	پهنني	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	advmod	_	SpaceAfter=No
 8	،	_	PUNCT	PUNCT	_	7	punct	_	_
 9	کون	_	PRON	PRP	Case=Acc|Number=Sing|Person=2	11	nmod	_	_
 10	سي	_	NOUN	NN	Case=Nom|Gender=Masc	11	nmod	_	_
@@ -6279,7 +6279,7 @@
 1	مولاءِ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 2	ڪل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 3	جل	_	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
-4	شانه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	شانه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 5	اوهان	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	8	obj	_	_
 6	کي	_	ADP	PSP	_	5	case	_	_
 7	سکيو	_	VERB	VM	Aspect=Perf	8	xcomp	_	_
@@ -6315,7 +6315,7 @@
 3	نئون	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	6	amod	_	_
 4	يا	_	CCONJ	CC	_	5	cc	_	_
 5	پراڻو	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	3	conj	_	_
-6	ٽائيم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+6	ٽائيم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 7	؟	_	PUNCT	PUNCT	_	6	punct	_	_
 8	حفيظ	_	PROPN	NNP	Case=Nom|Gender=Masc	9	compound	_	_
 9	ڪنڀر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -6846,7 +6846,7 @@
 1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
 2	عذاب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	ڇهه	_	ADJ	JJ	Case=Nom|Number=Sing	4	amod	_	_
-4	ماهي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ماهي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
 5	هجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 6	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	aux	_	SpaceAfter=No
 7	،	_	PUNCT	PUNCT	_	5	punct	_	_
@@ -7033,7 +7033,7 @@
 11	۽	_	CCONJ	CC	_	12	cc	_	_
 12	بچت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
 13	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	10	case	_	_
-14	سرڪار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	nsubj	_	_
+14	سرڪار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
 15	کي	_	ADP	PSP	_	14	case	_	_
 16	اعليٰ	_	ADJ	JJ	Case=Nom|Degree=Cmp	17	amod	_	_
 17	خيال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
@@ -7463,7 +7463,7 @@
 49	ڪهڙي	_	PRON	PRWH	_	46	conj	_	_
 50	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	49	cop	_	SpaceAfter=No
 51	؟	_	PUNCT	PUNCT	_	49	punct	_	_
-52	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	59	nsubj	_	_
+52	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	59	nmod:poss	_	_
 53	وٽ	_	ADP	PSP	Type=Loc	52	case	_	_
 54	ٽائيم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	59	nsubj	_	_
 55	”	_	PUNCT	PUNCT	_	54	punct	_	SpaceAfter=No
@@ -7531,7 +7531,7 @@
 3	عادتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	conj	_	_
 4	جون	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Plur|Type=Gen	1	case	_	_
 5	محتاج	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
-6	قومون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No
+6	قومون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
 7	،	_	PUNCT	PUNCT	_	6	punct	_	_
 8	ماڻهو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 9	ٽائيم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
@@ -7955,7 +7955,7 @@
 19	حڪومتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	nmod	_	_
 20	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	19	case	_	_
 21	تڏا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nmod	_	_
-22	ويڙهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+22	ويڙهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 23	،	_	PUNCT	PUNCT	_	26	punct	_	_
 24	جمهوريت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nmod	_	_
 25	پسند	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	26	amod	_	_
@@ -8060,7 +8060,7 @@
 15	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	14	case	_	_
 16	عوام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
 17	جيڪي	_	PRON	PRWH	Case=Nom|Gender=Masc|Number=Plur	18	nmod	_	_
-18	ڪجهه	_	ADJ	JJ	Case=Nom|Degree=Pos	19	nsubj	_	_
+18	ڪجهه	_	ADJ	JJ	Case=Nom|Degree=Pos	19	nmod	_	_
 19	ڀوڳي	_	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	9	acl:relcl	_	_
 20	پيو	_	VERB	VM	Aspect=Imp|Number=Sing	19	compound	_	SpaceAfter=No
 21	،	_	PUNCT	PUNCT	_	19	punct	_	_
@@ -8452,7 +8452,7 @@
 3	جا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	2	case	_	_
 4	واڳ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
 5	ڌڻي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-6	ڀلا	_	ADV	ADV	_	8	nsubj	_	_
+6	ڀلا	_	ADV	ADV	_	8	nmod	_	_
 7	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
 8	ٻڌائي	_	VERB	VM	Aspect=Perf	0	root	_	_
 9	سگهندا	_	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	8	compound	_	_
@@ -8539,7 +8539,7 @@
 # text = دراصل حڪومت پاڻ ئي پنهنجي حڪمن کي تماشو بڻائي ڇڏيو آهي،
 1	دراصل	_	ADV	ADV	_	9	advmod	_	_
 2	حڪومت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
-3	پاڻ	_	PRON	PRP	Case=Acc	9	nsubj	_	_
+3	پاڻ	_	PRON	PRP	Case=Acc	9	nmod:poss	_	_
 4	ئي	_	PART	PART	_	3	dep	_	_
 5	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	6	nmod	_	_
 6	حڪمن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
@@ -9561,7 +9561,7 @@
 8	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	7	case	_	_
 9	تعمير	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
 10	تي	_	ADP	PSP	Type=Loc	9	case	_	_
-11	تڪرار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+11	تڪرار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_
 12	سنڌوءَ	_	PROPN	NNP	Case=Nom|Gender=Masc	13	compound	_	_
 13	درياءَ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
 14	تي	_	ADP	PSP	Type=Loc	13	case	_	_
@@ -9704,7 +9704,7 @@
 8	سڪرنڊ	_	PROPN	NNP	Case=Nom|Gender=Masc	6	conj	_	_
 9	ٻئي	_	ADJ	JJC	Case=Nom|Number=Plur	11	amod	_	_
 10	وڏا	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	11	amod	_	_
-11	شهر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+11	شهر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
 12	سن	_	PROPN	NNP	Case=Nom|Gender=Masc	14	nmod	_	_
 13	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	12	case	_	_
 14	سامهون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -9784,7 +9784,7 @@
 # text = خط جو مضمون درد جي دانهن ته واقعي آهي،
 1	خط	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
 2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
-3	مضمون	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	مضمون	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 4	درد	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 5	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	4	case	_	_
 6	دانهن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -10112,7 +10112,7 @@
 # text = حسين علي مغيري/قمبر سڄو ڏوهه سرڪار تي؟ استاد نالو ٻڌڻ سان ئي احترام، محبت ۽ پيار وارو رشتو دل ۾ پيدا ٿئي ٿو،
 1	حسين	_	PROPN	NNP	Case=Nom|Gender=Masc	3	compound	_	_
 2	علي	_	PROPN	NNP	Case=Nom|Gender=Masc	3	compound	_	_
-3	مغيري	_	PROPN	NNP	Case=Nom|Gender=Masc	13	nsubj	_	SpaceAfter=No
+3	مغيري	_	PROPN	NNP	Case=Nom|Gender=Masc	13	nmod:poss	_	SpaceAfter=No
 4	/	_	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 5	قمبر	_	PROPN	NNP	Case=Nom|Gender=Masc	7	nmod	_	_
 6	سڄو	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	7	amod	_	_
@@ -10188,7 +10188,7 @@
 # text = استاد، جيڪو علم ٻارن جي اندر منتقل ڪندو آهي،
 1	استاد	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 2	،	_	PUNCT	PUNCT	_	1	punct	_	_
-3	جيڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	جيڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	9	nmod:poss	_	_
 4	علم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
 5	ٻارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
 6	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	5	case	_	_
@@ -10546,7 +10546,7 @@
 11	اهڙن	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
 12	استادن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
 13	،	_	PUNCT	PUNCT	_	12	punct	_	_
-14	جيڪي	_	PRON	PRP	Case=Nom|Number=Plur|Person=1	17	nsubj	_	_
+14	جيڪي	_	PRON	PRP	Case=Nom|Number=Plur|Person=1	17	nmod	_	_
 15	ڊيوٽي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obj	_	_
 16	نٿا	_	PART	PART	_	17	dep	_	_
 17	ڪن	_	VERB	VM	Aspect=Perf|Number=Plur	9	ccomp	_	SpaceAfter=No
@@ -10631,7 +10631,7 @@
 8	سهراب	_	PROPN	NNP	Case=Nom|Gender=Masc	9	nmod	_	_
 9	فقير	_	PROPN	NNP	Case=Nom|Gender=Masc	11	nmod	_	_
 10	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	9	case	_	_
-11	متبادل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	SpaceAfter=No
+11	متبادل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 12	؟	_	PUNCT	PUNCT	_	11	punct	_	_
 13	خوش	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	17	compound	_	_
 14	خير	_	PROPN	NNP	Case=Nom|Gender=Masc	17	compound	_	_
@@ -10770,7 +10770,7 @@
 2	وقت	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
 3	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
 4	اندازو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-5	ڪنهن	_	PRON	PRWH	Case=Acc|Number=Sing	8	nsubj	_	_
+5	ڪنهن	_	PRON	PRWH	Case=Acc|Number=Sing	8	nmod	_	_
 6	کي	_	ADP	PSP	_	5	case	_	_
 7	به	_	PART	PART	_	5	advmod:emph	_	_
 8	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -11040,7 +11040,7 @@
 2	قلندر	_	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
 3	بخش	_	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
 4	هيسباڻي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-5	جيڪو	_	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+5	جيڪو	_	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
 6	شايد	_	ADV	ADT	_	12	advmod	_	_
 7	سهراب	_	PROPN	NNP	Case=Nom|Gender=Masc	8	nmod	_	_
 8	فقير	_	PROPN	NNP	Case=Nom|Gender=Masc	11	nmod	_	_
@@ -11247,7 +11247,7 @@
 # text = محمد صالح ميمڻ/ماتلي هانگ ڪانگ سپر سڪسز ٽورنامينٽ ۾ پاڪستان هٿان ڀارت کي شڪست هانگ ڪانگ (اسپورٽس ڊيسڪ) هانگ ڪانگ سپر سڪسز ڪرڪيٽ ٽورنامينٽ ۾ پاڪستان، ڀارت کي شڪست ڏئي ڇڏي آهي،
 1	محمد	_	PROPN	NNP	Case=Nom|Gender=Masc	3	compound	_	_
 2	صالح	_	PROPN	NNP	Case=Nom|Gender=Masc	3	compound	_	_
-3	ميمڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	SpaceAfter=No
+3	ميمڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
 4	/	_	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 5	ماتلي	_	PROPN	NNP	Case=Nom|Gender=Masc	7	nmod	_	_
 6	هانگ	_	PROPN	NNP	Case=Nom|Gender=Masc	7	compound	_	_
@@ -11262,7 +11262,7 @@
 15	کي	_	ADP	PSP	_	14	case	_	_
 16	شڪست	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
 17	هانگ	_	PROPN	NNP	Case=Nom|Gender=Masc	18	compound	_	_
-18	ڪانگ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+18	ڪانگ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	nmod	_	_
 19	(	_	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
 20	اسپورٽس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	compound	_	_
 21	ڊيسڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
@@ -11334,7 +11334,7 @@
 # text = پاڪستان گهربل حدف بغير ڪنهن نقصان جي حاصل ڪري ورتو،
 1	پاڪستان	_	PROPN	NNP	Case=Nom|Gender=Masc	9	nsubj	_	_
 2	گهربل	_	VERB	VM	Aspect=Imp	3	acl	_	_
-3	حدف	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	حدف	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
 4	بغير	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
 5	ڪنهن	_	PRON	PRWH	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 6	نقصان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
@@ -11406,7 +11406,7 @@
 22	ڪيٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nmod	_	_
 23	گرل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_
 24	قطرينا	_	PROPN	NNP	Case=Nom|Gender=Masc	25	compound	_	_
-25	ڪيف	_	PROPN	NNP	Case=Nom|Gender=Masc	26	nsubj	_	_
+25	ڪيف	_	PROPN	NNP	Case=Nom|Gender=Masc	26	nmod	_	_
 26	چيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	10	conj	_	_
 27	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	26	aux	_	_
 28	ته	_	SCONJ	CS	_	39	mark	_	_
@@ -11593,7 +11593,7 @@
 1	ڏسندڙن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	_
 2	پاران	_	ADP	PSP	Type=Loc	1	case	_	_
 3	ڀرپور	_	ADJ	JJ	Case=Nom|Degree=Pos	4	amod	_	_
-4	موٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
+4	موٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 5	،	_	PUNCT	PUNCT	_	4	punct	_	_
 6	هر	_	DET	PRD	Case=Nom|Number=Sing	7	det	_	_
 7	هفتي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	_
@@ -11615,7 +11615,7 @@
 # sent_id = 5824
 # text = ”مهوش ۽ عروسه“ شو جو ڊائريڪٽر فهيم ڀٽو آهي،
 1	”	_	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
-2	مهوش	_	PROPN	NNP	Case=Nom|Gender=Masc	10	nsubj	_	_
+2	مهوش	_	PROPN	NNP	Case=Nom|Gender=Masc	10	nmod	_	_
 3	۽	_	CCONJ	CC	_	4	cc	_	_
 4	عروسه	_	PROPN	NNP	Case=Nom|Gender=Masc	2	conj	_	SpaceAfter=No
 5	“	_	PUNCT	PUNCT	_	4	punct	_	_
@@ -11730,7 +11730,7 @@
 3	ڊائريڪٽر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
 4	فهيم	_	PROPN	NNP	Case=Nom|Gender=Masc	5	compound	_	_
 5	ڀٽو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-6	پاڻ	_	PRON	PRP	Case=Acc	9	nsubj	_	_
+6	پاڻ	_	PRON	PRP	Case=Acc	9	nmod	_	_
 7	ڪوبه	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
 8	ٽاپڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
 9	کڻندو	_	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart|Voice=Act	15	advcl	_	_
@@ -11811,7 +11811,7 @@
 5	نئون	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
 6	موسيقي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
 7	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	6	case	_	_
-8	پروگرام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+8	پروگرام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_
 9	”	_	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 10	سنگ	_	PROPN	NNP	Case=Nom|Gender=Masc	11	compound	_	_
 11	وٿ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
@@ -11828,7 +11828,7 @@
 # sent_id = 5836
 # text = هي پروگرام اهڙن نون سيکڙاٽ نوجوانن جن جو موسيقي سان لڳاءُ آهي.
 1	هي	_	DET	PRD	Case=Nom|Number=Sing	2	det	_	_
-2	پروگرام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	پروگرام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
 3	اهڙن	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Plur	6	amod	_	_
 4	نون	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
 5	سيکڙاٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nmod	_	_
@@ -12184,7 +12184,7 @@
 1	ڀالوا	_	PROPN	NNP	Case=Nom|Gender=Masc	6	obl	_	_
 2	۾	_	ADP	PSP	Type=Loc	1	case	_	_
 3	گيسٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
-4	هائوس	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	هائوس	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 5	به	_	PART	PART	_	4	advmod:emph	_	_
 6	ٺهي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 7	نه	_	PART	PART	_	6	dep	_	_
@@ -12199,7 +12199,7 @@
 16	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	18	nmod	_	_
 17	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	16	case	_	_
 18	ثقافت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nmod	_	_
-19	کاتي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nsubj	_	_
+19	کاتي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 20	پاران	_	ADP	PSP	Type=Loc	19	case	_	_
 21	هونئن	_	ADV	ADT	_	29	amod	_	_
 22	ته	_	PART	PART	_	21	advmod:emph	_	_
@@ -12496,7 +12496,7 @@
 
 # sent_id = 5854
 # text = جنهن مارئي جو ميلو شروعاتي طور تي پهرين پراڻي ضلعي ٿرپارڪر جي ضلعي ڪائونسل جي اڳوڻي چيئرمين جي حيثيت دوران ٻه سال 1967ع ۽ 1968ع ۾ مارئي جي جنم ڀومي ڀالوا ۾ ملهايو هو،
-1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	33	nsubj	_	_
+1	جنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	33	nmod	_	_
 2	مارئي	_	PROPN	NNP	Case=Nom|Gender=Masc	4	nmod	_	_
 3	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	2	case	_	_
 4	ميلو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
@@ -12931,7 +12931,7 @@
 9	گڏ	_	ADV	ADV	_	14	advmod	_	_
 10	فرنيچر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 11	در	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
-12	دريون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+12	دريون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nmod	_	_
 13	ٽٽي	_	VERB	VM	_	14	xcomp	_	_
 14	پوڻ	_	VERB	VM	VerbForm=Inf	20	advcl	_	_
 15	سان	_	ADP	PSP	_	14	mark	_	_
@@ -13256,7 +13256,7 @@
 12	ڌاڙيل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
 13	۽	_	CCONJ	CC	_	15	cc	_	_
 14	قبيلائي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	15	amod	_	_
-15	تڪرار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+15	تڪرار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
 16	وڌيڪ	_	ADJ	JJ	Case=Nom|Degree=Pos	17	compound	_	_
 17	ھئڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	23	advcl	_	_
 18	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	17	aux	_	_
@@ -13282,7 +13282,7 @@
 # text = فيض محمد ٻنڊو، پريالوءِ ۽ وڏا ماڇيون ٿاڻن تي وڌيڪ ڪيس داخل ٿين ٿا،
 1	فيض	_	PROPN	NNP	Case=Nom|Gender=Masc	3	compound	_	_
 2	محمد	_	PROPN	NNP	Case=Nom|Gender=Masc	3	compound	_	_
-3	ٻنڊو	_	PROPN	NNP	Case=Nom|Gender=Masc	14	nsubj	_	SpaceAfter=No
+3	ٻنڊو	_	PROPN	NNP	Case=Nom|Gender=Masc	14	nmod	_	SpaceAfter=No
 4	،	_	PUNCT	PUNCT	_	5	punct	_	_
 5	پريالوءِ	_	PROPN	NNP	Case=Nom|Gender=Masc	3	conj	_	_
 6	۽	_	CCONJ	CC	_	8	cc	_	_
@@ -13429,7 +13429,7 @@
 4	۾	_	ADP	PSP	Type=Loc	3	case	_	_
 5	23	_	NUM	NUM	_	7	nummod	_	_
 6	روسي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
-7	شهري	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+7	شهري	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
 8	۽	_	CCONJ	CC	_	11	cc	_	_
 9	گهانا	_	PROPN	NNP	Case=Nom|Gender=Masc	7	conj	_	_
 10	۽	_	CCONJ	CC	_	11	cc	_	_
@@ -13726,7 +13726,7 @@
 5	افغان	_	PROPN	NNP	Case=Nom|Gender=Masc	3	conj	_	_
 6	فورسز	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
 7	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	6	case	_	_
-8	آپريشن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+8	آپريشن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 9	،	_	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
 10	12	_	NUM	NUM	_	11	nummod	_	_
 11	طالبان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -13981,7 +13981,7 @@
 42	رهواسي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	45	nmod	_	_
 43	تاج	_	PROPN	NNP	Case=Nom|Gender=Masc	45	compound	_	_
 44	محمد	_	PROPN	NNP	Case=Nom|Gender=Masc	45	compound	_	_
-45	پنهور	_	PROPN	NNP	Case=Nom|Gender=Masc	51	nsubj	_	_
+45	پنهور	_	PROPN	NNP	Case=Nom|Gender=Masc	51	nmod	_	_
 46	سيشن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	47	nmod	_	_
 47	ڪورٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	48	nmod	_	_
 48	قمبر	_	PROPN	NNP	Case=Nom|Gender=Masc	51	obl	_	_
@@ -14025,7 +14025,7 @@
 # text = بعد ۾ هو منهنجي زال کي مرڻينگ حالت ۾ ڇڏي پاڻي فرار ٿي وئي،
 1	بعد	_	ADP	PSP	_	12	obl	_	_
 2	۾	_	ADP	PSP	Type=Loc	1	case	_	_
-3	هو	_	DET	PRD	Case=Acc|Number=Sing	12	nsubj	_	_
+3	هو	_	DET	PRD	Case=Acc|Number=Sing	12	nmod	_	_
 4	منهنجي	_	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	5	nmod	_	_
 5	زال	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 6	کي	_	ADP	PSP	_	5	case	_	_
