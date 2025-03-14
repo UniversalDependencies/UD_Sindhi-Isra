@@ -4684,8 +4684,8 @@
 14	ٽڙي	_	VERB	VM	_	5	advcl	_	_
 15	ته	_	SCONJ	CS	_	19	mark	_	_
 16	خوشبو	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
-17	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	19	advmod	_	_
-18	نه	_	PART	PART	_	19	dep	_	_
+17	ڪو	_	PART	PART	_	19	advmod	_	_
+18	نه	_	PART	PART	_	17	fixed	_	_
 19	ايندي	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Voice=Act	5	advcl	_	_
 20	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	19	aux	_	SpaceAfter=No
 21	.	_	PUNCT	PUNCT	_	19	punct	_	_
@@ -5423,8 +5423,8 @@
 65	“	_	PUNCT	PUNCT	_	64	punct	_	_
 66	ته	_	PART	PART	_	64	advmod:emph	_	_
 67	ٿي	_	VERB	VM	_	57	conj	_	_
-68	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	67	advmod	_	_
-69	نه	_	PART	PART	_	67	dep	_	_
+68	ڪو	_	PART	PART	_	67	advmod	_	_
+69	نه	_	PART	PART	_	68	fixed	_	_
 70	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	67	aux	_	_
 71	سگهجي	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	67	aux	_	SpaceAfter=No
 72	،	_	PUNCT	PUNCT	_	67	punct	_	_
@@ -5698,8 +5698,10 @@
 15	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	13	aux	_	SpaceAfter=No
 16	،	_	PUNCT	PUNCT	_	13	punct	_	_
 
+# newdoc
+# newpar
 # sent_id = 5530
-# text = ڊڄي ڊڄي ٿا لکو، هلو، سياست کان ته کڻي شروع کان منحرف آهيو، هتي ڇا ٿي ويوَ جو سهراب فقير تي خوبصورت ڪالم ۾ ڪلچر ڊپارٽمينٽ ڏانهنسندس بي راهه رويءَ ڏانهن اشارو به ڪو نه ڪيوَپنهنجي ”سيٽ“ پڪي ڪرڻ ٿا گهرو ڇا؟، ڇا ثقافت ۽ سياحت کاتي ۾ ڪا سڻڀي جاءِ خالي آهي؟، ڇا ٿئي ها، جيڪڏهن اوهان جهڙو ليکڪ، سچ جو ذڪر ته ڪري ٿو،
+# text = ڊڄي ڊڄي ٿا لکو، هلو، سياست کان ته کڻي شروع کان منحرف آهيو، هتي ڇا ٿي ويوَ جو سهراب فقير تي خوبصورت ڪالم ۾ ڪلچر ڊپارٽمينٽ ڏانهنسندس بي راهه رويءَ ڏانهن اشارو به ڪو نه ڪيوَ پنهنجي ”سيٽ“ پڪي ڪرڻ ٿا گهرو ڇا؟، ڇا ثقافت ۽ سياحت کاتي ۾ ڪا سڻڀي جاءِ خالي آهي؟، ڇا ٿئي ها، جيڪڏهن اوهان جهڙو ليکڪ، سچ جو ذڪر ته ڪري ٿو،
 1	ڊڄي	_	VERB	VM	Aspect=Imp	2	advcl	_	_
 2	ڊڄي	_	VERB	VM	Aspect=Imp	4	advcl	_	_
 3	ٿا	_	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	4	aux	_	_
@@ -5736,9 +5738,9 @@
 34	ڏانهن	_	ADV	ADP	_	33	case	_	_
 35	اشارو	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	44	obj	_	_
 36	به	_	PART	PART	_	35	advmod:emph	_	_
-37	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	39	nmod	_	_
-38	نه	_	PART	PART	_	46	dep	_	_
-39	ڪيوَپنهنجي	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	41	nmod	_	_
+37	ڪو	_	PART	PART	_	39	advmod	_	_
+38	نه	_	PART	PART	_	37	fixed	_	_
+39	ڪيوَ پنهنجي	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	41	nmod	_	_
 40	”	_	PUNCT	PUNCT	_	41	punct	_	SpaceAfter=No
 41	سيٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	46	obj	_	SpaceAfter=No
 42	“	_	PUNCT	PUNCT	_	41	punct	_	_
@@ -6248,8 +6250,8 @@
 8	ڪڏهن	_	ADV	ADT	_	13	advmod	_	_
 9	به	_	PART	PART	_	8	advmod:emph	_	_
 10	خالي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	xcomp	_	_
-11	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	13	det	_	_
-12	نه	_	PART	PART	_	13	dep	_	_
+11	ڪو	_	PART	PART	_	13	advmod	_	_
+12	نه	_	PART	PART	_	11	fixed	_	_
 13	ٿيندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Voice=Act	3	advcl	_	SpaceAfter=No
 14	.	_	PUNCT	PUNCT	_	13	punct	_	_
 
@@ -6612,8 +6614,8 @@
 19	مون	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	24	nsubj	_	_
 20	توهان	_	PRON	PRP	Case=Acc|Number=Plur|Person=2	24	obl	_	_
 21	کان	_	ADP	PSP	_	20	case	_	_
-22	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	24	det	_	_
-23	نه	_	PART	PART	_	24	dep	_	_
+22	ڪو	_	PART	PART	_	24	advmod	_	_
+23	نه	_	PART	PART	_	22	fixed	_	_
 24	ورتي	_	VERB	VM	Aspect=Perf|Number=Sing	13	advcl	_	SpaceAfter=No
 25	“	_	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
 26	،	_	PUNCT	PUNCT	_	24	punct	_	_
@@ -6623,8 +6625,8 @@
 30	کي	_	ADP	PSP	_	29	case	_	_
 31	توهان	_	PRON	PRP	Case=Nom|Person=2	35	nsubj	_	_
 32	ته	_	PART	PART	_	31	advmod:emph	_	_
-33	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	35	det	_	_
-34	نه	_	PART	PART	_	35	dep	_	_
+33	ڪو	_	PART	PART	_	35	advmod	_	_
+34	نه	_	PART	PART	_	33	fixed	_	_
 35	ڏني	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	24	advcl	_	SpaceAfter=No
 36	“	_	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
 37	.	_	PUNCT	PUNCT	_	35	punct	_	_
@@ -6959,8 +6961,8 @@
 12	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	11	case	_	_
 13	تيستائين	_	ADV	ADV	_	17	advmod	_	_
 14	خبر	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	compound	_	_
-15	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	17	advmod	_	_
-16	نه	_	PART	PART	_	17	dep	_	_
+15	ڪو	_	PART	PART	_	17	advmod	_	_
+16	نه	_	PART	PART	_	15	fixed	_	_
 17	پوندي	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=PresPart|Voice=Act	6	advcl	_	SpaceAfter=No
 18	،	_	PUNCT	PUNCT	_	17	punct	_	_
 
@@ -7424,13 +7426,13 @@
 10	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	13	obl	_	_
 11	لاءِ	_	ADP	PSP	_	10	case	_	_
 12	ايترو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
-13	اهم	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	obj	_	_
+13	اهم	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	advcl	_	_
 14	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	13	cop	_	_
-15	ئي	_	ADP	PSP	Type=Loc	13	mark	_	_
-16	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
-17	نه	_	PART	PART	_	16	dep	_	_
+15	ئي	_	PART	PART	_	13	advmod:emph	_	_
+16	ڪو	_	PART	PART	Case=Nom|Gender=Masc|Number=Sing	13	advmod	_	_
+17	نه	_	PART	PART	_	16	fixed	_	_
 18	ته	_	SCONJ	CS	_	13	mark	_	_
-19	پوءِ	_	ADP	PSP	_	16	case	_	_
+19	پوءِ	_	ADP	PSP	_	13	mark	_	_
 20	ان	_	DET	PRD	Case=Acc|Number=Sing	33	obl	_	_
 21	لاءِ	_	ADP	PSP	_	20	case	_	_
 22	”	_	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
@@ -10767,15 +10769,15 @@
 # sent_id = 5790
 # text = ان وقت اهو اندازو ڪنهن کي به ڪو نه هو ته ڪو هيءُ درويش صفت انسان هڪ ڏينهن هڪ ايڏي وڏي شهرت ماڻيندو.
 1	ان	_	DET	PRD	Case=Nom|Number=Sing	2	det	_	_
-2	وقت	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+2	وقت	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
 3	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
-4	اندازو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-5	ڪنهن	_	PRON	PRWH	Case=Acc|Number=Sing	8	nmod	_	_
+4	اندازو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	ڪنهن	_	PRON	PRWH	Case=Acc|Number=Sing	0	root	_	_
 6	کي	_	ADP	PSP	_	5	case	_	_
 7	به	_	PART	PART	_	5	advmod:emph	_	_
-8	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-9	نه	_	PART	PART	_	8	dep	_	_
-10	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	8	cop	_	_
+8	ڪو	_	PART	PART	_	5	advmod	_	_
+9	نه	_	PART	PART	_	8	fixed	_	_
+10	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	5	cop	_	_
 11	ته	_	SCONJ	CS	_	23	mark	_	_
 12	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	14	det	_	_
 13	هيءُ	_	ADJ	JJ	Case=Nom|Number=Sing	14	amod	_	_
@@ -10788,7 +10790,7 @@
 20	ايڏي	_	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	22	amod	_	_
 21	وڏي	_	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
 22	شهرت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	obj	_	_
-23	ماڻيندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=PresPart|Voice=Act	8	advcl	_	SpaceAfter=No
+23	ماڻيندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=PresPart|Voice=Act	5	ccomp	_	SpaceAfter=No
 24	.	_	PUNCT	PUNCT	_	23	punct	_	_
 
 # sent_id = 5791
