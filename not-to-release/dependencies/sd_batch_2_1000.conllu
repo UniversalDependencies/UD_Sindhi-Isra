@@ -3594,8 +3594,8 @@
 10	زال	_	NOUN	_	_	12	obl	_	_
 11	سان	_	ADP	_	_	12	advmod	_	_
 12	ملڻ	_	VERB	_	_	17	advcl	_	_
-13	کان	_	ADP	_	_	14	case	_	_
-14	سواءِ	_	ADV	_	_	17	advcl	_	_
+13	کان	_	ADP	_	_	12	mark	_	_
+14	سواءِ	_	ADP	_	_	13	fixed	_	_
 15	گهر	_	NOUN	_	_	17	obl	_	_
 16	ڏانهن	_	ADV	_	_	15	case	_	_
 17	هليو	_	VERB	_	_	6	conj	_	_
@@ -4375,9 +4375,9 @@
 # sent_id = 240
 # text = نانگ ديوتا کان سواءِ رهيل ٻين سڀني ديوتائن اهو حڪم مڃڻ قبوليو.
 1	نانگ	_	NOUN	_	_	2	nmod	_	_
-2	ديوتا	_	NOUN	_	_	4	nmod	_	_
+2	ديوتا	_	NOUN	_	_	12	obl	_	_
 3	کان	_	ADP	_	_	2	case	_	_
-4	سواءِ	_	ADV	_	_	8	amod	_	_
+4	سواءِ	_	ADP	_	_	3	fixed	_	_
 5	رهيل	_	VERB	_	_	8	amod	_	_
 6	ٻين	_	ADJ	_	_	8	amod	_	_
 7	سڀني	_	ADJ	_	_	8	nummod	_	_
@@ -5104,18 +5104,18 @@
 4	۽	_	CCONJ	_	_	5	cc	_	_
 5	حڪومت	_	NOUN	_	_	3	conj	_	_
 6	کي	_	ADP	_	_	7	compound	_	_
-7	بچائڻ	_	VERB	_	_	18	advcl	_	_
+7	بچائڻ	_	VERB	_	_	15	advcl	_	_
 8	جو	_	ADP	_	_	7	mark	_	_
-9	ان	_	DET	_	_	11	obl	_	_
-10	کان	_	ADP	_	_	9	det	_	_
-11	سواءِ	_	ADV	_	_	7	advmod	_	_
+9	ان	_	DET	_	_	15	obl	_	_
+10	کان	_	ADP	_	_	9	case	_	_
+11	سواءِ	_	ADP	_	_	10	fixed	_	_
 12	ٻيو	_	ADJ	_	_	15	amod	_	_
 13	ڪو	_	DET	_	_	15	det	_	_
 14	به	_	PART	_	_	13	advmod:emph	_	_
-15	طريقو	_	NOUN	_	_	18	nsubj	_	_
-16	ڪو	_	DET	_	_	18	det	_	_
-17	نه	_	PART	_	_	18	aux	_	_
-18	هو	_	AUX	_	_	0	root	_	SpaceAfter=No
+15	طريقو	_	NOUN	_	_	0	root	_	_
+16	ڪو	_	PART	_	_	15	advmod	_	_
+17	نه	_	PART	_	_	16	fixed	_	_
+18	هو	_	AUX	_	_	15	cop	_	SpaceAfter=No
 19	.	_	PUNCT	_	_	18	punct	_	_
 
 # sent_id = 281
@@ -9252,11 +9252,11 @@
 # sent_id = 514
 # text = هاڻي ڍڳن کان سواءِ هر ڪيئن هلندو؟ تنهنڪري مناسب ٿيندو ته اوهان مهرباني ڪري واپس وڃو ۽ خدا وٽان پوريءَ طرح ڳالهه سمجهي اچو ته سندس ڪهڙو حڪم مڃجي؟ انهيءَ تي شينهن ڪاوڙجي ڪڙميءَ کي چيو،
 1	هاڻي	_	ADV	_	_	7	advmod	_	_
-2	ڍڳن	_	NOUN	_	_	4	obl	_	_
+2	ڍڳن	_	NOUN	_	_	7	obl	_	_
 3	کان	_	ADP	_	_	2	case	_	_
-4	سواءِ	_	ADV	_	_	7	advmod	_	_
+4	سواءِ	_	ADP	_	_	3	fixed	_	_
 5	هر	_	DET	_	_	7	nsubj	_	_
-6	ڪيئن	_	ADV	_	_	7	obl	_	_
+6	ڪيئن	_	ADV	_	_	7	advmod	_	_
 7	هلندو	_	VERB	_	_	11	advcl	_	SpaceAfter=No
 8	؟	_	PUNCT	_	_	11	mark	_	_
 9	تنهنڪري	_	ADV	_	_	11	advmod	_	_
@@ -9270,7 +9270,7 @@
 17	وڃو	_	VERB	_	_	11	obj	_	_
 18	۽	_	CCONJ	_	_	24	cc	_	_
 19	خدا	_	PROPN	_	_	24	obl	_	_
-20	وٽان	_	ADP	_	_	24	mark	_	_
+20	وٽان	_	ADP	_	_	19	case	_	_
 21	پوريءَ	_	ADJ	_	_	22	amod	_	_
 22	طرح	_	NOUN	_	_	24	obl	_	_
 23	ڳالهه	_	NOUN	_	_	24	obj	_	_
@@ -9550,7 +9550,7 @@
 3	۽	_	CCONJ	_	_	5	cc	_	_
 4	ڏُٻرن	_	NOUN	_	_	5	nmod	_	_
 5	ڍڳن	_	NOUN	_	_	7	obj	_	_
-6	کي	_	ADP	_	_	7	mark	_	_
+6	کي	_	ADP	_	_	5	case	_	_
 7	بچائڻ	_	VERB	_	_	19	advcl	_	_
 8	لاءِ	_	ADP	_	_	7	mark	_	_
 9	شينهن	_	NOUN	_	_	15	iobj	_	_
@@ -9560,7 +9560,7 @@
 13	ملوڪ	_	NOUN	_	_	14	nmod	_	_
 14	ڍڳِي	_	NOUN	_	_	15	obj	_	_
 15	ڏيڻ	_	VERB	_	_	19	advcl	_	_
-16	مان	_	ADP	_	_	19	mark	_	_
+16	مان	_	ADP	_	_	15	mark	_	_
 17	تنهنجو	_	PRON	_	_	18	nmod	_	_
 18	مطلب	_	NOUN	_	_	19	nsubj	_	_
 19	ڇا	_	PRON	_	_	0	root	_	_
@@ -9579,12 +9579,12 @@
 32	گهر	_	NOUN	_	_	41	obl	_	_
 33	۾	_	ADP	_	_	32	case	_	_
 34	گيهه	_	NOUN	_	_	35	nmod	_	_
-35	مڱڻ	_	VERB	_	_	41	obl	_	_
+35	مڱڻ	_	NOUN	_	_	41	obl	_	_
 36	کان	_	ADP	_	_	35	case	_	_
-37	سواءِ	_	ADV	_	_	35	obl	_	_
+37	سواءِ	_	ADP	_	_	36	fixed	_	_
 38	رڌ	_	NOUN	_	_	39	nmod	_	_
 39	پچاءُ	_	NOUN	_	_	41	obj	_	_
-40	ڪيئن	_	ADV	_	_	41	obl	_	_
+40	ڪيئن	_	ADV	_	_	41	advmod	_	_
 41	ٿيندو	_	VERB	_	_	29	conj	_	SpaceAfter=No
 42	؟	_	PUNCT	_	_	45	punct	_	_
 43	ڪڙميءَ	_	NOUN	_	_	45	nsubj	_	_
@@ -9596,21 +9596,21 @@
 # text = پر تون ئي ٻڌاءِ ته اناج کان سواءِ ماني ڪيئن ٺهي سگهندي؟ ڇا ڍڳن کان سواءِ اسان کي اناج ملي سگهي ٿو؟ ۽ ڇا هر هلائڻ کان سواءِ ٻنيءَ مان فصل حاصل ڪري سگهجي ٿو؟ ڏُڌ مکڻ کان سواءِ گذارو ڪيئن ٿي سگهندو.
 1	پر	_	SCONJ	_	_	4	mark	_	_
 2	تون	_	PRON	_	_	4	nsubj	_	_
-3	ئي	_	ADP	_	_	4	mark	_	_
+3	ئي	_	PART	_	_	2	advmod:emph	_	_
 4	ٻڌاءِ	_	VERB	_	_	0	root	_	_
 5	ته	_	SCONJ	_	_	11	mark	_	_
 6	اناج	_	NOUN	_	_	11	obl	_	_
-7	کان	_	ADP	_	_	11	mark	_	_
-8	سواءِ	_	ADV	_	_	11	advmod	_	_
+7	کان	_	ADP	_	_	6	case	_	_
+8	سواءِ	_	ADP	_	_	7	fixed	_	_
 9	ماني	_	NOUN	_	_	11	obj	_	_
-10	ڪيئن	_	ADV	_	_	11	obl	_	_
+10	ڪيئن	_	ADV	_	_	11	advmod	_	_
 11	ٺهي	_	VERB	_	_	4	obj	_	_
 12	سگهندي	_	AUX	_	_	11	compound	_	SpaceAfter=No
 13	؟	_	PUNCT	_	_	11	mark	_	_
 14	ڇا	_	PRON	_	_	21	obl	_	_
-15	ڍڳن	_	NOUN	_	_	17	obl	_	_
+15	ڍڳن	_	NOUN	_	_	21	obl	_	_
 16	کان	_	ADP	_	_	15	case	_	_
-17	سواءِ	_	ADV	_	_	21	advcl	_	_
+17	سواءِ	_	ADP	_	_	16	fixed	_	_
 18	اسان	_	PRON	_	_	21	obj	_	_
 19	کي	_	ADP	_	_	18	case	_	_
 20	اناج	_	NOUN	_	_	21	obj	_	_
@@ -9622,8 +9622,8 @@
 26	ڇا	_	PRON	_	_	28	obl	_	_
 27	هر	_	DET	_	_	28	obj	_	_
 28	هلائڻ	_	VERB	_	_	35	advcl	_	_
-29	کان	_	ADP	_	_	35	obl	_	_
-30	سواءِ	_	ADV	_	_	28	advmod	_	_
+29	کان	_	ADP	_	_	28	mark	_	_
+30	سواءِ	_	ADP	_	_	29	fixed	_	_
 31	ٻنيءَ	_	NOUN	_	_	35	obl	_	_
 32	مان	_	ADP	_	_	35	mark	_	_
 33	فصل	_	NOUN	_	_	35	obj	_	_
@@ -9633,11 +9633,11 @@
 37	ٿو	_	AUX	_	_	35	aux	_	SpaceAfter=No
 38	؟	_	PUNCT	_	_	35	mark	_	_
 39	ڏُڌ	_	NOUN	_	_	40	nmod	_	_
-40	مکڻ	_	VERB	_	_	42	obl	_	_
+40	مکڻ	_	VERB	_	_	45	obl	_	_
 41	کان	_	ADP	_	_	40	case	_	_
-42	سواءِ	_	ADV	_	_	45	advmod	_	_
+42	سواءِ	_	ADP	_	_	41	fixed	_	_
 43	گذارو	_	NOUN	_	_	45	nsubj	_	_
-44	ڪيئن	_	ADV	_	_	45	obl	_	_
+44	ڪيئن	_	ADV	_	_	45	advmod	_	_
 45	ٿي	_	AUX	_	_	35	advcl	_	_
 46	سگهندو	_	AUX	_	_	45	aux	_	SpaceAfter=No
 47	.	_	PUNCT	_	_	45	punct	_	_
@@ -14449,9 +14449,9 @@
 # text = ماءُ ۽ پيءُ هن کي ڏسي سَرها ٿيندا هئا ۽ هڪ ٻئي کان پڇندا هئا ته ماليڪٽ کان سواءِ پاڻ ڪيئن رهي سگهنداسون؟ ماليڪٽ ائين به ڪندي هئي جو پنهنجي ننڍڙي ٻيڙيءَ ۾ چڙهي کاريءَ جي لڪل کاهين ۽ غارن جي ڳولا ۾ پري پري تائين نڪري ويندي هئي.
 1	ماءُ	_	NOUN	_	_	8	nsubj	_	_
 2	۽	_	CCONJ	_	_	3	cc	_	_
-3	پيءُ	_	NOUN	_	_	1	nmod	_	_
+3	پيءُ	_	NOUN	_	_	1	conj	_	_
 4	هن	_	DET	_	_	6	obj	_	_
-5	کي	_	ADP	_	_	6	obj	_	_
+5	کي	_	ADP	_	_	4	case	_	_
 6	ڏسي	_	VERB	_	_	8	advcl	_	_
 7	سَرها	_	NOUN	_	_	8	xcomp	_	_
 8	ٿيندا	_	VERB	_	_	0	root	_	_
@@ -14463,11 +14463,11 @@
 14	پڇندا	_	VERB	_	_	8	conj	_	_
 15	هئا	_	AUX	_	_	14	compound	_	_
 16	ته	_	SCONJ	_	_	22	mark	_	_
-17	ماليڪٽ	_	NOUN	_	_	19	obl	_	_
-18	کان	_	ADP	_	_	19	obl	_	_
-19	سواءِ	_	ADV	_	_	22	advmod	_	_
+17	ماليڪٽ	_	NOUN	_	_	22	obl	_	_
+18	کان	_	ADP	_	_	17	case	_	_
+19	سواءِ	_	ADP	_	_	18	fixed	_	_
 20	پاڻ	_	PRON	_	_	22	nsubj	_	_
-21	ڪيئن	_	ADV	_	_	22	obl	_	_
+21	ڪيئن	_	ADV	_	_	22	advmod	_	_
 22	رهي	_	VERB	_	_	14	advcl	_	_
 23	سگهنداسون	_	AUX	_	_	22	compound	_	SpaceAfter=No
 24	؟	_	PUNCT	_	_	28	punct	_	_
@@ -14480,7 +14480,7 @@
 31	پنهنجي	_	PRON	_	_	33	nmod	_	_
 32	ننڍڙي	_	ADJ	_	_	33	amod	_	_
 33	ٻيڙيءَ	_	NOUN	_	_	35	obl	_	_
-34	۾	_	ADP	_	_	35	mark	_	_
+34	۾	_	ADP	_	_	33	case	_	_
 35	چڙهي	_	VERB	_	_	48	advcl	_	_
 36	کاريءَ	_	NOUN	_	_	39	nmod	_	_
 37	جي	_	ADP	_	_	36	case	_	_
@@ -15156,9 +15156,9 @@
 6	،	_	PUNCT	_	_	5	punct	_	_
 7	پر	_	SCONJ	_	_	5	mark	_	_
 8	پر	_	SCONJ	_	_	5	mark	_	_
-9	مون	_	PRON	_	_	11	obl	_	_
+9	مون	_	PRON	_	_	18	obl	_	_
 10	کان	_	ADP	_	_	9	case	_	_
-11	سواءِ	_	ADV	_	_	18	advcl	_	_
+11	سواءِ	_	ADP	_	_	10	fixed	_	_
 12	منهنجو	_	PRON	_	_	13	nmod	_	_
 13	بابا	_	NOUN	_	_	18	nsubj	_	_
 14	۽	_	CCONJ	_	_	15	cc	_	_
