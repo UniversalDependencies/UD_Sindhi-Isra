@@ -1,3 +1,4 @@
+import argparse
 import glob
 import io
 import os
@@ -45,6 +46,10 @@ def filter_duplicates(orig_doc, filter_doc):
 
 def main():
     random.seed(1234)
+    parser = argparse.ArgumentParser(description='Build a combined training document for a Sindhi tagger')
+    parser.add_argument('--retagged', default="extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/dependencies/sd_batch_3.conllu", help='File to retag')
+    parser.add_argument('--raw_retagged', default="sd_batch_3.conllu", help="Somewhere to write the filtered retag file")
+    args = parser.parse_args()
 
     noxpos_doc = read_directory("extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/dependencies/*")
     xpos_doc = read_directory("extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/xpos_features/*",
@@ -57,7 +62,10 @@ def main():
 
     # read one specific doc with the intention of training on it exactly,
     # so we keep the UPOS close to the original
-    filter_doc = read_directory("extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/dependencies/sd_batch_4.800.conllu")
+    filter_doc = read_directory(args.retagged)
+    print("Doc to be tagged, before filtering: %d sentences" % len(filter_doc.sentences))
+    filter_doc = filter_duplicates(filter_doc, xpos_doc)
+    print("Doc to be tagged, after filtering: %d sentences" % len(filter_doc.sentences))
     noxpos_doc = filter_duplicates(noxpos_doc, filter_doc)
 
     train, dev, test = random_split(xpos_doc, weights=(0.8, 0.1, 0.1))
@@ -67,9 +75,10 @@ def main():
     output_directory = "data/pos"
     shortname = "sd_isra"
 
+    if args.raw_retagged:
+        CoNLL.write_doc2conll(filter_doc, args.raw_retagged)
     CoNLL.write_doc2conll(dev, os.path.join(output_directory, "%s.dev.in.conllu" % shortname))
     CoNLL.write_doc2conll(test, os.path.join(output_directory, "%s.test.in.conllu" % shortname))
-    # TODO: write to the zip file
     with zipfile.ZipFile(os.path.join(output_directory, "%s.train.in.zip" % shortname), "w") as zout:
         with zout.open("sd_isra_train.in.conllu", mode='w') as fout:
             with io.TextIOWrapper(fout, encoding="utf-8") as tout:
