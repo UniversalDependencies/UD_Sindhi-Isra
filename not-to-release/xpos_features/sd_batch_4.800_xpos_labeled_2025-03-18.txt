@@ -364,7 +364,7 @@
 4	BT	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 5	جا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	4	case	_	_
 6	بوٿ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	obj	_	_
-7	ڏسي	_	VERB	VM	VerbForm=Conv|Voice=Act	9	advcl	_	_
+7	ڏسي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	9	advcl	_	_
 8	حيرت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	xcomp	_	_
 9	پئي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 10	ٿي	_	AUX	VAUX	AuxType=Be|Gender=Fem|Number=Sing	9	aux	_	_
@@ -635,7 +635,7 @@
 # text = ڪنهن آتشبازي ڪري آسمان کي لال ڪيو،
 1	ڪنهن	_	PRON	PRWH	Number=Sing	3	nsubj	_	_
 2	آتشبازي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	compound	_	_
-3	ڪري	_	VERB	VM	VerbForm=Conv	7	advcl	_	_
+3	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
 4	آسمان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 5	کي	_	ADP	PSP	_	4	case	_	_
 6	لال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	xcomp	_	_
@@ -656,7 +656,7 @@
 10	۽	_	CCONJ	CC	_	12	cc	_	_
 11	ڳاڙهو	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	12	amod	_	_
 12	ليبل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
-13	کڻي	_	VERB	VM	VerbForm=Conv	16	advcl	_	_
+13	کڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	16	advcl	_	_
 14	دماغ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	_
 15	گرم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	compound	_	_
 16	ڪيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	advcl	_	SpaceAfter=No
@@ -772,7 +772,7 @@
 13	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	12	case	_	_
 14	سرڪار	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
 15	۾	_	ADP	PSP	Type=Loc	14	case	_	_
-16	پهچي	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	18	advcl	_	_
+16	پهچي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	18	advcl	_	_
 17	سڀ	_	ADJ	JJ	Case=Nom|Number=Plur	18	nsubj	_	_
 18	هڪ	_	ADJ	JJ	Case=Nom	7	nmod	_	_
 19	ٿي	_	AUX	VAUX	AuxType=Be	18	cop	_	_
@@ -894,7 +894,7 @@
 41	ٻين	_	ADJ	JJO	Case=Acc|Number=Plur	42	amod	_	_
 42	ملڪن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	44	obl	_	_
 43	۾	_	ADP	PSP	Type=Loc	42	case	_	_
-44	وڪڻي	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	47	advcl	_	_
+44	وڪڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	47	advcl	_	_
 45	منافعو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	47	obj	_	_
 46	به	_	PART	PART	_	45	advmod:emph	_	_
 47	ڪمائي	_	VERB	VM	Aspect=Imp|Voice=Act	38	advcl	_	_
@@ -1144,7 +1144,7 @@
 26	وڌندڙ	_	ADJ	JJ	Case=Nom|Degree=Pos	27	amod	_	_
 27	آبادي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
 28	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	27	case	_	_
-29	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	40	advcl	_	_
+29	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	40	advcl	_	_
 30	هي	_	DET	PRD	Case=Nom|Number=Sing	31	det	_	_
 31	اضافو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_
 32	ملڪ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	nmod	_	_
@@ -1554,7 +1554,7 @@
 # text = آبادگار ڄاڻي واڻي ڪمند جي پيداوار گهٽ ڪن ٿا ته جيئن حڪومت جي طئي ڪيل سپورٽ پرائس کان وڌيڪ قيمت تي پنهنجو ڪمند وڪرو ڪن.
 1	آبادگار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 2	ڄاڻي	_	VERB	VM	Aspect=Imp	3	advcl	_	_
-3	واڻي	_	VERB	VM	Aspect=Imp|VerbForm=Conv	8	advcl	_	_
+3	واڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
 4	ڪمند	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 5	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	4	case	_	_
 6	پيداوار	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_
@@ -1617,7 +1617,7 @@
 5	ڏينهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 6	250	_	NUM	NUM	_	8	advmod	_	_
 7	مان	_	ADP	PSP	Type=Loc	6	case	_	_
-8	گهٽجي	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	10	advcl	_	_
+8	گهٽجي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	10	advcl	_	_
 9	120	_	NUM	NUM	_	10	advmod	_	_
 10	ٿي	_	AUX	VAUX	AuxType=Be|Number=Sing	0	root	_	_
 11	ويا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	10	compound	_	SpaceAfter=No
@@ -2166,7 +2166,7 @@
 7	ڏڪار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 8	سبب	_	ADP	PSP	_	7	case	_	_
 9	ماڻهو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
-10	مري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	0	root	_	_
+10	مري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 11	ويا	_	VERB	VM	Aspect=Perf|Number=Plur	10	compound	_	_
 12	اُتي	_	ADV	ADT	_	10	mark	_	_
 13	دنيا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
@@ -2661,7 +2661,7 @@
 44	کي	_	ADP	PSP	_	43	case	_	_
 45	به	_	PART	PART	_	43	advmod:emph	_	_
 46	شامل	_	NOUN	NN	Case=Nom|Number=Sing	47	compound	_	_
-47	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	53	advcl	_	_
+47	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	53	advcl	_	_
 48	ناڻي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	50	nmod	_	_
 49	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	48	case	_	_
 50	ورڇ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	53	obl	_	_
@@ -4757,7 +4757,7 @@
 35	سبب	_	ADP	PSP	_	34	case	_	_
 36	ڊپ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	obl	_	_
 37	وچان	_	ADV	ADP	_	38	advmod	_	_
-38	ڀڄي	_	VERB	VM	Aspect=Imp|VerbForm=Conv	29	advcl	_	_
+38	ڀڄي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	29	advcl	_	_
 39	وڃن	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	38	compound	_	_
 40	ها	_	AUX	VAUX	Number=Plur|Tense=Past	38	aux	_	_
 41	۽	_	CCONJ	CC	_	45	cc	_	_
@@ -5078,7 +5078,7 @@
 52	سرگرمي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	54	nmod	_	_
 53	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	52	case	_	_
 54	مظاهرو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	55	compound	_	_
-55	ڪندي	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	66	advcl	_	_
+55	ڪندي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	66	advcl	_	_
 56	سرڪار	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	58	nmod	_	_
 57	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	56	case	_	_
 58	اعتماد	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	63	obj	_	_
@@ -5180,7 +5180,7 @@
 23	کي	_	ADP	PSP	_	22	case	_	_
 24	جلد	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	advmod	_	_
 25	هٿيڪو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	compound	_	_
-26	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	29	advcl	_	_
+26	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	29	advcl	_	_
 27	منظرعام	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
 28	تي	_	ADP	PSP	Type=Loc	27	case	_	_
 29	آڻيندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	SpaceAfter=No
@@ -5228,7 +5228,7 @@
 5	مضبوط	_	ADJ	JJ	Case=Nom|Degree=Pos	7	compound	_	_
 6	نه	_	PART	PART	_	7	dep	_	_
 7	هجڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	17	advcl	_	_
-8	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	17	advcl	_	_
+8	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	17	advcl	_	_
 9	دهشتگردي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
 10	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	9	case	_	_
 11	نيٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	_
@@ -5654,7 +5654,7 @@
 48	لوهي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	49	nmod	_	_
 49	ِگرل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	51	obj	_	_
 50	کي	_	ADP	PSP	_	49	case	_	_
-51	ڪيرائي	_	VERB	VM	VerbForm=Conv	53	advcl	_	_
+51	ڪيرائي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	53	advcl	_	_
 52	اڳتي	_	ADV	ADP	_	53	advmod	_	_
 53	وڌيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	35	advcl	_	_
 54	ته	_	SCONJ	CS	_	53	mark	_	_
@@ -5664,7 +5664,7 @@
 58	رينجرز	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	59	nmod	_	_
 59	اهلڪار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	61	obl	_	_
 60	ڏانهن	_	ADV	ADP	_	59	case	_	_
-61	وٺي	_	VERB	VM	VerbForm=Conv	53	advcl	_	_
+61	وٺي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	53	advcl	_	_
 62	ويا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	61	compound	_	_
 63	اتي	_	ADV	ADT	_	69	advmod	_	_
 64	حملي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	65	nmod	_	_
@@ -5672,7 +5672,7 @@
 66	سان	_	ADP	PSP	_	65	case	_	_
 67	پاڻ	_	PRON	PRP	Case=Acc|Person=1	69	obj	_	_
 68	کي	_	ADP	PSP	_	67	case	_	_
-69	اڌائي	_	VERB	VM	VerbForm=Conv	61	advcl	_	_
+69	اڌائي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	61	advcl	_	_
 70	ڇڏيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	69	compound	_	SpaceAfter=No
 71	.	_	PUNCT	PUNCT	_	69	punct	_	_
 
@@ -5729,7 +5729,7 @@
 9	ِگرلون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
 10	،	_	PUNCT	PUNCT	_	11	punct	_	_
 11	ڪناتون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	conj	_	_
-12	ڪيرائي	_	VERB	VM	Aspect=Imp|VerbForm=Conv	18	advcl	_	_
+12	ڪيرائي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	18	advcl	_	_
 13	گلين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	obl	_	_
 14	(	_	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 15	گهٽين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
@@ -6289,7 +6289,7 @@
 4	باهيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	obj	_	_
 5	ڏئي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
 6	سامان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
-7	ڦري	_	VERB	VM	VerbForm=Conv	9	advcl	_	_
+7	ڦري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
 8	فائرنگ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	_
 9	ڪندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	_
 10	رهيا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	9	compound	_	SpaceAfter=No
@@ -6921,7 +6921,7 @@
 63	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	62	cop	_	_
 64	جيڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	66	det	_	_
 65	ڪاهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	66	obl	_	_
-66	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	78	advcl	_	_
+66	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	78	advcl	_	_
 67	ڪراچيءَ	_	PROPN	NNP	Case=Nom|Gender=Masc	71	nmod	_	_
 68	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	67	case	_	_
 69	مکيه	_	ADJ	JJ	Case=Nom|Degree=Pos	71	amod	_	_
@@ -7345,7 +7345,7 @@
 39	حڪومت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	42	obj	_	_
 40	کي	_	ADP	PSP	_	39	case	_	_
 41	فيل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	42	obl	_	_
-42	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	53	advcl	_	_
+42	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	53	advcl	_	_
 43	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	46	nmod	_	_
 44	غير	_	ADJ	JJ	Case=Nom|Degree=Pos	46	amod	_	_
 45	جمهوري	_	ADJ	JJ	Case=Nom|Degree=Pos	46	amod	_	_
@@ -8406,7 +8406,7 @@
 14	ڏکڻ	_	PROPN	NNP	Case=Nom|Gender=Masc	15	compound	_	_
 15	وزيرستان	_	PROPN	NNP	Case=Nom|Gender=Masc	17	obl	_	_
 16	۾	_	ADP	PSP	Type=Loc	15	case	_	_
-17	وڃي	_	VERB	VM	Aspect=Imp|VerbForm=Conv	19	advcl	_	_
+17	وڃي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
 18	پناهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	compound	_	_
 19	ورتي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	8	conj	_	_
 20	هئي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Past	19	aux	_	SpaceAfter=No
@@ -9293,7 +9293,7 @@
 47	ڪلنٽن	_	PROPN	NNP	Case=Nom|Gender=Masc	52	nsubj	_	_
 48	سٺا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	49	amod	_	_
 49	جذبا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	50	obj	_	_
-50	کڻي	_	VERB	VM	VerbForm=Conv	52	advcl	_	_
+50	کڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	52	advcl	_	_
 51	پاڪستان	_	PROPN	NNP	Case=Nom|Gender=Masc	52	obl	_	_
 52	آئي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	43	obj	_	_
 53	۽	_	CCONJ	CC	_	60	cc	_	_
@@ -9848,7 +9848,7 @@
 4	او	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 5	جهڙيون	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Plur|Type=Gen	4	case	_	_
 6	شيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	obj	_	_
-7	کڻي	_	VERB	VM	VerbForm=Conv	0	root	_	_
+7	کڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 8	آيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	7	compound	_	SpaceAfter=No
 9	،	_	PUNCT	PUNCT	_	7	punct	_	_
 
@@ -9873,7 +9873,7 @@
 7	۽	_	CCONJ	CC	_	9	cc	_	_
 8	سمورو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
 9	زور	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
-10	لڳائي	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	12	advcl	_	_
+10	لڳائي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	12	advcl	_	_
 11	ختم	_	ADJ	JJ	Case=Nom|Degree=Pos	12	compound	_	_
 12	ڪيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 13	هو	_	AUX	VAUX	Number=Sing|Tense=Past	12	aux	_	_
@@ -9889,7 +9889,7 @@
 23	ان	_	DET	PRD	Case=Acc|Number=Sing	26	obl	_	_
 24	خلاف	_	ADP	PSP	_	23	case	_	_
 25	هٿ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	obj	_	_
-26	کڻي	_	VERB	VM	VerbForm=Conv	28	advcl	_	_
+26	کڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	28	advcl	_	_
 27	ووٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	compound	_	_
 28	ڏنو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	17	acl	_	_
 29	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	28	aux	_	SpaceAfter=No
@@ -9962,7 +9962,7 @@
 45	۽	_	CCONJ	CC	_	50	cc	_	_
 46	آئون	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	50	nsubj	_	_
 47	پاڻ	_	PRON	PRP	Case=Acc	48	obj	_	_
-48	وڃي	_	VERB	VM	VerbForm=Conv	50	advcl	_	_
+48	وڃي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	50	advcl	_	_
 49	ملاقات	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	50	compound	_	_
 50	ڪندس	_	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	43	conj	_	SpaceAfter=No
 51	،	_	PUNCT	PUNCT	_	50	punct	_	_
@@ -10234,7 +10234,7 @@
 31	الڳ	_	ADJ	JJ	Case=Nom|Degree=Pos	33	amod	_	_
 32	الڳ	_	ADJ	JJ	Case=Nom|Degree=Pos	33	amod	_	_
 33	جائزو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	compound	_	_
-34	وٺي	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	36	advcl	_	_
+34	وٺي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	36	advcl	_	_
 35	تجويزون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	36	obj	_	_
 36	ڏيندي	_	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart|Voice=Act	19	advcl	_	SpaceAfter=No
 37	،	_	PUNCT	PUNCT	_	36	punct	_	_
@@ -10276,7 +10276,7 @@
 9	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	8	case	_	_
 10	مقرري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
 11	رد	_	NOUN	NN	Case=Nom|Number=Sing	12	compound	_	_
-12	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	15	advcl	_	_
+12	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	15	advcl	_	_
 13	کين	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	15	obj	_	_
 14	گهر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	_
 15	موڪليو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
@@ -10862,7 +10862,7 @@
 34	وڏن	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	35	amod	_	_
 35	شهرن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	37	obl	_	_
 36	خاص	_	ADJ	JJ	Case=Nom|Degree=Pos	37	compound	_	_
-37	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	70	advcl	_	_
+37	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	70	advcl	_	_
 38	ڪراچي	_	PROPN	NNP	Case=Acc|Gender=Masc	41	nmod	_	_
 39	۾	_	ADP	PSP	Type=Loc	38	case	_	_
 40	آپگهاتي	_	ADJ	JJ	Case=Nom|Degree=Pos	41	amod	_	_
@@ -11097,7 +11097,7 @@
 17	شهري	_	ADJ	JJ	Case=Nom|Degree=Pos	18	amod	_	_
 18	علائقن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	obl	_	_
 19	خاص	_	ADJ	JJ	Case=Nom|Degree=Pos	20	compound	_	_
-20	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	36	advcl	_	_
+20	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	36	advcl	_	_
 21	ڪراچي	_	PROPN	NNP	Case=Acc|Gender=Masc	36	obl	_	_
 22	۾	_	ADP	PSP	Type=Loc	21	case	_	_
 23	بمبارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	nmod	_	_
@@ -11264,7 +11264,7 @@
 29	صوبي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	32	obl	_	_
 30	اندر	_	ADV	ADM	_	32	advmod	_	_
 31	خاص	_	ADJ	JJ	Case=Nom|Degree=Pos	32	obl	_	_
-32	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	38	advcl	_	_
+32	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	38	advcl	_	_
 33	مذهبي	_	ADJ	JJ	Case=Nom|Degree=Pos	34	amod	_	_
 34	انتها	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	35	nmod	_	_
 35	پسندن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	38	obj	_	_
@@ -11922,7 +11922,7 @@
 9	جوانن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
 10	کي	_	ADP	PSP	_	9	case	_	_
 11	اغوا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	compound	_	_
-12	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	14	advcl	_	_
+12	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
 13	قتل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	compound	_	_
 14	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	17	acl	_	_
 15	جهڙي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	17	amod	_	_
@@ -12110,7 +12110,7 @@
 12	نوٽيفڪيشن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
 13	۾	_	ADP	PSP	Type=Loc	12	case	_	_
 14	ترميم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	_
-15	ڪندي	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	36	advcl	_	_
+15	ڪندي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	36	advcl	_	_
 16	وڏي	_	ADJ	JJ	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	17	compound	_	_
 17	وزير	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	_
 18	پاران	_	ADP	PSP	Type=Loc	17	case	_	_
@@ -12191,7 +12191,7 @@
 15	انتظاميا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
 16	سان	_	ADP	PSP	_	15	case	_	_
 17	رابطو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
-18	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	21	advcl	_	_
+18	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	21	advcl	_	_
 19	مٿن	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	21	obl	_	_
 20	زور	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	compound	_	_
 21	ڏنو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
@@ -12222,7 +12222,7 @@
 1	ان	_	DET	PRD	Case=Acc|Number=Sing	4	obj	_	_
 2	کي	_	ADP	PSP	_	1	case	_	_
 3	ٺيڪ	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	compound	_	_
-4	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	7	advcl	_	_
+4	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
 5	ٻيهر	_	ADV	ADV	_	7	advmod	_	_
 6	جاري	_	VERB	VM	Aspect=Imp|Voice=Act	7	xcomp	_	_
 7	ڪيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
@@ -12520,7 +12520,7 @@
 5	گاڏين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_
 6	تي	_	ADP	PSP	Type=Loc	5	case	_	_
 7	پٿراءُ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	_
-8	ڪندي	_	VERB	VM	Aspect=Imp|VerbForm=Conv	11	advcl	_	_
+8	ڪندي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
 9	ٽريفڪ	_	NOUN	NN	Case=Nom|Number=Sing	11	obj	_	_
 10	معطل	_	NOUN	NN	Case=Nom|Number=Sing	11	xcomp	_	_
 11	ڪري	_	VERB	VM	Aspect=Imp	0	root	_	_
@@ -12633,7 +12633,7 @@
 23	تي	_	ADP	PSP	Type=Loc	22	case	_	_
 24	ماڻهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	obj	_	_
 25	قبضا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	obl	_	_
-26	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	32	advcl	_	_
+26	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	32	advcl	_	_
 27	مختلف	_	ADJ	JJ	Case=Nom|Degree=Pos	28	amod	_	_
 28	مانڊڙيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	29	obj	_	_
 29	لڳائي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	32	advcl	_	_
@@ -12995,7 +12995,7 @@
 35	ويل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart	36	amod	_	_
 36	رڪارڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	38	obj	_	_
 37	هٿ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	38	compound	_	_
-38	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	40	advcl	_	_
+38	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	40	advcl	_	_
 39	پيش	_	VERB	VM	Aspect=Imp	40	compound	_	_
 40	ٿيڻ	_	VERB	VM	VerbForm=Inf	42	nmod	_	_
 41	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	40	mark	_	_
@@ -13404,7 +13404,7 @@
 67	وزارت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	70	obj	_	_
 68	کي	_	ADP	PSP	_	67	case	_	_
 69	غور	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	70	compound	_	_
-70	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	72	advcl	_	_
+70	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	72	advcl	_	_
 71	آگاهي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	72	obj	_	_
 72	ڏيڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	74	nmod	_	_
 73	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	72	mark	_	_
@@ -13451,7 +13451,7 @@
 9	مختلف	_	ADJ	JJ	Case=Nom|Degree=Pos	10	amod	_	_
 10	ڌرين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	obl	_	_
 11	خاص	_	ADJ	JJ	Case=Nom|Degree=Pos	12	obl	_	_
-12	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	50	advcl	_	_
+12	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	50	advcl	_	_
 13	اتحادي	_	ADJ	JJ	Case=Nom|Degree=Pos	14	amod	_	_
 14	ڌرين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	28	obl	_	_
 15	پاران	_	ADP	PSP	Type=Loc	14	case	_	_
@@ -14646,7 +14646,7 @@
 57	رقم	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	60	obl	_	_
 58	۾	_	ADP	PSP	Type=Loc	57	case	_	_
 59	واڌارو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	60	compound	_	_
-60	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	66	advcl	_	_
+60	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	66	advcl	_	_
 61	کين	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	66	obj	_	_
 62	عيد	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	64	nmod	_	_
 63	کان	_	ADP	PSP	_	62	case	_	_
@@ -16175,7 +16175,7 @@
 5	اغوا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 6	بعد	_	ADP	PSP	_	5	case	_	_
 7	قتل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	_
-8	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	13	advcl	_	_
+8	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
 9	لاش	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 10	رائيس	_	PROPN	NNP	Case=Nom|Gender=Masc	11	nmod	_	_
 11	ڪئنال	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
@@ -16212,7 +16212,7 @@
 4	پني	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 5	تي	_	ADP	PSP	Type=Loc	4	case	_	_
 6	صحيحون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	obj	_	_
-7	وٺي	_	VERB	VM	VerbForm=Conv	11	advcl	_	_
+7	وٺي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
 8	لاش	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
 9	ايڌي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 10	حوالي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	xcomp	_	_
@@ -16279,7 +16279,7 @@
 34	مامري	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	36	nmod	_	_
 35	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	34	case	_	_
 36	جاچ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	37	compound	_	_
-37	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	48	advcl	_	_
+37	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	48	advcl	_	_
 38	3	_	NUM	NUM	_	39	nummod	_	_
 39	نومبر	_	PROPN	NNP	Case=Nom|Gender=Fem	40	nummod	_	_
 40	2009ع	_	NUM	NUM	_	45	obl	_	_
@@ -16647,7 +16647,7 @@
 8	سازش	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 9	تحت	_	ADP	PSP	Type=Loc	8	case	_	_
 10	قتل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	compound	_	_
-11	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	16	advcl	_	_
+11	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	16	advcl	_	_
 12	لاش	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 13	رائيس	_	PROPN	NNP	Case=Nom|Gender=Masc	14	compound	_	_
 14	ڪئنال	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
@@ -16781,7 +16781,7 @@
 22	ڪلهوڙو	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
 23	کي	_	ADP	PSP	_	22	case	_	_
 24	گوليون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	25	obj	_	_
-25	هڻي	_	VERB	VM	VerbForm=Conv	27	advcl	_	_
+25	هڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	27	advcl	_	_
 26	مرڻينگ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	compound	_	_
 27	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 28	ڇڏيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	27	compound	_	SpaceAfter=No
@@ -16822,7 +16822,7 @@
 2	ترن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
 3	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	2	case	_	_
 4	فصل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
-5	کڻي	_	VERB	VM	VerbForm=Conv	0	root	_	_
+5	کڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 6	رهيا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	5	compound	_	_
 7	هئاسين	_	AUX	VAUX	Number=Plur|Person=1|Tense=Pres	5	aux	_	_
 8	ته	_	SCONJ	CS	_	5	mark	_	_
@@ -17036,7 +17036,7 @@
 16	ملڻ	_	VERB	VM	VerbForm=Inf	19	advcl	_	_
 17	خلاف	_	ADP	PSP	_	16	mark	_	_
 18	احتجاج	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	_
-19	ڪندي	_	VERB	VM	Aspect=Imp|VerbForm=Conv	25	advcl	_	_
+19	ڪندي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	25	advcl	_	_
 20	حاضري	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
 21	تي	_	ADP	PSP	Type=Loc	20	case	_	_
 22	وڃڻ	_	VERB	VM	VerbForm=Inf	25	advcl	_	_
@@ -17063,7 +17063,7 @@
 43	نامعلوم	_	ADJ	JJ	Case=Nom|Degree=Pos	40	conj	_	_
 44	کي	_	ADP	PSP	_	43	case	_	_
 45	يرغمال	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	46	obl	_	_
-46	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	50	advcl	_	_
+46	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	50	advcl	_	_
 47	بيرڪ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	50	obl	_	_
 48	۾	_	ADP	PSP	Type=Loc	47	case	_	_
 49	بند	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	50	obl	_	_
@@ -17110,7 +17110,7 @@
 35	عدالت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	36	obj	_	_
 36	موڪلڻ	_	VERB	VM	VerbForm=Inf	39	advcl	_	_
 37	لاءِ	_	ADP	PSP	_	36	mark	_	_
-38	ٻاھر	_	VERB	VM	VerbForm=Conv	39	xcomp	_	_
+38	ٻاھر	_	VERB	VM	Aspect=Perf|VerbForm=Conv	39	xcomp	_	_
 39	ڪڍيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	14	advcl	_	SpaceAfter=No
 40	،	_	PUNCT	PUNCT	_	39	punct	_	_
 41	ھڪ	_	ADJ	JJ	Case=Nom|Number=Sing	42	amod	_	_
@@ -17224,7 +17224,7 @@
 8	سپاھي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 9	جھيڙي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 10	دوران	_	ADP	PSP	_	9	case	_	_
-11	ڀڄي	_	VERB	VM	VerbForm=Conv	0	root	_	_
+11	ڀڄي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 12	ويو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	11	compound	_	SpaceAfter=No
 13	،	_	PUNCT	PUNCT	_	11	punct	_	_
 
@@ -19197,7 +19197,7 @@
 4	پنجاب	_	PROPN	NNP	Case=Nom|Gender=Masc	6	obl	_	_
 5	مان	_	ADP	PSP	Type=Loc	4	case	_	_
 6	لڏي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
-7	اچي	_	VERB	VM	VerbForm=Conv	6	compound	_	_
+7	اچي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	6	compound	_	_
 8	گيهلپور	_	PROPN	NNP	Case=Nom|Gender=Masc	12	obl	_	_
 9	۾	_	ADP	PSP	Type=Loc	8	case	_	_
 10	رهائش	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -19489,7 +19489,7 @@
 26	فيصلي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
 27	تي	_	ADP	PSP	Type=Loc	26	case	_	_
 28	عمل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	obl	_	_
-29	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	35	advcl	_	_
+29	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	35	advcl	_	_
 30	هڪ	_	ADJ	JJC	Case=Nom|Number=Sing	31	nummod	_	_
 31	هفتي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	obl	_	_
 32	اندر	_	ADV	ADM	_	35	advmod	_	_
@@ -20009,7 +20009,7 @@
 25	هت	_	ADV	ADT	_	28	advmod	_	_
 26	ڏهرڪي	_	PROPN	NNP	Case=Nom|Gender=Masc	28	obl	_	_
 27	۾	_	ADP	PSP	Type=Loc	26	case	_	_
-28	اچي	_	VERB	VM	VerbForm=Conv	32	obj	_	_
+28	اچي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	32	obj	_	_
 29	ترسيس	_	VERB	VMX	Aspect=Perf|Number=Sing|Person=3	28	compound	_	SpaceAfter=No
 30	،	_	PUNCT	PUNCT	_	28	punct	_	_
 31	هن	_	DET	PRD	Case=Acc|Number=Sing	32	nsubj	_	_
@@ -20200,7 +20200,7 @@
 23	کي	_	ADP	PSP	_	22	case	_	_
 24	اغوا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	xcomp	_	_
 25	ڪري	_	VERB	VM	Aspect=Imp	26	xcomp	_	_
-26	کڻي	_	VERB	VM	VerbForm=Conv	12	advcl	_	_
+26	کڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
 27	وينداسين	_	VERB	VMX	Aspect=Imp|Gender[subj]=Masc|Number=Plur|Number[subj]=Plur|Person=3|Person[subj]=1	26	compound	_	SpaceAfter=No
 28	،	_	PUNCT	PUNCT	_	30	punct	_	_
 29	هن	_	DET	PRD	Case=Acc|Number=Sing	30	nsubj	_	_
@@ -20345,7 +20345,7 @@
 20	نئون	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	amod	_	_
 21	ڪوٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	obj	_	_
 22	گرفتار	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	compound	_	_
-23	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	30	advcl	_	_
+23	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	30	advcl	_	_
 24	جهڏو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_
 25	ٿاڻي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	nmod	_	_
 26	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	25	case	_	_
@@ -20399,7 +20399,7 @@
 10	کي	_	ADP	PSP	_	9	case	_	_
 11	بيڏوهي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	obj	_	_
 12	قرار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	compound	_	_
-13	ڏئي	_	VERB	VM	Aspect=Imp|VerbForm=Conv|Voice=Act	20	advcl	_	_
+13	ڏئي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	20	advcl	_	_
 14	آزاد	_	ADJ	JJ	Case=Nom|Degree=Pos	17	amod	_	_
 15	۽	_	CCONJ	CC	_	17	cc	_	_
 16	بيڏوهي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	17	amod	_	_
@@ -21028,7 +21028,7 @@
 18	گلن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	nmod	_	_
 19	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	18	case	_	_
 20	ورکا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	compound	_	_
-21	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	23	advcl	_	_
+21	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	23	advcl	_	_
 22	آجيان	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	compound	_	_
 23	ڪئي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	14	conj	_	_
 24	وئي	_	VERB	VM	Aspect=Perf|Number=Sing|Person=3	23	compound	_	SpaceAfter=No
@@ -21187,7 +21187,7 @@
 48	سنڌين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	51	obj	_	_
 49	کي	_	ADP	PSP	_	48	case	_	_
 50	واپس	_	VERB	VM	Aspect=Perf	51	compound	_	_
-51	ڏياري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	55	advcl	_	_
+51	ڏياري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	55	advcl	_	_
 52	عوامي	_	ADJ	JJ	Case=Nom|Degree=Pos	53	amod	_	_
 53	راڄ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	55	obj	_	_
 54	قائم	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	55	compound	_	_
@@ -21224,7 +21224,7 @@
 2	ايڪٽ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
 3	تي	_	ADP	PSP	Type=Loc	2	case	_	_
 4	عمل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
-5	ڪرائي	_	VERB	VM	Aspect=Imp|VerbForm=Conv	9	advcl	_	_
+5	ڪرائي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
 6	پڇڙي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 7	تائين	_	ADP	PSP	Type=Loc	6	case	_	_
 8	پاڻي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
@@ -21679,7 +21679,7 @@
 2	ڊي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
 3	او	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	رشوت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
-5	وٺي	_	VERB	VM	Aspect=Imp|VerbForm=Conv	12	advcl	_	_
+5	وٺي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
 6	ايل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
 7	بي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_
 8	او	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
@@ -21799,20 +21799,20 @@
 18	تان	_	ADP	PSP	Type=Loc	20	mark	_	_
 19	انڪار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	obl	_	_
 20	ڪندي	_	VERB	VM	Aspect=Imp	21	advcl	_	_
-21	ڪاوڙجي	_	VERB	VM	VerbForm=Conv	24	advcl	_	_
+21	ڪاوڙجي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	24	advcl	_	_
 22	گهران	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	obl	_	_
 23	ڪانو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	obj	_	_
 24	مارڻ	_	VERB	VM	VerbForm=Inf	26	advcl	_	_
 25	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	24	mark	_	_
-26	چئي	_	VERB	VM	VerbForm=Conv	28	advcl	_	_
+26	چئي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	28	advcl	_	_
 27	بندوق	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	obj	_	_
-28	کڻي	_	VERB	VM	VerbForm=Conv	36	advcl	_	_
+28	کڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	36	advcl	_	_
 29	گهر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obl	_	_
 30	ٻاهران	_	ADV	ADP	_	34	advmod	_	_
 31	پاڻ	_	PRON	PRP	Case=Acc	34	obl	_	_
 32	مٿان	_	ADV	ADP	_	34	advmod	_	_
 33	فائر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	compound	_	_
-34	ڪري	_	VERB	VM	VerbForm=Conv	36	advcl	_	_
+34	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	36	advcl	_	_
 35	آپگهات	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	36	compound	_	_
 36	ڪري	_	VERB	VM	Aspect=Imp	6	obj	_	_
 37	ڇڏيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	36	compound	_	SpaceAfter=No
@@ -21975,7 +21975,7 @@
 3	وزير	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
 4	سان	_	ADP	PSP	_	3	case	_	_
 5	ملاقات	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obl	_	_
-6	ڪري	_	VERB	VM	Aspect=Imp|VerbForm=Conv	13	advcl	_	_
+6	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
 7	اغوا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
 8	ٿيلن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_
 9	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	8	case	_	_
