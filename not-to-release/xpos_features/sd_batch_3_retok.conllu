@@ -24,7 +24,7 @@
 21	جي	جي	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	20	case	_	_
 22	خاطر	خاطر	ADP	PSP	_	20	case	_	_
 23	جارحانه	جارحانه	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	24	amod	_	_
-24	رويو	رويو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+24	رويو	رويو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	obj	_	_
 25	نروار	نروار	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	26	compound	_	_
 26	ٿي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	0	root	_	_
 27	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	26	compound	_	_
@@ -228,7 +228,7 @@
 # text = اسلام آباد (اي پي پي) پاڪستان پيپلز پارٽي جي باني ۽ اڳوڻي وزيراعظم شهيد ذوالفقار علي ڀٽو جي 82 هين سالگره 5 جنوري اڱاري ڏينهن ملهائي ويندي.
 # orig_text = تفريحي ماڳ انگرادوس رائس جي هڪ ننڍي هوٽل جي عمارت ۽ ان جي ڀرپاسي واريون عمارتون ڊهي تباهه ٿيون،
 1	اسلام	اسلام	PROPN	NNP	Case=Nom|Gender=Masc	2	compound	_	_
-2	آباد	آباد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+2	آباد	آباد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	dislocated	_	_
 3	(	(	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 4	اي	اي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 5	پي	پي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -889,7 +889,7 @@
 # sent_id = 49
 # text = ٻيو نه به پر رت جون نديون ضرور وهن ها.
 # orig_text = جيڪڏهن ان وقت پ پ جي قيادت سياسي اٻهرائپ کان ڪم وٺي الهه توهار ڪري ها ته گهڻو ڪجهه ٿئي ها ٻيو نه به پر رت جون نديون ضرور وهن ها.
-1	ٻيو	ٻيو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+1	ٻيو	ٻيو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	9	xcomp	_	_
 2	نه	نه	PART	PART	PartType=Emp	1	dep	_	_
 3	به	به	PART	PART	_	2	flat	_	_
 4	پر	پر	SCONJ	CS	_	9	mark	_	_
