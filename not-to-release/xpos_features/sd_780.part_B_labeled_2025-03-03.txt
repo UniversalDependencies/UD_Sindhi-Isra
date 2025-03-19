@@ -7981,8 +7981,8 @@
 19	ڏيندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	_
 20	،	_	PUNCT	PUNCT	_	19	punct	_	_
 
-# sent_id = 1480
-# text = نئين طريقيڪار مطابق جيڪي صوبائي منصوبا آهن جن لاءِ فنڊ مڪمل طور يا حصي طور صوبا طئي ٿيل حصي مطابق رقم نه ڏيندا ته انهن منصوبن لاءِ ايندڙ رقم جي قسط روڪي ويندي ،
+# sent_id = 1480a
+# text = نئين طريقيڪار مطابق جيڪي صوبائي منصوبا آهن .
 1	نئين	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	طريقيڪار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
 3	مطابق	_	ADP	PSP	_	2	case	_	_
@@ -7990,33 +7990,37 @@
 5	صوبائي	_	ADJ	JJ	Case=Nom|Degree=Pos	6	amod	_	_
 6	منصوبا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 7	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	6	cop	_	_
-8	جن	_	DET	PRD	Case=Acc|Number=Plur	18	obl	_	_
-9	لاءِ	_	ADP	PSP	_	8	case	_	_
-10	فنڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
-11	مڪمل	_	ADJ	JJ	Case=Nom|Degree=Pos	12	case	_	_
-12	طور	_	NOUN	NN	Case=Nom|Number=Sing	18	obl	_	_
-13	يا	_	CCONJ	CC	_	15	cc	_	_
-14	حصي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
-15	طور	_	NOUN	NN	Case=Nom|Number=Sing	12	conj	_	_
-16	صوبا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
-17	طئي	_	ADJ	JJ	Case=Nom	18	advmod	_	_
-18	ٿيل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart|Voice=Act	19	acl	_	_
-19	حصي	_	NOUN	NN	Case=Acc|Number=Sing	23	obl	_	_
-20	مطابق	_	ADP	PSP	_	19	case	_	_
-21	رقم	_	NOUN	NN	Case=Nom|Number=Sing	23	obj	_	_
-22	نه	_	PART	PART	_	23	advmod	_	_
-23	ڏيندا	_	VERB	VM	Aspect=Imp|Number=Plur|VerbForm=PresPart|Voice=Act	32	advcl	_	_
-24	ته	_	SCONJ	CS	_	32	mark	_	_
-25	انهن	_	DET	PRD	Case=Acc|Number=Plur	26	det	_	_
-26	منصوبن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	28	obl	_	_
-27	لاءِ	_	ADP	PSP	_	26	case	_	_
-28	ايندڙ	_	VERB	VM	Aspect=Imp|VerbForm=Vnoun|Voice=Act	29	acl	_	_
-29	رقم	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	nmod	_	_
-30	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	29	case	_	_
-31	قسط	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	obj	_	_
-32	روڪي	_	VERB	VM	Aspect=Imp|Gender=Fem|Voice=Act	6	acl:relcl	_	_
-33	ويندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart|Voice=Act	32	compound	_	_
-34	،	_	PUNCT	PUNCT	_	32	punct	_	_
+8	.	_	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 1480b
+# text = جن لاءِ فنڊ مڪمل طور يا حصي طور صوبا طئي ٿيل حصي مطابق رقم نه ڏيندا ته انهن منصوبن لاءِ ايندڙ رقم جي قسط روڪي ويندي ،
+1	جن	_	DET	PRD	Case=Acc|Number=Plur	16	obl	_	_
+2	لاءِ	_	ADP	PSP	_	1	case	_	_
+3	فنڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	dislocated	_	_
+4	مڪمل	_	ADJ	JJ	Case=Nom|Degree=Pos	5	case	_	_
+5	طور	_	NOUN	NN	Case=Nom|Number=Sing	16	obl	_	_
+6	يا	_	CCONJ	CC	_	8	cc	_	_
+7	حصي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+8	طور	_	NOUN	NN	Case=Nom|Number=Sing	5	conj	_	_
+9	صوبا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+10	طئي	_	ADJ	JJ	Case=Nom	11	advmod	_	_
+11	ٿيل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart|Voice=Act	12	acl	_	_
+12	حصي	_	NOUN	NN	Case=Acc|Number=Sing	16	obl	_	_
+13	مطابق	_	ADP	PSP	_	12	case	_	_
+14	رقم	_	NOUN	NN	Case=Nom|Number=Sing	16	obj	_	_
+15	نه	_	PART	PART	_	16	advmod	_	_
+16	ڏيندا	_	VERB	VM	Aspect=Imp|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	_
+17	ته	_	SCONJ	CS	_	25	mark	_	_
+18	انهن	_	DET	PRD	Case=Acc|Number=Plur	19	det	_	_
+19	منصوبن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
+20	لاءِ	_	ADP	PSP	_	19	case	_	_
+21	ايندڙ	_	VERB	VM	Aspect=Imp|VerbForm=Vnoun|Voice=Act	22	acl	_	_
+22	رقم	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	nmod	_	_
+23	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	22	case	_	_
+24	قسط	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	obj	_	_
+25	روڪي	_	VERB	VM	Aspect=Imp|Gender=Fem|Voice=Act	16	ccomp	_	_
+26	ويندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart|Voice=Act	25	compound	_	_
+27	،	_	PUNCT	PUNCT	_	25	punct	_	_
 
 # sent_id = 1481
 # text = صوبائي حڪومت هر مهيني جي 12 تاريخ تائين فنڊن بابت گهربل تفصيل فراهم ڪندا ،
