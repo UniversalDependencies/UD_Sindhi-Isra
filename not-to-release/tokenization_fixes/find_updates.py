@@ -1,7 +1,12 @@
+import argparse
 import difflib
 
 from stanza.utils.conll import CoNLL
 from stanza import Pipeline
+
+parser = argparse.ArgumentParser(description='Find tokenization edits relative to a particular conllu file and reparse those sentences')
+parser.add_argument('filename', type=str, help='File to validate')
+args = parser.parse_args()
 
 with open("two_nsubj.txt") as fin:
     orig_lines = fin.readlines()
@@ -81,7 +86,7 @@ def yield_update_spans(orig_lines, new_lines):
             break
 
 # TODO: make this an argparse
-doc = CoNLL.conll2doc("../dependencies/sd_batch_3.conllu")
+doc = CoNLL.conll2doc(args.filename)
 known_text = {sent.text.replace(" ", "") for sent in doc.sentences}
 
 pipe = Pipeline("sd", processors="tokenize,pos,lemma,depparse", package="default_accurate", tokenize_no_ssplit=True)
