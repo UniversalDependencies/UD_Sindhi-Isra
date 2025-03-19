@@ -8487,57 +8487,61 @@
 6	ڪاوڙيو	_	VERB	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 1200
-# text = هن کي عجب به لڳو ته گدڙ جي ايڏي من مستي ان خارن ۾ هو رات جو به دير سان گهر آيو ۽ صبح جو سويل ئي هـَرن تي هليو ويو ۽ زال کي چيائين ته : اڄ ڪجهه سوير ڀرو ڪو ٻيو دڳ وٺي ماني کڻي اچجانءِ ،
-1	هن	_	DET	_	_	5	nsubj	_	_
-2	کي	_	ADP	_	_	1	case	_	_
-3	عجب	_	NOUN	_	_	5	compound	_	_
-4	به	_	PART	_	_	3	advmod:emph	_	_
-5	لڳو	_	VERB	_	_	0	root	_	_
-6	ته	_	SCONJ	_	_	22	mark	_	_
-7	گدڙ	_	NOUN	_	_	10	nmod	_	_
-8	جي	_	ADP	_	_	7	case	_	_
-9	ايڏي	_	ADJ	_	_	10	amod	_	_
-10	من	_	NOUN	_	_	11	nmod	_	_
-11	مستي	_	NOUN	_	_	22	nsubj	_	_
-12	ان	_	DET	_	_	13	det	_	_
-13	خارن	_	NOUN	_	_	22	obl	_	_
-14	۾	_	ADP	_	_	13	case	_	_
-15	هو	_	DET	_	_	22	nsubj	_	_
-16	رات	_	NOUN	_	_	22	obl	_	_
-17	جو	_	ADP	_	_	16	case	_	_
-18	به	_	PART	_	_	16	advmod:emph	_	_
-19	دير	_	NOUN	_	_	22	obl	_	_
-20	سان	_	ADP	_	_	19	case	_	_
-21	گهر	_	NOUN	_	_	22	obl	_	_
-22	آيو	_	VERB	_	_	5	obj	_	_
-23	۽	_	CCONJ	_	_	30	cc	_	_
-24	صبح	_	NOUN	_	_	26	obl	_	_
-25	جو	_	ADP	_	_	24	case	_	_
-26	سويل	_	ADJ	_	_	30	advmod	_	_
-27	ئي	_	ADP	_	_	26	dep	_	_
-28	هـَرن	_	NOUN	_	_	30	obl	_	_
-29	تي	_	ADP	_	_	28	case	_	_
-30	هليو	_	VERB	_	_	22	conj	_	_
-31	ويو	_	VERB	_	_	30	compound	_	_
-32	۽	_	CCONJ	_	_	35	cc	_	_
-33	زال	_	NOUN	_	_	35	iobj	_	_
-34	کي	_	ADP	_	_	33	case	_	_
-35	چيائين	_	VERB	_	_	30	conj	_	_
-36	ته	_	SCONJ	_	_	35	mark	_	_
-37	:	_	PUNCT	_	_	35	punct	_	_
-38	اڄ	_	ADV	_	_	45	advmod	_	_
-39	ڪجهه	_	ADJ	_	_	40	amod	_	_
-40	سوير	_	NOUN	_	_	45	obl	_	_
-41	ڀرو	_	ADP	_	_	40	case	_	_
-42	ڪو	_	DET	_	_	44	det	_	_
-43	ٻيو	_	ADJ	_	_	44	amod	_	_
-44	دڳ	_	NOUN	_	_	45	obj	_	_
-45	وٺي	_	VERB	_	_	48	advcl	_	_
-46	ماني	_	NOUN	_	_	47	obj	_	_
-47	کڻي	_	VERB	_	_	35	obj	_	_
-48	اچجانءِ	_	VERB	_	_	35	obj	_	_
-49	،	_	PUNCT	_	_	48	punct	_	_
+# sent_id = 1200a
+# text = هن کي عجب به لڳو ته گدڙ جي ايڏي من مستي .
+1	هن	_	DET	PRD	Case=Acc|Number=Sing	5	nsubj	_	_
+2	کي	_	ADP	PSP	_	1	case	_	_
+3	عجب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
+4	به	_	PART	PART	_	3	advmod:emph	_	_
+5	لڳو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+6	ته	_	SCONJ	CS	_	5	mark	_	_
+7	گدڙ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+8	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	7	case	_	_
+9	ايڏي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	10	amod	_	_
+10	من	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	_
+11	مستي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	dislocated	_	_
+12	.	_	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 1200b
+# text = ان خارن ۾ هو رات جو به دير سان گهر آيو ۽ صبح جو سويل ئي هـَرن تي هليو ويو ۽ زال کي چيائين ته : اڄ ڪجهه سوير ڀرو ڪو ٻيو دڳ وٺي ماني کڻي اچجانءِ ،
+1	ان	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+2	خارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	_
+3	۾	_	ADP	PSP	Type=Loc	2	case	_	_
+4	هو	_	PRON	PRP	Case=Nom|Number=Sing	11	nsubj	_	_
+5	رات	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+6	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	5	case	_	_
+7	به	_	PART	PART	_	5	advmod:emph	_	_
+8	دير	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+9	سان	_	ADP	PSP	_	8	case	_	_
+10	گهر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	_
+11	آيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+12	۽	_	CCONJ	CC	_	19	cc	_	_
+13	صبح	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+14	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	13	case	_	_
+15	سويل	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	19	advmod	_	_
+16	ئي	_	ADP	PSP	Type=Loc	15	dep	_	_
+17	هـَرن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obl	_	_
+18	تي	_	ADP	PSP	Type=Loc	17	case	_	_
+19	هليو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	11	conj	_	_
+20	ويو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	19	compound	_	_
+21	۽	_	CCONJ	CC	_	24	cc	_	_
+22	زال	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	iobj	_	_
+23	کي	_	ADP	PSP	_	22	case	_	_
+24	چيائين	_	VERB	VM	Aspect=Perf|Number=Sing|Person=3	19	conj	_	_
+25	ته	_	SCONJ	CS	_	24	mark	_	_
+26	:	_	PUNCT	PUNCT	_	24	punct	_	_
+27	اڄ	_	ADV	ADT	_	34	advmod	_	_
+28	ڪجهه	_	ADJ	JJ	Case=Nom|Degree=Pos	29	amod	_	_
+29	سوير	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	obl	_	_
+30	ڀرو	_	ADP	PSP	_	29	case	_	_
+31	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	33	det	_	_
+32	ٻيو	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	33	amod	_	_
+33	دڳ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	obj	_	_
+34	وٺي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	36	advcl	_	_
+35	ماني	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	36	obj	_	_
+36	کڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	24	ccomp	_	_
+37	اچجانءِ	_	VERB	VMX	Aspect=Imp|Number=Sing|Person=1|Tense=Fut	36	compound	_	_
+38	،	_	PUNCT	PUNCT	_	37	punct	_	_
 
 # sent_id = 1201
 # text = ڏسون ته گدڙ ڇا ٿو ڪري .

@@ -6111,47 +6111,56 @@
 7	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
 8	،	_	PUNCT	PUNCT	_	6	punct	_	_
 
-# sent_id = 5552
-# text = اهو شل قبول پوي، موڙي ۽ بها ته اوهان ڪٿيندئو، جيڪڏهن وکر جي قيمت رکجي ته پوءِ ڪٿان وڪامجي سگهندو؟ سليم ڪوثر لکيو هو”محبت ڊائري هرگز نهين هي، جس مين تم لکهو،
+# sent_id = 5552a
+# text = اهو شل قبول پوي،
 1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
 2	شل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
 3	قبول	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
 4	پوي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 5	،	_	PUNCT	PUNCT	_	4	punct	_	_
-6	موڙي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
-7	۽	_	CCONJ	CC	_	8	cc	_	_
-8	بها	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
-9	ته	_	PART	PART	_	6	advmod:emph	_	_
-10	اوهان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	11	nsubj	_	_
-11	ڪٿيندئو	_	VERB	VM	Number=Sing|Person[subj]=1	4	advcl	_	SpaceAfter=No
-12	،	_	PUNCT	PUNCT	_	11	punct	_	_
-13	جيڪڏهن	_	SCONJ	CS	_	17	mark	_	_
-14	وکر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
-15	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	14	case	_	_
-16	قيمت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obj	_	_
-17	رکجي	_	VERB	VM	Number=Sing	21	advcl	_	_
-18	ته	_	SCONJ	CS	_	21	mark	_	_
-19	پوءِ	_	ADP	PSP	_	17	mark	_	_
-20	ڪٿان	_	ADV	ADP	_	21	advmod	_	_
-21	وڪامجي	_	VERB	VM	Aspect=Imp|Number=Sing	11	advcl	_	_
-22	سگهندو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	21	aux	_	SpaceAfter=No
-23	؟	_	PUNCT	PUNCT	_	26	punct	_	_
-24	سليم	_	PROPN	NNP	Case=Nom|Gender=Masc	25	compound	_	_
-25	ڪوثر	_	PROPN	NNP	Case=Nom|Gender=Masc	26	nsubj	_	_
-26	لکيو	_	VERB	VM	Aspect=Perf|Number=Sing	21	conj	_	_
-27	هو	_	AUX	VAUX	Number=Sing|Tense=Past	26	aux	_	SpaceAfter=No
-28	”	_	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
-29	محبت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	_
-30	ڊائري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	_
-31	هرگز	_	ADV	ADT	_	38	advmod	_	_
-32	نهين	_	PART	PART	_	33	dep	_	_
-33	هي	_	VERB	VM	Aspect=Perf|Number=Sing	38	nsubj	_	SpaceAfter=No
-34	،	_	PUNCT	PUNCT	_	33	punct	_	_
-35	جس	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	38	obl	_	_
-36	مين	_	ADP	PSP	_	35	case	_	_
-37	تم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_
-38	لکهو	_	VERB	VM	Number=Sing|Person=3	26	obj	_	SpaceAfter=No
-39	،	_	PUNCT	PUNCT	_	38	punct	_	_
+
+# sent_id = 5552b
+# text = موڙي ۽ بها ته اوهان ڪٿيندئو، جيڪڏهن وکر جي قيمت رکجي ته پوءِ ڪٿان وڪامجي سگهندو؟
+1	موڙي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
+2	۽	_	CCONJ	CC	_	3	cc	_	_
+3	بها	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+4	ته	_	PART	PART	_	1	advmod:emph	_	_
+5	اوهان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	6	nsubj	_	_
+6	ڪٿيندئو	_	VERB	VM	Number=Sing|Person[subj]=1	0	root	_	SpaceAfter=No
+7	،	_	PUNCT	PUNCT	_	6	punct	_	_
+8	جيڪڏهن	_	SCONJ	CS	_	12	mark	_	_
+9	وکر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+10	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	9	case	_	_
+11	قيمت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
+12	رکجي	_	VERB	VM	Number=Sing	16	advcl	_	_
+13	ته	_	SCONJ	CS	_	16	mark	_	_
+14	پوءِ	_	ADP	PSP	_	12	mark	_	_
+15	ڪٿان	_	ADV	ADP	_	16	advmod	_	_
+16	وڪامجي	_	VERB	VM	Aspect=Imp|Number=Sing	6	advcl	_	_
+17	سگهندو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	16	aux	_	SpaceAfter=No
+18	؟	_	PUNCT	PUNCT	_	16	punct	_	_
+
+# sent_id = 5552c
+# text = سليم ڪوثر لکيو هو”
+1	سليم	_	PROPN	NNP	Case=Nom|Gender=Masc	2	compound	_	_
+2	ڪوثر	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nsubj	_	_
+3	لکيو	_	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
+4	هو	_	AUX	VAUX	Number=Sing|Tense=Past	3	aux	_	SpaceAfter=No
+5	”	_	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 5552d
+# text = محبت ڊائري هرگز نهين هي، جس مين تم لکهو،
+1	محبت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	ڊائري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	هرگز	_	ADV	ADT	_	2	advmod	_	_
+4	نهين	_	PART	PART	_	5	dep	_	_
+5	هي	_	VERB	VM	Aspect=Perf|Number=Sing	2	cop	_	SpaceAfter=No
+6	،	_	PUNCT	PUNCT	_	5	punct	_	_
+7	جس	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	10	obl	_	_
+8	مين	_	ADP	PSP	_	7	case	_	_
+9	تم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	لکهو	_	VERB	VM	Number=Sing|Person=3	2	advcl	_	SpaceAfter=No
+11	،	_	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = 5553
 # text = که کل کس رنگ کا کپڙي پهنني، کون سي خوشبو لگاني هي، “ بلڪل ائين ئي، اسان ۽ اوهان جون محبتون به بس ڊائريءَ ۾ لکڻ کان ”سوا“ آهناهي ته ياد جا دروازا آهن،
@@ -11548,8 +11557,8 @@
 51	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	49	aux	_	SpaceAfter=No
 52	.	_	PUNCT	PUNCT	_	49	punct	_	_
 
-# sent_id = 5822
-# text = ڪشش چينل تان هلندڙ ٻن نون پروگرامن مقبوليت ماڻي ورتي ڪراچي (رپورٽ: مصطفيٰ ملاح) ڪشش چئنل تان ٻن نون پروگرامن ”مهوش ۽ عروسه شو“ ۽ ”سنگ وٿ شيري“ مقبوليت ماڻي ورتي.
+# sent_id = 5822a
+# text = ڪشش چينل تان هلندڙ ٻن نون پروگرامن مقبوليت ماڻي ورتي ڪراچي (رپورٽ: مصطفيٰ ملاح) .
 1	ڪشش	_	PROPN	NNP	Case=Nom|Gender=Masc	2	compound	_	_
 2	چينل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
 3	تان	_	ADP	PSP	Type=Loc	2	case	_	_
@@ -11560,35 +11569,39 @@
 8	مقبوليت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	_
 9	ماڻي	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 10	ورتي	_	VERB	VM	Aspect=Perf|Number=Sing	9	compound	_	_
-11	ڪراچي	_	PROPN	NNP	Case=Nom|Gender=Masc	16	nmod	_	_
+11	ڪراچي	_	PROPN	NNP	Case=Nom|Gender=Masc	9	dislocated	_	_
 12	(	_	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
-13	رپورٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+13	رپورٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
 14	:	_	PUNCT	PUNCT	_	13	punct	_	_
-15	مصطفيٰ	_	PROPN	NNP	Case=Nom|Gender=Masc	16	compound	_	_
-16	ملاح	_	PROPN	NNP	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No
+15	مصطفيٰ	_	PROPN	NNP	Case=Nom|Gender=Masc	13	appos	_	_
+16	ملاح	_	PROPN	NNP	Case=Nom|Gender=Masc	15	flat	_	SpaceAfter=No
 17	)	_	PUNCT	PUNCT	_	16	punct	_	_
-18	ڪشش	_	PROPN	NNP	Case=Nom|Gender=Masc	19	compound	_	_
-19	چئنل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	obl	_	_
-20	تان	_	ADP	PSP	Type=Loc	19	case	_	_
-21	ٻن	_	ADJ	JJ	Case=Nom|Number=Plur	23	amod	_	_
-22	نون	_	ADJ	JJ	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	23	amod	_	_
-23	پروگرامن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	37	nsubj	_	_
-24	”	_	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
-25	مهوش	_	PROPN	NNP	Case=Nom|Gender=Masc	23	nmod	_	_
-26	۽	_	CCONJ	CC	_	28	cc	_	_
-27	عروسه	_	PROPN	NNP	Case=Nom|Gender=Masc	28	compound	_	_
-28	شو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
-29	“	_	PUNCT	PUNCT	_	28	punct	_	_
-30	۽	_	CCONJ	CC	_	34	cc	_	_
-31	”	_	PUNCT	PUNCT	_	34	punct	_	SpaceAfter=No
-32	سنگ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	nmod	_	_
-33	وٿ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	nmod	_	_
-34	شيري	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
-35	“	_	PUNCT	PUNCT	_	34	punct	_	_
-36	مقبوليت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	37	compound	_	_
-37	ماڻي	_	VERB	VM	Aspect=Imp	9	advcl	_	_
-38	ورتي	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	37	compound	_	SpaceAfter=No
-39	.	_	PUNCT	PUNCT	_	37	punct	_	_
+18	.	_	PUNCT	PUNCT	_	9	punct	_	_
+
+# sent_id = 5822b
+# text = ڪشش چئنل تان ٻن نون پروگرامن ”مهوش ۽ عروسه شو“ ۽ ”سنگ وٿ شيري“ مقبوليت ماڻي ورتي.
+1	ڪشش	_	PROPN	NNP	Case=Nom|Gender=Masc	2	compound	_	_
+2	چئنل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
+3	تان	_	ADP	PSP	Type=Loc	2	case	_	_
+4	ٻن	_	ADJ	JJ	Case=Nom|Number=Plur	6	amod	_	_
+5	نون	_	ADJ	JJ	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	6	amod	_	_
+6	پروگرامن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	dislocated	_	_
+7	”	_	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+8	مهوش	_	PROPN	NNP	Case=Nom|Gender=Masc	10	conj	_	_
+9	۽	_	CCONJ	CC	_	10	cc	_	_
+10	عروسه	_	PROPN	NNP	Case=Nom|Gender=Masc	11	nmod	_	_
+11	شو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+12	“	_	PUNCT	PUNCT	_	11	punct	_	_
+13	۽	_	CCONJ	CC	_	17	cc	_	_
+14	”	_	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+15	سنگ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
+16	وٿ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
+17	شيري	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+18	“	_	PUNCT	PUNCT	_	17	punct	_	_
+19	مقبوليت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	compound	_	_
+20	ماڻي	_	VERB	VM	Aspect=Imp	0	root	_	_
+21	ورتي	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	20	compound	_	SpaceAfter=No
+22	.	_	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = 5823
 # text = ڏسندڙن پاران ڀرپور موٽ، هر هفتي آچر تي ٽيليڪاسٽ ٿيندڙ مٿين پروگرامن جي اڄ ٻي قسط ٽيليڪاسٽ ڪئي ويندي.
