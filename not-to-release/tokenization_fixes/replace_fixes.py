@@ -23,12 +23,11 @@ def replace_sentences(sentences, orig_to_new, reindex=True):
 
 parser = argparse.ArgumentParser(description='Replace some retokenized & reparsed sentences')
 parser.add_argument('--reparsed', default="../xpos_features/sd_batch_3_retok.conllu")
-parser.add_argument('--original', default="../dependencies/sd_batch_3.conllu")
+parser.add_argument('--original', default=["../dependencies/sd_batch_3.conllu"], nargs="+")
 args = parser.parse_args()
 tokenized_filename = "../tokenization/combined_tokenization.conllu"
 
 reparsed = CoNLL.conll2doc(args.reparsed)
-original = CoNLL.conll2doc(args.original)
 full_tokenized = CoNLL.conll2doc(tokenized_filename)
 
 orig_to_new = defaultdict(list)
@@ -48,5 +47,7 @@ for sentence in reparsed.sentences:
 full_tokenized.sentences = replace_sentences(full_tokenized.sentences, orig_to_new)
 CoNLL.write_doc2conll(full_tokenized, tokenized_filename)
 
-original.sentences = replace_sentences(original.sentences, orig_to_new, reindex=False)
-CoNLL.write_doc2conll(original, args.original)
+for filename in args.original:
+    original = CoNLL.conll2doc(filename)
+    original.sentences = replace_sentences(original.sentences, orig_to_new, reindex=False)
+    CoNLL.write_doc2conll(original, filename)
