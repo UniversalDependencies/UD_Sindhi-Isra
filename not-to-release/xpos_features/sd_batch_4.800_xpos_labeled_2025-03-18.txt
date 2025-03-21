@@ -93,20 +93,20 @@
 1	يا	_	CCONJ	CC	_	4	cc	_	_
 2	اين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 3	آر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
-4	او	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
-5	،	_	PUNCT	PUNCT	_	13	punct	_	_
-6	يا	_	CCONJ	CC	_	13	cc	_	_
+4	او	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	،	_	PUNCT	PUNCT	_	4	punct	_	_
+6	يا	_	CCONJ	CC	_	10	cc	_	_
 7	وري	_	ADV	ADM	_	10	advmod	_	_
 8	17	_	NUM	NUM	_	10	nummod	_	_
 9	هين	_	PART	PART	_	10	nummod	_	_
-10	ترميم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	ترميم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
 11	،	_	PUNCT	PUNCT	_	13	punct	_	_
 12	پيپلز	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	compound	_	_
-13	پارٽي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	پارٽي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
 14	،	_	PUNCT	PUNCT	_	13	punct	_	_
 15	يا	_	CCONJ	CC	_	17	cc	_	_
 16	نواز	_	PROPN	NNP	Case=Nom|Gender=Masc	17	nmod	_	_
-17	ليگ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+17	ليگ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
 18	.	_	PUNCT	PUNCT	_	17	punct	_	_
 
 # sent_id = 3988
@@ -4263,13 +4263,13 @@
 10	حفاظتي	_	ADJ	JJ	Case=Nom|Degree=Pos	11	amod	_	_
 11	انتظام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 12	سخت	_	ADJ	JJ	Case=Nom|Degree=Pos	13	xcomp	_	_
-13	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	19	conj	_	_
+13	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	21	acl	_	_
 14	۽	_	CCONJ	CC	_	19	cc	_	_
 15	مختلف	_	ADJ	JJ	Case=Nom|Degree=Pos	16	amod	_	_
 16	ايجنسين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
 17	کي	_	ADP	PSP	_	16	case	_	_
 18	چوڪس	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	19	xcomp	_	_
-19	رکڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	21	acl	_	_
+19	رکڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	13	conj	_	_
 20	وارا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	19	mark	_	_
 21	منظر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
 22	ڏسڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
@@ -7406,10 +7406,10 @@
 # sent_id = 4778a
 # text = هاڻي سنڌ جون توڙي ملڪ جون حالتون ساڳيون ناهن.
 1	هاڻي	هاڻي	ADV	ADT	_	8	advmod	_	_
-2	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	5	conj	_	_
+2	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	7	nmod	_	_
 3	جون	جون	ADP	PSP	Case=Nom|Gender=Fem|Number=Plur|Type=Gen	2	case	_	_
 4	توڙي	توڙي	CCONJ	CC	_	5	cc	_	_
-5	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+5	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	conj	_	_
 6	جون	جون	ADP	PSP	Case=Nom|Gender=Fem|Number=Plur|Type=Gen	5	case	_	_
 7	حالتون	حالتون	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
 8	ساڳيون	ساڳيون	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	_
@@ -12471,15 +12471,15 @@
 # text = شهرين جو احتجاج، فائرنگ، ڳوڙها گئس جو استعمال.
 1	شهرين	شهرين	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_
 2	جو	جو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
-3	احتجاج	احتجاج	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
-4	،	،	PUNCT	PUNCT	_	5	punct	_	_
+3	احتجاج	احتجاج	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	،	،	PUNCT	PUNCT	_	3	punct	_	_
 5	فائرنگ	فائرنگ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
 6	،	،	PUNCT	PUNCT	_	5	punct	_	_
 7	ڳوڙها	ڳوڙها	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nmod	_	_
 8	گئس	گئس	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
 9	جو	جو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	8	case	_	_
-10	استعمال	استعمال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	استعمال	استعمال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 
 # sent_id = 4965
 # text = پوليس تي حملو ڪرڻ جي الزام هيٺ ڪيترائي ماڻهو گرفتار.
@@ -14276,7 +14276,7 @@
 19	،	_	PUNCT	PUNCT	_	22	punct	_	_
 20	لائيٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nmod	_	_
 21	اسپيڊ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nmod	_	_
-22	ڊيزل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
+22	ڊيزل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
 23	هڪ	_	NUM	NUM	_	24	nummod	_	_
 24	رپيو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	nmod	_	_
 25	10	_	NUM	NUM	_	26	nummod	_	_
