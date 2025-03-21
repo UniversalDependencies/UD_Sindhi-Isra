@@ -4,24 +4,6 @@ import difflib
 from stanza.utils.conll import CoNLL
 from stanza import Pipeline
 
-parser = argparse.ArgumentParser(description='Find tokenization edits relative to a particular conllu file and reparse those sentences')
-parser.add_argument('filename', type=str, help='File to validate')
-args = parser.parse_args()
-
-with open("two_nsubj.txt") as fin:
-    orig_lines = fin.readlines()
-    orig_lines = [x.strip() for x in orig_lines]
-
-with open("two_nsubj_rawtextreviewed.txt") as fin:
-    new_lines = fin.readlines()
-    new_lines = [x.strip() for x in new_lines]
-
-unchanged = sum(x in orig_lines for x in new_lines)
-print("%d lines unchanged" % unchanged)
-
-print("%d lines in original" % len(orig_lines))
-print("%d lines in new" % len(new_lines))
-
 def yield_update_spans(orig_lines, new_lines):
     orig_idx = 0
     new_idx = 0
@@ -85,37 +67,58 @@ def yield_update_spans(orig_lines, new_lines):
                 print(operations)
             break
 
-# TODO: make this an argparse
-doc = CoNLL.conll2doc(args.filename)
-known_text = {sent.text.replace(" ", "") for sent in doc.sentences}
+def main():
+    parser = argparse.ArgumentParser(description='Find tokenization edits relative to a particular conllu file and reparse those sentences')
+    parser.add_argument('filename', type=str, help='File to validate')
+    args = parser.parse_args()
 
-pipe = Pipeline("sd", processors="tokenize,pos,lemma,depparse", package="default_accurate", tokenize_no_ssplit=True)
+    with open("two_nsubj.txt") as fin:
+        orig_lines = fin.readlines()
+        orig_lines = [x.strip() for x in orig_lines]
 
-docs = []
+    with open("two_nsubj_rawtextreviewed.txt") as fin:
+        new_lines = fin.readlines()
+        new_lines = [x.strip() for x in new_lines]
 
-errors = 0
-for span in yield_update_spans(orig_lines, new_lines):
-    if span[0].replace(" ", "") in known_text:
-        if len(span[1]) > 1 or span[0] != span[1][0]:
-            errors += 1
-            for sentence in span[1]:
-                # not efficient... not too many sentences, fortunately
-                doc = pipe(sentence)
-                assert len(doc.sentences) == 1
-                doc.sentences[0].add_comment("# orig_text = %s" % span[0])
-                for token in doc.sentences[0].tokens:
-                    token._start_char = None
-                    token._end_char = None
-                for word in doc.sentences[0].words:
-                    word._start_char = None
-                    word._end_char = None
-                doc.sentences[0].sent_id = str(len(docs)+1)
-                docs.append(doc)
-        #if len(span[1]) == 1 and span[0] != span[1][0]:
-        #    print(span[0])
-        #    print(span[1][0])
+    unchanged = sum(x in orig_lines for x in new_lines)
+    print("%d lines unchanged" % unchanged)
 
-print(errors)
-for doc in docs:
-    CoNLL.write_doc2conll(doc, "twonsubj_reparsed.conllu", mode='a')
+    print("%d lines in original" % len(orig_lines))
+    print("%d lines in new" % len(new_lines))
+
+    doc = CoNLL.conll2doc(args.filename)
+    known_text = {sent.text.replace(" ", "") for sent in doc.sentences}
+
+    pipe = Pipeline("sd", processors="tokenize,pos,lemma,depparse", package="default_accurate", tokenize_no_ssplit=True)
+
+    docs = []
+
+    errors = 0
+    for span in yield_update_spans(orig_lines, new_lines):
+        if span[0].replace(" ", "") in known_text:
+            if len(span[1]) > 1 or span[0] != span[1][0]:
+                errors += 1
+                for sentence in span[1]:
+                    # not efficient... not too many sentences, fortunately
+                    doc = pipe(sentence)
+                    assert len(doc.sentences) == 1
+                    doc.sentences[0].add_comment("# orig_text = %s" % span[0])
+                    for token in doc.sentences[0].tokens:
+                        token._start_char = None
+                        token._end_char = None
+                    for word in doc.sentences[0].words:
+                        word._start_char = None
+                        word._end_char = None
+                    doc.sentences[0].sent_id = str(len(docs)+1)
+                    docs.append(doc)
+            #if len(span[1]) == 1 and span[0] != span[1][0]:
+            #    print(span[0])
+            #    print(span[1][0])
+
+    print(errors)
+    for doc in docs:
+        CoNLL.write_doc2conll(doc, "twonsubj_reparsed.conllu", mode='a')
+
+if __name__ == '__main__':
+    main()
 
