@@ -301,7 +301,7 @@
 22	سيد	سيد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	compound	_	_
 23	قائم	قائم	PROPN	NNP	Case=Nom|Gender=Masc	25	compound	_	_
 24	علي	علي	PROPN	NNP	Case=Nom|Gender=Masc	25	compound	_	_
-25	شاهه	شاهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	49	conj	_	SpaceAfter=No
+25	شاهه	شاهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
 26	،	،	PUNCT	PUNCT	_	28	punct	_	_
 27	گهرو	گهرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nmod	_	_
 28	وزير	وزير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	nmod	_	_
@@ -324,7 +324,7 @@
 45	۽	۽	CCONJ	CC	_	48	cc	_	_
 46	ڊي	ڊي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	48	nmod	_	_
 47	پي	پي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	48	nmod	_	_
-48	او	او	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	49	nmod	_	_
+48	او	او	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	conj	_	_
 49	ڄامشورو	ڄامشورو	PROPN	NNP	Case=Nom|Gender=Masc	52	obl	_	_
 50	کان	کان	ADP	PSP	_	49	case	_	_
 51	مطالبو	مطالبو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	52	obj	_	_
@@ -571,11 +571,11 @@
 # sent_id = 30
 # text = پوليس يا بارڊر سيڪيورٽي فورس موجود هجي
 # orig_text = سڀ کان وڌيڪ حيرت ان تي ٿي ته ڪٿي به بس کي روڪيو نه ويو ۽ مسافرن جا پاسپورٽ ۽ ويزا ڪٿي به چيڪ نه ڪيا ويا بلڪ مون کي ته ڪابه چيڪ پوسٽ نظر نه آئي، جنهن تي ڪابه پوليس يا بارڊر سيڪيورٽي فورس موجود هجي صرف هڪ ننڍڙو بورڊ نظر آيو جنهن تي ان ضلعي جو نالو لکيل هو يعني ”ڪائونٽي ڊائون“ جيڪو ضلعو UK واري آئرلينڊ ۾ موجود آهي.
-1	پوليس	پوليس	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+1	پوليس	پوليس	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 2	يا	يا	CCONJ	CC	_	5	cc	_	_
 3	بارڊر	بارڊر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 4	سيڪيورٽي	سيڪيورٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
-5	فورس	فورس	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	فورس	فورس	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
 6	موجود	موجود	ADJ	JJ	Case=Nom	7	xcomp	_	_
 7	هجي	هجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	0	root	_	SpaceAfter=No
 
