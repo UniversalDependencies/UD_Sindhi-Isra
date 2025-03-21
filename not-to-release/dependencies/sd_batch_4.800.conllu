@@ -17115,64 +17115,71 @@
 33	هو	_	AUX	_	_	32	aux	_	SpaceAfter=No
 34	.	_	PUNCT	_	_	32	punct	_	_
 
-# sent_id = 5109
-# text = بدين جيل جي قيدين جو سھولتون نه ملڻ خلاف احتجاج، 5 اھلڪار يرغمال، شيلنگ، اھلڪار ۽ 3 باندي زخمي بدين (ن ڪ) بدين جيل ۾ سھولتون نه ملڻ خلاف قيدين پاران احتجاج، حاضري تي وڃڻ کان انڪار، قيدين 5 اھلڪارن کي يرغمال ڪري بيرڪن ۾ بند ڪري ڇڏيو،
-1	بدين	_	PROPN	_	_	2	nmod	_	_
-2	جيل	_	NOUN	_	_	4	nmod	_	_
-3	جي	_	ADP	_	_	2	case	_	_
-4	قيدين	_	NOUN	_	_	6	nmod	_	_
-5	جو	_	ADP	_	_	4	case	_	_
-6	سھولتون	_	NOUN	_	_	8	obj	_	_
-7	نه	_	PART	_	_	8	dep	_	_
-8	ملڻ	_	VERB	_	_	10	nmod	_	_
-9	خلاف	_	ADP	_	_	8	mark	_	_
-10	احتجاج	_	NOUN	_	_	14	nmod	_	SpaceAfter=No
-11	،	_	PUNCT	_	_	13	punct	_	_
-12	5	_	NUM	_	_	13	nummod	_	_
-13	اھلڪار	_	NOUN	_	_	14	nmod	_	_
-14	يرغمال	_	NOUN	_	_	21	nmod	_	SpaceAfter=No
-15	،	_	PUNCT	_	_	16	punct	_	_
-16	شيلنگ	_	NOUN	_	_	14	conj	_	SpaceAfter=No
-17	،	_	PUNCT	_	_	16	punct	_	_
-18	اھلڪار	_	NOUN	_	_	14	conj	_	_
-19	۽	_	CCONJ	_	_	21	cc	_	_
-20	3	_	NUM	_	_	21	nummod	_	_
-21	باندي	_	NOUN	_	_	23	conj	_	_
-22	زخمي	_	ADJ	_	_	23	amod	_	_
-23	بدين	_	PROPN	_	_	33	obl	_	_
-24	(	_	PUNCT	_	_	26	punct	_	SpaceAfter=No
-25	ن	_	NOUN	_	_	26	nmod	_	_
-26	ڪ	_	NOUN	_	_	23	conj	_	SpaceAfter=No
-27	)	_	PUNCT	_	_	26	punct	_	_
-28	بدين	_	PROPN	_	_	29	nmod	_	_
-29	جيل	_	NOUN	_	_	33	obl	_	_
-30	۾	_	ADP	_	_	29	case	_	_
-31	سھولتون	_	NOUN	_	_	33	obj	_	_
-32	نه	_	PART	_	_	33	dep	_	_
-33	ملڻ	_	VERB	_	_	37	advcl	_	_
-34	خلاف	_	ADP	_	_	33	mark	_	_
-35	قيدين	_	NOUN	_	_	37	nmod	_	_
-36	پاران	_	ADP	_	_	35	case	_	_
-37	احتجاج	_	NOUN	_	_	43	obl	_	SpaceAfter=No
-38	،	_	PUNCT	_	_	39	cc	_	_
-39	حاضري	_	NOUN	_	_	41	obl	_	_
-40	تي	_	ADP	_	_	39	case	_	_
-41	وڃڻ	_	VERB	_	_	43	obl	_	_
-42	کان	_	ADP	_	_	41	mark	_	_
-43	انڪار	_	NOUN	_	_	54	obl	_	SpaceAfter=No
-44	،	_	PUNCT	_	_	43	punct	_	_
-45	قيدين	_	NOUN	_	_	50	nsubj	_	_
-46	5	_	NUM	_	_	47	nummod	_	_
-47	اھلڪارن	_	NOUN	_	_	50	obj	_	_
-48	کي	_	ADP	_	_	47	case	_	_
-49	يرغمال	_	NOUN	_	_	50	compound	_	_
-50	ڪري	_	VERB	_	_	54	advcl	_	_
-51	بيرڪن	_	NOUN	_	_	54	obl	_	_
-52	۾	_	ADP	_	_	51	case	_	_
-53	بند	_	NOUN	_	_	54	compound	_	_
-54	ڪري	_	VERB	_	_	0	root	_	_
-55	ڇڏيو	_	VERB	_	_	54	compound	_	SpaceAfter=No
-56	،	_	PUNCT	_	_	54	punct	_	_
+# sent_id = 5109a
+# text = بدين جيل جي قيدين جو سھولتون نه ملڻ خلاف احتجاج، 5 اھلڪار يرغمال، شيلنگ، اھلڪار ۽ 3 باندي زخمي،
+1	بدين	_	PROPN	NNP	Case=Nom|Gender=Masc	2	nmod	_	_
+2	جيل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+3	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	2	case	_	_
+4	قيدين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
+5	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+6	سھولتون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	obj	_	_
+7	نه	_	PART	PART	_	8	dep	_	_
+8	ملڻ	_	VERB	VM	VerbForm=Inf	0	root	_	_
+9	خلاف	_	ADP	PSP	_	8	mark	_	_
+10	احتجاج	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	،	_	PUNCT	PUNCT	_	13	punct	_	_
+12	5	_	NUM	NUM	_	13	nummod	_	_
+13	اھلڪار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	conj	_	_
+14	يرغمال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+15	،	_	PUNCT	PUNCT	_	16	punct	_	_
+16	شيلنگ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+17	،	_	PUNCT	PUNCT	_	16	punct	_	_
+18	اھلڪار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+19	۽	_	CCONJ	CC	_	21	cc	_	_
+20	3	_	NUM	NUM	_	21	nummod	_	_
+21	باندي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	conj	_	_
+22	زخمي	_	ADJ	JJ	Case=Nom|Degree=Pos	21	amod	_	SpaceAfter=No
+23	،	_	PUNCT	PUNCT	_	22	punct	_	_
+
+# sent_id = 5109b
+# text = بدين (ن ڪ) بدين جيل ۾ سھولتون نه ملڻ خلاف قيدين پاران احتجاج، حاضري تي وڃڻ کان انڪار،
+1	بدين	_	PROPN	NNP	Case=Nom|Gender=Masc	11	parataxis	_	_
+2	(	_	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	ن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+4	ڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+5	)	_	PUNCT	PUNCT	_	4	punct	_	_
+6	بدين	_	PROPN	NNP	Case=Nom|Gender=Masc	7	nmod	_	_
+7	جيل	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+8	۾	_	ADP	PSP	Type=Loc	7	case	_	_
+9	سھولتون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	obj	_	_
+10	نه	_	PART	PART	_	11	dep	_	_
+11	ملڻ	_	VERB	VM	VerbForm=Inf	21	advcl	_	_
+12	خلاف	_	ADP	PSP	_	11	mark	_	_
+13	قيدين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
+14	پاران	_	ADP	PSP	Type=Loc	13	case	_	_
+15	احتجاج	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+16	،	_	PUNCT	PUNCT	_	15	punct	_	_
+17	حاضري	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+18	تي	_	ADP	PSP	Type=Loc	17	case	_	_
+19	وڃڻ	_	VERB	VM	VerbForm=Inf	21	advcl	_	_
+20	کان	_	ADP	PSP	_	19	mark	_	_
+21	انڪار	_	NOUN	NN	Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No
+22	،	_	PUNCT	PUNCT	_	21	punct	_	_
+
+# sent_id = 5109c
+# text = قيدين 5 اھلڪارن کي يرغمال ڪري بيرڪن ۾ بند ڪري ڇڏيو،
+1	قيدين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+2	5	_	NUM	NUM	_	3	nummod	_	_
+3	اھلڪارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+4	کي	_	ADP	PSP	_	3	case	_	_
+5	يرغمال	_	NOUN	NN	Case=Nom	6	compound	_	_
+6	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
+7	بيرڪن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+8	۾	_	ADP	PSP	Type=Loc	7	case	_	_
+9	بند	_	NOUN	NN	Case=Nom	10	compound	_	_
+10	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+11	ڇڏيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	10	compound	_	SpaceAfter=No
+12	،	_	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = 5110
 # text = جھيڙو، ھڪ اھلڪار سميت 4 زخمي، ڊسٽرڪٽ جيل بدين جي قيدين سھولتون نه ملڻ خلاف احتجاج ڪندي حاضري تي وڃڻ کان انڪار ڪيو ۽ 5 پوليس سپاھين نور محمد، انور چانڊيو، نيڪ محمد، يار محمد ۽ ھڪ نامعلوم کي يرغمال ڪري بيرڪ ۾ بند ڪري ڇڏيو،
