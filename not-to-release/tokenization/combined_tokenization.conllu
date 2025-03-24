@@ -84877,51 +84877,54 @@
 16	ڪيو	_	_	_	_	1	dep	_	SpaceAfter=No
 17	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 4510
-# text = پر ان موقعي تي مون کي وري به ميڊيا جي انهن مغل اعظمن جي ياد اچي وئي جن ٽن مهينن کان هاءِ گهوڙا ڪري ڏني هئي ته ”ان ڪو ڪهدو ڪه ڊسمبر آرها هي“ انهن سان ته قهر ٿي ويو،
-1	پر	_	_	_	_	0	root	_	_
-2	ان	_	_	_	_	1	dep	_	_
-3	موقعي	_	_	_	_	1	dep	_	_
-4	تي	_	_	_	_	1	dep	_	_
-5	مون	_	_	_	_	1	dep	_	_
-6	کي	_	_	_	_	1	dep	_	_
-7	وري	_	_	_	_	1	dep	_	_
-8	به	_	_	_	_	1	dep	_	_
-9	ميڊيا	_	_	_	_	1	dep	_	_
-10	جي	_	_	_	_	1	dep	_	_
-11	انهن	_	_	_	_	1	dep	_	_
-12	مغل	_	_	_	_	1	dep	_	_
-13	اعظمن	_	_	_	_	1	dep	_	_
-14	جي	_	_	_	_	1	dep	_	_
-15	ياد	_	_	_	_	1	dep	_	_
-16	اچي	_	_	_	_	1	dep	_	_
-17	وئي	_	_	_	_	1	dep	_	_
-18	جن	_	_	_	_	1	dep	_	_
-19	ٽن	_	_	_	_	1	dep	_	_
-20	مهينن	_	_	_	_	1	dep	_	_
-21	کان	_	_	_	_	1	dep	_	_
-22	هاءِ	_	_	_	_	1	dep	_	_
-23	گهوڙا	_	_	_	_	1	dep	_	_
-24	ڪري	_	_	_	_	1	dep	_	_
-25	ڏني	_	_	_	_	1	dep	_	_
-26	هئي	_	_	_	_	1	dep	_	_
-27	ته	_	_	_	_	1	dep	_	_
-28	”	_	_	_	_	1	dep	_	SpaceAfter=No
-29	ان	_	_	_	_	1	dep	_	_
-30	ڪو	_	_	_	_	1	dep	_	_
-31	ڪهدو	_	_	_	_	1	dep	_	_
-32	ڪه	_	_	_	_	1	dep	_	_
-33	ڊسمبر	_	_	_	_	1	dep	_	_
-34	آرها	_	_	_	_	1	dep	_	_
-35	هي	_	_	_	_	1	dep	_	SpaceAfter=No
-36	“	_	_	_	_	1	dep	_	_
-37	انهن	_	_	_	_	1	dep	_	_
-38	سان	_	_	_	_	1	dep	_	_
-39	ته	_	_	_	_	1	dep	_	_
-40	قهر	_	_	_	_	1	dep	_	_
-41	ٿي	_	_	_	_	1	dep	_	_
-42	ويو	_	_	_	_	1	dep	_	SpaceAfter=No
-43	،	_	_	_	_	1	dep	_	_
+# sent_id = 4510a
+# text = پر ان موقعي تي مون کي وري به ميڊيا جي انهن مغل اعظمن جي ياد اچي وئي جن ٽن مهينن کان هاءِ گهوڙا ڪري ڏني هئي ته ”ان ڪو ڪهدو ڪه ڊسمبر آرها هي“
+1	پر	_	SCONJ	CS	_	16	mark	_	_
+2	ان	_	DET	PRD	Case=Acc|Number=Sing	3	det	_	_
+3	موقعي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+4	تي	_	ADP	PSP	Type=Loc	3	case	_	_
+5	مون	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	16	nsubj	_	_
+6	کي	_	ADP	PSP	_	5	case	_	_
+7	وري	_	ADV	ADM	_	16	advmod	_	_
+8	به	_	PART	PART	_	7	advmod:emph	_	_
+9	ميڊيا	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+10	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	9	case	_	_
+11	انهن	_	DET	PRD	Case=Acc|Number=Plur	12	det	_	_
+12	مغل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+13	اعظمن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	_
+14	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	13	case	_	_
+15	ياد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obj	_	_
+16	اچي	_	VERB	VM	Aspect=Imp	0	root	_	_
+17	وئي	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	16	compound	_	_
+18	جن	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	24	nsubj	_	_
+19	ٽن	_	NUM	NUM	_	20	nummod	_	_
+20	مهينن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	obl	_	_
+21	کان	_	ADP	PSP	_	20	case	_	_
+22	هاءِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nmod	_	_
+23	گهوڙا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	obj	_	_
+24	ڪري	_	VERB	VM	Aspect=Imp	16	conj	_	_
+25	ڏني	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	24	compound	_	_
+26	هئي	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	24	aux	_	_
+27	ته	_	SCONJ	CS	_	24	mark	_	_
+28	”	_	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+29	ان	_	DET	PRD	Case=Acc|Number=Sing	31	obj	_	_
+30	ڪو	_	ADP	PSP	_	29	case	_	_
+31	ڪهدو	_	VERB	VMX	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	34	advcl	_	_
+32	ڪه	_	SCONJ	CS	_	31	mark	_	_
+33	ڊسمبر	_	PROPN	NNP	Case=Nom|Gender=Masc	34	nsubj	_	_
+34	آرها	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Fut	24	advcl	_	_
+35	هي	_	AUX	VAUX	Number=Sing|Tense=Past	34	cop	_	SpaceAfter=No
+36	“	_	PUNCT	PUNCT	_	34	punct	_	_
+
+# sent_id = 4510b
+# text = انهن سان ته قهر ٿي ويو،
+1	انهن	_	DET	PRD	Case=Acc|Number=Plur	5	obl	_	_
+2	سان	_	ADP	PSP	_	1	case	_	_
+3	ته	_	PART	PART	_	1	advmod:emph	_	_
+4	قهر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	ٿي	_	AUX	VAUX	AuxType=Be|Gender=Masc|Number=Sing	0	root	_	_
+6	ويو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	compound	_	SpaceAfter=No
+7	،	_	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 4511
 # text = ڊسمبر آيو به ۽ گذري به ويو،
