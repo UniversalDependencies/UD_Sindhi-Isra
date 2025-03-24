@@ -9908,47 +9908,50 @@
 9	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	8	aux	_	SpaceAfter=No
 10	.	_	PUNCT	PUNCT	_	8	punct	_	_
 
-# sent_id = 5744
-# text = سنڌ مان مينگهواڙ، ڀيل، ڪولهي، ٺڪر، مهراج ۽ سامي جوڳي ڇو نٿا ترڪِ وطن جي واٽ وٺن؟ مٿيون سڀ ذاتيون سنڌ جي شهه رڳ ۾ پوري جاهه و جلال سان محوِ سفر آهن.
-1	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	21	obl	_	_
-2	مان	_	ADP	PSP	Type=Loc	1	case	_	_
-3	مينگهواڙ	_	PROPN	NNP	Case=Nom|Gender=Masc	21	nsubj	_	SpaceAfter=No
-4	،	_	PUNCT	PUNCT	_	5	punct	_	_
-5	ڀيل	_	PROPN	NNP	Case=Nom|Gender=Masc	3	conj	_	SpaceAfter=No
-6	،	_	PUNCT	PUNCT	_	7	punct	_	_
-7	ڪولهي	_	PROPN	NNP	Case=Nom|Gender=Masc	3	conj	_	SpaceAfter=No
-8	،	_	PUNCT	PUNCT	_	9	punct	_	_
-9	ٺڪر	_	PROPN	NNP	Case=Nom|Gender=Masc	3	conj	_	SpaceAfter=No
-10	،	_	PUNCT	PUNCT	_	11	punct	_	_
-11	مهراج	_	PROPN	NNP	Case=Nom|Gender=Masc	3	conj	_	_
-12	۽	_	CCONJ	CC	_	14	cc	_	_
-13	سامي	_	PROPN	NNP	Case=Nom|Gender=Masc	14	nmod	_	_
-14	جوڳي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
-15	ڇو	_	PRON	PRWH	_	21	obl	_	_
-16	نٿا	_	ADV	ADN	_	21	advmod	_	_
-17	ترڪِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
-18	وطن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	_
-19	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	18	case	_	_
-20	واٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	xcomp	_	_
-21	وٺن	_	VERB	VM	Aspect=Imp|Number=Plur	0	root	_	SpaceAfter=No
-22	؟	_	PUNCT	PUNCT	_	21	punct	_	_
-23	مٿيون	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
-24	سڀ	_	ADJ	JJ	Case=Nom|Number=Plur	25	amod	_	_
-25	ذاتيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	37	nsubj	_	_
-26	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	29	nmod	_	_
-27	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	26	case	_	_
-28	شهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nmod	_	_
-29	رڳ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	37	nmod	_	_
-30	۾	_	ADP	PSP	Type=Loc	29	case	_	_
-31	پوري	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
-32	جاهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	34	nmod	_	_
-33	و	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	34	compound	_	_
-34	جلال	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	nmod	_	_
-35	سان	_	ADP	PSP	_	34	case	_	_
-36	محوِ	_	NOUN	NN	Case=Nom|Number=Sing	37	nmod	_	_
-37	سفر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	obj	_	_
-38	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	37	cop	_	SpaceAfter=No
-39	.	_	PUNCT	PUNCT	_	37	punct	_	_
+# sent_id = 5744a
+# text = سنڌ مان مينگهواڙ، ڀيل، ڪولهي، ٺڪر، مهراج ۽ سامي جوڳي ڇو نٿا ترڪِ وطن جي واٽ وٺن؟
+1	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	21	obl	_	_
+2	مان	مان	ADP	PSP	Type=Loc	1	case	_	_
+3	مينگهواڙ	مينگهواڙ	PROPN	NNP	Case=Nom|Gender=Masc	21	nsubj	_	SpaceAfter=No
+4	،	،	PUNCT	PUNCT	_	5	punct	_	_
+5	ڀيل	ڀيل	PROPN	NNP	Case=Nom|Gender=Masc	3	conj	_	SpaceAfter=No
+6	،	،	PUNCT	PUNCT	_	5	punct	_	_
+7	ڪولهي	ڪولهي	PROPN	NNP	Case=Nom|Gender=Masc	3	conj	_	SpaceAfter=No
+8	،	،	PUNCT	PUNCT	_	5	punct	_	_
+9	ٺڪر	ٺڪر	PROPN	NNP	Case=Nom|Gender=Masc	3	conj	_	SpaceAfter=No
+10	،	،	PUNCT	PUNCT	_	9	punct	_	_
+11	مهراج	مهراج	PROPN	NNP	Case=Nom|Gender=Masc	3	conj	_	_
+12	۽	۽	CCONJ	CC	_	14	cc	_	_
+13	سامي	سامي	PROPN	NNP	Case=Nom|Gender=Masc	14	nmod	_	_
+14	جوڳي	جوڳي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+15	ڇو	ڇو	PRON	PRWH	_	21	obl	_	_
+16	نٿا	نٿا	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	21	aux	_	_
+17	ترڪِ	ترڪِ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
+18	وطن	وطن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	_
+19	جي	جي	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	18	case	_	_
+20	واٽ	واٽ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	obj	_	_
+21	وٺن	وٺن	VERB	VM	Aspect=Imp|Number=Plur|Person=3	0	root	_	SpaceAfter=No
+22	؟	؟	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 5744b
+# text = مٿيون سڀ ذاتيون سنڌ جي شهه رڳ ۾ پوري جاهه و جلال سان محوِ سفر آهن.
+1	مٿيون	مٿيون	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur	3	amod	_	_
+3	ذاتيون	ذاتيون	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+4	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	7	nmod	_	_
+5	جي	جي	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	4	case	_	_
+6	شهه	شهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	رڳ	رڳ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+8	۾	۾	ADP	PSP	Type=Loc	7	case	_	_
+9	پوري	پوري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	جاهه	جاهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	_
+11	و	و	CCONJ	CC	_	12	cc	_	_
+12	جلال	جلال	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
+13	سان	سان	ADP	PSP	_	12	case	_	_
+14	محوِ	محوِ	ADJ	JJ	Case=Nom	15	amod	_	_
+15	سفر	سفر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+16	آهن	آهن	AUX	VAUX	Number=Plur|Tense=Pres	15	cop	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 
 # sent_id = 5745
 # text = پر ڀٽائي سرڪار چيو آهي ته ”جيڪي وڃان وڃان ڪن،
