@@ -2211,7 +2211,7 @@
 # sent_id = 1015
 # text = پر کانئس چـُـري ئي نه .
 1	پر	_	SCONJ	CS	_	3	mark	_	_
-2	کانئس	_	ADP	PSPX	Case=Acc|Person=3	1	case	_	_
+2	کانئس	_	ADP	PSPX	Case=Acc|Person=3	3	nsubj	_	_
 3	چـُـري	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing	0	root	_	_
 4	ئي	_	PART	PART	_	3	mark	_	_
 5	نه	_	PART	PART	_	3	dep	_	_
@@ -2390,7 +2390,7 @@
 # text = ته اوچتو کين شينهن جون گجڪارون ٻڌڻ ۾ آيون .
 1	ته	_	SCONJ	CS	_	9	mark	_	_
 2	اوچتو	_	ADV	ADM	_	9	advmod	_	_
-3	کين	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	2	mark	_	_
+3	کين	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	7	nsubj	_	_
 4	شينهن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
 5	جون	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Plur|Type=Gen	4	case	_	_
 6	گجڪارون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	obj	_	_
@@ -3272,7 +3272,7 @@
 4	خوش	_	ADJ	JJ	Case=Nom|Degree=Pos	5	compound	_	_
 5	ڪرڻ	_	VERB	VM	VerbForm=Inf	12	advcl	_	_
 6	لاءِ	_	ADP	PSP	_	5	mark	_	_
-7	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	5	mark	_	_
+7	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	12	obl	_	_
 8	ڪـُن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 9	مان	_	ADP	PSP	_	8	case	_	_
 10	هڪڙي	_	ADJ	JJC	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
@@ -3309,7 +3309,7 @@
 3	وٽ	_	ADP	PSP	_	2	case	_	_
 4	آيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 5	۽	_	CCONJ	CC	_	14	cc	_	_
-6	ساڻن	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	8	mark	_	_
+6	ساڻن	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	8	obl	_	_
 7	صلاح	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	_
 8	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
 9	پاڻ	_	PRON	PRP	Case=Acc	14	obj	_	_
@@ -3511,7 +3511,7 @@
 8	جي	_	PRON	PRL	Case=Nom|Number=Plur	15	nsubj	_	_
 9	پڻ	_	PART	PART	_	8	advmod:emph	_	_
 10	گدڙ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
-11	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing	10	case	_	_
+11	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	10	case	_	_
 12	ساڳيءَ	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
 13	طرح	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obl	_	_
 14	ساراهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	compound	_	_
@@ -3596,7 +3596,7 @@
 1	تنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	9	obl	_	_
 2	تي	_	ADP	PSP	Type=Loc	1	case	_	_
 3	گدڙ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-4	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	3	case	_	_
+4	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	9	iobj	_	_
 5	پاڻي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 6	پيئڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	8	nmod	_	_
 7	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	6	mark	_	_
@@ -3631,7 +3631,7 @@
 14	ته	_	SCONJ	CS	_	13	mark	_	_
 15	:	_	PUNCT	PUNCT	_	13	punct	_	_
 16	ڇائي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
-17	دا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing	16	case	_	_
+17	دا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	16	case	_	_
 18	چبوترا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
 19	،	_	PUNCT	PUNCT	_	21	punct	_	_
 20	ڇائي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	compound	_	_
@@ -3682,7 +3682,7 @@
 
 # sent_id = 1132
 # text = کيس شڪاري ڪتا ڏسڻ ۾ آيا .
-1	کيس	_	ADP	PSPX	Case=Acc|Person=3	6	mark	_	_
+1	کيس	_	ADP	PSPX	Case=Acc|Person=3	6	nsubj	_	_
 2	شڪاري	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 3	ڪتا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	obj	_	_
 4	ڏسڻ	_	VERB	VM	VerbForm=Inf	6	advcl	_	_
@@ -4201,12 +4201,12 @@
 11	.	_	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = 1177
-# text = تڏهن شينهن کين سڏ ڪيو .
+# text = تڏهن شينهن کين سڏ ڪيو.
 1	تڏهن	_	ADV	ADT	_	5	advmod	_	_
 2	شينهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	کين	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	2	case	_	_
 4	سڏ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
-5	ڪيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+5	ڪيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	.	_	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 1179
@@ -4356,7 +4356,7 @@
 # sent_id = 1191
 # text = سو کيس ماني ڏي ته کائي .
 1	سو	_	PRON	PRL	Case=Nom|Number=Sing	4	advmod	_	_
-2	کيس	_	ADP	PSPX	Case=Acc|Person=3	1	case	_	_
+2	کيس	_	ADP	PSPX	Case=Acc|Person=3	4	iobj	_	_
 3	ماني	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	_
 4	ڏي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	6	advcl	_	_
 5	ته	_	SCONJ	CS	_	6	mark	_	_
@@ -5234,7 +5234,7 @@
 
 # sent_id = 1262
 # text = کانئس ان جو سبب پڇيو :
-1	کانئس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	5	mark	_	_
+1	کانئس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	5	obl	_	_
 2	ان	_	DET	PRD	Case=Acc|Number=Sing	4	nmod	_	_
 3	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	2	case	_	_
 4	سبب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -6113,7 +6113,7 @@
 5	حالت	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 6	۾	_	ADP	PSP	Type=Loc	5	case	_	_
 7	ڏسي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
-8	کانئس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	7	mark	_	_
+8	کانئس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	10	obl	_	_
 9	خبر	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
 10	پڇي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
 11	.	_	PUNCT	PUNCT	_	10	punct	_	_

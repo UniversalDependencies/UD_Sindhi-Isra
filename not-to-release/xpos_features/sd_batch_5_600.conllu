@@ -708,7 +708,7 @@
 43	چوري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	44	compound	_	_
 44	ڪرڻ	_	VERB	VM	VerbForm=Inf	52	amod	_	_
 45	۽	_	CCONJ	CC	_	48	cc	_	_
-46	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	48	obj	_	_
+46	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	48	iobj	_	_
 47	ڌمڪيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	48	obj	_	_
 48	ڏيڻ	_	VERB	VM	VerbForm=Inf	50	nmod	_	_
 49	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	48	mark	_	_
@@ -812,7 +812,7 @@
 24	چوري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	compound	_	_
 25	ڪرڻ	_	VERB	VM	VerbForm=Inf	35	advcl	_	_
 26	۽	_	CCONJ	CC	_	31	cc	_	_
-27	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	31	obj	_	_
+27	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	31	iobj	_	_
 28	قتل	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	nmod	_	_
 29	جون	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Plur|Type=Gen	28	case	_	_
 30	ڌمڪيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	31	obj	_	_
@@ -1299,7 +1299,7 @@
 18	چاهيون	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	2	obj	_	_
 19	ٿا	_	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	18	aux	_	_
 20	۽	_	CCONJ	CC	_	23	cc	_	_
-21	کين	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	23	nmod	_	_
+21	کين	_	ADP	PSPX	Case=Acc|Number=Plur|Person=3	23	nsubj	_	_
 22	ٻڌائڻ	_	VERB	VM	VerbForm=Inf	23	xcomp	_	_
 23	چاهيون	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	18	conj	_	_
 24	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	23	aux	_	_
@@ -2473,7 +2473,7 @@
 14	اڀ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
 15	تائين	_	ADP	PSP	Type=Loc	14	case	_	_
 16	آڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	23	advcl	_	_
-17	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	16	mark	_	_
+17	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	23	nsubj	_	_
 18	غير	_	NOUN	NN	Case=Nom|Number=Sing	19	nmod	_	_
 19	مقبوليت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	_
 20	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	19	case	_	_
@@ -6419,7 +6419,7 @@
 
 # sent_id = 5566
 # text = جو سمجهندي آهي ته ڪيتا لوڙهي اجهو چريو ٿيڻ وارو آهي.
-1	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	جو	_	PRON	PRL	Case=Nom|Number=Sing	2	nsubj	_	_
 2	سمجهندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	0	root	_	_
 3	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	2	aux	_	_
 4	ته	_	SCONJ	CS	_	9	mark	_	_
@@ -6537,7 +6537,7 @@
 3	اوهان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	5	nmod	_	_
 4	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	3	det	_	_
 5	پين	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
-6	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	5	case	_	_
+6	کيس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	10	iobj	_	_
 7	وڏي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
 8	احسان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 9	سان	_	ADP	PSP	_	8	case	_	_
