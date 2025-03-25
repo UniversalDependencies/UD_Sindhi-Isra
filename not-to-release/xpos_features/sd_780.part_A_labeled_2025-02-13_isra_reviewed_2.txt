@@ -2292,7 +2292,7 @@
 4	ٻيڙي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 5	ذريعي	_	ADP	PSP	_	4	case	_	_
 6	پڪي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
-7	واري	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Loc	6	case	_	_
+7	واري	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	6	case	_	_
 8	هنڌ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
 9	آندو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	_
 10	ويو	_	VERB	VM	Aspect=Perf|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	compound	_	_
@@ -2399,7 +2399,7 @@
 16	حمايت	_	NOUN	NN	Case=Nom|Number=Sing	17	nsubj	_	_
 17	حاصل	_	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
 18	هئي	_	AUX	VAUX	Person=3|Tense=Past	17	cop	_	_
-19	جو	_	ADP	PSP	Case=Acc|Type=Loc	17	mark	_	_
+19	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Type=Gen	17	mark	_	_
 20	موجوده	_	ADJ	JJ	Case=Nom|Degree=Pos	21	amod	_	_
 21	پارليامينٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
 22	ان	_	DET	PRD	Case=Acc	24	nmod	_	_
@@ -2700,7 +2700,7 @@
 12	جوئي	_	NOUN	NN	Case=Acc	14	obj	_	_
 13	کي	_	ADP	PSP	_	12	case	_	_
 14	روڪڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf|Voice=Act	17	advcl	_	_
-15	لاءِ	_	ADP	PSP	Case=Acc|Type=Loc	14	mark	_	_
+15	لاءِ	_	ADP	PSP	_	14	mark	_	_
 16	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	17	xcomp	_	_
 17	چاهيون	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
 18	ٿا	_	AUX	VAUX	Person=3|Tense=Pres	17	aux	_	_
@@ -2884,7 +2884,7 @@
 7	نومبر	_	PROPN	NNP	Case=Nom|Gender=Fem	9	nmod	_	_
 8	وارن	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	7	case	_	_
 9	قدمن	_	NOUN	NN	Case=Acc|Number=Plur	14	obl	_	_
-10	بابت	_	ADP	PSP	Case=Acc|Type=Loc	9	case	_	_
+10	بابت	_	ADP	PSP	_	9	case	_	_
 11	عوام	_	NOUN	NN	Case=Acc|Number=Plur	13	nmod	_	_
 12	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	11	case	_	_
 13	تائيد	_	NOUN	NN	Case=Nom	14	nsubj	_	_
@@ -3471,7 +3471,7 @@
 1	عدالت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 2	ٻڌڻي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
 3	اڄ	_	ADV	ADT	Case=Acc	6	advmod	_	_
-4	تائين	_	ADP	PSP	Case=Acc|Gender=Masc|Type=Loc	3	case	_	_
+4	تائين	_	ADP	PSP	Type=Loc	3	case	_	_
 5	ملتوي	_	NOUN	NN	Case=Nom	6	obl	_	_
 6	ڪري	_	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	_
 7	ڇڏي	_	VERB	VM	Aspect=Perf|Person=3|VerbForm=Inf	6	xcomp	_	_
@@ -3546,12 +3546,12 @@
 # text = آن لائن مطابق وزيراعظم گيلاني ڪالاباغ ڊيم کي اڻٽر قرار ڏيندي چيو ته جيڪڏهن قوم ۽ سڀئي سياسي پارٽيون ان ڊيم جي تعمير تي متفق ٿي وڃن ته پوءِ ڪنهن کي به ان ڊيم تي ٺهڻ تي اعتراض نه هوندو ،
 1	آن	_	NOUN	NN	Case=Nom	2	nmod	_	_
 2	لائن	_	NOUN	NN	Case=Nom|Number=Sing	12	obl	_	_
-3	مطابق	_	ADP	PSP	Case=Acc|Type=Loc	2	case	_	_
+3	مطابق	_	ADP	PSP	_	2	case	_	_
 4	وزيراعظم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
 5	گيلاني	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 6	ڪالاباغ	_	PROPN	NNP	Case=Nom|Gender=Masc	7	compound	_	_
 7	ڊيم	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
-8	کي	_	ADP	PSP	Case=Acc|Type=Loc	7	case	_	_
+8	کي	_	ADP	PSP	_	7	case	_	_
 9	اڻٽر	_	ADJ	JJ	Case=Nom|Degree=Pos	11	acl	_	_
 10	قرار	_	NOUN	NN	Case=Nom|Gender=Masc	11	xcomp	_	_
 11	ڏيندي	_	VERB	VM	Aspect=Imp|VerbForm=PresPart|Voice=Act	12	advcl	_	_
@@ -3659,10 +3659,10 @@
 # text = ان وقت کان وٺي هينئر تائين اهو مسئلو سياسي رهيو آهي ،
 1	ان	_	DET	PRD	Case=Acc	2	det	_	_
 2	وقت	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
-3	کان	_	ADP	PSP	_	2	case	_	_
+3	کان	_	ADP	PSP	Type=Loc	2	case	_	_
 4	وٺي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
 5	هينئر	_	ADV	ADT	_	10	advmod	_	_
-6	تائين	_	ADP	PSP	Case=Acc|Type=Loc	5	case	_	_
+6	تائين	_	ADP	PSP	Type=Loc	5	case	_	_
 7	اهو	_	DET	PRD	Case=Nom	8	det	_	_
 8	مسئلو	_	NOUN	NN	Case=Nom|Number=Sing	10	nsubj	_	_
 9	سياسي	_	NOUN	NN	Case=Nom|Gender=Fem	10	xcomp	_	_
@@ -3723,7 +3723,7 @@
 4	ٻوڏ	_	NOUN	NN	Case=Acc|Number=Sing	6	nmod	_	_
 5	جي	_	ADP	PSP	Case=Acc|Type=Gen	4	case	_	_
 6	تباهي	_	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	_
-7	کي	_	ADP	PSP	Case=Acc|Type=Loc	6	case	_	_
+7	کي	_	ADP	PSP	_	6	case	_	_
 8	منهن	_	NOUN	NN	Case=Nom|Number=Sing	9	compound	_	_
 9	ڏيڻ	_	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	25	advcl	_	_
 10	لاءِ	_	ADP	PSP	Case=Acc|Type=Gen	9	mark	_	_
@@ -3736,7 +3736,7 @@
 17	گڏيل	_	VERB	VM	Aspect=Perf|Tense=Pres|VerbForm=Inf|Voice=Act	19	acl	_	_
 18	حڪمت	_	NOUN	NN	Case=Nom|Number=Sing	19	nmod	_	_
 19	عملي	_	NOUN	NN	Case=Acc	25	obl	_	_
-20	تحت	_	ADP	PSP	Case=Acc|Type=Loc	19	case	_	_
+20	تحت	_	ADP	PSP	_	19	case	_	_
 21	امدادي	_	ADJ	JJ	Case=Nom|Degree=Pos	22	amod	_	_
 22	سرگرمين	_	NOUN	NN	Case=Acc|Number=Plur	25	obj	_	_
 23	کي	_	ADP	PSP	Case=Acc|Type=Gen	22	case	_	_
