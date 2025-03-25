@@ -264,6 +264,15 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                             printed = True
                             print("FEATURE ERRORS")
                         print("Sentence %s (%d) word %d |%s| (line %d) had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, feat, word.upos))
+                if word.upos == 'ADP':
+                    feat_map = {x: y for x, y in [x.split("=", maxsplit=2) for x in feat_pieces]}
+                    if 'Case' in feat_map:
+                        if feat_map.get('Type') != 'Gen' and word.xpos != 'PSPX':
+                            if not printed:
+                                printed = True
+                                print("FEATURE ERRORS")
+                            print("Sentence %s (%d) word %d |%s| (line %d) had Case=%s but not Type=Gen, which is not allowed for ADP xpos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, feat_map['Case'], word.xpos))
+
 
     return problem_sentences
 
