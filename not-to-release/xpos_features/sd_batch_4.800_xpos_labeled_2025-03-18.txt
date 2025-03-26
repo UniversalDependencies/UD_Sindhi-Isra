@@ -1833,7 +1833,7 @@
 11	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	10	case	_	_
 12	استعمال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 13	مسلسل	_	ADJ	JJ	Case=Nom|Degree=Pos	14	xcomp	_	_
-14	وڌي	_	VERB	VM	Aspect=Imp|Voice=Act	3	det	_	_
+14	وڌي	_	VERB	VM	Aspect=Imp|Voice=Act	3	ccomp	_	_
 15	رهيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	14	compound	_	_
 16	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	14	aux	_	SpaceAfter=No
 17	،	_	PUNCT	PUNCT	_	14	punct	_	_
@@ -2816,8 +2816,8 @@
 
 # sent_id = 4608
 # text = اهو آهي مجموعي طور اسان جو نئون قومي مالياتي ايوارڊ.
-1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	10	det	_	_
-2	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	1	aux	_	_
+1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+2	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	10	cop	_	_
 3	مجموعي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
 4	طور	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	_
 5	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	9	nmod	_	_
@@ -6446,10 +6446,10 @@
 
 # sent_id = 4754a
 # text = اهو ئي نه بلڪه انهيءَ وقت واقعي ٿيڻ سان ئي جديد هٿيارن سان ڪراچيءَ جهڙي شهر ۾ سرعام فائرنگ شروع ڪئي ٿي وڃي.
-1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
-2	ئي	_	ADP	PSP	_	1	case	_	_
+1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+2	ئي	_	PART	PART	_	1	advmod:emph	_	_
 3	نه	_	PART	PART	_	1	dep	_	_
-4	بلڪه	_	ADV	ADT	_	8	advmod	_	_
+4	بلڪه	_	SCONJ	CS	_	8	mark	_	_
 5	انهيءَ	_	DET	PRD	Case=Acc|Number=Sing	6	det	_	_
 6	وقت	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
 7	واقعي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
@@ -6693,7 +6693,7 @@
 1	سندن	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	3	obl	_	_
 2	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	چوڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
-4	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+4	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	3	advcl	_	_
 5	به	_	PART	PART	_	4	advmod:emph	_	_
 6	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	4	aux	_	_
 7	ته	_	SCONJ	CS	_	15	mark	_	_
@@ -6704,8 +6704,8 @@
 12	رهڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	14	nmod	_	_
 13	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	12	mark	_	_
 14	سزا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	compound	_	_
-15	ڏني	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	4	det	_	_
-16	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	15	aux	_	_
+15	ڏني	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	4	ccomp	_	_
+16	ٿي	_	AUX	VAUX	AuxType=Be|Gender=Fem	15	aux	_	_
 17	وڃي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	15	compound	_	_
 18	يا	_	CCONJ	CC	_	27	cc	_	_
 19	وري	_	ADV	ADM	_	22	advmod	_	_
@@ -6825,8 +6825,8 @@
 17	به	_	PART	PART	_	16	advmod:emph	_	_
 18	هجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	23	advcl	_	_
 19	ان	_	DET	PRD	Case=Acc|Number=Sing	23	obl	_	_
-20	لاءِ	_	ADP	PSP	_	23	mark	_	_
-21	ان	_	PRON	PRD	Case=Acc|Number=Sing	23	det	_	_
+20	لاءِ	_	ADP	PSP	_	19	case	_	_
+21	ان	_	PRON	PRD	Case=Acc|Number=Sing	23	nmod	_	_
 22	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	21	case	_	_
 23	مطالبو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
 24	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	23	cop	_	_
@@ -9633,8 +9633,8 @@
 14	جيڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	15	det	_	_
 15	بل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 16	ايندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	25	advcl	_	_
-17	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	25	det	_	_
-18	نه	_	PART	PART	_	17	dep	_	_
+17	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+18	نه	_	PART	PART	_	19	dep	_	_
 19	رڳو	_	ADV	ADV	_	25	advmod	_	_
 20	قوم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	obl	_	_
 21	لاءِ	_	ADP	PSP	_	20	case	_	_
