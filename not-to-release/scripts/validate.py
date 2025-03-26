@@ -14,7 +14,7 @@ ALLOWED_UPOS_TO_XPOS = {
     "ADJ":   ["JJ", "JJC", "JJO", "JJM", "JJF"],
     "PRON":  ["PRP", "PRD", "PRWH", "PRL"],
     "ADV":   ["ADV", "ADT", "ADM", "ADN", "ADQ", "ADA", "ADS", "ADP", "ADPX"],
-    "ADP":   ["PSP", "PSPX"],
+    "ADP":   ["PSP", "PSPX", "PSPL", "PSPG"],
     "CCONJ": ["CC"],
     "SCONJ": ["CS"],
     "AUX":   ["VAUX", "VAUXX", "VAUXN"],
@@ -28,7 +28,7 @@ ALLOWED_UPOS_TO_XPOS = {
 
 ALLOWED_UPOS_TO_FEATS = {
     "ADJ":   ['Case=Acc', 'Case=Nom', 'Degree=Cmp', 'Degree=Pos', 'Degree=Sup', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing'],
-    "ADP":   ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3', 'Type=Gen', 'Type=Loc'],
+    "ADP":   ['Case=Acc', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
     "ADV":   ['Case=Acc', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
     "AUX":   ['AuxType=Be', 'Gender=Fem', 'Gender=Masc', 'Mood=Sub', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=2', 'Person=3', 'Tense=Fut', 'Tense=Past', 'Tense=Pres'],
     "CCONJ": [],
@@ -267,11 +267,11 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 if word.upos == 'ADP':
                     feat_map = {x: y for x, y in [x.split("=", maxsplit=2) for x in feat_pieces]}
                     if 'Case' in feat_map:
-                        if feat_map.get('Type') != 'Gen' and word.xpos != 'PSPX':
+                        if word.xpos != 'PSPG' and word.xpos != 'PSPX':
                             if not printed:
                                 printed = True
                                 print("FEATURE ERRORS")
-                            print("Sentence %s (%d) word %d |%s| (line %d) had Case=%s but not Type=Gen, which is not allowed for ADP xpos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, feat_map['Case'], word.xpos))
+                            print("Sentence %s (%d) word %d |%s| (line %d) had Case=%s but an xpos %s which is not allowed to have Case" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, feat_map['Case'], word.xpos))
 
 
     return problem_sentences
