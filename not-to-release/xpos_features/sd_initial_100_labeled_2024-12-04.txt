@@ -14,7 +14,7 @@
 1	عورت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nsubj	_	_
 2	کي	_	ADP	PSP	_	1	case	_	_
 3	ان	_	DET	PRD	Case=Acc|Number=Sing	5	nmod	_	_
-4	جا	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur|Type=Gen	3	case	_	_
+4	جا	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	3	case	_	_
 5	حق	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	obj	_	_
 6	ڏيڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
 7	گھرجن	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	6	compound	_	_
@@ -33,7 +33,7 @@
 # sent_id = 4
 # text = صبح جو سير تندرستي آهي .
 1	صبح	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
-2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+2	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	سير	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	تندرستي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
@@ -43,7 +43,7 @@
 # text = شرارت جھڳڙن جي جڙ آهي .
 1	شرارت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	جھڳڙن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
-3	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
+3	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
 4	جڙ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
 6	.	_	PUNCT	PUNCT	_	4	punct	_	_
@@ -51,7 +51,7 @@
 # sent_id = 6
 # text = شام جو ٿڌي هير گھلي ٿي .
 1	شام	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
-2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+2	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	ٿڌي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	هير	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	گھلي	_	VERB	VM	Aspect=Imp|Number=Sing	0	root	_	_
@@ -87,9 +87,9 @@
 # sent_id = 10
 # text = شادي کانپوءِ عورت جي محبت ختم ٿي وڃي ٿي .
 1	شادي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
-2	کانپوءِ	_	ADP	PSP	Type=Loc	1	case	_	_
+2	کانپوءِ	_	ADP	PSPL	_	1	case	_	_
 3	عورت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
-4	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
+4	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	3	case	_	_
 5	محبت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 6	ختم	_	ADJ	JJ	Case=Nom|Degree=Pos	7	compound	_	_
 7	ٿي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
@@ -100,10 +100,10 @@
 # sent_id = 11
 # text = سياري جي سخت سردي ۾ هُو ڪم ڪندو رهيو .
 1	سياري	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
-2	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	1	case	_	_
 3	سخت	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
 4	سردي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
-5	۾	_	ADP	PSP	Type=Loc	4	case	_	_
+5	۾	_	ADP	PSPL	_	4	case	_	_
 6	هُو	_	DET	PRD	Case=Nom|Number=Sing	8	nsubj	_	_
 7	ڪم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 8	ڪندو	_	VERB	VM	Aspect=Imp|Gender[subj]=Masc|Number=Sing|VerbForm=FutPart	0	root	_	_
@@ -124,7 +124,7 @@
 # text = سنڌي دنيا جي پراڻي ٻولي ۽ قوم آهي .
 1	سنڌي	_	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
 2	دنيا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
-3	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
+3	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
 4	پراڻي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	ٻولي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	۽	_	CCONJ	CC	_	7	cc	_	_
@@ -137,10 +137,10 @@
 1	سنڌي	_	NOUN	NN	Case=Nom|Number=Sing	2	nmod	_	_
 2	تهذيب	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 3	دنيا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
-4	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
+4	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
 5	اڪثر	_	ADJ	JJ	Case=Nom|Degree=Pos	6	amod	_	_
 6	تهذيبن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	_
-7	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	6	case	_	_
+7	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
 8	ماءُ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	xcomp	_	_
 9	رهي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Voice=Act	0	root	_	_
 10	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	9	aux	_	_
@@ -168,7 +168,7 @@
 2	ٻولي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 3	سڄي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	دنيا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
-5	۾	_	ADP	PSP	Type=Loc	4	case	_	_
+5	۾	_	ADP	PSPL	_	4	case	_	_
 6	ڳالهائي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing	0	root	_	_
 7	وڃي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	6	compound	_	_
 8	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	6	aux	_	_
@@ -198,7 +198,7 @@
 # text = کاڌو وقت تي کائڻ گھرجي .
 1	کاڌو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	وقت	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
-3	تي	_	ADP	PSP	Type=Loc	2	case	_	_
+3	تي	_	ADP	PSPL	_	2	case	_	_
 4	کائڻ	_	VERB	VM	VerbForm=Inf	0	root	_	_
 5	گھرجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	4	compound	_	_
 6	.	_	PUNCT	PUNCT	_	4	punct	_	_
@@ -208,7 +208,7 @@
 1	فتح	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	سدائين	_	ADV	ADV	_	5	advmod	_	_
 3	حق	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
-4	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
+4	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
 5	ٿئي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 6	ٿي	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	aux	_	_
 7	.	_	PUNCT	PUNCT	_	5	punct	_	_
@@ -219,7 +219,7 @@
 2	فيصلا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 3	اڪثر	_	ADV	ADV	_	7	advmod	_	_
 4	ڪاوڙ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
-5	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+5	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
 6	ڪري	_	VERB	VM	Aspect=Imp	4	case	_	_
 7	ٿين	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
 8	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	7	aux	_	_
@@ -228,11 +228,11 @@
 # sent_id = 22
 # text = غلامي جي زندگي کان عزت جو موت بهتر آهي .
 1	غلامي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	1	case	_	_
 3	زندگي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 4	کان	_	ADP	PSP	_	3	case	_	_
 5	عزت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
-6	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	5	case	_	_
+6	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
 7	موت	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	بهتر	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
 9	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	8	cop	_	_
@@ -241,17 +241,17 @@
 # sent_id = 23
 # text = گدڙ جي سئو سال جي زندگي کان شينهن جي هڪ ڏينهن جي زندگي بهتر آهي .
 1	گدڙ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
-2	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	1	case	_	_
 3	سئو	_	ADJ	JJ	_	4	amod	_	_
 4	سال	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
-5	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+5	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
 6	زندگي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
 7	کان	_	ADP	PSP	_	6	case	_	_
 8	شينهن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
-9	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	8	case	_	_
+9	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	8	case	_	_
 10	هڪ	_	ADJ	JJC	Case=Nom	11	amod	_	_
 11	ڏينهن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
-12	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	11	case	_	_
+12	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	11	case	_	_
 13	زندگي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 14	بهتر	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	15	compound	_	_
 15	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	0	root	_	_
@@ -264,7 +264,7 @@
 3	ڌوڪو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	ڏيڻ	_	VERB	VM	VerbForm=Inf	11	xcomp	_	_
 5	اصل	_	ADV	ADT	_	11	advmod	_	_
-6	۾	_	ADP	PSP	Type=Loc	5	case	_	_
+6	۾	_	ADP	PSPL	_	5	case	_	_
 7	پنهنجو	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	8	det	_	_
 8	پاڻ	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	11	obj	_	_
 9	کي	_	ADP	PSP	_	8	case	_	_
@@ -278,9 +278,9 @@
 # text = ڪنهن دور ۾ قوم جي بقا لاءِ جنگيون وڙهيون وينديون هيون .
 1	ڪنهن	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
 2	دور	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
-3	۾	_	ADP	PSP	Type=Loc	2	case	_	_
+3	۾	_	ADP	PSPL	_	2	case	_	_
 4	قوم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
-5	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+5	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
 6	بقا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 7	لاءِ	_	ADP	PSP	_	6	case	_	_
 8	جنگيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	obj	_	_
@@ -303,7 +303,7 @@
 # sent_id = 27
 # text = ڪمپيوٽر جي ايجاد دنيا کي بدلائي ڇڏيو آهي .
 1	ڪمپيوٽر	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	1	case	_	_
 3	ايجاد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 4	دنيا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 5	کي	_	ADP	PSP	_	4	case	_	_
@@ -315,7 +315,7 @@
 # sent_id = 28
 # text = ڪراچي جي موسم خراب ٿي وئي آهي .
 1	ڪراچي	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	موسم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 4	خراب	_	ADJ	JJ	Case=Nom|Number=Sing	6	xcomp	_	_
 5	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	6	compound	_	_
@@ -326,7 +326,7 @@
 # sent_id = 29
 # text = ڪراچي جو پاڻي کارو آهي .
 1	ڪراچي	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
-2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+2	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	پاڻي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	کارو	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 5	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
@@ -369,7 +369,7 @@
 # sent_id = 33
 # text = گلن جي خوشبوءِ ماحول کي معطر ڪري ڇڏي ٿي .
 1	گلن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	خوشبوءِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 4	ماحول	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 5	کي	_	ADP	PSP	_	4	case	_	_
@@ -382,7 +382,7 @@
 # sent_id = 34
 # text = گلن جي خوشبوءِ ماحول کي بهتر ڪري ڇڏي ٿي .
 1	گلن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	خوشبوءِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 4	ماحول	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 5	کي	_	ADP	PSP	_	4	case	_	_
@@ -395,7 +395,7 @@
 # sent_id = 35
 # text = گلن جي خوشبوءِ ماحول کي خوشگوار ڪري ڇڏي ٿي .
 1	گلن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	خوشبوءِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 4	ماحول	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 5	کي	_	ADP	PSP	_	4	case	_	_
@@ -408,10 +408,10 @@
 # sent_id = 36
 # text = گلن جي خوشبوءِ آسپاس جي ماحول کي سٺو ڪري ڇڏي ٿي .
 1	گلن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	1	case	_	_
 3	خوشبوءِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 4	آسپاس	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
-5	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+5	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
 6	ماحول	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 7	کي	_	ADP	PSP	_	6	case	_	_
 8	سٺو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	compound	_	_
@@ -424,7 +424,7 @@
 # text = گلابي رنگ جي چادر سٺي آهي .
 1	گلابي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	رنگ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
-3	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
+3	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	چادر	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	سٺي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 6	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	5	cop	_	_
@@ -433,7 +433,7 @@
 # sent_id = 38
 # text = گلاب جو گل بهترين گلاب آهي .
 1	گلاب	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
-2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+2	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	گل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	بهترين	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
 5	گلاب	_	PROPN	NNP	Case=Nom|Gender=Masc	0	root	_	_
@@ -443,7 +443,7 @@
 # sent_id = 39
 # text = گرمي ۾ پاڻي تمام گھڻو پيئجي .
 1	گرمي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
-2	۾	_	ADP	PSP	Type=Loc	1	case	_	_
+2	۾	_	ADP	PSPL	_	1	case	_	_
 3	پاڻي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	تمام	_	ADV	ADV	_	5	advmod	_	_
 5	گھڻو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	xcomp	_	_
@@ -465,7 +465,7 @@
 2	وقت	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
 3	آرام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
 4	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
-5	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+5	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
 6	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	4	aux	_	_
 7	.	_	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -485,7 +485,7 @@
 1	هي	_	DET	PRD	Case=Nom|Number=Sing	2	det	_	_
 2	دور	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
 3	تعليم	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
-4	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	3	case	_	_
+4	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 5	دور	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 6	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	5	cop	_	_
 7	.	_	PUNCT	PUNCT	_	5	punct	_	_
@@ -496,7 +496,7 @@
 2	دنيا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 3	به	_	PART	PART	_	2	advmod:emph	_	_
 4	جنت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
-5	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+5	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
 6	هڪ	_	ADJ	JJ	Case=Nom|Number=Sing	8	amod	_	_
 7	حسين	_	ADJ	JJ	Case=Nom|Degree=Pos	8	amod	_	_
 8	منظر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -570,7 +570,7 @@
 2	حق	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
 3	۽	_	CCONJ	CC	_	4	cc	_	_
 4	سچ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
-5	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+5	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
 6	ساٿ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
 7	ڏجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
 8	.	_	PUNCT	PUNCT	_	7	punct	_	_
@@ -637,7 +637,7 @@
 2	سان	_	ADP	PSP	_	1	case	_	_
 3	محبت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 4	ايمان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
-5	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	4	case	_	_
+5	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
 6	نشاني	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 7	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	6	cop	_	_
 8	.	_	PUNCT	PUNCT	_	6	punct	_	_
@@ -654,7 +654,7 @@
 # text = مسڪراهٽ زندگي ۾ خوشيون آڻي ٿي .
 1	مسڪراهٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	زندگي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
-3	۾	_	ADP	PSP	Type=Loc	2	case	_	_
+3	۾	_	ADP	PSPL	_	2	case	_	_
 4	خوشيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	compound	_	_
 5	آڻي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 6	ٿي	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	aux	_	_
@@ -663,7 +663,7 @@
 # sent_id = 61
 # text = سنڌ جو انب تمام گھڻو مشهور آهي .
 1	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	3	nmod	_	_
-2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+2	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	انب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	تمام	_	ADV	ADV	_	6	advmod	_	_
 5	گھڻو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	compound	_	_
@@ -674,7 +674,7 @@
 # sent_id = 62
 # text = سنڌ تي هميشه ڌارين حملا ڪيا آهن .
 1	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	6	obl	_	_
-2	تي	_	ADP	PSP	Type=Loc	1	case	_	_
+2	تي	_	ADP	PSPL	_	1	case	_	_
 3	هميشه	_	ADV	ADV	_	6	advmod	_	_
 4	ڌارين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
 5	حملا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	compound	_	_
@@ -686,11 +686,11 @@
 # text = سنڌ اسان جي سڃاڻپ ۽ اسان جي ماءُ آهي .
 1	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	4	nsubj	_	_
 2	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	4	nmod	_	_
-3	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
+3	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	سڃاڻپ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	۽	_	CCONJ	CC	_	8	cc	_	_
 6	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	8	nmod	_	_
-7	جي	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	6	case	_	_
+7	جي	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	6	case	_	_
 8	ماءُ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
 9	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
 10	.	_	PUNCT	PUNCT	_	4	punct	_	_
@@ -734,7 +734,7 @@
 # sent_id = 68
 # text = دنيا جي زندگي عارضي آهي .
 1	دنيا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	زندگي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 4	عارضي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
 5	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
@@ -754,7 +754,7 @@
 # sent_id = 70
 # text = سبزي جي مند ختم ٿي وئي .
 1	سبزي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
-2	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	مند	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 4	ختم	_	ADJ	JJ	Case=Nom	6	compound	_	_
 5	ٿي	_	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	_
@@ -765,7 +765,7 @@
 # text = ڇوڪرا باغ ۾ گھمن ٿا .
 1	ڇوڪرا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 2	باغ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
-3	۾	_	ADP	PSP	Type=Loc	2	case	_	_
+3	۾	_	ADP	PSPL	_	2	case	_	_
 4	گھمن	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur	0	root	_	_
 5	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	4	aux	_	_
 6	.	_	PUNCT	PUNCT	_	4	punct	_	_
@@ -774,7 +774,7 @@
 # text = زندگي گلن جي سيج آهي .
 1	زندگي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	گلن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
-3	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
+3	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	سيج	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
 6	.	_	PUNCT	PUNCT	_	4	punct	_	_
@@ -783,7 +783,7 @@
 # text = زندگي ڪنڊن جي سيج آهي .
 1	زندگي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	ڪنڊن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
-3	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
+3	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	سيج	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
 6	.	_	PUNCT	PUNCT	_	4	punct	_	_
@@ -801,7 +801,7 @@
 1	ڇا	_	PRON	PRWH	Number=Sing	6	obl	_	_
 2	تون	_	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	nsubj	_	_
 3	پڙهڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	5	nmod	_	_
-4	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	3	mark	_	_
+4	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	3	mark	_	_
 5	ڪم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 6	ڪرين	_	VERB	VM	Aspect=Imp|Number=Sing|Person=1|Voice=Act	0	root	_	_
 7	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	6	aux	_	_
@@ -810,7 +810,7 @@
 # sent_id = 76
 # text = زندگي جو ڪو ڀروسو ئي نه آهي .
 1	زندگي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
-2	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	1	case	_	_
+2	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
 4	ڀروسو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 5	ئي	_	PART	PART	_	4	advmod:emph	_	_
@@ -832,7 +832,7 @@
 1	زال	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obl	_	_
 2	۽	_	CCONJ	CC	_	3	cc	_	_
 3	مڙس	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
-4	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	3	case	_	_
+4	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 5	خوش	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	advmod	_	_
 6	رهڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
 7	به	_	PART	PART	_	6	advmod:emph	_	_
@@ -853,10 +853,10 @@
 1	ڊان	_	PROPN	NNP	Case=Nom|Gender=Masc	2	nmod	_	_
 2	اخبار	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 3	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	6	nmod	_	_
-4	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	3	case	_	_
+4	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	3	case	_	_
 5	هر	_	DET	PRD	Case=Nom|Number=Sing	6	amod	_	_
 6	شهر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
-7	۾	_	ADP	PSP	Type=Loc	6	case	_	_
+7	۾	_	ADP	PSPL	_	6	case	_	_
 8	ملي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 9	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	8	aux	_	_
 10	.	_	PUNCT	PUNCT	_	8	punct	_	_
@@ -866,7 +866,7 @@
 1	جھالت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	معاشرتي	_	ADJ	JJ	Case=Nom	3	amod	_	_
 3	بيمارين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	_
-4	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
+4	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
 5	جڙ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	5	cop	_	_
 7	.	_	PUNCT	PUNCT	_	5	punct	_	_
@@ -875,7 +875,7 @@
 # text = تنهنجي ياد جي وري آ وير .
 1	تنهنجي	_	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=2	2	nmod	_	_
 2	ياد	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
-3	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	2	case	_	_
+3	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	وري	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 5	آ	_	AUX	VAUX	Number=Sing|Tense=Pres	4	aux	_	_
 6	وير	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -908,7 +908,7 @@
 2	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	6	nsubj	_	_
 3	ڀلن	_	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
 4	ماڻهن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
-5	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+5	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
 6	ڪم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 7	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	6	cop	_	_
 8	.	_	PUNCT	PUNCT	_	6	punct	_	_
@@ -916,7 +916,7 @@
 # sent_id = 86
 # text = پينگھي ۾ لڏجي ٿو .
 1	پينگھي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	۾	_	ADP	PSP	Type=Loc	1	case	_	_
+2	۾	_	ADP	PSPL	_	1	case	_	_
 3	لڏجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	0	root	_	_
 4	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	3	aux	_	_
 5	.	_	PUNCT	PUNCT	_	3	punct	_	_
@@ -948,7 +948,7 @@
 # text = ٻار ميدان ۾ راندروند ڪن ٿا .
 1	ٻار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	ميدان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
-3	۾	_	ADP	PSP	Type=Loc	2	case	_	_
+3	۾	_	ADP	PSPL	_	2	case	_	_
 4	راندروند	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
 5	ڪن	_	VERB	VM	Aspect=Imp|Number=Plur	0	root	_	_
 6	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	5	aux	_	_
@@ -989,7 +989,7 @@
 # sent_id = 93
 # text = ٻئي جي مدد ڪرڻ سان پاڻ کي به ڪاميابي ملي ٿي .
 1	ٻئي	_	ADJ	JJO	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
-2	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	1	case	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	مدد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	_
 4	ڪرڻ	_	VERB	VM	VerbForm=Inf	10	advcl	_	_
 5	سان	_	ADP	PSP	_	4	mark	_	_
@@ -1007,7 +1007,7 @@
 2	صحت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 3	لاءِ	_	ADP	PSP	_	2	case	_	_
 4	پاڻي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
-5	جو	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	4	case	_	_
+5	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
 6	گھڻو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	advmod	_	_
 7	استعمال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	_
 8	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
@@ -1017,9 +1017,9 @@
 # sent_id = 95
 # text = بريصغير ۾ عورت تي حد کان وڌيڪ ظلم ٿئي پيو .
 1	بريصغير	_	PROPN	NNP	Case=Nom|Gender=Masc	9	obl	_	_
-2	۾	_	ADP	PSP	Type=Loc	1	case	_	_
+2	۾	_	ADP	PSPL	_	1	case	_	_
 3	عورت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
-4	تي	_	ADP	PSP	Type=Loc	3	case	_	_
+4	تي	_	ADP	PSPL	_	3	case	_	_
 5	حد	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	advmod	_	_
 6	کان	_	ADP	PSP	_	5	case	_	_
 7	وڌيڪ	_	ADJ	JJ	Case=Nom|Degree=Pos	8	amod	_	_
@@ -1058,7 +1058,7 @@
 1	اڪبر	_	PROPN	NNP	Case=Nom|Gender=Masc	5	nsubj	_	_
 2	بادشاھ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	compound	_	_
 3	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	5	obl	_	_
-4	۾	_	ADP	PSP	Type=Loc	3	case	_	_
+4	۾	_	ADP	PSPL	_	3	case	_	_
 5	ڄائو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 6	هو	_	AUX	VAUX	Number=Sing|Tense=Past	5	compound	_	_
 7	.	_	PUNCT	PUNCT	_	5	punct	_	_
