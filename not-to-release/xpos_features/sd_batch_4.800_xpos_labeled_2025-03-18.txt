@@ -2985,7 +2985,7 @@
 # sent_id = 4616
 # text = ڇاڪاڻ ته ايوارڊ جي ورهاست مطابق وري به پنجاب آبادي جي بنياد تي ناڻي جو وڏو حصو پاڻ ڏانهن ئي ڇڪي ويندو.
 1	ڇاڪاڻ	_	ADV	ADT	_	21	mark	_	_
-2	ته	_	SCONJ	CS	_	21	mark	_	_
+2	ته	_	SCONJ	CS	_	1	fixed	_	_
 3	ايوارڊ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 4	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	3	case	_	_
 5	ورهاست	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
@@ -3101,7 +3101,7 @@
 23	ڪري	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 24	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	23	aux	_	_
 25	ته	_	SCONJ	CS	_	23	mark	_	_
-26	پوءِ	_	ADP	PSP	_	23	mark	_	_
+26	پوءِ	_	ADP	PSP	_	25	fixed	_	_
 27	ملڪي	_	ADJ	JJ	Case=Nom|Degree=Pos	28	amod	_	_
 28	ناڻي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	nmod	_	_
 29	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	28	case	_	_
@@ -3244,7 +3244,7 @@
 25	ائين	_	PRON	PRL	_	26	obj	_	_
 26	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	21	advcl	_	_
 27	سان	_	ADP	PSP	_	26	mark	_	_
-28	ئي	_	ADP	PSPL	_	26	mark	_	SpaceAfter=No
+28	ئي	_	PART	PART	_	27	advmod:emph	_	SpaceAfter=No
 29	،	_	PUNCT	PUNCT	_	26	punct	_	_
 30	دراصل	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	31	amod	_	_
 31	صوبن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	40	obl	_	_
@@ -3520,13 +3520,13 @@
 10	ٿئي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 11	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	10	aux	_	_
 12	ته	_	SCONJ	CS	_	10	mark	_	_
-13	پوءِ	_	ADP	PSP	_	10	mark	_	_
+13	پوءِ	_	ADV	ADT	_	20	advmod	_	_
 14	اها	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	15	det	_	_
 15	ڳالهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
 16	به	_	PART	PART	_	15	advmod:emph	_	_
-17	ضرور	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	advmod	_	_
+17	ضرور	_	ADV	ADM	_	20	advmod	_	_
 18	رڪارڊ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
-19	تي	_	ADP	PSPL	_	20	xcomp	_	_
+19	تي	_	ADP	PSPL	_	18	case	_	_
 20	اچڻ	_	VERB	VM	VerbForm=Inf	10	conj	_	_
 21	گهرجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	20	compound	_	_
 22	ته	_	SCONJ	CS	_	40	mark	_	_
@@ -6455,7 +6455,7 @@
 7	واقعي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 8	ٿيڻ	_	VERB	VM	VerbForm=Inf	21	advcl	_	_
 9	سان	_	ADP	PSP	_	8	mark	_	_
-10	ئي	_	ADP	PSP	_	8	mark	_	_
+10	ئي	_	PART	PART	_	9	advmod:emph	_	_
 11	جديد	_	ADJ	JJ	Case=Nom|Degree=Pos	12	amod	_	_
 12	هٿيارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
 13	سان	_	ADP	PSP	_	12	case	_	_
@@ -6642,7 +6642,7 @@
 62	لڳن	_	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	52	advcl	_	_
 63	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	62	aux	_	_
 64	ڇاڪاڻ	_	SCONJ	CS	_	67	mark	_	_
-65	ته	_	SCONJ	CS	_	67	mark	_	_
+65	ته	_	SCONJ	CS	_	64	fixed	_	_
 66	هو	_	PRON	PRP	Case=Nom|Number=Plur	67	nsubj	_	_
 67	چون	_	VERB	VM	Aspect=Imp|Number=Plur	62	conj	_	_
 68	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	67	aux	_	_
@@ -6672,14 +6672,14 @@
 9	ٽيڪس	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 10	تا	_	ADP	PSPL	_	11	xcomp	_	_
 11	ڏيون	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	3	obj	_	_
-12	ته	_	SCONJ	CS	_	11	mark	_	_
-13	پوءِ	_	ADP	PSP	_	11	mark	_	_
+12	ته	_	SCONJ	CS	_	24	mark	_	_
+13	پوءِ	_	ADP	PSP	_	24	advmod	_	_
 14	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	16	nmod	_	_
 15	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	14	case	_	_
 16	ٽيڪس	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obj	_	_
 17	وٺڻ	_	VERB	VM	VerbForm=Inf	24	advcl	_	_
 18	کان	_	ADP	PSP	_	17	mark	_	_
-19	پوءِ	_	ADP	PSP	_	17	mark	_	_
+19	پوءِ	_	ADP	PSP	_	18	fixed	_	_
 20	اسين	_	PRON	PRP	Case=Nom|Number=Plur|Person=1	24	nsubj	_	_
 21	غير	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	22	amod	_	_
 22	محفوظ	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	24	xcomp	_	_
@@ -6981,7 +6981,7 @@
 7	واري	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	6	case	_	_
 8	تباهيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
 9	کان	_	ADP	PSP	_	8	case	_	_
-10	پوءِ	_	ADP	PSP	_	8	case	_	_
+10	پوءِ	_	ADV	ADT	_	9	fixed	_	_
 11	واپارين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	iobj	_	_
 12	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	11	case	_	_
 13	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -7017,8 +7017,8 @@
 43	ڪڍيا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Voice=Act	35	conj	_	_
 44	وڃن	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	43	compound	_	_
 45	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	43	aux	_	_
-46	ته	_	SCONJ	CS	_	43	mark	_	_
-47	پوءِ	_	ADP	PSP	_	43	mark	_	_
+46	ته	_	SCONJ	CS	_	59	mark	_	_
+47	پوءِ	_	ADV	ADT	_	59	advmod	_	_
 48	اهي	_	DET	PRD	Case=Nom|Number=Plur	59	nsubj	_	_
 49	به	_	PART	PART	_	48	advmod:emph	_	_
 50	وڏي	_	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	51	amod	_	_
@@ -9554,8 +9554,8 @@
 
 # sent_id = 4870
 # text = ڇاڪاڻ ته اهڙو بل پارليامينٽ، ملڪ ۽ حڪومت جي بدنامي جو سبب بڻجندو.
-1	ڇاڪاڻ	_	ADV	ADT	_	14	mark	_	_
-2	ته	_	SCONJ	CS	_	14	mark	_	_
+1	ڇاڪاڻ	_	SCONJ	CS	_	14	mark	_	_
+2	ته	_	SCONJ	CS	_	1	fixed	_	_
 3	اهڙو	_	DET	PRD	Case=Nom|Number=Sing	4	det	_	_
 4	بل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 5	پارليامينٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -10553,8 +10553,8 @@
 71	تيار	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	72	xcomp	_	_
 72	ڪرڻ	_	VERB	VM	VerbForm=Inf	53	obj	_	_
 73	گهرجن	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	72	compound	_	_
-74	ته	_	SCONJ	CS	_	72	mark	_	_
-75	جيئن	_	ADV	ADM	_	72	mark	_	_
+74	ته	_	SCONJ	CS	_	87	mark	_	_
+75	جيئن	_	ADV	ADM	_	87	advmod	_	_
 76	انهن	_	DET	PRD	Case=Acc|Number=Plur	78	nmod	_	_
 77	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	76	case	_	_
 78	رٽائرمينٽ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	81	obl	_	_
@@ -11373,15 +11373,15 @@
 5	وارداتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	_
 6	۾	_	ADP	PSPL	_	5	case	_	_
 7	مئا	_	VERB	VM	Aspect=Perf|Number=Plur|Person=3	0	root	_	_
-8	پر	_	SCONJ	CS	_	7	mark	_	_
-9	پوءِ	_	ADP	PSP	_	7	mark	_	_
-10	به	_	PART	PART	_	7	advmod:emph	_	_
+8	پر	_	SCONJ	CS	_	17	mark	_	_
+9	پوءِ	_	ADP	PSP	_	14	advmod:emph	_	_
+10	به	_	PART	PART	_	9	fixed	_	_
 11	امن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
 12	امان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
 13	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	12	case	_	_
 14	صورتحال	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
 15	ڪنٽرول	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	_
-16	هيٺ	_	ADV	ADP	_	7	advcl	_	_
+16	هيٺ	_	ADV	ADP	_	17	advcl	_	_
 17	رهي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	7	advcl	_	SpaceAfter=No
 18	.	_	PUNCT	PUNCT	_	17	punct	_	_
 
@@ -12292,7 +12292,7 @@
 # sent_id = 4957
 # text = ڇاڪاڻ جو ان نوٽيفڪيشن ذريعي 12 سيپٽمبر 2009ع وارو جيڪو نوٽيفڪيشن رد ڪيو ويو آهي،
 1	ڇاڪاڻ	_	SCONJ	CS	_	13	mark	_	_
-2	جو	_	ADP	PSPG	Case=Acc|Number=Sing	13	mark	_	_
+2	جو	_	ADP	PSPG	Case=Acc|Number=Sing	1	fixed	_	_
 3	ان	_	DET	PRD	Case=Acc|Number=Sing	4	det	_	_
 4	نوٽيفڪيشن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
 5	ذريعي	_	ADP	PSP	_	4	case	_	_
@@ -13392,14 +13392,14 @@
 12	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	2	obj	_	_
 13	سگهون	_	AUX	VAUX	Number=Plur|Person=3|Tense=Pres	12	aux	_	SpaceAfter=No
 14	،	_	PUNCT	PUNCT	_	12	punct	_	_
-15	ڇاڪاڻ	_	SCONJ	CS	_	12	mark	_	_
-16	ته	_	SCONJ	CS	_	12	mark	_	_
+15	ڇاڪاڻ	_	SCONJ	CS	_	22	mark	_	_
+16	ته	_	SCONJ	CS	_	15	fixed	_	_
 17	صوبي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	_
 18	۾	_	ADP	PSPL	_	17	case	_	_
 19	27	_	NUM	NUM	_	20	nummod	_	_
 20	هزار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nmod	_	_
 21	تعليمي	_	ADJ	JJ	Case=Nom|Degree=Pos	22	amod	_	_
-22	ادارا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	obl	_	_
+22	ادارا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	ccomp	_	_
 23	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	22	cop	_	_
 24	۽	_	CCONJ	CC	_	28	cc	_	_
 25	50	_	NUM	NUM	_	26	nummod	_	_
@@ -13737,7 +13737,7 @@
 28	ختم	_	ADJ	JJ	Case=Nom|Degree=Pos	29	compound	_	_
 29	ٿيڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	32	nmod	_	_
 30	کانپوءِ	_	ADP	PSPL	_	29	mark	_	_
-31	واري	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	29	mark	_	_
+31	واري	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	30	fixed	_	_
 32	صورتحال	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	obl	_	_
 33	تي	_	ADP	PSPL	_	32	case	_	_
 34	غور	_	NOUN	NN	Case=Acc|Number=Sing	46	obl	_	_
@@ -13754,7 +13754,7 @@
 45	منعقد	_	NOUN	NN	Case=Nom|Number=Sing	46	compound	_	_
 46	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf|Voice=Act	48	nmod	_	_
 47	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	46	mark	_	_
-48	امڪان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
+48	امڪان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	advcl	_	_
 49	آهي	_	AUX	VAUX	Person=3|Tense=Pres	48	cop	_	SpaceAfter=No
 50	،	_	PUNCT	PUNCT	_	48	punct	_	_
 
