@@ -3227,30 +3227,39 @@
 34	.	_	PUNCT	_	_	31	punct	_	_
 
 # sent_id = 647
-# text = پراڻي سنڌ کي اتهاس ۾ سوساما سيس سيت شيتو سنتو سنڌوديشا سنڌو سنڌ هند انڊ وغيره جي نالن سان سڏيو ويندو هو .
-1	پراڻي	_	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
-2	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	20	obj	_	_
-3	کي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Loc	2	case	_	_
-4	اتهاس	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
-5	۾	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Loc	4	case	_	_
-6	سوساما	_	PROPN	NNP	Case=Nom|Gender=Fem	15	flat	_	_
-7	سيس	_	PROPN	NNP	Case=Nom|Gender=Fem	15	flat	_	_
-8	سيت	_	PROPN	NNP	Case=Nom|Gender=Fem	15	flat	_	_
-9	شيتو	_	PROPN	NNP	Case=Nom|Gender=Fem	15	flat	_	_
-10	سنتو	_	PROPN	NNP	Case=Nom|Gender=Fem	15	flat	_	_
-11	سنڌوديشا	_	PROPN	NNP	Case=Nom|Gender=Fem	15	flat	_	_
-12	سنڌو	_	PROPN	NNP	Case=Nom|Gender=Fem	15	flat	_	_
-13	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	15	flat	_	_
-14	هند	_	PROPN	NNP	Case=Nom|Gender=Fem	15	flat	_	_
-15	انڊ	_	PROPN	NNP	Case=Nom|Gender=Fem	18	nmod	_	_
-16	وغيره	_	PART	PART	_	15	dep	_	_
-17	جي	_	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	15	case	_	_
-18	نالن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obl	_	_
-19	سان	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Loc	18	case	_	_
-20	سڏيو	_	VERB	VM	Aspect=Perf|Number=Sing|Tense=Pres|Voice=Act	0	root	_	_
-21	ويندو	_	VERB	VM	Aspect=Perf|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	compound	_	_
-22	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	20	aux	_	_
-23	.	_	PUNCT	PUNCT	_	20	punct	_	_
+# text = پراڻي سنڌ کي اتهاس ۾ سوساما، سيس، سيت شيتو، سنتو، سنڌوديشا، سنڌو، سنڌ، هند، انڊ، وغيره جي نالن سان سڏيو ويندو هو
+1	پراڻي	پراڻي	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	29	obj	_	_
+3	کي	کي	ADP	PSP	_	2	case	_	_
+4	اتهاس	اتهاس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
+5	۾	۾	ADP	PSPL	_	4	case	_	_
+6	سوساما	سوساما	PROPN	NNP	Case=Nom|Gender=Masc	27	nmod	_	SpaceAfter=No
+7	،	،	PUNCT	PUNCT	_	8	punct	_	_
+8	سيس	سيس	PROPN	NNP	Case=Nom|Gender=Masc	6	conj	_	SpaceAfter=No
+9	،	،	PUNCT	PUNCT	_	11	punct	_	_
+10	سيت	سيت	PROPN	NNP	Case=Nom|Gender=Masc	11	nmod	_	_
+11	شيتو	شيتو	PROPN	NNP	Case=Nom|Gender=Masc	6	conj	_	SpaceAfter=No
+12	،	،	PUNCT	PUNCT	_	13	punct	_	_
+13	سنتو	سنتو	PROPN	NNP	Case=Nom|Gender=Masc	6	conj	_	SpaceAfter=No
+14	،	،	PUNCT	PUNCT	_	15	punct	_	_
+15	سنڌوديشا	سنڌوديشا	PROPN	NNP	Case=Nom|Gender=Masc	6	conj	_	SpaceAfter=No
+16	،	،	PUNCT	PUNCT	_	17	punct	_	_
+17	سنڌو	سنڌو	PROPN	NNP	Case=Nom|Gender=Masc	6	conj	_	SpaceAfter=No
+18	،	،	PUNCT	PUNCT	_	17	punct	_	_
+19	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	6	conj	_	SpaceAfter=No
+20	،	،	PUNCT	PUNCT	_	21	punct	_	_
+21	هند	هند	PROPN	NNP	Case=Nom|Gender=Masc	6	conj	_	SpaceAfter=No
+22	،	،	PUNCT	PUNCT	_	23	punct	_	_
+23	انڊ	انڊ	PROPN	NNP	Case=Nom|Gender=Masc	6	conj	_	SpaceAfter=No
+24	،	،	PUNCT	PUNCT	_	23	punct	_	_
+25	وغيره	وغيره	PART	PART	_	23	dep	_	_
+26	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	6	case	_	_
+27	نالن	نالن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	29	obl	_	_
+28	سان	سان	ADP	PSP	_	27	case	_	_
+29	سڏيو	سڏيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+30	ويندو	ويندو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	29	compound	_	_
+31	هو	هو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	29	aux	_	SpaceAfter=No
+
 
 # sent_id = 648
 # text = هن مهل تائين سميري تهذيب کي آڳاٽي تصور ڪيو وڃي ٿو پر سنڌ سمير کان نه رڳو آڳاٽي سرسبز ۽ خوشحال سرزمين آهي پر تمدني ۽ تهذيبي اعتبار کان به ڪيترائي درجا بلند آهي ۽ هر حالت ۾ دنيا جي قديم ترين علائقي سمير کان مٿاهين ۽ اوليت رکندڙ آهي .
