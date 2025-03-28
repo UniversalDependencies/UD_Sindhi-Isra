@@ -60851,39 +60851,42 @@
 14	آئي	_	_	_	_	1	dep	_	SpaceAfter=No
 15	.	_	_	_	_	1	dep	_	_
 
-# sent_id = 3348
-# text = اهو ڏسي ماڻس هن کان پڇيو، ڌيءَ گاهه ڪٿان آندو اٿئي؟ ماليڪٽ جواب ڏنو ته، مون وهنجڻ جي لاءِ هڪ تمام سهڻي کاري ڳولي هٿ ڪئي آهي.
-1	اهو	_	_	_	_	0	root	_	_
-2	ڏسي	_	_	_	_	1	dep	_	_
-3	ماڻس	_	_	_	_	1	dep	_	_
-4	هن	_	_	_	_	1	dep	_	_
-5	کان	_	_	_	_	1	dep	_	_
-6	پڇيو	_	_	_	_	1	dep	_	SpaceAfter=No
-7	،	_	_	_	_	1	dep	_	_
-8	ڌيءَ	_	_	_	_	1	dep	_	_
-9	گاهه	_	_	_	_	1	dep	_	_
-10	ڪٿان	_	_	_	_	1	dep	_	_
-11	آندو	_	_	_	_	1	dep	_	_
-12	اٿئي	_	_	_	_	1	dep	_	SpaceAfter=No
-13	؟	_	_	_	_	1	dep	_	_
-14	ماليڪٽ	_	_	_	_	1	dep	_	_
-15	جواب	_	_	_	_	1	dep	_	_
-16	ڏنو	_	_	_	_	1	dep	_	_
-17	ته	_	_	_	_	1	dep	_	SpaceAfter=No
-18	،	_	_	_	_	1	dep	_	_
-19	مون	_	_	_	_	1	dep	_	_
-20	وهنجڻ	_	_	_	_	1	dep	_	_
-21	جي	_	_	_	_	1	dep	_	_
-22	لاءِ	_	_	_	_	1	dep	_	_
-23	هڪ	_	_	_	_	1	dep	_	_
-24	تمام	_	_	_	_	1	dep	_	_
-25	سهڻي	_	_	_	_	1	dep	_	_
-26	کاري	_	_	_	_	1	dep	_	_
-27	ڳولي	_	_	_	_	1	dep	_	_
-28	هٿ	_	_	_	_	1	dep	_	_
-29	ڪئي	_	_	_	_	1	dep	_	_
-30	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-31	.	_	_	_	_	1	dep	_	_
+# sent_id = 3348a
+# text = اهو ڏسي ماڻس هن کان پڇيو، ڌيءَ گاهه ڪٿان آندو اٿئي؟
+1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	ڏسي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+3	ماڻس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	هن	_	DET	PRD	Case=Acc|Number=Sing	6	iobj	_	_
+5	کان	_	ADP	PSP	_	4	det	_	_
+6	پڇيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	،	_	PUNCT	PUNCT	_	6	punct	_	_
+8	ڌيءَ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+9	گاهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
+10	ڪٿان	_	ADV	ADP	_	11	advmod	_	_
+11	آندو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	6	ccomp	_	_
+12	اٿئي	_	VERB	VMX	Number=Sing|Person=1	11	compound	_	SpaceAfter=No
+13	؟	_	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = 3348b
+# text = ماليڪٽ جواب ڏنو ته، مون وهنجڻ جي لاءِ هڪ تمام سهڻي کاري ڳولي هٿ ڪئي آهي.
+1	ماليڪٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	جواب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	_
+3	ڏنو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+4	ته	_	SCONJ	CS	_	3	mark	_	SpaceAfter=No
+5	،	_	PUNCT	PUNCT	_	3	punct	_	_
+6	مون	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	7	nsubj	_	_
+7	وهنجڻ	_	VERB	VM	VerbForm=Inf	16	advcl	_	_
+8	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	mark	_	_
+9	لاءِ	_	ADP	PSP	_	7	mark	_	_
+10	هڪ	_	NUM	NUM	_	13	nummod	_	_
+11	تمام	_	ADV	ADV	_	13	amod	_	_
+12	سهڻي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	کاري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	_
+14	ڳولي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	16	advcl	_	_
+15	هٿ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	compound	_	_
+16	ڪئي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	3	ccomp	_	_
+17	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	16	aux	_	SpaceAfter=No
+18	.	_	PUNCT	PUNCT	_	16	punct	_	_
 
 # sent_id = 3349
 # text = شايد آءٌ پهرين ڇوڪري آهيان،
@@ -63203,39 +63206,42 @@
 14	آئي	_	_	_	_	1	dep	_	SpaceAfter=No
 15	.	_	_	_	_	1	dep	_	_
 
-# sent_id = 3481
-# text = اهو ڏسي ماڻس هن کان پڇيو، ڌيءَ گاهه ڪٿان آندو اٿئي؟ ماليڪٽ جواب ڏنو ته، مون وهنجڻ جي لاءِ هڪ تمام سهڻي کاري ڳولي هٿ ڪئي آهي.
-1	اهو	_	_	_	_	0	root	_	_
-2	ڏسي	_	_	_	_	1	dep	_	_
-3	ماڻس	_	_	_	_	1	dep	_	_
-4	هن	_	_	_	_	1	dep	_	_
-5	کان	_	_	_	_	1	dep	_	_
-6	پڇيو	_	_	_	_	1	dep	_	SpaceAfter=No
-7	،	_	_	_	_	1	dep	_	_
-8	ڌيءَ	_	_	_	_	1	dep	_	_
-9	گاهه	_	_	_	_	1	dep	_	_
-10	ڪٿان	_	_	_	_	1	dep	_	_
-11	آندو	_	_	_	_	1	dep	_	_
-12	اٿئي	_	_	_	_	1	dep	_	SpaceAfter=No
-13	؟	_	_	_	_	1	dep	_	_
-14	ماليڪٽ	_	_	_	_	1	dep	_	_
-15	جواب	_	_	_	_	1	dep	_	_
-16	ڏنو	_	_	_	_	1	dep	_	_
-17	ته	_	_	_	_	1	dep	_	SpaceAfter=No
-18	،	_	_	_	_	1	dep	_	_
-19	مون	_	_	_	_	1	dep	_	_
-20	وهنجڻ	_	_	_	_	1	dep	_	_
-21	جي	_	_	_	_	1	dep	_	_
-22	لاءِ	_	_	_	_	1	dep	_	_
-23	هڪ	_	_	_	_	1	dep	_	_
-24	تمام	_	_	_	_	1	dep	_	_
-25	سهڻي	_	_	_	_	1	dep	_	_
-26	کاري	_	_	_	_	1	dep	_	_
-27	ڳولي	_	_	_	_	1	dep	_	_
-28	هٿ	_	_	_	_	1	dep	_	_
-29	ڪئي	_	_	_	_	1	dep	_	_
-30	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-31	.	_	_	_	_	1	dep	_	_
+# sent_id = 3481a
+# text = اهو ڏسي ماڻس هن کان پڇيو، ڌيءَ گاهه ڪٿان آندو اٿئي؟
+1	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	ڏسي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+3	ماڻس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	هن	_	DET	PRD	Case=Acc|Number=Sing	6	iobj	_	_
+5	کان	_	ADP	PSP	_	4	det	_	_
+6	پڇيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	،	_	PUNCT	PUNCT	_	6	punct	_	_
+8	ڌيءَ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+9	گاهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
+10	ڪٿان	_	ADV	ADP	_	11	advmod	_	_
+11	آندو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	6	ccomp	_	_
+12	اٿئي	_	VERB	VMX	Number=Sing|Person=1	11	compound	_	SpaceAfter=No
+13	؟	_	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = 3481b
+# text = ماليڪٽ جواب ڏنو ته، مون وهنجڻ جي لاءِ هڪ تمام سهڻي کاري ڳولي هٿ ڪئي آهي.
+1	ماليڪٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	جواب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	_
+3	ڏنو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+4	ته	_	SCONJ	CS	_	3	mark	_	SpaceAfter=No
+5	،	_	PUNCT	PUNCT	_	3	punct	_	_
+6	مون	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	7	nsubj	_	_
+7	وهنجڻ	_	VERB	VM	VerbForm=Inf	16	advcl	_	_
+8	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	mark	_	_
+9	لاءِ	_	ADP	PSP	_	7	mark	_	_
+10	هڪ	_	NUM	NUM	_	13	nummod	_	_
+11	تمام	_	ADV	ADV	_	13	amod	_	_
+12	سهڻي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	کاري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	_
+14	ڳولي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	16	advcl	_	_
+15	هٿ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	compound	_	_
+16	ڪئي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	3	ccomp	_	_
+17	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	16	aux	_	SpaceAfter=No
+18	.	_	PUNCT	PUNCT	_	16	punct	_	_
 
 # sent_id = 3482
 # text = شايد آءٌ پهرين ڇوڪري آهيان،
