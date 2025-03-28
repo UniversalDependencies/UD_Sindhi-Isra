@@ -80,8 +80,8 @@
 26	،	_	PUNCT	PUNCT	_	23	punct	_	_
 
 # sent_id = 3773
-# text = آمريڪي گرفتار حيدرآباد، سکر ۽ مريدڪي ۾ بندش پيل تنظيمن سان مليا
-1	آمريڪي	_	NOUN	NN	Case=Nom	2	amod	_	_
+# text = آمريڪي گرفتار حيدرآباد، سکر ۽ مريدڪي ۾ بندش پيل تنظيمن سان مليا.
+1	آمريڪي	_	NOUN	NN	Case=Nom|Number=Sing	2	nmod	_	_
 2	گرفتار	_	ADJ	JJ	Case=Nom	13	nsubj	_	_
 3	حيدرآباد	_	PROPN	NNP	Case=Nom|Gender=Masc	10	obl	_	SpaceAfter=No
 4	،	_	PUNCT	PUNCT	_	5	punct	_	_
@@ -90,10 +90,11 @@
 7	مريدڪي	_	PROPN	NNP	Case=Acc|Gender=Masc	3	conj	_	_
 8	۾	_	ADP	PSPL	_	7	case	_	_
 9	بندش	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	_
-10	پيل	_	VERB	VM	Aspect=Perf|Tense=Past|VerbForm=PastPart|Voice=Pass	11	acl	_	_
+10	پيل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart|Voice=Pass	11	acl	_	_
 11	تنظيمن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	_
 12	سان	_	ADP	PSP	_	11	case	_	_
-13	مليا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
+13	مليا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+14	.	_	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = 3921
 # text = ۽ متاثرن جي وارثن کي مالي مدد ڏيڻ وارو ڪم ايترو ته وڌي چڪو آهي جو ان کي ڏسي لڳي ٿو ته حڪومت کي ان حوالي سان الڳ بجيٽ نه رکڻي پوي!! پر اسان اميد ڪيون ٿا ته اسان اهڙي ڪنهن خوفناڪ صورتحال ۾ نه وينداسين جو اسان کي شيون ان حد تائين ڪرڻيون پونديون.
