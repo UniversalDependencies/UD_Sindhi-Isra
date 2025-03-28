@@ -16954,28 +16954,28 @@
 18	،	_	_	_	_	1	dep	_	_
 
 # sent_id = 910
-# text = نوجوان! ڇا آءٌ توسان هلي سگهان ٿي؟ نوجوان وراڻيوڇو نه، تون به اسان سان گڏ هل.
-1	نوجوان	_	_	_	_	0	root	_	SpaceAfter=No
-2	!	_	_	_	_	1	dep	_	_
-3	ڇا	_	_	_	_	1	dep	_	_
-4	آءٌ	_	_	_	_	1	dep	_	_
-5	توسان	_	_	_	_	1	dep	_	_
-6	هلي	_	_	_	_	1	dep	_	_
-7	سگهان	_	_	_	_	1	dep	_	_
-8	ٿي	_	_	_	_	1	dep	_	SpaceAfter=No
-9	؟	_	_	_	_	1	dep	_	_
-10	نوجوان	_	_	_	_	1	dep	_	_
-11	وراڻيو	_	_	_	_	12	dep	_	SpaceAfter=No
-12	ڇو	_	_	_	_	1	dep	_	_
-13	نه	_	_	_	_	1	dep	_	SpaceAfter=No
-14	،	_	_	_	_	1	dep	_	_
-15	تون	_	_	_	_	1	dep	_	_
-16	به	_	_	_	_	1	dep	_	_
-17	اسان	_	_	_	_	1	dep	_	_
-18	سان	_	_	_	_	1	dep	_	_
-19	گڏ	_	_	_	_	1	dep	_	_
-20	هل	_	_	_	_	1	dep	_	SpaceAfter=No
-21	.	_	_	_	_	1	dep	_	_
+# text = نوجوان! ڇا آءٌ توسان هلي سگهان ٿي؟ نوجوان وراڻيو ڇو نه، تون به اسان سان گڏ هل.
+1	نوجوان	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
+2	!	_	PUNCT	_	_	1	punct	_	_
+3	ڇا	_	PRON	_	_	6	obl	_	_
+4	آءٌ	_	PRON	_	_	6	nsubj	_	_
+5	توسان	_	PRON	_	_	6	obl	_	_
+6	هلي	_	VERB	_	_	0	root	_	_
+7	سگهان	_	VERB	_	_	6	compound	_	_
+8	ٿي	_	AUX	_	_	6	aux	_	SpaceAfter=No
+9	؟	_	PUNCT	_	_	11	punct	_	_
+10	نوجوان	_	NOUN	_	_	11	nsubj	_	_
+11	وراڻيو	_	VERB	_	_	6	conj	_	_
+12	ڇو	_	PRON	_	_	20	obl	_	_
+13	نه	_	PART	_	_	12	dep	_	SpaceAfter=No
+14	،	_	PUNCT	_	_	12	punct	_	_
+15	تون	_	PRON	_	_	20	nsubj	_	_
+16	به	_	PART	_	_	15	advmod:emph	_	_
+17	اسان	_	PRON	_	_	20	obl	_	_
+18	سان	_	ADP	_	_	17	case	_	_
+19	گڏ	_	ADV	_	_	20	advmod	_	_
+20	هل	_	VERB	_	_	11	obj	_	SpaceAfter=No
+21	.	_	PUNCT	_	_	20	punct	_	_
 
 # sent_id = 911
 # text = ۽ صندوق به ٽپ ڏيئي گهوڙي تي چڙهي ويٺي.
@@ -67150,32 +67150,33 @@
 31	،	_	_	_	_	1	dep	_	_
 
 # sent_id = 3684
-# text = ڇاڪاڻ ته پيپلز  پارٽي جي موجوده حڪومت سنڌ جي برباد ٿيل تعليم کي هرحال ۾ پنهنجو شاندار ماضي واپس ڏيارڻ جو عهد ڪريرکيو آهي،
-1	ڇاڪاڻ	_	_	_	_	0	root	_	_
-2	ته	_	_	_	_	1	dep	_	_
-3	پيپلز 	_	_	_	_	1	dep	_	_
-4	پارٽي	_	_	_	_	1	dep	_	_
-5	جي	_	_	_	_	1	dep	_	_
-6	موجوده	_	_	_	_	1	dep	_	_
-7	حڪومت	_	_	_	_	1	dep	_	_
-8	سنڌ	_	_	_	_	1	dep	_	_
-9	جي	_	_	_	_	1	dep	_	_
-10	برباد	_	_	_	_	1	dep	_	_
-11	ٿيل	_	_	_	_	1	dep	_	_
-12	تعليم	_	_	_	_	1	dep	_	_
-13	کي	_	_	_	_	1	dep	_	_
-14	هرحال	_	_	_	_	1	dep	_	_
-15	۾	_	_	_	_	1	dep	_	_
-16	پنهنجو	_	_	_	_	1	dep	_	_
-17	شاندار	_	_	_	_	1	dep	_	_
-18	ماضي	_	_	_	_	1	dep	_	_
-19	واپس	_	_	_	_	1	dep	_	_
-20	ڏيارڻ	_	_	_	_	1	dep	_	_
-21	جو	_	_	_	_	1	dep	_	_
-22	عهد	_	_	_	_	1	dep	_	_
-23	ڪريرکيو	_	_	_	_	1	dep	_	_
-24	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-25	،	_	_	_	_	1	dep	_	_
+# text = ڇاڪاڻ ته رٽي پيپلزپا جي موجوده حڪومت سنڌ جي برباد ٿيل تعليم کي هرحال ۾ پنهنجو شاندار ماضي واپس ڏيارڻ جو عهد ڪري رکيو آهي،
+1	ڇاڪاڻ	_	ADV	_	_	23	advmod	_	_
+2	ته	_	PART	PART	_	1	advmod:emph	_	_
+3	رٽي	_	NOUN	_	_	4	nmod	_	_
+4	پيپلزپا	_	PROPN	_	_	7	nmod	_	_
+5	جي	_	ADP	_	_	4	case	_	_
+6	موجوده	_	ADJ	_	_	7	amod	_	_
+7	حڪومت	_	NOUN	_	_	23	nsubj	_	_
+8	سنڌ	_	PROPN	_	_	10	nmod	_	_
+9	جي	_	ADP	_	_	8	case	_	_
+10	برباد	_	NOUN	_	_	11	compound	_	_
+11	ٿيل	_	VERB	_	_	12	acl	_	_
+12	تعليم	_	NOUN	_	_	20	obj	_	_
+13	کي	_	ADP	_	_	12	case	_	_
+14	هرحال	_	NOUN	_	_	20	obl	_	_
+15	۾	_	ADP	_	_	14	case	_	_
+16	پنهنجو	_	PRON	_	_	18	nmod	_	_
+17	شاندار	_	ADJ	_	_	18	amod	_	_
+18	ماضي	_	NOUN	_	_	20	obj	_	_
+19	واپس	_	NOUN	_	_	20	compound	_	_
+20	ڏيارڻ	_	VERB	_	_	22	nmod	_	_
+21	جو	_	ADP	_	_	20	mark	_	_
+22	عهد	_	NOUN	_	_	23	xcomp	_	_
+23	ڪري	_	VERB	_	_	0	root	_	_
+24	رکيو	_	VERB	_	_	23	compound	_	_
+25	آهي	_	AUX	_	_	23	aux	_	SpaceAfter=No
+26	،	_	PUNCT	_	_	23	punct	_	_
 
 # sent_id = 3685
 # text = پيرمظهرالحق چيو ته تعليم جي فيلڊ ۾ ڪمزور قومون ترقي يافته نه ٿيون ٿي سگهن،
@@ -69296,20 +69297,20 @@
 30	.	_	_	_	_	1	dep	_	_
 
 # sent_id = 3773
-# text = امريڪي گرفتا حيدرآباد، سکر ۽ مريدڪي ۾ بندش پيل تنظيمن سان مليا
-1	امريڪي	_	_	_	_	0	root	_	_
-2	گرفتا	_	_	_	_	1	dep	_	_
-3	حيدرآباد	_	_	_	_	1	dep	_	SpaceAfter=No
-4	،	_	_	_	_	1	dep	_	_
-5	سکر	_	_	_	_	1	dep	_	_
-6	۽	_	_	_	_	1	dep	_	_
-7	مريدڪي	_	_	_	_	1	dep	_	_
-8	۾	_	_	_	_	1	dep	_	_
-9	بندش	_	_	_	_	1	dep	_	_
-10	پيل	_	_	_	_	1	dep	_	_
-11	تنظيمن	_	_	_	_	1	dep	_	_
-12	سان	_	_	_	_	1	dep	_	_
-13	مليا	_	_	_	_	1	dep	_	_
+# text = رآمريڪي گرفتا حيدرآباد، سکر ۽ مريدڪي ۾ بندش پيل تنظيمن سان مليا
+1	رآمريڪي	_	ADJ	_	_	2	amod	_	_
+2	گرفتا	_	NOUN	_	_	13	nsubj	_	_
+3	حيدرآباد	_	PROPN	_	_	10	obl	_	SpaceAfter=No
+4	،	_	PUNCT	_	_	5	punct	_	_
+5	سکر	_	PROPN	_	_	3	conj	_	_
+6	۽	_	CCONJ	_	_	7	cc	_	_
+7	مريدڪي	_	PROPN	_	_	3	conj	_	_
+8	۾	_	ADP	_	_	7	case	_	_
+9	بندش	_	NOUN	_	_	10	compound	_	_
+10	پيل	_	VERB	_	_	11	acl	_	_
+11	تنظيمن	_	NOUN	_	_	13	obl	_	_
+12	سان	_	ADP	_	_	11	case	_	_
+13	مليا	_	VERB	_	_	0	root	_	_
 
 # sent_id = 3774
 # text = سرگوڌا (آن لائن) سرگوڌا مان گرفتار ڪيل 5 آمريڪين کي اڄ اي ٽي سي ڪورٽ ۾ پيش ڪيو ويندو،
@@ -72999,64 +73000,64 @@
 14	،	_	_	_	_	1	dep	_	_
 
 # sent_id = 3921
-# text = ۽ متاثرن جي وارثن کي مالي مدد ڏيڻ وارو ڪم ايترو ته وڌي چڪو آهي جو ان کي ڏسي لڳي ٿو ته حڪومت کي ان حوالي سان الڳ بجيٽ نه رکڻي پوي!! پراسان اميد ڪيون ٿا ته اسان اهڙي ڪنهن خوفناڪ صورتحال ۾ نه وينداسين جو اسان کي شيون ان حد تائين ڪرڻيون پونديون.
-1	۽	_	_	_	_	0	root	_	_
-2	متاثرن	_	_	_	_	1	dep	_	_
-3	جي	_	_	_	_	1	dep	_	_
-4	وارثن	_	_	_	_	1	dep	_	_
-5	کي	_	_	_	_	1	dep	_	_
-6	مالي	_	_	_	_	1	dep	_	_
-7	مدد	_	_	_	_	1	dep	_	_
-8	ڏيڻ	_	_	_	_	1	dep	_	_
-9	وارو	_	_	_	_	1	dep	_	_
-10	ڪم	_	_	_	_	1	dep	_	_
-11	ايترو	_	_	_	_	1	dep	_	_
-12	ته	_	_	_	_	1	dep	_	_
-13	وڌي	_	_	_	_	1	dep	_	_
-14	چڪو	_	_	_	_	1	dep	_	_
-15	آهي	_	_	_	_	1	dep	_	_
-16	جو	_	_	_	_	1	dep	_	_
-17	ان	_	_	_	_	1	dep	_	_
-18	کي	_	_	_	_	1	dep	_	_
-19	ڏسي	_	_	_	_	1	dep	_	_
-20	لڳي	_	_	_	_	1	dep	_	_
-21	ٿو	_	_	_	_	1	dep	_	_
-22	ته	_	_	_	_	1	dep	_	_
-23	حڪومت	_	_	_	_	1	dep	_	_
-24	کي	_	_	_	_	1	dep	_	_
-25	ان	_	_	_	_	1	dep	_	_
-26	حوالي	_	_	_	_	1	dep	_	_
-27	سان	_	_	_	_	1	dep	_	_
-28	الڳ	_	_	_	_	1	dep	_	_
-29	بجيٽ	_	_	_	_	1	dep	_	_
-30	نه	_	_	_	_	1	dep	_	_
-31	رکڻي	_	_	_	_	1	dep	_	_
-32	پوي	_	_	_	_	33	dep	_	SpaceAfter=No
-33	!!	_	_	_	_	1	dep	_	_
-34	پر	_	_	_	_	33	dep	_	SpaceAfter=No
-35	اسان	_	_	_	_	1	dep	_	_
-36	اميد	_	_	_	_	1	dep	_	_
-37	ڪيون	_	_	_	_	1	dep	_	_
-38	ٿا	_	_	_	_	1	dep	_	_
-39	ته	_	_	_	_	1	dep	_	_
-40	اسان	_	_	_	_	1	dep	_	_
-41	اهڙي	_	_	_	_	1	dep	_	_
-42	ڪنهن	_	_	_	_	1	dep	_	_
-43	خوفناڪ	_	_	_	_	1	dep	_	_
-44	صورتحال	_	_	_	_	1	dep	_	_
-45	۾	_	_	_	_	1	dep	_	_
-46	نه	_	_	_	_	1	dep	_	_
-47	وينداسين	_	_	_	_	1	dep	_	_
-48	جو	_	_	_	_	1	dep	_	_
-49	اسان	_	_	_	_	1	dep	_	_
-50	کي	_	_	_	_	1	dep	_	_
-51	شيون	_	_	_	_	1	dep	_	_
-52	ان	_	_	_	_	1	dep	_	_
-53	حد	_	_	_	_	1	dep	_	_
-54	تائين	_	_	_	_	1	dep	_	_
-55	ڪرڻيون	_	_	_	_	1	dep	_	_
-56	پونديون	_	_	_	_	1	dep	_	SpaceAfter=No
-57	.	_	_	_	_	1	dep	_	_
+# text = ۽ متاثرن جي وارثن کي مالي مدد ڏيڻ وارو ڪم ايترو ته وڌي چڪو آهي جو ان کي ڏسي لڳي ٿو ته حڪومت کي ان حوالي سان الڳ بجيٽ نه رکڻي پوي!! پر اسان اميد ڪيون ٿا ته اسان اهڙي ڪنهن خوفناڪ صورتحال ۾ نه وينداسين جو اسان کي شيون ان حد تائين ڪرڻيون پونديون.
+1	۽	_	CCONJ	_	_	13	cc	_	_
+2	متاثرن	_	NOUN	_	_	4	nmod	_	_
+3	جي	_	ADP	_	_	2	case	_	_
+4	وارثن	_	NOUN	_	_	8	obj	_	_
+5	کي	_	ADP	_	_	4	case	_	_
+6	مالي	_	ADJ	_	_	7	amod	_	_
+7	مدد	_	NOUN	_	_	8	compound	_	_
+8	ڏيڻ	_	VERB	_	_	10	nmod	_	_
+9	وارو	_	ADP	_	_	8	mark	_	_
+10	ڪم	_	NOUN	_	_	13	nsubj	_	_
+11	ايترو	_	ADJ	_	_	13	advmod	_	_
+12	ته	_	PART	PART	_	11	advmod:emph	_	_
+13	وڌي	_	VERB	_	_	0	root	_	_
+14	چڪو	_	VERB	_	_	13	compound	_	_
+15	آهي	_	AUX	_	_	13	aux	_	_
+16	جو	_	ADP	_	_	13	mark	_	_
+17	ان	_	DET	_	_	19	obj	_	_
+18	کي	_	ADP	_	_	17	case	_	_
+19	ڏسي	_	VERB	_	_	20	advcl	_	_
+20	لڳي	_	VERB	_	_	13	conj	_	_
+21	ٿو	_	AUX	_	_	20	aux	_	_
+22	ته	_	SCONJ	_	_	31	mark	_	_
+23	حڪومت	_	NOUN	_	_	31	nsubj	_	_
+24	کي	_	ADP	_	_	23	case	_	_
+25	ان	_	DET	_	_	26	det	_	_
+26	حوالي	_	NOUN	_	_	31	obl	_	_
+27	سان	_	ADP	_	_	26	case	_	_
+28	الڳ	_	ADJ	_	_	29	amod	_	_
+29	بجيٽ	_	NOUN	_	_	31	obj	_	_
+30	نه	_	PART	_	_	31	dep	_	_
+31	رکڻي	_	VERB	_	_	20	obj	_	_
+32	پوي	_	VERB	_	_	31	compound	_	SpaceAfter=No
+33	!!	_	PUNCT	_	_	31	punct	_	_
+34	پر	_	SCONJ	_	_	31	mark	_	_
+35	اسان	_	PRON	_	_	37	nsubj	_	_
+36	اميد	_	NOUN	_	_	37	xcomp	_	_
+37	ڪيون	_	VERB	_	_	31	conj	_	_
+38	ٿا	_	AUX	_	_	37	aux	_	_
+39	ته	_	SCONJ	_	_	47	mark	_	_
+40	اسان	_	PRON	_	_	47	nsubj	_	_
+41	اهڙي	_	ADJ	_	_	44	amod	_	_
+42	ڪنهن	_	PRON	_	_	44	det	_	_
+43	خوفناڪ	_	ADJ	_	_	44	amod	_	_
+44	صورتحال	_	NOUN	_	_	47	obl	_	_
+45	۾	_	ADP	_	_	44	case	_	_
+46	نه	_	PART	_	_	47	dep	_	_
+47	وينداسين	_	VERB	_	_	37	obj	_	_
+48	جو	_	ADP	_	_	47	mark	_	_
+49	اسان	_	PRON	_	_	55	nsubj	_	_
+50	کي	_	ADP	_	_	49	case	_	_
+51	شيون	_	NOUN	_	_	55	obj	_	_
+52	ان	_	DET	_	_	53	det	_	_
+53	حد	_	NOUN	_	_	55	obl	_	_
+54	تائين	_	ADP	_	_	53	case	_	_
+55	ڪرڻيون	_	VERB	_	_	47	advcl	_	_
+56	پونديون	_	VERB	_	_	55	compound	_	SpaceAfter=No
+57	.	_	PUNCT	_	_	55	punct	_	_
 
 # sent_id = 3922
 # text = لڪي مروت ۾ ٿيل خودڪش حملي ۾ به تمام گهڻو جاني ۽ مالي نقصان ٿيو آهي.
@@ -120459,49 +120460,50 @@
 38	،	_	_	_	_	1	dep	_	_
 
 # sent_id = 5814
-# text = ڪولوف ڪرڪيٽ ڪلب هانگ ڪانگ ۾ٿيندڙ ايونٽ ۾ ڀارت مقرر 5 اوورن ۾ هڪ وڪيٽ جي نقصان تي 65 رنسون ٺاهيون، ڀارت پاران منيش چانڊي 28 ۽ گدو ڌيمن 27 رنسون جوڙيون پاڪستان طرفان جنيد ضياءَ هڪ وڪيٽ حاصل ڪئي،
-1	ڪولوف	_	_	_	_	0	root	_	_
-2	ڪرڪيٽ	_	_	_	_	1	dep	_	_
-3	ڪلب	_	_	_	_	1	dep	_	_
-4	هانگ	_	_	_	_	1	dep	_	_
-5	ڪانگ	_	_	_	_	1	dep	_	_
-6	۾ٿيندڙ	_	_	_	_	1	dep	_	_
-7	ايونٽ	_	_	_	_	1	dep	_	_
-8	۾	_	_	_	_	1	dep	_	_
-9	ڀارت	_	_	_	_	1	dep	_	_
-10	مقرر	_	_	_	_	1	dep	_	_
-11	5	_	_	_	_	1	dep	_	_
-12	اوورن	_	_	_	_	1	dep	_	_
-13	۾	_	_	_	_	1	dep	_	_
-14	هڪ	_	_	_	_	1	dep	_	_
-15	وڪيٽ	_	_	_	_	1	dep	_	_
-16	جي	_	_	_	_	1	dep	_	_
-17	نقصان	_	_	_	_	1	dep	_	_
-18	تي	_	_	_	_	1	dep	_	_
-19	65	_	_	_	_	1	dep	_	_
-20	رنسون	_	_	_	_	1	dep	_	_
-21	ٺاهيون	_	_	_	_	1	dep	_	SpaceAfter=No
-22	،	_	_	_	_	1	dep	_	_
-23	ڀارت	_	_	_	_	1	dep	_	_
-24	پاران	_	_	_	_	1	dep	_	_
-25	منيش	_	_	_	_	1	dep	_	_
-26	چانڊي	_	_	_	_	1	dep	_	_
-27	28	_	_	_	_	1	dep	_	_
-28	۽	_	_	_	_	1	dep	_	_
-29	گدو	_	_	_	_	1	dep	_	_
-30	ڌيمن	_	_	_	_	1	dep	_	_
-31	27	_	_	_	_	1	dep	_	_
-32	رنسون	_	_	_	_	1	dep	_	_
-33	جوڙيون	_	_	_	_	1	dep	_	_
-34	پاڪستان	_	_	_	_	1	dep	_	_
-35	طرفان	_	_	_	_	1	dep	_	_
-36	جنيد	_	_	_	_	1	dep	_	_
-37	ضياءَ	_	_	_	_	1	dep	_	_
-38	هڪ	_	_	_	_	1	dep	_	_
-39	وڪيٽ	_	_	_	_	1	dep	_	_
-40	حاصل	_	_	_	_	1	dep	_	_
-41	ڪئي	_	_	_	_	1	dep	_	SpaceAfter=No
-42	،	_	_	_	_	1	dep	_	_
+# text = ڪولوف ڪرڪيٽ ڪلب هانگ ڪانگ ۾ ٿيندڙ ايونٽ ۾ ڀارت مقرر 5 اوورن ۾ هڪ وڪيٽ جي نقصان تي 65 رنسون ٺاهيون، ڀارت پاران منيش چانڊي 28 ۽ گدو ڌيمن 27 رنسون جوڙيون پاڪستان طرفان جنيد ضياءَ هڪ وڪيٽ حاصل ڪئي،
+1	ڪولوف	_	PROPN	NNP	Case=Nom|Gender=Masc	2	nmod	_	_
+2	ڪرڪيٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	ڪلب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+4	هانگ	_	PROPN	NNP	Case=Nom|Gender=Masc	5	compound	_	_
+5	ڪانگ	_	PROPN	NNP	Case=Nom|Gender=Masc	7	obl	_	_
+6	۾	_	ADP	PSP	Type=Loc	5	case	_	_
+7	ٿيندڙ	_	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=VerbNoun	22	advcl	_	_
+8	ايونٽ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
+9	۾	_	ADP	PSP	Type=Loc	8	case	_	_
+10	ڀارت	_	PROPN	NNP	Case=Nom|Gender=Masc	21	nsubj	_	_
+11	مقرر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+12	5	_	NUM	NUM	_	13	nummod	_	_
+13	اوورن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	22	obl	_	_
+14	۾	_	ADP	PSP	Type=Loc	13	case	_	_
+15	هڪ	_	ADJ	JJC	Case=Nom|Number=Sing	16	amod	_	_
+16	وڪيٽ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	_
+17	جي	_	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	16	case	_	_
+18	نقصان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
+19	تي	_	ADP	PSP	Type=Loc	18	case	_	_
+20	65	_	NUM	NUM	_	21	nummod	_	_
+21	رنسون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	obj	_	_
+22	ٺاهيون	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+23	،	_	PUNCT	PUNCT	_	22	punct	_	_
+24	ڀارت	_	PROPN	NNP	Case=Nom|Gender=Masc	34	obl	_	_
+25	پاران	_	ADP	PSP	Type=Loc	24	case	_	_
+26	منيش	_	PROPN	NNP	Case=Nom|Gender=Masc	27	compound	_	_
+27	چانڊي	_	PROPN	NNP	Case=Nom|Gender=Masc	34	nsubj	_	_
+28	28	_	NUM	NUM	_	33	nummod	_	_
+29	۽	_	CCONJ	CC	_	31	cc	_	_
+30	گدو	_	PROPN	NNP	Case=Nom|Gender=Masc	31	nmod	_	_
+31	ڌيمن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
+32	27	_	NUM	NUM	_	33	nummod	_	_
+33	رنسون	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	34	obj	_	_
+34	جوڙيون	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	41	advcl	_	_
+35	پاڪستان	_	PROPN	NNP	Case=Nom|Gender=Masc	41	obl	_	_
+36	طرفان	_	ADP	PSP	Type=Loc	35	case	_	_
+37	جنيد	_	PROPN	NNP	Case=Nom|Gender=Masc	38	compound	_	_
+38	ضياءَ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
+39	هڪ	_	ADJ	JJC	Case=Nom|Number=Sing	40	amod	_	_
+40	وڪيٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	41	obj	_	_
+41	حاصل	_	NOUN	NN	Case=Nom|Number=Sing	42	compound	_	_
+42	ڪئي	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	22	advcl	_	SpaceAfter=No
+43	،	_	PUNCT	PUNCT	_	41	punct	_	_
 
 # sent_id = 5815
 # text = پاڪستان گهربل حدف بغير ڪنهن نقصان جي حاصل ڪري ورتو،
