@@ -1,0 +1,95 @@
+# text = پنهنجي بهتر صحت لاءِ پاڻي جو گھڻو استعمال ڪرڻ گھرجي .
+# sent_id = 0
+1	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	3	nmod	_	_
+2	بهتر	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
+3	صحت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+4	لاءِ	_	ADP	PSP	_	3	case	_	_
+5	پاڻي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+6	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
+7	گھڻو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	استعمال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	_
+9	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
+10	گھرجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	9	compound	_	_
+11	.	_	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+
+# text = ميوو کائجي ٿو .
+# sent_id = 0
+1	ميوو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	کائجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
+3	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Pres	2	aux	_	_
+4	.	_	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+
+# text = ئ اها خبر پئي ته هوءَ تمام گھڻي خوش آهي
+# sent_id = 0
+1	ئ	_	ADV	ADV	_	4	advmod	_	_
+2	اها	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+3	خبر	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	_
+4	پئي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
+5	ته	_	SCONJ	CS	_	9	mark	_	_
+6	هوءَ	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+7	تمام	_	ADV	ADV	_	8	advmod	_	_
+8	گھڻي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	خوش	_	ADJ	JJ	Case=Nom|Degree=Pos	4	ccomp	_	_
+10	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	9	cop	_	SpaceAfter=No
+
+# text = اخبار پڙهجي ٿي .
+# sent_id = 0
+1	اخبار	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	پڙهجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	0	root	_	_
+3	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	2	aux	_	_
+4	.	_	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+
+# text = صوف کائجي ٿو .
+# sent_id = 0
+1	صوف	_	PROPN	NNP	Case=Nom|Gender=Masc	2	nsubj:pass	_	_
+2	کائجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
+3	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Pres	2	aux	_	_
+4	.	_	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+
+# text = ديسي هنرن کي زور وٺائڻ گھرجي .
+# sent_id = 0
+1	ديسي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	_
+2	هنرن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+3	کي	_	ADP	PSP	_	2	case	_	_
+4	زور	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
+5	وٺائڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
+6	گھرجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	5	compound	_	_
+7	.	_	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+
+# text = اچو ته گڏجي پڙهون .
+# sent_id = 0
+1	اچو	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	4	ccomp	_	_
+2	ته	_	SCONJ	CS	_	4	mark	_	_
+3	گڏجي	_	ADV	ADV	_	4	advmod	_	_
+4	پڙهون	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	0	root	_	_
+5	.	_	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+
+# text = سومر تي اسان کي موڪل آهي .
+# sent_id = 0
+1	سومر	_	PROPN	NNP	Case=Nom|Gender=Masc	5	obl	_	_
+2	تي	_	ADP	PSPL	_	1	case	_	_
+3	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	5	nsubj	_	_
+4	کي	_	ADP	PSP	_	3	case	_	_
+5	موڪل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	5	cop	_	_
+7	.	_	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+
+# text = ڇوڪرو سڄي رات پڙهندو رهيو .
+# sent_id = 0
+1	ڇوڪرو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	سڄي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	رات	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+4	پڙهندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	0	root	_	_
+5	رهيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	compound	_	_
+6	.	_	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+
+# text = انسان کي هميشه سچ ڳالهائڻ گھرجي .
+# sent_id = 0
+1	انسان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	کي	_	ADP	PSP	_	1	case	_	_
+3	هميشه	_	ADV	ADT	_	5	advmod	_	_
+4	سچ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
+5	ڳالهائڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
+6	گھرجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	5	compound	_	_
+7	.	_	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+
