@@ -26,29 +26,32 @@
 24	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	22	aux	_	SpaceAfter=No
 25	.	_	PUNCT	PUNCT	_	22	punct	_	_
 
-# sent_id = 910
-# text = نوجوان! ڇا آءٌ توسان هلي سگهان ٿي؟ نوجوان وراڻيو ڇو نه، تون به اسان سان گڏ هل.
-1	نوجوان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+# sent_id = 910A
+# text = نوجوان! ڇا آءٌ توسان هلي سگهان ٿي؟
+1	نوجوان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	discourse	_	SpaceAfter=No
 2	!	_	PUNCT	PUNCT	_	1	punct	_	_
 3	ڇا	_	PRON	PRWH	_	6	obl	_	_
-4	آءٌ	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nmod	_	_
+4	آءٌ	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
 5	توسان	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	obl	_	_
-6	هلي	_	VERB	VM	Aspect=Imp|Number=Sing	0	root	_	_
-7	سگهان	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	6	compound	_	_
-8	ٿي	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
-9	؟	_	PUNCT	PUNCT	_	11	punct	_	_
-10	نوجوان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
-11	وراڻيو	_	VERB	VM	Aspect=Perf|Number=Sing	6	conj	_	_
-12	ڇو	_	PRON	PRWH	_	20	obl	_	_
-13	نه	_	PART	PART	_	12	dep	_	SpaceAfter=No
-14	،	_	PUNCT	PUNCT	_	12	punct	_	_
-15	تون	_	PRON	PRP	Case=Nom|Number=Sing|Person=2	20	nsubj	_	_
-16	به	_	PART	PART	_	15	advmod:emph	_	_
-17	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	20	obl	_	_
-18	سان	_	ADP	PSP	_	17	case	_	_
-19	گڏ	_	ADV	ADV	_	20	advmod	_	_
-20	هل	_	VERB	VM	Number=Sing|Person=1	11	obj	_	SpaceAfter=No
-21	.	_	PUNCT	PUNCT	_	20	punct	_	_
+6	هلي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
+7	سگهان	_	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	_
+8	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
+9	؟	_	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 910B
+# text = نوجوان وراڻيو ڇو نه، تون به اسان سان گڏ هل.
+1	نوجوان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	وراڻيو	_	VERB	VM	Aspect=Perf	0	root	_	_
+3	ڇو	_	PRON	PRWH	_	11	obl	_	_
+4	نه	_	PART	PART	_	3	dep	_	SpaceAfter=No
+5	،	_	PUNCT	PUNCT	_	3	punct	_	_
+6	تون	_	PRON	PRP	Case=Nom|Number=Sing|Person=2	11	nsubj	_	_
+7	به	_	PART	PART	_	6	advmod:emph	_	_
+8	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	11	obl	_	_
+9	سان	_	ADP	PSP	_	8	case	_	_
+10	گڏ	_	ADV	ADV	_	11	advmod	_	_
+11	هل	_	VERB	VM	Number=Sing|Person=1	2	ccomp	_	SpaceAfter=No
+12	.	_	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = 3684
 # text = ڇاڪاڻ ته رٽي پيپلزپا جي موجوده حڪومت سنڌ جي برباد ٿيل تعليم کي هرحال ۾ پنهنجو شاندار ماضي واپس ڏيارڻ جو عهد ڪري رکيو آهي،
