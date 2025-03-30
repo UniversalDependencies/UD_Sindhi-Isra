@@ -114,25 +114,15 @@ def main():
 
         if args.retagged and args.raw_retagged:
             CoNLL.write_doc2conll(filter_doc, args.raw_retagged)
-        CoNLL.write_doc2conll(dev, os.path.join(output_directory, "%s.dev.in.conllu" % shortname))
-        CoNLL.write_doc2conll(test, os.path.join(output_directory, "%s.test.in.conllu" % shortname))
-        with zipfile.ZipFile(os.path.join(output_directory, "%s.train.in.zip" % shortname), "w") as zout:
-            with zout.open("sd_isra_train.in.conllu", mode='w') as fout:
-                with io.TextIOWrapper(fout, encoding="utf-8") as tout:
-                    CoNLL.write_doc2conll(train, tout)
-            with zout.open("sd_isra_noxpos.conllu", mode='w') as fout:
-                with io.TextIOWrapper(fout, encoding="utf-8") as tout:
-                    CoNLL.write_doc2conll(noxpos_doc, tout)
-            if args.retagged:
-                retagged_filename = os.path.split(retagged)[1]
-                with zout.open(retagged_filename, mode='w') as fout:
-                    with io.TextIOWrapper(fout, encoding="utf-8") as tout:
-                        CoNLL.write_doc2conll(filter_doc, tout)
-            for name in extra_docs:
-                extra_doc = extra_docs[name]
-                with zout.open("%s.conllu" % name, mode='w') as fout:
-                    with io.TextIOWrapper(fout, encoding="utf-8") as tout:
-                        CoNLL.write_doc2conll(extra_doc, tout)
+        train_datasets = {
+            "sd_isra_train.in.conllu": train,
+            "sd_isra_noxpos.conllu":   noxpos_doc,
+        }
+        if args.retagged:
+            train_datasets[os.path.split(retagged)[1]] = filter_doc
+        for name in extra_docs:
+            train_datasets["%s.conllu" % name] = extra_docs[name]
+
     elif args.mode == 'depparse':
         sentences = xpos_doc.sentences + noxpos_doc.sentences
         xpos_doc.sentences = sentences
@@ -146,19 +136,21 @@ def main():
             train = random_select(train, args.sindhi_train_size)
 
         output_directory = "data/depparse"
-        with zipfile.ZipFile(os.path.join(output_directory, "%s.train.in.zip" % shortname), "w") as zout:
-            with zout.open("sd_isra_train.in.conllu", mode='w') as fout:
+        train_datasets = {
+            "sd_isra_train.in.conllu": train
+        }
+        for name in extra_docs:
+            train_datasets["%s.conllu" % name] = extra_docs[name]
+
+    CoNLL.write_doc2conll(dev, os.path.join(output_directory, "%s.dev.in.conllu" % shortname))
+    CoNLL.write_doc2conll(test, os.path.join(output_directory, "%s.test.in.conllu" % shortname))
+    with zipfile.ZipFile(os.path.join(output_directory, "%s.train.in.zip" % shortname), "w") as zout:
+        for name in train_datasets:
+            train_doc = train_datasets[name]
+            with zout.open(name, mode='w') as fout:
                 with io.TextIOWrapper(fout, encoding="utf-8") as tout:
-                    print("Writing %d sentences to zipfile" % (len(train.sentences)))
-                    CoNLL.write_doc2conll(train, tout)
-            for name in extra_docs:
-                extra_doc = extra_docs[name]
-                with zout.open("%s.conllu" % name, mode='w') as fout:
-                    with io.TextIOWrapper(fout, encoding="utf-8") as tout:
-                        print("Writing %d sentences from %s to zipfile" % (len(extra_doc.sentences), name))
-                        CoNLL.write_doc2conll(extra_doc, tout)
-        CoNLL.write_doc2conll(dev, os.path.join(output_directory, "%s.dev.in.conllu" % shortname))
-        CoNLL.write_doc2conll(test, os.path.join(output_directory, "%s.test.in.conllu" % shortname))
+                    print("Writing %d sentences from %s to zipfile" % (len(train_doc.sentences), name))
+                    CoNLL.write_doc2conll(train_doc, tout)
 
 if __name__ == '__main__':
     main()
