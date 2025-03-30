@@ -67,6 +67,7 @@ def main():
     parser.add_argument('--use_tamil', default=False, action='store_true', help="Include Tamil trees in the dataset")
     parser.add_argument('--use_urdu', default=False, action='store_true', help="Include Urdu trees in the dataset")
 
+    parser.add_argument('--dataset_name', default='sd_isra', help='What name to use for the dataset')
     parser.add_argument('--sindhi_train_size', type=int, default=None, help='Only use this many Sindhi trees for train')
     args = parser.parse_args()
 
@@ -79,8 +80,6 @@ def main():
 
     noxpos_doc = filter_duplicates(noxpos_doc, xpos_doc)
     print("%d sentences with no xpos or features after filtering duplicates" % len(noxpos_doc.sentences))
-
-    shortname = "sd_isra"
 
     extra_docs = {}
     if args.use_tamil:
@@ -142,6 +141,7 @@ def main():
         for name in extra_docs:
             train_datasets["%s.conllu" % name] = extra_docs[name]
 
+    shortname = args.dataset_name
     CoNLL.write_doc2conll(dev, os.path.join(output_directory, "%s.dev.in.conllu" % shortname))
     CoNLL.write_doc2conll(test, os.path.join(output_directory, "%s.test.in.conllu" % shortname))
     with zipfile.ZipFile(os.path.join(output_directory, "%s.train.in.zip" % shortname), "w") as zout:
