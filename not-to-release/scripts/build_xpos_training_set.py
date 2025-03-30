@@ -41,16 +41,33 @@ def filter_duplicates(orig_doc, filter_doc):
         filtered_comments.append(sent.comments)
 
     filtered_doc = Document(filtered_sentences, comments=filtered_comments)
-
     return filtered_doc
 
-def main():
+def random_select(doc, size):
+    """
+    Return :size of the sentences from doc
+    """
+    sentences = doc.sentences
     random.seed(1234)
+    random.shuffle(sentences)
+    sentence_dicts = [sent.to_dict() for sent in sentences[:size]]
+    sentence_comments = [sent.comments for sent in sentences[:size]]
+    return Document(sentence_dicts, comments=sentence_comments)
+
+
+def main():
     parser = argparse.ArgumentParser(description='Build a combined training document for a Sindhi tagger')
     parser.add_argument('--mode', default='pos', choices=['pos', 'depparse'], help='Build a pos dataset or a depparse dataset')
     parser.add_argument('--retagged', default="extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/dependencies/sd_batch_3.conllu", help='File to retag')
     parser.add_argument('--no_retagged', dest='retagged', action='store_const', const=None, help="Don't retag anything")
     parser.add_argument('--raw_retagged', default="sd_batch_3.conllu", help="Somewhere to write the filtered retag file")
+
+    parser.add_argument('--use_hindi', default=False, action='store_true', help="Include Hindi trees in the dataset")
+    parser.add_argument('--use_marathi', default=False, action='store_true', help="Include Marathi trees in the dataset")
+    parser.add_argument('--use_tamil', default=False, action='store_true', help="Include Tamil trees in the dataset")
+    parser.add_argument('--use_urdu', default=False, action='store_true', help="Include Urdu trees in the dataset")
+
+    parser.add_argument('--sindhi_train_size', type=int, default=None, help='Only use this many Sindhi trees for train')
     args = parser.parse_args()
 
     noxpos_doc = read_directory("extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/dependencies/*")
@@ -65,6 +82,20 @@ def main():
 
     shortname = "sd_isra"
 
+    extra_docs = {}
+    if args.use_tamil:
+        extra_docs['tamil'] = read_directory("extern_data/ud2/ud-treebanks-v2.15/UD_Tamil-TTB/ta_ttb-ud-train.conllu")
+    if args.use_marathi:
+        extra_docs['marathi'] = read_directory("extern_data/ud2/ud-treebanks-v2.15/UD_Marathi-UFAL/mr_ufal-ud-train.conllu")
+    if args.use_hindi:
+        hindi_doc = read_directory("extern_data/ud2/ud-treebanks-v2.15/UD_Hindi-HDTB/hi_hdtb-ud-train.conllu")
+        hindi_doc = random_select(hindi_doc, 1000)
+        extra_docs['hindi'] = hindi_doc
+    if args.use_urdu:
+        urdu_doc = read_directory("extern_data/ud2/ud-treebanks-v2.15/UD_Urdu-UDTB/ur_udtb-ud-train.conllu")
+        urdu_doc = random_select(urdu_doc, 1000)
+        extra_docs['urdu'] = urdu_doc
+
     if args.mode == 'pos':
         # read one specific doc with the intention of training on it exactly,
         # so we keep the UPOS close to the original
@@ -75,6 +106,7 @@ def main():
             print("Doc to be tagged, after filtering: %d sentences" % len(filter_doc.sentences))
             noxpos_doc = filter_duplicates(noxpos_doc, filter_doc)
 
+        random.seed(1234)
         train, dev, test = random_split(xpos_doc, weights=(0.8, 0.1, 0.1))
         print("Split the xpos doc into %d train, %d dev, %d test" % (len(train.sentences), len(dev.sentences), len(test.sentences)))
 
@@ -96,16 +128,35 @@ def main():
                 with zout.open(retagged_filename, mode='w') as fout:
                     with io.TextIOWrapper(fout, encoding="utf-8") as tout:
                         CoNLL.write_doc2conll(filter_doc, tout)
+            for name in extra_docs:
+                extra_doc = extra_docs[name]
+                with zout.open("%s.conllu" % name, mode='w') as fout:
+                    with io.TextIOWrapper(fout, encoding="utf-8") as tout:
+                        CoNLL.write_doc2conll(extra_doc, tout)
     elif args.mode == 'depparse':
         sentences = xpos_doc.sentences + noxpos_doc.sentences
         xpos_doc.sentences = sentences
         print("%d total training sentences" % len(xpos_doc.sentences))
 
+        random.seed(1234)
         train, dev, test = random_split(xpos_doc, weights=(0.8, 0.1, 0.1))
         print("Split the combined doc into %d train, %d dev, %d test" % (len(train.sentences), len(dev.sentences), len(test.sentences)))
 
+        if args.sindhi_train_size is not None:
+            train = random_select(train, args.sindhi_train_size)
+
         output_directory = "data/depparse"
-        CoNLL.write_doc2conll(train, os.path.join(output_directory, "%s.train.in.conllu" % shortname))
+        with zipfile.ZipFile(os.path.join(output_directory, "%s.train.in.zip" % shortname), "w") as zout:
+            with zout.open("sd_isra_train.in.conllu", mode='w') as fout:
+                with io.TextIOWrapper(fout, encoding="utf-8") as tout:
+                    print("Writing %d sentences to zipfile" % (len(train.sentences)))
+                    CoNLL.write_doc2conll(train, tout)
+            for name in extra_docs:
+                extra_doc = extra_docs[name]
+                with zout.open("%s.conllu" % name, mode='w') as fout:
+                    with io.TextIOWrapper(fout, encoding="utf-8") as tout:
+                        print("Writing %d sentences from %s to zipfile" % (len(extra_doc.sentences), name))
+                        CoNLL.write_doc2conll(extra_doc, tout)
         CoNLL.write_doc2conll(dev, os.path.join(output_directory, "%s.dev.in.conllu" % shortname))
         CoNLL.write_doc2conll(test, os.path.join(output_directory, "%s.test.in.conllu" % shortname))
 
