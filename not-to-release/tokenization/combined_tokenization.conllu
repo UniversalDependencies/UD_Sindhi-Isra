@@ -20,20 +20,19 @@
 5	.	_	_	_	_	1	dep	_	_
 
 # sent_id = 3A
-# text = هڪڙي هنڌ کيس ڪڪڙين جي ”ڪـَـر ڪـَـر“ ٻڌڻ ۾ آئي،
-1	هڪڙي	_	_	_	_	0	root	_	_
-2	هنڌ	_	_	_	_	1	dep	_	_
-3	کيس	_	_	_	_	1	dep	_	_
-4	ڪڪڙين	_	_	_	_	1	dep	_	_
-5	جي	_	_	_	_	1	dep	_	_
-6	”	_	_	_	_	1	dep	_	SpaceAfter=No
-7	ڪـَـر	_	_	_	_	1	dep	_	_
-8	ڪـَـر	_	_	_	_	1	dep	_	SpaceAfter=No
-9	“	_	_	_	_	1	dep	_	_
-10	ٻڌڻ	_	_	_	_	1	dep	_	_
-11	۾	_	_	_	_	1	dep	_	_
-12	آئي	_	_	_	_	1	dep	_	SpaceAfter=No
-13	،	_	_	_	_	1	dep	_	_
+# text = هڪڙي هنڌ کيس ڪڪڙين جي " ڪـَـرڪـَـر " ٻڌڻ ۾ آئي ،
+1	هڪڙي	_	ADJ	_	_	2	amod	_	_
+2	هنڌ	_	NOUN	_	_	11	obl	_	_
+3	کيس	_	ADP	_	_	2	case	_	_
+4	ڪڪڙين	_	NOUN	_	_	7	nmod	_	_
+5	جي	_	ADP	_	_	4	case	_	_
+6	"	_	PUNCT	_	_	7	punct	_	_
+7	ڪـَـرڪـَـر	_	NOUN	_	_	9	obj	_	_
+8	"	_	PUNCT	_	_	9	punct	_	_
+9	ٻڌڻ	_	VERB	_	_	11	advcl	_	_
+10	۾	_	ADP	_	_	9	mark	_	_
+11	آئي	_	VERB	_	_	0	root	_	_
+12	،	_	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 3B
 # text = سو ڪتن کان نظر بچائيندو اوڏانهن وڌيو.
