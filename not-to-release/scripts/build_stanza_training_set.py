@@ -119,7 +119,7 @@ def main():
             "sd_isra_noxpos.conllu":   noxpos_doc,
         }
         if args.retagged:
-            train_datasets[os.path.split(retagged)[1]] = filter_doc
+            train_datasets[os.path.split(args.retagged)[1]] = filter_doc
         for name in extra_docs:
             train_datasets["%s.conllu" % name] = extra_docs[name]
 
