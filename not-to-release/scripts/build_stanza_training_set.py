@@ -69,6 +69,7 @@ def main():
 
     parser.add_argument('--dataset_name', default='sd_isra', help='What name to use for the dataset')
     parser.add_argument('--sindhi_train_size', type=int, default=None, help='Only use this many Sindhi trees for train')
+    parser.add_argument('--sindhi_dev_size', type=int, default=None, help='Only use this many Sindhi trees for dev')
     args = parser.parse_args()
 
     noxpos_doc = read_directory("extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/dependencies/*")
@@ -96,6 +97,8 @@ def main():
         extra_docs['urdu'] = urdu_doc
 
     if args.mode == 'pos':
+        output_directory = "data/pos"
+
         # read one specific doc with the intention of training on it exactly,
         # so we keep the UPOS close to the original
         if args.retagged:
@@ -109,8 +112,6 @@ def main():
         train, dev, test = random_split(xpos_doc, weights=(0.8, 0.1, 0.1))
         print("Split the xpos doc into %d train, %d dev, %d test" % (len(train.sentences), len(dev.sentences), len(test.sentences)))
 
-        output_directory = "data/pos"
-
         if args.retagged and args.raw_retagged:
             CoNLL.write_doc2conll(filter_doc, args.raw_retagged)
         train_datasets = {
@@ -123,6 +124,8 @@ def main():
             train_datasets["%s.conllu" % name] = extra_docs[name]
 
     elif args.mode == 'depparse':
+        output_directory = "data/depparse"
+
         sentences = xpos_doc.sentences + noxpos_doc.sentences
         xpos_doc.sentences = sentences
         print("%d total training sentences" % len(xpos_doc.sentences))
@@ -134,12 +137,14 @@ def main():
         if args.sindhi_train_size is not None:
             train = random_select(train, args.sindhi_train_size)
 
-        output_directory = "data/depparse"
         train_datasets = {
             "sd_isra_train.in.conllu": train
         }
         for name in extra_docs:
             train_datasets["%s.conllu" % name] = extra_docs[name]
+
+    if args.sindhi_dev_size is not None:
+        dev = random_select(dev, args.sindhi_dev_size)
 
     shortname = args.dataset_name
     CoNLL.write_doc2conll(dev, os.path.join(output_directory, "%s.dev.in.conllu" % shortname))
