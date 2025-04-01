@@ -9,6 +9,13 @@ from stanza.models.common.doc import Document
 from stanza.utils.conll import CoNLL
 from stanza.utils.datasets.random_split_conllu import random_split
 
+def remove_xpos_and_features(doc):
+    for sent in doc.sentences:
+        for word in sent.words:
+            word.feats = None
+            word.xpos = None
+
+
 def read_directory(*globs, strip_xpos=True):
     sentences = []
     comments = []
@@ -19,13 +26,11 @@ def read_directory(*globs, strip_xpos=True):
             doc = CoNLL.conll2doc(filename)
 
             for sent in doc.sentences:
-                if strip_xpos:
-                    for word in sent.words:
-                        word.feats = None
-                        word.xpos = None
                 sentences.append(sent.to_dict())
                 comments.append(sent.comments)
     doc = Document(sentences, comments=comments)
+    if strip_xpos:
+        remove_xpos_and_features(doc)
     return doc
 
 def filter_duplicates(orig_doc, filter_doc):
@@ -57,7 +62,7 @@ def random_select(doc, size):
 
 def main():
     parser = argparse.ArgumentParser(description='Build a combined training document for a Sindhi tagger')
-    parser.add_argument('--mode', default='pos', choices=['pos', 'depparse'], help='Build a pos dataset or a depparse dataset')
+    parser.add_argument('--mode', default='pos', choices=['pos', 'upos', 'depparse'], help='Build a pos dataset, a UPOS only dataset, or a depparse dataset')
     parser.add_argument('--retagged', default="extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/dependencies/sd_batch_3.conllu", help='File to retag')
     parser.add_argument('--no_retagged', dest='retagged', action='store_const', const=None, help="Don't retag anything")
     parser.add_argument('--raw_retagged', default="sd_batch_3.conllu", help="Somewhere to write the filtered retag file")
@@ -123,12 +128,16 @@ def main():
         for name in extra_docs:
             train_datasets["%s.conllu" % name] = extra_docs[name]
 
-    elif args.mode == 'depparse':
-        output_directory = "data/depparse"
-
+    elif args.mode == 'depparse' or args.mode == 'upos':
         sentences = xpos_doc.sentences + noxpos_doc.sentences
         xpos_doc.sentences = sentences
         print("%d total training sentences" % len(xpos_doc.sentences))
+
+        if args.mode == 'upos':
+            remove_xpos_and_features(xpos_doc)
+            output_directory = 'data/pos'
+        else:
+            output_directory = 'data/depparse'
 
         random.seed(1234)
         train, dev, test = random_split(xpos_doc, weights=(0.8, 0.1, 0.1))
@@ -152,6 +161,8 @@ def main():
     with zipfile.ZipFile(os.path.join(output_directory, "%s.train.in.zip" % shortname), "w") as zout:
         for name in train_datasets:
             train_doc = train_datasets[name]
+            if len(train_doc.sentences) == 0:
+                continue
             with zout.open(name, mode='w') as fout:
                 with io.TextIOWrapper(fout, encoding="utf-8") as tout:
                     print("Writing %d sentences from %s to zipfile" % (len(train_doc.sentences), name))
