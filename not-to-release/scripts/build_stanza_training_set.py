@@ -7,6 +7,7 @@ import zipfile
 
 from stanza.models.common.doc import Document
 from stanza.utils.conll import CoNLL
+from stanza.utils.default_paths import get_default_paths
 from stanza.utils.datasets.random_split_conllu import random_split
 
 def remove_xpos_and_features(doc):
@@ -22,6 +23,8 @@ def read_directory(*globs, strip_xpos=True):
 
     for glob_path in globs:
         raw_files = glob.glob(glob_path)
+        if len(raw_files) == 0:
+            raise FileNotFoundError("Path %s requested but was empty!" % glob_path)
         for filename in raw_files:
             doc = CoNLL.conll2doc(filename)
 
@@ -61,9 +64,11 @@ def random_select(doc, size):
 
 
 def main():
+    paths = get_default_paths()
+
     parser = argparse.ArgumentParser(description='Build a combined training document for a Sindhi tagger')
     parser.add_argument('--mode', default='pos', choices=['pos', 'upos', 'depparse'], help='Build a pos dataset, a UPOS only dataset, or a depparse dataset')
-    parser.add_argument('--retagged', default="extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/dependencies/sd_batch_3.conllu", help='File to retag')
+    parser.add_argument('--retagged', default=os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/dependencies/sd_batch_3.conllu"), help='File to retag')
     parser.add_argument('--no_retagged', dest='retagged', action='store_const', const=None, help="Don't retag anything")
     parser.add_argument('--raw_retagged', default="sd_batch_3.conllu", help="Somewhere to write the filtered retag file")
 
@@ -77,9 +82,9 @@ def main():
     parser.add_argument('--sindhi_dev_size', type=int, default=None, help='Only use this many Sindhi trees for dev')
     args = parser.parse_args()
 
-    noxpos_doc = read_directory("extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/dependencies/*")
-    xpos_doc = read_directory("extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/xpos_features/*",
-                              "extern_data/ud2/git/UD_Sindhi-Isra/not-to-release/xpos_standard/xpos_tagged_with_features.conllu", strip_xpos=False)
+    noxpos_doc = read_directory(os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/dependencies/*"))
+    xpos_doc = read_directory(os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/*"),
+                              os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_standard/xpos_tagged_with_features.conllu"), strip_xpos=False)
 
     print("%d sentences with xpos and features" % len(xpos_doc.sentences))
     print("%d sentences with no xpos or features" % len(noxpos_doc.sentences))
@@ -89,15 +94,15 @@ def main():
 
     extra_docs = {}
     if args.use_tamil:
-        extra_docs['tamil'] = read_directory("extern_data/ud2/ud-treebanks-v2.15/UD_Tamil-TTB/ta_ttb-ud-train.conllu")
+        extra_docs['tamil'] = read_directory(os.path.join(paths["UDBASE"], "UD_Tamil-TTB/ta_ttb-ud-train.conllu"))
     if args.use_marathi:
-        extra_docs['marathi'] = read_directory("extern_data/ud2/ud-treebanks-v2.15/UD_Marathi-UFAL/mr_ufal-ud-train.conllu")
+        extra_docs['marathi'] = read_directory(os.path.join(paths["UDBASE"], "UD_Marathi-UFAL/mr_ufal-ud-train.conllu"))
     if args.use_hindi:
-        hindi_doc = read_directory("extern_data/ud2/ud-treebanks-v2.15/UD_Hindi-HDTB/hi_hdtb-ud-train.conllu")
+        hindi_doc = read_directory(os.path.join(paths["UDBASE"], "UD_Hindi-HDTB/hi_hdtb-ud-train.conllu"))
         hindi_doc = random_select(hindi_doc, 1000)
         extra_docs['hindi'] = hindi_doc
     if args.use_urdu:
-        urdu_doc = read_directory("extern_data/ud2/ud-treebanks-v2.15/UD_Urdu-UDTB/ur_udtb-ud-train.conllu")
+        urdu_doc = read_directory(os.path.join(paths["UDBASE"], "UD_Urdu-UDTB/ur_udtb-ud-train.conllu"))
         urdu_doc = random_select(urdu_doc, 1000)
         extra_docs['urdu'] = urdu_doc
 
@@ -135,9 +140,9 @@ def main():
 
         if args.mode == 'upos':
             remove_xpos_and_features(xpos_doc)
-            output_directory = 'data/pos'
+            output_directory = paths["POS_DATA_DIR"]
         else:
-            output_directory = 'data/depparse'
+            output_directory = paths["DEPPARSE_DATA_DIR"]
 
         random.seed(1234)
         train, dev, test = random_split(xpos_doc, weights=(0.8, 0.1, 0.1))
@@ -155,10 +160,13 @@ def main():
     if args.sindhi_dev_size is not None:
         dev = random_select(dev, args.sindhi_dev_size)
 
+    print("Writing to %s" % output_directory)
     shortname = args.dataset_name
     CoNLL.write_doc2conll(dev, os.path.join(output_directory, "%s.dev.in.conllu" % shortname))
     CoNLL.write_doc2conll(test, os.path.join(output_directory, "%s.test.in.conllu" % shortname))
-    with zipfile.ZipFile(os.path.join(output_directory, "%s.train.in.zip" % shortname), "w") as zout:
+    train_filename = os.path.join(output_directory, "%s.train.in.zip" % shortname)
+    print("Writing training data to %s" % train_filename)
+    with zipfile.ZipFile(train_filename, "w") as zout:
         for name in train_datasets:
             train_doc = train_datasets[name]
             if len(train_doc.sentences) == 0:
