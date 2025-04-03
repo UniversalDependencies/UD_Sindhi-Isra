@@ -3607,12 +3607,12 @@
 
 # sent_id = 176
 # text = برازيل(آن لائن) برازيل ۾ طوفاني برسات ۽ ٻوڏ سبب مٽي جون ڇپون ڪرڻ سبب فوت ٿيلن جو انگ وڌي 66 ٿي ويو آهي،
-1	برازيل	_	PROPN	NNP	Case=Nom|Gender=Masc	4	nmod	_	SpaceAfter=No
+1	برازيل	_	PROPN	NNP	Case=Nom|Gender=Masc	16	dislocated	_	SpaceAfter=No
 2	(	_	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
-3	آن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
-4	لائن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+3	آن	_	NOUN	NN	Case=Nom|Number=Sing	4	nmod	_	_
+4	لائن	_	NOUN	NN	Case=Nom|Number=Sing	1	conj	_	SpaceAfter=No
 5	)	_	PUNCT	PUNCT	_	4	punct	_	_
-6	برازيل	_	PROPN	NNP	Case=Acc|Gender=Masc	16	obl	_	_
+6	برازيل	_	PROPN	NNP	Case=Nom|Gender=Masc	16	obl	_	_
 7	۾	_	ADP	PSPL	_	6	case	_	_
 8	طوفاني	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
 9	برسات	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obl	_	_
@@ -3624,13 +3624,13 @@
 15	ڇپون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	obj	_	_
 16	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	24	advcl	_	_
 17	سبب	_	ADP	PSP	_	16	mark	_	_
-18	فوت	_	VERB	VM	Aspect=Perf|Voice=Act	19	compound	_	_
-19	ٿيلن	_	NOUN	NN	Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|VerbForm=PastPart	21	nmod	_	_
+18	فوت	_	VERB	VM	Aspect=Perf|VerbForm=Vnoun	19	acl	_	_
+19	ٿيلن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	nmod	_	_
 20	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	19	case	_	_
-21	انگ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
-22	وڌي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	24	advcl	_	_
+21	انگ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+22	وڌي	_	VERB	VM	Aspect=Imp|Voice=Act	24	advcl	_	_
 23	66	_	NUM	NUM	_	24	nummod	_	_
-24	ٿي	_	AUX	VAUX	Number=Sing	0	root	_	_
+24	ٿي	_	AUX	VAUX	AuxType=Be|Number=Sing|Tense=Pres	0	root	_	_
 25	ويو	_	VERB	VM	Aspect=Perf|Number=Sing|Person=3	24	compound	_	_
 26	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	24	aux	_	SpaceAfter=No
 27	،	_	PUNCT	PUNCT	_	24	punct	_	_
@@ -5974,13 +5974,13 @@
 
 # sent_id = 297
 # text = تنهنڪري هاڻي ميڊيا کي تيزيءَ سان ميچوئر ٿيڻو پوندو.
-1	تنهنڪري	_	ADV	ADT	_	8	advmod	_	_
+1	تنهنڪري	_	CCONJ	CC	_	8	mark	_	_
 2	هاڻي	_	ADV	ADT	_	8	advmod	_	_
 3	ميڊيا	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
 4	کي	_	ADP	PSP	_	3	case	_	_
 5	تيزيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 6	سان	_	ADP	PSP	_	5	case	_	_
-7	ميچوئر	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	xcomp	_	_
+7	ميچوئر	_	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	8	xcomp	_	_
 8	ٿيڻو	_	VERB	VM	Aspect=Imp|VerbForm=FutPart|Voice=Act	0	root	_	_
 9	پوندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=PresPart|Voice=Act	8	compound	_	SpaceAfter=No
 10	.	_	PUNCT	PUNCT	_	8	punct	_	_
@@ -11532,32 +11532,32 @@
 3	زرخيز	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
 4	۽	_	CCONJ	CC	_	5	cc	_	_
 5	ترقي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
-6	يافته	_	ADJ	JJ	Case=Nom|Degree=Pos	7	amod	_	_
+6	يافته	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
 7	ٻوليون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	SpaceAfter=No
 8	،	_	PUNCT	PUNCT	_	9	punct	_	_
-9	انگريزي	_	PROPN	NNP	Case=Acc|Gender=Fem	7	conj	_	SpaceAfter=No
-10	،	_	PUNCT	PUNCT	_	11	punct	_	_
-11	فرانسيسي	_	PROPN	NNP	Case=Acc|Gender=Masc	7	conj	_	SpaceAfter=No
+9	انگريزي	_	PROPN	NNP	Case=Nom|Gender=Masc	7	conj	_	SpaceAfter=No
+10	،	_	PUNCT	PUNCT	_	9	punct	_	_
+11	فرانسيسي	_	PROPN	NNP	Case=Nom|Gender=Masc	7	conj	_	SpaceAfter=No
 12	،	_	PUNCT	PUNCT	_	11	punct	_	_
-13	اسپيني	_	PROPN	NNP	Case=Acc|Gender=Fem	7	conj	_	SpaceAfter=No
-14	،	_	PUNCT	PUNCT	_	15	punct	_	_
-15	جرمن	_	PROPN	NNP	Case=Nom|Gender=Fem	7	conj	_	SpaceAfter=No
+13	اسپيني	_	PROPN	NNP	Case=Nom|Gender=Masc	7	conj	_	SpaceAfter=No
+14	،	_	PUNCT	PUNCT	_	13	punct	_	_
+15	جرمن	_	PROPN	NNP	Case=Nom|Gender=Masc	7	conj	_	SpaceAfter=No
 16	،	_	PUNCT	PUNCT	_	15	punct	_	_
-17	روسي	_	PROPN	NNP	Case=Nom|Gender=Fem	7	conj	_	_
+17	روسي	_	PROPN	NNP	Case=Nom|Gender=Masc	7	conj	_	_
 18	يا	_	CCONJ	CC	_	19	cc	_	_
-19	اٽالين	_	PROPN	NNP	Case=Nom|Gender=Fem	7	conj	_	_
+19	اٽالين	_	PROPN	NNP	Case=Nom|Gender=Masc	7	conj	_	_
 20	وغيره	_	PART	PART	_	19	dep	_	_
 21	رڳو	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	24	amod	_	_
 22	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	24	nmod	_	_
 23	تخليقي	_	ADJ	JJ	Case=Nom|Degree=Pos	24	amod	_	_
-24	ادب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	obl	_	_
+24	ادب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	nmod	_	_
 25	۽	_	CCONJ	CC	_	27	cc	_	_
-26	مقامي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	_
+26	مقامي	_	ADJ	JJ	Case=Nom|Degree=Pos	27	amod	_	_
 27	تحريرن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	conj	_	_
-28	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	24	case	_	_
-29	ڪري	_	ADP	PSP	_	24	case	_	_
+28	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	27	case	_	_
+29	ڪري	_	ADP	PSP	_	27	case	_	_
 30	اڳڀريون	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	_
-31	ناهن	_	PART	PART	_	30	dep	_	SpaceAfter=No
+31	ناهن	_	AUX	VAUX	Number=Plur|Tense=Pres	30	cop	_	SpaceAfter=No
 32	،	_	PUNCT	PUNCT	_	30	punct	_	_
 
 # sent_id = 599
