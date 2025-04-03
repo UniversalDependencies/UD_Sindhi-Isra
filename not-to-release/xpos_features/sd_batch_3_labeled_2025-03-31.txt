@@ -5762,23 +5762,22 @@
 
 # sent_id = 287
 # text = مثال طور دهشتگردي جي واقعن ۽ منظرن کي بي ڌڙڪ ۽ بنا ڪنهن ريگيلويشن جي نشر ڪرڻ وغيره.
-# semgrex pattern |{word:وغيره}| matched at 18:وغيره
 1	مثال	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
-2	طور	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
-3	دهشتگردي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	5	nmod	_	_
-4	جي	_	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur	3	case	_	_
-5	واقعن	_	NOUN	NN	_	17	nsubj	_	_
-6	۽	_	CCONJ	CC	Case=Acc|Gender=Fem|Number=Plur	7	cc	_	_
-7	منظرن	_	NOUN	NN	_	5	conj	_	_
+2	طور	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	_
+3	دهشتگردي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+4	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	3	case	_	_
+5	واقعن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+6	۽	_	CCONJ	CC	_	7	cc	_	_
+7	منظرن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	_
 8	کي	_	ADP	PSP	_	5	case	_	_
-9	بي	_	PART	PART	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	_
-10	ڌڙڪ	_	NOUN	NN	_	17	obl	_	_
-11	۽	_	CCONJ	CC	Case=Nom|Degree=Pos|Number=Sing	14	cc	_	_
-12	بنا	_	ADJ	JJ	Case=Acc|Number=Sing	14	amod	_	_
-13	ڪنهن	_	PRON	PRWH	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
-14	ريگيلويشن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Type=Gen	10	conj	_	_
-15	جي	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing	14	case	_	_
-16	نشر	_	NOUN	NN	Case=Nom	17	compound	_	_
+9	بي	_	PART	PART	_	10	amod	_	_
+10	ڌڙڪ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	_
+11	۽	_	CCONJ	CC	_	14	cc	_	_
+12	بنا	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	14	amod	_	_
+13	ڪنهن	_	PRON	PRWH	Case=Acc|Number=Sing	14	nmod	_	_
+14	ريگيلويشن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
+15	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	14	case	_	_
+16	نشر	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	compound	_	_
 17	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
 18	وغيره	_	PART	PART	_	17	dep	_	SpaceAfter=No
 19	.	_	PUNCT	PUNCT	_	17	punct	_	_
@@ -11528,38 +11527,37 @@
 
 # sent_id = 598
 # text = دنيا جون زرخيز ۽ ترقي يافته ٻوليون، انگريزي، فرانسيسي، اسپيني، جرمن، روسي يا اٽالين وغيره رڳو پنهنجي تخليقي ادب ۽ مقامي تحريرن جي ڪري اڳڀريون ناهن،
-# semgrex pattern |{word:وغيره}| matched at 20:وغيره
-1	دنيا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Type=Gen	3	nmod	_	_
-2	جون	_	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
-3	زرخيز	_	NOUN	NN	_	7	nmod	_	_
-4	۽	_	CCONJ	CC	Case=Nom|Gender=Fem|Number=Sing	5	cc	_	_
-5	ترقي	_	NOUN	NN	Case=Nom|Degree=Pos	3	conj	_	_
-6	يافته	_	ADJ	JJ	Case=Nom|Gender=Fem|Number=Plur	7	amod	_	_
-7	ٻوليون	_	NOUN	NN	_	30	nsubj	_	SpaceAfter=No
-8	،	_	PUNCT	PUNCT	Case=Acc|Gender=Fem	9	punct	_	_
-9	انگريزي	_	PROPN	NNP	_	7	conj	_	SpaceAfter=No
-10	،	_	PUNCT	PUNCT	Case=Acc|Gender=Masc	11	punct	_	_
-11	فرانسيسي	_	PROPN	NNP	_	7	conj	_	SpaceAfter=No
-12	،	_	PUNCT	PUNCT	Case=Acc|Gender=Fem	11	punct	_	_
-13	اسپيني	_	PROPN	NNP	_	7	conj	_	SpaceAfter=No
-14	،	_	PUNCT	PUNCT	Case=Nom|Gender=Fem	15	punct	_	_
-15	جرمن	_	PROPN	NNP	_	7	conj	_	SpaceAfter=No
-16	،	_	PUNCT	PUNCT	Case=Nom|Gender=Fem	15	punct	_	_
-17	روسي	_	PROPN	NNP	_	7	conj	_	_
-18	يا	_	CCONJ	CC	Case=Nom|Gender=Fem	19	cc	_	_
-19	اٽالين	_	PROPN	NNP	_	7	conj	_	_
-20	وغيره	_	PART	PART	Case=Nom|Degree=Pos|Number=Sing	19	dep	_	_
-21	رڳو	_	ADJ	JJ	Case=Gen|Gender=Masc|Number=Sing|Person=1	24	amod	_	_
-22	پنهنجي	_	PRON	PRP	Case=Nom|Degree=Pos	24	nmod	_	_
-23	تخليقي	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	24	amod	_	_
-24	ادب	_	NOUN	NN	_	30	obl	_	_
-25	۽	_	CCONJ	CC	Case=Nom|Degree=Pos|Number=Plur	27	cc	_	_
-26	مقامي	_	ADJ	JJ	Case=Acc|Gender=Fem|Number=Plur	27	amod	_	_
-27	تحريرن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Type=Gen	24	conj	_	_
-28	جي	_	ADP	PSP	_	24	case	_	_
-29	ڪري	_	ADP	PSP	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	24	case	_	_
-30	اڳڀريون	_	ADJ	JJ	_	0	root	_	_
-31	ناهن	_	AUX	VAUX	Number=Plur|Tense=Pres	30	cop	_	SpaceAfter=No
+1	دنيا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
+2	جون	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	1	case	_	_
+3	زرخيز	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+4	۽	_	CCONJ	CC	_	5	cc	_	_
+5	ترقي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+6	يافته	_	ADJ	JJ	Case=Nom|Degree=Pos	7	amod	_	_
+7	ٻوليون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	SpaceAfter=No
+8	،	_	PUNCT	PUNCT	_	9	punct	_	_
+9	انگريزي	_	PROPN	NNP	Case=Acc|Gender=Fem	7	conj	_	SpaceAfter=No
+10	،	_	PUNCT	PUNCT	_	11	punct	_	_
+11	فرانسيسي	_	PROPN	NNP	Case=Acc|Gender=Masc	7	conj	_	SpaceAfter=No
+12	،	_	PUNCT	PUNCT	_	11	punct	_	_
+13	اسپيني	_	PROPN	NNP	Case=Acc|Gender=Fem	7	conj	_	SpaceAfter=No
+14	،	_	PUNCT	PUNCT	_	15	punct	_	_
+15	جرمن	_	PROPN	NNP	Case=Nom|Gender=Fem	7	conj	_	SpaceAfter=No
+16	،	_	PUNCT	PUNCT	_	15	punct	_	_
+17	روسي	_	PROPN	NNP	Case=Nom|Gender=Fem	7	conj	_	_
+18	يا	_	CCONJ	CC	_	19	cc	_	_
+19	اٽالين	_	PROPN	NNP	Case=Nom|Gender=Fem	7	conj	_	_
+20	وغيره	_	PART	PART	_	19	dep	_	_
+21	رڳو	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	24	amod	_	_
+22	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	24	nmod	_	_
+23	تخليقي	_	ADJ	JJ	Case=Nom|Degree=Pos	24	amod	_	_
+24	ادب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	obl	_	_
+25	۽	_	CCONJ	CC	_	27	cc	_	_
+26	مقامي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	_
+27	تحريرن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	conj	_	_
+28	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	24	case	_	_
+29	ڪري	_	ADP	PSP	_	24	case	_	_
+30	اڳڀريون	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	_
+31	ناهن	_	PART	PART	_	30	dep	_	SpaceAfter=No
 32	،	_	PUNCT	PUNCT	_	30	punct	_	_
 
 # sent_id = 599
