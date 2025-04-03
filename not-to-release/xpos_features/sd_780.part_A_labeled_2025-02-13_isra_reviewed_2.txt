@@ -331,7 +331,7 @@
 10	تي	_	ADP	PSPL	_	9	case	_	_
 11	پاڻي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
 12	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	11	case	_	_
-13	دٻاءُ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+13	دٻاءُ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	_
 14	گهٽجي	_	VERB	VM	Aspect=Imp|Voice=Pass	0	root	_	_
 15	ويندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Voice=Act	14	compound	_	_
 16	۽	_	CCONJ	CC	_	19	cc	_	_
@@ -376,7 +376,7 @@
 # text = پاڻي جي سطح لڳاتار هڪ هنڌ بيهجي وڃڻ ڪري دريائي وهڪري جو بئراج مٿان دٻاءُ وڌيو آهي ۽ پاڻي بئراج جي پلرن سان تيزي سان ٽڪرائجڻ شروع ٿي ويو آهي .
 1	پاڻي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
 2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
-3	سطح	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	سطح	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 4	لڳاتار	_	ADV	ADM	_	7	advmod	_	_
 5	هڪ	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
 6	هنڌ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
@@ -705,7 +705,7 @@
 7	وڏي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	وهڪري	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
 9	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
-10	پاڻي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10	پاڻي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 11	هڪ	_	ADJ	JJ	Case=Nom|Number=Sing	12	amod	_	_
 12	هنڌ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obl	_	_
 13	بيهجي	_	VERB	VM	Aspect=Imp|Tense=Pres|Voice=Pass	0	root	_	_
@@ -939,7 +939,7 @@
 
 # sent_id = 731
 # text = سنڌ ۽ گڊو ڪئنال کي 22 گهارا پئجي ويا آهن ،
-1	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Masc	8	nsubj	_	_
+1	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Masc	8	nsubj:pass	_	_
 2	۽	_	CCONJ	CC	_	4	cc	_	_
 3	گڊو	_	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
 4	ڪئنال	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	compound	_	_
@@ -1607,7 +1607,7 @@
 27	ٻگي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	compound	_	_
 28	واهه	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	conj	_	_
 29	وٽان	_	ADP	PSPL	_	28	case	_	_
-30	گهارا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
+30	گهارا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	31	nsubj:pass	_	_
 31	پئجي	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Pass	0	root	_	_
 32	ويا	_	VERB	VM	Aspect=Perf|Number=Plur	31	compound	_	_
 33	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	31	aux	_	_
@@ -2142,7 +2142,7 @@
 10	تي	_	ADP	PSPL	_	9	case	_	_
 11	قائم	_	ADJ	JJ	Case=Nom|Degree=Pos	12	compound	_	_
 12	ڪيل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart|Voice=Pass	13	acl	_	_
-13	مڏ	_	NOUN	NN	Case=Nom|Number=Sing	18	nsubj	_	_
+13	مڏ	_	NOUN	NN	Case=Nom|Number=Sing	18	nsubj:pass	_	_
 14	اوچتو	_	ADV	ADM	_	18	advmod	_	_
 15	پاڻي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
 16	سبب	_	ADP	PSP	_	15	case	_	_
@@ -2792,7 +2792,7 @@
 15	هجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	14	obl	_	_
 16	ها	_	AUX	VAUX	Tense=Past	14	aux	_	_
 17	ته	_	SCONJ	CS	_	22	mark	_	_
-18	اهو	_	DET	PRD	Case=Nom	22	nsubj	_	_
+18	اهو	_	DET	PRD	Case=Nom	22	nsubj:pass	_	_
 19	آئين	_	NOUN	NN	Case=Acc|Number=Sing	22	obl	_	_
 20	۾	_	ADP	PSPL	_	19	case	_	_
 21	شامل	_	NOUN	NN	Case=Nom	22	xcomp	_	_
@@ -3682,7 +3682,7 @@
 8	آهي	_	AUX	VAUX	Person=3|Tense=Pres	7	cop	_	_
 9	ته	_	SCONJ	CS	_	15	mark	_	_
 10	جيئن	_	ADV	ADM	_	15	obl	_	_
-11	پاڪستان	_	PROPN	NNP	Case=Nom|Gender=Masc	15	nsubj	_	_
+11	پاڪستان	_	PROPN	NNP	Case=Nom|Gender=Masc	15	nsubj:pass	_	_
 12	هڪ	_	NUM	NUM	_	14	amod	_	_
 13	مضبوط	_	ADJ	JJ	Case=Nom|Degree=Pos	14	amod	_	_
 14	ملڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	xcomp	_	_
@@ -3806,7 +3806,7 @@
 7	۾	_	ADP	PSPL	_	6	case	_	_
 8	جذبي	_	NOUN	NN	Case=Acc	10	nmod	_	_
 9	واري	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	8	case	_	_
-10	قوم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+10	قوم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 11	گهرجي	_	VERB	VM	Aspect=Imp|Person=3|Voice=Pass	0	root	_	_
 12	،	_	PUNCT	PUNCT	_	11	punct	_	_
 
