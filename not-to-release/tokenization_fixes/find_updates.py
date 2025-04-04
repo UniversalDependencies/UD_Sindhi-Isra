@@ -97,8 +97,14 @@ def main():
     for span in yield_update_spans(orig_lines, new_lines):
         if span[0].replace(" ", "") in known_text:
             if len(span[1]) > 1 or span[0] != span[1][0]:
+                if len(span[1]) == 1 and span[0][-1] in (".", "،", "؟") and span[0][-2] == ' ' and span[1][0][-1] == span[0][-1] and span[0][:-2] == span[1][0][:-1]:
+                    continue
                 errors += 1
+                print("Replacing:")
+                print("  |%s|" % span[0])
+                print("with")
                 for sentence in span[1]:
+                    print("  |%s|" % sentence)
                     # not efficient... not too many sentences, fortunately
                     doc = pipe(sentence)
                     assert len(doc.sentences) == 1
