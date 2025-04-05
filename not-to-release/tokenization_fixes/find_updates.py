@@ -115,6 +115,8 @@ def main():
                     for word in doc.sentences[0].words:
                         word._start_char = None
                         word._end_char = None
+                        word._lemma = None
+                    doc.sentences[0].tokens[-1].spaces_after = " "
                     doc.sentences[0].sent_id = str(len(docs)+1)
                     docs.append(doc)
             #if len(span[1]) == 1 and span[0] != span[1][0]:
