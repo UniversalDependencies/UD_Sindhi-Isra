@@ -68,7 +68,8 @@ def main():
 
     parser = argparse.ArgumentParser(description='Build a combined training document for a Sindhi tagger')
     parser.add_argument('--mode', default='pos', choices=['pos', 'upos', 'depparse'], help='Build a pos dataset, a UPOS only dataset, or a depparse dataset')
-    parser.add_argument('--retagged', default=os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/dependencies/sd_batch_3.conllu"), help='File to retag')
+    #parser.add_argument('--retagged', default=os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/dependencies/sd_batch_3.conllu"), help='File to retag')
+    parser.add_argument('--retagged', default=None, help='File to retag')
     parser.add_argument('--no_retagged', dest='retagged', action='store_const', const=None, help="Don't retag anything")
     parser.add_argument('--raw_retagged', default="sd_batch_3.conllu", help="Somewhere to write the filtered retag file")
 
