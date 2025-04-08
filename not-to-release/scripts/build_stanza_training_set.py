@@ -160,6 +160,10 @@ def main():
 
     if args.sindhi_dev_size is not None:
         dev = random_select(dev, args.sindhi_dev_size)
+    if len(dev.sentences) == 0:
+        print("Dev set size 0!  Will use the Urdu dev set instead.")
+        urdu_dev_filename = os.path.join(paths["UDBASE"], "UD_Urdu-UDTB/ur_udtb-ud-dev.conllu")
+        dev = read_directory(urdu_dev_filename)
 
     print("Writing to %s" % output_directory)
     shortname = args.dataset_name
