@@ -5,6 +5,7 @@ Replace fix tokenization sentences in the tokenization dataset and the dependenc
 import argparse
 from collections import defaultdict
 
+from stanza.models.common.doc import Document
 from stanza.utils.conll import CoNLL
 
 def replace_sentences(sentences, orig_to_new, reindex=True):
@@ -14,9 +15,22 @@ def replace_sentences(sentences, orig_to_new, reindex=True):
             if reindex:
                 sent_id = sentence.sent_id
                 for idx, new_sent in enumerate(orig_to_new[sentence.text]):
+                    # we do this twice so that
+                    #  the original tokenization file gets sentences indexed by where they are in the file
+                    #  the dependencies file gets updated indices from at least one sentence
                     new_sent_id = sent_id + chr(97 + idx)
                     new_sent.sent_id = new_sent_id
-            new_sentences.extend(orig_to_new[sentence.text])
+
+                    new_sent_dict = new_sent.to_dict()
+                    new_sent_comments = new_sent.comments
+                    new_doc = Document([new_sent_dict], comments=[new_sent_comments])
+                    new_sent = new_doc.sentences[0]
+
+                    new_sent_id = sent_id + chr(97 + idx)
+                    new_sent.sent_id = new_sent_id
+                    new_sentences.append(new_sent)
+            else:
+                new_sentences.extend(orig_to_new[sentence.text])
         else:
             new_sentences.append(sentence)
     return new_sentences
