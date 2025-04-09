@@ -101,7 +101,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     print("PUNCT WORDS LABELED NON-PUNCT")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d has a punct word |%s| labeled %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.upos))
+                print("Sentence %s (%d) word %d has a punct word |%s| (line %d) labeled %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, word.upos))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
