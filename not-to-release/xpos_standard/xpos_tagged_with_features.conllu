@@ -69,7 +69,7 @@
 # sent_id = xpos_8
 1	پنج	_	ADJ	JJC	Case=Nom	2	amod	_	_
 2	چوڪريون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
-3	پڙھڻ	_	VERB	VM	VerbForm=Inf	4	xcomp	_	_
+3	پڙھڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	4	xcomp	_	_
 4	آيون	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur|Person=3	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -147,7 +147,7 @@
 # sent_id = xpos_17
 1	اھي	_	DET	PRD	Case=Acc|Number=Plur	2	det	_	_
 2	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
-3	پڙھڻ	_	VERB	VM	VerbForm=Inf	4	xcomp	_	_
+3	پڙھڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	4	xcomp	_	_
 4	جھڙا	_	PRON	PRL	Case=Nom|Number=Plur	0	root	_	_
 5	آھن	آھي	AUX	VAUX	Number=Plur|Tense=Pres	4	cop	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -301,7 +301,7 @@
 # text = ھمراہ گھمڻ ويو ھو.
 # sent_id = xpos_36
 1	ھمراہ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	گھمڻ	گھُم	VERB	VM	VerbForm=Inf	3	xcomp	_	_
+2	گھمڻ	گھُم	VERB	VM	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_
 3	ويو	ويو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	0	root	_	_
 4	ھو	_	AUX	VAUX	Person=3|Tense=Past	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -535,7 +535,7 @@
 2	گدڙ	گدڙ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	5	compound	_	_
-5	ڪرڻ	ڪر	VERB	VM	VerbForm=Inf	12	advcl	_	_
+5	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	12	advcl	_	_
 6	لاءِ	لاءِ	ADP	PSP	_	5	mark	_	_
 7	کيس	کي	ADP	PSPX	_	12	nsubj	_	_
 8	ڪـُن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
@@ -610,7 +610,7 @@
 8	تلاءَ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 9	تي	تي	ADP	PSPL	_	8	case	_	_
 10	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
-11	پيڻ	_	VERB	VM	VerbForm=Inf	13	advcl	_	_
+11	پيڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	13	advcl	_	_
 12	لاءِ	لاءِ	ADP	PSP	_	11	mark	_	_
 13	آيو	آءَ	VERB	VM	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	13	punct	_	_
@@ -624,7 +624,7 @@
 5	ٻڪرين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
 6	کي	کي	ADP	PSP	_	5	case	_	_
 7	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
-8	پيئڻ	_	VERB	VM	VerbForm=Inf	10	advcl	_	_
+8	پيئڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	10	advcl	_	_
 9	کان	کان	ADP	PSP	_	8	mark	_	_
 10	روڪيو	_	VERB	VM	Aspect=Perf	0	root	_	_
 11	۽	۽	CCONJ	CC	_	12	cc	_	_
@@ -656,7 +656,7 @@
 10	ٻڪرين	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
 11	کي	کي	ADP	PSP	_	10	case	_	_
 12	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
-13	پيئڻ	_	VERB	VM	VerbForm=Inf	15	xcomp	_	_
+13	پيئڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	15	xcomp	_	_
 14	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	13	mark	_	_
 15	موڪل	موڪل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	compound	_	_
 16	ڏنائين	_	VERB	VM	Aspect=Perf|Number=Sing|Person=3	6	conj	_	SpaceAfter=No
@@ -669,7 +669,7 @@
 3	وري	وري	ADV	ADM	_	7	advmod	_	_
 4	ٻيا	ٻيو	ADJ	JJO	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	_
 5	ڌڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
-6	اچڻ	اچ	VERB	VM	VerbForm=Inf	7	xcomp	_	_
+6	اچڻ	اچ	VERB	VM	Aspect=Imp|VerbForm=Inf	7	xcomp	_	_
 7	لڳا	لڳ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
@@ -807,7 +807,7 @@
 16	بيهي	بيه	VERB	VM	Aspect=Perf|VerbForm=Conv	20	advcl	_	_
 17	سندس	سندو	PRON	PRP	Case=Gen|Number=Sing|Person=3	18	nmod	_	_
 18	ساراهه	ساراهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	compound	_	_
-19	ڪرڻ	ڪر	VERB	VM	VerbForm=Inf	20	xcomp	_	_
+19	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	20	xcomp	_	_
 20	لڳي	لڳ	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3	6	conj	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	20	punct	_	_
 
@@ -826,7 +826,7 @@
 # text = اهو ٻڌڻ سان گدڙ سڙي پچي ويو ۽ رِڍَ تي حملو ڪيائين.
 # sent_id = xpos_76
 1	اهو	اهو	PRON	PRD	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	ٻڌڻ	ٻڌ	VERB	VM	VerbForm=Inf	6	advcl	_	_
+2	ٻڌڻ	ٻڌ	VERB	VM	Aspect=Imp|VerbForm=Inf	6	advcl	_	_
 3	سان	سان	ADP	PSP	_	2	mark	_	_
 4	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	سڙي	سڙي	VERB	VM	Aspect=Perf|VerbForm=Conv	6	xcomp	_	_
@@ -855,7 +855,7 @@
 12	کيس	کي	ADP	PSPX	_	15	nsubj	_	_
 13	شڪاري	_	NOUN	NN	Case=Nom|Gender=Masc	14	nmod	_	_
 14	ڪتا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	obj	_	_
-15	ڏسڻ	ڏس	VERB	VM	VerbForm=Inf	17	advcl	_	_
+15	ڏسڻ	ڏس	VERB	VM	Aspect=Imp|VerbForm=Inf	17	advcl	_	_
 16	۾	۾	ADP	PSPL	_	15	mark	_	_
 17	آيا	آيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	9	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	17	punct	_	_
@@ -1004,13 +1004,13 @@
 4	گڏ	گڏ	ADV	ADV	_	8	advmod	_	_
 5	تلاءُ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 6	ڏانهن	ڏانهن	ADV	ADP	_	5	case	_	_
-7	هلڻ	ھل	VERB	VM	VerbForm=Inf	8	xcomp	_	_
+7	هلڻ	ھل	VERB	VM	Aspect=Imp|VerbForm=Inf	8	xcomp	_	_
 8	لڳي	لڳ	VERB	VM	Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # text = هلڻ وقت گداڙيءَ گدڙ کي چيو ته: گدڙ، هلون ته هـُـنهين ٿا، ڇونه ڪجهه پاڻي ڍُڪ پيو هلون؟
 # sent_id = xpos_86
-1	هلڻ	ھل	VERB	VM	VerbForm=Inf	6	advcl	_	_
+1	هلڻ	ھل	VERB	VM	Aspect=Imp|VerbForm=Inf	6	advcl	_	_
 2	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	_
 3	گداڙيءَ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 4	گدڙ	گدڙ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	iobj	_	_
