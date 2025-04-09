@@ -67,7 +67,7 @@ def main():
     paths = get_default_paths()
 
     parser = argparse.ArgumentParser(description='Build a combined training document for a Sindhi tagger')
-    parser.add_argument('--mode', default='pos', choices=['pos', 'upos', 'depparse'], help='Build a pos dataset, a UPOS only dataset, or a depparse dataset')
+    parser.add_argument('--mode', default='pos', choices=['lemma', 'pos', 'upos', 'depparse'], help='Build a pos dataset, a UPOS only dataset, or a depparse dataset')
     #parser.add_argument('--retagged', default=os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/dependencies/sd_batch_3.conllu"), help='File to retag')
     parser.add_argument('--retagged', default=None, help='File to retag')
     parser.add_argument('--no_retagged', dest='retagged', action='store_const', const=None, help="Don't retag anything")
@@ -134,6 +134,18 @@ def main():
         for name in extra_docs:
             train_datasets["%s.conllu" % name] = extra_docs[name]
 
+    elif args.mode == 'lemma':
+        output_directory = paths["LEMMA_DATA_DIR"]
+
+        sentences = xpos_doc.sentences + noxpos_doc.sentences
+        xpos_doc.sentences = sentences
+        print("%d total training sentences" % len(xpos_doc.sentences))
+        remove_xpos_and_features(xpos_doc)
+
+        random.seed(1234)
+        train, dev, test = random_split(xpos_doc, weights=(0.8, 0.1, 0.1))
+        print("Split the combined doc into %d train, %d dev, %d test" % (len(train.sentences), len(dev.sentences), len(test.sentences)))
+
     elif args.mode == 'depparse' or args.mode == 'upos':
         sentences = xpos_doc.sentences + noxpos_doc.sentences
         xpos_doc.sentences = sentences
@@ -169,17 +181,22 @@ def main():
     shortname = args.dataset_name
     CoNLL.write_doc2conll(dev, os.path.join(output_directory, "%s.dev.in.conllu" % shortname))
     CoNLL.write_doc2conll(test, os.path.join(output_directory, "%s.test.in.conllu" % shortname))
-    train_filename = os.path.join(output_directory, "%s.train.in.zip" % shortname)
-    print("Writing training data to %s" % train_filename)
-    with zipfile.ZipFile(train_filename, "w") as zout:
-        for name in train_datasets:
-            train_doc = train_datasets[name]
-            if len(train_doc.sentences) == 0:
-                continue
-            with zout.open(name, mode='w') as fout:
-                with io.TextIOWrapper(fout, encoding="utf-8") as tout:
-                    print("Writing %d sentences from %s to zipfile" % (len(train_doc.sentences), name))
-                    CoNLL.write_doc2conll(train_doc, tout)
+    if args.mode == 'lemma':
+        train_filename = os.path.join(output_directory, "%s.train.in.conllu" % shortname)
+        print("Writing training data to %s" % train_filename)
+        CoNLL.write_doc2conll(train, train_filename)
+    else:
+        train_filename = os.path.join(output_directory, "%s.train.in.zip" % shortname)
+        print("Writing training data to %s" % train_filename)
+        with zipfile.ZipFile(train_filename, "w") as zout:
+            for name in train_datasets:
+                train_doc = train_datasets[name]
+                if len(train_doc.sentences) == 0:
+                    continue
+                with zout.open(name, mode='w') as fout:
+                    with io.TextIOWrapper(fout, encoding="utf-8") as tout:
+                        print("Writing %d sentences from %s to zipfile" % (len(train_doc.sentences), name))
+                        CoNLL.write_doc2conll(train_doc, tout)
 
 if __name__ == '__main__':
     main()
