@@ -558,7 +558,7 @@
 21	ڪرڻا	_	VERB	VM	Aspect=Imp|Number=Plur|VerbForm=FutPart|Voice=Act	3	acl	_	_
 22	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	21	aux	_	_
 23	۽	۽	CCONJ	CC	_	26	cc	_	_
-24	ايترا	_	SCONJ	CS	_	26	advmod	_	_
+24	ايترا	_	ADJ	JJ	Case=Nom|Number=Plur	26	amod	_	_
 25	ئي	ئي	PART	PART	_	24	advmod:emph	_	_
 26	اهم	اهم	ADJ	JJ	Case=Nom|Degree=Pos	21	conj	_	_
 27	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	26	cop	_	_
@@ -3436,7 +3436,7 @@
 9	،	_	PUNCT	PUNCT	_	10	punct	_	_
 10	غريب	غريب	ADJ	JJ	Case=Nom|Degree=Pos	8	conj	_	_
 11	۽	۽	CCONJ	CC	_	12	cc	_	_
-12	پٺتي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	compound	_	_
+12	پٺتي	_	ADV	ADP	_	13	advmod	_	_
 13	پيل	پيو	VERB	VM	Aspect=Perf|VerbForm=PastPart	14	amod	_	_
 14	صوبو	صوبو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 15	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	14	cop	_	_
@@ -6401,7 +6401,7 @@
 
 # sent_id = 4752
 # text = تازو 10 محرم الحرام تي ڪراچي شهر جي مکيه ايم اي جناح روڊ بولٽن مارڪيٽ لڳ تقريبن سوا چئين وڳي ڌاري هڪ خودڪش حملي ۾ 45 ماڻهو موت جو کاڄ بڻجن ٿا ۽ 100 کان وڌيڪ شهري زخمي بڻجي وڃن ٿا.
-1	تازو	_	ADV	ADV	_	31	advmod	_	_
+1	تازو	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
 2	10	10	NUM	NUM	_	4	nummod	_	_
 3	محرم	محرم	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
 4	الحرام	الحرام	PROPN	NNP	Case=Nom|Gender=Masc	31	obl	_	_
@@ -6976,7 +6976,7 @@
 2	تازي	_	ADJ	JJ	Case=Nom|Degree=Pos	3	amod	_	_
 3	ڪراچيءَ	ڪراچيءَ	PROPN	NNP	Case=Nom|Gender=Fem	6	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	3	case	_	_
-5	اربين	_	PROPN	NNP	Case=Nom|Gender=Masc	6	compound	_	_
+5	اربين	_	ADJ	JJ	Case=Acc	6	amod	_	_
 6	روپين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
 7	واري	واري	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	6	case	_	_
 8	تباهيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
@@ -8500,7 +8500,7 @@
 6	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	5	case	_	_
 7	وزيرستان	وزيرستان	PROPN	NNP	Case=Nom|Gender=Masc	8	compound	_	_
 8	ٿيڻ	ٿي	VERB	VM	Aspect=Imp|VerbForm=Inf	10	nmod	_	_
-9	وارين	_	ADP	PSPG	Case=Acc|Gender=Masc	8	mark	_	_
+9	وارين	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Plur	8	mark	_	_
 10	خبرن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	nmod	_	_
 11	۾	۾	ADP	PSPL	_	10	case	_	_
 12	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	14	det	_	_
@@ -12682,7 +12682,7 @@
 6	ارشاد	_	PROPN	NNP	Case=Nom|Gender=Masc	8	compound	_	_
 7	احمد	احمد	PROPN	NNP	Case=Nom|Gender=Masc	8	compound	_	_
 8	سيهڙ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	32	obl	_	_
-9	موجب	موجب	ADP	PSPL	_	8	case	_	_
+9	موجب	موجب	ADP	PSP	_	8	case	_	_
 10	ٽين	_	NOUN	NN	Number=Sing	11	compound	_	_
 11	هٽي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
 12	ويجهو	_	ADP	PSPL	_	11	case	_	_
@@ -12691,7 +12691,7 @@
 15	بابا	بابا	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
 16	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	15	case	_	_
 17	مزار	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
-18	لڳ	_	ADP	PSP	_	17	case	_	_
+18	لڳ	_	ADP	PSPL	_	17	case	_	_
 19	شهري	شهري	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nmod	_	_
 20	حڪومت	حڪومت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	nmod	_	_
 21	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	20	case	_	_
@@ -13028,7 +13028,7 @@
 2	رهي	ره	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
 3	ته	ته	SCONJ	CS	_	43	mark	_	_
 4	عدالت	عدالت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	43	nsubj	_	_
-5	تازو	_	ADV	ADT	_	10	amod	_	_
+5	تازو	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	_
 6	ڊسٽرڪٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 7	اينڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 8	سيشن	سيشن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
@@ -15103,7 +15103,7 @@
 2	آڪٽوبر	آڪٽوبر	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
 3	2002ع	_	NUM	NUM	_	6	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
-5	پوئتي	_	ADJ	JJ	Case=Nom|Degree=Pos	6	compound	_	_
+5	پوئتي	_	ADV	ADP	_	6	advmod	_	_
 6	ڪيون	ڪيو	VERB	VM	Aspect=Perf|Number=Plur	0	root	_	_
 7	ويون	ويون	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	6	compound	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -16110,8 +16110,8 @@
 6	،	_	PUNCT	PUNCT	_	7	punct	_	_
 7	پرڏيھي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	5	conj	_	_
 8	۽	۽	CCONJ	CC	_	9	cc	_	_
-9	قانون	قانون	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
-10	وارين	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Plur	5	case	_	_
+9	قانون	قانون	NOUN	NN	Case=Acc|Number=Sing	5	conj	_	_
+10	وارين	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Plur	5	case	_	_
 11	وزارتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	_
 12	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	11	case	_	_
 13	عملدارن	عملدار	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
@@ -19844,7 +19844,7 @@
 1	ڪوٽ	ڪوٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 2	غلام	غلام	PROPN	NNP	Case=Nom|Gender=Masc	3	compound	_	_
 3	محمد	محمد	PROPN	NNP	Case=Nom|Gender=Masc	9	nmod	_	_
-4	لڳ	_	ADP	PSP	_	3	case	_	_
+4	لڳ	_	ADP	PSPL	_	3	case	_	_
 5	تدفين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
 6	مان	مان	ADP	PSPL	_	5	case	_	_
 7	موٽندڙن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	_
@@ -20973,7 +20973,7 @@
 9	مالي	مالي	ADJ	JJ	Case=Nom|Degree=Pos	10	amod	_	_
 10	مدد	مدد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obl	_	_
 11	سميت	سميت	ADJ	JJ	Case=Nom|Degree=Pos	10	amod	_	_
-12	اربين	_	PROPN	NNP	Case=Nom|Gender=Masc	13	nmod	_	_
+12	اربين	_	ADJ	JJ	Case=Acc|Number=Plur	13	amod	_	_
 13	رپين	رپيو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	_
 14	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	13	case	_	_
 15	بجيٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obj	_	_
