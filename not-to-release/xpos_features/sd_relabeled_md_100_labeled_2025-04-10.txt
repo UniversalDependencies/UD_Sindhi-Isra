@@ -34,7 +34,7 @@
 2	۾	_	ADP	PSPL	_	1	case	_	_
 3	وڌ	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
 4	تعليم	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
-5	حاصل	_	NOUN	NN	Case=Nom|Number=Sing|Gender=Masc	6	compound	_	_
+5	حاصل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	_
 6	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	10	advcl	_	_
 7	معاشري	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
 8	کي	_	ADP	PSP	_	7	case	_	_
@@ -96,12 +96,12 @@
 # sent_id = MD-24
 # text = نرم آهيان بي ساھ ته نه آهيان .
 1	نرم	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	advmod	_	_
-2	آهيان	_	AUX	VAUX	Number=Sing|Tense=Pres|Person=1	1	cop	_	_
+2	آهيان	_	AUX	VAUX	Number=Sing|Person=1|Tense=Pres	1	cop	_	_
 3	بي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
 4	ساھ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 5	ته	_	PART	PART	_	4	advmod:emph	_	_
 6	نه	_	PART	PART	_	7	advmod	_	_
-7	آهيان	_	AUX	VAUX	Number=Sing|Tense=Pres|Person=1	4	cop	_	_
+7	آهيان	_	AUX	VAUX	Number=Sing|Person=1|Tense=Pres	4	cop	_	_
 8	.	_	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = MD-25
@@ -126,7 +126,7 @@
 4	۾	_	ADP	PSPL	_	3	case	_	_
 5	کنڀيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
 6	جام	_	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
-7	ٿين	_	AUX	VAUX	Number=Plur|AuxType=Be	6	cop	_	_
+7	ٿين	_	AUX	VAUX	AuxType=Be|Number=Plur	6	cop	_	_
 8	.	_	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = MD-28
@@ -435,7 +435,7 @@
 7	ڄاڻ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 8	لاءِ	_	ADP	PSP	_	7	case	_	_
 9	به	_	PART	PART	_	7	advmod:emph	_	_
-10	حاصل	_	NOUN	NN	Case=Nom|Number=Sing|Gender=Masc	11	compound	_	_
+10	حاصل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	_
 11	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
 12	گھرجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	11	compound	_	_
 13	.	_	PUNCT	PUNCT	_	11	punct	_	_
@@ -443,7 +443,7 @@
 # sent_id = MD-83
 # text = علم حاصل ڪرڻ سان حق ۽ سچ جي سڃاڻپ ٿئي ٿي .
 1	علم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
-2	حاصل	_	NOUN	NN	Case=Nom|Number=Sing|Gender=Masc	3	compound	_	_
+2	حاصل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	_
 3	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	10	advcl	_	_
 4	سان	_	ADP	PSP	_	3	mark	_	_
 5	حق	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -469,7 +469,7 @@
 
 # sent_id = MD-94
 # text = سنڌي دنيا جي گھڻي پراڻي ٻولي آهي جيڪا ڪيترن ئي ملڪن ۾ ڳالهائجي ٿي .
-1	سنڌي	_	NOUN	NN	Case=Nom|Number=Sing|Gender=Fem	6	nsubj	_	_
+1	سنڌي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 2	دنيا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 3	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	گھڻي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	advmod	_	_
@@ -487,7 +487,7 @@
 
 # sent_id = MD-99
 # text = سنڌي ٻولي جو شمار دنيا جي قديم ترين ٻولين ۾ ٿئي ٿو .
-1	سنڌي	_	NOUN	NN	Case=Nom|Number=Sing|Gender=Fem	2	nmod	_	_
+1	سنڌي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
 2	ٻولي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
 3	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
 4	شمار	_	ADJ	JJ	Case=Nom|Degree=Pos	11	compound	_	_
@@ -519,7 +519,7 @@
 4	ڪجھ	_	ADV	ADV	_	0	root	_	_
 5	به	_	PART	PART	_	4	advmod:emph	_	_
 6	نه	_	PART	PART	_	4	advmod	_	_
-7	آهيون	_	AUX	VAUX	Number=Plur|Tense=Pres|Person=1	4	cop	_	_
+7	آهيون	_	AUX	VAUX	Number=Plur|Person=1|Tense=Pres	4	cop	_	_
 8	.	_	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = MD-102
@@ -999,14 +999,14 @@
 2	مرد	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	کيتي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	_
 4	ڪندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart	0	root	_	_
-5	هئا	_	AUX	VAUX	Number=Plur|Tense=Past|Gender=Masc	4	aux	_	_
+5	هئا	_	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Past	4	aux	_	_
 6	۽	_	CCONJ	CC	_	11	cc	_	_
 7	زالون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
 8	گھر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
 9	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
 10	ڪم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	_
 11	ڪنديون	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Plur|VerbForm=PresPart	4	conj	_	_
-12	هيون	_	AUX	VAUX	Number=Plur|Tense=Past|Gender=Fem	11	aux	_	_
+12	هيون	_	AUX	VAUX	Gender=Fem|Number=Plur|Tense=Past	11	aux	_	_
 13	.	_	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = MD-168
@@ -1035,7 +1035,7 @@
 # text = اسلم لنڊن وڃڻو آهي .
 1	اسلم	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nsubj	_	_
 2	لنڊن	_	PROPN	NNP	Case=Nom|Gender=Masc	3	obl	_	_
-3	وڃڻو	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act|VerbForm=FutPart|Gender=Masc	0	root	_	_
+3	وڃڻو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=FutPart|Voice=Act	0	root	_	_
 4	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	3	aux	_	_
 5	.	_	PUNCT	PUNCT	_	3	punct	_	_
 
