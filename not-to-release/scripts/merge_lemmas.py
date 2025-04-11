@@ -22,6 +22,9 @@ def read_tsv_files(tsv_files):
             pieces = line.split("\t")
             if len(pieces) < 3:
                 raise ValueError("unexpected line format at %s line %d: only %d tab pieces" % (filename, line_idx+1))
+            if len(pieces) > 3:
+                # this was a lemma with a note on it, such as a wrong tag or wrong tokenization
+                continue
             pieces = pieces[:3]
             # the lemma files should all be in the format word,upos,lemma
             lemmas[(pieces[0], pieces[1])] = pieces[2]
