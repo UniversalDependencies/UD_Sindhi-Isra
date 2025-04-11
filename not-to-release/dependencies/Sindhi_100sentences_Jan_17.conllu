@@ -5,7 +5,7 @@
 3	جي	جي	ADP	_	_	2	case	_	_
 4	دل	دل	NOUN	_	_	6	nmod	_	_
 5	جي	جي	ADP	_	_	4	case	_	_
-6	وندر	_	NOUN	_	_	8	nmod	_	_
+6	وندر	وندر	NOUN	_	_	8	nmod	_	_
 7	جو	جو	ADP	_	_	6	case	_	_
 8	سبب	سبب	NOUN	_	_	9	xcomp	_	_
 9	بڻجي	بڻج	VERB	_	_	0	root	_	_
@@ -45,25 +45,25 @@
 1	جڏهن	جڏهن	ADV	_	_	7	advmod	_	_
 2	سندن	سندو	PRON	_	_	3	nmod	_	_
 3	ٻار	ٻار	NOUN	_	_	7	nsubj	_	_
-4	ٻاتيون	_	ADJ	_	_	6	amod	_	_
-5	ٻاتيون	_	ADJ	_	_	6	amod	_	_
-6	ٻوليون	_	NOUN	_	_	7	obj	_	_
-7	ٻولي	_	VERB	_	_	0	root	_	_
+4	ٻاتيون	ٻات	ADJ	_	_	6	amod	_	_
+5	ٻاتيون	ٻات	ADJ	_	_	6	amod	_	_
+6	ٻوليون	ٻول	NOUN	_	_	7	obj	_	_
+7	ٻولي	ٻولي	VERB	_	_	0	root	_	_
 8	ٿو	ٿو	AUX	_	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 4
 # text = جو ٻار ٻولي جي سکيا حاصل ڪري لفظ اچاري ٿو .
 # at 1 جو is a DET.
-1	جو	_	DET	PRD	Number=Sing	2	det	_	_
+1	جو	جو	DET	PRD	Number=Sing	2	det	_	_
 2	ٻار	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	ٻولي	ٻولي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
-5	سکيا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	_
+5	سکيا	سکيو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	_
 6	حاصل	حاصل	NOUN	NN	Case=Nom|Number=Sing	7	compound	_	_
 7	ڪري	ڪر	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=ConjPart|Voice=Act	9	advcl	_	_
 8	لفظ	لفظ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
-9	اچاري	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
+9	اچاري	اچار	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
 10	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	9	aux	_	_
 11	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
@@ -73,9 +73,9 @@
 2	سندس	سندو	PRON	_	_	3	nmod	_	_
 3	والدين	والدين	NOUN	_	_	8	nmod	_	_
 4	جا	جو	ADP	_	_	3	case	_	_
-5	تمام	_	ADJ	_	_	8	amod	_	_
+5	تمام	تمام	ADJ	_	_	8	amod	_	_
 6	جا	جو	ADP	_	_	5	case	_	_
-7	تمام	_	ADJ	_	_	8	amod	_	_
+7	تمام	تمام	ADJ	_	_	8	amod	_	_
 8	ٿڪ	_	NOUN	_	_	11	nsubj	_	_
 9	دور	_	ADV	_	_	11	compound	_	_
 10	ٿي	ٿي	AUX	_	_	11	aux	_	_
@@ -88,7 +88,7 @@
 1	۽	۽	CCONJ	_	_	10	cc	_	_
 2	ان	ان	PRON	_	_	5	obj	_	_
 3	کي	کي	ADP	_	_	2	case	_	_
-4	سکيا	_	NOUN	_	_	5	obj	_	_
+4	سکيا	سکيو	NOUN	_	_	5	obj	_	_
 5	ڏيارڻ	_	VERB	_	_	10	advcl	_	_
 6	لاءِ	لاءِ	ADP	_	_	5	mark	_	_
 7	والدين	والدين	NOUN	_	_	10	nsubj	_	_
@@ -107,7 +107,7 @@
 5	معاشري	معاشرو	NOUN	_	_	9	obl	_	_
 6	لاءِ	لاءِ	ADP	_	_	5	case	_	_
 7	ڪارآمد	_	ADJ	_	_	8	amod	_	_
-8	فرد	_	NOUN	_	_	9	xcomp	_	_
+8	فرد	فرد	NOUN	_	_	9	xcomp	_	_
 9	بڻجي	بڻج	VERB	_	_	0	root	_	_
 10	سگهن	سگهي	AUX	_	_	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
@@ -115,7 +115,7 @@
 # sent_id = 8
 # text = هيٺ ٻارڙن لاءِ پيش ڪيل وصفون ڏجن ٿيو.
 1	هيٺ	هيٺ	ADV	_	_	7	advmod	_	_
-2	ٻارڙن	_	NOUN	_	_	5	obl	_	_
+2	ٻارڙن	ٻارڙو	NOUN	_	_	5	obl	_	_
 3	لاءِ	لاءِ	ADP	_	_	2	case	_	_
 4	پيش	پيش	NOUN	_	_	5	compound	_	_
 5	ڪيل	ڪيو	VERB	_	_	6	acl	_	_
@@ -130,7 +130,7 @@
 2	جهانن	_	NOUN	_	_	4	nmod	_	_
 3	جي	جي	ADP	_	_	2	case	_	_
 4	سردار	سردار	NOUN	_	_	10	nmod	_	_
-5	حضرت	_	NOUN	_	_	6	compound	_	_
+5	حضرت	حضرت	NOUN	_	_	6	compound	_	_
 6	محمد	محمد	PROPN	_	_	10	nmod	_	_
 7	صلي	_	NOUN	_	_	10	compound	_	_
 8	الله	الله	PROPN	_	_	10	compound	_	_
@@ -158,7 +158,7 @@
 
 # sent_id = 11
 # text = امام غزالي ٻارن جي بابت فرمايو آهي.
-1	امام	_	NOUN	_	_	2	compound	_	_
+1	امام	امام	NOUN	_	_	2	compound	_	_
 2	غزالي	_	PROPN	_	_	6	nsubj	_	_
 3	ٻارن	ٻار	NOUN	_	_	5	nmod	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
@@ -216,7 +216,7 @@
 7	گيت	_	NOUN	_	_	8	obj	_	_
 8	لکندڙ	لک	VERB	_	_	9	acl	_	_
 9	شاعر	شاعر	NOUN	_	_	11	nmod	_	_
-10	اياز	_	PROPN	_	_	11	compound	_	_
+10	اياز	اياز	PROPN	_	_	11	compound	_	_
 11	گل	_	PROPN	_	_	12	nsubj	_	_
 12	چوي	چوي	VERB	_	_	0	root	_	_
 13	ٿو	ٿو	AUX	_	_	12	aux	_	SpaceAfter=No
@@ -286,7 +286,7 @@
 10	قسم	قسم	NOUN	_	_	12	nmod	_	_
 11	جا	جو	ADP	_	_	10	case	_	_
 12	جتن	_	NOUN	_	_	13	compound	_	_
-13	ڪرڻا	_	VERB	_	_	0	root	_	_
+13	ڪرڻا	ڪرڻو	VERB	_	_	0	root	_	_
 14	پوندا	_	AUX	_	_	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -295,8 +295,8 @@
 1	دنيا	دنيا	NOUN	_	_	4	nmod	_	_
 2	جي	جي	ADP	_	_	1	case	_	_
 3	هر	هر	DET	_	_	4	det	_	_
-4	ڪنڊ	_	NOUN	_	_	5	nmod	_	_
-5	ڪڙڇ	_	NOUN	_	_	13	obl	_	_
+4	ڪنڊ	ڪنڊ	NOUN	_	_	5	nmod	_	_
+5	ڪڙڇ	ڪڙڇ	NOUN	_	_	13	obl	_	_
 6	۾	۾	ADP	_	_	5	case	_	_
 7	ٻارن	ٻار	NOUN	_	_	9	nmod	_	_
 8	جي	جي	ADP	_	_	7	case	_	_
@@ -406,7 +406,7 @@
 4	پنهنجا	پنهنجو	PRON	_	_	5	nmod	_	_
 5	فرض	فرض	NOUN	_	_	7	obj	_	_
 6	ادا	_	NOUN	_	_	7	compound	_	_
-7	ڪرڻا	_	VERB	_	_	0	root	_	_
+7	ڪرڻا	ڪرڻو	VERB	_	_	0	root	_	_
 8	آهن	آهي	AUX	_	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -492,14 +492,14 @@
 
 # sent_id = 33
 # text = جيتري قدر انهن جي عقل کي ترقي وٺرائيندڙ ادب موجود هوندو آهي.
-1	جيتري	_	ADJ	_	_	2	amod	_	_
-2	قدر	_	NOUN	_	_	11	obl	_	_
+1	جيتري	جيتري	ADJ	_	_	2	amod	_	_
+2	قدر	قدر	NOUN	_	_	11	obl	_	_
 3	انهن	انهي	PRON	_	_	5	nmod	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
 5	عقل	عقل	NOUN	_	_	8	obj	_	_
 6	کي	کي	ADP	_	_	5	case	_	_
 7	ترقي	ترقي	NOUN	_	_	8	compound	_	_
-8	وٺرائيندڙ	_	VERB	_	_	11	xcomp	_	_
+8	وٺرائيندڙ	وٺراءِ	VERB	_	_	11	xcomp	_	_
 9	ادب	ادب	NOUN	_	_	11	nsubj	_	_
 10	موجود	موجود	ADJ	_	_	11	compound	_	_
 11	هوندو	هوندو	VERB	_	_	0	root	_	_
@@ -567,7 +567,7 @@
 4	هو	هو	PRON	_	_	15	nsubj	_	_
 5	عقل	عقل	NOUN	_	_	9	obj	_	_
 6	۽	۽	CCONJ	_	_	7	cc	_	_
-7	شعور	_	NOUN	_	_	5	conj	_	_
+7	شعور	شعور	NOUN	_	_	5	conj	_	_
 8	حاصل	_	VERB	_	_	9	compound	_	_
 9	ڪري	ڪر	VERB	_	_	15	advcl	_	_
 10	پنهنجي	پنهنجو	DET	_	_	11	det	_	_
@@ -746,14 +746,14 @@
 6	نئون	نئون	ADJ	_	_	7	amod	_	_
 7	نسل	نسل	NOUN	_	_	21	nsubj	_	_
 8	نئين	نئين	ADJ	_	_	9	amod	_	_
-9	اتساھ	_	NOUN	_	_	10	nmod	_	_
-10	عزم	_	NOUN	_	_	19	obl	_	_
+9	اتساھ	اتساھ	NOUN	_	_	10	nmod	_	_
+10	عزم	عزم	NOUN	_	_	19	obl	_	_
 11	۽	۽	CCONJ	_	_	13	cc	_	_
-12	جديد	_	ADJ	_	_	13	amod	_	_
-13	تعمير	_	NOUN	_	_	10	conj	_	_
+12	جديد	جديد	ADJ	_	_	13	amod	_	_
+13	تعمير	تعمير	NOUN	_	_	10	conj	_	_
 14	جا	جو	ADP	_	_	13	case	_	_
 15	اعليٰ	اعليٰ	ADJ	_	_	16	amod	_	_
-16	آدرش	_	NOUN	_	_	19	obj	_	_
+16	آدرش	آدرش	NOUN	_	_	19	obj	_	_
 17	يا	يا	CCONJ	_	_	18	cc	_	_
 18	مقصد	مقصد	NOUN	_	_	16	conj	_	_
 19	کڻي	کڻي	VERB	_	_	21	advcl	_	_
@@ -768,7 +768,7 @@
 2	ادب	ادب	NOUN	_	_	5	nsubj	_	_
 3	ڇا	ڇا	PRON	_	_	5	obj	_	_
 4	کي	کي	ADP	_	_	3	case	_	_
-5	چئجي	_	VERB	_	_	0	root	_	_
+5	چئجي	چئج	VERB	_	_	0	root	_	_
 6	ٿو	ٿو	AUX	_	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -780,14 +780,14 @@
 4	لاءِ	لاءِ	ADP	_	_	2	case	_	_
 5	الڳ	الڳ	ADJ	_	_	7	amod	_	_
 6	الڳ	الڳ	ADJ	_	_	7	amod	_	_
-7	رايا	_	NOUN	_	_	8	nsubj	_	_
+7	رايا	رايو	NOUN	_	_	8	nsubj	_	_
 8	ملن	مل	VERB	_	_	0	root	_	_
 9	ٿا	ٿو	AUX	_	_	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 50
 # text = ڪن جو چوڻ آهي.
-1	ڪن	_	PRON	_	_	3	obl	_	_
+1	ڪن	ڪو	PRON	_	_	3	obl	_	_
 2	جو	جو	ADP	_	_	1	case	_	_
 3	چوڻ	چوڻ	VERB	_	_	0	root	_	_
 4	آهي	آهي	AUX	_	_	3	aux	_	SpaceAfter=No
@@ -877,7 +877,7 @@
 3	ادب	ادب	NOUN	_	_	7	nsubj	_	_
 4	جيڪو	جيڪو	DET	_	_	5	det	_	_
 5	ٻارن	ٻار	NOUN	_	_	7	obl	_	_
-6	واسطي	_	ADP	_	_	5	case	_	_
+6	واسطي	واسطي	ADP	_	_	5	case	_	_
 7	لکيو	لک	VERB	_	_	0	root	_	_
 8	ويو	ويو	VERB	_	_	7	compound	_	_
 9	هجي	هجي	VERB	_	_	7	aux	_	SpaceAfter=No
@@ -1005,7 +1005,7 @@
 
 # sent_id = 67
 # text = جيتوڻيڪ اهڙي شاعري ٻارن لاءِ نه هئي.
-1	جيتوڻيڪ	_	SCONJ	_	_	4	mark	_	_
+1	جيتوڻيڪ	جيتوڻيڪ	SCONJ	_	_	4	mark	_	_
 2	اهڙي	اهڙي	DET	_	_	3	det	_	_
 3	شاعري	شاعري	NOUN	_	_	4	nsubj	_	_
 4	ٻارن	ٻار	NOUN	_	_	0	root	_	_
@@ -1022,7 +1022,7 @@
 4	ڦل	_	NOUN	_	_	11	obl	_	_
 5	۾	۾	ADP	_	_	4	case	_	_
 6	مظفر	مظفر	PROPN	_	_	7	compound	_	_
-7	حسن	_	PROPN	_	_	10	nmod	_	_
+7	حسن	حسن	PROPN	_	_	10	nmod	_	_
 8	جي	جي	ADP	_	_	7	case	_	_
 9	هڪ	هڪ	NUM	_	_	10	nummod	_	_
 10	ڪهاڻي	ڪهاڻي	NOUN	_	_	11	nsubj	_	_
@@ -1143,7 +1143,7 @@
 
 # sent_id = 79
 # text = بلڪه هر اهو ادب جيڪو ٻارن جي ذهنيت مطابق، سندن وندر، دلچسپيءَ جو باعث بڻجي.
-1	بلڪه	_	SCONJ	_	_	15	mark	_	_
+1	بلڪه	بلڪه	SCONJ	_	_	15	mark	_	_
 2	هر	هر	ADJ	_	_	4	amod	_	_
 3	اهو	اهو	DET	_	_	4	det	_	_
 4	ادب	ادب	NOUN	_	_	15	nsubj	_	_
@@ -1164,7 +1164,7 @@
 # text = ۽ سندن طبيعت ۾ اڳتي وڌڻ جو جذبو پيدا ڪرڻ لاءِ اهم ڪردار ادا ڪري.
 1	۽	۽	CCONJ	_	_	15	cc	_	_
 2	سندن	سندو	PRON	_	_	3	nmod	_	_
-3	طبيعت	_	NOUN	_	_	6	obl	_	_
+3	طبيعت	طبيعت	NOUN	_	_	6	obl	_	_
 4	۾	۾	ADP	_	_	3	case	_	_
 5	اڳتي	اڳ	ADV	_	_	6	advmod	_	_
 6	وڌڻ	وڌ	VERB	_	_	8	nmod	_	_
@@ -1196,14 +1196,14 @@
 2	ادب	ادب	NOUN	_	_	19	nsubj	_	_
 3	ٻارن	ٻار	NOUN	_	_	5	nmod	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
-5	خواهشن	_	NOUN	_	_	19	obj	_	_
+5	خواهشن	خواهش	NOUN	_	_	19	obj	_	_
 6	انهن	انهي	PRON	_	_	9	nmod	_	_
 7	جي	جي	ADP	_	_	6	case	_	_
 8	ذهني	_	NOUN	_	_	9	compound	_	_
 9	لاڙن	_	NOUN	_	_	5	conj	_	_
 10	انهن	انهي	PRON	_	_	12	nmod	_	_
 11	جي	جي	ADP	_	_	10	case	_	_
-12	خواهشن	_	NOUN	_	_	5	conj	_	_
+12	خواهشن	خواهش	NOUN	_	_	5	conj	_	_
 13	۽	۽	CCONJ	_	_	16	cc	_	_
 14	سندن	_	DET	_	_	16	det	_	_
 15	ڪنهن	ڪو	PRON	_	_	16	nmod	_	_
@@ -1277,7 +1277,7 @@
 
 # sent_id = 88
 # text = خال ڀريو.
-1	خال	_	NOUN	_	_	2	nsubj	_	_
+1	خال	خال	NOUN	_	_	2	nsubj	_	_
 2	ڀريو	ڀر	VERB	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 

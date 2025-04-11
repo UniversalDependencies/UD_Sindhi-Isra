@@ -11,14 +11,14 @@
 9	وزير	وزير	NOUN	_	_	11	obl	_	_
 10	کان	کان	ADP	_	_	9	case	_	_
 11	پڇيو	پڇ	VERB	_	_	0	root	_	SpaceAfter=No
-12	،	_	PUNCT	_	_	11	punct	_	_
+12	،	،	PUNCT	_	_	11	punct	_	_
 13	اڄ	اڄ	ADV	_	_	16	advmod	_	_
 14	توکي	تو	PRON	_	_	16	obj	_	_
 15	ڇا	ڇا	PRON	_	_	16	obj	_	_
 16	ٿي	ٿي	VERB	_	_	11	obj	_	_
 17	ويو	ويو	VERB	_	_	16	compound	_	_
 18	هو	هو	AUX	_	_	16	aux	_	SpaceAfter=No
-19	؟	_	PUNCT	_	_	16	punct	_	_
+19	؟	؟	PUNCT	_	_	16	punct	_	_
 20	اڄ	اڄ	ADV	_	_	26	advmod	_	_
 21	ته	ته	PART	PART	_	20	advmod:emph	_	_
 22	تو	تو	PRON	_	_	26	nsubj	_	_
@@ -26,10 +26,10 @@
 24	به	به	PART	_	_	23	advmod:emph	_	_
 25	نه	نه	PART	_	_	26	dep	_	_
 26	ڳالهايو	_	VERB	_	_	16	advcl	_	SpaceAfter=No
-27	؟	_	PUNCT	_	_	26	punct	_	_
+27	؟	؟	PUNCT	_	_	26	punct	_	_
 28	وزير	وزير	NOUN	_	_	29	nsubj	_	_
 29	وراڻيو	وراڻ	VERB	_	_	26	conj	_	SpaceAfter=No
-30	،	_	PUNCT	_	_	29	punct	_	_
+30	،	،	PUNCT	_	_	29	punct	_	_
 31	بادشاهه	بادشاهه	NOUN	_	_	32	nmod	_	_
 32	سلامت	سلامت	NOUN	_	_	41	nsubj	_	SpaceAfter=No
 33	!	_	PUNCT	_	_	32	punct	_	_
@@ -104,13 +104,13 @@
 15	جو	جو	ADP	_	_	14	mark	_	_
 16	ماڻهن	ماڻهو	NOUN	_	_	29	nsubj	_	_
 17	80	_	NUM	_	_	22	nummod	_	SpaceAfter=No
-18	-	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	70	_	NUM	_	_	17	nummod	_	_
 20	۽	۽	CCONJ	_	_	22	cc	_	_
 21	ڪن	_	ADJ	_	_	22	amod	_	_
-22	حالتن	_	NOUN	_	_	29	obl	_	_
+22	حالتن	حالت	NOUN	_	_	29	obl	_	_
 23	۾	۾	ADP	_	_	22	case	_	_
-24	100	_	NUM	_	_	25	nummod	_	_
+24	100	100	NUM	_	_	25	nummod	_	_
 25	رپيا	رپيو	NOUN	_	_	27	nmod	_	_
 26	ڪلو	ڪلو	NOUN	_	_	27	nmod	_	_
 27	کنڊ	کنڊ	NOUN	_	_	29	obj	_	_
@@ -151,7 +151,7 @@
 1	جيڪا	جيڪا	PRON	_	_	8	nsubj	_	_
 2	ايندڙ	ايندو	VERB	_	_	3	acl	_	_
 3	2015	_	NUM	_	_	6	nummod	_	SpaceAfter=No
-4	-	_	PUNCT	_	_	5	cc	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	5	cc	_	SpaceAfter=No
 5	16	_	NUM	_	_	3	nummod	_	SpaceAfter=No
 6	ع	_	NOUN	_	_	8	obl	_	_
 7	تائين	تائين	ADP	_	_	6	case	_	_
@@ -172,17 +172,17 @@
 # text = جڏهن ته سوات ۾ سرچ آپريشن 100 شڪي گرفتار ڪيا ويا آهن،
 1	جڏهن	جڏهن	ADV	_	_	10	advmod	_	_
 2	ته	ته	SCONJ	_	_	10	mark	_	_
-3	سوات	_	PROPN	_	_	10	obl	_	_
+3	سوات	سوات	PROPN	_	_	10	obl	_	_
 4	۾	۾	ADP	_	_	3	case	_	_
 5	سرچ	_	NOUN	_	_	6	compound	_	_
 6	آپريشن	آپريشن	NOUN	_	_	10	nsubj	_	_
-7	100	_	NUM	_	_	8	nummod	_	_
+7	100	100	NUM	_	_	8	nummod	_	_
 8	شڪي	_	NOUN	_	_	10	obj	_	_
 9	گرفتار	گرفتار	NOUN	_	_	10	compound	_	_
 10	ڪيا	ڪيو	VERB	_	_	0	root	_	_
 11	ويا	ويو	VERB	_	_	10	compound	_	_
 12	آهن	آهي	AUX	_	_	10	aux	_	SpaceAfter=No
-13	،	_	PUNCT	_	_	10	punct	_	_
+13	،	،	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 4827
 # text = ڪوٽڪئي جي آپريشن ڪمانڊر وڌيڪ چيو ته رياست لاءِ خطرو بڻجندڙ شرپسندن کي هر موڙ تي شڪست کي منهن ڏسڻو پوندو.
@@ -197,7 +197,7 @@
 9	لاءِ	لاءِ	ADP	_	_	8	case	_	_
 10	خطرو	_	NOUN	_	_	11	compound	_	_
 11	بڻجندڙ	_	VERB	_	_	12	acl	_	_
-12	شرپسندن	_	NOUN	_	_	20	obj	_	_
+12	شرپسندن	شرپسند	NOUN	_	_	20	obj	_	_
 13	کي	کي	ADP	_	_	12	case	_	_
 14	هر	هر	DET	_	_	15	det	_	_
 15	موڙ	_	NOUN	_	_	20	obl	_	_
@@ -232,7 +232,7 @@
 19	جو	جو	ADP	_	_	18	case	_	_
 20	تسلسل	_	NOUN	_	_	7	obj	_	_
 21	آهي	آهي	AUX	_	_	20	cop	_	SpaceAfter=No
-22	،	_	PUNCT	_	_	7	punct	_	_
+22	،	،	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 5318
 # text = جڏهن ته جاچ آفيسر اسماعيل جت ٻڌايو ته اسان جي جاچ ۾ ٻنهي جوابدارن خلاف شاهديون مليون آهن،
@@ -252,9 +252,9 @@
 14	جوابدارن	جوابدار	NOUN	_	_	17	obl	_	_
 15	خلاف	خلاف	ADP	_	_	14	case	_	_
 16	شاهديون	_	NOUN	_	_	17	obj	_	_
-17	مليون	_	VERB	_	_	7	obj	_	_
+17	مليون	مل	VERB	_	_	7	obj	_	_
 18	آهن	آهي	AUX	_	_	17	aux	_	SpaceAfter=No
-19	،	_	PUNCT	_	_	17	punct	_	_
+19	،	،	PUNCT	_	_	17	punct	_	_
 
 # sent_id = 5325
 # text = اهڙو اظهار هن سيوهڻ ۾ درگاهه قلندر آڏو عوامي جلسي کي خطاب ڪندي ڪيو،
@@ -272,7 +272,7 @@
 12	خطاب	خطاب	NOUN	_	_	13	compound	_	_
 13	ڪندي	ڪن	VERB	_	_	14	xcomp	_	_
 14	ڪيو	ڪيو	VERB	_	_	0	root	_	SpaceAfter=No
-15	،	_	PUNCT	_	_	14	punct	_	_
+15	،	،	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 5381
 # text = ڪو ٻيو قصو نٿا سٽيل, جيڪڏهن ڀيٽ ميان شهباز شريف سان به نٿا ڪريون،
@@ -291,7 +291,7 @@
 13	به	به	PART	_	_	11	advmod:emph	_	_
 14	نٿا	نٿو	PART	_	_	15	dep	_	_
 15	ڪريون	ڪر	VERB	_	_	5	advcl	_	SpaceAfter=No
-16	،	_	PUNCT	_	_	15	punct	_	_
+16	،	،	PUNCT	_	_	15	punct	_	_
 
 # sent_id = 5472
 # text = وٽيل سٽيل جيڪڏهن اوهان کي ويڙهي وڃن ته اکين مان منظرن جو تسلسل ختم ٿيڻ جو نالو ئي نه وٺندو.
@@ -323,13 +323,13 @@
 2	خواتين	_	NOUN	_	_	12	nsubj	_	_
 3	و	_	CCONJ	_	_	4	cc	_	_
 4	حضرات	_	NOUN	_	_	2	conj	_	SpaceAfter=No
-5	،	_	PUNCT	_	_	4	punct	_	_
+5	،	،	PUNCT	_	_	4	punct	_	_
 6	خوشيون	خوشي	NOUN	_	_	12	nsubj	_	_
 7	خريد	_	VERB	_	_	12	obl	_	_
 8	۾	۾	ADP	_	_	7	mark	_	_
-9	”	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	”	”	PUNCT	_	_	7	punct	_	SpaceAfter=No
 10	گهٽ	گهٽ	ADJ	_	_	12	xcomp	_	SpaceAfter=No
-11	“	_	PUNCT	_	_	10	punct	_	_
+11	“	“	PUNCT	_	_	10	punct	_	_
 12	اچن	اچ	VERB	_	_	0	root	_	_
 13	ٿيون	ٿي	AUX	_	_	12	aux	_	_
 14	۽	۽	CCONJ	_	_	18	cc	_	_
@@ -345,7 +345,7 @@
 24	ملهه	_	NOUN	_	_	26	nsubj	_	_
 25	به	به	PART	_	_	24	advmod:emph	_	_
 26	ڪونهي	ڪونهي	VERB	_	_	18	obl	_	SpaceAfter=No
-27	،	_	PUNCT	_	_	26	punct	_	_
+27	،	،	PUNCT	_	_	26	punct	_	_
 
 # sent_id = 5531
 # text = پر ان سچائيءَ ڏانهن به ڌيان ڌري ها“ عرض ڪري چڪو آهيان نه، اکين ۾ ايوان کلن ته الاءِ ڪيترا خيال جهومندا، ڳائيندا ايندا آهن،
@@ -357,13 +357,13 @@
 6	ڌيان	ڌيان	NOUN	_	_	7	compound	_	_
 7	ڌري	_	VERB	_	_	0	root	_	_
 8	ها	ها	AUX	_	_	7	aux	_	SpaceAfter=No
-9	“	_	PUNCT	_	_	7	punct	_	_
+9	“	“	PUNCT	_	_	7	punct	_	_
 10	عرض	عرض	NOUN	_	_	11	compound	_	_
 11	ڪري	ڪر	VERB	_	_	7	conj	_	_
 12	چڪو	چڪو	VERB	_	_	11	compound	_	_
 13	آهيان	آهي	AUX	_	_	11	aux	_	_
 14	نه	_	SCONJ	_	_	11	mark	_	SpaceAfter=No
-15	،	_	PUNCT	_	_	19	punct	_	_
+15	،	،	PUNCT	_	_	19	punct	_	_
 16	اکين	اک	NOUN	_	_	19	obl	_	_
 17	۾	۾	ADP	_	_	16	case	_	_
 18	ايوان	_	NOUN	_	_	19	nsubj	_	_
@@ -373,11 +373,11 @@
 22	ڪيترا	ڪيترا	ADJ	_	_	23	amod	_	_
 23	خيال	خيال	NOUN	_	_	24	nsubj	_	_
 24	جهومندا	_	VERB	_	_	27	advcl	_	SpaceAfter=No
-25	،	_	PUNCT	_	_	24	punct	_	_
+25	،	،	PUNCT	_	_	24	punct	_	_
 26	ڳائيندا	_	VERB	_	_	27	xcomp	_	_
 27	ايندا	_	VERB	_	_	19	advcl	_	_
 28	آهن	آهي	AUX	_	_	27	aux	_	SpaceAfter=No
-29	،	_	PUNCT	_	_	27	punct	_	_
+29	،	،	PUNCT	_	_	27	punct	_	_
 
 # sent_id = 5859
 # text = جڏهن ته ثقافت کاتي جي اڳوڻي صوبائي وزير شبير احمد قائمي طرفان سال 2003ع جي مارئي ميلي جي ادبي ڪانفرنس ۾ باقائده مارئي جو ميلو هر سال سندس ڳوٺ ڀالوا ۾ ثقافت کاتي طرفان لڳائڻ جو اعلان ڪيو هو،
@@ -394,15 +394,15 @@
 11	قائمي	_	PROPN	_	_	38	nsubj	_	_
 12	طرفان	طرف	ADP	_	_	11	case	_	_
 13	سال	سال	NOUN	_	_	14	nummod	_	_
-14	2003ع	_	NUM	_	_	17	nummod	_	_
+14	2003ع	2003	NUM	_	_	17	nummod	_	_
 15	جي	جي	ADP	_	_	14	case	_	_
 16	مارئي	مارئي	PROPN	_	_	17	nmod	_	_
 17	ميلي	_	NOUN	_	_	20	nmod	_	_
 18	جي	جي	ADP	_	_	17	case	_	_
 19	ادبي	ادبي	ADJ	_	_	20	amod	_	_
-20	ڪانفرنس	_	NOUN	_	_	38	obl	_	_
+20	ڪانفرنس	ڪانفرنس	NOUN	_	_	38	obl	_	_
 21	۾	۾	ADP	_	_	20	case	_	_
-22	باقائده	_	ADJ	_	_	23	amod	_	_
+22	باقائده	باقائده	ADJ	_	_	23	amod	_	_
 23	مارئي	مارئي	PROPN	_	_	25	nmod	_	_
 24	جو	جو	ADP	_	_	23	case	_	_
 25	ميلو	ميلو	NOUN	_	_	38	nsubj	_	_
@@ -420,7 +420,7 @@
 37	اعلان	اعلان	NOUN	_	_	38	obl	_	_
 38	ڪيو	ڪيو	VERB	_	_	0	root	_	_
 39	هو	هو	AUX	_	_	38	aux	_	SpaceAfter=No
-40	،	_	PUNCT	_	_	38	punct	_	_
+40	،	،	PUNCT	_	_	38	punct	_	_
 
 # sent_id = 4937
 # text = مخالف ڌر وزيراعظم بڻجڻ جي شوق ۾ ملڪ داءُ تي پئي لڳائي:فضل الرحمان ملتان (مانيٽرنگ ڊيسڪ) جي يو آءِ (ف) جي سربراهه مولانا فضل الرحمان چيو آهي ته آئون حڪومت جو مخالف آهيان پر صدر آصف علي زرداري جو اتحادي آهيان،
@@ -436,20 +436,20 @@
 10	تي	تي	ADP	_	_	9	case	_	_
 11	پئي	پئي	VERB	_	_	12	xcomp	_	_
 12	لڳائي	_	VERB	_	_	0	root	_	SpaceAfter=No
-13	:	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	فضل	_	PROPN	_	_	15	compound	_	_
 15	الرحمان	الرحمان	PROPN	_	_	16	nmod	_	_
-16	ملتان	_	PROPN	_	_	11	nsubj	_	_
-17	(	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
+16	ملتان	ملتاو	PROPN	_	_	11	nsubj	_	_
+17	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 18	مانيٽرنگ	مانيٽرنگ	NOUN	_	_	19	compound	_	_
 19	ڊيسڪ	ڊيسڪ	NOUN	_	_	16	conj	_	SpaceAfter=No
-20	)	_	PUNCT	_	_	19	punct	_	_
+20	)	)	PUNCT	_	_	19	punct	_	_
 21	جي	جي	NOUN	_	_	22	compound	_	_
 22	يو	_	NOUN	_	_	23	nmod	_	_
 23	آءِ	آءِ	NOUN	_	_	28	nmod	_	_
-24	(	_	PUNCT	_	_	25	punct	_	SpaceAfter=No
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	ف	_	PROPN	_	_	23	conj	_	SpaceAfter=No
-26	)	_	PUNCT	_	_	25	punct	_	_
+26	)	)	PUNCT	_	_	25	punct	_	_
 27	جي	جي	ADP	_	_	23	case	_	_
 28	سربراهه	سربراهه	NOUN	_	_	31	nmod	_	_
 29	مولانا	_	PROPN	_	_	31	compound	_	_
@@ -471,7 +471,7 @@
 45	جو	جو	ADP	_	_	44	case	_	_
 46	اتحادي	_	NOUN	_	_	38	conj	_	_
 47	آهيان	آهي	AUX	_	_	46	cop	_	SpaceAfter=No
-48	،	_	PUNCT	_	_	46	punct	_	_
+48	،	،	PUNCT	_	_	46	punct	_	_
 
 # sent_id = 421
 # text = ڪمزور سدائين دين ڌرم جون ڳالهيون ڪندا آهن،
@@ -483,7 +483,7 @@
 6	ڳالهيون	ڳاله	NOUN	_	_	7	compound	_	_
 7	ڪندا	ڪن	VERB	_	_	0	root	_	_
 8	آهن	آهي	AUX	_	_	7	aux	_	SpaceAfter=No
-9	،	_	PUNCT	_	_	7	punct	_	_
+9	،	،	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 881
 # text = اڃا هو گهڻو پرتي ڪونه ويو هو،
@@ -494,7 +494,7 @@
 5	ڪونه	ڪونه	PART	_	_	6	dep	_	_
 6	ويو	ويو	VERB	_	_	0	root	_	_
 7	هو	هو	AUX	_	_	6	aux	_	SpaceAfter=No
-8	،	_	PUNCT	_	_	6	punct	_	_
+8	،	،	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 2892
 # text = اهو ٻڌي مڪاٽو پوڙهي مائيءَ سان گڏ هليو ويو.
@@ -537,5 +537,5 @@
 24	مهمان	_	NOUN	_	_	25	nsubj	_	_
 25	ايندا	_	VERB	_	_	17	acl	_	_
 26	آهن	آهي	AUX	_	_	25	aux	_	SpaceAfter=No
-27	،	_	PUNCT	_	_	25	punct	_	_
+27	،	،	PUNCT	_	_	25	punct	_	_
 
