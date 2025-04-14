@@ -26,13 +26,14 @@ correct = 0
 identity = 0
 
 for fl, ol in zip(fixed_lines, orig_lines):
-    pieces = fl.split("\t")
-    if len(pieces) > 3:
+    fixed_pieces = fl.split("\t")
+    orig_pieces = ol.split("\t")
+    if len(fixed_pieces) > 3:
         continue
     total += 1
-    if fl == ol:
+    if fixed_pieces[2] == orig_pieces[2]:
         correct += 1
-    if pieces[0] == pieces[2]:
+    if fixed_pieces[0] == fixed_pieces[2]:
         identity += 1
 
 print(correct, total)
