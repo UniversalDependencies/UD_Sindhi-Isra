@@ -24,6 +24,7 @@ assert len(orig_lines) == len(fixed_lines)
 total = 0
 correct = 0
 identity = 0
+correct_identity = 0
 
 for fl, ol in zip(fixed_lines, orig_lines):
     fixed_pieces = fl.split("\t")
@@ -35,6 +36,9 @@ for fl, ol in zip(fixed_lines, orig_lines):
         correct += 1
     if fixed_pieces[0] == fixed_pieces[2]:
         identity += 1
+    if fixed_pieces[2] == orig_pieces[2] and fixed_pieces[0] == fixed_pieces[2]:
+        correct_identity += 1
 
-print(correct, total)
-print(identity, total)
+print("%d predicted correct out of %d" % (correct, total))
+print("%d identity out of %d" % (identity, total))
+print("%d correct identity predictions" % correct_identity)
