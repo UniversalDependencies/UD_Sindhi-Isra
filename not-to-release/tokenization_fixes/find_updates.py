@@ -69,7 +69,7 @@ def yield_update_spans(orig_lines, new_lines):
 
 def main():
     parser = argparse.ArgumentParser(description='Find tokenization edits relative to a particular conllu file and reparse those sentences')
-    parser.add_argument('filename', type=str, help='File to validate')
+    parser.add_argument('filename', type=str, help='File to search for retokenized sentences')
     args = parser.parse_args()
 
     with open("two_nsubj.txt") as fin:
