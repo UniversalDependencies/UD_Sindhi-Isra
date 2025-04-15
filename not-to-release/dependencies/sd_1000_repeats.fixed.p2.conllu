@@ -352,48 +352,53 @@
 19	رهندو	ره	VERB	_	_	18	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	18	punct	_	_
 
-# sent_id = 328
-# text = هن ڪتاب جي مقبوليت جو اندازو انهيءَ ڳالهه مان به لڳائي سگهجي ٿو ته ڪتاب جو هر ڇاپو چند مهينن اندرئي کپي ٿو ۽ سڄي سنڌ مان ڪتاب نئين سر ۽ وڏي تعداد ۾ ڇپرائڻ لاءِ مطالبا ٿيندا رهيا.
-1	هن	هن	DET	_	_	2	det	_	_
-2	ڪتاب	ڪتاب	NOUN	_	_	4	nmod	_	_
-3	جي	جي	ADP	_	_	2	case	_	_
-4	مقبوليت	مقبوليت	NOUN	_	_	6	nmod	_	_
-5	جو	جو	ADP	_	_	4	case	_	_
-6	اندازو	_	NOUN	_	_	11	nsubj	_	_
-7	انهيءَ	ان	DET	_	_	8	det	_	_
-8	ڳالهه	ڳالهه	NOUN	_	_	11	obl	_	_
-9	مان	مان	ADP	_	_	8	case	_	_
-10	به	به	PART	_	_	8	advmod:emph	_	_
-11	لڳائي	_	VERB	_	_	0	root	_	_
-12	سگهجي	سگهجي	VERB	_	_	11	compound	_	_
-13	ٿو	ٿو	AUX	_	_	11	aux	_	_
-14	ته	ته	SCONJ	_	_	22	mark	_	_
-15	ڪتاب	ڪتاب	NOUN	_	_	18	nmod	_	_
-16	جو	جو	ADP	_	_	15	case	_	_
-17	هر	هر	ADJ	_	_	18	amod	_	_
-18	ڇاپو	_	NOUN	_	_	22	nsubj	_	_
-19	چند	_	ADJ	_	_	20	amod	_	_
-20	مهينن	مهينو	NOUN	_	_	22	obl	_	_
-21	اندرئي	_	ADJ	_	_	22	xcomp	_	_
-22	کپي	کپي	VERB	_	_	11	obj	_	_
-23	ٿو	ٿو	AUX	_	_	22	aux	_	_
-24	۽	۽	CCONJ	_	_	38	cc	_	_
-25	سڄي	سڄي	ADJ	_	_	26	amod	_	_
-26	سنڌ	سنڌ	PROPN	_	_	38	obl	_	_
-27	مان	مان	ADP	_	_	26	case	_	_
-28	ڪتاب	ڪتاب	NOUN	_	_	38	nsubj	_	_
-29	نئين	نئين	ADJ	_	_	30	amod	_	_
-30	سر	سر	NOUN	_	_	35	obl	_	_
-31	۽	۽	CCONJ	_	_	33	cc	_	_
-32	وڏي	وڏي	ADJ	_	_	33	amod	_	_
-33	تعداد	_	NOUN	_	_	30	conj	_	_
-34	۾	۾	ADP	_	_	33	case	_	_
-35	ڇپرائڻ	_	VERB	_	_	38	advcl	_	_
-36	لاءِ	لاءِ	ADP	_	_	35	mark	_	_
-37	مطالبا	_	NOUN	_	_	38	nsubj	_	_
-38	ٿيندا	ٿا	VERB	_	_	22	conj	_	_
-39	رهيا	ره	VERB	_	_	38	compound	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	38	punct	_	_
+# sent_id = 394a
+# text = هن ڪتاب جي مقبوليت جو اندازو انهيءَ ڳالهه مان به لڳائي سگهجي ٿو.
+1	هن	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+2	ڪتاب	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+3	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
+4	مقبوليت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
+5	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
+6	اندازو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	انهيءَ	_	DET	PRD	Case=Acc|Number=Sing	8	det	_	_
+8	ڳالهه	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+9	مان	_	ADP	PSPL	_	8	case	_	_
+10	به	_	PART	PART	_	8	advmod:emph	_	_
+11	لڳائي	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+12	سگهجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	11	compound	_	_
+13	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
+14	.	_	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = 394b
+# text = ته ڪتاب جو هر ڇاپو چند مهينن اندر ئي کپي ٿو ۽ سڄي سنڌ مان ڪتاب نئين سر ۽ وڏي تعداد ۾ ڇپرائڻ لاءِ مطالبا ٿيندا رهيا.
+1	ته	_	SCONJ	CS	_	10	mark	_	_
+2	ڪتاب	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+3	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
+4	هر	_	DET	PRD	Case=Nom|Number=Sing	5	det	_	_
+5	ڇاپو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+6	چند	_	ADJ	JJ	Case=Nom|Degree=Pos	7	amod	_	_
+7	مهينن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+8	اندر	_	ADV	ADP	_	10	advmod	_	_
+9	ئي	_	PART	PART	_	8	advmod:emph	_	_
+10	کپي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
+11	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	10	aux	_	_
+12	۽	_	CCONJ	CC	_	26	cc	_	_
+13	سڄي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	23	obl	_	_
+15	مان	_	ADP	PSPL	_	14	case	_	_
+16	ڪتاب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	obj	_	_
+17	نئين	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	سر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	obl	_	_
+19	۽	_	CCONJ	CC	_	21	cc	_	_
+20	وڏي	_	ADJ	JJ	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	21	amod	_	_
+21	تعداد	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	conj	_	_
+22	۾	_	ADP	PSPL	_	21	case	_	_
+23	ڇپرائڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	26	advcl	_	_
+24	لاءِ	_	ADP	PSP	_	23	mark	_	_
+25	مطالبا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	obj	_	_
+26	ٿيندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	10	conj	_	_
+27	رهيا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	26	compound	_	SpaceAfter=No
+28	.	_	PUNCT	PUNCT	_	26	punct	_	_
 
 # sent_id = 329
 # text = بورڊ ۾ ذميواريون سنڀاليندي ئي ڪتاب گهر جي انتظاميا ۽ ايجنٽ حضرات طرفان هيءُ ڪتاب مارڪيٽ ۾ آڻڻ لاءِ زور ڀريو ويو.
@@ -1143,27 +1148,30 @@
 18	بيٺو	بيٺو	VERB	_	_	5	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	18	punct	_	_
 
-# sent_id = 497
-# text = انهيءَ تي هن جي ٻارن کائونئس پڇيو، بابا، تون ڇو پيو کلين؟ پيءَ جواب ڏنو،
-1	انهيءَ	ان	DET	_	_	7	obl	_	_
-2	تي	تي	ADP	_	_	1	case	_	_
-3	هن	هن	DET	_	_	5	nmod	_	_
-4	جي	جي	ADP	_	_	3	det	_	_
-5	ٻارن	ٻار	NOUN	_	_	7	nsubj	_	_
-6	کائونئس	_	VERB	_	_	7	xcomp	_	_
-7	پڇيو	پڇ	VERB	_	_	0	root	_	SpaceAfter=No
-8	،	،	PUNCT	_	_	7	punct	_	_
-9	بابا	بابا	NOUN	_	_	14	nsubj	_	SpaceAfter=No
-10	،	،	PUNCT	_	_	9	punct	_	_
-11	تون	تون	PRON	_	_	14	nsubj	_	_
-12	ڇو	ڇو	PRON	_	_	13	obl	_	_
-13	پيو	پيو	VERB	_	_	14	advcl	_	_
-14	کلين	_	VERB	_	_	18	advcl	_	SpaceAfter=No
-15	؟	؟	PUNCT	_	_	14	punct	_	_
-16	پيءَ	_	NOUN	_	_	18	nsubj	_	_
-17	جواب	جواب	NOUN	_	_	18	compound	_	_
-18	ڏنو	ڏنو	VERB	_	_	7	advcl	_	SpaceAfter=No
-19	،	،	PUNCT	_	_	18	punct	_	_
+# sent_id = 648a
+# text = انهيءَ تي هن جي ٻارن کائونئس پڇيو، بابا، تون ڇو پيو کلين؟
+1	انهيءَ	_	DET	PRD	Case=Acc|Number=Sing	7	obl	_	_
+2	تي	_	ADP	PSPL	_	1	case	_	_
+3	هن	_	DET	PRD	Case=Acc|Number=Sing	5	nmod	_	_
+4	جي	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+5	ٻارن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	کائونئس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	7	obl	_	_
+7	پڇيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	،	_	PUNCT	PUNCT	_	7	punct	_	_
+9	بابا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	vocative	_	SpaceAfter=No
+10	،	_	PUNCT	PUNCT	_	9	punct	_	_
+11	تون	_	PRON	PRP	Case=Nom|Number=Sing|Person=2	13	nsubj	_	_
+12	ڇو	_	PRON	PRWH	_	13	obl	_	_
+13	پيو	_	VERB	VM	_	7	advcl	_	_
+14	کلين	_	VERB	VM	Aspect=Imp|Number=Sing|Person=1	13	compound	_	SpaceAfter=No
+15	؟	_	PUNCT	PUNCT	_	13	punct	_	_
+
+# sent_id = 648b
+# text = پيءَ جواب ڏنو،
+1	پيءَ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	جواب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	_
+3	ڏنو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+4	،	_	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 498
 # text = اڙي ماٺ ڪريو،
@@ -1952,29 +1960,35 @@
 16	لڳو	لڳ	VERB	_	_	12	conj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	16	punct	_	_
 
-# sent_id = 879
-# text = چيتو ۽ نوجوان شخص ڪوريا جي ڪهاڻي پراڻي وقت جي ڳالهه آهي ته هڪڙو امير شخص سفر ڪرڻ لاءِ نڪتو.
-1	چيتو	چيتو	NOUN	_	_	4	nmod	_	_
-2	۽	۽	CCONJ	_	_	3	cc	_	_
-3	نوجوان	نوجوان	NOUN	_	_	1	conj	_	_
-4	شخص	شخص	NOUN	_	_	11	nsubj	_	_
-5	ڪوريا	_	PROPN	_	_	7	nmod	_	_
-6	جي	جي	ADP	_	_	5	case	_	_
-7	ڪهاڻي	ڪهاڻي	NOUN	_	_	11	nsubj	_	_
-8	پراڻي	پراڻي	ADJ	_	_	9	amod	_	_
-9	وقت	وقت	NOUN	_	_	11	nmod	_	_
-10	جي	جي	ADP	_	_	9	case	_	_
-11	ڳالهه	ڳالهه	NOUN	_	_	0	root	_	_
-12	آهي	آهي	AUX	_	_	11	cop	_	_
-13	ته	ته	SCONJ	_	_	20	mark	_	_
-14	هڪڙو	هڪڙو	ADJ	_	_	16	amod	_	_
-15	امير	امير	NOUN	_	_	16	nmod	_	_
-16	شخص	شخص	NOUN	_	_	20	nsubj	_	_
-17	سفر	سفر	NOUN	_	_	18	compound	_	_
-18	ڪرڻ	ڪر	VERB	_	_	20	advcl	_	_
-19	لاءِ	لاءِ	ADP	_	_	18	mark	_	_
-20	نڪتو	_	VERB	_	_	11	advcl	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	20	punct	_	_
+# sent_id = 1049a
+# text = چيتو ۽ نوجوان شخص
+1	چيتو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+2	۽	_	CCONJ	CC	_	3	cc	_	_
+3	نوجوان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	شخص	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = 1049b
+# text = ڪوريا جي ڪهاڻي
+1	ڪوريا	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
+3	ڪهاڻي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = 1049c
+# text = پراڻي وقت جي ڳالهه آهي ته هڪڙو امير شخص سفر ڪرڻ لاءِ نڪتو.
+1	پراڻي	_	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	وقت	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+3	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
+4	ڳالهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
+6	ته	_	SCONJ	CS	_	13	mark	_	_
+7	هڪڙو	_	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	_
+8	امير	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	شخص	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10	سفر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	_
+11	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	13	advcl	_	_
+12	لاءِ	_	ADP	PSP	_	11	mark	_	_
+13	نڪتو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	advcl	_	SpaceAfter=No
+14	.	_	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = 881
 # text = اڃا هو گهڻو پرتي ڪونه ويو هو،
