@@ -84,7 +84,7 @@
 
 # sent_id = 3A
 # text = هڪڙي هنڌ کيس ڪڪڙين جي " ڪـَـرڪـَـر " ٻڌڻ ۾ آئي ،
-1	هڪڙي	هڪڙي	ADJ	_	_	2	amod	_	_
+1	هڪڙي	هڪڙو	ADJ	_	_	2	amod	_	_
 2	هنڌ	هنڌ	NOUN	_	_	11	obl	_	_
 3	کيس	کي	ADP	_	_	2	case	_	_
 4	ڪڪڙين	_	NOUN	_	_	7	nmod	_	_
@@ -140,7 +140,7 @@
 12	پيو	پيو	VERB	_	_	11	compound	_	_
 13	آهي	آهي	AUX	_	_	11	aux	_	_
 14	۽	۽	CCONJ	_	_	21	cc	_	_
-15	سندس	سندو	PRON	_	_	16	nmod	_	_
+15	سندس	سندس	PRON	_	_	16	nmod	_	_
 16	رت	رت	NOUN	_	_	21	obl	_	_
 17	۾	۾	ADP	_	_	16	case	_	_
 18	وڻ	وڻ	NOUN	_	_	21	nsubj	_	_
@@ -192,7 +192,7 @@
 8	هاڻي	هاڻ	ADV	_	_	11	advmod	_	_
 9	شڪار	شڪار	NOUN	_	_	11	obj	_	_
 10	ڪيئن	_	NOUN	_	_	11	obl	_	_
-11	ڪريان	ڪر	VERB	_	_	6	advcl	_	_
+11	ڪريان	ڪري	VERB	_	_	6	advcl	_	_
 12	!	_	PUNCT	_	_	11	punct	_	_
 13	انهيءَ	ان	DET	_	_	14	det	_	_
 14	سوچ	سوچ	NOUN	_	_	15	nmod	_	_
@@ -205,7 +205,7 @@
 21	جو	جو	ADP	_	_	20	case	_	_
 22	هڪ	هڪ	ADJ	_	_	23	amod	_	_
 23	وڳ	_	NOUN	_	_	24	obj	_	_
-24	ڏسڻ	ڏس	VERB	_	_	26	advcl	_	_
+24	ڏسڻ	ڏسڻ	VERB	_	_	26	advcl	_	_
 25	۾	۾	ADP	_	_	24	mark	_	_
 26	آيس	_	VERB	_	_	11	advcl	_	_
 27	.	.	PUNCT	_	_	26	punct	_	_
@@ -217,7 +217,7 @@
 3	کي	کي	ADP	_	_	2	case	_	_
 4	ڪاوڙجي	_	VERB	_	_	5	advcl	_	_
 5	چوڻ	چوڻ	VERB	_	_	6	xcomp	_	_
-6	لڳو	لڳ	VERB	_	_	0	root	_	_
+6	لڳو	لڳو	VERB	_	_	0	root	_	_
 7	ته	ته	SCONJ	_	_	6	mark	_	_
 8	:	:	PUNCT	_	_	12	punct	_	_
 9	رَن	_	NOUN	_	_	12	nsubj	_	_
@@ -258,7 +258,7 @@
 3	پيءُ	_	VERB	_	_	6	advcl	_	_
 4	!	_	PUNCT	_	_	3	punct	_	_
 5	رِڍَ	_	NOUN	_	_	6	nsubj	_	_
-6	چيس	چئو	VERB	_	_	0	root	_	_
+6	چيس	چيس	VERB	_	_	0	root	_	_
 7	ته	ته	SCONJ	_	_	6	mark	_	_
 8	:	:	PUNCT	_	_	6	punct	_	_
 9	ماما	_	NOUN	_	_	12	nsubj	_	_
@@ -275,7 +275,7 @@
 3	کي	کي	ADP	_	_	2	case	_	_
 4	رڙ	رڙ	NOUN	_	_	5	obl	_	_
 5	ڪري	ڪر	VERB	_	_	6	xcomp	_	_
-6	چيائين	چئو	VERB	_	_	0	root	_	_
+6	چيائين	چيائين	VERB	_	_	0	root	_	_
 7	ته	ته	SCONJ	_	_	6	mark	_	_
 8	:	:	PUNCT	_	_	6	punct	_	_
 9	ماما	_	NOUN	_	_	10	nmod	_	_
@@ -367,9 +367,9 @@
 1	سو	سو	PRON	_	_	3	nsubj	_	_
 2	هڪل	_	NOUN	_	_	3	xcomp	_	_
 3	ڪري	ڪر	VERB	_	_	6	advcl	_	_
-4	ڪڙميءَ	ڪڙميءَ	NOUN	_	_	6	iobj	_	_
+4	ڪڙميءَ	ڪڙمي	NOUN	_	_	6	iobj	_	_
 5	کي	کي	ADP	_	_	4	case	_	_
-6	چيائين	چئو	VERB	_	_	0	root	_	_
+6	چيائين	چيائين	VERB	_	_	0	root	_	_
 7	ته	ته	SCONJ	_	_	6	mark	_	_
 8	:	:	PUNCT	_	_	6	punct	_	_
 9	ڙي	_	INTJ	_	_	6	discourse	_	_
@@ -381,7 +381,7 @@
 
 # sent_id = 1285
 # text = ڪڙميءَ عزرائيل کي جواب ڏنو ته : سائين ! هتي ته شينهن آهيئي ڪونه ،
-1	ڪڙميءَ	ڪڙميءَ	NOUN	_	_	5	nsubj	_	_
+1	ڪڙميءَ	ڪڙمي	NOUN	_	_	5	nsubj	_	_
 2	عزرائيل	عزرائيل	PROPN	_	_	5	iobj	_	_
 3	کي	کي	ADP	_	_	2	case	_	_
 4	جواب	جواب	NOUN	_	_	5	compound	_	_
@@ -417,7 +417,7 @@
 16	!	_	PUNCT	_	_	15	punct	_	_
 17	ان	ان	PRON	_	_	20	obl	_	_
 18	تي	تي	ADP	_	_	17	case	_	_
-19	ڪڙميءَ	ڪڙميءَ	NOUN	_	_	20	nsubj	_	_
+19	ڪڙميءَ	ڪڙمي	NOUN	_	_	20	nsubj	_	_
 20	وراڻيو	وراڻ	VERB	_	_	10	conj	_	_
 21	ته	ته	SCONJ	_	_	20	mark	_	_
 22	:	:	PUNCT	_	_	20	punct	_	_
@@ -426,8 +426,8 @@
 25	اهو	اهو	DET	_	_	26	det	_	_
 26	پير	پير	NOUN	_	_	29	obj	_	_
 27	جيڪو	جيڪو	PRON	_	_	26	nmod	_	_
-28	اوهين	اوهان	PRON	_	_	29	nsubj	_	_
-29	ڏسو	ڏس	VERB	_	_	20	obj	_	_
+28	اوهين	اوهين	PRON	_	_	29	nsubj	_	_
+29	ڏسو	ڏسو	VERB	_	_	20	obj	_	_
 30	پيا	پيو	VERB	_	_	29	aux	_	_
 31	،	،	PUNCT	_	_	29	punct	_	_
 
@@ -465,7 +465,7 @@
 # sent_id = 1315
 # text = شينهن چيس ته : ادا ! وارو ڪر ! اهي ڪپي وٺ .
 1	شينهن	شينهن	NOUN	_	_	2	nsubj	_	_
-2	چيس	چئو	VERB	_	_	0	root	_	_
+2	چيس	چيس	VERB	_	_	0	root	_	_
 3	ته	ته	SCONJ	_	_	2	mark	_	_
 4	:	:	PUNCT	_	_	2	punct	_	_
 5	ادا	ادا	VERB	_	_	8	nsubj	_	_
@@ -495,7 +495,7 @@
 13	۽	۽	CCONJ	_	_	16	cc	_	_
 14	ڪڙمي	ڪڙمي	NOUN	_	_	16	iobj	_	_
 15	کي	کي	ADP	_	_	14	case	_	_
-16	چيائين	چئو	VERB	_	_	12	conj	_	_
+16	چيائين	چيائين	VERB	_	_	12	conj	_	_
 17	ته	ته	SCONJ	_	_	16	mark	_	_
 18	:	:	PUNCT	_	_	16	punct	_	_
 19	اڙي	_	NOUN	_	_	25	nsubj	_	_
@@ -553,7 +553,7 @@
 20	پيو	پيو	VERB	_	_	21	advcl	_	_
 21	ڏسجي	_	VERB	_	_	12	obj	_	_
 22	؟	؟	PUNCT	_	_	21	punct	_	_
-23	ڪڙميءَ	ڪڙميءَ	NOUN	_	_	24	nsubj	_	_
+23	ڪڙميءَ	ڪڙمي	NOUN	_	_	24	nsubj	_	_
 24	چيو	چئو	VERB	_	_	12	obj	_	_
 25	ته	ته	SCONJ	_	_	24	mark	_	_
 26	:	:	PUNCT	_	_	24	punct	_	_
@@ -570,7 +570,7 @@
 # sent_id = 1347
 # text = گدڙ چيس ته : سائين ! اهو نسورو ڪوڙ آهي .
 1	گدڙ	گدڙ	NOUN	_	_	2	nsubj	_	_
-2	چيس	چئو	VERB	_	_	0	root	_	_
+2	چيس	چيس	VERB	_	_	0	root	_	_
 3	ته	ته	SCONJ	_	_	2	mark	_	_
 4	:	:	PUNCT	_	_	2	punct	_	_
 5	سائين	سائين	NOUN	_	_	2	xcomp	_	_
@@ -595,7 +595,7 @@
 10	وڃان	وڃ	VERB	_	_	9	compound	_	_
 11	!	_	PUNCT	_	_	9	punct	_	_
 12	گدڙ	گدڙ	NOUN	_	_	13	nsubj	_	_
-13	چيس	چئو	VERB	_	_	2	ccomp	_	_
+13	چيس	چيس	VERB	_	_	2	ccomp	_	_
 14	ته	ته	SCONJ	_	_	13	mark	_	_
 15	:	:	PUNCT	_	_	13	punct	_	_
 16	سائين	سائين	NOUN	_	_	21	nsubj	_	_
@@ -629,7 +629,7 @@
 2	کي	کي	ADP	_	_	1	case	_	_
 3	هڪل	_	NOUN	_	_	4	obl	_	_
 4	ڪري	ڪر	VERB	_	_	5	xcomp	_	_
-5	چيائين	چئو	VERB	_	_	0	root	_	_
+5	چيائين	چيائين	VERB	_	_	0	root	_	_
 6	ته	ته	SCONJ	_	_	5	mark	_	_
 7	:	:	PUNCT	_	_	5	punct	_	_
 8	اڙي	_	INTJ	_	_	5	discourse	_	_
@@ -688,7 +688,7 @@
 9	کي	کي	ADP	_	_	8	case	_	_
 10	سڏي	_	VERB	_	_	11	advcl	_	_
 11	پيون	پيو	VERB	_	_	12	xcomp	_	_
-12	چون	چئو	VERB	_	_	4	ccomp	_	_
+12	چون	چو	VERB	_	_	4	ccomp	_	_
 13	ته	ته	SCONJ	_	_	12	mark	_	_
 14	:	:	PUNCT	_	_	17	punct	_	_
 15	اَبا	_	NOUN	_	_	17	nsubj	_	_
@@ -734,21 +734,21 @@
 11	ڇا	ڇا	PRON	_	_	0	root	_	_
 12	؟	؟	PUNCT	_	_	11	punct	_	_
 13	آخر	آخر	NOUN	_	_	14	obl	_	_
-14	هلندي	ھل	VERB	_	_	15	xcomp	_	_
-15	هلندي	ھل	VERB	_	_	10	advcl	_	_
+14	هلندي	هل	VERB	_	_	15	xcomp	_	_
+15	هلندي	هل	VERB	_	_	10	advcl	_	_
 16	،	،	PUNCT	_	_	15	punct	_	_
 
 # sent_id = 1406
 # text = تڏهن گدڙ وڌي گهيڙ ۾ کڙيي هيٺان لڪل دائي کي ڏسي ، پڇيائينس ته : ميان ! ٻيو ته مڙئي سک آهي ؟
 1	تڏهن	تڏهن	ADV	_	_	11	advmod	_	_
 2	گدڙ	گدڙ	NOUN	_	_	3	nsubj	_	_
-3	وڌي	وڌ	VERB	_	_	11	advcl	_	_
+3	وڌي	وڌي	VERB	_	_	11	advcl	_	_
 4	گهيڙ	گهيڙ	NOUN	_	_	11	obl	_	_
 5	۾	۾	ADP	_	_	4	case	_	_
 6	کڙيي	کڙيي	NOUN	_	_	7	nmod	_	_
 7	هيٺان	هيٺ	ADV	_	_	11	advmod	_	_
 8	لڪل	_	VERB	_	_	9	acl	_	_
-9	دائي	دائي	NOUN	_	_	11	obj	_	_
+9	دائي	دايو	NOUN	_	_	11	obj	_	_
 10	کي	کي	ADP	_	_	9	case	_	_
 11	ڏسي	ڏس	VERB	_	_	0	root	_	_
 12	،	،	PUNCT	_	_	11	punct	_	_
@@ -783,7 +783,7 @@
 # text = تڏهن شينهن چيس ته : ٻـيلي ! ڇا به هجي ،
 1	تڏهن	تڏهن	ADV	_	_	3	advmod	_	_
 2	شينهن	شينهن	NOUN	_	_	3	nsubj	_	_
-3	چيس	چئو	VERB	_	_	0	root	_	_
+3	چيس	چيس	VERB	_	_	0	root	_	_
 4	ته	ته	SCONJ	_	_	3	mark	_	_
 5	:	:	PUNCT	_	_	3	punct	_	_
 6	ٻـيلي	_	NOUN	_	_	10	nsubj	_	_
@@ -806,7 +806,7 @@
 
 # sent_id = 1449
 # text = دائي يڪدم رڙ ڪري چيو ته : اڙي ٽڪار ! وٺ هيٺئين شينهن کي .
-1	دائي	دائي	NOUN	_	_	4	nsubj	_	_
+1	دائي	دايو	NOUN	_	_	4	nsubj	_	_
 2	يڪدم	يڪدم	ADV	_	_	4	advmod	_	_
 3	رڙ	رڙ	NOUN	_	_	4	nsubj	_	_
 4	ڪري	ڪر	VERB	_	_	5	xcomp	_	_
@@ -861,7 +861,7 @@
 22	نئون	نئون	ADJ	_	_	23	amod	_	_
 23	طريقيڪار	طريقيڪار	NOUN	_	_	25	obj	_	_
 24	متعارف	_	NOUN	_	_	25	xcomp	_	_
-25	ڪرائي	ڪراءِ	VERB	_	_	0	root	_	_
+25	ڪرائي	ڪرائي	VERB	_	_	0	root	_	_
 26	ڇڏيو	ڇڏ	VERB	_	_	25	compound	_	_
 27	،	،	PUNCT	_	_	25	punct	_	_
 
