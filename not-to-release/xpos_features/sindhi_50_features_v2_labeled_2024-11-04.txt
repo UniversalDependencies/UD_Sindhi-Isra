@@ -44,13 +44,13 @@
 # sent_id = 5
 # text = لفظ ٻال سنسڪرت جي لفظ بال مان ورتل آهي.
 1	لفظ	لفظ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
-2	ٻال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-3	سنسڪرت	_	PROPN	NNP	Case=Acc|Gender=Masc	5	nmod	_	_
+2	ٻال	ٻال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	سنسڪرت	سنسڪرت	PROPN	NNP	Case=Acc|Gender=Masc	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	3	case	_	_
 5	لفظ	لفظ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
-6	بال	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+6	بال	بال	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 7	مان	مان	ADP	PSPL	_	6	case	_	_
-8	ورتل	_	VERB	VM	Aspect=Perf|Number=Sing|Tense=Past|Voice=Act	0	root	_	_
+8	ورتل	ورتو	VERB	VM	Aspect=Perf|Number=Sing|Tense=Past|Voice=Act	0	root	_	_
 9	آهي	آهي	AUX	VAUX	Number=Plur|Tense=Pres	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -98,7 +98,7 @@
 2	موجب	موجب	ADP	PSPL	_	1	case	_	_
 3	ٻار	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 4	يا	يا	CCONJ	CC	_	5	cc	_	_
-5	ٻال	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+5	ٻال	ٻال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
 6	لفظ	لفظ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 7	ننڍي	ننڍو	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
 8	عمر	عمر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
@@ -119,12 +119,12 @@
 2	ته	ته	PART	PART	_	1	advmod:emph	_	_
 3	ٻاراڻو	ٻاراڻو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	5	amod	_	_
 4	مان	مان	ADP	PSPL	_	3	case	_	_
-5	مراد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+5	مراد	مراد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 6	ٻارن	ٻار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
 7	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	6	case	_	_
 8	ٻار	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
-9	جهڙو	_	PRON	PRL	Case=Nom|Gender=Masc|Number=Plur	10	nmod	_	_
-10	ناداني	_	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+9	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Plur	10	nmod	_	_
+10	ناداني	نادان	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
 11	وارو	وارو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	10	case	_	_
 12	ڪم	ڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 13	آهي	آهي	AUX	VAUX	Number=Plur|Tense=Pres	12	cop	_	SpaceAfter=No
@@ -149,7 +149,7 @@
 5	ٻاراڻي	_	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	ادب	ادب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
 7	مان	مان	ADP	PSPL	_	6	case	_	_
-8	مراد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+8	مراد	مراد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 9	ڪوتائون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -207,7 +207,7 @@
 1	مٿي	مٿي	ADV	ADV	_	3	advmod	_	_
 2	بيان	بيان	NOUN	NN	Case=Nom|Number=Sing	3	obl	_	_
 3	ڪيل	ڪيو	VERB	VM	Aspect=Perf|Tense=Past|VerbForm=PastPart|Voice=Pass	4	acl	_	_
-4	لفظن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
+4	لفظن	لفظ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
 6	لفظي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
 7	معنيٰ	معنيٰ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
@@ -215,7 +215,7 @@
 9	ٻاراڻو	ٻاراڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	ادب	ادب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	nsubj	_	_
 11	مان	مان	ADP	PSPL	_	10	case	_	_
-12	مراد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+12	مراد	مراد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 13	آهي	آهي	AUX	VAUX	Number=Plur|Tense=Pres	12	cop	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
@@ -229,7 +229,7 @@
 6	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	5	case	_	_
 7	ذهنيت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 8	مطابق	مطابق	ADP	PSPL	_	7	case	_	_
-9	لکيل	_	VERB	VM	Aspect=Perf|Tense=Past|VerbForm=PastPart	0	root	_	_
+9	لکيل	لک	VERB	VM	Aspect=Perf|Tense=Past|VerbForm=PastPart	0	root	_	_
 10	ادب	ادب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 11	يعني	_	CCONJ	CC	_	21	cc	_	_
 12	اهڙو	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	13	det	_	_
@@ -255,7 +255,7 @@
 7	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	14	advcl	_	_
 8	نصيحت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 9	۽	۽	CCONJ	CC	_	10	cc	_	_
-10	اخلاقي	_	ADJ	JJ	Case=Nom|Degree=Pos	8	conj	_	_
+10	اخلاقي	اخلاقي	ADJ	JJ	Case=Nom|Degree=Pos	8	conj	_	_
 11	تربيت	تربيت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	compound	_	_
 12	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	14	advcl	_	_
 13	لاءِ	لاءِ	ADP	PSP	_	12	mark	_	_
@@ -337,8 +337,8 @@
 4	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
 5	ڪائنات	ڪائنات	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 6	۾	۾	ADP	PSPL	_	5	case	_	_
-7	جن	_	DET	PRD	Case=Acc|Number=Plur	8	det	_	_
-8	جاندارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_
+7	جن	جي	DET	PRD	Case=Acc|Number=Plur	8	det	_	_
+8	جاندارن	جاندار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_
 9	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	8	case	_	_
 10	نسل	نسل	NOUN	NN	Case=Nom|Gender=Masc	12	nsubj	_	_
 11	نه	نه	PART	PART	_	12	advmod	_	_
@@ -352,7 +352,7 @@
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	سبب	سبب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 4	انهن	ان	DET	PRD	Case=Acc|Number=Plur	5	det	_	_
-5	جاندارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
+5	جاندارن	جاندار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
 6	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	5	case	_	_
 7	نسل	نسل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
 8	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	7	case	_	_
@@ -379,7 +379,7 @@
 # text = جن ۾ ڊائنوسورز وغيره اچي وڃن ٿا.
 1	جن	جي	PRON	PRP	Case=Acc|Number=Plur|Person=3	5	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
-3	ڊائنوسورز	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	ڊائنوسورز	ڊائنوسار	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 4	وغيره	وغيره	PART	PART	_	3	dep	_	_
 5	اچي	اچ	VERB	VM	Aspect=Imp	0	root	_	_
 6	وڃن	وڃ	VERB	VM	Number=Plur|Person=3	5	compound	_	_
@@ -421,11 +421,11 @@
 # sent_id = 31
 # text = سڀني جاندارن جي خاصيتن کي ڏسجي ٿو.
 1	سڀني	سڀ	ADJ	JJ	Case=Acc|Number=Plur	2	amod	_	_
-2	جاندارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
+2	جاندارن	جاندار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
-4	خاصيتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+4	خاصيتن	خاصيت	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 5	کي	کي	ADP	PSP	_	4	case	_	_
-6	ڏسجي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
+6	ڏسجي	ڏسج	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
 7	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -434,7 +434,7 @@
 1	ته	ته	SCONJ	CS	_	14	mark	_	_
 2	انسان	انسان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 3	سڀني	سڀ	ADJ	JJO	Case=Nom|Number=Plur	4	amod	_	_
-4	جاندارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+4	جاندارن	جاندار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
 5	کان	کان	ADP	PSPL	_	4	case	_	_
 6	عقل	عقل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
 7	۽	۽	CCONJ	CC	_	8	cc	_	_
@@ -534,18 +534,18 @@
 3	زندگيءَ	زندگيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
 5	ڪيل	ڪيو	VERB	VM	Aspect=Perf|VerbForm=PastPart	6	acl	_	_
-6	تحقيقن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	_
+6	تحقيقن	تحقيق	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	_
 7	۽	۽	CCONJ	CC	_	8	cc	_	_
-8	ايجادن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+8	ايجادن	ايجاد	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
 9	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	6	case	_	_
 10	علم	علم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 11	ٻين	ٻيو	ADJ	JJ	Case=Acc|Number=Plur	13	advmod	_	_
 12	تائين	تائين	ADP	PSPL	_	11	case	_	_
-13	پهچائڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	17	xcomp	_	_
+13	پهچائڻ	پهچاءِ	VERB	VM	Aspect=Imp|VerbForm=Inf	17	xcomp	_	_
 14	لاءِ	لاءِ	ADP	PSP	_	13	mark	_	_
 15	مختلف	مختلف	ADJ	JJ	Case=Nom	16	amod	_	_
 16	طريقا	طريقو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	obj	_	_
-17	اپنايا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
+17	اپنايا	اپنايو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
 18	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	17	punct	_	_
 
@@ -652,7 +652,7 @@
 5	۽	۽	CCONJ	CC	_	6	cc	_	_
 6	مڙس	مڙس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
 7	بنيادي	بنياد	ADJ	JJ	Case=Nom	8	amod	_	_
-8	ٿنڀا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+8	ٿنڀا	ٿنڀو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 9	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	8	cop	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	8	punct	_	_
 

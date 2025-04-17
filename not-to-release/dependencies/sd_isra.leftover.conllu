@@ -32,7 +32,7 @@
 30	،	،	PUNCT	_	_	29	punct	_	_
 31	بادشاهه	بادشاهه	NOUN	_	_	32	nmod	_	_
 32	سلامت	سلامت	NOUN	_	_	41	nsubj	_	SpaceAfter=No
-33	!	_	PUNCT	_	_	32	punct	_	_
+33	!	!	PUNCT	_	_	32	punct	_	_
 34	مون	مون	PRON	_	_	41	nsubj	_	_
 35	کي	کي	ADP	_	_	34	case	_	_
 36	ته	ته	PART	PART	_	34	advmod:emph	_	_
@@ -68,7 +68,7 @@
 20	آءٌ	آءٌ	PRON	_	_	21	nsubj	_	_
 21	ڳالهائي	ڳالهاءِ	VERB	_	_	18	conj	_	_
 22	نٿي	نٿي	ADV	_	_	21	advmod	_	_
-23	سگهيس	_	AUX	_	_	21	aux	_	SpaceAfter=No
+23	سگهيس	سگهي	AUX	_	_	21	aux	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = 4121
@@ -152,13 +152,13 @@
 2	ايندڙ	ايندو	VERB	_	_	3	acl	_	_
 3	2015	_	NUM	_	_	6	nummod	_	SpaceAfter=No
 4	-	-	PUNCT	_	_	5	cc	_	SpaceAfter=No
-5	16	_	NUM	_	_	3	nummod	_	SpaceAfter=No
+5	16	16	NUM	_	_	3	nummod	_	SpaceAfter=No
 6	ع	_	NOUN	_	_	8	obl	_	_
 7	تائين	تائين	ADP	_	_	6	case	_	_
 8	هلندي	هل	VERB	_	_	0	root	_	_
 9	۽	۽	CCONJ	_	_	18	cc	_	_
 10	ائين	ائين	PRON	_	_	12	nmod	_	_
-11	سراسري	_	ADJ	_	_	12	amod	_	_
+11	سراسري	سراسري	ADJ	_	_	12	amod	_	_
 12	طور	طور	NOUN	_	_	18	nmod	_	_
 13	مذڪوره	_	ADJ	_	_	14	amod	_	_
 14	ورڇ	ورڇ	NOUN	_	_	18	nmod	_	_
@@ -200,7 +200,7 @@
 12	شرپسندن	شرپسند	NOUN	_	_	20	obj	_	_
 13	کي	کي	ADP	_	_	12	case	_	_
 14	هر	هر	DET	_	_	15	det	_	_
-15	موڙ	_	NOUN	_	_	20	obl	_	_
+15	موڙ	موڙ	NOUN	_	_	20	obl	_	_
 16	تي	تي	ADP	_	_	15	case	_	_
 17	شڪست	شڪست	NOUN	_	_	20	obj	_	_
 18	کي	کي	ADP	_	_	17	case	_	_
@@ -219,18 +219,18 @@
 6	وزيراعظم	وزيراعظم	NOUN	_	_	7	nsubj	_	_
 7	چيو	چئو	VERB	_	_	0	root	_	_
 8	ته	ته	SCONJ	_	_	20	mark	_	_
-9	ڀارتي	_	ADJ	_	_	10	amod	_	_
+9	ڀارتي	ڀارتي	ADJ	_	_	10	amod	_	_
 10	وزيراعظم	وزيراعظم	NOUN	_	_	13	nmod	_	_
 11	من	_	PROPN	_	_	13	compound	_	_
 12	موهن	_	PROPN	_	_	13	compound	_	_
 13	سنگهه	_	NOUN	_	_	15	nmod	_	_
 14	جو	جو	ADP	_	_	13	case	_	_
 15	بيان	بيان	NOUN	_	_	20	nsubj	_	_
-16	شرم	_	PROPN	_	_	18	compound	_	_
-17	الشيخ	_	PROPN	_	_	18	nmod	_	_
+16	شرم	شرم	PROPN	_	_	18	compound	_	_
+17	الشيخ	الشيخ	PROPN	_	_	18	nmod	_	_
 18	ملاقات	ملاقات	NOUN	_	_	20	nmod	_	_
 19	جو	جو	ADP	_	_	18	case	_	_
-20	تسلسل	_	NOUN	_	_	7	obj	_	_
+20	تسلسل	تسلسل	NOUN	_	_	7	obj	_	_
 21	آهي	آهي	AUX	_	_	20	cop	_	SpaceAfter=No
 22	،	،	PUNCT	_	_	7	punct	_	_
 
@@ -263,7 +263,7 @@
 3	هن	هن	PRON	_	_	14	nsubj	_	_
 4	سيوهڻ	_	PROPN	_	_	14	obl	_	_
 5	۾	۾	ADP	_	_	4	case	_	_
-6	درگاهه	_	NOUN	_	_	7	nmod	_	_
+6	درگاهه	درگاهه	NOUN	_	_	7	nmod	_	_
 7	قلندر	_	PROPN	_	_	8	obl	_	_
 8	آڏو	آڏو	ADV	_	_	14	advmod	_	_
 9	عوامي	عوامي	ADJ	_	_	10	amod	_	_
@@ -278,8 +278,8 @@
 # text = ڪو ٻيو قصو نٿا سٽيل, جيڪڏهن ڀيٽ ميان شهباز شريف سان به نٿا ڪريون،
 1	ڪو	ڪو	DET	_	_	3	det	_	_
 2	ٻيو	ٻيو	ADJ	_	_	3	amod	_	_
-3	قصو	_	NOUN	_	_	5	obj	_	_
-4	نٿا	_	AUX	_	_	5	aux	_	_
+3	قصو	قصو	NOUN	_	_	5	obj	_	_
+4	نٿا	نٿو	AUX	_	_	5	aux	_	_
 5	سٽيل	_	VERB	_	_	0	root	_	SpaceAfter=No
 6	,	_	PUNCT	_	_	5	punct	_	_
 7	جيڪڏهن	جيڪڏهن	SCONJ	_	_	5	mark	_	_
@@ -305,16 +305,16 @@
 8	ته	ته	SCONJ	_	_	6	mark	_	_
 9	اکين	اک	NOUN	_	_	15	obl	_	_
 10	مان	مان	ADP	_	_	9	case	_	_
-11	منظرن	_	NOUN	_	_	13	nmod	_	_
+11	منظرن	منظر	NOUN	_	_	13	nmod	_	_
 12	جو	جو	ADP	_	_	11	case	_	_
-13	تسلسل	_	NOUN	_	_	15	nsubj	_	_
+13	تسلسل	تسلسل	NOUN	_	_	15	nsubj	_	_
 14	ختم	ختم	ADJ	_	_	15	compound	_	_
 15	ٿيڻ	ٿي	VERB	_	_	17	nmod	_	_
 16	جو	جو	ADP	_	_	15	mark	_	_
 17	نالو	نالو	NOUN	_	_	20	obj	_	_
 18	ئي	ئي	ADV	_	_	17	case	_	_
 19	نه	نه	PART	_	_	20	dep	_	_
-20	وٺندو	_	VERB	_	_	6	advcl	_	SpaceAfter=No
+20	وٺندو	وٺ	VERB	_	_	6	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = 5490
@@ -366,16 +366,16 @@
 15	،	،	PUNCT	_	_	19	punct	_	_
 16	اکين	اک	NOUN	_	_	19	obl	_	_
 17	۾	۾	ADP	_	_	16	case	_	_
-18	ايوان	_	NOUN	_	_	19	nsubj	_	_
-19	کلن	_	VERB	_	_	11	advcl	_	_
+18	ايوان	ايوان	NOUN	_	_	19	nsubj	_	_
+19	کلن	کل	VERB	_	_	11	advcl	_	_
 20	ته	ته	SCONJ	_	_	27	mark	_	_
-21	الاءِ	_	ADV	_	_	24	advmod	_	_
+21	الاءِ	الاءِ	ADV	_	_	24	advmod	_	_
 22	ڪيترا	ڪيترو	ADJ	_	_	23	amod	_	_
 23	خيال	خيال	NOUN	_	_	24	nsubj	_	_
 24	جهومندا	_	VERB	_	_	27	advcl	_	SpaceAfter=No
 25	،	،	PUNCT	_	_	24	punct	_	_
 26	ڳائيندا	_	VERB	_	_	27	xcomp	_	_
-27	ايندا	_	VERB	_	_	19	advcl	_	_
+27	ايندا	ايندو	VERB	_	_	19	advcl	_	_
 28	آهن	آهي	AUX	_	_	27	aux	_	SpaceAfter=No
 29	،	،	PUNCT	_	_	27	punct	_	_
 
@@ -437,7 +437,7 @@
 11	پئي	پئي	VERB	_	_	12	xcomp	_	_
 12	لڳائي	_	VERB	_	_	0	root	_	SpaceAfter=No
 13	:	:	PUNCT	_	_	12	punct	_	SpaceAfter=No
-14	فضل	_	PROPN	_	_	15	compound	_	_
+14	فضل	فضل	PROPN	_	_	15	compound	_	_
 15	الرحمان	الرحمان	PROPN	_	_	16	nmod	_	_
 16	ملتان	ملتاو	PROPN	_	_	11	nsubj	_	_
 17	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
@@ -453,7 +453,7 @@
 27	جي	جي	ADP	_	_	23	case	_	_
 28	سربراهه	سربراهه	NOUN	_	_	31	nmod	_	_
 29	مولانا	_	PROPN	_	_	31	compound	_	_
-30	فضل	_	PROPN	_	_	31	compound	_	_
+30	فضل	فضل	PROPN	_	_	31	compound	_	_
 31	الرحمان	الرحمان	PROPN	_	_	32	nsubj	_	_
 32	چيو	چئو	VERB	_	_	12	conj	_	_
 33	آهي	آهي	AUX	_	_	32	mark	_	_
@@ -535,7 +535,7 @@
 22	جي	جي	ADP	_	_	20	case	_	_
 23	به	به	PART	_	_	20	advmod:emph	_	_
 24	مهمان	_	NOUN	_	_	25	nsubj	_	_
-25	ايندا	_	VERB	_	_	17	acl	_	_
+25	ايندا	ايندو	VERB	_	_	17	acl	_	_
 26	آهن	آهي	AUX	_	_	25	aux	_	SpaceAfter=No
 27	،	،	PUNCT	_	_	25	punct	_	_
 

@@ -101,7 +101,7 @@
 
 # sent_id = MD-197
 # text = ڪمپيوٽر جي ايجاد دنيا کي بدلائي ڇڏيو آهي ، هاڻي هر ماڻهو پوري دنيا کي گھر ويٺي ڏسي سگھي ٿو پر ان ايجاد ماڻهو کي ماڻهو کان پري رکيو آهي ،
-1	ڪمپيوٽر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+1	ڪمپيوٽر	ڪمپيوٽر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Number=Sing	1	case	_	_
 3	ايجاد	ايجاد	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
 4	دنيا	دنيا	NOUN	NN	Case=Acc|Number=Sing	6	obj	_	_
@@ -138,7 +138,7 @@
 1	هاڻي	هاڻ	ADV	ADT	_	8	advmod	_	_
 2	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 3	صرف	صرف	ADJ	JJ	Case=Nom	4	amod	_	_
-4	ڪمپيوٽر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+4	ڪمپيوٽر	ڪمپيوٽر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 5	سان	سان	ADP	PSP	_	4	case	_	_
 6	ئي	ئي	PART	PART	_	5	advmod:emph	_	_
 7	ڳالهيون	ڳاله	NOUN	NN	Case=Nom|Number=Plur	8	compound	_	_
@@ -223,7 +223,7 @@
 4	کان	کان	ADP	PSP	_	3	case	_	_
 5	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 6	اڪيلو	اڪيلو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	compound	_	_
-7	سمهي	_	VERB	VM	Aspect=Imp	10	advcl	_	_
+7	سمهي	سمه	VERB	VM	Aspect=Imp	10	advcl	_	_
 8	ئي	ئي	ADV	ADN	_	7	advmod	_	_
 9	نه	نه	PART	PART	_	10	advmod	_	_
 10	پيو	پيو	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
@@ -312,7 +312,7 @@
 # text = لڳي رهي آ ٿڌڙي هير .
 1	لڳي	لڳ	VERB	VM	Aspect=Imp	0	root	_	_
 2	رهي	ره	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	1	compound	_	_
-3	آ	_	AUX	VAUX	Number=Sing|Tense=Pres	1	aux	_	_
+3	آ	آ	AUX	VAUX	Number=Sing|Tense=Pres	1	aux	_	_
 4	ٿڌڙي	ٿڌي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
 5	هير	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -569,7 +569,7 @@
 
 # sent_id = MD-308
 # text = بريصغير ۾ عورت تي گھڻو ظلم ٿئي پيو .
-1	بريصغير	_	PROPN	NNP	Case=Nom|Gender=Masc	7	obl	_	_
+1	بريصغير	بريصغير	PROPN	NNP	Case=Nom|Gender=Masc	7	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
 3	عورت	عورت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 4	تي	تي	ADP	PSPL	_	3	case	_	_
@@ -587,7 +587,7 @@
 4	به	به	PART	PART	_	3	advmod:emph	_	_
 5	وساري	وسار	VERB	VM	Aspect=Perf	7	advcl	_	_
 6	نه	نه	PART	PART	_	7	dep	_	_
-7	سگھبو	_	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	12	advcl	_	_
+7	سگھبو	سگھ	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	12	advcl	_	_
 8	اوهان	اوهان	PRON	PRP	Case=Acc|Number=Plur|Person=1	12	nsubj	_	_
 9	هميشه	هميشه	ADV	ADT	_	12	advmod	_	_
 10	دل	دل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
@@ -664,7 +664,7 @@
 
 # sent_id = MD-320
 # text = پاڪستانين کي تعليم جي ميدان ۾ اڳتي وڌڻ کپي .
-1	پاڪستانين	_	PROPN	NNP	Case=Acc	8	nsubj	_	_
+1	پاڪستانين	پاڪستان	PROPN	NNP	Case=Acc	8	nsubj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
 3	تعليم	تعليم	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	3	case	_	_
@@ -917,7 +917,7 @@
 
 # sent_id = MD-342
 # text = ڪمپيوٽر جي استعمال ماڻهن کي اڪيلو ڪيو آهي .
-1	ڪمپيوٽر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+1	ڪمپيوٽر	ڪمپيوٽر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Number=Sing	1	case	_	_
 3	استعمال	استعمال	NOUN	NN	Case=Nom|Number=Sing	7	nsubj	_	_
 4	ماڻهن	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
@@ -956,17 +956,17 @@
 1	هاڻي	هاڻ	ADV	ADT	_	8	advmod	_	_
 2	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 3	صرف	صرف	ADJ	JJ	Case=Nom	4	amod	_	_
-4	ڪمپيوٽر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+4	ڪمپيوٽر	ڪمپيوٽر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 5	سان	سان	ADP	PSP	_	4	case	_	_
 6	ئي	ئي	PART	PART	_	5	advmod:emph	_	_
 7	ڳالهيون	ڳاله	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	compound	_	_
 8	ڪن	ڪن	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	0	root	_	_
-9	پيا	_	AUX	VAUX	Number=Plur|Tense=Past	8	aux	_	_
+9	پيا	پيو	AUX	VAUX	Number=Plur|Tense=Past	8	aux	_	_
 10	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = MD-345
 # text = ڪمپيوٽر جي گھڻي استعمال سان رشتن مان محبت ختم ٿي آهي .
-1	ڪمپيوٽر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+1	ڪمپيوٽر	ڪمپيوٽر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Number=Sing	1	case	_	_
 3	گھڻي	گھڻي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
 4	استعمال	استعمال	NOUN	NN	Case=Acc|Number=Sing	10	obl	_	_
@@ -1515,7 +1515,7 @@
 1	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	6	nsubj	_	_
 2	تمام	تمام	ADV	ADV	_	3	advmod	_	_
 3	سٺي	سٺي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
-4	موبائيل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
+4	موبائيل	موبائيل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
 5	فون	فون	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
 6	ورتي	ورتي	VERB	VM	Aspect=Perf|Number=Sing|Person=3	0	root	_	_
 7	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	_
@@ -1570,7 +1570,7 @@
 1	آئيفون	_	PROPN	NNP	Case=Nom|Gender=Fem	5	nsubj	_	_
 2	تمام	تمام	ADV	ADV	_	3	advmod	_	_
 3	سٺي	سٺي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	nmod	_	_
-4	موبائيل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
+4	موبائيل	موبائيل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
 5	فون	فون	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	5	cop	_	_
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -1730,9 +1730,9 @@
 
 # sent_id = MD-428
 # text = جيتوڻيڪ چيو هومانس تڏهن به هُو ڪونه آيو .
-1	جيتوڻيڪ	_	ADV	ADT	_	2	cc	_	_
+1	جيتوڻيڪ	جيتوڻيڪ	ADV	ADT	_	2	cc	_	_
 2	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
-3	هومانس	_	AUX	VAUX	Number=Sing|Person=1|Tense=Pres	2	aux	_	_
+3	هومانس	هو	AUX	VAUX	Number=Sing|Person=1|Tense=Pres	2	aux	_	_
 4	تڏهن	تڏهن	ADV	ADT	_	8	advmod	_	_
 5	به	به	PART	PART	_	4	advmod:emph	_	_
 6	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -1743,7 +1743,7 @@
 # sent_id = MD-429
 # text = گھڻوئي سمجھايومانس تڏهن به هُو ڪونه آيو .
 1	گھڻوئي	گھڻو	ADV	ADA	_	2	advmod	_	_
-2	سمجھايومانس	_	VERB	VMX	_	7	advcl	_	_
+2	سمجھايومانس	سمجھ	VERB	VMX	_	7	advcl	_	_
 3	تڏهن	تڏهن	ADV	ADT	_	7	advmod	_	_
 4	به	به	PART	PART	_	3	advmod:emph	_	_
 5	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	7	det	_	_
@@ -1790,7 +1790,7 @@
 
 # sent_id = MD-434A
 # text = وڏيرن جي ظلم ۽ خوف کان ڪيترا ئي ماڻهو ڳوٺن مان ڇڏي شهرن ۾ رهن ٿا .
-1	وڏيرن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_
+1	وڏيرن	وڏيرو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Number=Sing	1	case	_	_
 3	ظلم	ظلم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	_
 4	۽	۽	CCONJ	CC	_	5	cc	_	_
@@ -1869,9 +1869,9 @@
 # text = ٻارن کي ڪارٽون گھڻا پسند آهن .
 1	ٻارن	ٻار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
-3	ڪارٽون	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	ڪارٽون	ڪارٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 4	گھڻا	گھڻو	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
-5	پسند	_	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
+5	پسند	پسند	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
 6	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	5	cop	_	_
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -1991,7 +1991,7 @@
 # text = منهنجو پٽ ڪارٽون شوق سان ڏسي ٿو .
 1	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	2	nmod	_	_
 2	پٽ	پٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-3	ڪارٽون	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	obj	_	_
+3	ڪارٽون	ڪارٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	obj	_	_
 4	شوق	شوق	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	_
 5	سان	سان	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
 6	ڏسي	ڏس	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
@@ -2145,7 +2145,7 @@
 1	سنڌي	سنڌي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
 2	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	بنيادي	بنياد	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	4	amod	_	_
-4	طور	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
+4	طور	طور	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
 5	صوفي	صوفي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 6	آهن	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Pres	5	cop	_	_
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -2849,7 +2849,7 @@
 14	ڏي	ڏي	VERB	VM	Aspect=Imp|Number=Sing|Person=2|Tense=Pres|Voice=Act	9	advcl	_	_
 15	چيائين	چيائين	VERB	VMX	Aspect=Perf|Case[subj]=Acc|Number[subj]=Sing|Person[subj]=3	18	advcl	_	_
 16	پئسا	پئسو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	advcl	_	_
-17	اٿئي	_	AUX	VAUXX	Case[subj]=Acc|Number=Sing|Person[subj]=2|Tense=Pres	16	cop	_	_
+17	اٿئي	اٿئي	AUX	VAUXX	Case[subj]=Acc|Number=Sing|Person[subj]=2|Tense=Pres	16	cop	_	_
 18	چيومانس	_	VERB	VMX	Aspect=Perf|Case[obj]=Acc|Case[subj]=Acc|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1	21	advcl	_	_
 19	اوڌر	اوڌر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
 20	تي	تي	ADP	PSPL	_	19	case	_	_
@@ -3111,7 +3111,7 @@
 4	جھڙو	جھڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
 5	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	6	nmod	_	_
 6	يار	يار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-7	آ	_	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+7	آ	آ	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = MD-641
@@ -3390,7 +3390,7 @@
 6	گل	گل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
 7	کان	کان	ADP	PSPL	_	6	case	_	_
 8	سٺي	سٺي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
-9	آ	_	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
+9	آ	آ	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
 10	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = MD-653
@@ -3566,14 +3566,14 @@
 # text = مريم خط لکي ٿي
 1	مريم	مريم	PROPN	NNP	Case=Nom|Gender=Fem	3	nsubj	_	_
 2	خط	خط	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
-3	لکي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=PresPart|Voice=Act	0	root	_	_
+3	لکي	لک	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=PresPart|Voice=Act	0	root	_	_
 4	ٿي	ٿي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Pres	3	aux	_	_
 
 # sent_id = 666
 # text = سنڌ جي ٽنهي بئراجن تي خطرناڪ ٻوڏ واري حالت ،
 1	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	4	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	1	case	_	_
-3	ٽنهي	_	ADJ	JJ	Case=Nom|Number=Plur	4	amod	_	_
+3	ٽنهي	ٽنهي	ADJ	JJ	Case=Nom|Number=Plur	4	amod	_	_
 4	بئراجن	بئراجي	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	_
 5	تي	تي	ADP	PSPL	_	4	case	_	_
 6	خطرناڪ	خطرناڪ	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	7	amod	_	_
@@ -3586,7 +3586,7 @@
 # text = ڪئنالن کي گهارا ،
 1	ڪئنالن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
-3	گهارا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+3	گهارا	گهارو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 4	،	،	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 668
@@ -3596,7 +3596,7 @@
 3	،	،	PUNCT	PUNCT	_	2	punct	_	_
 4	8	8	NUM	NUM	_	5	nummod	_	_
 5	ڄڻا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
-6	لڙهي	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+6	لڙهي	لڙه	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 7	ويا	ويو	VERB	VM	Aspect=Perf|Number=Plur|Voice=Act	6	aux	_	_
 8	،	،	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -3625,7 +3625,7 @@
 21	خطرناڪ	خطرناڪ	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	22	amod	_	_
 22	ٻوڏ	ٻوڏ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
 23	(	(	PUNCT	PUNCT	_	25	punct	_	_
-24	سپر	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	25	amod	_	_
+24	سپر	سپر	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	25	amod	_	_
 25	فلڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	conj	_	_
 26	)	)	PUNCT	PUNCT	_	25	punct	_	_
 27	ايندڙ	ايندو	VERB	VM	Aspect=Perf|Tense=Pres|Voice=Act	29	acl	_	_
@@ -3843,7 +3843,7 @@
 12	درياءَ	درياءَ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
 13	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	12	case	_	_
 14	وهڪرا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
-15	11	_	NUM	NUM	_	16	nummod	_	_
+15	11	11	NUM	NUM	_	16	nummod	_	_
 16	لک	لک	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nmod	_	_
 17	ڪيوسڪ	ڪيوسڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
 18	کان	کان	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	17	case	_	_
@@ -3906,7 +3906,7 @@
 # sent_id = 683
 # text = جڏهن 11 لک ڪيوسڪ پاڻي جو اثر گڊو بئراج تي پوندو ته اڄ شام يا سڀاڻي تائين گڊو بئراج جي سطح وڌيڪ گهٽجي 10 کان 11 لک ڪيوسڪ جي وچ ۾ رهندي
 1	جڏهن	جڏهن	ADV	ADT	Case=Nom|Gender=Fem|Number=Sing	11	advmod	_	_
-2	11	_	NUM	NUM	_	3	nummod	_	_
+2	11	11	NUM	NUM	_	3	nummod	_	_
 3	لک	لک	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 4	ڪيوسڪ	ڪيوسڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
 5	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -3927,10 +3927,10 @@
 20	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	19	case	_	_
 21	سطح	سطح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
 22	وڌيڪ	وڌيڪ	ADJ	JJ	Case=Nom|Degree=Pos	23	compound	_	_
-23	گهٽجي	_	VERB	VM	Aspect=Perf|Tense=Pres|VerbForm=PresPart|Voice=Act	32	advcl	_	_
+23	گهٽجي	گهٽج	VERB	VM	Aspect=Perf|Tense=Pres|VerbForm=PresPart|Voice=Act	32	advcl	_	_
 24	10	10	NUM	NUM	_	27	nummod	_	_
 25	کان	کان	ADP	PSPL	_	24	case	_	_
-26	11	_	NUM	NUM	_	27	nummod	_	_
+26	11	11	NUM	NUM	_	27	nummod	_	_
 27	لک	لک	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nmod	_	_
 28	ڪيوسڪ	ڪيوسڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	nmod	_	_
 29	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	28	case	_	_
@@ -3951,7 +3951,7 @@
 9	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
 10	تيئن	تي	PRON	PRL	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 11	برقرار	برقرار	ADV	ADV	_	12	cop	_	_
-12	رهندي	_	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+12	رهندي	رهندو	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 13	جيڪا	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
 14	وڌيڪ	وڌيڪ	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	16	amod	_	_
 15	ٻن	ٻہ	NUM	NUM	_	16	nummod	_	_
@@ -3989,7 +3989,7 @@
 # sent_id = 686
 # text = اهو امڪان به موجود آهي ته زور ٽٽي وڃڻ باوجود گڊو بئراج جا وهڪرا خطرناڪ ٻوڏ يعني 9 لک ڪيوسڪ کان مٿي ئي رهن .
 1	اهو	اهو	DET	PRD	Case=Acc|Gender=Masc|Number=Sing	2	det	_	_
-2	امڪان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	امڪان	امڪان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	به	به	PART	PART	_	2	advmod:emph	_	_
 4	موجود	موجود	ADJ	JJ	Case=Nom	0	root	_	_
 5	آهي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
@@ -4139,7 +4139,7 @@
 # text = جڏهن ته ڪابل درياءَ مان اڳ ۾ ئي خطرناڪ ٻوڏ جا وهڪرا گذري رهيا آهن ،
 1	جڏهن	جڏهن	ADV	ADT	_	13	advmod	_	_
 2	ته	ته	SCONJ	CS	_	13	mark	_	_
-3	ڪابل	_	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
+3	ڪابل	ڪابل	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
 4	درياءَ	درياءَ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
 5	مان	مان	ADP	PSPL	_	4	case	_	_
 6	اڳ	اڳ	NOUN	NN	Case=Acc|Number=Sing	13	obl	_	_
@@ -4169,7 +4169,7 @@
 11	وهڪرا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	obj	_	_
 12	گذرڻ	گذرڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	14	xcomp	_	_
 13	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	12	mark	_	_
-14	امڪان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+14	امڪان	امڪان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 15	آهي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	14	cop	_	_
 16	.	.	PUNCT	PUNCT	_	14	punct	_	_
 

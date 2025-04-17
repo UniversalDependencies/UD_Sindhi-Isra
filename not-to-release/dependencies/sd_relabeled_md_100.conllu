@@ -62,7 +62,7 @@
 3	ڪهڙي	_	DET	DT__ضمير_اشارو	Number=Sing	4	det	_	_
 4	خبر	خبر	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	root	_	_
 5	ته	ته	SCONJ	CONJ	Number=Sing	8	mark	_	_
-6	هُو	_	PRON	DT__ضمير_اشارو	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
+6	هُو	هُو	PRON	DT__ضمير_اشارو	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 7	منهنجي	منهنجو	PRON	PRP__ضمير	Case=Gen|Number=Sing	8	nmod	_	_
 8	زندگي	زندگي	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	4	nmod	_	_
 9	آهي	آهي	AUX	VB__فعل_معاون	Number=Sing	8	cop	_	_
@@ -90,14 +90,14 @@
 6	ته	ته	ADP	IN__حرفِ_جر	Number=Sing	5	mark	_	_
 7	معاشرو	معاشرو	NOUN	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 8	بهترين	بهتر	ADJ	JJ__صفت	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-9	ٿيندو	_	AUX	VBG__فعل	Number=Sing	8	cop	_	_
+9	ٿيندو	ٿو	AUX	VBG__فعل	Number=Sing	8	cop	_	_
 10	.	.	PUNCT	-__پورو_دم	_	8	punct	_	_
 
 # sent_id = MD-24
 # text = نرم آهيان بي ساھ ته نه آهيان .
 1	نرم	نرم	ADJ	JJ__صفت	Case=Nom|Number=Sing|Person=3	4	advmod	_	_
 2	آهيان	آهي	AUX	VB__فعل_معاون	Number=Sing	1	cop	_	_
-3	بي	_	ADJ	-__ظرف	Number=Sing	4	amod	_	_
+3	بي	بي	ADJ	-__ظرف	Number=Sing	4	amod	_	_
 4	ساھ	ساھ	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 5	ته	ته	PART	PART	Number=Sing	4	advmod:emph	_	_
 6	نه	نه	PART	RB__ظرف	Number=Sing	7	advmod	_	_
@@ -126,7 +126,7 @@
 4	۾	۾	ADP	IN__حرفِ_جر	Number=Sing	3	case	_	_
 5	کنڀيون	کنڀي	NOUN	NNS__اسم	Case=Acc|Number=Plur	6	nsubj	_	_
 6	جام	جام	ADJ	JJ__صفت	Case=Nom|Number=Sing|Person=3	0	root	_	_
-7	ٿين	_	AUX	VB__فعل	Number=Plur	6	cop	_	_
+7	ٿين	ٿيو	AUX	VB__فعل	Number=Plur	6	cop	_	_
 8	.	.	PUNCT	-__پورو_دم	_	6	punct	_	_
 
 # sent_id = MD-28
@@ -135,9 +135,9 @@
 2	جي	جي	ADP	IN__حرفِ_جر	Number=Sing	1	case	_	_
 3	ڊپ	ڊپ	NOUN	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obl	_	_
 4	کان	کان	ADP	IN__حرفِ_جر	Number=Sing	3	case	_	_
-5	هُو	_	PRON	DT__ضمير_اشارو	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+5	هُو	هُو	PRON	DT__ضمير_اشارو	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 6	اڪيلو	اڪيلو	ADJ	JJ__صفت	Case=Nom|Number=Sing|Person=3	7	compound	_	_
-7	سمهي	_	VERB	VB__فعل	Case=Acc|Number=Sing	0	root	_	_
+7	سمهي	سمه	VERB	VB__فعل	Case=Acc|Number=Sing	0	root	_	_
 8	ئي	ئي	PART	RB__ظرف	Number=Sing	7	advmod:emph	_	_
 9	نه	نه	ADV	RB__ظرف	Number=Sing	7	advmod	_	_
 10	ٿو	ٿو	AUX	VB__فعل	Number=Sing	7	aux	_	_
@@ -201,7 +201,7 @@
 4	به	به	PART	IN__حرفِ_جر	Number=Sing	3	advmod:emph	_	_
 5	ناڪام	ناڪام	ADJ	JJ__صفت	Case=Acc|Number=Sing|Person=3	0	root	_	_
 6	ناهن	ناهي	ADV	RB__ظرف	Number=Plur	5	advmod	_	_
-7	ٿيندا	_	AUX	VBG__فعل	Number=Plur	5	cop	_	_
+7	ٿيندا	ٿيندو	AUX	VBG__فعل	Number=Plur	5	cop	_	_
 8	.	.	PUNCT	-__پورو_دم	_	5	punct	_	_
 
 # sent_id = MD-39
@@ -350,10 +350,10 @@
 # text = لڳي رهي آ ٿڌڙي هير !
 1	لڳي	لڳ	VERB	VB__فعل	Number=Sing	0	root	_	_
 2	رهي	ره	VERB	VB__فعل	Case=Nom|Number=Sing	1	compound	_	_
-3	آ	_	AUX	_	Number=Sing	1	aux	_	_
+3	آ	آ	AUX	_	Number=Sing	1	aux	_	_
 4	ٿڌڙي	ٿڌي	ADJ	JJ__صفت	Case=Nom|Number=Sing|Person=3	5	amod	_	_
 5	هير	_	NOUN	NNP__اسم_خاص	Case=Nom|Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
-6	!	_	PUNCT	SYM__نشاني	_	1	punct	_	_
+6	!	!	PUNCT	SYM__نشاني	_	1	punct	_	_
 
 # sent_id = MD-241
 # text = گوپال کي سڏ ڪيم پر هُو هليو ويو .
@@ -362,7 +362,7 @@
 3	سڏ	سڏ	NOUN	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	compound	_	_
 4	ڪيم	ڪيم	VERB	VBD__فعل	Number=Sing	0	root	_	_
 5	پر	پر	CCONJ	CC__حرف_جملو	Number=Sing	7	mark	_	_
-6	هُو	_	PRON	DT__ضمير_اشارو	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+6	هُو	هُو	PRON	DT__ضمير_اشارو	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 7	هليو	هل	VERB	VBD__فعل	Number=Sing	4	ccomp	_	_
 8	ويو	ويو	VERB	VBD__فعل	Number=Sing	7	compound	_	_
 9	.	.	PUNCT	__پورو_دم	_	4	punct	_	_
@@ -378,7 +378,7 @@
 7	ڪري	ڪر	VERB	VB__فعل	Number=Sing	11	advcl	_	_
 8	پنهنجي	پنهنجي	PRON	PRP__ضمير	Number=Sing	9	nmod	_	_
 9	ذميواري	ذميواري	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing	11	nsubj	_	_
-10	نٿا	_	AUX	RB__ظرف	Number=Plur	11	aux	_	_
+10	نٿا	نٿو	AUX	RB__ظرف	Number=Plur	11	aux	_	_
 11	نڀائين	نڀاءِ	VERB	VB__فعل	Number=Plur	0	root	_	_
 12	.	.	PUNCT	-__پورو_دم	_	11	punct	_	_
 
@@ -635,18 +635,18 @@
 
 # sent_id = MD-117
 # text = سانئيم سدائين ڪرين مٿي سنڌ سڪار دوست مٺا دلدار عالم سڀ آباد ڪرين .
-1	سانئيم	_	NOUN	NNX	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
+1	سانئيم	سانئين	NOUN	NNX	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
 2	سدائين	سدائين	ADV	ADV	Number=Sing	3	advmod	_	_
 3	ڪرين	ڪر	VERB	VM	Number=Sing|Person=2	13	advcl	_	_
 4	مٿي	مٿي	ADV	ADP	_	3	advmod	_	_
 5	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
-6	سڪار	_	NOUN	JJ	Case=Nom|Number=Sing|Person=3	3	obl	_	_
+6	سڪار	سڪار	NOUN	JJ	Case=Nom|Number=Sing|Person=3	3	obl	_	_
 7	دوست	دوست	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 8	مٺا	مٺو	ADJ	JJ	Case=Nom|Number=Plur|Person=3	9	amod	_	_
-9	دلدار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+9	دلدار	دلدار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
 10	عالم	عالم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	obj	_	_
 11	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur|Person=3	10	amod	_	_
-12	آباد	_	ADJ	JJ	Case=Acc|Number=Sing	11	amod	_	_
+12	آباد	آباد	ADJ	JJ	Case=Acc|Number=Sing	11	amod	_	_
 13	ڪرين	ڪر	VERB	VMX	Number=Sing|Person=2	0	root	_	_
 14	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
@@ -654,7 +654,7 @@
 # text = سائين خاموش ٿيو مونکي ڪهاڻي لکڻي آ .
 1	سائين	سائين	NOUN	JJ__صفت	Case=Nom|Number=Sing|Person=2	2	nsubj	_	_
 2	خاموش	خاموش	ADJ	JJ__صفت	Case=Nom|Number=Sing|Person=3	6	amod	_	_
-3	ٿيو	_	AUX	VBD__فعل	Number=Sing	2	cop	_	_
+3	ٿيو	ٿي	AUX	VBD__فعل	Number=Sing	2	cop	_	_
 4	مونکي	مون	PRON	PRP__ضمير	Case=Acc|Number=Sing|Person=1	6	nsubj	_	_
 5	ڪهاڻي	ڪهاڻي	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obj	_	_
 6	لکڻي	لکڻي	NOUN	NN__اسم	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	root	_	_
@@ -754,7 +754,7 @@
 
 # sent_id = MD-135
 # text = خودغرض انسان ڪنهن کي نه وڻندو آهي .
-1	خودغرض	_	ADJ	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	amod	_	_
+1	خودغرض	خودغرض	ADJ	NN__اسم	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	amod	_	_
 2	انسان	انسان	NOUN	NN__اسم	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 3	ڪنهن	ڪنهن	DET	DT__ضمير_اشارو	Case=Nom|Number=Sing	6	obl	_	_
 4	کي	کي	ADP	IN__حرفِ_جر	Number=Sing	3	case	_	_

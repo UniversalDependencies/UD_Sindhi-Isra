@@ -22,7 +22,7 @@
 
 # sent_id = MD-85
 # text = طوطو ڏڌ ۽ کچڻي کائي ٿو .
-1	طوطو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+1	طوطو	طوطو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
 2	ڏڌ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	۽	۽	CCONJ	CC	_	4	cc	_	_
 4	کچڻي	کچڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
@@ -138,7 +138,7 @@
 2	تهذيب	تهذيب	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 3	دنيا	دنيا	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
-5	اڪثر	_	ADJ	JJ	Case=Nom|Degree=Pos	6	amod	_	_
+5	اڪثر	اڪثر	ADJ	JJ	Case=Nom|Degree=Pos	6	amod	_	_
 6	تهذيبن	تهذيب	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	_
 7	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
 8	ماءُ	ماءُ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	xcomp	_	_
@@ -155,7 +155,7 @@
 5	ديوناگري	ديوناگري	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 6	طريقن	طريقو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
 7	سان	سان	ADP	PSP	_	6	case	_	_
-8	لکي	_	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
+8	لکي	لک	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
 9	۽	۽	CCONJ	CC	_	10	cc	_	_
 10	پڙهي	پڙه	VERB	VM	Aspect=Perf|Number=Sing	8	conj	_	_
 11	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	10	compound	_	_
@@ -187,11 +187,11 @@
 # text = ڪاوڙ ماريندي آ ۽ مسڪراهٽ جيئاريندي آ .
 1	ڪاوڙ	ڪاوڙ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	ماريندي	مار	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=FutPart	0	root	_	_
-3	آ	_	AUX	VAUX	Number=Sing|Tense=Pres	2	aux	_	_
+3	آ	آ	AUX	VAUX	Number=Sing|Tense=Pres	2	aux	_	_
 4	۽	۽	CCONJ	CC	_	6	cc	_	_
 5	مسڪراهٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 6	جيئاريندي	جيءُ	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=FutPart	2	conj	_	_
-7	آ	_	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	_
+7	آ	آ	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	_
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = MD-72
@@ -291,7 +291,7 @@
 
 # sent_id = MD-64
 # text = ڪمپيوٽر دنيا کي ئي بدلائي ڇڏيو آهي .
-1	ڪمپيوٽر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+1	ڪمپيوٽر	ڪمپيوٽر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	دنيا	دنيا	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	ئي	ئي	PART	PART	_	3	advmod:emph	_	_
@@ -877,7 +877,7 @@
 2	ياد	ياد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 3	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	وري	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
-5	آ	_	AUX	VAUX	Number=Sing|Tense=Pres	4	aux	_	_
+5	آ	آ	AUX	VAUX	Number=Sing|Tense=Pres	4	aux	_	_
 6	وير	وير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 7	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -1016,7 +1016,7 @@
 
 # sent_id = MD-158
 # text = بريصغير ۾ عورت تي حد کان وڌيڪ ظلم ٿئي پيو .
-1	بريصغير	_	PROPN	NNP	Case=Nom|Gender=Masc	9	obl	_	_
+1	بريصغير	بريصغير	PROPN	NNP	Case=Nom|Gender=Masc	9	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
 3	عورت	عورت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
 4	تي	تي	ADP	PSPL	_	3	case	_	_

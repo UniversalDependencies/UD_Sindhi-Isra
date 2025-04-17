@@ -121,7 +121,7 @@
 5	ڪيل	ڪيو	VERB	_	_	6	acl	_	_
 6	وصفون	_	NOUN	_	_	7	nsubj	_	_
 7	ڏجن	_	VERB	_	_	0	root	_	_
-8	ٿيو	_	AUX	_	_	7	aux	_	SpaceAfter=No
+8	ٿيو	ٿي	AUX	_	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 9
@@ -416,7 +416,7 @@
 2	صلاحيت	صلاحيت	NOUN	_	_	8	obl	_	_
 3	مطابق	مطابق	ADP	_	_	2	case	_	_
 4	ڪنهن	ڪنهن	DET	_	_	5	det	_	_
-5	اداري	_	NOUN	_	_	8	nsubj	_	_
+5	اداري	ادارو	NOUN	_	_	8	nsubj	_	_
 6	کي	کي	ADP	_	_	5	case	_	_
 7	ترقي	ترقي	NOUN	_	_	8	compound	_	_
 8	وٺراڻي	_	NOUN	_	_	0	root	_	_
@@ -439,7 +439,7 @@
 12	شعبي	_	NOUN	_	_	15	obl	_	_
 13	۾	۾	ADP	_	_	12	case	_	_
 14	اپاءُ	_	NOUN	_	_	15	obj	_	_
-15	ورتا	_	VERB	_	_	0	root	_	_
+15	ورتا	ورتو	VERB	_	_	0	root	_	_
 16	وڃن	وڃ	VERB	_	_	15	compound	_	_
 17	ٿا	ٿو	AUX	_	_	15	aux	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	15	punct	_	_
@@ -799,7 +799,7 @@
 2	ٻاراڻو	ٻاراڻو	ADJ	_	_	3	amod	_	_
 3	ادب	ادب	NOUN	_	_	5	nmod	_	_
 4	مان	مان	ADP	_	_	3	case	_	_
-5	مراد	_	NOUN	_	_	8	nmod	_	_
+5	مراد	مراد	NOUN	_	_	8	nmod	_	_
 6	هر	هر	ADJ	_	_	8	amod	_	_
 7	اهو	اهو	DET	_	_	8	det	_	_
 8	ادب	ادب	NOUN	_	_	13	nsubj	_	_
@@ -848,8 +848,8 @@
 # sent_id = 55
 # text = يعني جن لکڻين ۾ ٻارن جو ڪو ڪردار هجي.
 1	يعني	_	NOUN	_	_	9	obl	_	_
-2	جن	_	DET	_	_	3	det	_	_
-3	لکڻين	_	NOUN	_	_	9	obl	_	_
+2	جن	جي	DET	_	_	3	det	_	_
+3	لکڻين	لکڻي	NOUN	_	_	9	obl	_	_
 4	۾	۾	ADP	_	_	3	case	_	_
 5	ٻارن	ٻار	NOUN	_	_	8	nmod	_	_
 6	جو	جو	ADP	_	_	5	case	_	_
@@ -894,7 +894,7 @@
 7	صحيح	صحيح	NOUN	_	_	8	nmod	_	_
 8	معنيٰ	معنيٰ	NOUN	_	_	13	nmod	_	_
 9	۾	۾	ADP	_	_	8	case	_	_
-10	ٻال	_	NOUN	_	_	13	nsubj	_	_
+10	ٻال	ٻال	NOUN	_	_	13	nsubj	_	_
 11	ساهتيه	_	NOUN	_	_	10	nmod	_	_
 12	ٻاراڻو	ٻاراڻو	ADJ	_	_	13	amod	_	_
 13	ادب	ادب	NOUN	_	_	0	root	_	_
@@ -1169,7 +1169,7 @@
 5	اڳتي	اڳتي	ADV	_	_	6	advmod	_	_
 6	وڌڻ	وڌ	VERB	_	_	8	nmod	_	_
 7	جو	جو	ADP	_	_	6	mark	_	_
-8	جذبو	_	NOUN	_	_	10	obj	_	_
+8	جذبو	جذبو	NOUN	_	_	10	obj	_	_
 9	پيدا	پيدا	VERB	_	_	10	compound	_	_
 10	ڪرڻ	ڪر	VERB	_	_	15	advcl	_	_
 11	لاءِ	لاءِ	ADP	_	_	10	mark	_	_
@@ -1303,7 +1303,7 @@
 1	جڏهن	جڏهن	ADV	_	_	3	advmod	_	_
 2	مان	مان	PRON	_	_	3	nsubj	_	_
 3	آزاد	آزاد	ADJ	_	_	10	xcomp	_	_
-4	هئس	_	AUX	_	_	3	cop	_	_
+4	هئس	هئو	AUX	_	_	3	cop	_	_
 5	ته	ته	SCONJ	_	_	10	mark	_	_
 6	مون	مون	PRON	_	_	10	nsubj	_	_
 7	ڪيتريون	ڪيتريون	ADJ	_	_	9	amod	_	_
@@ -1344,7 +1344,7 @@
 6	جواب	جواب	NOUN	_	_	9	obl	_	_
 7	تي	تي	ADP	_	_	6	case	_	_
 8	نشان	_	NOUN	_	_	9	obj	_	_
-9	لڳايو	_	VERB	_	_	0	root	_	SpaceAfter=No
+9	لڳايو	لڳاءِ	VERB	_	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 95
@@ -1387,7 +1387,7 @@
 # text = اسلم ۽ وقار ٻئي دوست آهن.
 1	اسلم	اسلم	PROPN	_	_	5	nsubj	_	_
 2	۽	۽	CCONJ	_	_	3	cc	_	_
-3	وقار	_	NOUN	_	_	1	conj	_	_
+3	وقار	وقار	NOUN	_	_	1	conj	_	_
 4	ٻئي	ٻہ	ADJ	_	_	5	nummod	_	_
 5	دوست	دوست	NOUN	_	_	0	root	_	_
 6	آهن	آهي	AUX	_	_	5	cop	_	SpaceAfter=No
