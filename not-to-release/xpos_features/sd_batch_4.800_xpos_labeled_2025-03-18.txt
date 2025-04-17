@@ -1182,7 +1182,7 @@
 12	سان	سان	ADP	PSP	_	11	case	_	_
 13	برداشت	برداشت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	compound	_	_
 14	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
-15	سگهون	_	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	14	aux	_	SpaceAfter=No
+15	سگهون	سگه	VERB	VM	Aspect=Imp|Number=Plur	14	compound	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	14	punct	_	_
 
 # sent_id = 4533
@@ -8103,8 +8103,8 @@
 7	مارجي	مار	VERB	VM	Aspect=Imp|Voice=Pass	0	root	_	_
 8	ويا	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	7	compound	_	_
 9	۽	۽	CCONJ	CC	_	11	cc	_	_
-10	11	11	CCONJ	CC	_	11	nummod	_	_
-11	زخمي	_	NUM	NUM	_	7	conj	_	_
+10	11	11	NUM	NUM	_	11	nummod	_	_
+11	زخمي	زخمي	ADJ	JJ	Case=Nom	7	conj	_	_
 12	ٿي	ٿي	AUX	VAUX	AuxType=Be	11	cop	_	_
 13	پيا	پيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	11	compound	_	SpaceAfter=No
 14	،	،	PUNCT	PUNCT	_	11	punct	_	_
@@ -12744,7 +12744,7 @@
 50	شهري	شهري	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	51	amod	_	_
 51	حڪومت	حڪومت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	54	obl	_	_
 52	پاران	پاران	ADP	PSPL	_	51	case	_	_
-53	مهيا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	54	compound	_	_
+53	مهيا	_	ADJ	JJ	Case=Nom	54	xcomp	_	_
 54	ڪيل	ڪيو	VERB	VM	Aspect=Perf|VerbForm=PastPart	55	acl	_	_
 55	مانڊڙيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	57	obj	_	_
 56	الاٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	57	compound	_	_
@@ -13408,7 +13408,7 @@
 10	نه	نه	PART	PART	_	11	dep	_	_
 11	ٿا	ٿو	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	12	xcomp	_	_
 12	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	2	obj	_	_
-13	سگهون	_	AUX	VAUX	Number=Plur|Person=3|Tense=Pres	12	aux	_	SpaceAfter=No
+13	سگهون	سگه	VERB	VM	Aspect=Imp|Number=Plur|Person=3	12	compound	_	SpaceAfter=No
 14	،	،	PUNCT	PUNCT	_	12	punct	_	_
 15	ڇاڪاڻ	ڇاڪاڻ	SCONJ	CS	_	22	mark	_	_
 16	ته	ته	SCONJ	CS	_	15	fixed	_	_
@@ -17955,7 +17955,7 @@
 10	نه	نه	PART	PART	_	12	dep	_	_
 11	ٿا	ٿو	AUX	VAUX	Number=Plur|Tense=Pres	12	aux	_	_
 12	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
-13	سگهون	_	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	12	aux	_	SpaceAfter=No
+13	سگهون	سگه	VERB	VM	Aspect=Imp|Number=Plur	12	compound	_	SpaceAfter=No
 14	،	،	PUNCT	PUNCT	_	12	punct	_	_
 15	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	17	nmod	_	_
 16	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	15	case	_	_
@@ -19477,7 +19477,7 @@
 9	ترقيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	obj	_	_
 10	ملي	مل	VERB	VM	Aspect=Imp|Voice=Act	41	advcl	_	_
 11	نه	نه	PART	PART	_	10	dep	_	_
-12	سگهيون	_	AUX	VAUX	Number=Plur|Person=3|Tense=Past	10	aux	_	_
+12	سگهيون	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Plur|Person=3	10	compound	_	_
 13	حيدرآباد	حيدرآباد	PROPN	NNP	Case=Nom|Gender=Masc	18	nmod	_	_
 14	(	(	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 15	رپورٽ	رپورٽ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
@@ -21282,7 +21282,7 @@
 14	پارايا	پاراءِ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Voice=Act	0	root	_	_
 15	ويا	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	14	compound	_	_
 16	۽	۽	CCONJ	CC	_	23	cc	_	_
-17	مٿن	_	PRON	PRP	Case=Acc|Number=Plur|Person=2	18	compound	_	_
+17	مٿن	_	PRON	PRP	Case=Acc|Number=Plur|Person=2	21	obl	_	_
 18	گلن	گل	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	nmod	_	_
 19	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	18	case	_	_
 20	ورکا	ورکا	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	compound	_	_

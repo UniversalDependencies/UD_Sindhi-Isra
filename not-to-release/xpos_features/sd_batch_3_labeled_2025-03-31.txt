@@ -2773,7 +2773,7 @@
 # text = سرحد جو اڳوڻو وزير غني الرحمان بم حملي ۾ قتل
 1	سرحد	سرحد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
-3	اڳوڻو	_	PROPN	NNP	Case=Nom|Gender=Masc	4	nmod	_	_
+3	اڳوڻو	اڳوڻو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
 4	وزير	وزير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 5	غني	غني	PROPN	NNP	Case=Nom|Gender=Masc	6	compound	_	_
 6	الرحمان	الرحمان	PROPN	NNP	Case=Nom|Gender=Masc	10	nsubj	_	_
@@ -4510,7 +4510,7 @@
 18	وساري	وسار	VERB	VM	Aspect=Imp|Voice=Act	10	conj	_	_
 19	نه	نه	PART	PART	_	18	dep	_	_
 20	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	18	aux	_	_
-21	سگهجي	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	18	aux	_	SpaceAfter=No
+21	سگهجي	سگهجي	VERB	VM	Aspect=Imp|Number=Sing	18	Compound	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	18	punct	_	_
 
 # sent_id = 3892
@@ -13188,9 +13188,9 @@
 # text = ڪڏهن ٿي اسٽيبلشمينٽ جي مٿن اک ٻڏي،
 1	ڪڏهن	ڪڏهن	PRON	PRWH	_	7	advmod	_	_
 2	ٿي	ٿي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	1	cop	_	_
-3	اسٽيبلشمينٽ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+3	اسٽيبلشمينٽ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
-5	مٿن	_	PRON	PRP	Case=Acc|Number=Plur|Person=2	6	nmod	_	_
+5	مٿن	_	ADV	ADP	_	7	advmod	_	_
 6	اک	اک	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	ٻڏي	_	VERB	VM	Aspect=Perf|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	7	punct	_	_
