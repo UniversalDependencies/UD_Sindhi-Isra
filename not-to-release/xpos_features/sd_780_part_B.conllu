@@ -479,8 +479,8 @@
 1	سو	سو	PRON	PRL	Case=Nom|Number=Sing	3	nmod	_	_
 2	وايون	وائي	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	بطال	بطال	ADJ	JJ	Case=Nom	0	root	_	_
-4	ٿي	ٿي	AUX	VAUX	Number=Plur|Tense=Pres	3	cop	_	_
-5	ويس	ويس	VERB	VMX	Aspect=Perf|Number=Sing|Person=3	3	cop	_	_
+4	ٿي	ٿي	AUX	VAUX	AuxType=Be	3	cop	_	_
+5	ويس	ويس	VERB	VMX	Aspect=Perf|Number=Sing|Person=3	3	compound	_	_
 6	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = Kawish-20100810-415
@@ -657,11 +657,11 @@
 3	ته	ته	SCONJ	CS	_	5	mark	_	_
 4	:	:	PUNCT	PUNCT	_	5	punct	_	_
 5	پرواهه	پرواهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	_
-6	ناهي	ناهي	AUX	VAUXN	_	5	cop	_	_
+6	ناهي	ناهي	AUX	VAUXN	Number=Sing|Tense=Pres	5	cop	_	_
 7	باقي	باقي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
 8	هڪ	هڪ	ADJ	JJC	Case=Nom	9	nummod	_	_
-9	سؤ	سؤ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nummod	_	_
-10	ڪوڙ	ڪوڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	سؤ	سؤ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
+10	ڪوڙ	_	VERB	VM	Aspect=Perf|Number=Plur	12	advcl	_	_
 11	به	به	PART	PART	_	10	advmod:emph	_	_
 12	ڪافي	ڪافي	ADJ	JJ	Case=Nom|Degree=Pos	2	obj	_	_
 13	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	12	cop	_	_
@@ -816,7 +816,7 @@
 2	اُهي	اُهي	PRON	PRD	Gender=Masc|Number=Plur	0	root	_	_
 3	۽	۽	CCONJ	CC	_	4	cc	_	_
 4	ٻه	ٻه	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
-5	هي	هي	DET	PRD	Case=Nom|Number=Sing	2	cop	_	_
+5	هي	هي	DET	PRD	Case=Nom|Number=Sing	4	det	_	_
 6	،	،	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = Kawish-20100810-442
@@ -1868,7 +1868,7 @@
 1	جا	_	PRON	PRP	Case=Gen|Number=Plur	3	nsubj	_	_
 2	ڏاڍي	ڏاڍي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	ڀلي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
-4	ٿي	ٿي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	3	cop	_	_
+4	ٿي	ٿي	AUX	VAUX	AuxType=Be|Gender=Fem|Number=Sing	3	cop	_	_
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = Kawish-20100810-528
@@ -2469,8 +2469,8 @@
 7	لڪڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	9	nmod	_	_
 8	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	7	mark	_	_
 9	جاءِ	جاءِ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	_
-10	ڪانهي	ڪانهي	AUX	VAUX	_	9	cop	_	_
-11	،	،	PUNCT	PUNCT	_	10	punct	_	_
+10	ڪانهي	ڪانهي	AUX	VAUX	Number=Sing|Tense=Pres	9	cop	_	_
+11	،	،	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = Kawish-20100810-577
 # text = باقي هيءَ هـُـرلي جي چَهي آهي ،
@@ -3199,7 +3199,7 @@
 2	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	مهل	مهل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	ٿي	ٿي	AUX	VAUX	AuxType=Be|Number=Sing	3	cop	_	_
-5	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
+5	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	aux	_	_
 6	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = Kawish-20100810-635
@@ -4196,7 +4196,7 @@
 7	شينهن	شينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	تند	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 9	ٿي	ٿي	AUX	VAUX	AuxType=Be|Number=Sing	8	cop	_	_
-10	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	8	cop	_	_
+10	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	8	compound	_	_
 11	،	،	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = Kawish-20100810-705
