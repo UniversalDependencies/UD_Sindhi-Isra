@@ -6185,48 +6185,38 @@
 10	لکهو	_	VERB	VM	Number=Sing|Person=3	2	advcl	_	SpaceAfter=No
 11	،	،	PUNCT	PUNCT	_	10	punct	_	_
 
-# sent_id = 5553
-# text = که کل کس رنگ کا کپڙي پهنني، کون سي خوشبو لگاني هي، “ بلڪل ائين ئي، اسان ۽ اوهان جون محبتون به بس ڊائريءَ ۾ لکڻ کان ”سوا“ آهناهي ته ياد جا دروازا آهن،
-1	که	_	ADP	_	_	12	mark	_	_
-2	کل	کل	NOUN	_	_	12	nmod	_	_
-3	کس	_	PRON	_	_	4	nmod	_	_
-4	رنگ	رنگ	NOUN	_	_	6	nmod	_	_
-5	کا	_	ADP	_	_	4	case	_	_
-6	کپڙي	_	NOUN	_	_	7	nmod	_	_
-7	پهنني	_	NOUN	_	_	12	nsubj	_	SpaceAfter=No
-8	،	،	PUNCT	_	_	7	punct	_	_
-9	کون	_	PRON	_	_	11	nmod	_	_
-10	سي	_	PRON	_	_	11	nmod	_	_
-11	خوشبو	_	NOUN	_	_	12	nsubj	_	_
-12	لگاني	_	NOUN	_	_	17	nmod	_	_
-13	هي	هي	AUX	_	_	12	cop	_	SpaceAfter=No
-14	،	،	PUNCT	_	_	12	punct	_	_
-15	“	“	PUNCT	_	_	17	punct	_	_
-16	بلڪل	بلڪل	ADV	_	_	17	advmod	_	_
-17	ائين	ائين	PRON	_	_	29	obl	_	_
-18	ئي	ئي	ADP	_	_	17	case	_	SpaceAfter=No
-19	،	،	PUNCT	_	_	17	punct	_	_
-20	اسان	اسين	PRON	_	_	29	nsubj	_	_
-21	۽	۽	CCONJ	_	_	24	cc	_	_
-22	اوهان	اوهان	PRON	_	_	24	nmod	_	_
-23	جون	جو	ADP	_	_	22	case	_	_
-24	محبتون	_	NOUN	_	_	20	conj	_	_
-25	به	به	PART	_	_	24	advmod:emph	_	_
-26	بس	بس	NOUN	_	_	27	nmod	_	_
-27	ڊائريءَ	_	NOUN	_	_	29	obl	_	_
-28	۾	۾	ADP	_	_	27	case	_	_
-29	لکڻ	لک	VERB	_	_	32	advcl	_	_
-30	کان	کان	ADP	_	_	29	mark	_	_
-31	”	”	PUNCT	_	_	32	punct	_	SpaceAfter=No
-32	سوا	_	NOUN	_	_	38	nsubj	_	SpaceAfter=No
-33	“	“	PUNCT	_	_	32	punct	_	_
-34	آهناهي	_	PART	_	_	38	dep	_	_
-35	ته	ته	SCONJ	_	_	38	mark	_	_
-36	ياد	ياد	NOUN	_	_	38	nmod	_	_
-37	جا	جو	ADP	_	_	36	case	_	_
-38	دروازا	_	NOUN	_	_	0	root	_	_
-39	آهن	آهي	AUX	_	_	38	cop	_	SpaceAfter=No
-40	،	،	PUNCT	_	_	38	punct	_	_
+# sent_id = 5553a
+# text = بلڪل ائين ئي، اسان ۽ اوهان جون محبتون به بس ڊائريءَ ۾ لکڻ کان ”سوا“ آهن.
+1	بلڪل	_	ADV	ADT	_	2	amod	_	_
+2	ائين	_	PRON	PRL	_	14	obl	_	_
+3	ئي	_	PART	PART	_	2	advmod:emph	_	SpaceAfter=No
+4	،	_	PUNCT	PUNCT	_	2	punct	_	_
+5	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	14	nsubj	_	_
+6	۽	_	CCONJ	CC	_	9	cc	_	_
+7	اوهان	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	9	nmod	_	_
+8	جون	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	9	nmod	_	_
+9	محبتون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
+10	به	_	PART	PART	_	9	advmod:emph	_	_
+11	بس	_	ADV	ADV	_	12	amod	_	_
+12	ڊائريءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+13	۾	_	ADP	PSPL	_	12	case	_	_
+14	لکڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	17	advcl	_	_
+15	کان	_	ADP	PSP	_	14	mark	_	_
+16	”	_	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+17	سوا	_	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	SpaceAfter=No
+18	“	_	PUNCT	PUNCT	_	17	punct	_	_
+19	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	17	cop	_	SpaceAfter=No
+20	.	_	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 5553b
+# text = اهي ته ياد جا دروازا آهن.
+1	اهي	_	DET	PRD	Case=Nom|Number=Plur	5	nsubj	_	_
+2	ته	_	PART	PART	_	1	advmod:emph	_	_
+3	ياد	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+4	جا	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	3	case	_	_
+5	دروازا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+6	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	5	cop	_	SpaceAfter=No
+7	.	_	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 
 # sent_id = 5554
 # text = کُلن ٿا ۽ کِلن ٿا.
