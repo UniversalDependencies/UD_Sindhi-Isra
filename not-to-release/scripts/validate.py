@@ -127,7 +127,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     print("UNEXPECTED SpaceAfter=No")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d has SpaceAfter=No between two non-punct words" % (sent.sent_id, sent_idx, word_idx))
+                print("Sentence %s (%d) word %d (line %d) has SpaceAfter=No between two non-punct words" % (sent.sent_id, sent_idx, word_idx, word.line_number))
 
 
     printed = False
