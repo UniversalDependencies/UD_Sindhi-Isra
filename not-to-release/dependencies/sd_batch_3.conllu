@@ -10778,16 +10778,16 @@
 
 # sent_id = 4186
 # text = انهن يتيم اميدين جي اهميت کوٽي سڪي جهڙي آهي.
-1	انهن	ان	DET	_	_	3	det	_	_
-2	يتيم	_	ADJ	_	_	3	amod	_	_
-3	اميدين	_	NOUN	_	_	5	nmod	_	_
-4	جي	جي	ADP	_	_	3	case	_	_
-5	اهميت	اهميت	NOUN	_	_	8	nsubj	_	_
-6	کوٽي	_	VERB	_	_	7	nmod	_	_
-7	سڪي	_	NOUN	_	_	8	obl	_	_
-8	جهڙي	جهڙو	ADJ	_	_	0	root	_	_
-9	آهي	آهي	AUX	_	_	8	cop	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	8	punct	_	_
+1	انهن	ان	DET	PRD	Case=Acc|Number=Plur	3	det	_	_
+2	يتيم	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	اميدين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_
+4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
+5	اهميت	اهميت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	کوٽي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	سڪي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+8	جهڙي	جهڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	cop	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 4187
 # text = هي هڪ نااميدي ناهي پر سچ آهي ته اسان جي دنيا جي ڪناري تي نه ڪو ناکئو آهي ۽ نه ئي ڪا ٻيڙي آهي،
@@ -11381,15 +11381,15 @@
 
 # sent_id = 4232
 # text = جهڙي طرح ماڻهو اڪيلو جيئرو نٿو رهي سگهي،
-1	جهڙي	جهڙو	ADJ	_	_	2	amod	_	_
-2	طرح	طرح	NOUN	_	_	7	obl	_	_
-3	ماڻهو	ماڻهو	NOUN	_	_	7	nsubj	_	_
-4	اڪيلو	اڪيلو	ADJ	_	_	7	amod	_	_
-5	جيئرو	_	ADV	_	_	7	advmod	_	_
-6	نٿو	نٿو	PART	_	_	7	dep	_	_
-7	رهي	ره	VERB	_	_	0	root	_	_
-8	سگهي	سگهي	AUX	_	_	7	aux	_	SpaceAfter=No
-9	،	،	PUNCT	_	_	7	punct	_	_
+1	جهڙي	جهڙو	DET	PRD	Case=Acc|Gender=Fem|Number=Sing	2	det	_	_
+2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obl	_	_
+3	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	اڪيلو	اڪيلو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+5	جيئرو	_	ADV	ADM	_	7	advmod	_	_
+6	نٿو	نٿو	PART	PART	_	7	dep	_	_
+7	رهي	ره	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
+8	سگهي	سگهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	7	aux	_	SpaceAfter=No
+9	،	،	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = 4233
 # text = اهڙي طرح ثقافت به اڪيلي سـِـر اسري نٿي سگهي.
@@ -12796,20 +12796,20 @@
 
 # sent_id = 4330
 # text = جهڙي طرح ترجمو هڪ تخليقي ڪم آهي ۽ مترجم هڪ تخليق ڪار آهي.
-1	جهڙي	جهڙو	ADJ	_	_	2	amod	_	_
-2	طرح	طرح	NOUN	_	_	6	obl	_	_
-3	ترجمو	ترجمو	NOUN	_	_	6	nsubj	_	_
-4	هڪ	هڪ	ADJ	_	_	6	amod	_	_
-5	تخليقي	تخليقي	ADJ	_	_	6	amod	_	_
-6	ڪم	ڪم	NOUN	_	_	0	root	_	_
-7	آهي	آهي	AUX	_	_	6	cop	_	_
-8	۽	۽	CCONJ	_	_	12	cc	_	_
-9	مترجم	مترجم	NOUN	_	_	12	nsubj	_	_
-10	هڪ	هڪ	ADJ	_	_	11	amod	_	_
-11	تخليق	_	NOUN	_	_	12	nmod	_	_
-12	ڪار	ڪار	NOUN	_	_	6	conj	_	_
-13	آهي	آهي	AUX	_	_	12	cop	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	6	punct	_	_
+1	جهڙي	_	DET	PRD	Case=Acc|Gender=Fem|Number=Sing	2	det	_	_
+2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obl	_	_
+3	ترجمو	ترجمو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	هڪ	هڪ	ADJ	JJ	Case=Nom|Number=Sing	6	amod	_	_
+5	تخليقي	تخليقي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
+6	ڪم	ڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	cop	_	_
+8	۽	۽	CCONJ	CC	_	12	cc	_	_
+9	مترجم	مترجم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+10	هڪ	هڪ	ADJ	JJC	Case=Nom|Number=Sing	11	amod	_	_
+11	تخليق	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	_
+12	ڪار	ڪار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+13	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	12	cop	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 4331
 # text = اهڙي طرح هو پنهنجي قومي ثقافت ۾ هڪ سرگرمِ عمل ڪارڪن جي حيثيت رکي ٿو.
@@ -12985,21 +12985,21 @@
 
 # sent_id = 4340
 # text = روحاني عمل ۾ سيڪنڊ ريٽ يا سيڪنڊ گريڊ جهڙي ڪا شيءِ نه ٿيندي آهي.
-1	روحاني	روحاني	ADJ	_	_	2	amod	_	_
-2	عمل	عمل	NOUN	_	_	13	obl	_	_
-3	۾	۾	ADP	_	_	2	case	_	_
-4	سيڪنڊ	_	NOUN	_	_	5	nmod	_	_
-5	ريٽ	_	NOUN	_	_	13	obl	_	_
-6	يا	يا	CCONJ	_	_	8	cc	_	_
-7	سيڪنڊ	_	NOUN	_	_	8	nmod	_	_
-8	گريڊ	گريڊ	NOUN	_	_	5	conj	_	_
-9	جهڙي	جهڙو	ADJ	_	_	11	amod	_	_
-10	ڪا	ڪا	DET	_	_	11	det	_	_
-11	شيءِ	شيءِ	NOUN	_	_	13	xcomp	_	_
-12	نه	نه	PART	_	_	13	dep	_	_
-13	ٿيندي	ٿي	VERB	_	_	0	root	_	_
-14	آهي	آهي	AUX	_	_	13	aux	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	13	punct	_	_
+1	روحاني	روحاني	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	_
+2	عمل	عمل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+3	۾	۾	ADP	PSPL	_	2	case	_	_
+4	سيڪنڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	ريٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	obl	_	_
+6	يا	يا	CCONJ	CC	_	8	cc	_	_
+7	سيڪنڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+8	گريڊ	گريڊ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+9	جهڙي	جهڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	_
+10	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	11	det	_	_
+11	شيءِ	شيءِ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	xcomp	_	_
+12	نه	نه	PART	PART	_	13	dep	_	_
+13	ٿيندي	ٿي	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	0	root	_	_
+14	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	13	aux	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = 4341
 # text = تخليقي ۽ ترجمو ڪيل ادب، روحاني عمل جا ٻه دائرا آهن،
@@ -14275,27 +14275,27 @@
 
 # sent_id = 4403
 # text = پوءِ آخر ڪجي ڇا؟ هاڻي ان انصاف جي آسري تي ملڪ هلائجي ته پوءِ انڌي جهڙي پيڪي تهڙي ساهرين.
-1	پوءِ	پوءِ	ADP	_	_	3	mark	_	_
-2	آخر	آخر	NOUN	_	_	3	obl	_	_
-3	ڪجي	ڪج	VERB	_	_	0	root	_	_
-4	ڇا	ڇا	PRON	_	_	3	nsubj	_	SpaceAfter=No
-5	؟	؟	PUNCT	_	_	3	punct	_	_
-6	هاڻي	هاڻ	ADV	_	_	13	advmod	_	_
-7	ان	ان	DET	_	_	8	det	_	_
-8	انصاف	انصاف	NOUN	_	_	10	nmod	_	_
-9	جي	جي	ADP	_	_	8	case	_	_
-10	آسري	_	NOUN	_	_	13	obl	_	_
-11	تي	تي	ADP	_	_	10	case	_	_
-12	ملڪ	ملڪ	NOUN	_	_	13	obj	_	_
-13	هلائجي	هلاءِ	VERB	_	_	3	advcl	_	_
-14	ته	ته	SCONJ	_	_	20	mark	_	_
-15	پوءِ	پوءِ	ADP	_	_	20	mark	_	_
-16	انڌي	_	NOUN	_	_	18	nmod	_	_
-17	جهڙي	جهڙو	ADJ	_	_	18	amod	_	_
-18	پيڪي	_	NOUN	_	_	20	nsubj	_	_
-19	تهڙي	_	ADJ	_	_	20	amod	_	_
-20	ساهرين	_	NOUN	_	_	13	conj	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	20	punct	_	_
+1	پوءِ	پوءِ	ADP	PSP	_	3	mark	_	_
+2	آخر	آخر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	_
+3	ڪجي	ڪج	VERB	VM	Aspect=Imp|Number=Sing|Voice=Pass	0	root	_	_
+4	ڇا	ڇا	PRON	PRWH	_	3	nsubj:pass	_	SpaceAfter=No
+5	؟	؟	PUNCT	PUNCT	_	3	punct	_	_
+6	هاڻي	هاڻ	ADV	ADT	_	13	advmod	_	_
+7	ان	ان	DET	PRD	Case=Acc|Number=Sing	8	det	_	_
+8	انصاف	انصاف	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+9	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	8	case	_	_
+10	آسري	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+11	تي	تي	ADP	PSPL	_	10	case	_	_
+12	ملڪ	ملڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
+13	هلائجي	هلاءِ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	3	advcl	_	_
+14	ته	ته	SCONJ	CS	_	20	mark	_	_
+15	پوءِ	پوءِ	ADP	PSP	_	20	mark	_	_
+16	انڌي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
+17	جهڙي	جهڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
+18	پيڪي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	conj	_	_
+19	تهڙي	تھڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	20	nmod	_	_
+20	ساهرين	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = 4404
 # text = ڏاڍي جي لٺ کي ٻه مٿا ته سدائين سُڻندا آهيون پر جنهن در آڏو انصاف جي تارازي ٽنگيل هجي،
