@@ -2756,24 +2756,24 @@
 
 # sent_id = 5378
 # text = جهان خان جي هن جهان جو قصو تيل ٿيڻ ۾ بيشڪ ته ڪي گهڻا ڏينهن لڳڻا ناهن،
-1	جهان	جهان	NOUN	_	_	2	compound	_	_
-2	خان	خان	NOUN	_	_	5	nmod	_	_
-3	جي	جي	ADP	_	_	2	case	_	_
-4	هن	هن	DET	_	_	5	det	_	_
-5	جهان	جهان	NOUN	_	_	7	nmod	_	_
-6	جو	جو	ADP	_	_	5	case	_	_
-7	قصو	قصو	NOUN	_	_	9	obj	_	_
-8	تيل	تيل	NOUN	_	_	9	compound	_	_
-9	ٿيڻ	ٿي	VERB	_	_	16	advcl	_	_
-10	۾	۾	ADP	_	_	9	mark	_	_
-11	بيشڪ	_	NOUN	_	_	16	obl	_	_
+1	جهان	_	PROPN	NNP	Case=Nom|Gender=Fem	2	compound	_	_
+2	خان	خان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+3	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
+4	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
+5	جهان	جهان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+6	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
+7	قصو	قصو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
+8	تيل	تيل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	_
+9	ٿيڻ	ٿي	VERB	VM	Aspect=Imp|VerbForm=Inf	16	advcl	_	_
+10	۾	۾	ADP	PSPL	_	9	mark	_	_
+11	بيشڪ	_	ADV	ADT	_	16	obl	_	_
 12	ته	ته	PART	PART	_	11	advmod:emph	_	_
-13	ڪي	ڪي	NOUN	_	_	15	det	_	_
-14	گهڻا	گهڻو	ADJ	_	_	15	amod	_	_
-15	ڏينهن	ڏينهن	NOUN	_	_	16	obl	_	_
-16	لڳڻا	_	VERB	_	_	0	root	_	_
-17	ناهن	ناهي	PART	_	_	16	dep	_	SpaceAfter=No
-18	،	،	PUNCT	_	_	16	punct	_	_
+13	ڪي	ڪي	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	15	det	_	_
+14	گهڻا	گهڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+15	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	_
+16	لڳڻا	_	VERB	VM	Aspect=Imp|Number=Plur|VerbForm=FutPart|Voice=Act	0	root	_	_
+17	ناهن	ناهي	PART	PART	_	16	dep	_	SpaceAfter=No
+18	،	،	PUNCT	PUNCT	_	16	punct	_	_
 
 # sent_id = 5379a
 # text = پر اها حڪمران پارٽي، جيڪا هن ديس جي درد جو درمان ڄاڻي پئي،
@@ -5083,38 +5083,38 @@
 
 # sent_id = 5497
 # text = انهن ۾ مرڪن جا گلاب ڪٿان ٽڙندا عبدالواحد، دعا ڪر، بلڪه سڀ دعا ٿا ڪيون ته وري ڪي موسمون موٽن ۽ خريدارن جي فهرست ۾ اسان به اچي سگهون.
-1	انهن	انهي	PRON	_	_	7	obl	_	_
-2	۾	۾	ADP	_	_	1	case	_	_
-3	مرڪن	_	NOUN	_	_	5	nmod	_	_
-4	جا	جو	ADP	_	_	3	case	_	_
-5	گلاب	_	NOUN	_	_	7	nsubj	_	_
-6	ڪٿان	ڪٿي	ADV	_	_	7	advmod	_	_
-7	ٽڙندا	_	VERB	_	_	11	advcl	_	_
-8	عبدالواحد	_	PROPN	_	_	11	nsubj	_	SpaceAfter=No
-9	،	،	PUNCT	_	_	11	punct	_	_
-10	دعا	_	NOUN	_	_	11	compound	_	_
-11	ڪر	ڪر	VERB	_	_	0	root	_	SpaceAfter=No
-12	،	،	PUNCT	_	_	11	punct	_	_
-13	بلڪه	بلڪه	ADV	_	_	17	advmod	_	_
-14	سڀ	سڀ	ADJ	_	_	17	nsubj	_	_
-15	دعا	_	NOUN	_	_	17	xcomp	_	_
-16	ٿا	ٿو	AUX	_	_	17	aux	_	_
-17	ڪيون	ڪيو	VERB	_	_	11	advcl	_	_
-18	ته	ته	SCONJ	_	_	22	mark	_	_
-19	وري	وري	ADV	_	_	22	advmod	_	_
-20	ڪي	ڪي	NOUN	_	_	21	det	_	_
-21	موسمون	_	NOUN	_	_	22	nsubj	_	_
-22	موٽن	_	VERB	_	_	17	advcl	_	_
-23	۽	۽	CCONJ	_	_	30	cc	_	_
-24	خريدارن	_	NOUN	_	_	26	nmod	_	_
-25	جي	جي	ADP	_	_	24	case	_	_
-26	فهرست	_	NOUN	_	_	30	obl	_	_
-27	۾	۾	ADP	_	_	26	case	_	_
-28	اسان	اسين	PRON	_	_	30	nsubj	_	_
-29	به	به	PART	_	_	28	advmod:emph	_	_
-30	اچي	اچ	VERB	_	_	22	conj	_	_
-31	سگهون	_	AUX	_	_	30	aux	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	30	punct	_	_
+1	انهن	ان	DET	PRD	Case=Acc|Number=Plur	7	obl	_	_
+2	۾	۾	ADP	PSPL	_	1	case	_	_
+3	مرڪن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_
+4	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	3	case	_	_
+5	گلاب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	ڪٿان	ڪٿي	ADV	ADP	_	7	advmod	_	_
+7	ٽڙندا	_	VERB	VM	Gender=Masc|Number=Plur|VerbForm=PresPart	11	advcl	_	_
+8	عبدالواحد	_	PROPN	NNP	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No
+9	،	،	PUNCT	PUNCT	_	11	punct	_	_
+10	دعا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	compound	_	_
+11	ڪر	ڪر	VERB	VM	Number=Sing|Person=1	0	root	_	SpaceAfter=No
+12	،	،	PUNCT	PUNCT	_	11	punct	_	_
+13	بلڪه	بلڪه	ADV	ADT	_	17	advmod	_	_
+14	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur	17	nsubj	_	_
+15	دعا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	xcomp	_	_
+16	ٿا	ٿو	AUX	VAUX	Number=Plur|Tense=Pres	17	aux	_	_
+17	ڪيون	ڪيو	VERB	VM	Aspect=Perf|Number=Plur|Person=3	11	advcl	_	_
+18	ته	ته	SCONJ	CS	_	22	mark	_	_
+19	وري	وري	ADV	ADM	_	22	advmod	_	_
+20	ڪي	ڪي	DET	PRD	Case=Nom|Gender=Masc|Number=Plur	21	det	_	_
+21	موسمون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
+22	موٽن	_	VERB	VM	Aspect=Perf|Number=Plur|Person=3	17	advcl	_	_
+23	۽	۽	CCONJ	CC	_	30	cc	_	_
+24	خريدارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	26	nmod	_	_
+25	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	24	case	_	_
+26	فهرست	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obl	_	_
+27	۾	۾	ADP	PSPL	_	26	case	_	_
+28	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	30	nsubj	_	_
+29	به	به	PART	PART	_	28	advmod:emph	_	_
+30	اچي	اچ	VERB	VM	Aspect=Imp|Voice=Act	22	conj	_	_
+31	سگهون	سگه	VERB	VM	Aspect=Imp|Number=Plur	30	compound	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	30	punct	_	_
 
 # sent_id = 5498
 # text = محترمه ڪلثوم عنايت صاحبه لکيو ”پنهنجو پاڻ مان نٿا نڪرو اوهان، ٿورو ٻاهر نڪرو، دنيا کي ڏسو، زندگي رڳو ائين به ناهي جيئن اوهان کي ڏسڻ ۾ اچي ٿي.
