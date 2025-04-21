@@ -378,9 +378,9 @@
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
 5	پر	پر	SCONJ	CS	_	9	mark	_	_
 6	سوال	سوال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-7	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	9	det	_	_
+7	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
 8	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	9	aux	_	_
-9	پيدا	پيدا	ADJ	JJ	Case=Nom	3	det	_	_
+9	پيدا	پيدا	ADJ	JJ	Case=Nom	3	ccomp	_	_
 10	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	9	compound	_	_
 11	ته	ته	SCONJ	CS	_	22	mark	_	_
 12	ملڪ	ملڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
@@ -392,7 +392,7 @@
 18	جرنلن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
 19	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
 20	تي	تي	ADP	PSPL	_	19	case	_	_
-21	حڪومت	حڪومت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	xcomp	_	_
+21	حڪومت	حڪومت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	compound	_	_
 22	ڪئي	ڪئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	9	advcl	_	_
 23	ڇا	ڇا	PRON	PRWH	_	32	obl	_	_
 24	انهن	ان	DET	PRD	Case=Acc|Number=Plur	25	det	_	_
@@ -6574,7 +6574,7 @@
 13	تبصري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nmod	_	_
 14	نگارن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	obj	_	_
 15	۽	۽	CCONJ	CC	_	18	cc	_	_
-16	انهن	ان	DET	PRD	Case=Acc|Number=Plur	18	det	_	_
+16	انهن	ان	DET	PRD	Case=Acc|Number=Plur	18	nmod	_	_
 17	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	16	case	_	_
 18	ناظرين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	conj	_	_
 19	پاران	پاران	ADP	PSPL	_	18	case	_	_
@@ -6994,11 +6994,11 @@
 # sent_id = 4026
 # text = ان مان هڪ نتيجو اهو پڻ ڪڍيو ويو آهي ته انهن ملڪن ۾ ٿيندڙ خودڪش حملن ۾ وڌ کان وڌ مذهب بجاءِ سياسي بنيادن تي ٿيل خودڪش حملي آورن جي باري ۾ عام خيال اهو آهي ته هو مذهب جي آڙ ۾ ٿين ٿا پر اصل صورتحال اها آهي ته گهڻو ڪري خودڪش حملن جي پويان سياست ڪارن جو هٿ هو.
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	7	obl	_	_
-2	مان	مان	ADP	PSPL	_	7	mark	_	_
+2	مان	مان	ADP	PSPL	_	1	mark	_	_
 3	هڪ	هڪ	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	4	nummod	_	_
 4	نتيجو	نتيجو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-5	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	7	det	_	_
-6	پڻ	پڻ	PART	PART	_	5	dep	_	_
+5	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+6	پڻ	پڻ	PART	PART	_	5	advmod:emph	_	_
 7	ڪڍيو	ڪڍ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 8	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	7	compound	_	_
 9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	7	aux	_	_
@@ -7908,7 +7908,7 @@
 # sent_id = 4067
 # text = شرط رڳو اهو آهي ته پس منظر جون ٻه چار بنيادي حقيقتون معلوم هجن.
 1	شرط	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	رڳو	_	VERB	VM	Aspect=Imp	3	amod	_	_
+2	رڳو	_	ADJ	JJ	Case=Nom	3	amod	_	_
 3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
 5	ته	ته	SCONJ	CS	_	14	mark	_	_
@@ -7920,7 +7920,7 @@
 11	بنيادي	بنياد	ADJ	JJ	Case=Nom|Degree=Pos	12	amod	_	_
 12	حقيقتون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
 13	معلوم	_	ADJ	JJ	Case=Nom|Degree=Pos	14	compound	_	_
-14	هجن	هجي	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	3	det	_	SpaceAfter=No
+14	هجن	هجي	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	3	ccomp	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	14	punct	_	_
 
 # sent_id = 4068
@@ -7984,9 +7984,9 @@
 # sent_id = 4071
 # text = فرق رڳو اهو آهي ته آئرلينڊ جي ڪجهه زمين تي جيڪا 20 سيڪڙو کن هوندي،
 1	فرق	فرق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	رڳو	رڳو	ADV	ADV	_	3	amod	_	_
+2	رڳو	رڳو	ADJ	JJ	Case=Nom	3	amod	_	_
 3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	aux	_	_
+4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
 5	ته	ته	SCONJ	CS	_	15	mark	_	_
 6	آئرلينڊ	آئرلينڊ	PROPN	NNP	Case=Nom|Gender=Masc	9	nmod	_	_
 7	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	6	case	_	_
@@ -7997,7 +7997,7 @@
 12	20	20	NUM	NUM	_	13	nummod	_	_
 13	سيڪڙو	سيڪڙو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
 14	کن	کن	ADP	PSPL	_	13	case	_	_
-15	هوندي	هوندي	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	3	det	_	SpaceAfter=No
+15	هوندي	هوندي	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	3	ccomp	_	SpaceAfter=No
 16	،	،	PUNCT	PUNCT	_	15	punct	_	_
 
 # sent_id = 4073
@@ -9390,18 +9390,18 @@
 35	زال	زال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	obj	_	_
 36	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	35	cop	_	_
 37	۽	۽	CCONJ	CC	_	49	cc	_	_
-38	هن	هن	DET	PRD	Case=Acc|Number=Sing	40	det	_	_
+38	هن	هن	DET	PRD	Case=Acc|Number=Sing	49	obl	_	_
 39	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	38	case	_	_
-40	چٻري	چٻرو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	nmod	_	_
+40	چٻري	چٻرو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	49	obl	_	_
 41	سان	سان	ADP	PSP	_	40	case	_	_
 42	ڪنهن	ڪنهن	DET	PRD	Case=Acc|Number=Sing	44	det	_	_
 43	به	به	PART	PART	_	42	advmod:emph	_	_
 44	قسم	قسم	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	46	nmod	_	_
 45	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	44	case	_	_
-46	واسطو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	50	nsubj	_	_
+46	واسطو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	conj	_	_
 47	يا	يا	CCONJ	CC	_	49	cc	_	_
 48	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	49	det	_	_
-49	تعلق	تعلق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	conj	_	_
+49	تعلق	تعلق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	46	conj	_	_
 50	ناهي	ناهي	AUX	VAUX	Number=Sing|Tense=Pres	49	cop	_	SpaceAfter=No
 51	.	.	PUNCT	PUNCT	_	35	punct	_	_
 
@@ -9718,7 +9718,7 @@
 10	سڙي	سڙي	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 11	رهيا	ره	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	10	compound	_	_
 12	آهيون	آهي	AUX	VAUX	Number=Plur|Tense=Pres	10	aux	_	_
-13	اسان	اسان	DET	PRD	Case=Acc|Number=Plur	17	det	_	_
+13	اسان	اسان	DET	PRD	Case=Acc|Number=Plur	17	obl	_	_
 14	وٽ	وٽ	ADP	PSPL	_	13	case	_	_
 15	مسئلن	مسئلو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
 16	کي	کي	ADP	PSP	_	15	case	_	_
@@ -10431,8 +10431,8 @@
 
 # sent_id = 4218a
 # text = اهڙو ئي اتساهه انهن ٻارن هڪ ڀيرو ٻيهر ڏنو آهي.
-1	اهڙو	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
-2	ئي	ئي	ADP	PSP	_	1	dep	_	_
+1	اهڙو	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+2	ئي	ئي	ADP	PSP	_	1	advmod:emph	_	_
 3	اتساهه	اتساهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 4	انهن	ان	DET	PRD	Case=Acc|Number=Plur	5	det	_	_
 5	ٻارن	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	obl	_	_
@@ -10682,7 +10682,7 @@
 
 # sent_id = 4237
 # text = انهيءَ جو اهو ڪارڻ ناهي ڇا ته مصنفن بائيبل جي آکاڻين ۾، آدم لاءِ حوا کي جنم ڏنو؟
-1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	4	det	_	_
+1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	4	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
 4	ڪارڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -12498,7 +12498,7 @@
 20	يا	يا	CCONJ	CC	_	25	cc	_	_
 21	نه	نه	PART	PART	_	25	dep	_	SpaceAfter=No
 22	،	،	PUNCT	PUNCT	_	25	punct	_	_
-23	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	25	det	_	_
+23	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	25	obl	_	_
 24	تي	تي	ADP	PSPL	_	23	case	_	_
 25	بحث	بحث	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
 26	ناهي	ناهي	AUX	VAUX	Number=Sing|Tense=Pres	25	cop	_	_
@@ -12550,8 +12550,8 @@
 # sent_id = 4354
 # text = جنهن جو ثبوت اهو آهي ته اسان جي سنڌي ادب جي شروعات ئي ترجمن سان ٿي ۽ انهن ترجمن مان اُتساهه وٺي اڄ اسان جو ادب اُتي بيٺو آهي،
 1	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
-2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
-3	ثبوت	ثبوت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
+3	ثبوت	ثبوت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 5	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
 6	ته	ته	SCONJ	CS	_	14	mark	_	_
