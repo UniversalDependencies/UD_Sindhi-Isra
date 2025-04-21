@@ -1865,7 +1865,8 @@
 
 # sent_id = Kawish-20100810-527
 # text = جا ڏاڍي ڀلي ٿي .
-1	جا	_	PRON	PRP	Case=Gen|Number=Plur	3	nsubj	_	_
+# First word is a PRON exception
+1	جا	_	PRON	PRL	Case=Nom|Number=Sing|Gender=Fem	3	nsubj	_	_
 2	ڏاڍي	ڏاڍي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	ڀلي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 4	ٿي	ٿي	AUX	VAUX	AuxType=Be|Gender=Fem|Number=Sing	3	cop	_	_
