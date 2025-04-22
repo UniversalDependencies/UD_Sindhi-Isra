@@ -235,6 +235,23 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     print("BLANK FEAT ERRORS")
                 print("Sentence %s (%d) word %d had blank features" % (sent.sent_id, sent_idx, word_idx))
 
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word.deprel == 'advmod:emph':
+                error = None
+                if word_idx == 0:
+                    error = "Sentence %s (%d) word %d (line %d) had an advmod:emph at the start of the sentence" % (sent.sent_id, sent_idx, word.id, word.line_number)
+                #elif word.head != word_idx
+                #    error = "Sentence %s (%d) word %d (line %d) advmod:emph pointed to %d" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.head)
+                elif word.upos != 'PART':
+                    error = "Sentence %s (%d) word %d |%s| (line %d) advmod:emph head %d had a UPOS of %s" % (sent.sent_id, sent_idx, word.id, word.text, word.line_number, word.head, word.upos)
+                if error is not None:
+                    if printed:
+                        printed = True
+                        print("ADVMOD:EMPH ERRORS")
+                    print(error)
+
     if check_feats:
         printed = False
         for sent_idx, sent in enumerate(new_doc.sentences):
