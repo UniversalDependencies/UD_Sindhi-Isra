@@ -272,6 +272,14 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                                 printed = True
                                 print("FEATURE ERRORS")
                             print("Sentence %s (%d) word %d |%s| (line %d) had Case=%s but an xpos %s which is not allowed to have Case" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, feat_map['Case'], word.xpos))
+                if word.upos == 'VERB':
+                    feat_map = {x: y for x, y in [x.split("=", maxsplit=2) for x in feat_pieces]}
+                    if 'VerbForm' in feat_map and feat_map['VerbForm'] == 'Inf':
+                        if feat_map.get('Aspect') != 'Imp':
+                            if not printed:
+                                printed = True
+                                print("FEATURE ERRORS")
+                            print("Sentence %s (%d) word %d |%s| (line %d) had VerbForm=Inf but an Aspect=%s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, feat_map.get('Aspect')))
 
 
     return problem_sentences
