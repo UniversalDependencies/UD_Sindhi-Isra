@@ -55,17 +55,17 @@
 # sent_id = 4
 # text = جو ٻار ٻولي جي سکيا حاصل ڪري لفظ اچاري ٿو .
 # at 1 جو is a DET.
-1	جو	جو	DET	PRD	Number=Sing	2	det	_	_
-2	ٻار	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-3	ٻولي	ٻولي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
-4	جي	جي	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing|Type=Gen	3	case	_	_
-5	سکيا	سکيو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	_
-6	حاصل	حاصل	NOUN	NN	Case=Nom|Number=Sing	7	compound	_	_
-7	ڪري	ڪر	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=ConjPart|Voice=Act	9	advcl	_	_
-8	لفظ	لفظ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
-9	اچاري	اچار	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
-10	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	9	aux	_	_
-11	.	.	PUNCT	PUNCT	_	9	punct	_	_
+1	جو	جو	DET	_	_	2	det	_	_
+2	ٻار	ٻار	NOUN	_	_	9	nsubj	_	_
+3	ٻولي	ٻولي	NOUN	_	_	5	nmod	_	_
+4	جي	جي	ADP	_	_	3	case	_	_
+5	سکيا	سکيو	NOUN	_	_	7	obj	_	_
+6	حاصل	حاصل	NOUN	_	_	7	compound	_	_
+7	ڪري	ڪر	VERB	_	_	9	advcl	_	_
+8	لفظ	لفظ	NOUN	_	_	9	obj	_	_
+9	اچاري	اچار	VERB	_	_	0	root	_	_
+10	ٿو	ٿو	AUX	_	_	9	aux	_	_
+11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 5
 # text = تڏهن سندس والدين جا تمام جا تمام ٿڪ دور ٿي وڃن ٿا.
@@ -86,7 +86,7 @@
 # sent_id = 6
 # text = ۽ ان کي سکيا ڏيارڻ لاءِ والدين ڀرپور ڪوشش ڪندا آهن.
 1	۽	۽	CCONJ	_	_	10	cc	_	_
-2	ان	ان	DET	PRD	_	5	obj	_	_
+2	ان	ان	DET	_	_	5	obj	_	_
 3	کي	کي	ADP	_	_	2	case	_	_
 4	سکيا	سکيو	NOUN	_	_	5	obj	_	_
 5	ڏيارڻ	_	VERB	_	_	10	advcl	_	_
@@ -311,21 +311,21 @@
 
 # sent_id = 21
 # text = جهڙي طرح ڪنهن به عمارت کي جوڙڻ لاءِ ان عمارت جو بنياد اهم آهي .
-1	جهڙي	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
-2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obl	_	_
-3	ڪنهن	ڪو	PRON	PRWH	Case=Acc|Number=Sing	7	obl	_	_
-4	به	به	PART	PART	_	3	advmod:emph	_	_
-5	عمارت	عمارت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
-6	کي	کي	ADP	PSP	_	5	case	_	_
-7	جوڙڻ	جوڙ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
-8	لاءِ	لاءِ	ADP	PSP	_	7	mark	_	_
-9	ان	ان	DET	PRD	Case=Acc|Number=Sing	10	det	_	_
-10	عمارت	عمارت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
-11	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	10	case	_	_
-12	بنياد	بنياد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-13	اهم	اهم	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	advcl	_	_
-14	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	13	cop	_	_
-15	.	.	PUNCT	PUNCT	_	13	punct	_	_
+1	جهڙي	_	DET	_	_	2	det	_	_
+2	طرح	طرح	NOUN	_	_	7	obl	_	_
+3	ڪنهن	ڪو	PRON	_	_	7	obl	_	_
+4	به	به	PART	_	_	3	advmod:emph	_	_
+5	عمارت	عمارت	NOUN	_	_	7	obj	_	_
+6	کي	کي	ADP	_	_	5	case	_	_
+7	جوڙڻ	جوڙ	VERB	_	_	0	root	_	_
+8	لاءِ	لاءِ	ADP	_	_	7	mark	_	_
+9	ان	ان	DET	_	_	10	det	_	_
+10	عمارت	عمارت	NOUN	_	_	12	nmod	_	_
+11	جو	جو	ADP	_	_	10	case	_	_
+12	بنياد	بنياد	NOUN	_	_	13	nsubj	_	_
+13	اهم	اهم	ADJ	_	_	7	advcl	_	_
+14	آهي	آهي	AUX	_	_	13	cop	_	_
+15	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 22
 # text = اهڙي نموني ٻار کي به ڪنهن ملڪ يا سماج لاءِ اهم سمجهيو وڃي ٿو.
@@ -582,28 +582,28 @@
 
 # sent_id = 38
 # text = ان صلاحيت جي بنياد تي پنهنجي قوم ۽ ملڪ لاءِ ڪي نيون ايجادون ۽ نت نوان طريقا دريافت ڪري وٺي ٿو .
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
-2	صلاحيت	صلاحيت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
-3	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
-4	بنياد	بنياد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
-5	تي	تي	ADP	PSPL	_	4	case	_	_
-6	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	7	nmod	_	_
-7	قوم	قوم	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	obl	_	_
-8	۽	۽	CCONJ	CC	_	9	cc	_	_
-9	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	conj	_	_
-10	لاءِ	لاءِ	ADP	PSPL	_	7	case	_	_
-11	ڪي	ڪي	DET	PRD	Case=Nom|Number=Plur	12	det	_	_
-12	نيون	نيون	ADJ	JJ	Case=Nom|Gender=Fem|Number=Plur	13	nmod	_	_
-13	ايجادون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	obj	_	_
-14	۽	۽	CCONJ	CC	_	17	cc	_	_
-15	نت	_	ADV	ADT	_	17	nmod	_	_
-16	نوان	نئون	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
-17	طريقا	طريقو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	conj	_	_
-18	دريافت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	compound	_	_
-19	ڪري	ڪر	VERB	VM	Aspect=Perf|Number=Sing|Person=3|Voice=Act	0	root	_	_
-20	وٺي	وٺ	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres|Voice=Act	19	compound	_	_
-21	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Pres	19	aux	_	_
-22	.	.	PUNCT	PUNCT	_	19	punct	_	_
+1	ان	ان	DET	_	_	2	det	_	_
+2	صلاحيت	صلاحيت	NOUN	_	_	4	nmod	_	_
+3	جي	جي	ADP	_	_	2	case	_	_
+4	بنياد	بنياد	NOUN	_	_	19	obl	_	_
+5	تي	تي	ADP	_	_	4	case	_	_
+6	پنهنجي	پنهنجي	PRON	_	_	7	nmod	_	_
+7	قوم	قوم	NOUN	_	_	19	obl	_	_
+8	۽	۽	CCONJ	_	_	9	cc	_	_
+9	ملڪ	ملڪ	NOUN	_	_	7	conj	_	_
+10	لاءِ	لاءِ	ADP	_	_	7	case	_	_
+11	ڪي	ڪي	DET	_	_	12	det	_	_
+12	نيون	نيون	ADJ	_	_	13	nmod	_	_
+13	ايجادون	_	NOUN	_	_	19	obj	_	_
+14	۽	۽	CCONJ	_	_	17	cc	_	_
+15	نت	_	ADV	_	_	17	nmod	_	_
+16	نوان	نئون	ADJ	_	_	17	amod	_	_
+17	طريقا	طريقو	NOUN	_	_	13	conj	_	_
+18	دريافت	_	NOUN	_	_	19	compound	_	_
+19	ڪري	ڪر	VERB	_	_	0	root	_	_
+20	وٺي	وٺ	VERB	_	_	19	compound	_	_
+21	ٿو	ٿو	AUX	_	_	19	aux	_	_
+22	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = 39
 # text = جيئن ڪنهن به سماج جي واڌاري ۽ ان جي بقا لاءِ نسل جي واڌ ضروري هوندي آهي.
@@ -800,7 +800,7 @@
 3	ادب	ادب	NOUN	_	_	5	nmod	_	_
 4	مان	مان	ADP	_	_	3	case	_	_
 5	مراد	مراد	NOUN	_	_	8	nmod	_	_
-6	هر	هر	DET	PRD	_	8	det	_	_
+6	هر	هر	DET	_	_	8	det	_	_
 7	اهو	اهو	DET	_	_	8	det	_	_
 8	ادب	ادب	NOUN	_	_	13	nsubj	_	_
 9	جيڪو	_	ADP	_	_	8	case	_	_
@@ -814,7 +814,7 @@
 
 # sent_id = 52
 # text = ان کي ئي ٻاراڻو ادب ڪوٺڻ گهرجي.
-1	ان	ان	DET	PRD	_	7	obj	_	_
+1	ان	ان	DET	_	_	7	obj	_	_
 2	کي	کي	ADP	_	_	1	case	_	_
 3	ئي	ئي	PART	_	_	2	advmod:emph	_	_
 4	ٻاراڻو	ٻاراڻو	ADJ	_	_	5	amod	_	_
@@ -872,7 +872,7 @@
 
 # sent_id = 57
 # text = هر اهو ادب جيڪو ٻارن واسطي لکيو ويو هجي.
-1	هر	هر	DET	PRD	_	3	det	_	_
+1	هر	هر	DET	_	_	3	det	_	_
 2	اهو	اهو	DET	_	_	3	det	_	_
 3	ادب	ادب	NOUN	_	_	7	nsubj	_	_
 4	جيڪو	جيڪو	DET	_	_	5	det	_	_
@@ -945,7 +945,7 @@
 # sent_id = 62
 # text = جڏهن ته محترم امداد حسينيءَ ڪتاب اڌوري تصوير جي مهاڳ ۾ هن نموني ذڪر ڪري ٿو.
 1	جڏهن	جڏهن	ADV	_	_	15	advmod	_	_
-2	ته	ته	PART	PART	_	1	advmod:emph	_	_
+2	ته	ته	PART	_	_	1	advmod:emph	_	_
 3	محترم	_	ADJ	_	_	5	amod	_	_
 4	امداد	_	PROPN	_	_	5	compound	_	_
 5	حسينيءَ	_	NOUN	_	_	15	nsubj	_	_
@@ -985,7 +985,7 @@
 
 # sent_id = 65
 # text = ان ۾ اهڙي شاعري به هئي.
-1	ان	ان	DET	PRD	_	4	nmod	_	_
+1	ان	ان	DET	_	_	4	nmod	_	_
 2	۾	۾	ADP	_	_	1	case	_	_
 3	اهڙي	اهڙو	DET	_	_	4	det	_	_
 4	شاعري	شاعري	NOUN	_	_	0	root	_	_
@@ -1085,11 +1085,11 @@
 # sent_id = 74
 # text = ته ان جي عقل تي ته ماتم ئي ڪري سگهجي ٿو.
 1	ته	ته	SCONJ	_	_	9	mark	_	_
-2	ان	ان	DET	PRD	_	4	nmod	_	_
+2	ان	ان	DET	_	_	4	nmod	_	_
 3	جي	جي	ADP	_	_	2	case	_	_
 4	عقل	عقل	NOUN	_	_	9	obl	_	_
 5	تي	تي	ADP	_	_	4	case	_	_
-6	ته	ته	PART	PART	_	4	advmod:emph	_	_
+6	ته	ته	PART	_	_	4	advmod:emph	_	_
 7	ماتم	_	NOUN	_	_	9	compound	_	_
 8	ئي	ئي	ADP	_	_	7	case	_	_
 9	ڪري	ڪر	VERB	_	_	0	root	_	_
@@ -1111,7 +1111,7 @@
 # sent_id = 76
 # text = ۽ ان مطابق اهو نتيجو نڪري ٿو.
 1	۽	۽	CCONJ	_	_	6	cc	_	_
-2	ان	ان	DET	PRD	_	6	obl	_	_
+2	ان	ان	DET	_	_	6	obl	_	_
 3	مطابق	مطابق	ADP	_	_	2	case	_	_
 4	اهو	اهو	DET	_	_	5	det	_	_
 5	نتيجو	نتيجو	NOUN	_	_	6	nsubj	_	_
@@ -1121,16 +1121,16 @@
 
 # sent_id = 77
 # text = ته هر اهو ادب جنهن ۾ ٻار ڪردار آهي .
-1	ته	ته	SCONJ	CS	_	8	mark	_	_
-2	هر	هر	DET	PRD	Number=Sing	4	det	_	_
-3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
-4	ادب	ادب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	acl:relcl	_	_
-5	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
-6	۾	۾	ADP	PSP	Type=Loc	5	case	_	_
-7	ٻار	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-8	ڪردار	ڪردار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	cop	_	_
-10	.	.	PUNCT	PUNCT	_	8	punct	_	_
+1	ته	ته	SCONJ	_	_	8	mark	_	_
+2	هر	هر	DET	_	_	4	det	_	_
+3	اهو	اهو	DET	_	_	4	det	_	_
+4	ادب	ادب	NOUN	_	_	8	acl:relcl	_	_
+5	جنهن	جنهن	PRON	_	_	8	nmod	_	_
+6	۾	۾	ADP	_	_	5	case	_	_
+7	ٻار	ٻار	NOUN	_	_	8	nsubj	_	_
+8	ڪردار	ڪردار	NOUN	_	_	0	root	_	_
+9	آهي	آهي	AUX	_	_	8	cop	_	_
+10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 78
 # text = اهو ٻاراڻو ادب نه آهي.
@@ -1144,7 +1144,7 @@
 # sent_id = 79
 # text = بلڪه هر اهو ادب جيڪو ٻارن جي ذهنيت مطابق، سندن وندر، دلچسپيءَ جو باعث بڻجي.
 1	بلڪه	بلڪه	SCONJ	_	_	15	mark	_	_
-2	هر	هر	DET	PRD	_	4	det	_	_
+2	هر	هر	DET	_	_	4	det	_	_
 3	اهو	اهو	DET	_	_	4	det	_	_
 4	ادب	ادب	NOUN	_	_	15	nsubj	_	_
 5	جيڪو	جيڪو	PRON	_	_	4	nmod	_	_

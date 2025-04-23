@@ -115,20 +115,20 @@
 
 # sent_id = 10
 # text = جڏهن ته ٻاراڻو مان مراد ٻارن جو ٻار جهڙو ناداني وارو ڪم آهي.
-1	جڏهن	جڏهن	ADV	ADT	_	12	advmod	_	_
-2	ته	ته	PART	PART	_	1	advmod:emph	_	_
-3	ٻاراڻو	ٻاراڻو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	5	amod	_	_
-4	مان	مان	ADP	PSP	_	3	case	_	_
-5	مراد	مراد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
-6	ٻارن	ٻار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
-7	جو	جو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	6	case	_	_
-8	ٻار	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
-9	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Plur	10	nmod	_	_
-10	ناداني	نادان	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
-11	وارو	وارو	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Type=Gen	10	case	_	_
-12	ڪم	ڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-13	آهي	آهي	AUX	VAUX	Number=Plur|Tense=Pres	12	cop	_	SpaceAfter=No
-14	.	.	PUNCT	PUNCT	_	12	punct	_	_
+1	جڏهن	جڏهن	ADV	_	_	12	advmod	_	_
+2	ته	ته	PART	_	_	1	advmod:emph	_	_
+3	ٻاراڻو	ٻاراڻو	ADJ	_	_	5	amod	_	_
+4	مان	مان	ADP	_	_	3	case	_	_
+5	مراد	مراد	NOUN	_	_	12	nsubj	_	_
+6	ٻارن	ٻار	NOUN	_	_	8	nmod	_	_
+7	جو	جو	ADP	_	_	6	case	_	_
+8	ٻار	ٻار	NOUN	_	_	10	nmod	_	_
+9	جهڙو	جهڙو	PRON	_	_	10	nmod	_	_
+10	ناداني	نادان	ADJ	_	_	12	nmod	_	_
+11	وارو	وارو	ADP	_	_	10	case	_	_
+12	ڪم	ڪم	NOUN	_	_	0	root	_	_
+13	آهي	آهي	AUX	_	_	12	cop	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 11
 # text = لفظ اَدَبُ جي لفظي معنيٰ آهي.
@@ -265,7 +265,7 @@
 
 # sent_id = 20
 # text = ان کي ٻاراڻو ادب چئجي ٿو.
-1	ان	ان	DET	PRD	_	5	obj	_	_
+1	ان	ان	DET	_	_	5	obj	_	_
 2	کي	کي	ADP	_	_	1	case	_	_
 3	ٻاراڻو	ٻاراڻو	ADJ	_	_	4	amod	_	_
 4	ادب	ادب	NOUN	_	_	5	nsubj	_	_
@@ -348,7 +348,7 @@
 
 # sent_id = 26
 # text = ان جو سبب انهن جاندارن جي نسل جي واڌ نه ٿيڻ آهي.
-1	ان	ان	DET	PRD	_	3	nmod	_	_
+1	ان	ان	DET	_	_	3	nmod	_	_
 2	جو	جو	ADP	_	_	1	case	_	_
 3	سبب	سبب	NOUN	_	_	11	nsubj	_	_
 4	انهن	ان	DET	_	_	5	det	_	_
@@ -377,29 +377,29 @@
 
 # sent_id = 28
 # text = جن ۾ ڊائنوسورز وغيره اچي وڃن ٿا.
-1	جن	جي	PRON	PRP	Case=Acc|Number=Plur|Person=3	5	obl	_	_
-2	۾	۾	ADP	PSP	Type=Loc	1	case	_	_
-3	ڊائنوسورز	ڊائنوسار	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
-4	وغيره	وغيره	PART	PART	_	3	dep	_	_
-5	اچي	اچ	VERB	VM	Aspect=Imp	0	root	_	_
-6	وڃن	وڃ	VERB	VM	Number=Plur|Person=3	5	compound	_	_
-7	ٿا	ٿو	AUX	VAUX	Number=Plur|Tense=Pres	5	aux	_	SpaceAfter=No
-8	.	.	PUNCT	PUNCT	_	5	punct	_	_
+1	جن	جي	PRON	_	_	5	obl	_	_
+2	۾	۾	ADP	_	_	1	case	_	_
+3	ڊائنوسورز	ڊائنوسار	NOUN	_	_	5	nsubj	_	_
+4	وغيره	وغيره	PART	_	_	3	dep	_	_
+5	اچي	اچ	VERB	_	_	0	root	_	_
+6	وڃن	وڃ	VERB	_	_	5	compound	_	_
+7	ٿا	ٿو	AUX	_	_	5	aux	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 29
 # text = جهڙي ريت هر جاندار جي نسل جي واڌ ويجهه ضروري آهي.
-1	جهڙي	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
-2	ريت	ريت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	_
-3	هر	هر	DET	PRD	Case=Nom|Number=Sing	4	det	_	_
-4	جاندار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
-5	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
-6	نسل	نسل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
-7	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
-8	واڌ	واڌ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-9	ويجهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	compound	_	_
-10	ضروري	ضروري	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
-11	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	10	cop	_	SpaceAfter=No
-12	.	.	PUNCT	PUNCT	_	10	punct	_	_
+1	جهڙي	_	DET	_	_	2	det	_	_
+2	ريت	ريت	NOUN	_	_	10	obl	_	_
+3	هر	هر	DET	_	_	4	det	_	_
+4	جاندار	_	NOUN	_	_	6	nmod	_	_
+5	جي	جي	ADP	_	_	4	case	_	_
+6	نسل	نسل	NOUN	_	_	8	nmod	_	_
+7	جي	جي	ADP	_	_	6	case	_	_
+8	واڌ	واڌ	NOUN	_	_	10	nsubj	_	_
+9	ويجهه	_	NOUN	_	_	8	compound	_	_
+10	ضروري	ضروري	ADJ	_	_	0	root	_	_
+11	آهي	آهي	AUX	_	_	10	cop	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 30
 # text = اهڙي طرح انساني نسل لاءِ به پيدائش جو سلسلو جاري رکڻ ضروري آهي.
@@ -617,7 +617,7 @@
 
 # sent_id = 44
 # text = ان ڪري ئي ٻاراڻو ادب تخليق ٿيو.
-1	ان	ان	DET	PRD	_	2	case	_	_
+1	ان	ان	DET	_	_	2	case	_	_
 2	ڪري	ڪري	ADP	_	_	7	advcl	_	_
 3	ئي	ئي	PART	_	_	2	mark	_	_
 4	ٻاراڻو	ٻاراڻو	ADJ	_	_	5	amod	_	_
