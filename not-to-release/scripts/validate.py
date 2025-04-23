@@ -242,8 +242,8 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 error = None
                 if word_idx == 0:
                     error = "Sentence %s (%d) word %d (line %d) had an advmod:emph at the start of the sentence" % (sent.sent_id, sent_idx, word.id, word.line_number)
-                #elif word.head != word_idx
-                #    error = "Sentence %s (%d) word %d (line %d) advmod:emph pointed to %d" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.head)
+                elif word.head > word.id:
+                    error = "Sentence %s (%d) word %d (line %d) advmod:emph pointed later in the tree, to %d" % (sent.sent_id, sent_idx, word.id, word.line_number, word.head)
                 elif word.upos != 'PART':
                     error = "Sentence %s (%d) word %d |%s| (line %d) advmod:emph head %d had a UPOS of %s" % (sent.sent_id, sent_idx, word.id, word.text, word.line_number, word.head, word.upos)
                 if error is not None:
