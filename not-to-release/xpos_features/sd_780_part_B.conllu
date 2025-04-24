@@ -1775,7 +1775,7 @@
 # text = هيءَ آکاڻي اُتر تعلقي اُٻاوڙي مان فاضل قائمي کان ملي .
 1	هيءَ	هي	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
 2	آکاڻي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-3	اُتر	_	PROPN	NNP	Case=Nom|Gender=Fem	10	nsubj	_	_
+3	اُتر	_	PROPN	NNP	Case=Nom|Gender=Fem	5	nmod	_	_
 4	تعلقي	تعلقو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
 5	اُٻاوڙي	_	PROPN	NNP	Case=Nom|Gender=Masc	10	obl	_	_
 6	مان	مان	ADP	PSPL	_	5	case	_	_
@@ -3735,7 +3735,7 @@
 
 # sent_id = Kawish-20100810-673
 # text = پوءِ گدڙ وري آيو شينهن وٽ ۽ چيائينس ته : شينهن شير خدا جا ،
-1	پوءِ	پوءِ	ADP	PSP	_	4	mark	_	_
+1	پوءِ	پوءِ	ADV	ADP	_	4	advmod	_	_
 2	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	وري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
 4	آيو	آءَ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
@@ -3745,9 +3745,9 @@
 8	چيائينس	_	VERB	VMX	Number=Sing|Number[obj]=Sing|Person=3|Person[obj]=3	4	conj	_	_
 9	ته	ته	SCONJ	CS	_	8	mark	_	_
 10	:	:	PUNCT	PUNCT	_	8	punct	_	_
-11	شينهن	شينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-12	شير	شير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-13	خدا	خدا	PROPN	NNP	Case=Nom|Gender=Masc	8	discourse	_	_
+11	شينهن	شينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	discourse	_	_
+12	شير	شير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+13	خدا	خدا	PROPN	NNP	Case=Nom|Gender=Masc	11	appos	_	_
 14	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	13	case	_	_
 15	،	،	PUNCT	PUNCT	_	4	punct	_	_
 
