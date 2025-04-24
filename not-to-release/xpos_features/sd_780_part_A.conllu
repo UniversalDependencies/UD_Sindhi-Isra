@@ -400,11 +400,11 @@
 24	تيزي	_	NOUN	NN	Case=Acc|Gender=Fem	26	obl	_	_
 25	سان	سان	ADP	PSP	_	24	case	_	_
 26	ٽڪرائجڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	16	advcl	_	_
-27	شروع	شروع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	obl	_	_
-28	ٿي	ٿي	AUX	VAUX	Number=Sing|Person=3|Tense=Pres	26	aux	_	_
-29	ويو	ويو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	28	compound	_	_
-30	آهي	آهي	AUX	VAUX	Number=Sing|Person=3|Tense=Pres	28	aux	_	_
-31	.	.	PUNCT	PUNCT	_	28	punct	_	_
+27	شروع	شروع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	compound	_	_
+28	ٿي	ٿي	AUX	VAUX	Number=Sing|Person=3|Tense=Pres	27	cop	_	_
+29	ويو	ويو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	26	advcl	_	_
+30	آهي	آهي	AUX	VAUX	Number=Sing|Person=3|Tense=Pres	29	aux	_	_
+31	.	.	PUNCT	PUNCT	_	26	punct	_	_
 
 # sent_id = Kawish-20100810-018
 # text = ۽ پاڻي جي رفتار پڻ وڌي وئي آهي ،
@@ -4650,24 +4650,24 @@
 # text = وهڪرن ۾ واڌ کانپوءِ ڪچي توڙي پڪي جي علائقن مان به لڏ پلاڻ جو سلسلو تيز ٿي ويو آهي ،
 1	وهڪرن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
-3	واڌ	واڌ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+3	واڌ	واڌ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
 4	کانپوءِ	کان	ADP	PSP	_	3	case	_	_
 5	ڪچي	ڪچي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
 6	توڙي	توڙي	CCONJ	CC	_	7	cc	_	_
 7	پڪي	پڪو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	_
 8	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	5	case	_	_
-9	علائقن	علائقو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	obl	_	_
+9	علائقن	علائقو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	_
 10	مان	مان	ADP	PSPL	_	9	case	_	_
 11	به	به	PART	PART	_	9	advmod:emph	_	_
 12	لڏ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nmod	_	_
 13	پلاڻ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
 14	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	13	case	_	_
-15	سلسلو	سلسلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
-16	تيز	تيز	ADJ	JJ	Case=Nom|Degree=Pos	18	obl	_	_
-17	ٿي	ٿي	AUX	VAUX	Number=Sing|Tense=Pres	18	aux	_	_
-18	ويو	ويو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	0	root	_	_
+15	سلسلو	سلسلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	تيز	تيز	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
+17	ٿي	ٿي	AUX	VAUX	Number=Sing|Tense=Pres	16	cop	_	_
+18	ويو	ويو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	16	advcl	_	_
 19	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	18	aux	_	_
-20	،	،	PUNCT	PUNCT	_	18	punct	_	_
+20	،	،	PUNCT	PUNCT	_	16	punct	_	_
 
 # sent_id = Kawish-20100810-198
 # text = هوڏانهن وفاقي وزير مخدوم امين فهيم ڪالهه هالا پهچي ڪئمپ قائم ڪري ورتي آهي ،
@@ -5291,7 +5291,7 @@
 8	:	:	PUNCT	PUNCT	_	6	punct	_	_
 9	ڪير	ڪير	PRON	PRP	Case=Nom|Number=Sing	6	ccomp	_	_
 10	آهين	آهي	AUX	VAUX	Number=Sing|Tense=Pres	9	cop	_	_
-11	؟	؟	PUNCT	PUNCT	_	10	punct	_	_
+11	؟	؟	PUNCT	PUNCT	_	9	punct	_	_
 12	شينهڻ	شينهڻ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 13	جواب	جواب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	xcomp	_	_
 14	ڏنس	_	VERB	VMX	Aspect=Perf|Number=Sing|Number[obj]=Sing|Person[obj]=1	6	conj	_	_

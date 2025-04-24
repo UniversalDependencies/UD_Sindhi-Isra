@@ -3684,26 +3684,26 @@
 21	مامري	مامرو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
 22	۾	۾	ADP	PSPL	_	21	case	_	_
 23	چپ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	xcomp	_	_
-24	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+24	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	11	ccomp	_	SpaceAfter=No
 25	،	،	PUNCT	PUNCT	_	24	punct	_	_
-26	جيڪا	جيڪو	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing	35	nsubj	_	_
+26	جيڪا	جيڪو	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing	34	nsubj	_	_
 27	پڻ	پڻ	PART	PART	_	26	dep	_	_
 28	ساڳين	ساڳيو	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	29	amod	_	_
-29	ماڻهن	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	obl	_	_
-30	هٿان	هٿان	ADV	ADP	_	35	advmod	_	_
+29	ماڻهن	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	34	obl	_	_
+30	هٿان	هٿان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	nmod	_	_
 31	ساڳي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	33	amod	_	_
 32	ئي	ئي	ADP	PSP	_	31	case	_	_
-33	زيادتي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	35	obj	_	_
-34	شڪار	شڪار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	35	xcomp	_	_
-35	ٿي	ٿي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	24	advcl	_	_
-36	هئي	هئي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	35	aux	_	_
+33	زيادتي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	34	nmod	_	_
+34	شڪار	شڪار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	advcl	_	_
+35	ٿي	ٿي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	34	cop	_	_
+36	هئي	هئي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	34	aux	_	_
 37	۽	۽	CCONJ	CC	_	41	cc	_	_
 38	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	39	det	_	_
 39	جولاءِ	جولاءِ	PROPN	NNP	Case=Nom|Gender=Masc	41	nmod	_	_
 40	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	39	case	_	_
-41	مهينو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	conj	_	_
+41	مهينو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	conj	_	_
 42	هو	هو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	41	cop	_	SpaceAfter=No
-43	،	،	PUNCT	PUNCT	_	42	punct	_	_
+43	،	،	PUNCT	PUNCT	_	41	punct	_	_
 
 # sent_id = 5421
 # text = جڏهن هيڊ ماستر پاڻ ان ذهني عذاب منجهان گذريو هو.
@@ -4095,7 +4095,7 @@
 
 # sent_id = 5444
 # text = ها، پر رپورٽس ٻڌائين ٿيون ته فيض گنج جي استاد تنظيمن جا همراهه اڃا تائين هيڊ ماستر مان هٿ نٿا ڪڍن.
-1	ها	_	DET	PRD	Case=Nom|Number=Sing	5	aux	_	SpaceAfter=No
+1	ها	_	INTJ	INTJ	_	5	Vocative	_	SpaceAfter=No
 2	،	،	PUNCT	PUNCT	_	1	punct	_	_
 3	پر	پر	SCONJ	CS	_	5	mark	_	_
 4	رپورٽس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -4313,12 +4313,12 @@
 2	وزير	وزير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 3	اعليٰ	اعليٰ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	3	case	_	_
-5	ضلعي	ضلعو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+5	ضلعي	ضلعو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 6	۾	۾	ADP	PSPL	_	5	case	_	_
-7	پروٽيڪشن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+7	پروٽيڪشن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 8	۾	۾	ADP	PSPL	_	7	case	_	_
 9	سڄي	سڄي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
-10	مست	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	compound	_	_
+10	مست	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	acl	_	_
 11	ٿي	ٿي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	10	cop	_	_
 12	ويندڙن	_	VERB	VM	Aspect=Imp|Number=Plur|VerbForm=Vnoun	15	advcl	_	_
 13	کي	کي	ADP	PSP	_	12	mark	_	_
@@ -5342,17 +5342,17 @@
 
 # sent_id = 5510
 # text = ”خواب نگر“ ڪمتريءَ جو سوچي به نٿو سگهي ادي، هي دڪان ڪو عام دڪان ڪونهي،
-1	”	”	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+1	”	”	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	خواب	خواب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
-3	نگر	_	PROPN	NNP	Case=Nom|Gender=Masc	7	nmod	_	SpaceAfter=No
+3	نگر	_	PROPN	NNP	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No
 4	“	“	PUNCT	PUNCT	_	3	punct	_	_
 5	ڪمتريءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 6	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
 7	سوچي	سوچ	VERB	VM	Aspect=Perf	0	root	_	_
 8	به	به	PART	PART	_	7	advmod:emph	_	_
-9	نٿو	نٿو	ADV	ADN	_	7	advmod	_	_
-10	سگهي	سگهي	AUX	VAUX	Number=Sing|Tense=Pres	7	aux	_	_
-11	ادي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	نٿو	نٿو	AUX	VAUX	Number=Sing|Tense=Pres	7	aux	_	_
+10	سگهي	سگهي	VERB	VM	Number=Sing|Tense=Pres	7	compound	_	_
+11	ادي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	discouse	_	SpaceAfter=No
 12	،	،	PUNCT	PUNCT	_	11	punct	_	_
 13	هي	هي	DET	PRD	Case=Nom|Number=Sing	14	det	_	_
 14	دڪان	دڪان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -5360,7 +5360,7 @@
 16	عام	عام	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	17	amod	_	_
 17	دڪان	دڪان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
 18	ڪونهي	ڪونهي	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	17	cop	_	SpaceAfter=No
-19	،	،	PUNCT	PUNCT	_	18	punct	_	_
+19	،	،	PUNCT	PUNCT	_	17	punct	_	_
 
 # sent_id = 5511
 # text = هتي جو وکر جيڪڏهن هر هنڌ ملڻ شروع ٿئي ته پوءِ اسين ائين روح کي ڇو روليون؟ ڇو ايتريون رولاڪيون ڪري، سوچ جي انڊلٺ مان ڪو رنگ چورائي، ڪو ”پيرهن“ اوهان لاءِ آڻيون؟ جيڪڏهن ڳالهه وڌيڪ نه لڳي ته هٿ ٻڌي اهو به عرض ڪجي ته خواب نگر ته ”عاشقي“ آهي ۽ عشق ۾ ”ڪاٽو“ ته ٿي ڪو نه ٿو سگهجي،
@@ -5465,7 +5465,7 @@
 8	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	9	det	_	_
 9	ائين	ائين	PRON	PRL	_	11	nsubj	_	_
 10	بلڪل	بلڪل	ADV	ADP	_	11	advmod	_	_
-11	ٿي	ٿي	VERB	VM	Aspect=Imp|Voice=Act	5	cop	_	_
+11	ٿي	ٿي	VERB	VM	Aspect=Imp|Voice=Act	5	ccomp	_	_
 12	سگهي	سگهي	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	11	compound	_	_
 13	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	11	aux	_	_
 14	ته	ته	SCONJ	CS	_	21	mark	_	_
@@ -5954,14 +5954,14 @@
 4	ڪئي	ڪئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 5	هئائون	_	VERB	VMX	Aspect=Perf|Number[subj]=Plur|Person[subj]=3	4	compound	_	SpaceAfter=No
 6	،	،	PUNCT	PUNCT	_	4	punct	_	_
-7	ها	ها	AUX	VAUX	Number=Sing|Tense=Past	4	aux	_	SpaceAfter=No
+7	ها	ها	INTJ	INTJ	_	12	discourse	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	7	punct	_	_
 9	وزير	وزير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
 10	صاحبه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 11	نه	نه	PART	PART	_	12	dep	_	_
 12	پهتي	پهتو	VERB	VM	Aspect=Perf|Number=Sing	4	advcl	_	SpaceAfter=No
 13	،	،	PUNCT	PUNCT	_	12	punct	_	_
-14	پر	پر	SCONJ	CS	_	12	mark	_	_
+14	پر	پر	SCONJ	CS	_	24	mark	_	_
 15	هن	هن	DET	PRD	Case=Acc|Number=Sing	26	nsubj	_	_
 16	به	به	PART	PART	_	15	advmod:emph	_	_
 17	پنهنجو	پنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	19	nmod	_	_
@@ -6177,9 +6177,9 @@
 1	محبت	محبت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	ڊائري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	هرگز	هرگز	ADV	ADT	_	2	advmod	_	_
-4	نهين	_	PART	PART	_	5	dep	_	_
-5	هي	_	VERB	VM	Aspect=Perf|Number=Sing	2	cop	_	SpaceAfter=No
-6	،	،	PUNCT	PUNCT	_	5	punct	_	_
+4	نهين	_	PART	PART	_	2	dep	_	_
+5	هي	_	AUX	VAUX	Number=Sing|Tense=Pres	2	cop	_	SpaceAfter=No
+6	،	،	PUNCT	PUNCT	_	2	punct	_	_
 7	جس	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	10	obl	_	_
 8	مين	_	ADP	PSP	_	7	case	_	_
 9	تم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -6258,8 +6258,8 @@
 4	دامن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	شل	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	سلامت	سلامت	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
-7	هجي	هجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	6	cop	_	SpaceAfter=No
-8	،	،	PUNCT	PUNCT	_	7	punct	_	_
+7	هجي	هجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	6	compound	_	SpaceAfter=No
+8	،	،	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 5558
 # text = فقير کي خبر آهي ته سندس ڪشڪول ڪڏهن به خالي ڪو نه ٿيندو.
