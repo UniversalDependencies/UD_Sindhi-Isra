@@ -616,24 +616,27 @@
 21	اچو	اچ	VERB	VM	Aspect=Imp|Number=Plur|Person=3	20	compound	_	_
 22	،	،	PUNCT	PUNCT	_	20	punct	_	_
 
-# sent_id = 1375
-# text = جو ماڻهو اُن کان ڊڄن ٿا ! ڏسان ته سهي ته اِها ڪهڙي بلا آهي .
-1	جو	جو	CCONJ	CC	_	2	case	_	_
+# sent_id = 1375a
+# text = جو ماڻهو اُن کان ڊڄن ٿا!
+1	جو	جو	CCONJ	CC	_	5	cc	_	_
 2	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	اُن	اُن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+3	اُن	اُن	DET	PRD	Case=Acc|Number=Sing	5	obl	_	_
 4	کان	کان	ADP	PSP	_	3	case	_	_
 5	ڊڄن	ڊڄ	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	0	root	_	_
-6	ٿا	ٿو	AUX	VAUX	Number=Plur|Tense=Pres	5	aux	_	_
+6	ٿا	ٿو	AUX	VAUX	Number=Plur|Tense=Pres	5	aux	_	SpaceAfter=No
 7	!	!	PUNCT	PUNCT	_	5	punct	_	_
-8	ڏسان	ڏس	VERB	VM	Aspect=Imp|Number=Sing|Person=1	5	conj	_	_
-9	ته	ته	SCONJ	CS	_	14	mark	_	_
-10	سهي	سهي	PART	PART	_	14	advmod	_	_
-11	ته	ته	SCONJ	CS	_	14	mark	_	_
-12	اِها	اِها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
-13	ڪهڙي	ڪهڙو	PRON	PRWH	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
-14	بلا	بلا	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_
-15	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	14	cop	_	_
-16	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 1375b
+# text = ڏسان ته سهي ته اِها ڪهڙي بلا آهي.
+1	ڏسان	ڏس	VERB	VM	Aspect=Imp|Number=Sing|Person=1	0	root	_	_
+2	ته	ته	PART	PART	_	1	dep	_	_
+3	سهي	سهي	PART	PART	_	1	advmod	_	_
+4	ته	ته	SCONJ	CS	_	7	mark	_	_
+5	اِها	اِها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	ڪهڙي	ڪهڙو	PRON	PRWH	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+7	بلا	بلا	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	advcl	_	_
+8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	7	cop	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = 1395
 # text = هيءُ ته شينهن آهي ! پر هاڻي ڪري سو ڪري ڇا ؟ آخر هلندي هلندي ،
