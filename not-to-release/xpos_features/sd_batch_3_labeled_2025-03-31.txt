@@ -2131,7 +2131,7 @@
 10	وٺنداسين	_	VERB	VMX	Aspect=Imp|Gender=Masc|Gender[subj]=Masc|Number=Plur|Number[subj]=Plur|Person=1|Person[subj]=1|VerbForm=PresPart|Voice=Act	0	root	_	SpaceAfter=No
 11	:	:	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 12	نواز	نواز	PROPN	NNP	Case=Nom|Gender=Masc	13	compound	_	_
-13	ليگ	ليگ	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	10	parataxis	_	_
+13	ليگ	_	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	10	parataxis	_	_
 
 # sent_id = 3782
 # text = لاهور/اسلام آباد(آن لائن) پنجاب جي قانون واري وزير ۽ نواز ليگ جي اڳواڻ راڻا ثناءُ الله چيو آهي ته نواز ليگ جو فرينڊلي رويو جمهوريت لاءِ آهي،
@@ -3179,7 +3179,7 @@
 22	مرڪزي	مرڪزي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	23	amod	_	_
 23	اڳواڻ	اڳواڻ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nmod	_	_
 24	۽	۽	CCONJ	CC	_	27	cc	_	_
-25	اڳوڻو	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	27	amod	_	_
+25	اڳوڻو	اڳوڻو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	27	amod	_	_
 26	صوبائي	صوبائي	ADJ	JJ	Case=Nom|Degree=Pos	27	amod	_	_
 27	وزير	وزير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	conj	_	_
 28	غني	غني	PROPN	NNP	Case=Nom|Gender=Masc	29	compound	_	_
@@ -7908,7 +7908,7 @@
 # sent_id = 4067
 # text = شرط رڳو اهو آهي ته پس منظر جون ٻه چار بنيادي حقيقتون معلوم هجن.
 1	شرط	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	رڳو	_	ADJ	JJ	Case=Nom	3	amod	_	_
+2	رڳو	رڳو	ADJ	JJ	Case=Nom	3	amod	_	_
 3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
 5	ته	ته	SCONJ	CS	_	14	mark	_	_
@@ -10020,7 +10020,7 @@
 5	اهميت	اهميت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 6	کوٽي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
 7	سڪي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
-8	جهڙي	جهڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+8	جهڙي	_	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	cop	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -10616,7 +10616,7 @@
 
 # sent_id = 4232
 # text = جهڙي طرح ماڻهو اڪيلو جيئرو نٿو رهي سگهي،
-1	جهڙي	جهڙو	DET	PRD	Case=Acc|Gender=Fem|Number=Sing	2	det	_	_
+1	جهڙي	_	DET	PRD	Case=Acc|Gender=Fem|Number=Sing	2	det	_	_
 2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obl	_	_
 3	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 4	اڪيلو	اڪيلو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
@@ -12227,7 +12227,7 @@
 6	يا	يا	CCONJ	CC	_	8	cc	_	_
 7	سيڪنڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 8	گريڊ	گريڊ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
-9	جهڙي	جهڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	_
+9	جهڙي	_	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	_
 10	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	11	det	_	_
 11	شيءِ	شيءِ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	xcomp	_	_
 12	نه	نه	PART	PART	_	13	dep	_	_
@@ -13436,9 +13436,9 @@
 14	ته	ته	SCONJ	CS	_	20	mark	_	_
 15	پوءِ	پوءِ	ADP	PSP	_	20	mark	_	_
 16	انڌي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
-17	جهڙي	جهڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
+17	جهڙي	_	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
 18	پيڪي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	conj	_	_
-19	تهڙي	تھڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	20	nmod	_	_
+19	تهڙي	_	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	20	nmod	_	_
 20	ساهرين	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	20	punct	_	_
 
@@ -14070,7 +14070,7 @@
 6	سان	سان	ADP	PSP	_	5	case	_	_
 7	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
 8	بر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-9	ميچي	ميچي	VERB	VM	Aspect=Imp|Number=Sing	0	root	_	_
+9	ميچي	_	VERB	VM	Aspect=Imp|Number=Sing	0	root	_	_
 10	ئي	ئي	PART	PART	_	9	advmod:emph	_	_
 11	نٿو	نٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	9	aux	_	_
 12	سگهي	سگهي	VERB	VM	Aspect=Imp|Number=Sing	9	compound	_	SpaceAfter=No
@@ -14235,7 +14235,7 @@
 # sent_id = 4448
 # text = نه ڪي پنهنجي اڪائونٽ ڀرڻ وارو ڪم هلندو رهي.
 1	نه	نه	PART	PART	_	8	dep	_	_
-2	ڪي	ڪي	PART	PART	_	1	fixed	_	_
+2	ڪي	_	PART	PART	_	1	fixed	_	_
 3	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	4	nmod	_	_
 4	اڪائونٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
 5	ڀرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	7	nmod	_	_

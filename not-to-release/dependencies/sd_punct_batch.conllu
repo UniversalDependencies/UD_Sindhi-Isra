@@ -1123,7 +1123,7 @@
 # sent_id = 1150
 # text = عجب جهڙي ڳالهه آهي! هاڻي وري جڏهن درٻار لڳي ته خيال رکي ٻين وزيرن کي به اڄ وانگر پنهنجي پنهنجي ڳالهه چوڻ جو وجهه ڏجانءِ.
 1	عجب	عجب	NOUN	_	_	2	nmod	_	_
-2	جهڙي	جهڙو	PRON	_	_	3	nsubj	_	_
+2	جهڙي	_	PRON	_	_	3	nsubj	_	_
 3	ڳالهه	ڳالهه	NOUN	_	_	0	root	_	_
 4	آهي	آهي	AUX	_	_	3	cop	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	3	punct	_	_
@@ -2221,7 +2221,7 @@
 6	!	!	PUNCT	_	_	5	punct	_	_
 7	ان	ان	DET	_	_	13	obl	_	_
 8	سان	سان	ADP	_	_	7	case	_	_
-9	ڪي	_	DET	_	_	13	obj	_	_
+9	ڪي	ڪي	DET	_	_	13	obj	_	_
 10	به	به	PART	_	_	9	advmod:emph	_	_
 11	نٿو	نٿو	AUX	_	_	13	advmod	_	_
 12	خريد	خريد	NOUN	_	_	13	compound	_	_
@@ -3935,23 +3935,23 @@
 # sent_id = 4676
 # text = تازا اطلاع آهن ته اهو "بم ڌماڪو" هو جيڪو ڪنهن ڏٻي ۾ رکيو ويو هو.
 1	تازا	_	ADJ	_	_	2	amod	_	_
-2	اطلاع	_	NOUN	_	_	0	root	_	_
-3	آهن	_	AUX	_	_	2	cop	_	_
-4	ته	_	SCONJ	_	_	8	mark	_	_
-5	اهو	_	DET	_	_	8	nsubj	_	_
+2	اطلاع	اطلاع	NOUN	_	_	0	root	_	_
+3	آهن	آهي	AUX	_	_	2	cop	_	_
+4	ته	ته	SCONJ	_	_	8	mark	_	_
+5	اهو	اهو	DET	_	_	8	nsubj	_	_
 6	"	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	بم	_	NOUN	_	_	8	nmod	_	_
-8	ڌماڪو	_	NOUN	_	_	15	nsubj	_	SpaceAfter=No
+7	بم	بم	NOUN	_	_	8	nmod	_	_
+8	ڌماڪو	ڌماڪو	NOUN	_	_	15	nsubj	_	SpaceAfter=No
 9	"	_	PUNCT	_	_	8	punct	_	_
-10	هو	_	AUX	_	_	8	cop	_	_
-11	جيڪو	_	DET	_	_	15	nsubj	_	_
-12	ڪنهن	_	PRON	_	_	13	det	_	_
+10	هو	هو	AUX	_	_	8	cop	_	_
+11	جيڪو	جيڪو	DET	_	_	15	nsubj	_	_
+12	ڪنهن	ڪو	PRON	_	_	13	det	_	_
 13	ڏٻي	_	NOUN	_	_	15	obl	_	_
-14	۾	_	ADP	_	_	13	case	_	_
-15	رکيو	_	VERB	_	_	2	acl	_	_
-16	ويو	_	VERB	_	_	15	compound	_	_
-17	هو	_	AUX	_	_	15	aux	_	SpaceAfter=No
-18	.	_	PUNCT	_	_	15	punct	_	SpaceAfter=No
+14	۾	۾	ADP	_	_	13	case	_	_
+15	رکيو	رک	VERB	_	_	2	acl	_	_
+16	ويو	ويو	VERB	_	_	15	compound	_	_
+17	هو	هو	AUX	_	_	15	aux	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = 4678
 # text = بهرحال سرڪاري ادارن کي ڌماڪي جي نوعيت بابت صاف حقيقتون لڪائڻ جي بجاءِ ٻڌائڻ گهرجن ته جيئن "جمهوري حڪومت" جي دؤر ۾ عزادارن مٿان ٿيل هن ڌماڪي کان عوام آگاهه ۽ حڪومت جي سچائي کان هرڪو واقف رهي سگهي.
@@ -4122,7 +4122,7 @@
 12	عصمت	_	PROPN	_	_	14	compound	_	_
 13	الله	الله	PROPN	_	_	14	compound	_	_
 14	شاهين	_	PROPN	_	_	15	nmod	_	_
-15	جهڙي	جهڙو	PRON	_	_	17	nmod	_	_
+15	جهڙي	_	PRON	_	_	17	nmod	_	_
 16	خونخوار	خونخوار	ADJ	_	_	17	amod	_	_
 17	دهشتگرد	دهشتگرد	NOUN	_	_	19	obl	_	_
 18	پاران	پاران	ADP	_	_	17	case	_	_

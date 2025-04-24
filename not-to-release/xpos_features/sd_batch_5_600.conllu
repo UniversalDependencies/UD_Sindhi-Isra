@@ -15,8 +15,8 @@
 13	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	obl	_	_
 14	هر	هر	DET	PRD	Case=Nom|Number=Sing	15	det	_	_
 15	محفل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	obl	_	_
-16	۽	_	CCONJ	CC	_	17	cc	_	_
-17	مجلس	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	conj	_	_
+16	۽	۽	CCONJ	CC	_	17	cc	_	_
+17	مجلس	مجلس	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	conj	_	_
 18	۾	۾	ADP	PSPL	_	15	case	_	_
 19	خدشن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	nmod	_	_
 20	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	19	case	_	_
@@ -3690,7 +3690,7 @@
 27	پڻ	پڻ	PART	PART	_	26	dep	_	_
 28	ساڳين	ساڳيو	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	29	amod	_	_
 29	ماڻهن	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	34	obl	_	_
-30	هٿان	هٿان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	nmod	_	_
+30	هٿان	هٿ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	nmod	_	_
 31	ساڳي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	33	amod	_	_
 32	ئي	ئي	ADP	PSP	_	31	case	_	_
 33	زيادتي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	34	nmod	_	_
@@ -4095,7 +4095,7 @@
 
 # sent_id = 5444
 # text = ها، پر رپورٽس ٻڌائين ٿيون ته فيض گنج جي استاد تنظيمن جا همراهه اڃا تائين هيڊ ماستر مان هٿ نٿا ڪڍن.
-1	ها	_	INTJ	INTJ	_	5	Vocative	_	SpaceAfter=No
+1	ها	ها	INTJ	INTJ	_	5	Vocative	_	SpaceAfter=No
 2	،	،	PUNCT	PUNCT	_	1	punct	_	_
 3	پر	پر	SCONJ	CS	_	5	mark	_	_
 4	رپورٽس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -6178,7 +6178,7 @@
 2	ڊائري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	هرگز	هرگز	ADV	ADT	_	2	advmod	_	_
 4	نهين	_	PART	PART	_	2	dep	_	_
-5	هي	_	AUX	VAUX	Number=Sing|Tense=Pres	2	cop	_	SpaceAfter=No
+5	هي	هي	AUX	VAUX	Number=Sing|Tense=Pres	2	cop	_	SpaceAfter=No
 6	،	،	PUNCT	PUNCT	_	2	punct	_	_
 7	جس	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	10	obl	_	_
 8	مين	_	ADP	PSP	_	7	case	_	_
@@ -6188,36 +6188,36 @@
 
 # sent_id = 5553a
 # text = بلڪل ائين ئي، اسان ۽ اوهان جون محبتون به بس ڊائريءَ ۾ لکڻ کان ”سوا“ آهن.
-1	بلڪل	_	ADV	ADT	_	2	amod	_	_
-2	ائين	_	PRON	PRL	_	14	obl	_	_
-3	ئي	_	PART	PART	_	2	advmod:emph	_	SpaceAfter=No
-4	،	_	PUNCT	PUNCT	_	2	punct	_	_
-5	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	14	nsubj	_	_
-6	۽	_	CCONJ	CC	_	9	cc	_	_
-7	اوهان	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	9	nmod	_	_
-8	جون	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	9	nmod	_	_
+1	بلڪل	بلڪل	ADV	ADT	_	2	amod	_	_
+2	ائين	ائين	PRON	PRL	_	14	obl	_	_
+3	ئي	ئي	PART	PART	_	2	advmod:emph	_	SpaceAfter=No
+4	،	،	PUNCT	PUNCT	_	2	punct	_	_
+5	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	14	nsubj	_	_
+6	۽	۽	CCONJ	CC	_	9	cc	_	_
+7	اوهان	اوهان	PRON	PRP	Case=Acc|Number=Plur|Person=3	9	nmod	_	_
+8	جون	جو	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	9	nmod	_	_
 9	محبتون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
-10	به	_	PART	PART	_	9	advmod:emph	_	_
-11	بس	_	ADV	ADV	_	12	amod	_	_
+10	به	به	PART	PART	_	9	advmod:emph	_	_
+11	بس	بس	ADV	ADV	_	12	amod	_	_
 12	ڊائريءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
-13	۾	_	ADP	PSPL	_	12	case	_	_
-14	لکڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	17	advcl	_	_
-15	کان	_	ADP	PSP	_	14	mark	_	_
-16	”	_	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+13	۾	۾	ADP	PSPL	_	12	case	_	_
+14	لکڻ	لک	VERB	VM	Aspect=Imp|VerbForm=Inf	17	advcl	_	_
+15	کان	کان	ADP	PSP	_	14	mark	_	_
+16	”	”	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
 17	سوا	_	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	SpaceAfter=No
-18	“	_	PUNCT	PUNCT	_	17	punct	_	_
-19	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	17	cop	_	SpaceAfter=No
-20	.	_	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+18	“	“	PUNCT	PUNCT	_	17	punct	_	_
+19	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	17	cop	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 
 # sent_id = 5553b
 # text = اهي ته ياد جا دروازا آهن.
-1	اهي	_	DET	PRD	Case=Nom|Number=Plur	5	nsubj	_	_
-2	ته	_	PART	PART	_	1	advmod:emph	_	_
-3	ياد	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
-4	جا	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	3	case	_	_
+1	اهي	اهي	DET	PRD	Case=Nom|Number=Plur	5	nsubj	_	_
+2	ته	ته	PART	PART	_	1	advmod:emph	_	_
+3	ياد	ياد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+4	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	3	case	_	_
 5	دروازا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
-6	آهن	_	AUX	VAUX	Number=Plur|Tense=Pres	5	cop	_	SpaceAfter=No
-7	.	_	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+6	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	5	cop	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 
 # sent_id = 5554
 # text = کُلن ٿا ۽ کِلن ٿا.
