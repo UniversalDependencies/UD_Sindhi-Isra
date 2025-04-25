@@ -1709,7 +1709,7 @@
 1	ڀارت	ڀارت	PROPN	NNP	Case=Nom|Gender=Masc	8	nsubj	_	_
 2	چين	چين	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
-4	انهي	_	ADJ	JJ	Case=Acc|Degree=Pos|Number=Sing	5	amod	_	_
+4	انهي	ان	DET	PRD	Case=Acc|Number=Sing|Person=3	5	amod	_	_
 5	ڳڻتي	ڳڻتي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 6	کان	کان	ADP	PSP	_	5	case	_	_
 7	آگاهه	آگاهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	compound	_	_
@@ -6463,7 +6463,7 @@
 
 # sent_id = 4000
 # text = اُهي اسان لاءِ هن جمهوري نظام کان مٿانهان ڪونهن.
-1	اُهي	اُهي	ADV	ADT	_	8	nsubj	_	_
+1	اُهي	اُهي	DET	PRD	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
 2	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	8	obl	_	_
 3	لاءِ	لاءِ	ADP	PSP	_	2	case	_	_
 4	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	det	_	_
@@ -10222,8 +10222,8 @@
 1	مستقبل	مستقبل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	اميد	اميد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-4	اُهي	اُهي	ADV	ADV	_	0	root	_	_
-5	ئي	ئي	PART	PART	_	4	case	_	_
+4	اُهي	اُهي	DET	PRD	Case=Nom|Number=Plur|Person=3	0	root	_	_
+5	ئي	ئي	PART	PART	_	4	advmod:emph	_	_
 6	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	4	cop	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
