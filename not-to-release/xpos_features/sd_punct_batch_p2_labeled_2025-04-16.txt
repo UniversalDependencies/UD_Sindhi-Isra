@@ -1856,27 +1856,30 @@
 22	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	21	cop	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-# sent_id = 4168
-# text = نئين سال جي شروعات تون وڃي اتي ڪر! پهرين مون کي ڪا ڳالهه سمجهه ۾ نه آئي.
+# sent_id = 4168a
+# text = نئين سال جي شروعات تون وڃي اتي ڪر!
 1	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	سال	سال	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
-4	شروعات	شروعات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
-5	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	8	nsubj	_	_
-6	وڃي	وڃ	VERB	VM	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
+4	شروعات	شروعات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	4	nsubj	_	_
+6	وڃي	وڃ	VERB	VM	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
 7	اتي	اتي	ADV	ADP	_	8	advmod	_	_
-8	ڪر	ڪر	VERB	VM	Aspect=Imp|Number=Sing|Person=1	0	root	_	SpaceAfter=No
-9	!	!	PUNCT	PUNCT	_	8	punct	_	_
-10	پهرين	پهرين	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
-11	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	18	nsubj	_	_
-12	کي	کي	ADP	PSP	_	11	case	_	_
-13	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	14	det	_	_
-14	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	_
-15	سمجهه	سمجهه	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
-16	۾	۾	ADP	PSPL	_	18	obl	_	_
-17	نه	نه	PART	PART	_	18	dep	_	_
-18	آئي	آئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	8	advcl	_	SpaceAfter=No
-19	.	.	PUNCT	PUNCT	_	18	punct	_	_
+8	ڪر	ڪر	VERB	VM	Aspect=Imp|Number=Sing|Person=1	4	compound	_	SpaceAfter=No
+9	!	!	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 4168b
+# text = پهرين مون کي ڪا ڳالهه سمجهه ۾ نه آئي.
+1	پهرين	پهرين	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
+2	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	9	iobj	_	_
+3	کي	کي	ADP	PSP	_	2	case	_	_
+4	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	5	det	_	_
+5	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	سمجهه	سمجهه	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+7	۾	۾	ADP	PSPL	_	6	case	_	_
+8	نه	نه	PART	PART	_	9	dep	_	_
+9	آئي	آئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 4169
 # text = خير! ان مون کي ايم جناح تي ٿيل 28 ڊسمبر جي ڌماڪي کان پوءِ آيل تباهي جو سمنڊ ۽ ڪراچي ۾ اڳ ئي موجود پاڻي جي سمنڊ ڏانهن اشارو ڪيو هو.
