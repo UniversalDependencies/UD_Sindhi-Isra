@@ -30,7 +30,7 @@ ALLOWED_UPOS_TO_FEATS = {
     "ADJ":   ['Case=Acc', 'Case=Nom', 'Case=Voc', 'Degree=Cmp', 'Degree=Pos', 'Degree=Sup', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing'],
     "ADP":   ['Case=Acc', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
     "ADV":   ['Case=Acc', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
-    "AUX":   ['AuxType=Be', 'Gender=Fem', 'Gender=Masc', 'Mood=Sub', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=2', 'Person=3', 'Tense=Fut', 'Tense=Past', 'Tense=Pres'],
+    "AUX":   ['AuxType=Be', 'Gender=Fem', 'Gender=Masc', 'Mood=Sub', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=2', 'Person=3', 'Tense=Fut', 'Tense=Past', 'Tense=Pres', 'Voice=Pass'],
     "CCONJ": [],
     "DET":   ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
     "INTJ":  [],
