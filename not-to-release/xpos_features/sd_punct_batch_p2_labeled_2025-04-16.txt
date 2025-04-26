@@ -70,16 +70,16 @@
 7	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 8	ته	ته	SCONJ	CS	_	7	mark	_	SpaceAfter=No
 9	:	:	PUNCT	PUNCT	_	7	punct	_	_
-10	ميرخان	_	PROPN	NNP	Case=Nom|Gender=Masc	13	nsubj	_	SpaceAfter=No
+10	ميرخان	_	PROPN	NNP	Case=Nom|Gender=Masc	12	nsubj	_	SpaceAfter=No
 11	!	!	PUNCT	PUNCT	_	10	punct	_	_
-12	اجازت	اجازت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	xcomp	_	_
-13	هجي	هجي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3|Voice=Pass	7	advcl	_	_
+12	اجازت	اجازت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	advcl	_	_
+13	هجي	هجي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3|Voice=Pass	12	cop	_	_
 14	ته	ته	SCONJ	CS	_	19	mark	_	_
 15	راڳ	راڳ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	obj	_	_
 16	۽	۽	CCONJ	CC	_	17	cc	_	_
 17	ناچ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	conj	_	_
 18	شروع	شروع	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	compound	_	_
-19	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	13	advcl	_	SpaceAfter=No
+19	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	12	advcl	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	19	punct	_	_
 
 # sent_id = 125
@@ -1707,14 +1707,14 @@
 # sent_id = 3377
 # text = ڀلي ڪري آئينءَ ماليڪٽ! توکي مبارڪون هجن جو تون اسان جي مالڪ جي ملڪ ۾ آئي آهين.
 1	ڀلي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	_
-2	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
+2	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
 3	آئينءَ	_	VERB	VMX	Aspect=Imp|Number=Sing	2	compound	_	_
-4	ماليڪٽ	ماليڪٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+4	ماليڪٽ	ماليڪٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	vocative	_	SpaceAfter=No
 5	!	!	PUNCT	PUNCT	_	4	punct	_	_
-6	توکي	تو	PRON	PRP	Case=Nom|Number=Sing|Person=2	8	obj	_	_
-7	مبارڪون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	xcomp	_	_
-8	هجن	هجي	AUX	VAUX	AuxType=Be|Number=Plur|Person=3|Voice=Pass	0	root	_	_
-9	جو	جو	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	8	mark	_	_
+6	توکي	تو	PRON	PRP	Case=Nom|Number=Sing|Person=2	7	nsubj	_	_
+7	مبارڪون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+8	هجن	هجي	AUX	VAUX	AuxType=Be|Number=Plur|Person=3|Voice=Pass	7	cop	_	_
+9	جو	جو	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	7	mark	_	_
 10	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	17	nsubj	_	_
 11	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	13	nmod	_	_
 12	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
@@ -1722,7 +1722,7 @@
 14	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	13	case	_	_
 15	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
 16	۾	۾	ADP	PSPL	_	15	case	_	_
-17	آئي	آئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	8	advcl	_	_
+17	آئي	آئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	7	advcl	_	_
 18	آهين	آهي	AUX	VAUX	Number=Sing|Person=2|Tense=Pres	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	17	punct	_	_
 
@@ -1939,7 +1939,7 @@
 6	ڇا	ڇا	PRON	PRWH	_	8	obj	_	_
 7	نه	نه	PART	PART	_	8	dep	_	_
 8	ڏنو	ڏنو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-9	هجي	هجي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3|Voice=Pass	8	compound	_	SpaceAfter=No
+9	هجي	هجي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3|Voice=Pass	8	aux	_	SpaceAfter=No
 10	؟	؟	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 4219
@@ -2008,13 +2008,13 @@
 1	قيمت	قيمت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	چڪايو	_	VERB	VM	Aspect=Perf|Number=Sing|Person=3	0	root	_	_
 3	۽	۽	CCONJ	CC	_	10	cc	_	_
-4	پوءِ	پوءِ	ADP	PSP	_	10	mark	_	_
-5	ٻئي	ٻہ	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	6	nummod	_	_
+4	پوءِ	پوءِ	ADV	ADT	_	10	advmod	_	_
+5	ٻئي	ٻہ	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	10	nsubj	_	_
 6	نشاني	نشان	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
 7	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
 8	تلاش	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
-9	شروع	شروع	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	xcomp	_	_
-10	ڪريو	ڪر	VERB	VM	Aspect=Imp|Number=Plur|Person=3	2	advcl	_	SpaceAfter=No
+9	شروع	شروع	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	_
+10	ڪريو	ڪر	VERB	VM	Aspect=Imp|Number=Plur|Person=3	2	conj	_	SpaceAfter=No
 11	!	!	PUNCT	PUNCT	_	10	punct	_	_
 12	جرڳي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	_
 13	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	12	case	_	_
@@ -2036,15 +2036,15 @@
 29	سلامت	سلامت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	xcomp	_	_
 30	رهي	ره	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	21	advcl	_	SpaceAfter=No
 31	،	،	PUNCT	PUNCT	_	30	punct	_	_
-32	نه	نه	PART	PART	_	39	advmod	_	_
+32	نه	نه	PART	PART	_	38	advmod	_	_
 33	ڪنهن	ڪو	PRON	PRWH	Case=Acc|Number=Sing	35	nmod	_	_
 34	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	33	case	_	_
 35	ننگ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	38	nmod	_	_
 36	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	35	case	_	_
 37	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	38	det	_	_
-38	ضمانت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	39	nsubj	_	_
-39	هجي	هجي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3|Voice=Pass	30	advcl	_	SpaceAfter=No
-40	.	.	PUNCT	PUNCT	_	39	punct	_	_
+38	ضمانت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	30	advcl	_	_
+39	هجي	هجي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3|Voice=Pass	38	cop	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	38	punct	_	_
 
 # sent_id = 5500
 # text = جيئن اوهان ڏسو ٿا يا ڏيکارڻ ٿا گهرو!“ نامه ته نامه هوندا آهن،
