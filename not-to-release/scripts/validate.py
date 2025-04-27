@@ -62,6 +62,14 @@ ADVMOD_EMPH_EXCEPTIONS = {
     """جن جي ڪاوشن سان "وار اينڊ پيس" جهڙا ڪتاب نه رڳو هڪ ٻوليءَ ۾ هڪ قوم لاءِ آهن بلڪه دنيا جي ڪيترين ئي ٻولين ۾، دنيا جي ڪيترن ئي ماڻهن لاءِ آهن ۽ اهو ٻڌائڻ ۾ ڪا شرم جي ڳالهه ناهي ته دنيا جي هر ادب ۾ هومر، دانتي، شيڪسپيئر، گوئٽي، دوستو وسڪي، لوشون، نظامي، خيام، ڪاليداس ۽ ٽئگور لاءِ جڳهه آهي ۽ دنيا جي هر ٻوليءَ ۾ الف ليليٰ دلچسپيءَ سان پڙهيو ويندو آهي،"""
     }
 
+
+ENFORCED_POS = dict()
+for word in ('هجان', 'هجون', 'هجين', 'هجو', 'هجي', 'هجن'):
+    ENFORCED_POS[word] = ["AUX"]
+for word in ('ھجان', 'ھجون', 'ھجين', 'ھجو', 'ھجي', 'ھجن'):
+    ENFORCED_POS[word] = ["AUX"]
+ENFORCED_POS['هجئي'] = ["AUX"]
+
 def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     problem_sentences = set()
 
@@ -257,6 +265,15 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                         print("ADVMOD:EMPH ERRORS")
                     print(error)
 
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word.text in ENFORCED_POS and word.upos not in ENFORCED_POS[word.text]:
+                if not printed:
+                    printed = True
+                    print("Word-specific POS error")
+                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s, which is not in %s" % (sent.sent_id, sent_idx, word.id, word.line_number, word.text, word.upos, ENFORCED_POS[word.text]))
+
     if check_feats:
         printed = False
         for sent_idx, sent in enumerate(new_doc.sentences):
@@ -302,7 +319,6 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                                 printed = True
                                 print("FEATURE ERRORS")
                             print("Sentence %s (%d) word %d |%s| (line %d) had VerbForm=Inf but an Aspect=%s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, feat_map.get('Aspect')))
-
 
     return problem_sentences
 
