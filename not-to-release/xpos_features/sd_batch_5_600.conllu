@@ -34,7 +34,7 @@
 4	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
 5	توسان	توسان	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	obl	_	_
 6	هلي	هل	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
-7	سگهان	سگهي	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	_
+7	سگهان	سگهي	AUX	VAUX	Number=Sing|Person=1	6	aux	_	_
 8	ٿي	ٿي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
 9	؟	؟	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -4296,16 +4296,16 @@
 2	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	3	nsubj	_	_
 3	سجاڳ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	هجي	هجي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3|Voice=Pass	3	cop	_	_
-5	ته	ته	SCONJ	CS	_	10	mark	_	_
+5	ته	ته	SCONJ	CS	_	11	mark	_	_
 6	هيءَ	هي	DET	PRD	Case=Nom|Number=Sing	8	det	_	_
 7	Test	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
-8	case	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	case	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 9	به	به	PART	PART	_	8	advmod:emph	_	_
-10	ثابت	ثابت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	advcl	_	_
-11	ٿي	ٿي	VERB	VM	Aspect=Imp|Number=Sing	10	cop	_	_
-12	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3|Tense=Pres	10	aux	_	_
-13	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	10	aux	_	SpaceAfter=No
-14	،	،	PUNCT	PUNCT	_	10	punct	_	_
+10	ثابت	ثابت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	_
+11	ٿي	ٿي	VERB	VM	Aspect=Imp|Number=Sing	3	advcl	_	_
+12	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	11	aux	_	_
+13	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
+14	،	،	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = 5455
 # text = جيڪو وزير اعليٰ جي ضلعي ۾ پروٽيڪشن ۾ سڄي مست ٿي ويندڙن کي سبق سيکاري سگهي ٿو.
@@ -4324,7 +4324,7 @@
 13	کي	کي	ADP	PSP	_	12	mark	_	_
 14	سبق	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obj	_	_
 15	سيکاري	سيکار	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
-16	سگهي	سگهي	AUX	VAUX	Number=Sing|Tense=Pres	15	aux	_	_
+16	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	15	aux	_	_
 17	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	15	aux	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
@@ -4681,7 +4681,7 @@
 3	ڪهڙي	ڪهڙو	PRON	PRWH	Case=Nom|Number=Sing	4	amod	_	_
 4	موٽ	موٽ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	ٿي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
-6	سگهي	سگهي	AUX	VAUX	Number=Sing|Tense=Pres	5	compound	_	_
+6	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	5	aux	_	_
 7	ٿي	ٿي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	5	aux	_	_
 8	عزيزانِ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nmod	_	_
 9	مَن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
@@ -5661,9 +5661,9 @@
 3	ڪنهن	ڪنهن	DET	PRD	Case=Acc|Number=Sing	5	nsubj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
 5	انڪار	انڪار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-6	ٿي	ٿي	VERB	VM	Aspect=Imp|Number=Sing	5	cop	_	_
-7	سگهي	سگهي	AUX	VAUX	Number=Sing|Tense=Pres	5	cop	_	_
-8	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	cop	_	SpaceAfter=No
+6	ٿي	ٿي	AUX	VAUX	AuxType=Be|Person=3	5	cop	_	_
+7	سگهي	سگهي	AUX	VAUX	Number=Sing|Tense=Pres	5	aux	_	_
+8	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	aux	_	SpaceAfter=No
 9	،	،	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 5528
@@ -6622,14 +6622,14 @@
 4	استاد	استاد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 5	اوهان	اوهان	PRON	PRP	Case=Acc|Number=Plur|Person=3	9	obj	_	_
 6	کي	کي	ADP	PSP	_	5	case	_	_
-7	پين	پين	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	obj	_	_
+7	پين	پين	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	_
 8	واپس	واپس	VERB	VM	Aspect=Perf|VerbForm=Conv	9	compound	_	_
 9	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	13	advcl	_	_
 10	بجاءِ	بجاءِ	ADV	ADT	_	9	mark	_	_
 11	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	13	det	_	_
 12	به	به	PART	PART	_	11	advmod:emph	_	_
 13	چئي	چئو	VERB	VM	Aspect=Imp	0	root	_	_
-14	سگهي	سگهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	13	aux	_	_
+14	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	13	aux	_	_
 15	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	13	aux	_	_
 16	ته	ته	SCONJ	CS	_	13	mark	_	SpaceAfter=No
 17	،	،	PUNCT	PUNCT	_	13	punct	_	_
@@ -8626,7 +8626,7 @@
 6	عمل	عمل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	_
 7	نٿي	نٿي	ADV	ADP	_	8	advmod	_	_
 8	ڪرائي	ڪرائي	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
-9	سگهي	سگهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	8	aux	_	_
+9	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	8	aux	_	_
 10	ته	ته	SCONJ	CS	_	8	mark	_	_
 11	پوءِ	پوءِ	ADV	ADT	_	17	advmod	_	_
 12	حڪم	حڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
