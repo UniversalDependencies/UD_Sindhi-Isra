@@ -6413,19 +6413,19 @@
 2	مذاڪري	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
 3	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
 4	اهم	اهم	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
-5	نقطو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-6	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_
+5	نقطو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 7	به	به	PART	PART	_	6	advmod:emph	_	_
-8	ٿي	ٿي	VERB	VM	Aspect=Imp|Voice=Act	9	compound	_	_
-9	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	0	root	_	_
-10	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	9	aux	_	_
+8	ٿي	ٿي	AUX	VAUX	AuxType=Be	6	cop	_	_
+9	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	6	aux	_	_
+10	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	6	aux	_	_
 11	ته	ته	SCONJ	CS	_	17	mark	_	_
 12	ڪنهن	ڪنهن	DET	PRD	Case=Acc|Number=Sing	15	det	_	_
 13	به	به	PART	PART	_	12	advmod:emph	_	_
 14	جمهوري	جمهوري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem	15	amod	_	_
 15	نظام	نظام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
 16	۾	۾	ADP	PSPL	_	15	case	_	_
-17	رهندي	رهندو	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart|Voice=Act	9	advcl	_	_
+17	رهندي	رهندو	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart|Voice=Act	6	advcl	_	_
 18	–	_	PUNCT	PUNCT	_	17	punct	_	_
 19	ڀل	_	VERB	VM	Aspect=Imp	26	obl	_	_
 20	پوءِ	پوءِ	ADP	PSP	_	19	mark	_	_
@@ -11069,9 +11069,9 @@
 1	ڪنهن	ڪنهن	DET	PRD	Case=Acc|Number=Sing	3	nsubj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
 3	انڪار	انڪار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-4	ٿي	ٿي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
-5	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	3	cop	_	_
-6	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	3	cop	_	_
+4	ٿي	ٿي	AUX	VAUX	AuxType=Be|Number=Sing	3	cop	_	_
+5	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	3	aux	_	_
+6	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	3	aux	_	_
 7	ته	ته	SCONJ	CS	_	11	mark	_	_
 8	انگريزيءَ	انگريزيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
 9	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
@@ -11826,13 +11826,13 @@
 # sent_id = 4311
 # text = زبان خود ڪڏهن به زهريلي نٿي ٿي سگهي
 1	زبان	زبان	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-2	خود	خود	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	advmod	_	_
+2	خود	خود	PRON	PRP	Case=Nom|Person=1	1	nmod	_	_
 3	ڪڏهن	ڪڏهن	ADV	ADT	_	5	advmod	_	_
 4	به	به	PART	PART	_	3	advmod:emph	_	_
 5	زهريلي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
-6	نٿي	نٿي	ADV	ADN	_	5	advmod	_	_
-7	ٿي	ٿي	AUX	VAUX	Number=Sing|Tense=Pres	5	cop	_	_
-8	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	5	cop	_	_
+6	نٿي	نٿي	AUX	VAUX	AuxType=Be|Number=Sing	5	cop	_	_
+7	ٿي	ٿي	AUX	VAUX	Number=Sing|Tense=Pres	5	aux	_	_
+8	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	5	aux	_	_
 
 # sent_id = 4312
 # text = ۽ جيڪڏهن ڪنهن خراب ۽ زهريلو ڪتاب لکيو آهي ته اهو پاڻمرادو عام طرح زبان، ادب ۽ فن جي حدن کان ٻاهر رهندو.
@@ -14073,7 +14073,7 @@
 9	ميچي	_	VERB	VM	Aspect=Imp|Number=Sing	0	root	_	_
 10	ئي	ئي	PART	PART	_	9	advmod:emph	_	_
 11	نٿو	نٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	9	aux	_	_
-12	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	9	compound	_	SpaceAfter=No
+12	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	9	aux	_	SpaceAfter=No
 13	،	،	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 4438
