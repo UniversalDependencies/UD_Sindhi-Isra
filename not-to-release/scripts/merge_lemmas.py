@@ -27,6 +27,8 @@ def read_tsv_files(tsv_files):
                 continue
             pieces = pieces[:3]
             # the lemma files should all be in the format word,upos,lemma
+            if lemmas.get((pieces[0], pieces[1]), pieces[2]) != pieces[2]:
+                raise ValueError("Found a conflict: word |%s| POS %s" % (pieces[0], pieces[1]))
             lemmas[(pieces[0], pieces[1])] = pieces[2]
     return lemmas
 
