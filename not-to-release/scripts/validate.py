@@ -58,6 +58,10 @@ DISALLOWED_BLANK_FEATS = {"NOUN", "PROPN"}
 ALLOWED_PUNCT_CHARS = r"؟–؛!\"().۔,-/:،“”"
 ALLOWED_PUNCT_WORD = re.compile("[%s]+" % ALLOWED_PUNCT_CHARS)
 
+ADVMOD_EMPH_EXCEPTIONS = {
+    """جن جي ڪاوشن سان "وار اينڊ پيس" جهڙا ڪتاب نه رڳو هڪ ٻوليءَ ۾ هڪ قوم لاءِ آهن بلڪه دنيا جي ڪيترين ئي ٻولين ۾، دنيا جي ڪيترن ئي ماڻهن لاءِ آهن ۽ اهو ٻڌائڻ ۾ ڪا شرم جي ڳالهه ناهي ته دنيا جي هر ادب ۾ هومر، دانتي، شيڪسپيئر، گوئٽي، دوستو وسڪي، لوشون، نظامي، خيام، ڪاليداس ۽ ٽئگور لاءِ جڳهه آهي ۽ دنيا جي هر ٻوليءَ ۾ الف ليليٰ دلچسپيءَ سان پڙهيو ويندو آهي،"""
+    }
+
 def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     problem_sentences = set()
 
@@ -242,10 +246,11 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 error = None
                 if word_idx == 0:
                     error = "Sentence %s (%d) word %d (line %d) had an advmod:emph at the start of the sentence" % (sent.sent_id, sent_idx, word.id, word.line_number)
-                elif word.head > word.id:
-                    error = "Sentence %s (%d) word %d (line %d) advmod:emph pointed later in the tree, to %d" % (sent.sent_id, sent_idx, word.id, word.line_number, word.head)
                 elif word.upos != 'PART':
                     error = "Sentence %s (%d) word %d |%s| (line %d) advmod:emph head %d had a UPOS of %s" % (sent.sent_id, sent_idx, word.id, word.text, word.line_number, word.head, word.upos)
+                elif word.head > word.id:
+                    if sent.text not in ADVMOD_EMPH_EXCEPTIONS:
+                        error = "Sentence %s (%d) word %d (line %d) advmod:emph pointed later in the tree, to %d" % (sent.sent_id, sent_idx, word.id, word.line_number, word.head)
                 if error is not None:
                     if printed:
                         printed = True
