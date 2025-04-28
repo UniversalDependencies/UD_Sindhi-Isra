@@ -34,7 +34,7 @@
 32	،	،	PUNCT	PUNCT	_	35	punct	_	_
 33	ڊاڪٽر	ڊاڪٽر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	compound	_	_
 34	نصرالله	_	PROPN	NNP	Case=Nom|Gender=Masc	35	compound	_	_
-35	بلوچ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+35	بلوچ	بلوچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
 36	،	،	PUNCT	PUNCT	_	38	punct	_	_
 37	آفتاب	آفتاب	PROPN	NNP	Case=Nom|Gender=Masc	38	compound	_	_
 38	خانزادو	_	PROPN	NNP	Case=Nom|Gender=Masc	11	conj	_	SpaceAfter=No
@@ -78,7 +78,7 @@
 76	،	،	PUNCT	PUNCT	_	79	punct	_	_
 77	محمد	محمد	PROPN	NNP	Case=Nom|Gender=Masc	79	compound	_	_
 78	جميل	جميل	PROPN	NNP	Case=Nom|Gender=Masc	79	compound	_	_
-79	دايو	_	PROPN	NNP	Case=Nom|Gender=Masc	11	conj	_	SpaceAfter=No
+79	دايو	دايو	PROPN	NNP	Case=Nom|Gender=Masc	11	conj	_	SpaceAfter=No
 80	،	،	PUNCT	PUNCT	_	83	punct	_	_
 81	انجنيئر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	83	nmod	_	_
 82	نجم	_	PROPN	NNP	Case=Nom|Gender=Masc	83	compound	_	_
@@ -101,7 +101,7 @@
 99	ميمڻ	ميمڻ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
 100	،	،	PUNCT	PUNCT	_	103	punct	_	_
 101	امير	_	PROPN	NNP	Case=Nom|Gender=Masc	103	compound	_	_
-102	بخش	_	PROPN	NNP	Case=Nom|Gender=Masc	103	compound	_	_
+102	بخش	بخش	PROPN	NNP	Case=Nom|Gender=Masc	103	compound	_	_
 103	راڄپر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
 104	،	،	PUNCT	PUNCT	_	107	punct	_	_
 105	وزير	_	PROPN	NNP	Case=Nom|Gender=Masc	107	compound	_	_
@@ -158,7 +158,7 @@
 35	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	34	case	_	_
 36	مڪمل	مڪمل	ADJ	JJ	Case=Nom|Degree=Pos	37	amod	_	_
 37	طور	طور	NOUN	NN	Case=Nom|Number=Sing	39	obl	_	_
-38	تائيد	_	NOUN	NN	Case=Nom|Number=Sing	39	compound	_	_
+38	تائيد	تائيد	NOUN	NN	Case=Nom|Number=Sing	39	compound	_	_
 39	ڪندي	ڪن	VERB	VM	Aspect=Perf|Tense=Pres|VerbForm=Conv|Voice=Act	50	advcl	_	_
 40	ان	ان	DET	PRD	Case=Acc|Number=Sing	42	nmod	_	_
 41	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	40	case	_	_
@@ -272,7 +272,7 @@
 13	بند	بند	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 14	هو	هو	AUX	VAUX	Number=Sing|Tense=Past	13	cop	_	_
 15	۽	۽	CCONJ	CC	_	18	cc	_	_
-16	اندران	_	ADV	ADP	_	18	advmod	_	_
+16	اندران	اندر	ADV	ADP	_	18	advmod	_	_
 17	تالو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
 18	لڳل	لڳو	VERB	VM	Aspect=Perf|VerbForm=PastPart	13	conj	_	_
 19	هو	هو	AUX	VAUX	Number=Sing|Tense=Past	18	aux	_	SpaceAfter=No
@@ -290,14 +290,14 @@
 8	محترمه	محترمه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 9	اندر	اندر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obl	_	_
 10	ويئي	وڃ	VERB	VM	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
-11	جلسو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+11	جلسو	جلسو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 12	ختم	ختم	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	13	xcomp	_	_
 13	ٿيو	ٿي	VERB	VM	Aspect=Perf|Number=Sing|Person=3	5	advcl	_	_
 14	ته	ته	SCONJ	CS	_	13	mark	_	_
 15	محترمه	محترمه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
 16	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	19	compound	_	_
 17	۽	۽	CCONJ	CC	_	18	cc	_	_
-18	مطمئن	_	NOUN	NN	Case=Nom|Number=Sing	16	conj	_	_
+18	مطمئن	مطمئن	NOUN	NN	Case=Nom|Number=Sing	16	conj	_	_
 19	هئي	هئي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Past	13	advcl	_	SpaceAfter=No
 20	۔	_	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -371,7 +371,7 @@
 2	باهيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	obj	_	_
 3	ڏئي	ڏئي	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
 4	لٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
-5	مار	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	_
+5	مار	مار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	_
 6	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	14	advcl	_	_
 7	سميت	سميت	ADP	PSP	_	6	dep	_	_
 8	باهه	باهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	_
@@ -544,7 +544,7 @@
 27	بولٽن	بولٽن	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	28	nmod	_	_
 28	مارڪيٽ	مارڪيٽ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	obl	_	_
 29	۾	۾	ADP	PSPL	_	28	case	_	_
-30	هزارين	_	NUM	NUM	_	31	nummod	_	_
+30	هزارين	هزار	NUM	NUM	_	31	nummod	_	_
 31	دڪان	دڪان	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	32	obj	_	_
 32	ساڙيا	ساڙ	VERB	VM	Aspect=Perf|Number=Plur|Voice=Act	16	advcl	_	_
 33	ويا	ويو	VERB	VM	Aspect=Perf|Number=Plur	32	compound	_	_
@@ -619,7 +619,7 @@
 27	لاءِ	لاءِ	ADP	PSP	_	26	case	_	_
 28	گهر	گهر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
 29	،	،	PUNCT	PUNCT	_	30	punct	_	_
-30	بنگلو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+30	بنگلو	بنگلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
 31	،	،	PUNCT	PUNCT	_	30	punct	_	_
 32	فليٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
 33	يا	يا	CCONJ	CC	_	34	cc	_	_
@@ -671,7 +671,7 @@
 18	رهائشي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	19	amod	_	_
 19	گهر	گهر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 20	،	،	PUNCT	PUNCT	_	19	punct	_	_
-21	بنگلو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+21	بنگلو	بنگلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 22	،	،	PUNCT	PUNCT	_	21	punct	_	_
 23	فليٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
 24	يا	يا	CCONJ	CC	_	25	cc	_	_

@@ -24,7 +24,7 @@
 2	فوت	فوت	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	6	nsubj	_	_
 3	،	،	PUNCT	PUNCT	_	2	punct	_	_
 4	8	8	NUM	NUM	_	5	nummod	_	_
-5	ڄڻا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+5	ڄڻا	ڄڻو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
 6	لڙهي	لڙه	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 7	ويا	ويو	VERB	VM	Aspect=Perf|Number=Plur|Voice=Act	6	aux	_	_
 8	،	،	PUNCT	PUNCT	_	6	punct	_	_
@@ -89,13 +89,13 @@
 # sent_id = 671
 # text = لڳ ڀڳ سڄي سنڌ ۾ ٻوڏ جو خطرو وڌي ويندو .
 1	لڳ	لڳ	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	compound	_	_
-2	ڀڳ	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	advmod	_	_
+2	ڀڳ	ڀڳ	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	advmod	_	_
 3	سڄي	سڄي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	9	obl	_	_
 5	۾	۾	ADP	PSPL	_	4	case	_	_
 6	ٻوڏ	_	PROPN	NNP	Case=Nom|Gender=Fem	8	nmod	_	_
 7	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	6	case	_	_
-8	خطرو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	خطرو	خطرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 9	وڌي	وڌي	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=PresPart|Voice=Act	0	root	_	_
 10	ويندو	ويندو	VERB	VM	Aspect=Perf|Gender[obj]=Masc|Number=Sing|Number[obj]=Sing|Person=3|Tense=Fut	9	compound	_	_
 11	.	.	PUNCT	PUNCT	_	9	punct	_	_
@@ -322,7 +322,7 @@
 24	سطح	سطح	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	_
 25	۾	۾	ADP	PSPL	_	24	case	_	_
 26	ڪجهه	ڪجهه	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem	27	advmod	_	_
-27	لاٿ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+27	لاٿ	لاٿ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 28	ٿي	ٿي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Pres	27	cop	_	SpaceAfter=No
 29	،	،	PUNCT	PUNCT	_	27	punct	_	_
 30	جيڪا	جيڪو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
@@ -410,7 +410,7 @@
 14	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	13	case	_	_
 15	وچ	وچ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
 16	وارن	وارو	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	15	case	_	_
-17	وهڪرن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obl	_	_
+17	وهڪرن	وهڪرو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obl	_	_
 18	۾	۾	ADP	PSPL	_	17	case	_	_
 19	رهندي	رهندو	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres|VerbForm=PresPart|Voice=Act	0	root	_	_
 20	.	.	PUNCT	PUNCT	_	19	punct	_	_
@@ -467,7 +467,7 @@
 4	ڊويزن	ڊويزن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 5	هڪ	هڪ	NUM	NUM	_	7	nummod	_	_
 6	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
-7	وارننگ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
+7	وارننگ	وارننگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
 8	جاري	جاري	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=PresPart|Voice=Act	9	xcomp	_	_
 9	ڪئي	ڪئي	VERB	VM	Aspect=Perf|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
 10	آهي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Pres	9	aux	_	_
@@ -530,7 +530,7 @@
 3	ڪالاباغ	ڪالاباغ	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
 4	بئراج	بئراج	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 5	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
-6	وهڪرو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+6	وهڪرو	وهڪرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 7	5	5	NUM	NUM	_	8	nummod	_	_
 8	لک	لک	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
 9	80	_	NUM	NUM	_	10	nummod	_	_
@@ -548,7 +548,7 @@
 1	چشما	_	PROPN	NNP	Case=Nom|Gender=Masc	2	compound	_	_
 2	بئراج	بئراج	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
 3	وٽان	وٽ	ADP	PSPL	_	2	case	_	_
-4	وهڪرن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
+4	وهڪرن	وهڪرو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
 6	سطح	سطح	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
 7	7	7	NUM	NUM	_	8	nummod	_	_
