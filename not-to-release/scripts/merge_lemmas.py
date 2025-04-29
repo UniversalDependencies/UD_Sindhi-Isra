@@ -11,6 +11,7 @@ def get_filenames():
 
 def read_tsv_files(tsv_files):
     lemmas = {}
+    locations = {}
     for filename in tsv_files:
         with open(filename, encoding="utf-8") as fin:
             lines = fin.readlines()
@@ -26,10 +27,12 @@ def read_tsv_files(tsv_files):
                 # this was a lemma with a note on it, such as a wrong tag or wrong tokenization
                 continue
             pieces = pieces[:3]
+            word_tag = (pieces[0], pieces[1])
             # the lemma files should all be in the format word,upos,lemma
             if lemmas.get((pieces[0], pieces[1]), pieces[2]) != pieces[2]:
-                raise ValueError("Found a conflict: word |%s| POS %s" % (pieces[0], pieces[1]))
-            lemmas[(pieces[0], pieces[1])] = pieces[2]
+                raise ValueError("Found a conflict: word |%s| POS %s  Originally |%s| at %s  Now |%s| at %s" % (pieces[0], pieces[1], lemmas[word_tag], locations[word_tag], pieces[2], (filename, line_idx)))
+            lemmas[word_tag] = pieces[2]
+            locations[word_tag] = (filename, line_idx)
     return lemmas
 
 def set_lemmas(filename, lemmas):
