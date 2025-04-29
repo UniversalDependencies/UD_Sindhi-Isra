@@ -63,7 +63,9 @@ ADVMOD_EMPH_EXCEPTIONS = {
     }
 
 
-ENFORCED_POS = dict()
+ENFORCED_POS = {
+    "مطابق": "ADP",
+}
 for word in ('هجان', 'هجون', 'هجين', 'هجو', 'هجي', 'هجن'):
     ENFORCED_POS[word] = ["AUX"]
 for word in ('ھجان', 'ھجون', 'ھجين', 'ھجو', 'ھجي', 'ھجن'):
