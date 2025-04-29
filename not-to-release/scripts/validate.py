@@ -71,6 +71,7 @@ for word in ('هجان', 'هجون', 'هجين', 'هجو', 'هجي', 'هجن'):
 for word in ('ھجان', 'ھجون', 'ھجين', 'ھجو', 'ھجي', 'ھجن'):
     ENFORCED_POS[word] = ["AUX"]
 ENFORCED_POS['هجئي'] = ["AUX"]
+ENFORCED_POS['ڪانهي'] = ["AUX"]
 
 def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     problem_sentences = set()
