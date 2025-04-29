@@ -118,7 +118,7 @@
 3	ٻڪرين	ٻڪر	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
 4	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 5	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
-6	ڌڻ	_	VERB	VM	Aspect=Perf|VerbForm=Conv	13	nsubj	_	_
+6	ڌڻ	ڌڻ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 7	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	8	det	_	_
 8	تلاءَ	تلاءَ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 9	تي	تي	ADP	PSPL	_	8	case	_	_
@@ -1484,10 +1484,10 @@
 5	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 6	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	11	obl	_	_
 7	کان	کان	ADP	PSP	_	6	case	_	_
-8	ڪيئن	ڪيئن	PRON	PRWH	_	10	obl	_	_
-9	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	10	aux	_	_
-10	ماني	_	VERB	VM	Number=Sing	11	xcomp	_	_
-11	ڦري	ڦر	VERB	VM	Aspect=Perf|Number=Sing|Person=3	1	advcl	_	_
+8	ڪيئن	ڪيئن	PRON	PRWH	_	11	obl	_	_
+9	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	11	aux	_	_
+10	ماني	ماني	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
+11	ڦري	ڦر	VERB	VM	Aspect=Perf|Number=Sing|Person=3	0	root	_	_
 12	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = Kawish-20100810-491
@@ -2722,7 +2722,7 @@
 
 # sent_id = Kawish-20100810-598
 # text = پڇ وٺي عزرائيل چيو ته : چڱو آءٌ هينئر وڃان ٿو ،
-1	پڇ	_	PRON	PRWH	Gender=Masc|Number=Sing	2	obj	_	_
+1	پڇ	پڇ	NOUN	NN	Gender=Masc|Number=Sing	2	obj	_	_
 2	وٺي	وٺ	VERB	VM	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
 3	عزرائيل	عزرائيل	PROPN	NNP	Case=Nom|Gender=Masc	4	nsubj	_	_
 4	چيو	چئو	VERB	VM	Aspect=Perf	0	root	_	_
@@ -2838,7 +2838,7 @@
 2	ڪڙميءَ	ڪڙمي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	زال	زال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-5	ڦيرو	_	VERB	VM	Aspect=Perf|VerbForm=Conv	6	obj	_	_
+5	ڦيرو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 6	ڏيئي	ڏيئي	VERB	VM	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
 7	وري	وري	ADV	ADM	_	10	advmod	_	_
 8	ٻنيءَ	ٻنيءَ	NOUN	NN	Case=Acc|Number=Sing	10	obl	_	_
@@ -3555,7 +3555,7 @@
 2	وقت	وقت	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 3	کان	کان	ADP	PSP	_	2	case	_	_
 4	پوءِ	پوءِ	ADP	PSP	_	2	case	_	_
-5	اُتان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
+5	اُتان	_	ADV	ADP	_	9	advmod	_	_
 6	هڪ	هڪ	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
 7	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 8	اچي	اچ	VERB	VM	Aspect=Perf|VerbForm=Conv	9	xcomp	_	_
@@ -3792,9 +3792,9 @@
 
 # sent_id = Kawish-20100810-678
 # text = توهين لڪي لڪي هليا وڃو .
-1	توهين	_	PROPN	NNP	Case=Nom|Gender=Masc	4	nsubj	_	_
+1	توهين	تون	PRON	PRP	Case=Nom|Number=Plur|Person=2	4	nsubj	_	_
 2	لڪي	لڪ	VERB	VM	Aspect=Perf|VerbForm=Conv	3	advcl	_	_
-3	لڪي	لڪ	VERB	VM	Aspect=Perf|VerbForm=Conv	4	xcomp	_	_
+3	لڪي	لڪ	VERB	VM	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
 4	هليا	هل	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 5	وڃو	وڃ	VERB	VM	Aspect=Imp|Number=Plur|Person=3	4	compound	_	_
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -4335,7 +4335,7 @@
 13	عبدالرزاق	عبدالرزاق	PROPN	NNP	Case=Nom|Gender=Masc	17	nmod	_	_
 14	۽	۽	CCONJ	CC	_	16	cc	_	_
 15	غلام	غلام	PROPN	NNP	Case=Nom|Gender=Masc	16	compound	_	_
-16	رسول	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	conj	_	_
+16	رسول	_	PROPN	NNP	Case=Nom|Gender=Masc	13	conj	_	_
 17	جتوئي	جتوئي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	obl	_	_
 18	کان	کان	ADP	PSPL	_	17	case	_	_
 19	،	،	PUNCT	PUNCT	_	17	punct	_	_
@@ -4569,7 +4569,7 @@
 14	وڌ	وڌ	ADJ	JJ	Case=Nom|Degree=Pos	16	amod	_	_
 15	7	7	NUM	NUM	_	16	nummod	_	_
 16	سيڪڙو	سيڪڙو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
-17	ٽئين	_	VERB	VM	Aspect=Imp|Voice=Act	19	amod	_	_
+17	ٽئين	_	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	19	amod	_	_
 18	3	3	NUM	NUM	_	19	nummod	_	_
 19	ماهي	ماهي	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	23	nmod	_	_
 20	دوران	دوران	ADP	PSP	_	19	case	_	_
@@ -4595,10 +4595,10 @@
 13	،	،	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = Kawish-20100810-725
-# text = نئين طريقيڪا رمطابق وزارتون ۽ کاتا تيز هلندڙ منصوبن لاءِ وڌ ۾ وڌ رقم جاري ڪرڻ جي سفارش ڪري سگهندا ،
+# text = نئين طريقيڪار مطابق وزارتون ۽ کاتا تيز هلندڙ منصوبن لاءِ وڌ ۾ وڌ رقم جاري ڪرڻ جي سفارش ڪري سگهندا ،
 1	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	_
-2	طريقيڪا	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
-3	رمطابق	_	ADP	PSP	_	2	case	_	_
+2	طريقيڪار	طريقيڪار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+3	مطابق	مطابق	ADP	PSP	_	2	case	_	_
 4	وزارتون	وزارت	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
 5	۽	۽	CCONJ	CC	_	6	cc	_	_
 6	کاتا	کاتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	_
@@ -4844,7 +4844,7 @@
 1	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	طريقيڪار	طريقيڪار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
 3	مطابق	مطابق	ADP	PSP	_	2	case	_	_
-4	وزارتن	_	VERB	VM	Aspect=Perf|Number=Plur|Voice=Act	0	root	_	_
+4	وزارتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	_
 5	،	،	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = Kawish-20100810-737
@@ -5132,9 +5132,9 @@
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	شديد	شديد	ADJ	JJ	Case=Nom|Degree=Pos	4	amod	_	_
 4	زور	زور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-5	،	،	PUNCT	PUNCT	_	8	punct	_	_
+5	،	،	PUNCT	PUNCT	_	4	punct	_	_
 6	مٿان	مٿي	ADV	ADP	_	8	advmod	_	_
-7	مسلسل	_	NOUN	NN	Case=Nom|Number=Sing	8	nmod	_	_
+7	مسلسل	_	ADV	ADM	_	8	advmod	_	_
 8	برسات	برسات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
 9	،	،	PUNCT	PUNCT	_	8	punct	_	_
 
