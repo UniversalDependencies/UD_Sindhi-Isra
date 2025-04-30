@@ -5176,7 +5176,7 @@
 18	۽	۽	CCONJ	CC	_	19	cc	_	_
 19	کٿوري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	_
 20	لڪي	لڪ	VERB	VM	Aspect=Imp|Voice=Act	12	advcl	_	_
-21	نٿا	نٿو	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	20	dep	_	_
+21	نٿا	آھي	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	20	aux	_	_
 22	سگهن	سگهي	AUX	VAUX	Number=Plur|Person=3	20	aux	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	20	punct	_	_
 
@@ -6919,7 +6919,7 @@
 11	انهيءُ	_	PRON	PRD	Number=Sing	12	amod	_	_
 12	ڪري	ڪري	ADP	PSP	_	14	advcl	_	_
 13	به	به	PART	PART	_	12	advmod:emph	_	_
-14	مختلف	مختلف	ADJ	JJ	Case=Nom|Degree=Pos	3	obj	_	_
+14	مختلف	مختلف	ADJ	JJ	Case=Nom|Degree=Pos	3	advcl	_	_
 15	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	14	cop	_	_
 16	جو	جو	ADP	PSP	_	21	mark	_	_
 17	جتي	جتي	ADV	ADT	_	21	advmod	_	_
@@ -6949,9 +6949,9 @@
 41	تباهيءَ	تباهيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	43	nmod	_	_
 42	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	41	case	_	_
 43	منظر	منظر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	45	obj	_	_
-44	نٿا	نٿو	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	45	dep	_	_
+44	نٿا	آھي	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	45	aux	_	_
 45	ملن	مل	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	21	advcl	_	_
-46	پر	پر	SCONJ	CS	_	45	mark	_	_
+46	پر	پر	SCONJ	CS	_	55	mark	_	_
 47	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	49	nmod	_	_
 48	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	47	case	_	_
 49	دل	دل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	50	nmod	_	_
@@ -6960,7 +6960,7 @@
 52	تيل	تيل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	53	nmod	_	_
 53	پئٽرول	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	54	obj	_	_
 54	ڏيئي	ڏيئي	VERB	VM	Aspect=Perf|VerbForm=Conv	55	advcl	_	_
-55	ساڙڻ	ساڙڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	58	nmod	_	_
+55	ساڙڻ	ساڙڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	45	advcl	_	_
 56	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	55	mark	_	_
 57	ڪير	ڪير	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	62	nsubj	_	_
 58	ملڪ	ملڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	62	nmod	_	_
@@ -6983,7 +6983,7 @@
 75	لاءِ	لاءِ	ADP	PSP	_	74	mark	_	_
 76	وس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	78	obj	_	_
 77	نه	نه	PART	PART	_	78	dep	_	_
-78	گهٽايو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	3	obj	_	_
+78	گهٽايو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 79	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	78	aux	_	SpaceAfter=No
 80	.	.	PUNCT	PUNCT	_	78	punct	_	_
 
@@ -7305,34 +7305,34 @@
 # text = ملڪ ۾ جيڪي سياست جي نالي تي سنڌ سان ويڌن پئي ٿئي انهيءَ جو ازالو ڪير ڪندو؟ ڪراچيءَ جي تباهيءُ ۾ ڪهڙا هٿ وري سامهون ظاهر نٿا ٿين.
 1	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
-3	جيڪي	جيڪو	PRON	PRP	Case=Nom|Number=Plur	12	nsubj	_	_
+3	جيڪي	جيڪو	PRON	PRP	Case=Nom|Number=Plur	11	nsubj	_	_
 4	سياست	سياست	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
 6	نالي	نالو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 7	تي	تي	ADP	PSPL	_	6	case	_	_
 8	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	11	obl	_	_
 9	سان	سان	ADP	PSP	_	8	case	_	_
-10	ويڌن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
-11	پئي	پئي	VERB	VM	Aspect=Imp	12	xcomp	_	_
-12	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
+10	ويڌن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
+11	پئي	پئي	VERB	VM	Aspect=Imp	0	root	_	_
+12	ٿئي	آھي	AUX	VAUX	AuxType=Be|Number=Sing	11	aux	_	_
 13	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	15	nmod	_	_
 14	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	13	case	_	_
 15	ازالو	ازالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
 16	ڪير	ڪير	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
-17	ڪندو	ڪن	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	12	advcl	_	SpaceAfter=No
+17	ڪندو	ڪن	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	11	advcl	_	SpaceAfter=No
 18	؟	؟	PUNCT	PUNCT	_	17	punct	_	_
 19	ڪراچيءَ	ڪراچيءَ	PROPN	NNP	Case=Nom|Gender=Fem	21	nmod	_	_
 20	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	19	case	_	_
-21	تباهيءُ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
+21	تباهيءُ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	_
 22	۾	۾	ADP	PSPL	_	21	case	_	_
 23	ڪهڙا	ڪهڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_
-24	هٿ	هٿ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
-25	وري	وري	ADV	ADM	_	29	advmod	_	_
-26	سامهون	سامهون	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	advmod	_	_
-27	ظاهر	ظاهر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	29	compound	_	_
-28	نٿا	نٿو	AUX	VAUX	Gender=Masc|Number=Plur|Person=3	29	dep	_	_
-29	ٿين	ٿيو	VERB	VM	Aspect=Imp|Number=Plur|Person=3	17	advcl	_	SpaceAfter=No
-30	.	.	PUNCT	PUNCT	_	29	punct	_	_
+24	هٿ	هٿ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+25	وري	وري	ADV	ADM	_	27	advmod	_	_
+26	سامهون	سامهون	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	advmod	_	_
+27	ظاهر	ظاهر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	advcl	_	_
+28	نٿا	آھي	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	27	aux	_	_
+29	ٿين	آھي	AUX	VAUX	AuxType=Be|Number=Plur	27	cop	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	27	punct	_	_
 
 # sent_id = 4776
 # text = سازش ڪندڙ ٽولا سنڌ جي خوشحالي ترقي ۽ شادابيءَ کي نه ٿا ڏسي سگهن،
@@ -7358,7 +7358,7 @@
 2	سازش	سازش	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	_
 3	ڪندڙ	ڪن	VERB	VM	Aspect=Imp|VerbForm=Vnoun	6	advcl	_	_
 4	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
-5	نٿا	نٿو	PART	PART	_	6	dep	_	_
+5	نٿا	آھي	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	6	aux	_	_
 6	سوچين	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
 7	ته	ته	SCONJ	CS	_	13	mark	_	_
 8	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	13	ccomp	_	_
