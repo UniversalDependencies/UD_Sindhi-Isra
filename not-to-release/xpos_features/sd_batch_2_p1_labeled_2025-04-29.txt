@@ -5319,22 +5319,21 @@
 
 # sent_id = 2851
 # text = ڪڏهن جهنگ وڍي صفا ڪندو هو ۽ ڪڏهن جانورن کي گاهه وغيره ڏيندو هو.
-# semgrex pattern |{word:وغيره}| matched at 12:وغيره
-1	ڪڏهن	ڪڏهن	ADV	ADT	Case=Nom|Gender=Masc|Number=Sing	5	advmod	_	_
-2	جهنگ	جهنگ	NOUN	NN	Aspect=Perf|VerbForm=Conv	3	obj	_	_
-3	وڍي	_	VERB	VM	Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	_
-4	صفا	_	NOUN	NN	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	5	compound	_	_
-5	ڪندو	ڪن	VERB	VM	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
-6	هو	هو	AUX	VAUX	_	5	aux	_	_
-7	۽	۽	CCONJ	CC	_	13	cc	_	_
-8	ڪڏهن	ڪڏهن	ADV	ADT	Case=Acc|Gender=Masc|Number=Plur	13	advmod	_	_
-9	جانورن	جانور	NOUN	NN	_	13	iobj	_	_
-10	کي	کي	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing	9	case	_	_
-11	گاهه	_	NOUN	NN	_	13	obj	_	_
-12	وغيره	وغيره	PART	PART	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	11	dep	_	_
-13	ڏيندو	ڏيندو	VERB	VM	Gender=Masc|Number=Sing|Tense=Past	5	conj	_	_
-14	هو	هو	AUX	VAUX	_	13	aux	_	SpaceAfter=No
-15	.	.	PUNCT	PUNCT	_	13	punct	_	_
+1	ڪڏهن	_	ADV	ADT	_	5	advmod	_	_
+2	جهنگ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+3	وڍي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
+4	صفا	_	ADJ	JJ	Case=Nom	5	xcomp	_	_
+5	ڪندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	0	root	_	_
+6	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	5	aux	_	_
+7	۽	_	CCONJ	CC	_	13	cc	_	_
+8	ڪڏهن	_	ADV	ADT	_	13	advmod	_	_
+9	جانورن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	iobj	_	_
+10	کي	_	ADP	PSP	_	9	case	_	_
+11	گاهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
+12	وغيره	_	PART	PART	_	11	case	_	_
+13	ڏيندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	5	conj	_	_
+14	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Past	13	aux	_	SpaceAfter=No
+15	.	_	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
 
 # sent_id = 2853
 # text = جيڪو هن نه ڪيو.
