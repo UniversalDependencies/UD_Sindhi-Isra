@@ -1129,10 +1129,10 @@
 
 # sent_id = 1586
 # text = تنهنڪري پنهنجي رواج مطابق اکيون ٻوٽي کاڌي کائڻ کان اڳ جي دعا گهرڻ لڳا.
-1	تنهنڪري	تنهنڪري	ADV	ADT	_	14	advmod	_	_
+1	تنهنڪري	تنهنڪري	ADV	ADM	_	14	advmod	_	_
 2	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	3	nmod	_	_
 3	رواج	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
-4	مطابق	مطابق	ADV	ADV	_	6	advmod	_	_
+4	مطابق	مطابق	ADP	PSP	_	3	case	_	_
 5	اکيون	اک	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	obj	_	_
 6	ٻوٽي	ٻوٽ	VERB	VM	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
 7	کاڌي	کاڌو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_
@@ -1226,18 +1226,18 @@
 3	شڪليون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
 4	ايتريون	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
 5	ته	ته	PART	PART	_	4	advmod:emph	_	_
-6	هڪجهڙيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	xcomp	_	_
-7	هيون	هئي	AUX	VAUX	Number=Plur|Tense=Past	0	root	_	SpaceAfter=No
+6	هڪجهڙيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+7	هيون	آھي	AUX	VAUX	Number=Plur|Tense=Past	6	cop	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	6	punct	_	_
-9	ڄڻ	ڄڻ	ADV	ADT	_	16	obl	_	_
+9	ڄڻ	ڄڻ	ADV	ADT	_	15	obl	_	_
 10	ته	ته	PART	PART	_	9	advmod:emph	_	_
 11	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
 12	ڦريءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
-13	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	15	nmod	_	_
+13	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	12	case	_	_
 14	ٻه	ٻه	NUM	NUM	_	15	nummod	_	_
-15	داڻا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
-16	هجن	هجي	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	6	advcl	_	SpaceAfter=No
-17	.	.	PUNCT	PUNCT	_	16	punct	_	_
+15	داڻا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	advcl	_	_
+16	هجن	آھي	AUX	VAUX	Number=Plur|Person=3|Voice=Pass	15	cop	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
 # sent_id = 1700
 # text = ٻئي ڏاڍا سهڻا، ڏاڍا سُلڇڻا ۽ ڏاڍا محنتي هوندا هئا.
@@ -1982,17 +1982,17 @@
 
 # sent_id = 1906
 # text = توڙي پيءُ ديوتا ۽ ڌيءَ پاڻ ۾ سڳا نه هجن.
-1	توڙي	توڙي	ADV	ADV	_	10	obl	_	_
-2	پيءُ	پيءُ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
-3	ديوتا	ديوتا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+1	توڙي	توڙي	CCONJ	CC	_	8	cc	_	_
+2	پيءُ	پيءُ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	ديوتا	ديوتا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
 4	۽	۽	CCONJ	CC	_	5	cc	_	_
 5	ڌيءَ	ڌيءَ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
-6	پاڻ	پاڻ	PRON	PRP	Case=Acc|Person=1	10	obl	_	_
+6	پاڻ	پاڻ	PRON	PRP	Case=Acc|Person=1	8	obl	_	_
 7	۾	۾	ADP	PSPL	_	6	case	_	_
-8	سڳا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	xcomp	_	_
-9	نه	نه	PART	PART	_	10	dep	_	_
-10	هجن	هجي	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	PUNCT	_	10	punct	_	_
+8	سڳا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+9	نه	نه	PART	PART	_	8	dep	_	_
+10	هجن	آھي	AUX	VAUX	AuxType=Be|Number=Plur|Person=3|Voice=Pass	8	cop	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 1907
 # text = ديوتائن سوچيو ته پيءُ ديوتا آهي ۽ ڌيءَ سڳي نه پر نيپاج آهي.
@@ -2894,7 +2894,7 @@
 # sent_id = 2063
 # text = لومڙيءَ چيو ته، پريشان ٿيڻ جي ڪا به ضرورت ڪانهي.
 1	لومڙيءَ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	چيو	چئو	VERB	VM	Aspect=Perf	0	root	_	_
+2	چيو	چئو	VERB	VM	Aspect=Perf	10	advcl	_	_
 3	ته	ته	SCONJ	CS	_	2	mark	_	SpaceAfter=No
 4	،	،	PUNCT	PUNCT	_	2	punct	_	_
 5	پريشان	پريشان	ADJ	JJ	Case=Nom|Degree=Pos	6	obl	_	_
@@ -2902,9 +2902,9 @@
 7	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	mark	_	_
 8	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	10	det	_	_
 9	به	به	PART	PART	_	8	advmod:emph	_	_
-10	ضرورت	ضرورت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
-11	ڪانهي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	2	ccomp	_	SpaceAfter=No
-12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+10	ضرورت	ضرورت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+11	ڪانهي	آھي	AUX	VAUX	Number=Sing|Tense=Pres	10	cop	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = 2064
 # text = اوهان ماٺڙي ڪري پنهنجي پنهنجي ڳالهه ٻڌايو.
@@ -3569,12 +3569,12 @@
 
 # sent_id = 2217
 # text = پر مون کي مٽي ڪانهي.
-1	پر	پر	SCONJ	CS	_	5	mark	_	_
-2	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	5	nsubj	_	_
+1	پر	پر	SCONJ	CS	_	4	mark	_	_
+2	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	4	nsubj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
-4	مٽي	مٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-5	ڪانهي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	PUNCT	_	5	punct	_	_
+4	مٽي	مٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	ڪانهي	آھي	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 2218
 # text = تون مون کي ٿوري آلي مٽي آڻي ڏي،
@@ -7413,10 +7413,10 @@
 
 # sent_id = 3117
 # text = اُها جتي هجي،
-1	اُها	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-2	جتي	جتي	ADV	ADP	_	3	obl	_	_
-3	هجي	هجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	0	root	_	SpaceAfter=No
-4	،	،	PUNCT	PUNCT	_	3	punct	_	_
+1	اُها	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	جتي	جتي	ADV	ADP	_	1	advmod	_	_
+3	هجي	آھي	AUX	VAUX	Number=Sing|Tense=Pres	1	cop	_	SpaceAfter=No
+4	،	،	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = 3118
 # text = هن کي هر قيمت تي ڳولي هٿ ڪري مون وٽ وٺي اچو.
@@ -7606,8 +7606,8 @@
 5	،	،	PUNCT	PUNCT	_	4	punct	_	_
 6	گومبئي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
 7	،	،	PUNCT	PUNCT	_	6	punct	_	_
-8	روئين	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	advcl	_	_
-9	ڇو	ڇو	NOUN	ADS	_	8	obl	_	_
+8	روئين	رو	VERB	VM	Aspect=Imp|Number=Sing|Person=1	4	advcl	_	_
+9	ڇو	ڇو	PRON	PRWH	Case=Nom	8	obl	_	_
 10	ٿو	ٿو	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	8	aux	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -8161,13 +8161,13 @@
 # sent_id = 3339
 # text = اها ڇوڪري ڏاڍي سلڇڻي ۽ کلمُک هئي،
 1	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
-2	ڇوڪري	ڇوڪرِي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
-3	ڏاڍي	ڏاڍي	ADJ	ADQ	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
-4	سلڇڻي	سلڇڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	xcomp	_	_
+2	ڇوڪري	ڇوڪرِي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ڏاڍي	ڏاڍي	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	سلڇڻي	سلڇڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 5	۽	۽	CCONJ	CC	_	6	cc	_	_
 6	کلمُک	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	_
-7	هئي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Past	0	root	_	SpaceAfter=No
-8	،	،	PUNCT	PUNCT	_	7	punct	_	_
+7	هئي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Past	6	cop	_	SpaceAfter=No
+8	،	،	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 3340
 # text = تنهنڪري هن جي ماءُ پيءُ هن جو نالو ماليڪٽ رکيو.
