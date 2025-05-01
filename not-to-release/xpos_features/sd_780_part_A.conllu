@@ -2895,14 +2895,14 @@
 
 # sent_id = Kawish-20100810-114
 # text = جسٽس جواد ايس خواجا چيو ته 8 هين ترميم طويل عرصو آئين جو حصو رهي ،
-1	جسٽس	جسٽس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
-2	جواد	جواد	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
-3	ايس	ايس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
-4	خواجا	خواجو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+1	جسٽس	جسٽس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	جواد	جواد	PROPN	NNP	Case=Nom|Gender=Masc	5	nsubj	_	_
+3	ايس	ايس	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+4	خواجا	خواجو	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
 5	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing|Voice=Act	0	root	_	_
 6	ته	ته	SCONJ	CS	_	15	mark	_	_
 7	8	8	NUM	NUM	_	9	nummod	_	_
-8	هين	هين	NUM	NUM	_	7	case	_	_
+8	هين	هين	NUM	NUM	_	7	flat	_	_
 9	ترميم	ترميم	NOUN	NN	Case=Nom|Number=Sing	15	nsubj	_	_
 10	طويل	طويل	ADJ	JJ	Case=Nom|Degree=Cmp	11	amod	_	_
 11	عرصو	عرصو	NOUN	NN	Case=Nom	15	obl	_	_
@@ -5696,11 +5696,11 @@
 # text = هاڻي اڄ مان تنهنجو مڙس ۽ تون منهنجي زال متان ڪو ٻيو خيال ڪرين ته مـَـهٽي نه ڇڏيانءِ .
 1	هاڻي	هاڻ	ADV	ADT	_	14	advmod	_	_
 2	اڄ	اڄ	ADV	ADT	_	14	advmod	_	_
-3	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	case	_	_
+3	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nmod	_	_
 4	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	5	nmod	_	_
-5	مڙس	مڙس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+5	مڙس	مڙس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	discourse	_	_
 6	۽	۽	CCONJ	CC	_	9	cc	_	_
-7	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	14	nsubj	_	_
+7	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	9	nmod	_	_
 8	منهنجي	منهنجو	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	9	nmod	_	_
 9	زال	زال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
 10	متان	متان	ADV	ADM	_	14	advmod	_	_
@@ -6727,12 +6727,12 @@
 
 # sent_id = Kawish-20100810-340
 # text = جو ڏسي هو سڀ ڏڪڻ لڳا .
-1	جو	جو	PRON	PRL	Case=Nom|Number=Sing	2	case	_	_
-2	ڏسي	ڏس	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	5	obl	_	_
-3	هو	هو	PRON	PRP	Number=Plur|Person=3	2	dep	_	_
-4	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur	5	xcomp	_	_
+1	جو	جو	PRON	PRL	Case=Nom|Number=Sing	2	obj	_	_
+2	ڏسي	ڏس	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	5	advcl	_	_
+3	هو	هو	PRON	PRP	Number=Plur|Person=3	5	nsubj	_	_
+4	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur	3	amod	_	_
 5	ڏڪڻ	ڏڪڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
-6	لڳا	لڳ	VERB	VM	Aspect=Perf|Number=Sing|Person=3	5	xcomp	_	_
+6	لڳا	لڳ	VERB	VM	Aspect=Perf|Number=Sing|Person=3	5	compound	_	_
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = Kawish-20100810-341
@@ -6952,7 +6952,7 @@
 2	نچي	نچ	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
 3	نچي	نچ	VERB	VM	Aspect=Perf|VerbForm=Conv	2	compound	_	_
 4	کيرا	کيرو	ADJ	JJ	Gender=Masc|Number=Plur	6	advcl	_	_
-5	ٿي	آهي	AUX	VAUX	Number=Plur|Tense=Pres	4	case	_	_
+5	ٿي	آهي	AUX	VAUX	Number=Plur|Tense=Pres	4	cop	_	_
 6	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 7	پيا	پيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	6	compound	_	_
 8	،	،	PUNCT	PUNCT	_	6	punct	_	_
