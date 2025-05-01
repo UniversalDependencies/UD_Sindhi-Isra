@@ -577,7 +577,7 @@
 7	ٽي	ٽي	NUM	NUM	_	8	amod	_	_
 8	سؤ	سؤ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nummod	_	_
 9	ڪوڙ	ڪوڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	obj	_	_
-10	ٺاهيا	ٺاهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	3	obj	_	_
+10	ٺاهيا	ٺاهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	3	advcl	_	_
 11	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	10	aux	_	_
 12	،	،	PUNCT	PUNCT	_	10	punct	_	_
 
@@ -626,7 +626,7 @@
 13	سؤ	سؤ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
 14	ڪوڙ	ڪوڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 15	ته	ته	PART	PART	_	14	advmod:emph	_	_
-16	وسري	وسر	VERB	VM	Aspect=Perf|VerbForm=Conv	7	obj	_	_
+16	وسري	وسر	VERB	VM	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
 17	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	16	compound	_	_
 18	اٿم	آهي	AUX	VAUXX	AuxType=Be|Number=Sing|Person=1	16	aux	_	_
 19	.	.	PUNCT	PUNCT	_	16	punct	_	_
@@ -927,12 +927,12 @@
 2	چيو	چئو	VERB	VM	Aspect=Perf	0	root	_	_
 3	ته	ته	SCONJ	CS	_	2	mark	_	_
 4	:	:	PUNCT	PUNCT	_	2	punct	_	_
-5	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nmod	_	_
+5	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
 6	ٻچا	ٻچو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	obj	_	_
-7	ڪڍي	ڪڍ	VERB	VM	Aspect=Perf|VerbForm=Conv	2	obj	_	_
+7	ڪڍي	ڪڍ	VERB	VM	Aspect=Perf|VerbForm=Conv	2	advcl	_	_
 8	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	7	aux	_	_
-9	اچان	اچ	VERB	VM	Number=Sing|Person=1	2	ccomp	_	_
-10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+9	اچان	اچ	VERB	VM	Number=Sing|Person=1	7	compound	_	_
+10	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = Kawish-20100810-451
 # text = جڏهن گدڙ اندر ويو ۽ دير ڪيائين ،
@@ -955,10 +955,10 @@
 6	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	9	nsubj	_	_
 7	جهٽ	جهٽ	ADV	ADM	Gender=Masc|Number=Sing	9	obl	_	_
 8	پٽ	پٽ	ADV	ADM	_	9	obl	_	_
-9	ڪڍي	ڪڍ	VERB	VM	Aspect=Perf|VerbForm=Conv	3	obj	_	_
+9	ڪڍي	ڪڍ	VERB	VM	Aspect=Perf|VerbForm=Conv	3	advcl	_	_
 10	ٿي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	9	aux	_	_
-11	اچان	اچ	VERB	VM	Number=Sing|Person=1	3	ccomp	_	_
-12	.	.	PUNCT	PUNCT	_	11	punct	_	_
+11	اچان	اچ	VERB	VM	Number=Sing|Person=1	9	compound	_	_
+12	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = Kawish-20100810-453
 # text = ائين چئي اها به اندر ويئي ۽ وري نه موٽي .
@@ -1367,14 +1367,14 @@
 
 # sent_id = Kawish-20100810-482
 # text = چئي : تو اڄ هي رستو ڪيئن ورتو آهي ،
-1	چئي	چئو	VERB	VM	Aspect=Imp|Number=Sing	0	root	_	_
+1	چئي	چئو	VERB	VM	Aspect=Imp|Number=Sing	8	advcl	_	_
 2	:	:	PUNCT	PUNCT	_	1	punct	_	_
 3	تو	تو	PRON	PRP	Case=Nom|Number=Sing|Person=2	8	nsubj	_	_
 4	اڄ	اڄ	ADV	ADT	_	8	advmod	_	_
 5	هي	هي	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
 6	رستو	رستو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 7	ڪيئن	ڪيئن	PRON	PRWH	_	8	obl	_	_
-8	ورتو	ورتو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	1	obj	_	_
+8	ورتو	ورتو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	aux	_	_
 10	،	،	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -2306,7 +2306,7 @@
 6	ٻنيءَ	ٻنيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 7	۾	۾	ADP	PSPL	_	6	case	_	_
 8	پير	پير	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj:pass	_	_
-9	ڏسجن	ڏس	VERB	VM	Aspect=Imp|Number=Plur|Voice=Pass	2	obj	_	_
+9	ڏسجن	ڏس	VERB	VM	Aspect=Imp|Number=Plur|Voice=Pass	2	advcl	_	_
 10	پيا	پيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	9	compound	_	_
 11	،	،	PUNCT	PUNCT	_	9	punct	_	_
 
@@ -2716,9 +2716,9 @@
 4	:	:	PUNCT	PUNCT	_	2	punct	_	_
 5	پڇ	پڇ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
 6	وڍي	وڍ	VERB	VM	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
-7	کڻي	کڻي	VERB	VM	Aspect=Perf|VerbForm=Conv	2	obj	_	_
-8	ڏينس	ڏي	VERB	VMX	Aspect=Imp|Number=Sing|Number[subj]=Sing|Person=2|Person[subj]=2|Voice=Act	2	ccomp	_	_
-9	.	.	PUNCT	PUNCT	_	2	punct	_	_
+7	کڻي	کڻي	VERB	VM	Aspect=Perf|VerbForm=Conv	2	advcl	_	_
+8	ڏينس	ڏي	VERB	VMX	Aspect=Imp|Number=Sing|Number[subj]=Sing|Person=2|Person[subj]=2|Voice=Act	7	compound	_	_
+9	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = Kawish-20100810-598
 # text = پڇ وٺي عزرائيل چيو ته : چڱو آءٌ هينئر وڃان ٿو ،
@@ -2728,10 +2728,10 @@
 4	چيو	چئو	VERB	VM	Aspect=Perf	0	root	_	_
 5	ته	ته	SCONJ	CS	_	4	mark	_	_
 6	:	:	PUNCT	PUNCT	_	4	punct	_	_
-7	چڱو	چڱو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	advmod	_	_
+7	چڱو	چڱو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	xcomp	_	_
 8	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
 9	هينئر	هينئر	ADV	ADT	_	10	advmod	_	_
-10	وڃان	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3	4	obj	_	_
+10	وڃان	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3	4	advcl	_	_
 11	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	10	aux	_	_
 12	،	،	PUNCT	PUNCT	_	10	punct	_	_
 
@@ -3690,7 +3690,7 @@
 22	جيڪي	جيڪو	PRON	PRWH	Case=Nom|Number=Sing	23	nsubj	_	_
 23	چوندين	چو	VERB	VM	Aspect=Imp|Number=Sing|Person=2|Voice=Act	25	advcl	_	_
 24	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	25	det	_	_
-25	ڏيندوسانءِ	ڏي	VERB	VMX	Aspect=Imp|Gender=Fem|Number=Sing|Person=2|Tense=Fut|Voice=Act	18	obj	_	_
+25	ڏيندوسانءِ	ڏي	VERB	VMX	Aspect=Imp|Gender=Fem|Number=Sing|Person=2|Tense=Fut|Voice=Act	18	advcl	_	_
 26	،	،	PUNCT	PUNCT	_	25	punct	_	_
 
 # sent_id = Kawish-20100810-669
@@ -3911,7 +3911,7 @@
 14	کي	کي	ADP	PSP	_	13	case	_	_
 15	ڏسان	ڏس	VERB	VM	Aspect=Imp|Number=Sing|Person=1	7	advcl	_	_
 16	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	17	nsubj	_	_
-17	چوانس	چو	VERB	VMX	Aspect=Imp|Number=Sing|Number[obj]=Sing|Number[subj]=Sing|Person=1|Person[obj]=1|Person[subj]=1	7	obj	_	_
+17	چوانس	چو	VERB	VMX	Aspect=Imp|Number=Sing|Number[obj]=Sing|Number[subj]=Sing|Person=1|Person[obj]=1|Person[subj]=1	15	advcl	_	_
 18	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	17	aux	_	_
 19	ته	ته	SCONJ	CS	_	22	mark	_	_
 20	ڀلي	ڀلي	ADV	ADA	_	22	advmod	_	_
@@ -4098,9 +4098,9 @@
 
 # sent_id = Kawish-20100810-697
 # text = سو يڪدم ٽپ ڏيئي وڻ تي چڙهي ويهي رهيو .
-1	سو	سو	PRON	PRL	Case=Nom|Number=Sing	8	nsubj	_	_
+1	سو	سو	PRON	PRL	Case=Nom|Number=Sing	4	nsubj	_	_
 2	يڪدم	يڪدم	ADV	ADM	_	4	advmod	_	_
-3	ٽپ	ٽپ	VERB	VM	Aspect=Perf|VerbForm=Conv	4	obj	_	_
+3	ٽپ	ٽپ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
 4	ڏيئي	ڏيئي	VERB	VM	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
 5	وڻ	وڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 6	تي	تي	ADP	PSPL	_	5	case	_	_
