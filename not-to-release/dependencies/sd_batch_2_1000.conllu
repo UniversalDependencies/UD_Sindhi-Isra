@@ -14046,44 +14046,45 @@
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 3149
-# text = ان کان پوءِ بادشاهه گومبئي جا ڦاٽل ساٽل ۽ پراڻا ڪپڙا پائي باغ ۾ هليو ويو ۽ هوڪا ڏيڻ لڳو: صنوبر جا وڻصنوبر جا وڻ نئين سال جي لاءِ سهڻا ۽ عمدا صنوبر جا وڻ.
-1	ان	ان	DET	_	_	15	obl	_	_
-2	کان	کان	ADP	_	_	15	obl	_	_
-3	پوءِ	پوءِ	ADP	_	_	15	advmod	_	_
-4	بادشاهه	بادشاهه	NOUN	_	_	15	nsubj	_	_
-5	گومبئي	گومبئي	PROPN	_	_	8	nmod	_	_
-6	جا	جو	ADP	_	_	5	case	_	_
-7	ڦاٽل	_	NOUN	_	_	8	nmod	_	_
-8	ساٽل	_	NOUN	_	_	12	obl	_	_
-9	۽	۽	CCONJ	_	_	11	cc	_	_
-10	پراڻا	پراڻو	ADJ	_	_	8	conj	_	_
-11	ڪپڙا	ڪپڙو	NOUN	_	_	12	obj	_	_
-12	پائي	پائي	VERB	_	_	15	advcl	_	_
-13	باغ	باغ	NOUN	_	_	15	obl	_	_
-14	۾	۾	ADP	_	_	15	mark	_	_
-15	هليو	هل	VERB	_	_	0	root	_	_
-16	ويو	ويو	VERB	_	_	15	compound	_	_
-17	۽	۽	CCONJ	_	_	20	cc	_	_
-18	هوڪا	_	NOUN	_	_	20	compound	_	_
-19	ڏيڻ	ڏي	VERB	_	_	20	xcomp	_	_
-20	لڳو	لڳو	VERB	_	_	15	conj	_	SpaceAfter=No
-21	:	:	PUNCT	_	_	20	punct	_	_
-22	صنوبر	_	PROPN	_	_	24	nmod	_	_
-23	جا	جو	ADP	_	_	24	nmod	_	_
-24	وڻصنوبر	_	NOUN	_	_	26	nmod	_	_
-25	جا	جو	ADP	_	_	26	compound	_	_
-26	وڻ	وڻ	NOUN	_	_	20	nsubj	_	_
-27	نئين	نئين	ADJ	_	_	28	amod	_	_
-28	سال	سال	NOUN	_	_	31	obl	_	_
-29	جي	جي	ADP	_	_	28	case	_	_
-30	لاءِ	لاءِ	ADP	_	_	28	case	_	_
-31	سهڻا	سهڻو	ADJ	_	_	36	amod	_	_
-32	۽	۽	CCONJ	_	_	33	cc	_	_
-33	عمدا	_	NOUN	_	_	31	conj	_	_
-34	صنوبر	_	NOUN	_	_	36	nmod	_	_
-35	جا	جو	ADP	_	_	36	mark	_	_
-36	وڻ	وڻ	VERB	_	_	20	obj	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	36	punct	_	_
+# text = ان کان پوءِ بادشاهه گومبئي جا ڦاٽل ساٽل ۽ پراڻا ڪپڙا پائي باغ ۾ هليو ويو ۽ هوڪا ڏيڻ لڳو: صنوبر جا وڻ صنوبر جا وڻ نئين سال جي لاءِ سهڻا ۽ عمدا صنوبر جا وڻ.
+1	ان	_	DET	PRD	Case=Acc|Number=Sing	15	obl	_	_
+2	کان	_	ADP	PSP	_	1	case	_	_
+3	پوءِ	_	ADP	PSP	_	2	fixed	_	_
+4	بادشاهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+5	گومبئي	_	PROPN	NNP	Case=Nom|Gender=Masc	8	nmod	_	_
+6	جا	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	5	case	_	_
+7	ڦاٽل	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	ساٽل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+9	۽	_	CCONJ	CC	_	10	cc	_	_
+10	پراڻا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	conj	_	_
+11	ڪپڙا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	obj	_	_
+12	پائي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	15	advcl	_	_
+13	باغ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+14	۾	_	ADP	PSPL	_	13	case	_	_
+15	هليو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	19	conj	_	_
+16	ويو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	15	compound	_	_
+17	۽	_	CCONJ	CC	_	19	cc	_	_
+18	هوڪا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	obj	_	_
+19	ڏيڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
+20	لڳو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	19	compound	_	SpaceAfter=No
+21	:	_	PUNCT	PUNCT	_	19	punct	_	_
+22	صنوبر	_	PROPN	NNP	Case=Nom|Gender=Masc	24	nmod	_	_
+23	جا	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	22	case	_	_
+24	وڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	discourse	_	_
+25	صنوبر	_	PROPN	NNP	Case=Nom|Gender=Masc	27	nmod	_	_
+26	جا	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	25	case	_	_
+27	وڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	24	conj	_	_
+28	نئين	_	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	سال	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	32	obl	_	_
+30	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	29	case	_	_
+31	لاءِ	_	ADP	PSP	_	29	case	_	_
+32	سهڻا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	37	amod	_	_
+33	۽	_	CCONJ	CC	_	34	cc	_	_
+34	عمدا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	32	conj	_	_
+35	صنوبر	_	PROPN	NNP	Case=Nom|Gender=Masc	37	nmod	_	_
+36	جا	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	35	case	_	_
+37	وڻ	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	19	discourse	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	19	punct	_	_
 
 # sent_id = 3150
 # text = اهو ٻڌي مائي ويتر خوش ٿي.
