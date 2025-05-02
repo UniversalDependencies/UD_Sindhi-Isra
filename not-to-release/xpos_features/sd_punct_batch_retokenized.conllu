@@ -183,7 +183,7 @@
 5	ته	ته	SCONJ	CS	_	9	mark	_	_
 6	هڪ	هڪ	NUM	NUM	Case=Nom|Number=Sing	7	nummod	_	_
 7	بيدو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-8	بولاٽيون	_	VERB	VM	Aspect=Perf|Number=Plur	9	obj	_	_
+8	بولاٽيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	obj	_	_
 9	کائيندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	4	advcl	_	SpaceAfter=No
 10	،	،	PUNCT	PUNCT	_	9	punct	_	_
 
@@ -408,7 +408,7 @@
 14	به	به	PART	PART	_	13	advmod:emph	_	_
 15	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	17	obl	_	_
 16	سان	سان	ADP	PSP	_	15	case	_	_
-17	هلي	هل	VERB	VM	Aspect=Imp|Number=Sing|Person=3	7	obj	_	_
+17	هلي	هل	VERB	VM	Aspect=Imp|Number=Sing|Person=3	7	advcl	_	_
 18	سگهين	سگهي	AUX	VAUX	Number=Sing|Person=2	17	aux	_	_
 19	ٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	17	aux	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	17	punct	_	_
@@ -532,7 +532,7 @@
 7	پڇڻ	پڇ	VERB	VM	Aspect=Imp|VerbForm=Inf	8	xcomp	_	_
 8	لڳس	لڳو	VERB	VMX	Number=Sing|Person=3	5	conj	_	SpaceAfter=No
 9	،	،	PUNCT	PUNCT	_	8	punct	_	_
-10	پـُٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+10	پـُٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	vocative	_	SpaceAfter=No
 11	!	!	PUNCT	PUNCT	_	10	punct	_	_
 12	اڄ	اڄ	ADV	ADT	_	18	advmod	_	_
 13	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	18	nsubj	_	_
@@ -540,8 +540,8 @@
 15	ڌيان	ڌيان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
 16	سان	سان	ADP	PSP	_	15	case	_	_
 17	ڇا	ڇا	PRON	PRWH	_	18	obj	_	_
-18	پيو	پيو	VERB	VM	Aspect=Imp	8	obj	_	_
-19	سوچين	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	8	obj	_	SpaceAfter=No
+18	پيو	پيو	VERB	VM	Aspect=Imp	8	ccomp	_	_
+19	سوچين	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	18	compound	_	SpaceAfter=No
 20	؟	؟	PUNCT	PUNCT	_	18	punct	_	_
 
 # sent_id = 2867b
@@ -583,7 +583,7 @@
 18	!	!	PUNCT	PUNCT	_	17	punct	_	_
 19	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	21	nsubj	_	_
 20	ڪٿان	ڪٿي	ADV	ADP	_	21	advmod	_	_
-21	آيو	آءَ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	15	obj	_	_
+21	آيو	آءَ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	15	ccomp	_	_
 22	آهين	آهي	AUX	VAUX	Number=Sing|Person=1|Tense=Pres	21	aux	_	SpaceAfter=No
 23	؟	؟	PUNCT	PUNCT	_	21	punct	_	_
 
@@ -784,7 +784,7 @@
 10	هائو	_	INTJ	INTJ	_	8	discourse	_	SpaceAfter=No
 11	!	!	PUNCT	PUNCT	_	10	punct	_	_
 12	بلڪل	بلڪل	ADV	ADT	_	13	advmod	_	_
-13	ملي	مل	VERB	VM	Aspect=Imp	8	obj	_	_
+13	ملي	مل	VERB	VM	Aspect=Imp	8	advcl	_	_
 14	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	13	compound	_	_
 15	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	13	aux	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	13	punct	_	_
