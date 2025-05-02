@@ -50,7 +50,7 @@ def set_lemmas(filename, lemmas, remove_existing):
 def main():
     parser = argparse.ArgumentParser(description='Merge all known lemmas into the conllu files')
     parser.add_argument('--remove_existing', action='store_true', default=False, dest='remove_existing',
-                        help="If a lemma is currently set, but is not in the known lemma files, remove it")
+                        help="If a lemma is currently set, but is not in the known lemma files, remove it.  Makes it easy to look for ones which have been manually edited")
     args = parser.parse_args()
 
     tsv_files = glob.glob("../lemmas/*.tsv")
