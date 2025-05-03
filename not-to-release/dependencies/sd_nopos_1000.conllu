@@ -811,19 +811,19 @@
 
 # sent_id = 280
 # text = راجا حيران ٿي وزير کان پڇيو، ڇا هيءُ اهوئي بکيو هاٿي آهي،
-1	راجا	راجا	NOUN	_	_	6	nsubj	_	_
-2	حيران	_	NOUN	_	_	6	obl	_	_
+1	راجا	راجا	NOUN	_	_	2	nsubj	_	_
+2	حيران	_	NOUN	_	_	6	advcl	_	_
 3	ٿي	آهي	AUX	_	_	2	cop	_	_
 4	وزير	وزير	NOUN	_	_	6	obl	_	_
 5	کان	کان	ADP	_	_	4	case	_	_
-6	پڇيو	پڇ	VERB	_	_	0	root	_	SpaceAfter=No
+6	پڇيو	پڇ	VERB	_	_	12	advcl	_	SpaceAfter=No
 7	،	،	PUNCT	_	_	6	punct	_	_
 8	ڇا	ڇا	PRON	_	_	12	obl	_	_
-9	هيءُ	هي	DET	_	_	11	det	_	_
-10	اهوئي	_	ADJ	_	_	11	amod	_	_
-11	بکيو	_	NOUN	_	_	12	nsubj	_	_
-12	هاٿي	_	VERB	_	_	6	obj	_	_
-13	آهي	آهي	AUX	_	_	12	aux	_	SpaceAfter=No
+9	هيءُ	هي	DET	_	_	12	nsubj	_	_
+10	اهوئي	اهو	DET	_	_	12	det	_	_
+11	بکيو	بکيو	ADJ	_	_	12	amod	_	_
+12	هاٿي	هاٿي	NOUN	_	_	0	root	_	_
+13	آهي	آهي	AUX	_	_	12	cop	_	SpaceAfter=No
 14	،	،	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 281
@@ -876,20 +876,20 @@
 6	ڏنو	ڏنو	VERB	_	_	0	root	_	_
 7	ته	ته	SCONJ	_	_	6	mark	_	SpaceAfter=No
 8	،	،	PUNCT	_	_	6	punct	_	_
-9	هاڻي	هاڻ	ADV	_	_	20	advmod	_	_
+9	هاڻي	هاڻ	ADV	_	_	17	advcl	_	_
 10	ته	ته	PART	_	_	9	advmod:emph	_	_
 11	اهو	اهو	DET	_	_	12	det	_	_
-12	هاٿي	_	NOUN	_	_	14	nsubj	_	_
-13	کائي	کاءِ	VERB	_	_	14	advcl	_	_
-14	پي	پي	VERB	_	_	20	advcl	_	_
-15	مهاراج	_	NOUN	_	_	20	obl	_	_
+12	هاٿي	هاٿي	NOUN	_	_	17	nsubj	_	_
+13	کائي	کاءِ	VERB	_	_	17	advcl	_	_
+14	پي	پي	VERB	_	_	13	compound	_	_
+15	مهاراج	مهاراج	NOUN	_	_	17	obl	_	_
 16	وانگر	وانگر	ADP	_	_	15	case	_	_
-17	ٿلهول	_	NOUN	_	_	18	nmod	_	_
-18	متارو	_	ADJ	_	_	20	xcomp	_	_
-19	ٿي	آهي	AUX	_	_	20	aux	_	_
-20	پيو	پيو	VERB	_	_	6	obj	_	_
-21	آهي	آهي	AUX	_	_	20	aux	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	20	punct	_	_
+17	ٿلهول	ٿلهو	ADJ	_	_	6	advcl	_	_
+18	متارو	متارو	ADJ	_	_	17	compound	_	_
+19	ٿي	آهي	AUX	_	_	17	cop	_	_
+20	پيو	پيو	VERB	_	_	17	compound	_	_
+21	آهي	آهي	AUX	_	_	17	aux	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 283
 # text = اهو جانور جيڪو مهاراج اوهان ڏسو پيا،
@@ -1177,7 +1177,7 @@
 1	پهريدارن	_	NOUN	_	_	9	nsubj	_	_
 2	ڦاهيءَ	_	NOUN	_	_	4	nmod	_	_
 3	جو	جو	ADP	_	_	2	case	_	_
-4	ڦندو	_	VERB	_	_	9	obj	_	_
+4	ڦندو	_	NOUN	_	_	9	obj	_	_
 5	هن	هن	DET	_	_	7	nmod	_	_
 6	جي	جي	ADP	_	_	5	case	_	_
 7	ڳچيءَ	ڳچي	NOUN	_	_	9	obl	_	_
@@ -1213,14 +1213,14 @@
 2	کان	کان	ADP	_	_	1	case	_	_
 3	اڳ	اڳ	NOUN	_	_	7	obl	_	_
 4	جو	جو	ADP	_	_	3	case	_	_
-5	هو	هو	DET	_	_	7	det	_	_
+5	هو	هو	DET	_	_	7	nsubj	_	_
 6	ڪي	ڪي	NOUN	_	_	7	obj	_	_
 7	چوي	چوي	VERB	_	_	17	advcl	_	SpaceAfter=No
 8	،	،	PUNCT	_	_	7	punct	_	_
 9	پهريدارن	_	NOUN	_	_	17	nsubj	_	_
 10	ڦاهيءَ	_	NOUN	_	_	12	nmod	_	_
 11	جو	جو	ADP	_	_	10	case	_	_
-12	ڦندو	_	VERB	_	_	17	obj	_	_
+12	ڦندو	_	NOUN	_	_	17	obj	_	_
 13	هن	هن	DET	_	_	15	nmod	_	_
 14	جي	جي	ADP	_	_	13	case	_	_
 15	ڳچيءَ	ڳچي	NOUN	_	_	17	obl	_	_
@@ -3311,8 +3311,8 @@
 6	گهري	گهر	VERB	_	_	7	acl	_	_
 7	ننڊ	ننڊ	NOUN	_	_	9	obl	_	_
 8	۾	۾	ADP	_	_	7	case	_	_
-9	ستو	_	ADJ	_	_	3	obj	_	_
-10	پيو	پيو	VERB	_	_	3	obj	_	_
+9	ستو	_	ADJ	_	_	3	advcl	_	_
+10	پيو	پيو	VERB	_	_	9	compound	_	_
 11	آهي	آهي	AUX	_	_	9	aux	_	SpaceAfter=No
 12	،	،	PUNCT	_	_	9	punct	_	_
 
@@ -3475,11 +3475,11 @@
 7	ڪم	ڪم	NOUN	_	_	8	obj	_	_
 8	ڪرڻ	ڪر	VERB	_	_	14	advcl	_	_
 9	لاءِ	لاءِ	ADP	_	_	8	mark	_	_
-10	مون	مون	PRON	_	_	14	nsubj	_	_
+10	مون	مون	PRON	_	_	14	obl	_	_
 11	وٽ	وٽ	ADP	_	_	10	case	_	_
 12	هڪ	هڪ	ADJ	_	_	13	amod	_	_
 13	نوڪر	نوڪر	NOUN	_	_	14	nsubj	_	_
-14	هجڻ	هجڻ	VERB	_	_	3	obj	_	_
+14	هجڻ	هجڻ	VERB	_	_	3	advcl	_	_
 15	گهرجي	گهرجي	VERB	_	_	14	compound	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -4289,12 +4289,12 @@
 2	تي	تي	ADP	_	_	1	case	_	_
 3	توب	توب	NOUN	_	_	9	nsubj	_	_
 4	به	به	PART	_	_	3	advmod:emph	_	_
-5	ٽپ	ٽپ	VERB	_	_	6	obj	_	_
+5	ٽپ	ٽپ	NOUN	_	_	6	obj	_	_
 6	ڏيئي	ڏيئي	VERB	_	_	9	advcl	_	_
 7	گهوڙي	گهوڙو	NOUN	_	_	9	obl	_	_
 8	تي	تي	ADP	_	_	7	case	_	_
-9	سوار	_	VERB	_	_	0	root	_	_
-10	ٿي	آهي	AUX	_	_	9	aux	_	SpaceAfter=No
+9	سوار	سوار	NOUN	_	_	0	root	_	_
+10	ٿي	آهي	AUX	_	_	9	cop	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 902
@@ -4380,7 +4380,7 @@
 1	۽	۽	CCONJ	_	_	8	cc	_	_
 2	صندوق	_	NOUN	_	_	8	nsubj	_	_
 3	به	به	PART	_	_	2	advmod:emph	_	_
-4	ٽپ	ٽپ	VERB	_	_	5	obj	_	_
+4	ٽپ	ٽپ	NOUN	_	_	5	obj	_	_
 5	ڏيئي	ڏيئي	VERB	_	_	8	advcl	_	_
 6	گهوڙي	گهوڙو	NOUN	_	_	8	obl	_	_
 7	تي	تي	ADP	_	_	6	case	_	_
@@ -4873,11 +4873,11 @@
 # sent_id = 952
 # text = هن ٽپ ڏيئي چيتي جون ٻئي اکيون ڪڍي ورتيون.
 1	هن	هن	DET	_	_	8	nsubj	_	_
-2	ٽپ	ٽپ	VERB	_	_	3	obj	_	_
+2	ٽپ	ٽپ	NOUN	_	_	3	obj	_	_
 3	ڏيئي	ڏيئي	VERB	_	_	8	advcl	_	_
 4	چيتي	چيتو	NOUN	_	_	7	nmod	_	_
 5	جون	جو	ADP	_	_	4	case	_	_
-6	ٻئي	ٻہ	ADJ	_	_	7	nummod	_	_
+6	ٻئي	ٻہ	ADJ	_	_	7	amod	_	_
 7	اکيون	اک	NOUN	_	_	8	obj	_	_
 8	ڪڍي	ڪڍ	VERB	_	_	0	root	_	_
 9	ورتيون	ورتو	VERB	_	_	8	compound	_	SpaceAfter=No
@@ -5032,17 +5032,17 @@
 3	رحم	_	NOUN	_	_	4	compound	_	_
 4	کائي	کاءِ	VERB	_	_	10	advcl	_	_
 5	کيس	کي	ADP	_	_	4	mark	_	_
-6	کاڌو	_	VERB	_	_	10	obj	_	_
+6	کاڌو	کاڌو	NOUN	_	_	10	obj	_	_
 7	۽	۽	CCONJ	_	_	8	cc	_	_
 8	پئسا	پئسو	NOUN	_	_	6	conj	_	_
-9	ڏوڪڙ	_	NOUN	_	_	10	obj	_	_
+9	ڏوڪڙ	_	NOUN	_	_	8	compound	_	_
 10	ڏيندا	ڏي	VERB	_	_	0	root	_	_
 11	هئا	آهي	AUX	_	_	10	aux	_	_
 12	۽	۽	CCONJ	_	_	17	cc	_	_
-13	اهڙيءَ	اهڙو	ADJ	_	_	14	amod	_	_
+13	اهڙيءَ	اهڙو	DET	_	_	14	det	_	_
 14	ريت	ريت	NOUN	_	_	17	obl	_	_
 15	هو	هو	DET	_	_	17	det	_	_
-16	پيو	پيو	VERB	_	_	17	xcomp	_	_
+16	پيو	پيو	VERB	_	_	17	compound	_	_
 17	جيئندو	جيءُ	VERB	_	_	10	conj	_	_
 18	هو	آهي	AUX	_	_	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	17	punct	_	_
@@ -5070,24 +5070,24 @@
 4	هو	آهي	AUX	_	_	3	aux	_	_
 5	جو	جو	ADP	_	_	3	mark	_	_
 6	ننڍڙا	ننڍڙو	ADJ	_	_	7	amod	_	_
-7	ڀتر	ڀتر	NOUN	_	_	9	obj	_	_
-8	ميڙي	_	VERB	_	_	9	obj	_	_
-9	چونڊي	چونڊ	VERB	_	_	12	advcl	_	_
-10	پنهنجي	پنهنجي	PRON	_	_	11	nmod	_	_
-11	ڀرسان	_	NOUN	_	_	12	obl	_	_
-12	رکندو	_	VERB	_	_	3	obj	_	_
+7	ڀتر	ڀتر	NOUN	_	_	8	obj	_	_
+8	ميڙي	_	VERB	_	_	12	advcl	_	_
+9	چونڊي	چونڊ	VERB	_	_	8	compound	_	_
+10	پنهنجي	پنهنجي	PRON	_	_	12	obl	_	_
+11	ڀرسان	_	ADV	_	_	12	advmod	_	_
+12	رکندو	_	VERB	_	_	3	advcl	_	_
 13	هو	آهي	AUX	_	_	12	aux	_	_
 14	۽	۽	CCONJ	_	_	25	cc	_	_
-15	پوءِ	پوءِ	ADP	_	_	12	mark	_	_
-16	هڪ	هڪ	ADJ	_	_	18	amod	_	_
-17	هڪ	هڪ	ADJ	_	_	18	amod	_	_
+15	پوءِ	پوءِ	ADV	_	_	19	advmod	_	_
+16	هڪ	هڪ	NUM	_	_	18	nummod	_	_
+17	هڪ	هڪ	NUM	_	_	18	nummod	_	_
 18	پٿر	پٿر	NOUN	_	_	19	obj	_	_
 19	کڻي	کڻي	VERB	_	_	25	advcl	_	_
 20	ڪنهن	ڪو	PRON	_	_	22	advcl	_	_
-21	هڪ	هڪ	ADJ	_	_	22	amod	_	_
+21	هڪ	هڪ	NUM	_	_	22	amod	_	_
 22	نشاني	نشان	NOUN	_	_	24	obl	_	_
 23	تي	تي	ADP	_	_	22	case	_	_
-24	پيو	پيو	VERB	_	_	25	xcomp	_	_
+24	پيو	پيو	VERB	_	_	25	compound	_	_
 25	هڻندو	هڻ	VERB	_	_	12	conj	_	_
 26	هو	آهي	AUX	_	_	25	aux	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	25	punct	_	_
@@ -6112,7 +6112,7 @@
 5	پوءِ	پوءِ	ADP	_	_	3	mark	_	_
 6	بادشاهه	بادشاهه	NOUN	_	_	11	nsubj	_	_
 7	گهڻ	_	ADJ	_	_	8	compound	_	_
-8	ڳالهائو	_	VERB	_	_	9	amod	_	_
+8	ڳالهائو	_	VERB	_	_	9	acl	_	_
 9	وزير	وزير	NOUN	_	_	11	obl	_	_
 10	کان	کان	ADP	_	_	9	case	_	_
 11	پڇيو	پڇ	VERB	_	_	0	root	_	SpaceAfter=No
@@ -6121,7 +6121,7 @@
 14	توکي	تو	PRON	_	_	17	nsubj	_	_
 15	ڇا	ڇا	PRON	_	_	17	obl	_	_
 16	ٿي	آهي	AUX	_	_	17	aux	_	_
-17	ويو	ويو	VERB	_	_	11	obj	_	_
+17	ويو	ويو	VERB	_	_	11	advcl	_	_
 18	هو	آهي	AUX	_	_	17	aux	_	SpaceAfter=No
 19	؟	؟	PUNCT	_	_	17	punct	_	_
 20	اڄ	اڄ	ADV	_	_	26	advmod	_	_
@@ -6134,9 +6134,9 @@
 27	؟	؟	PUNCT	_	_	26	punct	_	_
 28	وزير	وزير	NOUN	_	_	29	nsubj	_	_
 29	وراڻيو	وراڻ	VERB	_	_	26	advcl	_	SpaceAfter=No
-30	،	،	PUNCT	_	_	32	punct	_	_
-31	اجازت	اجازت	NOUN	_	_	32	compound	_	_
-32	ڏيئي	ڏيئي	VERB	_	_	29	obj	_	_
+30	،	،	PUNCT	_	_	29	punct	_	_
+31	اجازت	اجازت	NOUN	_	_	32	obj	_	_
+32	ڏيئي	ڏيئي	VERB	_	_	29	advcl	_	_
 33	ڇڏي	ڇڏ	VERB	_	_	32	compound	_	SpaceAfter=No
 34	،	،	PUNCT	_	_	32	punct	_	_
 
@@ -6238,18 +6238,18 @@
 1	انڪري	ان	ADV	_	_	9	advmod	_	_
 2	راجا	راجا	NOUN	_	_	9	nsubj	_	_
 3	پنهنجي	پنهنجي	PRON	_	_	4	nmod	_	_
-4	شڪاري	شڪار	NOUN	_	_	6	nmod	_	_
-5	توڪ	_	NOUN	_	_	6	nmod	_	_
-6	پوانگ	_	NOUN	_	_	9	obj	_	_
-7	کي	کي	ADP	_	_	6	case	_	_
-8	حڪم	حڪم	NOUN	_	_	9	xcomp	_	_
+4	شڪاري	شڪار	NOUN	_	_	5	nmod	_	_
+5	توڪ	_	PROPN	_	_	9	iobj	_	_
+6	پوانگ	_	PROPN	_	_	5	flat	_	_
+7	کي	کي	ADP	_	_	5	case	_	_
+8	حڪم	حڪم	NOUN	_	_	9	obj	_	_
 9	ڪيو	ڪيو	VERB	_	_	0	root	_	_
 10	ته	ته	SCONJ	_	_	16	mark	_	_
 11	جهنگ	جهنگ	NOUN	_	_	13	obl	_	_
 12	۾	۾	ADP	_	_	11	case	_	_
 13	وڃي	وڃ	VERB	_	_	16	advcl	_	_
-14	هرڻ	_	VERB	_	_	16	obj	_	_
-15	شڪار	_	VERB	_	_	16	compound	_	_
+14	هرڻ	_	NOUN	_	_	16	obj	_	_
+15	شڪار	شڪار	NOUN	_	_	16	compound	_	_
 16	ڪري	ڪر	VERB	_	_	9	advcl	_	_
 17	اچ	اچ	VERB	_	_	16	compound	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	16	punct	_	_
@@ -6271,15 +6271,15 @@
 13	۾	۾	ADP	_	_	12	case	_	_
 14	لڪي	لڪ	VERB	_	_	4	conj	_	_
 15	ويٺو	ويٺو	VERB	_	_	14	compound	_	_
-16	ته	ته	SCONJ	_	_	23	mark	_	_
+16	ته	ته	SCONJ	_	_	22	mark	_	_
 17	اتان	اتي	ADV	_	_	20	advmod	_	_
 18	ڪو	ڪو	DET	_	_	19	det	_	_
 19	هرڻ	_	VERB	_	_	20	obj	_	_
-20	لنگهي	_	VERB	_	_	23	advcl	_	_
+20	لنگهي	_	VERB	_	_	22	advcl	_	_
 21	ته	ته	SCONJ	_	_	22	mark	_	_
-22	جهلي	جهل	VERB	_	_	23	xcomp	_	_
-23	وٺانس	_	VERB	_	_	14	advcl	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	23	punct	_	_
+22	جهلي	جهل	VERB	_	_	14	advcl	_	_
+23	وٺانس	_	VERB	_	_	22	compound	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = 1245
 # text = ايتري ۾ هن ڏٺو ته آسماني ملڪ ڪيانگان مان ست سهڻيون شهزاديون زمين تي لٿيون.
@@ -6386,11 +6386,11 @@
 # sent_id = 1250
 # text = تڏهن ڪمپا ڪابيرو پرن نه ملڻ جي ڪري اتي ئي ترسي پيئي.
 1	تڏهن	تڏهن	ADV	_	_	11	advmod	_	_
-2	ڪمپا	ڪمپا	NOUN	_	_	11	nsubj	_	_
-3	ڪابيرو	ڪابيرو	NOUN	_	_	6	nsubj	_	_
+2	ڪمپا	ڪمپا	PROPN	_	_	11	nsubj	_	_
+3	ڪابيرو	ڪابيرو	PROPN	_	_	2	flat	_	_
 4	پرن	_	NOUN	_	_	6	obj	_	_
 5	نه	نه	PART	_	_	6	dep	_	_
-6	ملڻ	ملڻ	VERB	_	_	8	obj	_	_
+6	ملڻ	ملڻ	VERB	_	_	8	advcl	_	_
 7	جي	جي	ADP	_	_	6	mark	_	_
 8	ڪري	ڪر	VERB	_	_	11	advcl	_	_
 9	اتي	اتي	ADV	_	_	11	advmod	_	_
@@ -6597,16 +6597,16 @@
 18	اسين	اسين	PRON	_	_	30	nsubj	_	_
 19	پنهنجي	پنهنجي	PRON	_	_	20	nmod	_	_
 20	ڌيءَ	ڌيءَ	NOUN	_	_	21	nmod	_	_
-21	راڻي	_	NOUN	_	_	23	nmod	_	_
-22	پتري	_	NOUN	_	_	23	compound	_	_
-23	اڪارون	_	NOUN	_	_	25	obl	_	_
-24	سان	سان	ADP	_	_	23	case	_	_
+21	راڻي	_	NOUN	_	_	22	nmod	_	_
+22	پتري	_	PROPN	_	_	25	obl	_	_
+23	اڪارون	_	PROPN	_	_	22	flat	_	_
+24	سان	سان	ADP	_	_	22	case	_	_
 25	ملي	مل	VERB	_	_	30	advcl	_	_
-26	ڪمپا	ڪمپا	NOUN	_	_	27	nmod	_	_
-27	ڪابيرو	ڪابيرو	NOUN	_	_	30	obl	_	_
-28	مان	مان	ADP	_	_	27	case	_	_
+26	ڪمپا	ڪمپا	PROPN	_	_	30	obl	_	_
+27	ڪابيرو	ڪابيرو	PROPN	_	_	26	flat	_	_
+28	مان	مان	ADP	_	_	26	case	_	_
 29	جند	جند	NOUN	_	_	30	obj	_	_
-30	ڇڏائي	_	VERB	_	_	3	obj	_	_
+30	ڇڏائي	_	VERB	_	_	3	advcl	_	_
 31	وٺنداسون	_	VERB	_	_	30	compound	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	30	punct	_	_
 

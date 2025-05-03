@@ -569,8 +569,8 @@
 14	صفا	صفا	ADJ	_	_	15	xcomp	_	_
 15	ڪري	ڪر	VERB	_	_	0	root	_	_
 16	ڏيکار	_	VERB	_	_	15	compound	_	SpaceAfter=No
-17	،	،	PUNCT	_	_	15	root	_	_
-18	ته	ته	SCONJ	_	_	22	root	_	_
+17	،	،	PUNCT	_	_	15	punct	_	_
+18	ته	ته	SCONJ	_	_	22	mark	_	_
 19	پوءِ	پوءِ	ADV	_	_	22	advcl	_	_
 20	مون	مون	PRON	_	_	22	nsubj	_	_
 21	کي	کي	ADP	_	_	20	case	_	_
@@ -4590,7 +4590,7 @@
 24	پئي	پئي	VERB	_	_	17	advcl	_	_
 25	ڏيئي	ڏيئي	VERB	_	_	24	compound	_	_
 26	سگهيو	سگهي	AUX	_	_	24	aux	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	24	root	_	_
+27	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = 1881
 # text = انهيءَ تي وڏي سرڻ وري پنهنجو سوال ورجايو.
@@ -7009,32 +7009,32 @@
 
 # sent_id = 2047
 # text = ٿي سگهي ٿو ته اسان جو سفر تمام ڊگهو ٿئي ۽ جيڪڏهن آءٌ پنهنجي ماني توسان گڏجي کاوان ته ماني جلد ئي ختم ٿي ويندي،
-1	ٿي	آهي	VERB	_	_	2	amod	_	_
+1	ٿي	آهي	VERB	_	_	2	aux	_	_
 2	سگهي	سگهي	AUX	_	_	0	root	_	_
-3	ٿو	آهي	AUX	_	_	2	cop	_	_
-4	ته	ته	SCONJ	_	_	10	mark	_	_
+3	ٿو	آهي	AUX	_	_	2	aux	_	_
+4	ته	ته	SCONJ	_	_	9	mark	_	_
 5	اسان	اسين	PRON	_	_	7	nmod	_	_
 6	جو	جو	ADP	_	_	7	case	_	_
-7	سفر	سفر	NOUN	_	_	10	nsubj	_	_
+7	سفر	سفر	NOUN	_	_	9	nsubj	_	_
 8	تمام	تمام	ADV	_	_	9	amod	_	_
-9	ڊگهو	_	ADJ	_	_	10	xcomp	_	_
-10	ٿئي	ٿي	VERB	_	_	2	obj	_	_
+9	ڊگهو	_	ADJ	_	_	2	advcl	_	_
+10	ٿئي	آهي	AUX	_	_	9	cop	_	_
 11	۽	۽	CCONJ	_	_	18	cc	_	_
-12	جيڪڏهن	جيڪڏهن	CCONJ	_	_	18	mark	_	_
+12	جيڪڏهن	جيڪڏهن	CCONJ	_	_	18	cc	_	_
 13	آءٌ	آءٌ	PRON	_	_	18	nsubj	_	_
 14	پنهنجي	پنهنجي	PRON	_	_	15	nmod	_	_
 15	ماني	ماني	NOUN	_	_	18	obj	_	_
 16	توسان	_	ADV	_	_	18	obl	_	_
 17	گڏجي	گڏ	ADV	_	_	18	advmod	_	_
 18	کاوان	_	VERB	_	_	10	conj	_	_
-19	ته	ته	SCONJ	_	_	24	mark	_	_
-20	ماني	ماني	NOUN	_	_	24	nsubj	_	_
-21	جلد	جلد	NOUN	_	_	24	advmod	_	_
+19	ته	ته	SCONJ	_	_	23	mark	_	_
+20	ماني	ماني	NOUN	_	_	23	nsubj	_	_
+21	جلد	جلد	NOUN	_	_	23	advmod	_	_
 22	ئي	ئي	ADP	_	_	21	case	_	_
-23	ختم	ختم	ADJ	_	_	24	compound	_	_
-24	ٿي	آهي	VERB	_	_	10	conj	_	_
-25	ويندي	ويندو	VERB	_	_	24	compound	_	SpaceAfter=No
-26	،	،	PUNCT	_	_	24	punct	_	_
+23	ختم	ختم	ADJ	_	_	18	advcl	_	_
+24	ٿي	آهي	VERB	_	_	23	cop	_	_
+25	ويندي	ويندو	VERB	_	_	23	compound	_	SpaceAfter=No
+26	،	،	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 2048
 # text = پوءِ اسين بک مرنداسون.
@@ -7096,22 +7096,22 @@
 
 # sent_id = 2052
 # text = پوءِ جڏهن رات ٿي ته دوست هڪ پراڻيءَ چڪيءَ وٽ پهچي ويو هو ۽ رات جا چار پهر آرام ڪرڻ لاءِ چڪيءَ جي ڦٽل جاءِ ۾ هليو ويو.
-1	پوءِ	پوءِ	ADV	_	_	4	obl	_	_
-2	جڏهن	جڏهن	ADV	_	_	4	advmod	_	_
-3	رات	رات	NOUN	_	_	4	obl	_	_
-4	ٿي	آهي	AUX	_	_	0	root	_	_
+1	پوءِ	پوءِ	ADV	_	_	3	advmod	_	_
+2	جڏهن	جڏهن	ADV	_	_	3	advmod	_	_
+3	رات	رات	NOUN	_	_	0	root	_	_
+4	ٿي	آهي	AUX	_	_	3	cop	_	_
 5	ته	ته	SCONJ	_	_	11	mark	_	_
 6	دوست	دوست	NOUN	_	_	11	nsubj	_	_
 7	هڪ	هڪ	ADJ	_	_	9	amod	_	_
-8	پراڻيءَ	_	ADJ	_	_	9	nmod	_	_
+8	پراڻيءَ	_	ADJ	_	_	9	amod	_	_
 9	چڪيءَ	چڪيءَ	NOUN	_	_	11	obl	_	_
 10	وٽ	وٽ	ADP	_	_	9	case	_	_
-11	پهچي	پهچ	VERB	_	_	4	obj	_	_
+11	پهچي	پهچ	VERB	_	_	3	advcl	_	_
 12	ويو	ويو	VERB	_	_	11	compound	_	_
 13	هو	آهي	AUX	_	_	11	aux	_	_
 14	۽	۽	CCONJ	_	_	27	cc	_	_
 15	رات	رات	NOUN	_	_	18	nmod	_	_
-16	جا	جو	ADP	_	_	18	nmod	_	_
+16	جا	جو	ADP	_	_	15	case	_	_
 17	چار	_	NUM	_	_	18	nummod	_	_
 18	پهر	_	NOUN	_	_	20	obj	_	_
 19	آرام	آرام	NOUN	_	_	20	compound	_	_
@@ -7121,7 +7121,7 @@
 23	جي	جي	ADP	_	_	22	case	_	_
 24	ڦٽل	_	NOUN	_	_	25	nmod	_	_
 25	جاءِ	جاءِ	NOUN	_	_	27	obl	_	_
-26	۾	۾	ADP	_	_	27	mark	_	_
+26	۾	۾	ADP	_	_	25	case	_	_
 27	هليو	هل	VERB	_	_	11	conj	_	_
 28	ويو	ويو	VERB	_	_	27	compound	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	27	punct	_	_
@@ -7324,7 +7324,7 @@
 11	۾	۾	ADP	_	_	10	case	_	_
 12	ڪي	ڪي	NOUN	_	_	13	nmod	_	_
 13	ڪوئا	_	NOUN	_	_	14	nsubj	_	_
-14	رهن	ره	VERB	_	_	7	obj	_	_
+14	رهن	ره	VERB	_	_	7	advcl	_	_
 15	ٿا	آهي	AUX	_	_	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -8330,21 +8330,21 @@
 1	چيتي	چيتو	NOUN	_	_	2	nsubj	_	_
 2	چيو	چئو	VERB	_	_	0	root	_	_
 3	ته	ته	SCONJ	_	_	2	mark	_	SpaceAfter=No
-4	،	،	PUNCT	_	_	9	punct	_	_
+4	،	،	PUNCT	_	_	2	punct	_	_
 5	اِهو	_	PRON	_	_	6	nmod	_	_
-6	ماڻهو	ماڻهو	NOUN	_	_	9	nsubj	_	_
-7	اُهو	_	PRON	_	_	9	obl	_	_
-8	ئي	ئي	PART	_	_	9	dep	_	_
-9	هوندو	هوندو	VERB	_	_	2	obj	_	SpaceAfter=No
-10	،	،	PUNCT	_	_	9	punct	_	_
+6	ماڻهو	ماڻهو	NOUN	_	_	7	nsubj	_	_
+7	اُهو	_	PRON	_	_	2	advcl	_	_
+8	ئي	ئي	PART	_	_	7	advmod:emph	_	_
+9	هوندو	هوندو	AUX	_	_	7	cop	_	SpaceAfter=No
+10	،	،	PUNCT	_	_	7	punct	_	_
 11	جنهن	جنهن	PRON	_	_	18	nsubj	_	_
-12	اڳي	اڳ	ADV	_	_	18	obl	_	_
+12	اڳي	اڳ	ADV	_	_	18	advcl	_	_
 13	اسان	اسين	PRON	_	_	15	nmod	_	_
 14	جي	جي	ADP	_	_	15	nmod	_	_
 15	راز	راز	NOUN	_	_	17	nmod	_	_
 16	جون	جو	ADP	_	_	17	case	_	_
 17	ڳالهيون	ڳاله	NOUN	_	_	18	obj	_	_
-18	ٻڌي	ٻڌ	VERB	_	_	9	advcl	_	_
+18	ٻڌي	ٻڌ	VERB	_	_	7	advcl	_	_
 19	ورتيون	ورتو	VERB	_	_	18	compound	_	_
 20	هيون	هئي	AUX	_	_	18	aux	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	18	punct	_	_
@@ -17464,17 +17464,17 @@
 # sent_id = 3645
 # text = هن چيو ته فوج لازوال قربانيون ڏنيون آهن ۽ شهيدن واري فنڊ ۾ سمورن صوبن به 50، 50 ڪروڙ رپيا ڏنا آهن.
 1	هن	هن	DET	_	_	2	nsubj	_	_
-2	چيو	چئو	VERB	_	_	0	root	_	_
+2	چيو	چئو	VERB	_	_	22	conj	_	_
 3	ته	ته	SCONJ	_	_	7	mark	_	_
 4	فوج	فوج	NOUN	_	_	7	nsubj	_	_
 5	لازوال	لازوال	ADJ	_	_	6	amod	_	_
-6	قربانيون	_	NOUN	_	_	7	compound	_	_
+6	قربانيون	_	NOUN	_	_	7	obj	_	_
 7	ڏنيون	ڏني	VERB	_	_	2	advcl	_	_
 8	آهن	آهي	AUX	_	_	7	aux	_	_
 9	۽	۽	CCONJ	_	_	22	cc	_	_
 10	شهيدن	شهيد	NOUN	_	_	12	nmod	_	_
 11	واري	واري	ADP	_	_	12	case	_	_
-12	فنڊ	فنڊ	NOUN	_	_	7	obl	_	_
+12	فنڊ	فنڊ	NOUN	_	_	22	obl	_	_
 13	۾	۾	ADP	_	_	12	case	_	_
 14	سمورن	سمورو	ADJ	_	_	15	amod	_	_
 15	صوبن	صوبو	NOUN	_	_	22	nsubj	_	_
@@ -17484,7 +17484,7 @@
 19	50	50	NUM	_	_	20	nummod	_	_
 20	ڪروڙ	ڪروڙ	NOUN	_	_	21	nmod	_	_
 21	رپيا	رپيو	NOUN	_	_	22	obj	_	_
-22	ڏنا	ڏنو	VERB	_	_	2	obj	_	_
+22	ڏنا	ڏنو	VERB	_	_	0	root	_	_
 23	آهن	آهي	AUX	_	_	22	aux	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	22	punct	_	_
 
@@ -17847,7 +17847,7 @@
 # text = هن چيو ته ماضي ۾ اين ايف سي ايوارڊ ۾ سنڌ سان ناانصافي ٿي پر اسان سنڌ کي 19 سالن بعد اربن رپين جو فائدو ڏنو،
 1	هن	هن	DET	_	_	2	nsubj	_	_
 2	چيو	چئو	VERB	_	_	0	root	_	_
-3	ته	ته	SCONJ	_	_	13	root	_	_
+3	ته	ته	SCONJ	_	_	13	mark	_	_
 4	ماضي	ماضي	NOUN	_	_	13	obl	_	_
 5	۾	۾	ADP	_	_	4	case	_	_
 6	اين	اين	NOUN	_	_	9	nmod	_	_
