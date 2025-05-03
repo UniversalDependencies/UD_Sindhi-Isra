@@ -1,5 +1,5 @@
-# sent_id = 1146
-# text = درٻار ختم ٿيڻ کان پوءِ بادشاهه گهڻ ڳالهائو وزير کان پڇيو، اڄ توکي ڇا ٿي ويو هو؟ اڄ ته تو ڪجهه به نه ڳالهايو؟ وزير وراڻيو، بادشاهه سلامت! مون کي ته ڪيتريون ئي ضروري ڳالهيون ڪرڻيون هيون.
+# sent_id = 1146a
+# text = درٻار ختم ٿيڻ کان پوءِ بادشاهه گهڻ ڳالهائو وزير کان پڇيو، اڄ توکي ڇا ٿي ويو هو؟ اڄ ته تو ڪجهه به نه ڳالهايو؟
 1	درٻار	_	NOUN	_	_	3	obj	_	_
 2	ختم	ختم	ADJ	_	_	3	compound	_	_
 3	ٿيڻ	آهي	VERB	_	_	11	advcl	_	_
@@ -27,22 +27,25 @@
 25	نه	نه	PART	_	_	26	dep	_	_
 26	ڳالهايو	_	VERB	_	_	16	advcl	_	SpaceAfter=No
 27	؟	؟	PUNCT	_	_	26	punct	_	_
-28	وزير	وزير	NOUN	_	_	29	nsubj	_	_
-29	وراڻيو	وراڻ	VERB	_	_	0	root	_	SpaceAfter=No
-30	،	،	PUNCT	_	_	29	punct	_	_
-31	بادشاهه	بادشاهه	NOUN	_	_	32	nmod	_	_
-32	سلامت	سلامت	NOUN	_	_	41	discourse	_	SpaceAfter=No
-33	!	!	PUNCT	_	_	32	punct	_	_
-34	مون	مون	PRON	_	_	41	nsubj	_	_
-35	کي	کي	ADP	_	_	34	case	_	_
-36	ته	ته	PART	_	_	34	advmod:emph	_	_
-37	ڪيتريون	ڪيتريون	ADJ	_	_	40	amod	_	_
-38	ئي	ئي	ADP	_	_	37	case	_	_
-39	ضروري	ضروري	ADJ	_	_	40	amod	_	_
-40	ڳالهيون	ڳاله	NOUN	_	_	41	obj	_	_
-41	ڪرڻيون	_	VERB	_	_	29	advcl	_	_
-42	هيون	هئي	AUX	_	_	41	aux	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 1146b
+# text = وزير وراڻيو، بادشاهه سلامت! مون کي ته ڪيتريون ئي ضروري ڳالهيون ڪرڻيون هيون.
+1	وزير	وزير	NOUN	_	_	2	nsubj	_	_
+2	وراڻيو	وراڻ	VERB	_	_	0	root	_	SpaceAfter=No
+3	،	،	PUNCT	_	_	2	punct	_	_
+4	بادشاهه	بادشاهه	NOUN	_	_	5	nmod	_	_
+5	سلامت	سلامت	NOUN	_	_	14	discourse	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	_
+7	مون	مون	PRON	_	_	14	nsubj	_	_
+8	کي	کي	ADP	_	_	7	case	_	_
+9	ته	ته	PART	_	_	7	advmod:emph	_	_
+10	ڪيتريون	ڪيتريون	ADJ	_	_	13	amod	_	_
+11	ئي	ئي	ADP	_	_	10	case	_	_
+12	ضروري	ضروري	ADJ	_	_	13	amod	_	_
+13	ڳالهيون	ڳاله	NOUN	_	_	14	obj	_	_
+14	ڪرڻيون	_	VERB	_	_	2	advcl	_	_
+15	هيون	هئي	AUX	_	_	14	aux	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 1147
 # text = پر هر ڀيري جڏهن مون ڳالهائڻ لاءِ وات کوليو ٿي ته ڪو جيت اچي ٿي وات ۾ پيو ۽ آءٌ ڳالهائي نٿي سگهيس.
