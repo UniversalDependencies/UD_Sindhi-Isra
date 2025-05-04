@@ -66,6 +66,7 @@ ADVMOD_EMPH_EXCEPTIONS = {
 ENFORCED_POS = {
     "مطابق": ["ADP"],
     "جڏهن": ["ADV"],
+    "وغيره": ["PART"],
 }
 for word in ('هجان', 'هجون', 'هجين', 'هجو', 'هجي', 'هجن'):
     ENFORCED_POS[word] = ["AUX"]
