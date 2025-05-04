@@ -909,7 +909,7 @@
 11	سان	سان	ADP	_	_	10	case	_	_
 12	وٺي	وٺ	VERB	_	_	3	advcl	_	_
 13	وڃي	وڃ	VERB	_	_	12	compound	_	_
-14	سگهي	سگهي	AUX	_	_	12	compound	_	_
+14	سگهي	سگهي	AUX	_	_	12	aux	_	_
 15	ٿو	آهي	AUX	_	_	12	aux	_	SpaceAfter=No
 16	،	،	PUNCT	_	_	12	punct	_	_
 
@@ -7021,15 +7021,15 @@
 
 # sent_id = 2047
 # text = ٿي سگهي ٿو ته اسان جو سفر تمام ڊگهو ٿئي ۽ جيڪڏهن آءٌ پنهنجي ماني توسان گڏجي کاوان ته ماني جلد ئي ختم ٿي ويندي،
-1	ٿي	آهي	VERB	_	_	2	aux	_	_
-2	سگهي	سگهي	AUX	_	_	0	root	_	_
-3	ٿو	آهي	AUX	_	_	2	aux	_	_
+1	ٿي	آهي	AUX	_	_	0	root	_	_
+2	سگهي	سگهي	AUX	_	_	1	aux	_	_
+3	ٿو	آهي	AUX	_	_	1	aux	_	_
 4	ته	ته	SCONJ	_	_	9	mark	_	_
 5	اسان	اسين	PRON	_	_	7	nmod	_	_
 6	جو	جو	ADP	_	_	7	case	_	_
 7	سفر	سفر	NOUN	_	_	9	nsubj	_	_
 8	تمام	تمام	ADV	_	_	9	amod	_	_
-9	ڊگهو	_	ADJ	_	_	2	advcl	_	_
+9	ڊگهو	_	ADJ	_	_	1	advcl	_	_
 10	ٿئي	آهي	AUX	_	_	9	cop	_	_
 11	۽	۽	CCONJ	_	_	18	cc	_	_
 12	جيڪڏهن	جيڪڏهن	CCONJ	_	_	18	cc	_	_
@@ -7038,7 +7038,7 @@
 15	ماني	ماني	NOUN	_	_	18	obj	_	_
 16	توسان	_	ADV	_	_	18	obl	_	_
 17	گڏجي	گڏ	ADV	_	_	18	advmod	_	_
-18	کاوان	_	VERB	_	_	10	conj	_	_
+18	کاوان	_	VERB	_	_	9	conj	_	_
 19	ته	ته	SCONJ	_	_	23	mark	_	_
 20	ماني	ماني	NOUN	_	_	23	nsubj	_	_
 21	جلد	جلد	NOUN	_	_	23	advmod	_	_
@@ -7046,7 +7046,7 @@
 23	ختم	ختم	ADJ	_	_	18	advcl	_	_
 24	ٿي	آهي	VERB	_	_	23	cop	_	_
 25	ويندي	ويندو	VERB	_	_	23	compound	_	SpaceAfter=No
-26	،	،	PUNCT	_	_	2	punct	_	_
+26	،	،	PUNCT	_	_	18	punct	_	_
 
 # sent_id = 2048
 # text = پوءِ اسين بک مرنداسون.
@@ -11375,16 +11375,16 @@
 
 # sent_id = 2874
 # text = جيڪڏهن تون اتي وڃي سگهين ته شايد تنهنجي قسمت جاڳي پوي.
-1	جيڪڏهن	جيڪڏهن	ADV	_	_	5	mark	_	_
-2	تون	تون	PRON	_	_	5	nsubj	_	_
-3	اتي	اتي	ADV	_	_	4	obl	_	_
-4	وڃي	وڃ	VERB	_	_	5	xcomp	_	_
-5	سگهين	سگهي	AUX	_	_	0	root	_	_
+1	جيڪڏهن	جيڪڏهن	ADV	_	_	4	advmod	_	_
+2	تون	تون	PRON	_	_	4	nsubj	_	_
+3	اتي	اتي	ADV	_	_	4	advmod	_	_
+4	وڃي	وڃ	VERB	_	_	0	root	_	_
+5	سگهين	سگهي	AUX	_	_	4	aux	_	_
 6	ته	ته	SCONJ	_	_	10	mark	_	_
 7	شايد	شايد	ADV	_	_	10	advmod	_	_
 8	تنهنجي	تنهنجي	PRON	_	_	9	nmod	_	_
 9	قسمت	قسمت	NOUN	_	_	10	nsubj	_	_
-10	جاڳي	_	VERB	_	_	5	advcl	_	_
+10	جاڳي	_	VERB	_	_	4	advcl	_	_
 11	پوي	پو	VERB	_	_	10	compound	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -16364,9 +16364,9 @@
 
 # sent_id = 3461
 # text = ٿي سگهي ٿو ته اهڙيءَ طرح ڪنهن نه ڪنهن ڏينهن مون کي ڪا اهڙي ڇوڪري ملي،
-1	ٿي	آهي	AUX	_	_	2	aux	_	_
-2	سگهي	سگهي	AUX	_	_	0	root	_	_
-3	ٿو	آهي	AUX	_	_	2	cop	_	_
+1	ٿي	آهي	AUX	_	_	0	root	_	_
+2	سگهي	سگهي	AUX	_	_	1	aux	_	_
+3	ٿو	آهي	AUX	_	_	1	aux	_	_
 4	ته	ته	SCONJ	_	_	16	mark	_	_
 5	اهڙيءَ	اهڙو	ADJ	_	_	6	amod	_	_
 6	طرح	طرح	NOUN	_	_	16	obl	_	_
@@ -16379,7 +16379,7 @@
 13	ڪا	ڪا	DET	_	_	15	det	_	_
 14	اهڙي	اهڙو	ADJ	_	_	15	amod	_	_
 15	ڇوڪري	ڇوڪرِي	NOUN	_	_	16	nsubj	_	_
-16	ملي	مل	VERB	_	_	2	ccomp	_	SpaceAfter=No
+16	ملي	مل	VERB	_	_	1	ccomp	_	SpaceAfter=No
 17	،	،	PUNCT	_	_	16	punct	_	_
 
 # sent_id = 3462
