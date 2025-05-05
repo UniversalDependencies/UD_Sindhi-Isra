@@ -85,6 +85,9 @@ ENFORCED_POS['هجئي'] = ["AUX"]
 ENFORCED_POS['ڪانهي'] = ["AUX"]
 ENFORCED_POS['ھئي'] = ["AUX"]
 
+# the negative polarity AUX words should all be AUX
+for word in ['ناهن', 'ناهي', 'ناهيان', 'ناهيون', 'ناھن', 'ناھي', 'ناھيان', 'ناھيون', 'نٿا', 'نٿو', 'نٿي', 'نٿيون', 'ڪونهن', 'ڪونهي', 'ڪونھن', 'ڪونھي']:
+    ENFORCED_POS[word] = ["AUX"]
 
 ALLOWED_STRUCTURE = {
     'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
