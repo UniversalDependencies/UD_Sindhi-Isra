@@ -15,3 +15,11 @@ lemmas: files with word,POS,lemma.  a subdirectory has unchecked versions of tho
 
 agreement: two different annotations of the same dependency file, from Shafi and Sarwat.  A script for analyzing them
 scripts: various tools for merging edited conllu files or the lemmas back into the current annotations
+
+
+
+The test file is currently sd_780_A from the xpos_features directory.  The plan is to add all of the MD- sentences as well.
+The dev file is sd_780_B
+
+Everything else will go into train (at least at first)
+
