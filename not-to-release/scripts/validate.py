@@ -76,6 +76,12 @@ ENFORCED_POS['هجئي'] = ["AUX"]
 ENFORCED_POS['ڪانهي'] = ["AUX"]
 ENFORCED_POS['ھئي'] = ["AUX"]
 
+
+ALLOWED_STRUCTURE = {
+    'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
+   'ھا': [('AUX', 'aux'), ('INTJ', 'discourse')],
+}
+
 def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     problem_sentences = set()
 
@@ -279,6 +285,18 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     printed = True
                     print("Word-specific POS error")
                 print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s, which is not in %s" % (sent.sent_id, sent_idx, word.id, word.line_number, word.text, word.upos, ENFORCED_POS[word.text]))
+
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word.text in ALLOWED_STRUCTURE:
+                structure = (word.pos, word.deprel)
+                if structure not in ALLOWED_STRUCTURE[word.text]:
+                    if not printed:
+                        printed = True
+                        print("Found an expected POS & deprel combination")
+                    print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number, word.text, word.upos, word.deprel))
+
 
     if check_feats:
         printed = False
