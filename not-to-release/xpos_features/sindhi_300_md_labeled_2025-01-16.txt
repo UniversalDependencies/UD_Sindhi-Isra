@@ -1395,7 +1395,7 @@
 3	پڇڻ	پڇ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
 4	وارو	وارو	ADP	PSPG	Case=Nom|Number=Sing	3	compound	_	_
 5	ئي	ئي	PART	PART	_	4	advmod:emph	_	_
-6	ڪونهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	aux	_	_
+6	ڪونهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	3	aux	_	_
 7	،	،	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = MD-393
@@ -1428,7 +1428,7 @@
 5	وٽ	وٽ	ADP	PSPL	_	4	case	_	_
 6	سامان	سامان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
 7	جي	جي	ADP	PSPG	Case=Nom|Number=Sing	6	mark	_	_
-8	ڪونهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	cop	_	_
+8	ڪونهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	6	cop	_	_
 9	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	16	obl	_	_
 10	سان	سان	ADP	PSP	_	9	case	_	_
 11	ڪي	ڪي	DET	PRD	Case=Nom|Number=Plur	13	det	_	_
@@ -2040,7 +2040,7 @@
 # text = سمجھ ۾ نٿو اچي ته نئين تحقيق جو عنوان ڇا رکجي .
 1	سمجھ	سمجھ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
-3	نٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	4	aux	_	_
+3	نٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Polarity=Neg|Tense=Pres	4	aux	_	_
 4	اچي	اچ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=PresPart|Voice=Act	0	root	_	_
 5	ته	ته	SCONJ	CS	_	4	mark	_	_
 6	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
@@ -2061,7 +2061,7 @@
 6	نوجوان	نوجوان	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 7	تعليم	تعليم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
 8	حاصل	_	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=PresPart|Voice=Act	10	compound	_	_
-9	نٿا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	10	aux	_	_
+9	نٿا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Polarity=Neg|Tense=Pres	10	aux	_	_
 10	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 11	سگھن	سگهي	AUX	VAUX	Number=Plur|Person=3	10	aux	_	_
 12	.	.	PUNCT	PUNCT	_	10	punct	_	_
@@ -2769,7 +2769,7 @@
 3	ڀي	_	PART	PART	PartType=Emp	2	dep	_	_
 4	ڪنهن	ڪو	PRON	PRWH	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
 5	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
-6	ڪونهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
+6	ڪونهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	4	cop	_	_
 7	،	،	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = MD-515
@@ -2784,7 +2784,7 @@
 # sent_id = MD-516
 # text = خبر ناهي ماڻهو ايئن ڇو پيا ڪن ؟
 1	خبر	خبر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	advcl	_	_
-2	ناهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	1	cop	_	_
+2	ناهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	1	cop	_	_
 3	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	ايئن	ايئن	ADV	ADP	Case=Acc|Gender=Fem|Number=Sing	6	advmod	_	_
 5	ڇو	_	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres|Voice=Act	6	advcl	_	_
@@ -3455,7 +3455,7 @@
 2	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|Tense=Pres|VerbForm=PresPart|Voice=Act	4	nsubj	_	_
 3	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
 4	واپار	واپار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-5	ڪونهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
+5	ڪونهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	4	cop	_	_
 6	جو	جو	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	4	mark	_	_
 7	ڪڏهن	ڪڏهن	ADV	ADT	Case=Nom|Gender=Fem|Number=Sing	14	advmod	_	_
 8	ڪنهن	ڪنهن	DET	PRD	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
