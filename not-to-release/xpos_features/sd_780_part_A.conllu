@@ -337,8 +337,8 @@
 16	۽	۽	CCONJ	CC	_	19	cc	_	_
 17	بهتري	بهتري	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	_
 18	واري	واري	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	17	case	_	_
-19	صورتحال	صورتحال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
-20	هوندي	هوندي	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart|Voice=Act	14	conj	_	_
+19	صورتحال	صورتحال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	advcl	_	_
+20	هوندي	آھي	AUX	VAUX	Number=Sing|Person=3|Tense=Fut	19	cop	_	_
 21	،	،	PUNCT	PUNCT	_	14	punct	_	_
 
 # sent_id = Kawish-20100810-016
@@ -3557,7 +3557,7 @@
 10	قرار	قرار	NOUN	NN	Case=Nom|Gender=Masc	11	xcomp	_	_
 11	ڏيندي	ڏي	VERB	VM	Aspect=Imp|VerbForm=PresPart|Voice=Act	12	advcl	_	_
 12	چيو	چئو	VERB	VM	Aspect=Perf|Voice=Act	0	root	_	_
-13	ته	ته	SCONJ	CS	_	40	mark	_	_
+13	ته	ته	SCONJ	CS	_	25	mark	_	_
 14	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	25	mark	_	_
 15	قوم	قوم	NOUN	NN	Case=Nom|Gender=Fem	25	nsubj	_	_
 16	۽	۽	CCONJ	CC	_	19	cc	_	_
@@ -3569,23 +3569,23 @@
 22	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	21	case	_	_
 23	تعمير	تعمير	NOUN	NN	Case=Acc	25	obl	_	_
 24	تي	تي	ADP	PSPL	_	23	case	_	_
-25	متفق	متفق	VERB	VM	Aspect=Imp|Voice=Act	40	advcl	_	_
+25	متفق	متفق	VERB	VM	Aspect=Imp|Voice=Act	12	advcl	_	_
 26	ٿي	آهي	AUX	VAUX	Gender=Fem|Person=3|Tense=Pres	25	aux	_	_
 27	وڃن	وڃ	VERB	VM	Aspect=Imp|Number=Plur|Person=3	25	compound	_	_
-28	ته	ته	SCONJ	CS	_	40	mark	_	_
-29	پوءِ	پوءِ	ADP	PSPG	Case=Acc	25	mark	_	_
-30	ڪنهن	ڪنهن	DET	PRD	Case=Acc	40	nsubj	_	_
+28	ته	ته	SCONJ	CS	_	38	mark	_	_
+29	پوءِ	پوءِ	ADV	ADM	_	38	advmod	_	_
+30	ڪنهن	ڪنهن	DET	PRD	Case=Acc	38	nsubj	_	_
 31	کي	کي	ADP	PSP	_	30	case	_	_
 32	به	به	PART	PART	_	30	advmod:emph	_	_
 33	ان	ان	DET	PRD	Case=Acc	34	det	_	_
 34	ڊيم	ڊيم	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	36	obl	_	_
 35	تي	تي	ADP	PSPL	_	34	case	_	_
-36	ٺهڻ	ٺه	VERB	VM	Aspect=Imp|VerbForm=Inf	40	advcl	_	_
+36	ٺهڻ	ٺه	VERB	VM	Aspect=Imp|VerbForm=Inf	38	advcl	_	_
 37	تي	تي	ADP	PSPL	_	36	mark	_	_
-38	اعتراض	اعتراض	NOUN	NN	Case=Nom|Number=Sing	40	obl	_	_
-39	نه	نه	PART	PART	_	40	dep	_	_
-40	هوندو	هوندو	VERB	VM	Aspect=Imp|Tense=Fut|Voice=Act	12	advcl	_	_
-41	،	،	PUNCT	PUNCT	_	40	punct	_	_
+38	اعتراض	اعتراض	NOUN	NN	Case=Nom|Number=Sing	25	advcl	_	_
+39	نه	نه	PART	PART	_	38	dep	_	_
+40	هوندو	آھي	AUX	VAUX	Number=Sing|Person=3|Tense=Fut	38	cop	_	_
+41	،	،	PUNCT	PUNCT	_	38	punct	_	_
 
 # sent_id = Kawish-20100810-147
 # text = ڪالهه ملتان ۾ ٻوڏ جي تباهي جي حوالي سان هڪ بريفنگ جي موقعي تي وزيراعظم گيلاني وفاقي ۽ صوبائي وزيرن سميت پارليامينٽ ميمبرن جي سوالن جا جواب ڏيندي چيو ته ڪالاباغ ڊيم کي 1985ع ۾ ان وقت سياسي اشو بڻايو ويو ،
@@ -4271,16 +4271,16 @@
 
 # sent_id = Kawish-20100810-179
 # text = جنهن ۾ مخالف ڌر جا ميمبر به شامل هوندا ،
-1	جنهن	جنهن	PRON	PRD	Case=Acc|Number=Sing	9	obl	_	_
+1	جنهن	جنهن	PRON	PRD	Case=Acc|Number=Sing	8	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
 3	مخالف	مخالف	ADJ	JJ	Gender=Masc|Number=Sing	4	nmod	_	_
 4	ڌر	ڌر	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 5	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	4	case	_	_
-6	ميمبر	ميمبر	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+6	ميمبر	ميمبر	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 7	به	به	PART	PART	_	6	advmod:emph	_	_
-8	شامل	شامل	ADJ	JJ	Case=Nom	9	compound	_	_
-9	هوندا	هوندو	VERB	VM	Aspect=Imp|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	_
-10	،	،	PUNCT	PUNCT	_	9	punct	_	_
+8	شامل	شامل	ADJ	JJ	Case=Nom	0	root	_	_
+9	هوندا	آھي	AUX	VAUX	Number=Plur|Person=3|Tense=Fut	8	cop	_	_
+10	،	،	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = Kawish-20100810-180
 # text = هن چيو ته فوج ، نيوي ، اين ڊي ايم اي ، مواصلات ، ريلوي ،
@@ -5740,20 +5740,20 @@
 # sent_id = Kawish-20100810-265
 # text = گدڙ چيس ته : اسان ٻنهي جو گهر گڏ ۽ هڪ هنڌ نه هوندو ،
 1	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	چيس	چيس	VERB	VMX	Aspect=Perf|Number=Sing|Number[obj]=Sing|Person[obj]=3|Voice=Act	0	root	_	_
+2	چيس	چيس	VERB	VMX	Aspect=Perf|Number=Sing|Number[obj]=Sing|Person[obj]=3|Voice=Act	12	ccomp	_	_
 3	ته	ته	SCONJ	CS	_	2	mark	_	_
 4	:	:	PUNCT	PUNCT	_	2	punct	_	_
 5	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	6	det	_	_
 6	ٻنهي	ٻن	ADJ	JJ	Case=Acc|Number=Plur	8	nmod	_	_
 7	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	6	case	_	_
-8	گهر	گهر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
-9	گڏ	گڏ	ADV	ADV	_	14	advmod	_	_
+8	گهر	گهر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	گڏ	گڏ	ADV	ADV	_	12	conj	_	_
 10	۽	۽	CCONJ	CC	_	12	cc	_	_
 11	هڪ	هڪ	ADJ	JJ	Case=Nom|Number=Sing	12	amod	_	_
-12	هنڌ	هنڌ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
-13	نه	نه	PART	PART	_	14	advmod	_	_
-14	هوندو	هوندو	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart|Voice=Act	2	ccomp	_	_
-15	،	،	PUNCT	PUNCT	_	14	punct	_	_
+12	هنڌ	هنڌ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+13	نه	نه	PART	PART	_	12	advmod	_	_
+14	هوندو	آھي	AUX	VAUX	Number=Sing|Person=3|Tense=Fut	12	cop	_	_
+15	،	،	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = Kawish-20100810-266
 # text = ڇاڪاڻ ته اسين جهنگلي جانورن جا بادشاهه آهيون ،
@@ -5781,9 +5781,9 @@
 10	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	9	case	_	_
 11	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	12	amod	_	_
 12	شوق	شوق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-13	هوندو	هوندو	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart|Voice=Act	12	compound	_	_
-14	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	13	aux	_	_
-15	.	.	PUNCT	PUNCT	_	13	punct	_	_
+13	هوندو	آهي	AUX	VAUX	Number=Sing|Person=3|VerbForm=PresPart	12	cop	_	_
+14	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	12	aux	_	_
+15	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = Kawish-20100810-268
 # text = جتي شينهن جو ٽولو مليو ،
