@@ -45,7 +45,7 @@ ALLOWED_UPOS_TO_FEATS = {
     "VERB":  ['Aspect=Imp', 'Aspect=Perf', 'Aspect=Prog',
               'Case=Acc', 'Case=Nom',
               'Gender=Fem', 'Gender=Masc', 'Gender[obj]=Fem', 'Gender[obj]=Masc', 'Gender[subj]=Fem', 'Gender[subj]=Masc',
-              'Mood=Des',
+              'Mood=Sub',
               'Number=Plur', 'Number=Sing', 'Number[obj]=Plur', 'Number[obj]=Sing', 'Number[subj]=Plur', 'Number[subj]=Sing',
               'Person=1', 'Person=2', 'Person=3', 'Person[obj]=1', 'Person[obj]=2', 'Person[obj]=3', 'Person[subj]=1', 'Person[subj]=2', 'Person[subj]=3',
               'Tense=Fut', 'Tense=Past', 'Tense=Pres',
