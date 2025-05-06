@@ -5612,13 +5612,13 @@
 1	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
 2	حيرت	حيرت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	ناهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	2	cop	_	_
-4	جو	جو	ADP	PSP	_	2	mark	_	_
+4	جو	جو	SCONJ	CS	_	10	mark	_	_
 5	ڪنهن	ڪنهن	DET	PRD	Case=Acc|Number=Sing	7	det	_	_
 6	به	به	PART	PART	_	5	advmod:emph	_	_
 7	ماڻهو	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nsubj	_	_
 8	کي	کي	ADP	PSP	_	7	case	_	_
 9	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	10	det	_	_
-10	پرواهه	پرواهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+10	پرواهه	پرواهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	advcl	_	_
 11	ڪونهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	10	cop	_	_
 12	ته	ته	SCONJ	CS	_	16	mark	_	_
 13	جڏهن	جڏهن	ADV	ADT	_	16	advmod	_	_
@@ -5643,7 +5643,7 @@
 12	ايترو	ايترو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
 13	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	_
 14	ڪونهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	13	cop	_	_
-15	جو	جو	ADP	PSP	_	13	mark	_	_
+15	جو	جو	SCONJ	CS	_	24	mark	_	_
 16	اُهو	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	24	nsubj	_	_
 17	سڀني	سڀ	ADJ	JJO	Case=Acc|Number=Plur	24	obj	_	_
 18	کي	کي	ADP	PSP	_	17	case	_	_
@@ -11179,7 +11179,7 @@
 
 # sent_id = 4273
 # text = جو اهي تاريخ جا عڪس آهن ۽ مخصوص لفظن جي پيرائي ۾ هڪ اهڙي اپٽار آهن،
-1	جو	جو	ADP	PSPG	Case=Nom|Number=Sing	5	mark	_	_
+1	جو	جو	SCONJ	CS	_	5	mark	_	_
 2	اهي	اهي	DET	PRD	Case=Nom|Number=Plur	5	nsubj	_	_
 3	تاريخ	تاريخ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 4	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	3	case	_	_
@@ -11703,13 +11703,13 @@
 25	Dialects	Dialects	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
 26	)	)	PUNCT	PUNCT	_	25	punct	_	_
 27	فيلسوفاڻن	فيلسوفاڻو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	28	nmod	_	_
-28	نظرين	نظريو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	33	obl	_	_
+28	نظرين	نظريو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	36	nsubj	_	_
 29	۽	۽	CCONJ	CC	_	32	cc	_	_
 30	ترقي	ترقي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	nmod	_	_
 31	پسند	پسند	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	amod	_	_
-32	تحريڪن	تحريڪ	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	36	nsubj	_	_
+32	تحريڪن	تحريڪ	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	28	conj	_	_
 33	ڏکڻ	ڏکڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	nmod	_	_
-34	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	33	mark	_	_
+34	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	33	case	_	_
 35	رُخ	رُخ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	36	compound	_	_
 36	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	12	conj	_	SpaceAfter=No
 37	.	.	PUNCT	PUNCT	_	36	punct	_	_
@@ -13434,7 +13434,7 @@
 12	ملڪ	ملڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 13	هلائجي	هلاءِ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	3	advcl	_	_
 14	ته	ته	SCONJ	CS	_	20	mark	_	_
-15	پوءِ	پوءِ	ADP	PSP	_	20	mark	_	_
+15	پوءِ	پوءِ	ADV	ADT	_	20	advmod	_	_
 16	انڌي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
 17	جهڙي	_	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
 18	پيڪي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	conj	_	_

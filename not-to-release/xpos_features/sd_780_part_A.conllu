@@ -2399,7 +2399,7 @@
 16	حمايت	حمايت	NOUN	NN	Case=Nom|Number=Sing	17	nsubj	_	_
 17	حاصل	حاصل	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
 18	هئي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Past	17	cop	_	_
-19	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc	17	mark	_	_
+19	جو	جو	SCONJ	CS	Case=Nom|Gender=Masc	26	mark	_	_
 20	موجوده	موجود	ADJ	JJ	Case=Nom|Degree=Pos	21	amod	_	_
 21	پارليامينٽ	پارليامينٽ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
 22	ان	ان	DET	PRD	Case=Acc	24	nmod	_	_
@@ -5633,7 +5633,7 @@
 2	اُن	اُن	PRON	PRD	Case=Acc|Number=Sing	4	nmod	_	_
 3	سڪل	سڪل	ADJ	JJ	Gender=Masc|Number=Sing	4	nmod	_	_
 4	ٿـُـڙ	ٿـُـڙ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
-5	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	mark	_	_
+5	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
 6	انگهو	انگهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 7	شينهن	شينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
 8	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	case	_	_
@@ -6684,11 +6684,11 @@
 # text = ميرخان ڪيترن شينهن کي وڻ ۾ ٽنگي ماري ڇڏيو آهي .
 1	ميرخان	ميرخان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 2	ڪيترن	ڪيترو	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	3	amod	_	_
-3	شينهن	شينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+3	شينهن	شينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
-5	وڻ	وڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	advcl	_	_
-6	۾	۾	ADP	PSPL	_	5	mark	_	_
-7	ٽنگي	ٽنگ	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	8	xcomp	_	_
+5	وڻ	وڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+6	۾	۾	ADP	PSPL	_	5	case	_	_
+7	ٽنگي	ٽنگ	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	8	advcl	_	_
 8	ماري	مار	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 9	ڇڏيو	ڇڏ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	8	compound	_	_
 10	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	aux	_	_
@@ -7069,7 +7069,7 @@
 
 # sent_id = Kawish-20100810-369
 # text = جو هي سڀ وڻ ٽڻ ، هيٺاهيون مٿاهيون سڀ ڏڪي ويندا ،
-1	جو	جو	ADP	PSPG	_	5	mark	_	_
+1	جو	جو	SCONJ	CS	_	5	mark	_	_
 2	هي	هي	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
 3	سڀ	سڀ	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	4	compound	_	_
 4	وڻ	وڻ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	xcomp	_	_
