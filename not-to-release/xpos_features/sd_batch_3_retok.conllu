@@ -227,12 +227,12 @@
 # sent_id = 3851b
 # text = اسلام آباد (اي پي پي) پاڪستان پيپلز پارٽي جي باني ۽ اڳوڻي وزيراعظم شهيد ذوالفقار علي ڀٽو جي 82 هين سالگره 5 جنوري اڱاري ڏينهن ملهائي ويندي.
 # orig_text = تفريحي ماڳ انگرادوس رائس جي هڪ ننڍي هوٽل جي عمارت ۽ ان جي ڀرپاسي واريون عمارتون ڊهي تباهه ٿيون،
-1	اسلام	اسلام	PROPN	NNP	Case=Nom|Gender=Masc	2	compound	_	_
-2	آباد	آباد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	dislocated	_	_
+1	اسلام	اسلام	PROPN	NNP	Case=Nom|Gender=Masc	28	dislocated	_	_
+2	آباد	آباد	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	(	(	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 4	اي	اي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 5	پي	پي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
-6	پي	پي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+6	پي	پي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 7	)	)	PUNCT	PUNCT	_	6	punct	_	_
 8	پاڪستان	پاڪستان	PROPN	NNP	Case=Nom|Gender=Masc	10	nmod	_	_
 9	پيپلز	پيپلز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	_
@@ -408,18 +408,18 @@
 # text = جيڪي اسلام آباد، جي ايڇ ڪيو ۽ آءِ ايس آءِ جي آس پاس رهندا آهن.
 # orig_text = ان کي خبر آهي ته اڪثر اهڙي معلومات اهڙن ادارن يا شخصن جي سازشي ڄار پاران تيار ڪئي ويندي آهي جيڪي اسلام آباد، جي ايڇ ڪيو ۽ آءِ ايس آءِ جي آس پاس رهندا آهن.
 1	جيڪي	جيڪو	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
-2	اسلام	اسلام	PROPN	NNP	Case=Nom|Gender=Masc	3	compound	_	_
-3	آباد	آباد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+2	اسلام	اسلام	PROPN	NNP	Case=Nom|Gender=Masc	15	obl	_	_
+3	آباد	آباد	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	SpaceAfter=No
 4	،	،	PUNCT	PUNCT	_	7	punct	_	_
 5	جي	جي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 6	ايڇ	ايڇ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
-7	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	3	conj	_	_
+7	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	2	conj	_	_
 8	۽	۽	CCONJ	CC	_	11	cc	_	_
 9	آءِ	آءِ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
 10	ايس	ايس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
-11	آءِ	آءِ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	_
+11	آءِ	آءِ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	conj	_	_
 12	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	11	case	_	_
-13	آس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+13	آس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
 14	پاس	پاس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	compound	_	_
 15	رهندا	ره	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	_
 16	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	15	aux	_	SpaceAfter=No
