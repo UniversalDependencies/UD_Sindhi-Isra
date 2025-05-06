@@ -451,13 +451,13 @@
 
 # sent_id = MD-77
 # text = فتح سدائين حق جي ٿئي ٿي .
-1	فتح	فتح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-2	سدائين	سدائين	ADV	ADV	_	5	advmod	_	_
-3	حق	حق	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+1	فتح	فتح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	سدائين	سدائين	ADV	ADV	_	1	advmod	_	_
+3	حق	حق	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
-5	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
-6	ٿي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	aux	_	_
-7	.	.	PUNCT	PUNCT	_	5	punct	_	_
+5	ٿئي	آهي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3	1	cop	_	_
+6	ٿي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	1	aux	_	_
+7	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = MD-78
 # text = غلط فيصلا اڪثر ڪاوڙ جي ڪري ٿين ٿا .
@@ -487,13 +487,13 @@
 # sent_id = MD-80
 # text = غلام رهڻ سان ماڻهو منافق ٿئي ٿو .
 1	غلام	غلام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	_
-2	رهڻ	ره	VERB	VM	Aspect=Imp|VerbForm=Inf	6	advcl	_	_
+2	رهڻ	ره	VERB	VM	Aspect=Imp|VerbForm=Inf	5	advcl	_	_
 3	سان	سان	ADP	PSP	_	2	mark	_	_
-4	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-5	منافق	منافق	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	xcomp	_	_
-6	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
-7	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	6	aux	_	_
-8	.	.	PUNCT	PUNCT	_	6	punct	_	_
+4	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	منافق	منافق	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+6	ٿئي	ٿي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3	5	cop	_	_
+7	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	aux	_	_
+8	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = MD-81
 # text = عورت کي ان جا حق ڏيڻ گھرجن .
@@ -572,16 +572,16 @@
 
 # sent_id = MD-91
 # text = شادي کانپوءِ عورت جي محبت ختم ٿي وڃي ٿي .
-1	شادي	شادي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+1	شادي	شادي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 2	کانپوءِ	کان	ADP	PSPL	_	1	case	_	_
 3	عورت	عورت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	3	case	_	_
-5	محبت	محبت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
-6	ختم	ختم	ADJ	JJ	Case=Nom|Degree=Pos	7	compound	_	_
-7	ٿي	آهي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
-8	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	7	compound	_	_
-9	ٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	7	aux	_	_
-10	.	.	PUNCT	PUNCT	_	7	punct	_	_
+5	محبت	محبت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	ختم	ختم	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
+7	ٿي	آهي	AUX	VAUX	Aspect=Imp|AuxType=Be|Number=Sing|Voice=Act	6	cop	_	_
+8	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	6	compound	_	_
+9	ٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	6	aux	_	_
+10	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = MD-92
 # text = سياري جي سخت سردي ۾ هُو ڪم ڪندو رهيو .
@@ -970,13 +970,13 @@
 
 # sent_id = MD-164
 # text = امن سان ئي ترقي ٿئي ٿي .
-1	امن	امن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+1	امن	امن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
 2	سان	سان	ADP	PSP	_	1	case	_	_
-3	ئي	ئي	PART	PART	_	2	advmod:emph	_	_
-4	ترقي	ترقي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-5	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
-6	ٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	5	aux	_	_
-7	.	.	PUNCT	PUNCT	_	5	punct	_	_
+3	ئي	ئي	PART	PART	_	1	advmod:emph	_	_
+4	ترقي	ترقي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	ٿئي	آهي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3	4	cop	_	_
+6	ٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	4	aux	_	_
+7	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = MD-165
 # text = امرجليل وڏو اديب آهي .
