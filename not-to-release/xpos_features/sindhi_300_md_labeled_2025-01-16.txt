@@ -575,7 +575,7 @@
 4	تي	تي	ADP	PSPL	_	3	case	_	_
 5	گھڻو	گھڻو	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
 6	ظلم	ظلم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-7	ٿئي	ٿي	VERB	VM	AuxType=Be|Number=Sing|Person=3	6	cop	_	_
+7	ٿئي	ٿي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3	6	cop	_	_
 8	پيو	پيو	VERB	VM	Aspect=Imp|Number=Sing|Person=3	6	compound	_	_
 9	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -2927,27 +2927,27 @@
 
 # sent_id = MD-526
 # text = جڏهن معاشري ۾ غلط طريقو رائج ٿي وڃي ته انجو سڌارو فقط سمجھائڻ ۽ الزام لڳائڻ سان نه ٿيندو آهي پر انجي مقابلي ۾ صحيح اصول تي انصاف ڪرڻ وارو معاشرو ٺاهجي ته پوءِ انقلاب مفيد ۽ مڪمل ثابت ٿيندو .
-1	جڏهن	جڏهن	ADV	ADT	Case=Acc|Gender=Masc|Number=Sing	7	advmod	_	_
-2	معاشري	معاشرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+1	جڏهن	جڏهن	ADV	ADT	Case=Acc|Gender=Masc|Number=Sing	6	advmod	_	_
+2	معاشري	معاشرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
 4	غلط	غلط	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	5	amod	_	_
-5	طريقو	طريقو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
-6	رائج	رائج	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	_
-7	ٿي	آهي	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres|Voice=Act	19	advcl	_	_
-8	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	compound	_	_
-9	ته	ته	SCONJ	CS	_	7	mark	_	_
+5	طريقو	طريقو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	رائج	رائج	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	ٿي	آهي	AUX	VAUX	Aspect=Imp|AuxType=Be|Number=Sing|Voice=Act	6	cop	_	_
+8	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	compound	_	_
+9	ته	ته	SCONJ	CS	_	11	mark	_	_
 10	انجو	ان	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
-11	سڌارو	سڌارو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
-12	فقط	فقط	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	13	compound	_	_
+11	سڌارو	سڌارو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	advcl	_	_
+12	فقط	فقط	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	19	obl	_	_
 13	سمجھائڻ	سمجھ	VERB	VM	Aspect=Imp|VerbForm=Inf	19	advcl	_	_
 14	۽	۽	CCONJ	CC	_	16	cc	_	_
 15	الزام	الزام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	_
 16	لڳائڻ	لڳ	VERB	VM	Aspect=Imp|VerbForm=Inf	13	conj	_	_
 17	سان	سان	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	16	mark	_	_
-18	نه	نه	PART	PART	_	19	advmod	_	_
-19	ٿيندو	آهي	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres|VerbForm=PresPart|Voice=Act	0	root	_	_
+18	نه	نه	PART	PART	_	19	dep	_	_
+19	ٿيندو	آهي	AUX	VAUX	Aspect=Imp|AuxType=Be|Gender=Masc|Number=Sing|VerbForm=Part	11	cop	_	_
 20	آهي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	19	aux	_	_
-21	پر	پر	CCONJ	CC	_	40	cc	_	_
+21	پر	پر	SCONJ	CS	_	32	mark	_	_
 22	انجي	ان	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	23	nmod	_	_
 23	مقابلي	مقابل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	32	obl	_	_
 24	۾	۾	ADP	PSPL	_	23	case	_	_
@@ -2958,16 +2958,16 @@
 29	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	31	amod	_	_
 30	وارو	وارو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	29	compound	_	_
 31	معاشرو	معاشرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	32	obj	_	_
-32	ٺاهجي	ٺاه	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=PresPart|Voice=Act	19	conj	_	_
-33	ته	ته	SCONJ	CS	_	32	mark	_	_
-34	پوءِ	پوءِ	ADP	PSPG	Case=Acc|Gender=Fem	40	advmod	_	_
-35	انقلاب	انقلاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_
-36	مفيد	مفيد	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem	40	compound	_	_
+32	ٺاهجي	ٺاه	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=PresPart|Voice=Pass	0	root	_	_
+33	ته	ته	SCONJ	CS	_	39	mark	_	_
+34	پوءِ	پوءِ	ADV	ADM	_	39	advmod	_	_
+35	انقلاب	انقلاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
+36	مفيد	مفيد	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem	39	xcomp	_	_
 37	۽	۽	CCONJ	CC	_	38	cc	_	_
 38	مڪمل	مڪمل	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	36	conj	_	_
-39	ثابت	ثابت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	40	compound	_	_
-40	ٿيندو	آهي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	_
-41	.	.	PUNCT	PUNCT	_	40	punct	_	_
+39	ثابت	ثابت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	32	advcl	_	_
+40	ٿيندو	آهي	AUX	VAUX	Aspect=Imp|AuxType=Be|Gender=Masc|Number=Sing|VerbForm=Part	39	cop	_	_
+41	.	.	PUNCT	PUNCT	_	39	punct	_	_
 
 # sent_id = MD-587
 # text = ٻين جي حقن جو ڪريو .
@@ -3431,7 +3431,7 @@
 9	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
 10	خوف	خوف	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 11	ختم	ختم	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc	0	root	_	_
-12	ٿي	آهي	VERB	VM	Aspect=Imp|AuxType=Be|Number=Sing|Voice=Act	11	cop	_	_
+12	ٿي	آهي	AUX	VAUX	Aspect=Imp|AuxType=Be|Number=Sing|Voice=Act	11	cop	_	_
 13	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	compound	_	_
 14	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Pres	11	aux	_	_
 15	.	.	PUNCT	PUNCT	_	11	punct	_	_
