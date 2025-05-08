@@ -19,7 +19,7 @@ Data in this treebank is split into three sections:
 
 Annotation done by:
 
- - Mutee Rahman
+ - Mutee U Rahman
  - Sarwat Qureshi
  - Shafi Pirzada
  - Sakeena Shah
