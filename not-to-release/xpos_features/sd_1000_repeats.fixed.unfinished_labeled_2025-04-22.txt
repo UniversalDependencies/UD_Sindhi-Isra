@@ -363,10 +363,10 @@
 13	۽	۽	CCONJ	CC	_	14	cc	_	_
 14	دلين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	conj	_	_
 15	تي	تي	ADP	PSPL	_	12	case	_	_
-16	اثر	اثر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	compound	_	_
-17	انداز	انداز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obl	_	_
+16	اثر	اثر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
+17	انداز	انداز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
 18	ٿيندو	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_
-19	رهندو	ره	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	18	xcomp	_	SpaceAfter=No
+19	رهندو	ره	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	18	compound	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	18	punct	_	_
 
 # sent_id = 329
@@ -434,7 +434,7 @@
 9	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	13	obl	_	_
 10	سان	سان	ADP	PSP	_	9	case	_	_
 11	ڀاڱي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	12	compound	_	_
-12	ڀائيوار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	xcomp	_	_
+12	ڀائيوار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 13	ٿيندا	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
@@ -702,8 +702,8 @@
 1	اهڙيءَ	اهڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obl	_	_
 3	سانڊو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-4	ٿلهو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-5	متارو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	xcomp	_	_
+4	ٿلهو	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	6	xcomp	_	_
+5	متارو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	fixed	_	_
 6	ٿيندو	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_
 7	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	6	compound	_	_
 8	۽	۽	CCONJ	CC	_	16	cc	_	_
@@ -2368,7 +2368,7 @@
 
 # sent_id = 1081
 # text = جو پري جو نشان به هن کان خطا نه ٿيندو هو.
-1	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
+1	جو	جو	SCONJ	CS	_	10	mark	_	_
 2	پري	پري	ADV	ADT	_	4	nmod	_	_
 3	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
 4	نشان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -2398,7 +2398,7 @@
 
 # sent_id = 1086
 # text = ٿائوکام هر روز مشق ڪندو هو ۽ هن جو نشانو ڏينهون ڏينهن پڪو ٿيندو ويو.
-1	ٿائوکام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+1	ٿائوکام	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	هر	هر	DET	PRD	Case=Nom|Number=Sing	3	det	_	_
 3	روز	روز	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	_
 4	مشق	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	_
@@ -2410,7 +2410,7 @@
 10	نشانو	نشانو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 11	ڏينهون	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
 12	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
-13	پڪو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	compound	_	_
+13	پڪو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	xcomp	_	_
 14	ٿيندو	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	5	conj	_	_
 15	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	14	compound	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	14	punct	_	_
@@ -2526,7 +2526,7 @@
 18	چوندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	_
 19	رهيا	ره	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	18	compound	_	_
 20	۽	۽	CCONJ	CC	_	22	cc	_	_
-21	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	22	compound	_	_
+21	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	22	xcomp	_	_
 22	ٿيندا	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	18	conj	_	_
 23	رهيا	ره	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	22	compound	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	22	punct	_	_
