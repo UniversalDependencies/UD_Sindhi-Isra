@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>1342</sentences><tokens>15741</tokens><words>15741</words><fused>0</fused></total>
+    <train><sentences>99</sentences><tokens>943</tokens><words>943</words><fused>0</fused></train>
+    <dev><sentences>386</sentences><tokens>4174</tokens><words>4174</words><fused>0</fused></dev>
+    <test><sentences>857</sentences><tokens>10624</tokens><words>10624</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="2300" /><!-- آهي, ., ،, جي, ته, کي, ۽, ۾, جو, ڪر, تي, گدڙ, سان, کان, شينهن -->
+  <forms unique="3055" /><!-- ., ،, جي, ته, ۽, ۾, کي, آهي, جو, تي, گدڙ, سان, ٿي, ڪري, شينهن -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">979</tag><!-- هڪڙو, سڀ, بهتر, خوش, ٻہ, سٺو, وڌيڪ, گھڻو, _, هڪ -->
+    <tag name="ADP">2140</tag><!-- جي, کي, ۾, جو, تي, سان, کان, لاءِ, مان, واري -->
+    <tag name="ADV">638</tag><!-- جڏهن, تمام, اڄ, هاڻ, هيٺ, وري, اتي, گڏ, پوءِ, تڏهن -->
+    <tag name="AUX">852</tag><!-- آهي, سگهي -->
+    <tag name="CCONJ">352</tag><!-- ۽, پر, يا, جيڪڏهن, تنهنڪري, توڙي, جي, اگر, جنهنڪري, سو -->
+    <tag name="DET">400</tag><!-- ان, هن, هي, اهو, هُو, هر, ڪو, اها, ڪنهن, جيڪو -->
+    <tag name="INTJ">16</tag><!-- مار, او, واہ, _, افسوس, خبردار, شاباش, هاءِ, چڱو, ڙي -->
+    <tag name="NOUN">4253</tag><!-- گدڙ, شينهن, پاڻي, ماڻهو, _, بند, ڳوٺ, بئراج, ٻوڏ, انسان -->
+    <tag name="NUM">136</tag><!-- هڪ, 3, 2, 4, ٻه, 12, 8, 17, 18, 24 -->
+    <tag name="PART">321</tag><!-- نه, به, ئي, ته, پڻ, _, وغيره, ڪونه, نہ, سهي -->
+    <tag name="PRON">578</tag><!-- پنهنجي, اسين, تون, سو, منهنجو, مون, پاڻ, جنهن, ڪو, ڇا -->
+    <tag name="PROPN">568</tag><!-- سنڌ, ڪي, سکر, گڊو, جيڪب, علي, آغا, خدا, پاڪستان, اسلم -->
+    <tag name="PUNCT">1636</tag><!-- ., ،, :, ؟, !, (, ), -, /, ؛ -->
+    <tag name="SCONJ">375</tag><!-- ته, پر, جو, جيڪڏهن, _, سو, بلڪه, جي, ڇاڪاڻ, ڇو -->
+    <tag name="VERB">2497</tag><!-- ڪر, ويو, اچ, چئو, وڃ, ڪيو, آهي, ڪن, ره, پيو -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="43">
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">1099</feat><!-- ڪرڻ, ڪري, گھرجي, ڏيڻ, رهي, اچي, وڃي, ڪن, ملي, ڪندي -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">1272</feat><!-- چيو, ويو, ڪيو, ڪري, اچي, ويا, رهيو, ڪئي, ڇڏيو, وٺي -->
+    <feat name="Aspect" value="Prog" upos="VERB">1</feat><!-- پيو -->
+    <feat name="Case" value="Abl" upos="NOUN,PROPN">5</feat><!-- احمد, اندران, مائيءَ, هنڌان, گھران -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,VERB">2473</feat><!-- جي, ان, هن, شينهن, اسان, گدڙ, ڪنهن, بئراج, پاڻي, واري -->
+    <feat name="Case" value="Gen" upos="PRON">143</feat><!-- پنهنجي, منهنجي, تنهنجي, سندس, تنهنجو, منهنجو, پنهنجو, پنهنجا, تنهنجا, منهنجا -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">4999</feat><!-- جو, جي, گدڙ, پاڻي, شينهن, جا, ماڻهو, سنڌ, سو, ڳوٺ -->
+    <feat name="Case" value="Voc" upos="NOUN">2</feat><!-- پلونگڙا, ڀائو -->
+    <feat name="Degree" value="Cmp" upos="ADJ">26</feat><!-- وڏو, وڏي, ساڳيو, بدترين, جيڏو, سارو, ساڳيا, سڀني, طويل, نئون -->
+    <feat name="Degree" value="Pos" upos="ADJ">676</feat><!-- خوش, وڌيڪ, سٺو, گھڻو, بيگاري, بهتر, سڄي, ڪجهه, چڱو, گھڻي -->
+    <feat name="Degree" value="Sup" upos="ADJ">4</feat><!-- وڏن, بهترين, ڏاڍو -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">2124</feat><!-- جي, ٿي, سنڌ, پنهنجي, ماني, آهي, زندگي, ٻوڏ, دل, هئي -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">4560</feat><!-- جو, جي, گدڙ, شينهن, پاڻي, ٿو, جا, ماڻهو, هو, ڳوٺ -->
+    <feat name="Gender[obj]" value="Fem" upos="VERB">3</feat><!-- رهي, لڳي, چاهي -->
+    <feat name="Gender[obj]" value="Masc" upos="VERB">4</feat><!-- ورتو, ٻيٺاهين, ٿين, ڪن -->
+    <feat name="Gender[subj]" value="Fem" upos="VERB">4</feat><!-- هلي, نڪتي, ڪنديس -->
+    <feat name="Gender[subj]" value="Masc" upos="VERB">4</feat><!-- رهندو, وينداسين, ٻيٺاهين, ڪندو -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">13</feat><!-- ها, ھا, اڇجانءِ, وينداسين, پيئجي -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PRON,VERB">1425</feat><!-- آهن, جا, اسان, ٿا, ويا, ڪن, ماڻهو, انهن, ماڻهن, جون -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">7292</feat><!-- جي, آهي, جو, گدڙ, شينهن, پاڻي, ٿي, ٿو, ويو, پنهنجي -->
+    <feat name="Number[obj]" value="Plur" upos="VERB">3</feat><!-- ٿين, چيومانو, ڏيکاريانوَ -->
+    <feat name="Number[obj]" value="Sing" upos="AUX,VERB">28</feat><!-- چيس, ٿيس, ڏينم, رهي, لکانس, ورتس, ويس, ٻيٺاهين, ٻڌايس, پڄندس -->
+    <feat name="Number[subj]" value="Plur" upos="VERB">10</feat><!-- اينداسين, وينداسين, ڇڏيائونس, ڇڏينداسين, ڏينداسين, ڏٺائون, کيڏون, کيڏياسين, ڪنداسين, ڪڍيائون -->
+    <feat name="Number[subj]" value="Sing" upos="AUX,VERB">48</feat><!-- ايندس, ٿيس, ڏينم, چيائين, چيس, ڇڏيس, ڏيکاريانوَ, اچجانءِ, اڇجانءِ, سڏايائين -->
+    <feat name="PartType" value="Emp" upos="PART">8</feat><!-- ئي, نه, به, ڀي -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">345</feat><!-- پنهنجي, اسان, مون, منهنجي, مان, پاڻ, آهيان, آءٌ, منهنجو, پنهنجو -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">122</feat><!-- تون, تنهنجي, تنهنجو, توهان, تو, توکي, اوهين, تنهنجا, اوهان, اٿئي -->
+    <feat name="Person" value="3" upos="ADP,ADV,AUX,DET,NOUN,PRON,VERB">1323</feat><!-- آهي, ويو, هو, ڪيو, گھرجي, رهيو, ٿو, ڪئي, ٿي, جنهن -->
+    <feat name="Person[obj]" value="1" upos="VERB">7</feat><!-- ڏينم, ورتس, چوانس, ڇڏيائونس, ڏنس, ڏيکاريانوَ -->
+    <feat name="Person[obj]" value="2" upos="VERB">5</feat><!-- چيس, لکانس, چيومانو, ڏيکاريانوَ -->
+    <feat name="Person[obj]" value="3" upos="VERB">15</feat><!-- چيس, رهي, ويس, ويندا, ٻيٺاهين, ٻڌايس, چيائينس, چکايانس, ڇڏائينم, ڏنيس -->
+    <feat name="Person[subj]" value="1" upos="VERB">31</feat><!-- ايندس, پڄندس, ڏيکاريانوَ, اينداسين, اڇجانءِ, لکانس, لکنديس, وينداسين, وٺندومانس, پويس -->
+    <feat name="Person[subj]" value="2" upos="AUX,VERB">6</feat><!-- ڏينم, اچجانءِ, سگھندين, ويس, ڏينس -->
+    <feat name="Person[subj]" value="3" upos="AUX,VERB">26</feat><!-- ٿيس, چيائين, چيس, ڇڏيس, سڏايائين, هنيائين, هيس, وينداسين, پوندو, پيس -->
+    <feat name="Polarity" value="Neg" upos="AUX">32</feat><!-- ناهي, نٿي, ڪونهي, نٿا, نٿو, ناهن, ڪونهن -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">25</feat><!-- هوندو, ايندس, هوندا, هوندي, پوندو, اينداسين, اڀري, اچجانءِ, اڇجانءِ, رهندي -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">99</feat><!-- هو, هئي, هئا, ها, هيون, ھا, ھو, آيو, رهيو, هئين -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">828</feat><!-- آهي, ٿو, ٿي, آهن, ٿا, ناهي, آهيان, آهين, ڪري, آ -->
+    <feat name="VerbForm" value="Conv" upos="VERB">383</feat><!-- ڪري, اچي, وٺي, وڃي, کڻي, ڏسي, ويهي, چڙهي, ڏيئي, کائي -->
+    <feat name="VerbForm" value="Inf" upos="VERB">258</feat><!-- ڪرڻ, ڏيڻ, وڃڻ, ٿيڻ, اچڻ, رهڻ, هلڻ, ٻڌڻ, پوڻ, پيئڻ -->
+    <feat name="VerbForm" value="Vnoun" upos="VERB">21</feat><!-- ايندڙ, لکندڙ, هلندڙ, ويندڙ, ڪندڙ, رهندڙ, رکندڙ, ملائيندڙ, نچندڙ, نڪرندڙ -->
+    <feat name="Voice" value="Act" upos="VERB">659</feat><!-- ڪري, چيو, اچي, رهي, وڃي, ڪيو, ملي, ڪن, پئي, ڏسي -->
+    <feat name="Voice" value="Pass" upos="AUX,VERB">84</feat><!-- گھرجي, هجي, ڦاٿل, کائجي, ڪيل, رهجي, پئجي, بيهجي, سگهجي, پيئجي -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="33">
+    <dep name="acl">57</dep>
+    <dep name="acl:relcl">7</dep>
+    <dep name="advcl">628</dep>
+    <dep name="advmod">630</dep>
+    <dep name="advmod:emph">182</dep>
+    <dep name="amod">635</dep>
+    <dep name="appos">4</dep>
+    <dep name="aux">528</dep>
+    <dep name="case">1953</dep>
+    <dep name="cc">346</dep>
+    <dep name="ccomp">76</dep>
+    <dep name="compound">963</dep>
+    <dep name="conj">427</dep>
+    <dep name="cop">298</dep>
+    <dep name="dep">76</dep>
+    <dep name="det">242</dep>
+    <dep name="discourse">19</dep>
+    <dep name="dislocated">12</dep>
+    <dep name="fixed">11</dep>
+    <dep name="flat">52</dep>
+    <dep name="iobj">45</dep>
+    <dep name="mark">561</dep>
+    <dep name="nmod">1454</dep>
+    <dep name="nsubj">1279</dep>
+    <dep name="nsubj:pass">19</dep>
+    <dep name="nummod">114</dep>
+    <dep name="obj">694</dep>
+    <dep name="obl">1160</dep>
+    <dep name="parataxis">4</dep>
+    <dep name="punct">1636</dep>
+    <dep name="root">1342</dep>
+    <dep name="vocative">4</dep>
+    <dep name="xcomp">283</dep>
+  </deps>
+</treebank>
