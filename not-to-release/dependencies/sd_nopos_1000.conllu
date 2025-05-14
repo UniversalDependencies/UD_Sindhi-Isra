@@ -6524,10 +6524,10 @@
 # text = ڇو جو راجا ڪمپا ڪابيرو کي وڌيڪ ڀائيندو هو.
 1	ڇو	ڇو	PRON	_	_	8	obl	_	_
 2	جو	جو	ADP	_	_	1	case	_	_
-3	راجا	راجا	NOUN	_	_	4	nmod	_	_
-4	ڪمپا	ڪمپا	PROPN	_	_	8	nsubj	_	_
-5	ڪابيرو	ڪابيرو	PROPN	_	_	8	obj	_	_
-6	کي	کي	ADP	_	_	5	case	_	_
+3	راجا	راجا	NOUN	_	_	8	nsubj	_	_
+4	ڪمپا	ڪمپا	PROPN	_	_	8	obj	_	_
+5	ڪابيرو	ڪابيرو	PROPN	_	_	4	flat	_	_
+6	کي	کي	ADP	_	_	4	case	_	_
 7	وڌيڪ	وڌيڪ	ADJ	_	_	8	xcomp	_	_
 8	ڀائيندو	_	VERB	_	_	0	root	_	_
 9	هو	آهي	AUX	_	_	8	aux	_	SpaceAfter=No
@@ -6732,7 +6732,7 @@
 # sent_id = 1268
 # text = ڪمپا ڪابيرو پـَرَ وٺي پنهنجي ڪلهن تي هنيا ۽ نچندي نچندي اوچتو اتان غائب ٿي ويئي.
 1	ڪمپا	ڪمپا	PROPN	_	_	8	nsubj	_	_
-2	ڪابيرو	ڪابيرو	PROPN	_	_	3	nmod	_	_
+2	ڪابيرو	ڪابيرو	PROPN	_	_	1	flat	_	_
 3	پـَرَ	_	NOUN	_	_	4	obj	_	_
 4	وٺي	وٺ	VERB	_	_	8	advcl	_	_
 5	پنهنجي	پنهنجي	PRON	_	_	6	nmod	_	_
@@ -6840,12 +6840,12 @@
 # sent_id = 1274
 # text = پٺيان ڪمپا ڪابيرو کي ڏٺو ته حيران ٿي ويو.
 1	پٺيان	پٺيان	ADV	_	_	5	advmod	_	_
-2	ڪمپا	ڪمپا	PROPN	_	_	5	nsubj	_	_
-3	ڪابيرو	ڪابيرو	PROPN	_	_	5	obj	_	_
-4	کي	کي	ADP	_	_	3	case	_	_
-5	ڏٺو	ڏٺو	VERB	_	_	7	advcl	_	_
-6	ته	ته	SCONJ	_	_	5	mark	_	_
-7	حيران	حيران	ADJ	_	_	0	root	_	_
+2	ڪمپا	ڪمپا	PROPN	_	_	5	obj	_	_
+3	ڪابيرو	ڪابيرو	PROPN	_	_	2	flat	_	_
+4	کي	کي	ADP	_	_	2	case	_	_
+5	ڏٺو	ڏٺو	VERB	_	_	0	root	_	_
+6	ته	ته	SCONJ	_	_	7	mark	_	_
+7	حيران	حيران	ADJ	_	_	5	advcl	_	_
 8	ٿي	آهي	AUX	_	_	7	aux	_	_
 9	ويو	ويو	VERB	_	_	7	compound	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
@@ -6885,22 +6885,22 @@
 # sent_id = 1276
 # text = ڪمپا ڪابيرو راجا کي وڌيڪ چيو ته، هاڻي مون ۾ واپس وڃڻ جي همت ڪانهي.
 1	ڪمپا	ڪمپا	PROPN	_	_	6	nsubj	_	_
-2	ڪابيرو	ڪابيرو	PROPN	_	_	6	nsubj	_	_
+2	ڪابيرو	ڪابيرو	PROPN	_	_	1	flat	_	_
 3	راجا	راجا	NOUN	_	_	6	iobj	_	_
 4	کي	کي	ADP	_	_	3	case	_	_
 5	وڌيڪ	وڌيڪ	ADJ	_	_	6	compound	_	_
-6	چيو	چئو	VERB	_	_	0	root	_	_
+6	چيو	چئو	VERB	_	_	15	advcl	_	_
 7	ته	ته	SCONJ	_	_	6	mark	_	SpaceAfter=No
 8	،	،	PUNCT	_	_	6	punct	_	_
-9	هاڻي	هاڻ	ADV	_	_	16	advmod	_	_
-10	مون	مون	PRON	_	_	16	obl	_	_
+9	هاڻي	هاڻ	ADV	_	_	15	advmod	_	_
+10	مون	مون	PRON	_	_	15	obl	_	_
 11	۾	۾	ADP	_	_	10	case	_	_
 12	واپس	واپس	ADV	_	_	13	advmod	_	_
 13	وڃڻ	وڃ	VERB	_	_	15	nmod	_	_
 14	جي	جي	ADP	_	_	13	mark	_	_
-15	همت	_	NOUN	_	_	6	obj	_	_
-16	ڪانهي	_	VERB	_	_	6	ccomp	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	16	punct	_	_
+15	همت	_	NOUN	_	_	0	root	_	_
+16	ڪانهي	آھي	AUX	_	Gender=Fem|Number=Sing|ڪانھي Tense=Pres	15	cop	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = 1277
 # text = اوهان جادوءَ جي هيءَ منڊي پاڻ وٽ رکو، ڇو جو جيڪڏهن اوهان منهنجي پٺيان ڪيانگان اچڻ گهرو ته اوهان کي هڪڙي ٽڪريءَ وٽان لنگهڻو پوندو،
