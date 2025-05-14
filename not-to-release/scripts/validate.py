@@ -72,6 +72,8 @@ ADVMOD_EMPH_EXCEPTIONS = {
     }
 
 
+ENFORCED_FEATURES = {}
+
 ENFORCED_POS = {
     "مطابق": ["ADP"],
     "جڏهن": ["ADV"],
@@ -90,6 +92,7 @@ ENFORCED_POS['ھئي'] = ["AUX"]
 # the negative polarity AUX words should all be AUX
 for word in ['ناهن', 'ناهي', 'ناهيان', 'ناهيون', 'ناھن', 'ناھي', 'ناھيان', 'ناھيون', 'نٿا', 'نٿو', 'نٿي', 'نٿيون', 'ڪونهن', 'ڪونهي', 'ڪونھن', 'ڪونھي']:
     ENFORCED_POS[word] = ["AUX"]
+    ENFORCED_FEATURES[word] = ["Polarity=Neg"]
 
 ALLOWED_STRUCTURE = {
     'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
@@ -313,6 +316,24 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
 
 
     if check_feats:
+        printed = False
+        for sent_idx, sent in enumerate(new_doc.sentences):
+            for word_idx, word in enumerate(sent.words):
+                if word.text in ENFORCED_FEATURES:
+                    error = ""
+                    if not word.feats or word.feats == '_':
+                        error = "Sentence %s (%d) word %d (line %d) |%s| had blank features, but this word is expected to have %s" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.text, ENFORCED_FEATURES[word.text])
+                    else:
+                        pieces = word.feats.split("|")
+                        for expected in ENFORCED_FEATURES[word.text]:
+                            if expected not in pieces:
+                                error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.text, piece)
+                    if error:
+                        if not printed:
+                            printed = True
+                            print("EXPECTED FEATURES MISSING")
+                        print(error)
+
         printed = False
         for sent_idx, sent in enumerate(new_doc.sentences):
             for word_idx, word in enumerate(sent.words):
