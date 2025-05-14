@@ -327,7 +327,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                         pieces = word.feats.split("|")
                         for expected in ENFORCED_FEATURES[word.text]:
                             if expected not in pieces:
-                                error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.text, piece)
+                                error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.text, expected)
                     if error:
                         if not printed:
                             printed = True
