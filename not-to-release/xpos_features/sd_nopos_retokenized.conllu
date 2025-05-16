@@ -1,0 +1,237 @@
+# sent_id = 1
+# text = سلطان ۽ گدڙ
+# orig_text = سلطان ۽ گدڙ هڪڙو گدڙ ڪنهن نيروٽيءَ جي دڪان ۾ ويو،
+1	سلطان	_	PROPN	NNP	Case=Nom|Gender=Masc	0	root	_	_
+2	۽	_	CCONJ	CC	_	3	cc	_	_
+3	گدڙ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+
+# sent_id = 2
+# text = هڪڙو گدڙ ڪنهن نيروٽيءَ جي دڪان ۾ ويو،
+# orig_text = سلطان ۽ گدڙ هڪڙو گدڙ ڪنهن نيروٽيءَ جي دڪان ۾ ويو،
+1	هڪڙو	_	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	گدڙ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	ڪنهن	_	PRON	PRWH	Case=Acc|Number=Sing	4	nmod	_	_
+4	نيروٽيءَ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+5	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
+6	دڪان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+7	۾	_	ADP	PSPL	_	6	case	_	_
+8	ويو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+9	،	_	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 3
+# text = انهيءَ ماڻهوءَ جي دل ۾ پئي آيو ته وڏا وڏا ٽهڪ ڏيئي کلي،
+# orig_text = انهيءَ ماڻهوءَ جي دل ۾ پئي آيو ته وڏا وڏا ٽهڪ ڏيئي کلي، ڇاڪاڻ ته اهو ڏسي سچ پچ کل پئي آئي ته وڻ جي هيٺ هڪ تمام وڏو چيتو پنهنجي بدن تي لڳل انهن زخمن جي ڪري پئي رنو ۽ رڙيو، جيڪي هڪ ننڍڙي سانڊي هن کي هنيا هئا.
+1	انهيءَ	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+2	ماڻهوءَ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+3	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
+4	دل	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+5	۾	_	ADP	PSPL	_	4	case	_	_
+6	پئي	_	VERB	VM	Aspect=Imp|Voice=Act	7	compound	_	_
+7	آيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+8	ته	_	SCONJ	CS	_	12	mark	_	_
+9	وڏا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+10	وڏا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	ٽهڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	obj	_	_
+12	ڏيئي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
+13	کلي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	12	compound	_	SpaceAfter=No
+14	،	_	PUNCT	PUNCT	_	12	punct	_	_
+
+# sent_id = 4
+# text = ڇاڪاڻ ته اهو ڏسي سچ پچ کل پئي آئي ته وڻ جي هيٺ هڪ تمام وڏو چيتو پنهنجي بدن تي لڳل انهن زخمن جي ڪري پئي رنو ۽ رڙيو، جيڪي هڪ ننڍڙي سانڊي هن کي هنيا هئا.
+# orig_text = انهيءَ ماڻهوءَ جي دل ۾ پئي آيو ته وڏا وڏا ٽهڪ ڏيئي کلي، ڇاڪاڻ ته اهو ڏسي سچ پچ کل پئي آئي ته وڻ جي هيٺ هڪ تمام وڏو چيتو پنهنجي بدن تي لڳل انهن زخمن جي ڪري پئي رنو ۽ رڙيو، جيڪي هڪ ننڍڙي سانڊي هن کي هنيا هئا.
+1	ڇاڪاڻ	_	ADV	ADT	_	8	advmod	_	_
+2	ته	_	SCONJ	CS	_	8	mark	_	_
+3	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+4	ڏسي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
+5	سچ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	پچ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+7	کل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	پئي	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+9	آئي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	8	compound	_	_
+10	ته	_	SCONJ	CS	_	8	mark	_	_
+11	وڻ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+12	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	11	case	_	_
+13	هيٺ	_	ADV	ADV	_	21	advmod	_	_
+14	هڪ	_	ADJ	JJC	Case=Nom|Number=Sing	17	amod	_	_
+15	تمام	_	ADV	ADV	_	14	dep	_	_
+16	وڏو	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	17	amod	_	_
+17	چيتو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+18	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	19	nmod	_	_
+19	بدن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
+20	تي	_	ADP	PSPL	_	19	case	_	_
+21	لڳل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart	23	acl	_	_
+22	انهن	_	DET	PRD	Case=Acc|Number=Plur	23	det	_	_
+23	زخمن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obl	_	_
+24	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	23	case	_	_
+25	ڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	26	advcl	_	_
+26	پئي	_	VERB	VM	Aspect=Imp	27	xcomp	_	_
+27	رنو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	advcl	_	_
+28	۽	_	CCONJ	CC	_	29	cc	_	_
+29	رڙيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+30	،	_	PUNCT	PUNCT	_	29	punct	_	_
+31	جيڪي	_	PRON	PRP	Case=Nom|Number=Plur	37	obj	_	_
+32	هڪ	_	NUM	NUM	_	34	nummod	_	_
+33	ننڍڙي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	34	amod	_	_
+34	سانڊي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_
+35	هن	_	DET	PRD	Case=Acc|Number=Sing	37	iobj	_	_
+36	کي	_	ADP	PSP	_	35	case	_	_
+37	هنيا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	29	advcl	_	_
+38	هئا	_	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	37	aux	_	SpaceAfter=No
+39	.	_	PUNCT	PUNCT	_	37	punct	_	_
+
+# sent_id = 5
+# text = هن دل ۾ ويچاريو ته ڇا هن ماڻهوءَ مون کي ههڙيءَ حالت ۾ ڏسي ورتو آهي؟
+# orig_text = هن دل ۾ ويچاريو ته ڇا هن ماڻهوءَ مون کي ههڙيءَ حالت ۾ ڏسي ورتو آهي؟ انهيءَ تي هن کي ڏاڍي ڪاوڙ لڳي،
+1	هن	_	DET	PRD	Case=Acc|Number=Sing	4	nsubj	_	_
+2	دل	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+3	۾	_	ADP	PSPL	_	4	mark	_	_
+4	ويچاريو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+5	ته	_	SCONJ	CS	_	14	mark	_	_
+6	ڇا	_	PRON	PRWH	_	14	obl	_	_
+7	هن	_	DET	PRD	Case=Acc|Number=Sing	8	det	_	_
+8	ماڻهوءَ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+9	مون	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	14	obj	_	_
+10	کي	_	ADP	PSP	_	9	case	_	_
+11	ههڙيءَ	_	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	حالت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+13	۾	_	ADP	PSPL	_	12	case	_	_
+14	ڏسي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
+15	ورتو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	14	compound	_	_
+16	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	14	aux	_	SpaceAfter=No
+17	؟	_	PUNCT	PUNCT	_	14	punct	_	_
+
+# sent_id = 6
+# text = انهيءَ تي هن کي ڏاڍي ڪاوڙ لڳي،
+# orig_text = هن دل ۾ ويچاريو ته ڇا هن ماڻهوءَ مون کي ههڙيءَ حالت ۾ ڏسي ورتو آهي؟ انهيءَ تي هن کي ڏاڍي ڪاوڙ لڳي،
+1	انهيءَ	_	DET	PRD	Case=Acc|Number=Sing	7	obl	_	_
+2	تي	_	ADP	PSPL	_	1	case	_	_
+3	هن	_	DET	PRD	Case=Acc|Number=Sing	7	nsubj	_	_
+4	کي	_	ADP	PSP	_	3	case	_	_
+5	ڏاڍي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	ڪاوڙ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	_
+7	لڳي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+8	،	_	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 7
+# text = پيءُ جواب ڏنس، نه ڌيءَ، آءٌ اهو راز ڪنهن کي به ڪونه ٻڌائيندس،
+# orig_text = پيءُ جواب ڏنس، نه ڌيءَ، آءٌ اهو راز ڪنهن کي به ڪونه ٻڌائيندس، مون مهاتما ٻڌ جو قسم کنيو آهي.
+1	پيءُ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	جواب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	_
+3	ڏنس	_	VERB	VMX	Aspect=Perf|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+4	،	_	PUNCT	PUNCT	_	3	punct	_	_
+5	نه	_	PART	PART	_	3	dep	_	_
+6	ڌيءَ	_	NOUN	NN	Case=Voc|Gender=Fem|Number=Sing	15	vocative	_	SpaceAfter=No
+7	،	_	PUNCT	PUNCT	_	6	punct	_	_
+8	آءٌ	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	15	nsubj	_	_
+9	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	10	det	_	_
+10	راز	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obj	_	_
+11	ڪنهن	_	PRON	PRWH	Case=Acc|Number=Sing	15	iobj	_	_
+12	کي	_	ADP	PSP	_	11	case	_	_
+13	به	_	PART	PART	_	11	advmod:emph	_	_
+14	ڪونه	_	ADV	ADN	_	15	advmod	_	_
+15	ٻڌائيندس	_	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	3	ccomp	_	SpaceAfter=No
+16	،	_	PUNCT	PUNCT	_	15	punct	_	_
+
+# sent_id = 8
+# text = مون مهاتما ٻڌ جو قسم کنيو آهي.
+# orig_text = پيءُ جواب ڏنس، نه ڌيءَ، آءٌ اهو راز ڪنهن کي به ڪونه ٻڌائيندس، مون مهاتما ٻڌ جو قسم کنيو آهي.
+1	مون	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	6	nsubj	_	_
+2	مهاتما	_	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+3	ٻڌ	_	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	2	flat	_	_
+4	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
+5	قسم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
+6	کنيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+7	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
+8	.	_	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 9
+# text = اڌ رات هن چار سئو سپاهي ان ٽڪريءَ ڏانهن اُماڻيا،
+# orig_text = اڌ رات هن چار سئو سپاهي ان ٽڪريءَ ڏانهن اُماڻيا، جتي هڪ ننڍي جهوپڙيءَ ۾ اهو عقلمند ڇوڪرو رهندو هو.
+1	اڌ	_	ADJ	JJF	Case=Nom|Number=Sing	2	amod	_	_
+2	رات	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obl	_	_
+3	هن	_	DET	PRD	Case=Acc|Number=Sing	10	nsubj	_	_
+4	چار	_	NUM	NUM	_	5	nummod	_	_
+5	سئو	_	NUM	NUM	_	6	nummod	_	_
+6	سپاهي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	obj	_	_
+7	ان	_	DET	PRD	Case=Acc|Number=Sing	8	det	_	_
+8	ٽڪريءَ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+9	ڏانهن	_	ADV	ADP	_	10	advmod	_	_
+10	اُماڻيا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+11	،	_	PUNCT	PUNCT	_	10	punct	_	_
+
+# sent_id = 10
+# text = جتي هڪ ننڍي جهوپڙيءَ ۾ اهو عقلمند ڇوڪرو رهندو هو.
+# orig_text = اڌ رات هن چار سئو سپاهي ان ٽڪريءَ ڏانهن اُماڻيا، جتي هڪ ننڍي جهوپڙيءَ ۾ اهو عقلمند ڇوڪرو رهندو هو.
+1	جتي	_	ADV	ADT	_	9	advmod	_	_
+2	هڪ	_	ADJ	JJC	Case=Nom|Number=Sing	4	amod	_	_
+3	ننڍي	_	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	جهوپڙيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+5	۾	_	ADP	PSPL	_	4	case	_	_
+6	اهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
+7	عقلمند	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	_
+8	ڇوڪرو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	رهندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	0	root	_	_
+10	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	9	aux	_	SpaceAfter=No
+11	.	_	PUNCT	PUNCT	_	9	punct	_	_
+
+# sent_id = 11
+# text = ٿائوکام نشانچي
+# orig_text = ٿائوکام نشانچي لائوس جي ڪهاڻي ڳالهه ٿا ڪن ته هڪڙي ڀيري ڪو ڇوڪر هو،
+1	ٿائوکام	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	نشانچي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = 12
+# text = لائوس جي ڪهاڻي
+# orig_text = ٿائوکام نشانچي لائوس جي ڪهاڻي ڳالهه ٿا ڪن ته هڪڙي ڀيري ڪو ڇوڪر هو،
+1	لائوس	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
+3	ڪهاڻي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = 13
+# text = ڳالهه ٿا ڪن ته هڪڙي ڀيري ڪو ڇوڪر هو،
+# orig_text = ٿائوکام نشانچي لائوس جي ڪهاڻي ڳالهه ٿا ڪن ته هڪڙي ڀيري ڪو ڇوڪر هو،
+1	ڳالهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	3	aux	_	_
+3	ڪن	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	8	advcl	_	_
+4	ته	_	SCONJ	CS	_	3	mark	_	_
+5	هڪڙي	_	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	ڀيري	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	ڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
+8	ڇوڪر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+9	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	8	cop	_	SpaceAfter=No
+10	،	_	PUNCT	PUNCT	_	8	root	_	_
+
+# sent_id = 14
+# text = راجا سوتون جا ڪارناما
+# orig_text = راجا سوتون جا ڪارناما ملائيشيا جي ڪهاڻي ڳالهه ڪن ٿا ته پراڻي زماني ۾ هڪ ڏاڍو سکيو ستابو ملڪ هوندو هو،
+1	راجا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	سوتون	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+3	جا	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	2	case	_	_
+4	ڪارناما	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+
+# sent_id = 15
+# text = ملائيشيا جي ڪهاڻي
+# orig_text = راجا سوتون جا ڪارناما ملائيشيا جي ڪهاڻي ڳالهه ڪن ٿا ته پراڻي زماني ۾ هڪ ڏاڍو سکيو ستابو ملڪ هوندو هو،
+1	ملائيشيا	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
+3	ڪهاڻي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = 16
+# text = ڳالهه ڪن ٿا ته پراڻي زماني ۾ هڪ ڏاڍو سکيو ستابو ملڪ هوندو هو،
+# orig_text = راجا سوتون جا ڪارناما ملائيشيا جي ڪهاڻي ڳالهه ڪن ٿا ته پراڻي زماني ۾ هڪ ڏاڍو سکيو ستابو ملڪ هوندو هو،
+1	ڳالهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	compound	_	_
+2	ڪن	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
+3	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	2	aux	_	_
+4	ته	_	SCONJ	CS	_	13	mark	_	_
+5	پراڻي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	زماني	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+7	۾	_	ADP	PSPL	_	6	case	_	_
+8	هڪ	_	ADJ	JJ	Case=Nom|Number=Sing	12	amod	_	_
+9	ڏاڍو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+10	سکيو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	ستابو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	ملڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	هوندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	2	advcl	_	_
+14	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	13	aux	_	SpaceAfter=No
+15	،	_	PUNCT	PUNCT	_	13	punct	_	_
+
