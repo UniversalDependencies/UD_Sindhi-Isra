@@ -16,6 +16,12 @@ assert len(d1.sentences) == len(d2.sentences)
 for s1, s2 in zip(d1.sentences, d2.sentences):
     assert len(s1.words) == len(s2.words)
 
+d1_xpos = any(x.xpos for sent in d1.sentences for x in sent.words)
+d2_xpos = any(x.xpos for sent in d2.sentences for x in sent.words)
+keep_d1 = d1_xpos and not d2_xpos
+if keep_d1:
+    print("Keeping sentences from %s, as those have xpos and %s does not" % (args.f1, args.f2))
+
 changed = []
 unchanged = []
 
@@ -30,9 +36,9 @@ for s1, s2 in zip(d1.sentences, d2.sentences):
             print("Difference at %d: %s vs %s" % (idx+1, w1.upos, w2.upos))
 
     if not printed:
-        unchanged.append(s2)
+        unchanged.append(s1 if keep_d1 else s2)
     else:
-        changed.append(s2)
+        changed.append(s1 if keep_d1 else s2)
         print()
 
 print("%d sentences changed, %d sentences unchanged" % (len(changed), len(unchanged)))
