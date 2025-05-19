@@ -78,6 +78,8 @@ ENFORCED_POS = {
     "مطابق": ["ADP"],
     "جڏهن": ["ADV"],
     "وغيره": ["PART"],
+    "آخر": ["ADV", "NOUN"],
+    "ٿورو": ["ADJ"],
 }
 for word in ('هجان', 'هجون', 'هجين', 'هجو', 'هجي', 'هجن'):
     ENFORCED_POS[word] = ["AUX"]
