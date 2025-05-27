@@ -101,6 +101,10 @@ ALLOWED_STRUCTURE = {
    'ھا': [('AUX', 'aux'), ('INTJ', 'discourse')],
 }
 
+DISALLOWED_UPOS_RELATIONS = {
+    "ADP": ["nmod"],
+}
+
 def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
     problem_sentences = set()
 
@@ -313,9 +317,17 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 if structure not in ALLOWED_STRUCTURE[word.text]:
                     if not printed:
                         printed = True
-                        print("Found an expected POS & deprel combination")
+                        print("Found an unexpected POS & deprel combination")
                     print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number, word.text, word.upos, word.deprel))
 
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word.upos in DISALLOWED_UPOS_RELATIONS and word.deprel in DISALLOWED_UPOS_RELATIONS[word.upos]:
+                if not printed:
+                    printed = True
+                    print("Found an unexpected POS & deprel combination")
+                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number, word.text, word.upos, word.deprel))
 
     if check_feats:
         printed = False
