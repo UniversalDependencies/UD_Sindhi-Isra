@@ -103,6 +103,7 @@ ALLOWED_STRUCTURE = {
 
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod"],
+    "VERB": ["obj"],
 }
 
 def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
