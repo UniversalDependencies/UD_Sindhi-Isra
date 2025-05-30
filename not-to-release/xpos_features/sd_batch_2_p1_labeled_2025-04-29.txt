@@ -268,7 +268,7 @@
 # text = تنهنڪري هـُن ڏانهس پنهنجي مدد اماڻي.
 1	تنهنڪري	تنهنڪري	ADV	ADT	_	6	advmod	_	_
 2	هـُن	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	6	nsubj	_	_
-3	ڏانهس	_	ADV	ADT	_	5	nmod	_	_
+3	ڏانهس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	6	obl	_	_
 4	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	5	nmod	_	_
 5	مدد	مدد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	_
 6	اماڻي	اماڻ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
@@ -1193,8 +1193,8 @@
 7	پراڻي	پراڻو	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	زماني	زمانو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
 9	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	8	case	_	_
-10	وري	وري	ADV	ADM	_	14	advmod	_	_
-11	ڪڏهن	ڪڏهن	ADV	ADT	_	12	nmod	_	_
+10	وري	وري	ADV	ADM	_	11	advmod	_	_
+11	ڪڏهن	ڪڏهن	ADV	ADT	_	16	advmod	_	_
 12	جهنگ	جهنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
 13	۾	۾	ADP	PSPL	_	12	case	_	_
 14	نظر	نظر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	xcomp	_	_
@@ -3034,8 +3034,8 @@
 # sent_id = 2080
 # text = جيڪو ڪن ڪچري پوڻ جي ڪري گهڻي وقت کان بند پيو آهي.
 1	جيڪو	جيڪو	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	ڪن	_	ADV	ADT	_	4	nmod	_	_
-3	ڪچري	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
+2	ڪن	ڪن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	ڪچري	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	compound	_	_
 4	پوڻ	پوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	6	advcl	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	mark	_	_
 6	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
@@ -4519,12 +4519,12 @@
 8	ته	ته	SCONJ	CS	_	5	mark	_	_
 9	انهن	ان	DET	PRD	Case=Acc|Number=Plur	10	nmod	_	_
 10	لفظن	لفظ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	obj	_	_
-11	چوڻ	چوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	12	nmod	_	_
-12	وارو	وارو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
-13	گهوڙي	گهوڙو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+11	چوڻ	چوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	21	nsubj	_	_
+12	وارو	وارو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	11	mark	_	_
+13	گهوڙي	گهوڙو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	_
 14	تي	تي	ADP	PSPL	_	13	case	_	_
-15	سوار	سوار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	advcl	_	_
-16	بنان	_	ADV	ADT	_	18	nmod	_	_
+15	سوار	سوار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	obl	_	_
+16	بنان	بنان	ADP	PRP	_	18	case	_	_
 17	ڪنهن	ڪو	PRON	PRWH	Case=Acc|Number=Sing	18	nmod	_	_
 18	ڊپ	ڊپ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
 19	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	18	case	_	_
@@ -5546,13 +5546,13 @@
 2	ٻڌو	ٻڌ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 3	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	2	aux	_	_
 4	ته	ته	SCONJ	CS	_	8	mark	_	_
-5	اتي	اتي	ADV	ADT	_	8	nmod	_	_
+5	اتي	اتي	ADV	ADP	_	8	advmod	_	_
 6	زمين	زمين	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 7	ڏاڍي	ڏاڍي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	ڀلي	ڀلو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	obj	_	_
 9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	cop	_	_
 10	۽	۽	CCONJ	CC	_	8	cc	_	_
-11	اتي	اتي	ADV	ADP	_	13	nmod	_	_
+11	اتي	اتي	NOUN	NN	Case=Acc	13	nmod	_	_
 12	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	11	case	_	_
 13	رهاڪو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
 14	ڏاڍا	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
@@ -6801,8 +6801,8 @@
 5	قابليت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_
 6	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 7	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
-8	اتي	اتي	ADV	ADT	_	10	nmod	_	_
-9	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	10	case	_	_
+8	اتي	اتي	NOUN	NN	Case=Acc	10	nmod	_	_
+9	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
 10	حاڪم	حاڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	xcomp	_	_
 11	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	0	root	_	_
 12	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	11	compound	_	SpaceAfter=No
@@ -8758,7 +8758,7 @@
 1	پر	پر	SCONJ	CS	_	10	mark	_	_
 2	ايتري	ايتري	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
-4	هنجي	_	ADV	ADA	_	5	nmod	_	_
+4	هنجي	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
 5	ٻيڙي	ٻيڙي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 6	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
 7	ڪناري	ڪنارو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
@@ -8771,8 +8771,8 @@
 14	نرم	نرم	ADJ	JJ	Case=Nom|Degree=Pos	16	amod	_	_
 15	نرم	نرم	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	16	amod	_	_
 16	زمين	زمين	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
-17	تي	تي	ADP	PSPL	_	19	obl	_	_
-18	وڃي	وڃ	VERB	VM	Aspect=Perf|VerbForm=Conv	19	xcomp	_	_
+17	تي	تي	ADP	PSPL	_	16	case	_	_
+18	وڃي	وڃ	VERB	VM	Aspect=Perf|VerbForm=Conv	19	compound	_	_
 19	ڪِري	ڪِري	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	10	conj	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	19	punct	_	_
 
@@ -10360,10 +10360,10 @@
 4	58	_	NUM	NUM	_	5	nummod	_	_
 5	ٽوبي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	conj	_	_
 6	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	5	case	_	_
-7	خاتمي	خاتمو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+7	خاتمي	خاتمو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 8	جي	جي	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	7	case	_	_
 9	عوام	عوام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-10	جلد	جلد	ADV	ADM	_	11	nmod	_	_
+10	جلد	جلد	ADV	ADM	_	12	advmod	_	_
 11	خوشخبري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
 12	ٻڌندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	SpaceAfter=No
 13	،	،	PUNCT	PUNCT	_	12	punct	_	_
@@ -11078,7 +11078,7 @@
 3	آمريت	آمريت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 4	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	3	case	_	_
 5	پڄاري	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
-6	بغير	_	ADV	ADV	_	7	nmod	_	_
+6	بغير	_	ADP	PRP	_	7	case	_	_
 7	تعبير	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
 8	وارا	وارو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	7	case	_	_
 9	خواب	خواب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
