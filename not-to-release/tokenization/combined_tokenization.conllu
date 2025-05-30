@@ -73647,16 +73647,17 @@
 9	.	_	_	_	_	1	dep	_	_
 
 # sent_id = 3925
-# text = حڪومت جيڪا اڳ ۾ئي خساري جو شڪار آهي،
-1	حڪومت	_	_	_	_	0	root	_	_
-2	جيڪا	_	_	_	_	1	dep	_	_
-3	اڳ	_	_	_	_	1	dep	_	_
-4	۾ئي	_	_	_	_	1	dep	_	_
-5	خساري	_	_	_	_	1	dep	_	_
-6	جو	_	_	_	_	1	dep	_	_
-7	شڪار	_	_	_	_	1	dep	_	_
-8	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-9	،	_	_	_	_	1	dep	_	_
+# text = حڪومت جيڪا اڳ ئي ۽ خساري جو شڪار آهي،
+1	حڪومت	حڪومت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+2	جيڪا	جيڪو	DET	PRD	Case=Nom|Number=Sing	3	det	_	_
+3	اڳ	_	ADV	ADT	_	8	nmod	_	_
+4	ئي	_	ADP	PSPL	_	3	case	_	_
+5	۽	_	PART	PART	_	3	advmod:emph	_	_
+6	خساري	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
+7	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	6	case	_	_
+8	شڪار	شڪار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	cop	_	SpaceAfter=No
+10	،	،	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 3926a
 # text = ملڪ جي معيشت جيڪا هاڻي قرضن جي سهاري هلي پُئي،
