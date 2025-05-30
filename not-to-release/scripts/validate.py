@@ -102,8 +102,14 @@ ALLOWED_STRUCTURE = {
 }
 
 DISALLOWED_UPOS_RELATIONS = {
-    "ADP": ["nmod"],
+    "ADP": ["nmod", "advcl", "amod"],
     "VERB": ["obj"],
+}
+
+DISALLOWED_XPOS_RELATIONS = {
+    "PSP": ["obj"],
+    "PSPL": ["obj"],
+    "PSPG": ["obj"],
 }
 
 def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
@@ -329,6 +335,11 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     printed = True
                     print("Found an unexpected POS & deprel combination")
                 print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number, word.text, word.upos, word.deprel))
+            if check_xpos and word.xpos in DISALLOWED_XPOS_RELATIONS and word.deprel in DISALLOWED_XPOS_RELATIONS[word.xpos]:
+                if not printed:
+                    printed = True
+                    print("Found an unexpected POS & deprel combination")
+                print("Sentence %s (%d) word %d (line %d) is |%s| with an XPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number, word.text, word.xpos, word.deprel))
 
     if check_feats:
         printed = False
