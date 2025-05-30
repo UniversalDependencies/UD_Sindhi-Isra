@@ -1435,9 +1435,9 @@
 
 # sent_id = 4543
 # text = جنهن جي ڪري اٽو مهانگو ٿيو.
-1	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	3	obl	_	_
+1	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	6	obl	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	1	case	_	_
-3	ڪري	ڪري	ADP	PSP	_	6	advcl	_	_
+3	ڪري	ڪري	ADP	PSP	_	1	case	_	_
 4	اٽو	اٽو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	مهانگو	مهانگو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	xcomp	_	_
 6	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
@@ -1759,18 +1759,18 @@
 
 # sent_id = 4562
 # text = جنهن جي ڪري ملڪ ۾ ڪڏهن اٽي، ڪڏهن کنڊ، ڪڏهن بصرن ته ڪڏهن وري پٽاٽن جو بحران پيدا ٿئي ٿو.
-1	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	3	obl	_	_
+1	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	21	obl	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	1	case	_	_
-3	ڪري	ڪري	ADP	PSP	_	21	advcl	_	_
+3	ڪري	ڪري	ADP	PSP	_	1	case	_	_
 4	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
 5	۾	۾	ADP	PSPL	_	4	case	_	_
-6	ڪڏهن	ڪڏهن	ADV	ADT	_	21	advmod	_	_
+6	ڪڏهن	ڪڏهن	ADV	ADT	_	7	nmod	_	_
 7	اٽي	اٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	10	punct	_	_
-9	ڪڏهن	ڪڏهن	ADV	ADT	_	21	advmod	_	_
+9	ڪڏهن	ڪڏهن	ADV	ADT	_	10	amod	_	_
 10	کنڊ	کنڊ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
 11	،	،	PUNCT	PUNCT	_	10	punct	_	_
-12	ڪڏهن	ڪڏهن	ADV	ADT	_	21	advmod	_	_
+12	ڪڏهن	ڪڏهن	ADV	ADT	_	13	amod	_	_
 13	بصرن	بصر	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	_
 14	ته	ته	PART	PART	_	13	advmod:emph	_	_
 15	ڪڏهن	ڪڏهن	ADV	ADT	_	20	advmod	_	_
@@ -2603,7 +2603,7 @@
 # sent_id = 4597
 # text = نيٺ ئين قومي مالياتي ايوارڊ (National Financial Commission) تي صحيحون ٿيڻ وارو عمل به پورو ٿي ويو.
 1	نيٺ	نيٺ	ADV	ADV	_	17	amod	_	_
-2	ئين	_	ADP	PSPL	_	4	amod	_	_
+2	ئين	_	ADP	PSPL	_	1	amod	_	_
 3	قومي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	_
 4	مالياتي	مالياتي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
 5	ايوارڊ	ايوارڊ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
@@ -6911,14 +6911,14 @@
 3	چوڻ	چوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
 5	ته	ته	SCONJ	CS	_	14	mark	_	_
-6	هيءُ	هيءُ	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	_
+6	هيءُ	هيءُ	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 7	ٻين	ٻيو	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	9	amod	_	_
 8	خودڪش	خودڪش	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
 9	حملن	حملو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
 10	کان	کان	ADP	PSP	_	9	case	_	_
-11	انهيءُ	_	PRON	PRD	Number=Sing	12	amod	_	_
-12	ڪري	ڪري	ADP	PSP	_	14	advcl	_	_
-13	به	به	PART	PART	_	12	advmod:emph	_	_
+11	انهيءُ	_	PRON	PRD	Number=Sing	14	obl	_	_
+12	ڪري	ڪري	ADP	PSP	_	11	case	_	_
+13	به	به	PART	PART	_	11	advmod:emph	_	_
 14	مختلف	مختلف	ADJ	JJ	Case=Nom|Degree=Pos	3	advcl	_	_
 15	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	14	cop	_	_
 16	جو	جو	ADP	PSP	_	21	mark	_	_
@@ -19263,7 +19263,7 @@
 21	عبيد	عبيد	PROPN	NNP	Case=Nom|Gender=Masc	23	compound	_	_
 22	الله	الله	PROPN	NNP	Case=Nom|Gender=Masc	23	compound	_	_
 23	مري	مري	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	conj	_	_
-24	خلاف	خلاف	ADP	PSP	_	23	amod	_	_
+24	خلاف	خلاف	ADP	PSP	_	23	case	_	_
 25	مڙس	مڙس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	nmod	_	_
 26	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	25	case	_	_
 27	قتل	قتل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	nmod	_	_

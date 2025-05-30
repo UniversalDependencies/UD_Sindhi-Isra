@@ -5097,7 +5097,7 @@
 # text = پاڪستان جي اندر دهشتگردي جي واقعن جو تعداد ايترو ته وڌي ويو آهي،
 1	پاڪستان	پاڪستان	PROPN	NNP	Case=Acc|Gender=Masc	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	1	case	_	_
-3	اندر	اندر	ADP	PSPL	_	4	amod	_	_
+3	اندر	اندر	NOUN	NN	Case=Nom|Gender=Masc	11	obl	_	_
 4	دهشتگردي	دهشتگرد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
 6	واقعن	واقعو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
@@ -7061,16 +7061,16 @@
 # text = يونيورسٽي جي رپورٽ مطابق گهڻو ڪري خودڪش بمبار مذهبي جذبن کان مرعوب ٿي معصوم ماڻهن جون جانيون ناهن ضايع ڪندا بلڪه خودڪش حملي آورن جو ذهن ٺاهڻ ۾ بدلي، سياست، بي عزتي ۽ بغاوت جو عنصر اهم ڪردار ادا ڪندو آهي.
 1	يونيورسٽي	يونيورسٽي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	1	case	_	_
-3	رپورٽ	رپورٽ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+3	رپورٽ	رپورٽ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 4	مطابق	مطابق	ADP	PSP	_	3	case	_	_
-5	گهڻو	گهڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	compound	_	_
-6	ڪري	ڪري	ADP	PSP	_	20	advcl	_	_
+5	گهڻو	گهڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	obl	_	_
+6	ڪري	ڪري	ADP	PSP	_	5	case	_	_
 7	خودڪش	خودڪش	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	8	compound	_	_
-8	بمبار	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+8	بمبار	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	12	nsubj	_	_
 9	مذهبي	مذهبي	ADJ	JJ	Case=Nom|Degree=Pos	10	amod	_	_
 10	جذبن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	_
 11	کان	کان	ADP	PSP	_	10	case	_	_
-12	مرعوب	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	20	xcomp	_	_
+12	مرعوب	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	42	advcl	_	_
 13	ٿي	آهي	AUX	VAUX	AuxType=Be	12	cop	_	_
 14	معصوم	معصوم	ADJ	JJ	Case=Nom|Degree=Pos	15	amod	_	_
 15	ماڻهن	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	_
@@ -7078,14 +7078,14 @@
 17	جانيون	جان	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	obj	_	_
 18	ناهن	آهي	AUX	VAUX	Number=Plur|Polarity=Neg|Tense=Pres	20	aux	_	_
 19	ضايع	ضايع	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	compound	_	_
-20	ڪندا	ڪن	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	_
-21	بلڪه	بلڪه	CCONJ	CC	_	20	mark	_	_
+20	ڪندا	ڪن	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	42	advcl	_	_
+21	بلڪه	بلڪه	CCONJ	CC	_	27	cc	_	_
 22	خودڪش	خودڪش	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	24	compound	_	_
 23	حملي	حملو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	compound	_	_
 24	آورن	آوري	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	26	nmod	_	_
 25	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	24	case	_	_
 26	ذهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	obj	_	_
-27	ٺاهڻ	ٺاه	VERB	VM	Aspect=Imp|VerbForm=Inf	42	advcl	_	_
+27	ٺاهڻ	ٺاه	VERB	VM	Aspect=Imp|VerbForm=Inf	20	conj	_	_
 28	۾	۾	ADP	PSPL	_	27	mark	_	_
 29	بدلي	بدلي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
 30	،	،	PUNCT	PUNCT	_	31	punct	_	_
@@ -7094,13 +7094,13 @@
 33	بي	بي	ADJ	JJ	Gender=Fem|Number=Sing	34	compound	_	_
 34	عزتي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	29	conj	_	_
 35	۽	۽	CCONJ	CC	_	36	cc	_	_
-36	بغاوت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	conj	_	_
-37	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	34	case	_	_
+36	بغاوت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	conj	_	_
+37	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	36	case	_	_
 38	عنصر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	_
 39	اهم	اهم	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	40	amod	_	_
 40	ڪردار	ڪردار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	42	obj	_	_
 41	ادا	ادا	VERB	VM	Aspect=Imp|Voice=Act	42	compound	_	_
-42	ڪندو	ڪن	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	20	advcl	_	_
+42	ڪندو	ڪن	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	_
 43	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	42	aux	_	SpaceAfter=No
 44	.	.	PUNCT	PUNCT	_	42	punct	_	_
 
