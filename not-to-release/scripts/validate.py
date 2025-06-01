@@ -92,6 +92,9 @@ ENFORCED_POS['ھئي'] = ["AUX"]
 for word in ('مطابق', 'سواءِ'):
     ENFORCED_POS[word] = ['ADP']
 
+for word in ('سگهي', 'سگهنديس'):
+    ENFORCED_POS[word] = ['AUX']
+
 
 # the negative polarity AUX words should all be AUX
 for word in ['ڪانهي', 'ڪانھي', 'ناهن', 'ناهي', 'ناهيان', 'ناهيون', 'ناھن', 'ناھي', 'ناھيان', 'ناھيون', 'نٿا', 'نٿو', 'نٿي', 'نٿيون', 'ڪونهن', 'ڪونهي', 'ڪونھن', 'ڪونھي']:
