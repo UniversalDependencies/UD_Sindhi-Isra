@@ -293,7 +293,7 @@
 4	پيٽ	پيٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 5	چڱي	چڱو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	طرح	طرح	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
-7	سان	_	ADP	PSP	_	6	case	_	_
+7	سان	سان	ADP	PSP	_	6	case	_	_
 8	ڀريندس	_	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -643,7 +643,7 @@
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
 4	بادشاهه	بادشاهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 5	نرميءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
-6	سان	_	ADP	PSP	_	5	advmod	_	_
+6	سان	سان	ADP	PSP	_	5	advmod	_	_
 7	جواب	جواب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	_
 8	ڏنو	ڏنو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 9	،	،	PUNCT	PUNCT	_	8	punct	_	_
@@ -669,7 +669,7 @@
 # text = آءٌ هن ڀيري پوڙهيءَ جي هڪڙي به ڳالهه نه ٻڌندس ۽ هن کي ڏسندي ئي ڳڙڪائي ويندس.
 1	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
 2	هن	هن	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
-3	ڀيري	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+3	ڀيري	ڀيرو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 4	پوڙهيءَ	پوڙهي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
 6	هڪڙي	هڪڙو	NUM	NUM	_	8	nummod	_	_
@@ -736,7 +736,7 @@
 6	ته	ته	SCONJ	CS	_	7	mark	_	_
 7	شڪر	شڪر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	advcl	_	_
 8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	7	cop	_	_
-9	جو	_	SCONJ	CS	_	15	mark	_	_
+9	جو	جو	SCONJ	CS	_	15	mark	_	_
 10	باندرن	باندر	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	obl	_	_
 11	۽	۽	CCONJ	CC	_	12	cc	_	_
 12	شينهن	شينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
@@ -759,7 +759,7 @@
 10	ڏيئي	ڏيئي	VERB	VM	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
 11	ٽڪر	ٽڪر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
 12	ٽڪر	ٽڪر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	_
-13	ٿي	_	AUX	VAUX	_	11	cop	_	_
+13	ٿي	آهي	AUX	VAUX	_	11	cop	_	_
 14	ڀڄي	ڀڄ	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 15	پيئي	پيءَ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	14	compound	_	_
 16	۽	۽	CCONJ	CC	_	20	cc	_	_
@@ -819,7 +819,7 @@
 11	چڱي	چڱو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
 12	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	obl	_	_
 13	ڀـُڃجي	_	VERB	VM	Aspect=Imp	5	advcl	_	_
-14	سگهنديس	_	AUX	VAUXX	Gender=Fem|Number=Sing|Person=1	13	aux	_	SpaceAfter=No
+14	سگهنديس	سگهي	AUX	VAUXX	Gender=Fem|Number=Sing|Person=1	13	aux	_	SpaceAfter=No
 15	،	،	PUNCT	PUNCT	_	13	punct	_	_
 16	نه	نه	PART	PART	_	25	mark	_	_
 17	ته	ته	SCONJ	CS	_	16	fixed	_	_
@@ -870,8 +870,8 @@
 
 # sent_id = 1588
 # text = تنهن هڪدم گرم گرم ڇار جا ٻـُڪ ڀري جانورن جي منهن ۾ هنيا.
-1	تنهن	_	PRON	PRP	Case=Acc|Number=Sing|Person=3	13	nsubj	_	_
-2	هڪدم	_	ADV	ADM	_	13	advmod	_	_
+1	تنهن	تنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	13	nsubj	_	_
+2	هڪدم	هڪدم	ADV	ADM	_	13	advmod	_	_
 3	گرم	گرم	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
 4	گرم	گرم	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
 5	ڇار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -903,7 +903,7 @@
 14	ڀڳي	ڀڳ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	13	compound	_	_
 15	۽	۽	CCONJ	CC	_	18	cc	_	_
 16	جهنگ	جهنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
-17	مان	_	ADP	PSPL	_	16	case	_	_
+17	مان	مان	ADP	PSPL	_	16	case	_	_
 18	نڪري	نڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	13	conj	_	_
 19	ويئي	وڃ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	18	compound	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	18	punct	_	_
