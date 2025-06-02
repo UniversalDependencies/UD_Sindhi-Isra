@@ -95,6 +95,7 @@ for word in ('مطابق', 'سواءِ', 'بنان', 'بغير'):
 for word in ('سگهي', 'سگهنديس'):
     ENFORCED_POS[word] = ['AUX']
 
+ENFORCED_POS['ڄڻ'] = ['PRON']
 
 # the negative polarity AUX words should all be AUX
 for word in ['ڪانهي', 'ڪانھي', 'ناهن', 'ناهي', 'ناهيان', 'ناهيون', 'ناھن', 'ناھي', 'ناھيان', 'ناھيون', 'نٿا', 'نٿو', 'نٿي', 'نٿيون', 'ڪونهن', 'ڪونهي', 'ڪونھن', 'ڪونھي']:
