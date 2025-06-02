@@ -89,7 +89,7 @@ for word in ('ٿيندو', 'ٿيندا', 'ٿيندي', 'ٿينديون'):
 ENFORCED_POS['هجئي'] = ["AUX"]
 ENFORCED_POS['ڪانهي'] = ["AUX"]
 ENFORCED_POS['ھئي'] = ["AUX"]
-for word in ('مطابق', 'سواءِ', 'بنان'):
+for word in ('مطابق', 'سواءِ', 'بنان', 'بغير'):
     ENFORCED_POS[word] = ['ADP']
 
 for word in ('سگهي', 'سگهنديس'):
