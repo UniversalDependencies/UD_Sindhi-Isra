@@ -129,7 +129,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     print("UNKNOWN UPOS")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d |%s| (line %d) had an unknown upos |%s|" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, word.upos))
+                print("Sentence %s (%d) word %d |%s| (line %d) had an unknown upos |%s|" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.upos))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -161,7 +161,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     print("PUNCT WORDS LABELED NON-PUNCT")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d has a punct word |%s| (line %d) labeled %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, word.upos))
+                print("Sentence %s (%d) word %d has a punct word |%s| (line %d) labeled %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.upos))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -277,7 +277,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                         if not printed:
                             printed = True
                             print("XPOS ERRORS")
-                        print("Sentence %s (%d) word %d |%s| (line %d) had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, word.xpos, word.upos))
+                        print("Sentence %s (%d) word %d |%s| (line %d) had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.xpos, word.upos))
                 else:
                     problem_sentences.add(sent_idx)
                     if not printed:
@@ -303,10 +303,10 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 if word_idx == 0:
                     error = "Sentence %s (%d) word %d (line %d) had an advmod:emph at the start of the sentence" % (sent.sent_id, sent_idx, word.id, word.line_number)
                 elif word.upos != 'PART':
-                    error = "Sentence %s (%d) word %d |%s| (line %d) advmod:emph head %d had a UPOS of %s" % (sent.sent_id, sent_idx, word.id, word.text, word.line_number, word.head, word.upos)
+                    error = "Sentence %s (%d) word %d |%s| (line %d) advmod:emph head %d had a UPOS of %s" % (sent.sent_id, sent_idx, word.id, word.text, word.line_number+1, word.head, word.upos)
                 elif word.head > word.id:
                     if sent.text not in ADVMOD_EMPH_EXCEPTIONS:
-                        error = "Sentence %s (%d) word %d (line %d) advmod:emph pointed later in the tree, to %d" % (sent.sent_id, sent_idx, word.id, word.line_number, word.head)
+                        error = "Sentence %s (%d) word %d (line %d) advmod:emph pointed later in the tree, to %d" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.head)
                 if error is not None:
                     if printed:
                         printed = True
@@ -320,7 +320,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 if not printed:
                     printed = True
                     print("Word-specific POS error")
-                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s, which is not in %s" % (sent.sent_id, sent_idx, word.id, word.line_number, word.text, word.upos, ENFORCED_POS[word.text]))
+                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s, which is not in %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, ENFORCED_POS[word.text]))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -331,7 +331,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     if not printed:
                         printed = True
                         print("Found an unexpected POS & deprel combination")
-                    print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number, word.text, word.upos, word.deprel))
+                    print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -340,12 +340,12 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 if not printed:
                     printed = True
                     print("Found an unexpected POS & deprel combination")
-                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number, word.text, word.upos, word.deprel))
+                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel))
             if check_xpos and word.xpos in DISALLOWED_XPOS_RELATIONS and word.deprel in DISALLOWED_XPOS_RELATIONS[word.xpos]:
                 if not printed:
                     printed = True
                     print("Found an unexpected POS & deprel combination")
-                print("Sentence %s (%d) word %d (line %d) is |%s| with an XPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number, word.text, word.xpos, word.deprel))
+                print("Sentence %s (%d) word %d (line %d) is |%s| with an XPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.xpos, word.deprel))
 
     if check_feats:
         printed = False
@@ -354,12 +354,12 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 if word.text in ENFORCED_FEATURES:
                     error = ""
                     if not word.feats or word.feats == '_':
-                        error = "Sentence %s (%d) word %d (line %d) |%s| had blank features, but this word is expected to have %s" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.text, ENFORCED_FEATURES[word.text])
+                        error = "Sentence %s (%d) word %d (line %d) |%s| had blank features, but this word is expected to have %s" % (sent.sent_id, sent_idx, word_idx, word.line_number+1, word.text, ENFORCED_FEATURES[word.text])
                     else:
                         pieces = word.feats.split("|")
                         for expected in ENFORCED_FEATURES[word.text]:
                             if expected not in pieces:
-                                error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.text, expected)
+                                error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx, word.line_number+1, word.text, expected)
                     if error:
                         if not printed:
                             printed = True
@@ -376,7 +376,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     if not printed:
                         printed = True
                         print("FEATURE ERRORS")
-                    print("Sentence %s (%d) word %d (line %d) had an unexpected upos %s with features" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.upos))
+                    print("Sentence %s (%d) word %d (line %d) had an unexpected upos %s with features" % (sent.sent_id, sent_idx, word_idx, word.line_number+1, word.upos))
                     continue
                 if not word.feats or word.feats == '_':
                     if word.upos in DISALLOWED_BLANK_FEATS:
@@ -384,7 +384,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                         if not printed:
                             printed = True
                             print("FEATURE ERRORS")
-                        print("Sentence %s (%d) word %d (line %d) had blank features, which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.line_number, word.upos))
+                        print("Sentence %s (%d) word %d (line %d) had blank features, which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.line_number+1, word.upos))
                     continue
                 feat_pieces = word.feats.split("|")
                 for feat in feat_pieces:
@@ -393,7 +393,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                         if not printed:
                             printed = True
                             print("FEATURE ERRORS")
-                        print("Sentence %s (%d) word %d |%s| (line %d) had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, feat, word.upos))
+                        print("Sentence %s (%d) word %d |%s| (line %d) had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, feat, word.upos))
                 if word.upos == 'ADP':
                     feat_map = {x: y for x, y in [x.split("=", maxsplit=2) for x in feat_pieces]}
                     if 'Case' in feat_map:
@@ -401,7 +401,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                             if not printed:
                                 printed = True
                                 print("FEATURE ERRORS")
-                            print("Sentence %s (%d) word %d |%s| (line %d) had Case=%s but an xpos %s which is not allowed to have Case" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, feat_map['Case'], word.xpos))
+                            print("Sentence %s (%d) word %d |%s| (line %d) had Case=%s but an xpos %s which is not allowed to have Case" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, feat_map['Case'], word.xpos))
                 if word.upos == 'VERB':
                     feat_map = {x: y for x, y in [x.split("=", maxsplit=2) for x in feat_pieces]}
                     if 'VerbForm' in feat_map and feat_map['VerbForm'] == 'Inf':
@@ -409,7 +409,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                             if not printed:
                                 printed = True
                                 print("FEATURE ERRORS")
-                            print("Sentence %s (%d) word %d |%s| (line %d) had VerbForm=Inf but an Aspect=%s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number, feat_map.get('Aspect')))
+                            print("Sentence %s (%d) word %d |%s| (line %d) had VerbForm=Inf but an Aspect=%s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, feat_map.get('Aspect')))
 
     return problem_sentences
 
