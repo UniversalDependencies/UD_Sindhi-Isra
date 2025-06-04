@@ -135,11 +135,8 @@ def check_unknown_upos(new_doc):
                 print("Sentence %s (%d) word %d |%s| (line %d) had an unknown upos |%s|" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.upos))
     return problem_sentences
 
-def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
+def check_no_root_sentences(new_doc):
     problem_sentences = set()
-
-    problem_sentences |= check_unknown_upos(new_doc)
-
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         if not any(word.deprel == 'root' for word in sent.words):
@@ -148,7 +145,10 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 printed = True
             problem_sentences.add(sent_idx)
             print("Sentence %d |%s| has no root" % (sent_idx, sent.sent_id))
+    return problem_sentences
 
+def check_space_in_word(new_doc):
+    problem_sentences = set()
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
@@ -158,7 +158,10 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     printed = True
                 problem_sentences.add(sent_idx)
                 print("Sentence %s (%d) word %d has a space in it: |%s|\n  Original sentence text was:\n  %s" % (sent.sent_id, sent_idx, word_idx, word.text, sent.text))
+    return problem_sentences
 
+def check_punct_word_labels(new_doc):
+    problem_sentences = set()
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
@@ -178,6 +181,48 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     printed = True
                 problem_sentences.add(sent_idx)
                 print("Sentence %s (%d) word %d has a non-punct word |%s| labeled %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.upos))
+
+    return problem_sentences
+
+def check_pos_deprel_happiness(new_doc, check_xpos):
+    problem_sentences = set()
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word.text in ALLOWED_STRUCTURE:
+                structure = (word.pos, word.deprel)
+                if structure not in ALLOWED_STRUCTURE[word.text]:
+                    if not printed:
+                        printed = True
+                        print("Found an unexpected POS & deprel combination")
+                    problem_sentences.add(sent_idx)
+                    print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel))
+
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word.upos in DISALLOWED_UPOS_RELATIONS and word.deprel in DISALLOWED_UPOS_RELATIONS[word.upos]:
+                if not printed:
+                    printed = True
+                    print("Found an unexpected POS & deprel combination")
+                problem_sentences.add(sent_idx)
+                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel))
+            if check_xpos and word.xpos in DISALLOWED_XPOS_RELATIONS and word.deprel in DISALLOWED_XPOS_RELATIONS[word.xpos]:
+                if not printed:
+                    printed = True
+                    print("Found an unexpected POS & deprel combination")
+                problem_sentences.add(sent_idx)
+                print("Sentence %s (%d) word %d (line %d) is |%s| with an XPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.xpos, word.deprel))
+
+    return problem_sentences
+
+def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
+    problem_sentences = set()
+
+    problem_sentences |= check_unknown_upos(new_doc)
+    problem_sentences |= check_no_root_sentences(new_doc)
+    problem_sentences |= check_space_in_word(new_doc)
+    problem_sentences |= check_punct_word_labels(new_doc)
+    problem_sentences |= check_pos_deprel_happiness(new_doc, check_xpos)
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -331,31 +376,6 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                         printed = True
                         print("Word-specific POS error")
                     print("Sentence %s (%d) word %d (line %d) is |%s| with an XPOS of %s, which is not in %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.xpos, ENFORCED_XPOS[word.text]))
-
-    printed = False
-    for sent_idx, sent in enumerate(new_doc.sentences):
-        for word_idx, word in enumerate(sent.words):
-            if word.text in ALLOWED_STRUCTURE:
-                structure = (word.pos, word.deprel)
-                if structure not in ALLOWED_STRUCTURE[word.text]:
-                    if not printed:
-                        printed = True
-                        print("Found an unexpected POS & deprel combination")
-                    print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel))
-
-    printed = False
-    for sent_idx, sent in enumerate(new_doc.sentences):
-        for word_idx, word in enumerate(sent.words):
-            if word.upos in DISALLOWED_UPOS_RELATIONS and word.deprel in DISALLOWED_UPOS_RELATIONS[word.upos]:
-                if not printed:
-                    printed = True
-                    print("Found an unexpected POS & deprel combination")
-                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel))
-            if check_xpos and word.xpos in DISALLOWED_XPOS_RELATIONS and word.deprel in DISALLOWED_XPOS_RELATIONS[word.xpos]:
-                if not printed:
-                    printed = True
-                    print("Found an unexpected POS & deprel combination")
-                print("Sentence %s (%d) word %d (line %d) is |%s| with an XPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.xpos, word.deprel))
 
     if check_feats:
         printed = False
