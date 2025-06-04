@@ -90,8 +90,11 @@ for word in ('ٿيندو', 'ٿيندا', 'ٿيندي', 'ٿينديون'):
 ENFORCED_POS['هجئي'] = ["AUX"]
 ENFORCED_POS['ڪانهي'] = ["AUX"]
 ENFORCED_POS['ھئي'] = ["AUX"]
+
 for word in ('مطابق', 'سواءِ', 'بنان', 'بغير', 'لاءِ'):
     ENFORCED_POS[word] = ['ADP']
+for word in ('سواءِ', 'بنان', 'بغير', 'لاءِ'):
+    ENFORCED_XPOS['لاءِ'] = ['PSP']
 
 # can/could AUX words
 for word in ('سگهي', 'سگهنديس', 'سگهندس', 'سگهندا', 'سگهنداسون', 'سگهنداسين', 'سگهنديون', 'سگهيس', 'سگهبو', 'سگهنديس'):
