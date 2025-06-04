@@ -113,7 +113,6 @@ ALLOWED_STRUCTURE = {
 
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
-    "VERB": ["obj"],
 }
 
 DISALLOWED_XPOS_RELATIONS = {
@@ -212,6 +211,24 @@ def check_pos_deprel_happiness(new_doc, check_xpos):
                     print("Found an unexpected POS & deprel combination")
                 problem_sentences.add(sent_idx)
                 print("Sentence %s (%d) word %d (line %d) is |%s| with an XPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.xpos, word.deprel))
+
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            # search for VERB/obj combinations
+            # generally these are wrong, but we allow it if the following word is a specific ADP
+            if word.upos != 'VERB' or word.deprel != 'obj':
+                continue
+            error = True
+            if word_idx + 1 < len(sent.words):
+                next_word = sent.words[word_idx+1]
+                if next_word.upos == 'ADP' and next_word.text in ('واري', 'وارين', 'وارن'):
+                    error = False
+            if error:
+                if not printed:
+                    printed = True
+                    print("Found an unexpected POS & deprel combination")
+                problem_sentences.add(sent_idx)
+                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel))
 
     return problem_sentences
 
