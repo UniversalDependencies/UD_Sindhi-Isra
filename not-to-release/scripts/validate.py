@@ -93,7 +93,8 @@ ENFORCED_POS['ھئي'] = ["AUX"]
 for word in ('مطابق', 'سواءِ', 'بنان', 'بغير'):
     ENFORCED_POS[word] = ['ADP']
 
-for word in ('سگهي', 'سگهنديس'):
+# can/could AUX words
+for word in ('سگهي', 'سگهنديس', 'سگهندس', 'سگهندا', 'سگهنداسون', 'سگهنداسين', 'سگهنديون', 'سگھيس', 'سگھبو', 'سگهنديس'):
     ENFORCED_POS[word] = ['AUX']
 
 ENFORCED_POS['ڄڻ'] = ['PRON']
