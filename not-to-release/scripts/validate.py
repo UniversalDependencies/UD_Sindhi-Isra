@@ -74,6 +74,7 @@ ADVMOD_EMPH_EXCEPTIONS = {
 
 ENFORCED_FEATURES = {}
 
+ENFORCED_XPOS = {}
 ENFORCED_POS = {
     "جڏهن": ["ADV"],
     "وغيره": ["PART"],
@@ -96,6 +97,9 @@ for word in ('سگهي', 'سگهنديس'):
     ENFORCED_POS[word] = ['AUX']
 
 ENFORCED_POS['ڄڻ'] = ['PRON']
+
+ENFORCED_POS['ڪڏهن'] = ['ADV']
+ENFORCED_XPOS['ڪڏهن'] = ['ADT']
 
 # the negative polarity AUX words should all be AUX
 for word in ['ڪانهي', 'ڪانھي', 'ناهن', 'ناهي', 'ناهيان', 'ناهيون', 'ناھن', 'ناھي', 'ناھيان', 'ناھيون', 'نٿا', 'نٿو', 'نٿي', 'نٿيون', 'ڪونهن', 'ڪونهي', 'ڪونھن', 'ڪونھي']:
@@ -321,6 +325,16 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     printed = True
                     print("Word-specific POS error")
                 print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s, which is not in %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, ENFORCED_POS[word.text]))
+
+    printed = False
+    if check_xpos:
+        for sent_idx, sent in enumerate(new_doc.sentences):
+            for word_idx, word in enumerate(sent.words):
+                if word.text in ENFORCED_XPOS and word.xpos not in ENFORCED_XPOS[word.text]:
+                    if not printed:
+                        printed = True
+                        print("Word-specific POS error")
+                    print("Sentence %s (%d) word %d (line %d) is |%s| with an XPOS of %s, which is not in %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.xpos, ENFORCED_XPOS[word.text]))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
