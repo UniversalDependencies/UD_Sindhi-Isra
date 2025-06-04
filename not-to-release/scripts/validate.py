@@ -122,9 +122,8 @@ DISALLOWED_XPOS_RELATIONS = {
     "PSPG": ["obj"],
 }
 
-def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
+def check_unknown_upos(new_doc):
     problem_sentences = set()
-
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
@@ -134,6 +133,12 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     printed = True
                 problem_sentences.add(sent_idx)
                 print("Sentence %s (%d) word %d |%s| (line %d) had an unknown upos |%s|" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.upos))
+    return problem_sentences
+
+def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
+    problem_sentences = set()
+
+    problem_sentences |= check_unknown_upos(new_doc)
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -142,10 +147,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 print("NO ROOT SENTENCES")
                 printed = True
             problem_sentences.add(sent_idx)
-            if print_sent_idx:
-                print(sent_idx, sent.sent_id)
-            else:
-                print(sent.sent_id)
+            print("Sentence %d |%s| has no root" % (sent_idx, sent.sent_id))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -202,10 +204,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     print("NO HEAD WORDS")
                     printed = True
                 problem_sentences.add(sent_idx)
-                if print_sent_idx:
-                    print(sent_idx, sent.sent_id, word.id)
-                else:
-                    print(sent.sent_id, word.id)
+                print("Sentence %s (%d) has a word %s (line %d) with no head" % (sent.sent_id, sent_idx, word.id, word.line_number))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -215,10 +214,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                     print("UNLABELED ARCS")
                     printed = True
                 problem_sentences.add(sent_idx)
-                if print_sent_idx:
-                    print(sent_idx, sent.sent_id, word.id)
-                else:
-                    print(sent.sent_id, word.id)
+                print("Sentence %s (%d) has a word %s (line %d) with no deprel" % (sent.sent_id, sent_idx, word.id, word.line_number))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
