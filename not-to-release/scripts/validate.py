@@ -93,7 +93,7 @@ ENFORCED_POS['ھئي'] = ["AUX"]
 
 for word in ('مطابق', 'سواءِ', 'بنان', 'بغير', 'لاءِ'):
     ENFORCED_POS[word] = ['ADP']
-for word in ('سواءِ', 'بنان', 'بغير', 'لاءِ'):
+for word in ('مطابق', 'سواءِ', 'بنان', 'بغير', 'لاءِ'):
     ENFORCED_XPOS['لاءِ'] = ['PSP']
 
 # can/could AUX words
