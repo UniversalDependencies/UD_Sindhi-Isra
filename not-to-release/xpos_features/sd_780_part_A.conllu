@@ -239,11 +239,11 @@
 5	واڌو	واڌ	ADJ	JJ	Case=Nom|Degree=Pos	6	amod	_	_
 6	پاڻي	پاڻي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
 7	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
-8	ماپ	ماپ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-9	نه	نه	PART	PART	_	10	advmod	_	_
-10	ٿي	آهي	AUX	VAUX	Number=Sing|Person=3|Tense=Pres	0	root	_	_
-11	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	10	aux	_	_
-12	،	،	PUNCT	PUNCT	_	10	punct	_	_
+8	ماپ	ماپ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+9	نه	نه	PART	PART	_	8	dep	_	_
+10	ٿي	آهي	AUX	VAUX	Number=Sing|Person=3|Tense=Pres	8	cop	_	_
+11	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	8	aux	_	_
+12	،	،	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = Kawish-20100810-012
 # text = شام جو 4 وڳي کانپوءِ گڊو وٽ پاڻي ۾ لاٿ اچڻ شروع ٿي وئي آهي ،
@@ -257,12 +257,12 @@
 8	پاڻي	پاڻي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 9	۾	۾	ADP	PSPL	_	8	case	_	_
 10	لاٿ	لاٿ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
-11	اچڻ	اچ	VERB	VM	Aspect=Imp|VerbForm=Inf	13	xcomp	_	_
-12	شروع	شروع	NOUN	NN	Case=Nom|Number=Sing	11	obl	_	_
-13	ٿي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	0	root	_	_
-14	وئي	وئي	VERB	VM	Aspect=Perf|Number=Sing|Person=3	11	compound	_	_
+11	اچڻ	اچ	VERB	VM	Aspect=Imp|VerbForm=Inf	12	nsubj	_	_
+12	شروع	شروع	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
+13	ٿي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	12	cop	_	_
+14	وئي	وئي	VERB	VM	Aspect=Perf|Number=Sing|Person=3	12	aux	_	_
 15	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	12	aux	_	_
-16	،	،	PUNCT	PUNCT	_	13	punct	_	_
+16	،	،	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = Kawish-20100810-013
 # text = گڊو بئراج جي ڪنٽرول روم ۾ موجود عملدارن ٻڌايو ته 4 ڪلاڪن دوران گڊو بئراج وٽ 30 هزار ڪيوسڪ پاڻي لهي ويو آهي ۽ لاٿ واري صورتحال جاري آهي ،
