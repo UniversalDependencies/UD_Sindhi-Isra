@@ -35,13 +35,14 @@ def read_tsv_files(tsv_files):
             locations[word_tag] = (filename, line_idx)
     return lemmas
 
-def set_lemmas(filename, lemmas, remove_existing):
+def set_lemmas(filename, lemmas, remove_existing, unknown_only):
     print("Lemmatizing %s" % filename)
     doc = CoNLL.conll2doc(filename)
     for sentence in doc.sentences:
         for word in sentence.words:
             if (word.text, word.upos) in lemmas:
-                word.lemma = lemmas[(word.text, word.upos)]
+                if word.lemma is None or not unknown_only:
+                    word.lemma = lemmas[(word.text, word.upos)]
             elif remove_existing:
                 word.lemma = None
     CoNLL.write_doc2conll(doc, filename)
@@ -51,6 +52,8 @@ def main():
     parser = argparse.ArgumentParser(description='Merge all known lemmas into the conllu files')
     parser.add_argument('--remove_existing', action='store_true', default=False, dest='remove_existing',
                         help="If a lemma is currently set, but is not in the known lemma files, remove it.  Makes it easy to look for ones which have been manually edited")
+    parser.add_argument('--unknown_only', action='store_true', default=False, dest='unknown_only',
+                        help="Only update lemmas which are currently blank")
     args = parser.parse_args()
 
     tsv_files = glob.glob("../lemmas/*.tsv")
@@ -59,7 +62,7 @@ def main():
     filenames = get_filenames()
 
     for filename in filenames:
-        set_lemmas(filename, lemmas, args.remove_existing)
+        set_lemmas(filename, lemmas, args.remove_existing, args.unknown_only)
 
 if __name__ == '__main__':
     main()
