@@ -41,7 +41,7 @@ ALLOWED_UPOS_TO_FEATS = {
               'VerbForm=Inf', 'VerbForm=PresPart',
               'Voice=Pass'],
     "CCONJ": [],
-    "DET":   ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
+    "DET":   ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=3'],
     "INTJ":  [],
     "NOUN":  ['Case=Abl', 'Case=Acc', 'Case=Nom', 'Case=Voc', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
     "NUM":   ['Case=Nom', 'Number=Sing'],
@@ -119,6 +119,7 @@ ENFORCED_POS['اهڙيءَ'] = ['DET', 'ADJ']
 
 # demonstratives
 demonstratives = ['ان', 'اِهو', 'انهي', 'انھي', 'انهيءِ', 'اِهو', 'اِهي', 'اھا', 'اھڙو', 'اھي', 'ڪوبه', 'هرڪوئي', 'هِن', 'هُوءَ', 'ھن', 'اُهو', 'اهي', 'اهو', 'اِها']
+demonstratives.extend(['اُها'])
 for word in demonstratives:
     ENFORCED_POS[word] = ['DET']
     ENFORCED_XPOS[word] = ['PRD']
