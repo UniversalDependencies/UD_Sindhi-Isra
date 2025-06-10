@@ -112,6 +112,8 @@ ENFORCED_POS['ڄڻ'] = ['PRON']
 ENFORCED_POS['ڪڏهن'] = ['ADV']
 ENFORCED_XPOS['ڪڏهن'] = ['ADT']
 
+ENFORCED_POS['اهڙو'] = ['DET', 'ADJ']
+
 # the negative polarity AUX words should all be AUX
 for word in ['ڪانهي', 'ڪانھي', 'ناهن', 'ناهي', 'ناهيان', 'ناهيون', 'ناھن', 'ناھي', 'ناھيان', 'ناھيون', 'نٿا', 'نٿو', 'نٿي', 'نٿيون', 'ڪونهن', 'ڪونهي', 'ڪونھن', 'ڪونھي']:
     ENFORCED_POS[word] = ["AUX"]
