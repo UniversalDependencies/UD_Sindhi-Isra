@@ -118,7 +118,7 @@ ENFORCED_POS['اهڙين'] = ['DET', 'ADJ']
 ENFORCED_POS['اهڙيءَ'] = ['DET', 'ADJ']
 
 # demonstratives
-demonstratives = ['ان', 'اِهو', 'انهي', 'انھي', 'انهيءِ', 'اِهو', 'اِهي', 'اھا', 'اھڙو', 'اھي', 'ڪوبه']
+demonstratives = ['ان', 'اِهو', 'انهي', 'انھي', 'انهيءِ', 'اِهو', 'اِهي', 'اھا', 'اھڙو', 'اھي', 'ڪوبه', 'هرڪوئي']
 for word in demonstratives:
     ENFORCED_POS[word] = ['DET']
     ENFORCED_XPOS[word] = ['PRD']
