@@ -84,8 +84,7 @@ def main():
     args = parser.parse_args()
 
     noxpos_doc = read_directory(os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/dependencies/*"))
-    xpos_doc = read_directory(os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/*"),
-                              os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_standard/xpos_tagged_with_features.conllu"), strip_xpos=False)
+    xpos_doc = read_directory(os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/*"), strip_xpos=False)
 
     print("%d sentences with xpos and features" % len(xpos_doc.sentences))
     print("%d sentences with no xpos or features" % len(noxpos_doc.sentences))

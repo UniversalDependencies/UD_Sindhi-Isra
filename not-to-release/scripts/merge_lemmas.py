@@ -5,7 +5,7 @@ import sys
 from stanza.utils.conll import CoNLL
 
 def get_filenames():
-    filenames = glob.glob("../xpos_features/*conllu") + glob.glob("../xpos_features/*txt") + ["../xpos_standard/xpos_tagged_with_features.conllu"]
+    filenames = glob.glob("../xpos_features/*conllu") + glob.glob("../xpos_features/*txt")
     filenames.extend(glob.glob("../dependencies/*conllu"))
     return filenames
 
