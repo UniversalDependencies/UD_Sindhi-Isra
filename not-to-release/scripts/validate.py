@@ -113,6 +113,15 @@ ENFORCED_POS['ڪڏهن'] = ['ADV']
 ENFORCED_XPOS['ڪڏهن'] = ['ADT']
 
 ENFORCED_POS['اهڙو'] = ['DET', 'ADJ']
+ENFORCED_POS['اهڙا'] = ['DET', 'ADJ']
+ENFORCED_POS['اهڙين'] = ['DET', 'ADJ']
+ENFORCED_POS['اهڙيءَ'] = ['DET', 'ADJ']
+
+# demonstratives
+demonstratives = ['ان', 'اِهو', 'انهي', 'انھي', 'انهيءِ', 'اِهو', 'اِهي', 'اھا', 'اھڙو', 'اھي', ]
+for word in demonstratives:
+    ENFORCED_POS[word] = ['DET']
+    ENFORCED_XPOS[word] = ['PRD']
 
 # the negative polarity AUX words should all be AUX
 for word in ['ڪانهي', 'ڪانھي', 'ناهن', 'ناهي', 'ناهيان', 'ناهيون', 'ناھن', 'ناھي', 'ناھيان', 'ناھيون', 'نٿا', 'نٿو', 'نٿي', 'نٿيون', 'ڪونهن', 'ڪونهي', 'ڪونھن', 'ڪونھي']:
