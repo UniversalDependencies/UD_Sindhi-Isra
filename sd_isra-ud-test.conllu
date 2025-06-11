@@ -2866,7 +2866,7 @@
 9	تائين	تائين	ADP	PSP	_	8	case	_	_
 10	3	3	NUM	NUM	_	11	nummod	_	_
 11	نومبر	نومبر	PROPN	NNP	Case=Nom|Gender=Fem	13	nmod	_	_
-12	جي	جي	ADP	PSP	_	11	case	_	_
+12	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	11	case	_	_
 13	قدمن	قدم	NOUN	NN	Case=Acc|Number=Plur	15	nmod	_	_
 14	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	13	case	_	_
 15	مذمت	مذمت	NOUN	NN	Case=Nom	17	obl	_	_
@@ -5026,7 +5026,7 @@
 17	ملڪيت	ملڪيت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
 18	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	17	cop	_	_
 19	ته	ته	SCONJ	CS	_	25	mark	_	_
-20	اهو	اهو	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+20	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
 21	به	به	PART	PART	_	20	advmod:emph	_	_
 22	قوم	قوم	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
 23	کي	کي	ADP	PSP	_	22	case	_	_
@@ -5630,7 +5630,7 @@
 # sent_id = Kawish-20100810-257
 # text = جنهنڪري اُن سڪل ٿـُـڙ جو انگهو شينهن جي پيٽ ۾ چـُـڀي ويو .
 1	جنهنڪري	جنهنڪري	CCONJ	CC	_	11	cc	_	_
-2	اُن	اُن	PRON	PRD	Case=Acc|Number=Sing	4	nmod	_	_
+2	اُن	اُن	DET	PRD	Case=Acc|Number=Sing	4	det	_	_
 3	سڪل	سڪل	ADJ	JJ	Gender=Masc|Number=Sing	4	nmod	_	_
 4	ٿـُـڙ	ٿـُـڙ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 5	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
@@ -5983,7 +5983,7 @@
 1	جڏهن	جڏهن	ADV	ADT	_	7	advmod	_	_
 2	ڏاچيون	ڏاچي	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	اچي	اچ	VERB	VM	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
-4	انهيءَ	انهي	PRON	PRD	Case=Acc|Number=Sing	5	nmod	_	_
+4	انهيءَ	انهي	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
 5	گهيڙ	گهيڙ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 6	مان	مان	ADP	PSPL	_	5	case	_	_
 7	لنگهيون	لنگه	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur|Voice=Act	0	root	_	_
@@ -10268,7 +10268,7 @@
 
 # sent_id = MD-305
 # text = ٻئي ماڻهو کي عزت ڏيڻ سان پاڻ کي عزت ملي ٿي .
-1	ٻئي	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	ٻئي	ٻيو	ADJ	JJ	Case=Acc|Number=Sing	2	amod	_	_
 2	ماڻهو	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	عزت	عزت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	_
@@ -10283,7 +10283,7 @@
 
 # sent_id = MD-306
 # text = ٻئي ماڻهو جي مدد ڪرڻ سان پاڻ کي به ڪاميابي ملي ٿي .
-1	ٻئي	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	ٻئي	ٻيو	ADJ	JJ	Case=Acc|Number=Sing	2	amod	_	_
 2	ماڻهو	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Nom|Number=Sing	2	case	_	_
 4	مدد	مدد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	_
@@ -12504,7 +12504,7 @@
 
 # sent_id = MD-515
 # text = هرڪوئي پنهنجي لاءِ جيئي پيو ،
-1	هرڪوئي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	advmod	_	_
+1	هرڪوئي	_	DET	PRD	Case=Nom|Number=Sing	4	nsubj	_	_
 2	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	4	obl	_	_
 3	لاءِ	لاءِ	ADP	PSP	_	2	case	_	_
 4	جيئي	جيئي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
