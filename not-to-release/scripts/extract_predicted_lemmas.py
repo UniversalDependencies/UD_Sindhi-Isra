@@ -27,10 +27,16 @@ def read_known_lemmas():
 
 known_lemmas = read_known_lemmas()
 
-pred_filename = "sd_isra.test.pred.conllu"
+if len(sys.argv) > 1:
+    pred_filename = sys.argv[1]
+else:
+    pred_filename = "sd_isra.test.pred.conllu"
 pred_doc = CoNLL.conll2doc(pred_filename)
 
-orig_filename = "sd_isra.test.in.conllu"
+if len(sys.argv) > 1:
+    orig_filename = sys.argv[2]
+else:
+    orig_filename = "sd_isra.test.in.conllu"
 orig_doc = CoNLL.conll2doc(orig_filename)
 
 assert len(pred_doc.sentences) == len(orig_doc.sentences)
