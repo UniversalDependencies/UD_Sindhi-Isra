@@ -134,6 +134,8 @@ ALLOWED_STRUCTURE = {
    'ھا': [('AUX', 'aux'), ('INTJ', 'discourse')],
 }
 
+ALLOWED_STRUCTURE['وغيره'] = [('PART', 'conj')]
+
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
 }
