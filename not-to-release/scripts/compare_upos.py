@@ -56,7 +56,7 @@ for s1, s2 in zip(d1.sentences, d2.sentences):
         for note in notes:
             print(note[1])
             comments.append("# NOTE " + note[1])
-        comments.append("# highlight tokens " + " ".join([str(note[0]) for note in notes]))
+        comments.append("# highlight tokens = " + " ".join([str(note[0]) for note in notes]))
         for comment in comments:
             sent.add_comment(comment)
         changed.append(sent)
