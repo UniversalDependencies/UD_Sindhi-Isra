@@ -129,6 +129,8 @@ for word in ['ڪانهي', 'ڪانھي', 'ناهن', 'ناهي', 'ناهيان',
     ENFORCED_POS[word] = ["AUX"]
     ENFORCED_FEATURES[word] = ["Polarity=Neg"]
 
+ENFORCED_POS['توڙي'] = ['CCONJ']
+
 ALLOWED_STRUCTURE = {
     'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
    'ھا': [('AUX', 'aux'), ('INTJ', 'discourse')],
