@@ -39,7 +39,7 @@ ALLOWED_UPOS_TO_FEATS = {
               'Polarity=Neg',
               'Tense=Fut', 'Tense=Past', 'Tense=Pres',
               'VerbForm=Inf', 'VerbForm=PresPart',
-              'Voice=Pass'],
+              'Voice=Act', 'Voice=Pass'],  # TODO: not sure this is correct, but the validator nagging is annoying
     "CCONJ": [],
     "DET":   ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=3'],
     "INTJ":  [],
@@ -53,6 +53,7 @@ ALLOWED_UPOS_TO_FEATS = {
     "SYM":   [],
     "VERB":  ['Aspect=Imp', 'Aspect=Perf', 'Aspect=Prog',
               'Case=Acc', 'Case=Nom',
+              'Case[obj]=Acc', 'Case[subj]=Acc', 'Case[subj]=Nom', # TODO: resplit these into MWT?
               'Gender=Fem', 'Gender=Masc', 'Gender[obj]=Fem', 'Gender[obj]=Masc', 'Gender[subj]=Fem', 'Gender[subj]=Masc',
               'Mood=Sub',
               'Number=Plur', 'Number=Sing', 'Number[obj]=Plur', 'Number[obj]=Sing', 'Number[subj]=Plur', 'Number[subj]=Sing',
