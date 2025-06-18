@@ -248,7 +248,7 @@ def check_pos_deprel_happiness(new_doc, check_xpos):
             error = True
             if word_idx + 1 < len(sent.words):
                 next_word = sent.words[word_idx+1]
-                if next_word.upos == 'ADP' and next_word.text in ('واري', 'وارين', 'وارن'):
+                if next_word.upos == 'ADP' and next_word.text in ('واري', 'وارين', 'وارن', 'وارو'):
                     error = False
             if error:
                 if not printed:
