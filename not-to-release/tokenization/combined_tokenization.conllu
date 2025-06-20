@@ -54068,56 +54068,58 @@
 16	ٿو	_	_	_	_	1	dep	_	SpaceAfter=No
 17	.	_	_	_	_	1	dep	_	_
 
-# sent_id = 2931
-# text = پوءِ هن دڪان تي ويٺل هڪ کلمل مائيءَ کان پڇيو، ڇا آءُ سلاد جا ٻج خريد ڪري سگهان ٿو؟ ان مائيءَ چيو،
-1	پوءِ	_	_	_	_	0	root	_	_
-2	هن	_	_	_	_	1	dep	_	_
-3	دڪان	_	_	_	_	1	dep	_	_
-4	تي	_	_	_	_	1	dep	_	_
-5	ويٺل	_	_	_	_	1	dep	_	_
-6	هڪ	_	_	_	_	1	dep	_	_
-7	کلمل	_	_	_	_	1	dep	_	_
-8	مائيءَ	_	_	_	_	1	dep	_	_
-9	کان	_	_	_	_	1	dep	_	_
-10	پڇيو	_	_	_	_	1	dep	_	SpaceAfter=No
-11	،	_	_	_	_	1	dep	_	_
-12	ڇا	_	_	_	_	1	dep	_	_
-13	آءُ	_	_	_	_	1	dep	_	_
-14	سلاد	_	_	_	_	1	dep	_	_
-15	جا	_	_	_	_	1	dep	_	_
-16	ٻج	_	_	_	_	1	dep	_	_
-17	خريد	_	_	_	_	1	dep	_	_
-18	ڪري	_	_	_	_	1	dep	_	_
-19	سگهان	_	_	_	_	1	dep	_	_
-20	ٿو	_	_	_	_	1	dep	_	SpaceAfter=No
-21	؟	_	_	_	_	1	dep	_	_
-22	ان	_	_	_	_	1	dep	_	_
-23	مائيءَ	_	_	_	_	1	dep	_	_
-24	چيو	_	_	_	_	1	dep	_	SpaceAfter=No
-25	،	_	_	_	_	1	dep	_	_
+# sent_id = 2931a
+# text = پوءِ هن دڪان تي ويٺل هڪ کلمل مائيءَ کان پڇيو، ڇا آءُ سلاد جا ٻج خريد ڪري سگهان ٿو؟
+1	پوءِ	_	ADP	PSP	_	10	mark	_	_
+2	هن	_	DET	PRD	Case=Acc|Number=Sing	10	nsubj	_	_
+3	دڪان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+4	تي	_	ADP	PSPL	_	3	case	_	_
+5	ويٺل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart	8	acl	_	_
+6	هڪ	_	NUM	NUM	_	8	nummod	_	_
+7	کلمل	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	مائيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+9	کان	_	ADP	PSP	_	8	case	_	_
+10	پڇيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	،	_	PUNCT	PUNCT	_	10	punct	_	_
+12	ڇا	_	PRON	PRWH	_	18	obl	_	_
+13	آءُ	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	18	nsubj	_	_
+14	سلاد	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
+15	جا	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	14	case	_	_
+16	ٻج	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	obj	_	_
+17	خريد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	_
+18	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	10	advcl	_	_
+19	سگهان	_	AUX	VAUX	Number=Sing|Person=1	18	aux	_	_
+20	ٿو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	18	aux	_	SpaceAfter=No
+21	؟	_	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
 
-# sent_id = 2932
-# text = ڇو نه پٽ! توکي ڪيترا ٻج گهرجن؟ مڪاٽو وراڻيو، مون وٽ ته رڳو هڪ پئسو آهي.
-1	ڇو	_	_	_	_	0	root	_	_
-2	نه	_	_	_	_	1	dep	_	_
-3	پٽ	_	_	_	_	1	dep	_	SpaceAfter=No
-4	!	_	_	_	_	1	dep	_	_
-5	توکي	_	_	_	_	1	dep	_	_
-6	ڪيترا	_	_	_	_	1	dep	_	_
-7	ٻج	_	_	_	_	1	dep	_	_
-8	گهرجن	_	_	_	_	1	dep	_	SpaceAfter=No
-9	؟	_	_	_	_	1	dep	_	_
-10	مڪاٽو	_	_	_	_	1	dep	_	_
-11	وراڻيو	_	_	_	_	1	dep	_	SpaceAfter=No
-12	،	_	_	_	_	1	dep	_	_
-13	مون	_	_	_	_	1	dep	_	_
-14	وٽ	_	_	_	_	1	dep	_	_
-15	ته	_	_	_	_	1	dep	_	_
-16	رڳو	_	_	_	_	1	dep	_	_
-17	هڪ	_	_	_	_	1	dep	_	_
-18	پئسو	_	_	_	_	1	dep	_	_
-19	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-20	.	_	_	_	_	1	dep	_	_
+# sent_id = 2931b
+# text = ان مائيءَ چيو ڇو نه پٽ! توکي ڪيترا ٻج گهرجن؟
+1	ان	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+2	مائيءَ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	چيو	_	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
+4	ڇو	_	PRON	PRWH	_	11	obl	_	_
+5	نه	_	PART	PART	_	4	dep	_	_
+6	پٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	vocative	_	SpaceAfter=No
+7	!	_	PUNCT	PUNCT	_	6	punct	_	_
+8	توکي	_	PRON	PRP	Case=Nom|Number=Sing|Person=2	11	iobj	_	_
+9	ڪيترا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	ٻج	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	obj	_	_
+11	گهرجن	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	3	ccomp	_	SpaceAfter=No
+12	؟	_	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 2931c
+# text = مڪاٽو وراڻيو، مون وٽ ته رڳو هڪ پئسو آهي.
+1	مڪاٽو	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	وراڻيو	_	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	SpaceAfter=No
+3	،	_	PUNCT	PUNCT	_	2	punct	_	_
+4	مون	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	9	nsubj	_	_
+5	وٽ	_	ADP	PSPL	_	4	case	_	_
+6	ته	_	PART	PART	_	4	advmod:emph	_	_
+7	رڳو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	هڪ	_	NUM	NUM	_	9	nummod	_	_
+9	پئسو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+10	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	9	cop	_	SpaceAfter=No
+11	.	_	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 2933
 # text = مائيءَ کلندي چيو،
@@ -56236,57 +56238,6 @@
 15	سگهان	_	_	_	_	1	dep	_	_
 16	ٿو	_	_	_	_	1	dep	_	SpaceAfter=No
 17	.	_	_	_	_	1	dep	_	_
-
-# sent_id = 3058
-# text = پوءِ هن دڪان تي ويٺل هڪ کلمل مائيءَ کان پڇيو، ڇا آءُ سلاد جا ٻج خريد ڪري سگهان ٿو؟ ان مائيءَ چيو،
-1	پوءِ	_	_	_	_	0	root	_	_
-2	هن	_	_	_	_	1	dep	_	_
-3	دڪان	_	_	_	_	1	dep	_	_
-4	تي	_	_	_	_	1	dep	_	_
-5	ويٺل	_	_	_	_	1	dep	_	_
-6	هڪ	_	_	_	_	1	dep	_	_
-7	کلمل	_	_	_	_	1	dep	_	_
-8	مائيءَ	_	_	_	_	1	dep	_	_
-9	کان	_	_	_	_	1	dep	_	_
-10	پڇيو	_	_	_	_	1	dep	_	SpaceAfter=No
-11	،	_	_	_	_	1	dep	_	_
-12	ڇا	_	_	_	_	1	dep	_	_
-13	آءُ	_	_	_	_	1	dep	_	_
-14	سلاد	_	_	_	_	1	dep	_	_
-15	جا	_	_	_	_	1	dep	_	_
-16	ٻج	_	_	_	_	1	dep	_	_
-17	خريد	_	_	_	_	1	dep	_	_
-18	ڪري	_	_	_	_	1	dep	_	_
-19	سگهان	_	_	_	_	1	dep	_	_
-20	ٿو	_	_	_	_	1	dep	_	SpaceAfter=No
-21	؟	_	_	_	_	1	dep	_	_
-22	ان	_	_	_	_	1	dep	_	_
-23	مائيءَ	_	_	_	_	1	dep	_	_
-24	چيو	_	_	_	_	1	dep	_	SpaceAfter=No
-25	،	_	_	_	_	1	dep	_	_
-
-# sent_id = 3059
-# text = ڇو نه پٽ! توکي ڪيترا ٻج گهرجن؟ مڪاٽو وراڻيو، مون وٽ ته رڳو هڪ پئسو آهي.
-1	ڇو	_	_	_	_	0	root	_	_
-2	نه	_	_	_	_	1	dep	_	_
-3	پٽ	_	_	_	_	1	dep	_	SpaceAfter=No
-4	!	_	_	_	_	1	dep	_	_
-5	توکي	_	_	_	_	1	dep	_	_
-6	ڪيترا	_	_	_	_	1	dep	_	_
-7	ٻج	_	_	_	_	1	dep	_	_
-8	گهرجن	_	_	_	_	1	dep	_	SpaceAfter=No
-9	؟	_	_	_	_	1	dep	_	_
-10	مڪاٽو	_	_	_	_	1	dep	_	_
-11	وراڻيو	_	_	_	_	1	dep	_	SpaceAfter=No
-12	،	_	_	_	_	1	dep	_	_
-13	مون	_	_	_	_	1	dep	_	_
-14	وٽ	_	_	_	_	1	dep	_	_
-15	ته	_	_	_	_	1	dep	_	_
-16	رڳو	_	_	_	_	1	dep	_	_
-17	هڪ	_	_	_	_	1	dep	_	_
-18	پئسو	_	_	_	_	1	dep	_	_
-19	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-20	.	_	_	_	_	1	dep	_	_
 
 # sent_id = 3060
 # text = مائيءَ کلندي چيو،
