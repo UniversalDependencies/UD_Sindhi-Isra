@@ -222,7 +222,7 @@
 # text = اهڙيءَ طرح ناردرن آئرلينڊ کي UK جو هڪ صوبو پڻ چئي سگهون ٿا،
 1	اهڙيءَ	اهڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obl	_	_
-3	ناردرن	_	ADJ	JJ	Gender=Masc|Number=Plur	4	nmod	_	_
+3	ناردرن	_	ADJ	JJ	Gender=Masc|Number=Plur	4	amod	_	_
 4	آئرلينڊ	آئرلينڊ	PROPN	NNP	Case=Nom|Gender=Masc	11	obj	_	_
 5	کي	کي	ADP	PSP	_	4	case	_	_
 6	UK	UK	PROPN	NNP	Case=Nom|Gender=Masc	9	nmod	_	_
@@ -239,7 +239,7 @@
 # text = اهڙيءَ طرح ناردرن آئرلينڊ آهي ته UK پر اهو اصل UK جي سر زمين سان ڳنڍيل ڪونهي،
 1	اهڙيءَ	اهڙو	DET	PRD	Gender=Fem|Number=Sing	2	det	_	_
 2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obl	_	_
-3	ناردرن	_	ADJ	JJ	Gender=Masc|Number=Sing	4	nmod	_	_
+3	ناردرن	_	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	_
 4	آئرلينڊ	آئرلينڊ	PROPN	NNP	Case=Nom|Gender=Masc	0	root	_	_
 5	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
 6	ته	ته	PART	PART	_	4	advmod:emph	_	_
@@ -484,8 +484,8 @@
 # sent_id = 4319
 # text = ڪن هالو چالو مترجمن جي اها بدنصيبي آهي ته اهي Copiest آهن ۽ جيتوڻيڪ ترجمو ڪرڻ هميشه تخليقي عمل رهيو آهي،
 1	ڪن	ڪو	PRON	PRWH	Gender=Masc|Number=Plur	2	det	_	_
-2	هالو	هالو	ADJ	JJ	Gender=Masc|Number=Sing	4	nmod	_	_
-3	چالو	چالو	ADJ	JJ	Gender=Masc|Number=Sing	4	nmod	_	_
+2	هالو	هالو	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	_
+3	چالو	چالو	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	_
 4	مترجمن	مترجم	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
 6	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	7	det	_	_
@@ -645,13 +645,13 @@
 # sent_id = 4509
 # text = ڪن ڪارا ڪتا ڊوڙايا ته ڪن وري ڪارو ليبل ۽ ڳاڙهو ليبل کڻي دماغ گرم ڪيو،
 1	ڪن	ڪو	PRON	PRWH	Gender=Masc|Number=Sing	4	nsubj	_	_
-2	ڪارا	_	ADJ	JJ	Gender=Masc|Number=Plur	3	nmod	_	_
+2	ڪارا	_	ADJ	JJ	Gender=Masc|Number=Plur	3	amod	_	_
 3	ڪتا	ڪتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	obj	_	_
 4	ڊوڙايا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
 5	ته	ته	SCONJ	CS	_	4	mark	_	_
 6	ڪن	ڪو	PRON	PRWH	Gender=Masc|Number=Sing	16	nsubj	_	_
 7	وري	وري	ADV	ADM	_	13	advmod	_	_
-8	ڪارو	_	ADJ	JJ	Gender=Masc|Number=Sing	9	nmod	_	_
+8	ڪارو	_	ADJ	JJ	Gender=Masc|Number=Sing	9	amod	_	_
 9	ليبل	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 10	۽	۽	CCONJ	CC	_	12	cc	_	_
 11	ڳاڙهو	ڳاڙهو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	12	amod	_	_
@@ -746,7 +746,7 @@
 # sent_id = 4515
 # text = پاڪستاني سول سوسائٽي پنهنجون اکيون کليل رکي
 1	پاڪستاني	پاڪستاني	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
-2	سول	سول	ADJ	JJ	Gender=Masc|Number=Sing	3	nmod	_	_
+2	سول	سول	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
 3	سوسائٽي	سوسائٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 4	پنهنجون	پنهنجو	PRON	PRP	Case=Gen|Gender=Fem|Number=Plur|Person=1	5	nmod	_	_
 5	اکيون	اک	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	obj	_	_
@@ -1401,7 +1401,7 @@
 4	دوران	دوران	ADP	PSP	_	3	case	_	_
 5	ڪوٽا	ڪوٽا	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
 6	مطابق	مطابق	ADP	PSP	_	5	case	_	_
-7	اڌ	اڌ	ADJ	JJF	_	8	nmod	_	_
+7	اڌ	اڌ	ADJ	JJF	_	8	amod	_	_
 8	ملين	ملي	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nummod	_	_
 9	ٽن	ٽي	NUM	NUM	_	17	obl	_	_
 10	بجاءِ	بجاءِ	ADP	PSP	_	9	case	_	_
@@ -2585,7 +2585,7 @@
 # sent_id = 4595
 # text = نئين مالياتي ايوارڊ مان سنڌ کي ڪيترو حصو مليو؟
 1	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
-2	مالياتي	_	ADJ	JJ	Degree=Pos|Gender=Masc	3	nmod	_	_
+2	مالياتي	_	ADJ	JJ	Degree=Pos|Gender=Masc	3	amod	_	_
 3	ايوارڊ	ايوارڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 4	مان	مان	ADP	PSPL	_	3	case	_	_
 5	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	9	obj	_	_
@@ -2656,7 +2656,7 @@
 29	پهريون	پهريون	ADJ	JJ	Case=Nom|Number=Sing	30	amod	_	_
 30	ڀيرو	ڀيرو	NOUN	NN	Case=Nom|Number=Sing	47	obl	_	_
 31	قومي	قوم	ADJ	JJ	Case=Nom|Degree=Pos	33	amod	_	_
-32	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	33	nmod	_	_
+32	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	33	amod	_	_
 33	ايوارڊ	ايوارڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	47	obl	_	_
 34	۾	۾	ADP	PSPL	_	33	case	_	_
 35	ايراضي	ايراضي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
@@ -2685,7 +2685,7 @@
 # text = هن نئين مالياتي ايوارڊ ۾ آبادي 82 سيڪڙو، پسماندگي/ غربت 10 سيڪڙو، روينيو 5 سيڪڙو ۽ ايراضي 3 سيڪڙو کي بنياد بڻائي سڄي ناڻي جي ورهاست ڪئي وئي آهي.
 1	هن	هن	DET	PRD	Case=Acc|Number=Sing	3	det	_	_
 2	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
-3	مالياتي	_	ADJ	JJ	Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
+3	مالياتي	_	ADJ	JJ	Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	ايوارڊ	ايوارڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obl	_	_
 5	۾	۾	ADP	PSPL	_	4	case	_	_
 6	آبادي	آبادي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
@@ -2824,7 +2824,7 @@
 6	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
 7	نئون	نئون	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	9	amod	_	_
 8	قومي	قوم	ADJ	JJ	Case=Nom|Degree=Pos	9	amod	_	_
-9	مالياتي	_	ADJ	JJ	Degree=Pos|Gender=Masc|Number=Sing	10	nmod	_	_
+9	مالياتي	_	ADJ	JJ	Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	ايوارڊ	ايوارڊ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
@@ -2951,7 +2951,7 @@
 7	هن	هن	DET	PRD	Case=Acc|Number=Sing	10	det	_	_
 8	نئين	نئين	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 9	قومي	قوم	ADJ	JJ	Case=Nom|Degree=Pos	11	amod	_	_
-10	مالياتي	_	ADJ	JJ	Degree=Pos|Gender=Masc|Number=Sing	11	nmod	_	_
+10	مالياتي	_	ADJ	JJ	Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	ايوارڊ	ايوارڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
 12	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	11	case	_	_
 13	ورهاست	ورهاست	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
@@ -3336,7 +3336,7 @@
 2	هاڻي	هاڻ	ADV	ADT	_	8	advmod	_	_
 3	هر	هر	DET	PRD	Case=Nom|Number=Sing	6	det	_	_
 4	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
-5	مالياتي	_	ADJ	JJ	Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+5	مالياتي	_	ADJ	JJ	Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	ايوارڊ	ايوارڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 7	مطابق	مطابق	ADP	PSP	_	6	case	_	_
 8	وڌائي	وڌاءِ	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
@@ -3375,7 +3375,7 @@
 19	هن	هن	DET	PRD	Case=Acc|Number=Sing	22	det	_	_
 20	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
 21	قومي	قوم	ADJ	JJ	Case=Nom|Degree=Pos	23	amod	_	_
-22	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	23	nmod	_	_
+22	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	23	amod	_	_
 23	ايوارڊ	ايوارڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obl	_	_
 24	مطابق	مطابق	ADP	PSP	_	23	case	_	_
 25	ٻيڻي	_	ADJ	JJ	Degree=Pos|Gender=Fem|Number=Sing	26	acl	_	_
@@ -3412,7 +3412,7 @@
 9	بلوچستان	بلوچستان	PROPN	NNP	Case=Nom|Gender=Masc	20	obj	_	_
 10	کي	کي	ADP	PSP	_	9	case	_	_
 11	هن	هن	DET	PRD	Case=Acc|Number=Sing	12	det	_	_
-12	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	13	nmod	_	_
+12	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	13	amod	_	_
 13	ايوارڊ	ايوارڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
 14	۾	۾	ADP	PSPL	_	13	case	_	_
 15	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur	18	amod	_	_
@@ -3571,7 +3571,7 @@
 4	جيتوڻيڪ	جيتوڻيڪ	SCONJ	CS	_	19	mark	_	_
 5	هن	هن	DET	PRD	Case=Acc|Number=Sing	7	det	_	_
 6	قومي	قوم	ADJ	JJ	Case=Nom|Degree=Pos	7	amod	_	_
-7	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	8	nmod	_	_
+7	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	8	amod	_	_
 8	ايوارڊ	ايوارڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
 9	مطابق	مطابق	ADP	PSP	_	8	case	_	_
 10	خدمتن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obl	_	_
@@ -3825,7 +3825,7 @@
 2	ج	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 3	)	)	PUNCT	PUNCT	_	2	punct	_	_
 4	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
-5	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	6	nmod	_	_
+5	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	6	amod	_	_
 6	ايوارڊ	ايوارڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 7	۾	۾	ADP	PSPL	_	6	case	_	_
 8	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	10	nmod	_	_
@@ -3977,7 +3977,7 @@
 3	ائين	ائين	PRON	PRL	_	4	nsubj	_	_
 4	سمجهڻ	سمجھڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
 5	ته	ته	SCONJ	CS	_	4	mark	_	_
-6	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	7	nmod	_	_
+6	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	7	amod	_	_
 7	ايوارڊ	ايوارڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
 8	مان	مان	ADP	PSPL	_	7	case	_	_
 9	صرف	صرف	ADJ	JJ	Case=Nom	10	amod	_	_
@@ -4083,7 +4083,7 @@
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	19	obl	_	_
 2	ڪري	ڪري	ADP	PSP	_	1	case	_	_
 3	قومي	قوم	ADJ	JJ	Case=Nom|Degree=Pos	4	compound	_	_
-4	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	5	nmod	_	_
+4	مالياتي	_	ADJ	JJ	Gender=Masc|Number=Sing	5	amod	_	_
 5	ايوارڊ	ايوارڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
 6	۾	۾	ADP	PSPL	_	5	case	_	_
 7	ناڻي	ناڻو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
@@ -8824,7 +8824,7 @@
 7	منظوري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	compound	_	_
 8	ڏني	ڏني	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 9	۽	۽	CCONJ	CC	_	23	cc	_	_
-10	شهيد	_	ADJ	JJ	Gender=Masc|Number=Sing	12	nmod	_	_
+10	شهيد	_	ADJ	JJ	Gender=Masc|Number=Sing	12	amod	_	_
 11	پوليس	پوليس	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	_
 12	اهلڪارن	اهلڪار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	nmod	_	_
 13	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	12	case	_	_
@@ -8954,7 +8954,7 @@
 6	ته	ته	SCONJ	CS	_	10	mark	_	_
 7	محسود	محسود	PROPN	NNP	Case=Nom|Gender=Masc	8	compound	_	_
 8	قبائلي	_	ADJ	JJ	Case=Nom|Degree=Pos	10	nsubj	_	_
-9	محب	_	ADJ	JJ	Number=Sing	10	nmod	_	_
+9	محب	_	ADJ	JJ	Number=Sing	10	amod	_	_
 10	وطن	وطن	NOUN	NN	Case=Nom|Number=Sing	5	obj	_	_
 11	آهن	آهي	AUX	VAUX	Person=3|Tense=Pres	10	cop	_	SpaceAfter=No
 12	،	،	PUNCT	PUNCT	_	10	punct	_	_
@@ -9303,7 +9303,7 @@
 8	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing	5	conj	_	_
 9	ته	ته	SCONJ	CS	_	14	mark	_	_
 10	دهشتگردي	دهشتگرد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
-11	سڀني	سڀ	ADJ	JJ	Case=Acc|Number=Plur	14	nmod	_	_
+11	سڀني	سڀ	ADJ	JJ	Case=Acc|Number=Plur	14	amod	_	_
 12	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	11	case	_	_
 13	گڏيل	گڏيل	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	14	amod	_	_
 14	ايجنڊا	ايجنڊا	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_
@@ -14187,7 +14187,7 @@
 # sent_id = 5009
 # text = اسان سياسي ۽ قانوني جنگ سپريم ڪورٽ تائين به کڻي وڃي سگهون ٿا،
 1	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	10	nsubj	_	_
-2	سياسي	سياسي	ADJ	JJ	Number=Sing	5	nmod	_	_
+2	سياسي	سياسي	ADJ	JJ	Number=Sing	5	amod	_	_
 3	۽	۽	CCONJ	CC	_	4	cc	_	_
 4	قانوني	قانوني	ADJ	JJ	Case=Nom|Degree=Pos	2	conj	_	_
 5	جنگ	جنگ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
@@ -14737,7 +14737,7 @@
 8	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	obl	_	_
 9	حڪومت	حڪومت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
 10	کي	کي	ADP	PSP	_	9	case	_	_
-11	مخالف	مخالف	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	12	nmod	_	_
+11	مخالف	مخالف	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	12	amod	_	_
 12	ڌر	ڌر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
 13	طرفان	طرفان	ADP	PSP	_	12	case	_	_
 14	سخت	سخت	ADJ	JJ	Case=Nom|Degree=Pos	15	amod	_	_
@@ -16590,7 +16590,7 @@
 # text = جنهن بعد اڳوڻي ايس ايڇ او آصف شاهه کي حراست ۾ وٺي مبينا قتل ٿيل نوجوان جي والد کي سڏايو ويو،
 1	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	12	obl	_	_
 2	بعد	بعد	ADP	PSP	_	1	case	_	_
-3	اڳوڻي	اڳوڻو	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	nmod	_	_
+3	اڳوڻي	اڳوڻو	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
 4	ايس	ايس	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
 5	ايڇ	ايڇ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
 6	او	او	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
