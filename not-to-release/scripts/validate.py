@@ -118,6 +118,8 @@ ENFORCED_POS['اهڙا'] = ['DET', 'ADJ']
 ENFORCED_POS['اهڙين'] = ['DET', 'ADJ']
 ENFORCED_POS['اهڙيءَ'] = ['DET', 'ADJ']
 
+ENFORCED_POS['گذريل'] = ['VERB']
+
 # demonstratives
 demonstratives = ['ان', 'اِهو', 'انهي', 'انھي', 'انهيءِ', 'اِهو', 'اِهي', 'اھا', 'اھڙو', 'اھي', 'ڪوبه', 'هرڪوئي', 'هِن', 'هُوءَ', 'ھن', 'اُهو', 'اهي', 'اهو', 'اِها']
 demonstratives.extend(['اُها', 'اها'])
