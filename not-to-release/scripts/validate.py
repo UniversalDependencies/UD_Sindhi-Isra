@@ -113,10 +113,8 @@ ENFORCED_POS['ڄڻ'] = ['PRON']
 ENFORCED_POS['ڪڏهن'] = ['ADV']
 ENFORCED_XPOS['ڪڏهن'] = ['ADT']
 
-ENFORCED_POS['اهڙو'] = ['DET', 'ADJ']
-ENFORCED_POS['اهڙا'] = ['DET', 'ADJ']
-ENFORCED_POS['اهڙين'] = ['DET', 'ADJ']
-ENFORCED_POS['اهڙيءَ'] = ['DET', 'ADJ']
+for word in ("اھڙيءَ","اھڙن","اھڙي","اھڙو","اھڙا","اھڙيون","اھڙين","اهڙيءَ","اهڙن","اهڙي","اهڙو","اهڙا","اهڙيون","اهڙين"):
+    ENFORCED_POS[word] = ['DET', 'ADJ']
 
 ENFORCED_POS['گذريل'] = ['VERB']
 
