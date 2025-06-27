@@ -152,6 +152,10 @@ DISALLOWED_XPOS_RELATIONS = {
     "PSPG": ["obj"],
 }
 
+ENFORCED_RELATION_UPOS = {
+    "advmod:emph": ["PART"],
+}
+
 def check_unknown_upos(new_doc):
     problem_sentences = set()
     printed = False
@@ -242,6 +246,17 @@ def check_pos_deprel_happiness(new_doc, check_xpos):
                     print("Found an unexpected POS & deprel combination")
                 problem_sentences.add(sent_idx)
                 print("Sentence %s (%d) word %d (line %d) is |%s| with an XPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.xpos, word.deprel))
+
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            for deprel, allowed_upos in ENFORCED_RELATION_UPOS.items():
+                if word.deprel == deprel and word.upos not in allowed_upos:
+                    if not printed:
+                        printed = True
+                        print("Found an unexpected POS & deprel combination")
+                    problem_sentences.add(sent_idx)
+                    print("Sentence %s (%d) word %d (line %d, |%s|) has a UPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel))
+
 
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
