@@ -2549,7 +2549,7 @@
 21	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	20	case	_	_
 22	سلسلي	سلسلو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	34	obl	_	_
 23	۾	۾	ADP	PSPL	_	22	case	_	_
-24	جيڪڏهن	جيڪڏهن	ADP	PSP	_	22	dep	_	_
+24	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	34	mark	_	_
 25	توهان	توهان	PRON	PRP	Case=Acc|Number=Plur|Person=3	34	nsubj	_	_
 26	کي	کي	ADP	PSP	_	25	case	_	_
 27	اسٽيبلشمينٽ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
@@ -2661,7 +2661,7 @@
 46	ته	ته	SCONJ	CS	_	45	mark	_	_
 47	اتي	اتي	ADV	ADT	_	60	advmod	_	_
 48	به	به	PART	PART	_	47	advmod:emph	_	_
-49	جيڪڏهن	جيڪڏهن	ADP	PSP	_	47	case	_	_
+49	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	60	mark	_	_
 50	توهان	توهان	PRON	PRP	Case=Acc|Number=Plur|Person=3	60	nsubj	_	_
 51	کي	کي	ADP	PSP	_	50	case	_	_
 52	بهتر	بهتر	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	53	amod	_	_
@@ -4589,7 +4589,7 @@
 1	پر	پر	SCONJ	CS	_	9	mark	_	_
 2	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	9	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
-4	جيڪڏهن	جيڪڏهن	ADV	ADV	_	9	advmod	_	_
+4	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	9	mark	_	_
 5	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	6	det	_	_
 6	پارٽي	پارٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 7	پنهنجو	پنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	8	nmod	_	_
@@ -5366,13 +5366,13 @@
 # text = هتي جو وکر جيڪڏهن هر هنڌ ملڻ شروع ٿئي ته پوءِ اسين ائين روح کي ڇو روليون؟ ڇو ايتريون رولاڪيون ڪري، سوچ جي انڊلٺ مان ڪو رنگ چورائي، ڪو ”پيرهن“ اوهان لاءِ آڻيون؟ جيڪڏهن ڳالهه وڌيڪ نه لڳي ته هٿ ٻڌي اهو به عرض ڪجي ته خواب نگر ته ”عاشقي“ آهي ۽ عشق ۾ ”ڪاٽو“ ته ٿي ڪو نه ٿو سگهجي،
 1	هتي	هتي	NOUN	NN	Case=Acc	3	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
-3	وکر	وکر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-4	جيڪڏهن	جيڪڏهن	ADV	ADT	_	9	advmod	_	_
+3	وکر	وکر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	8	mark	_	_
 5	هر	هر	DET	PRD	Case=Nom|Number=Sing	6	det	_	_
 6	هنڌ	هنڌ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
-7	ملڻ	ملڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	9	advcl	_	_
-8	شروع	شروع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	_
-9	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
+7	ملڻ	ملڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	8	advcl	_	_
+8	شروع	شروع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+9	ٿئي	آھي	AUX	VAUX	Number=Sing|Person=3	8	cop	_	_
 10	ته	ته	SCONJ	CS	_	17	mark	_	_
 11	پوءِ	پوءِ	ADV	ADT	_	17	advmod	_	_
 12	اسين	اسين	PRON	PRP	Case=Nom|Number=Plur|Person=1	17	nsubj	_	_
@@ -5380,7 +5380,7 @@
 14	روح	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
 15	کي	کي	ADP	PSP	_	14	case	_	_
 16	ڇو	ڇو	PRON	PRWH	_	17	obl	_	_
-17	روليون	_	VERB	VM	Aspect=Perf|Number=Plur	9	advcl	_	SpaceAfter=No
+17	روليون	_	VERB	VM	Aspect=Perf|Number=Plur	8	advcl	_	SpaceAfter=No
 18	؟	؟	PUNCT	PUNCT	_	17	punct	_	_
 19	ڇو	ڇو	PRON	PRP	Case=Nom|Number=Sing	22	obl	_	_
 20	ايتريون	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_
@@ -6026,7 +6026,7 @@
 
 # sent_id = 5545
 # text = جيڪڏهن هڪ واري ڪٿي ڪا ڪوتاهي ٿئي ٿي ته پنهنجي رب مٺڙي کي حاضر ناظر ڄاڻو، ائين سڀ ڪجهه ”تلٻٽ“ ته نه ڪيو،
-1	جيڪڏهن	جيڪڏهن	ADV	ADT	_	7	mark	_	_
+1	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	7	mark	_	_
 2	هڪ	هڪ	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
 3	واري	وارو	ADP	PSP	_	2	case	_	_
 4	ڪٿي	ڪٿي	ADV	ADV	_	7	advmod	_	_
@@ -9455,7 +9455,7 @@
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	17	obl	_	_
 2	کانپوءِ	کان	ADP	PSPL	_	1	case	_	_
 3	به	به	PART	PART	_	1	advmod:emph	_	_
-4	جيڪڏهن	جيڪڏهن	ADV	ADV	_	17	advmod	_	_
+4	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	17	mark	_	_
 5	اعليٰ	اعليٰ	ADJ	JJ	Case=Nom|Degree=Pos	6	amod	_	_
 6	تعليم	تعليم	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	_
 7	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
@@ -9697,7 +9697,7 @@
 
 # sent_id = 5732
 # text = جيڪڏهن اها پل ڪاروبار ۽ ڪمائي لاءِ ٺاهي ٿي وڃي ته پوءِ سن ۽ سڪرنڊ کان ٺاهي وڃي،
-1	جيڪڏهن	جيڪڏهن	ADV	ADT	_	8	mark	_	_
+1	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	8	mark	_	_
 2	اها	اها	DET	PRD	Case=Nom|Number=Sing	3	det	_	_
 3	پل	پل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 4	ڪاروبار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
@@ -9738,7 +9738,7 @@
 
 # sent_id = 5734
 # text = جيڪڏهن سهولت جي ڳالهه ڏسون ٿا ته به سن ۽ سڪرنڊ جي پل نظر ۾ ٿي اچي،
-1	جيڪڏهن	جيڪڏهن	ADV	ADV	_	5	mark	_	_
+1	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	5	mark	_	_
 2	سهولت	سهولت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
