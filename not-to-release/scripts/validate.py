@@ -278,7 +278,7 @@ def check_pos_deprel_happiness(new_doc, check_xpos):
 
     return problem_sentences
 
-def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
+def validate(new_doc, check_xpos=True, check_feats=True):
     problem_sentences = set()
 
     problem_sentences |= check_unknown_upos(new_doc)
@@ -334,10 +334,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 printed = True
                 print("PUNCT ROOT")
             problem_sentences.add(sent_idx)
-            if print_sent_idx:
-                print(sent_idx, sent.sent_id)
-            else:
-                print(sent.sent_id)
+            print("Sentence %s (%d) has a punct word as the root" % (sent.sent_id, sent_idx))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -347,10 +344,7 @@ def validate(new_doc, print_sent_idx=False, check_xpos=True, check_feats=True):
                 print("MULTIPLE ROOTS")
             problem_sentences.add(sent_idx)
             possible_roots = [(x.text, x.upos, x.id) for x in sent.words if x.deprel == 'root']
-            if print_sent_idx:
-                print(sent_idx, sent.sent_id, possible_roots)
-            else:
-                print(sent.sent_id, possible_roots)
+            print("Sentence %s (%d) has multiple roots: %s" % (sent_idx, sent.sent_id, possible_roots))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
