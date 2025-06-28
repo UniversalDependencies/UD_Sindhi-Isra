@@ -133,14 +133,13 @@ for word in ['ڪانهي', 'ڪانھي', 'ناهن', 'ناهي', 'ناهيان',
 ENFORCED_POS['توڙي'] = ['CCONJ']
 ENFORCED_POS['۽'] = ['CCONJ']
 
-ENFORCED_POS['جيڪڏهن'] = ['SCONJ']
-
 ALLOWED_STRUCTURE = {
     'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
    'ھا': [('AUX', 'aux'), ('INTJ', 'discourse')],
 }
 
 ALLOWED_STRUCTURE['وغيره'] = [('PART', 'conj')]
+ALLOWED_STRUCTURE['جيڪڏهن'] = [('SCONJ', 'mark')]
 
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
