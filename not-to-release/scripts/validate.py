@@ -278,15 +278,8 @@ def check_pos_deprel_happiness(new_doc, check_xpos):
 
     return problem_sentences
 
-def validate(new_doc, check_xpos=True, check_feats=True):
+def check_unexpected_space_after(new_doc):
     problem_sentences = set()
-
-    problem_sentences |= check_unknown_upos(new_doc)
-    problem_sentences |= check_no_root_sentences(new_doc)
-    problem_sentences |= check_space_in_word(new_doc)
-    problem_sentences |= check_punct_word_labels(new_doc)
-    problem_sentences |= check_pos_deprel_happiness(new_doc, check_xpos)
-
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
@@ -302,6 +295,19 @@ def validate(new_doc, check_xpos=True, check_feats=True):
                     printed = True
                 problem_sentences.add(sent_idx)
                 print("Sentence %s (%d) word %d (line %d) has SpaceAfter=No between two non-punct words" % (sent.sent_id, sent_idx, word_idx, word.line_number))
+    return problem_sentences
+
+
+
+def validate(new_doc, check_xpos=True, check_feats=True):
+    problem_sentences = set()
+
+    problem_sentences |= check_unknown_upos(new_doc)
+    problem_sentences |= check_no_root_sentences(new_doc)
+    problem_sentences |= check_space_in_word(new_doc)
+    problem_sentences |= check_punct_word_labels(new_doc)
+    problem_sentences |= check_pos_deprel_happiness(new_doc, check_xpos)
+    problem_sentences |= check_unexpected_space_after(new_doc)
 
 
     printed = False
