@@ -297,9 +297,23 @@ def check_unexpected_space_after(new_doc):
                 print("Sentence %s (%d) word %d (line %d) has SpaceAfter=No between two non-punct words" % (sent.sent_id, sent_idx, word_idx, word.line_number))
     return problem_sentences
 
+def check_xpos_required(new_doc, check_xpos, require_xpos):
+    problem_sentences = set()
+    if not check_xpos or not require_xpos:
+        return problem_sentences
 
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word.xpos is None:
+                if not printed:
+                    print("WORD WITH NO XPOS")
+                    printed = True
+                problem_sentences.add(sent_idx)
+                print("Sentence %s (%d) word %d (line %d) has no xpos" % (sent.sent_id, sent_idx, word_idx, word.line_number))
+    return problem_sentences
 
-def validate(new_doc, check_xpos=True, check_feats=True):
+def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
     problem_sentences = set()
 
     problem_sentences |= check_unknown_upos(new_doc)
@@ -308,7 +322,7 @@ def validate(new_doc, check_xpos=True, check_feats=True):
     problem_sentences |= check_punct_word_labels(new_doc)
     problem_sentences |= check_pos_deprel_happiness(new_doc, check_xpos)
     problem_sentences |= check_unexpected_space_after(new_doc)
-
+    problem_sentences |= check_xpos_required(new_doc, check_xpos, require_xpos)
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -510,6 +524,7 @@ def main():
     parser = argparse.ArgumentParser(description='Validate a file of SD dependencies & tags')
     parser.add_argument('filename', nargs='+', help='File to validate')
     parser.add_argument('--no_check_xpos', action='store_false', dest='check_xpos', help="Don't check the xpos in the file")
+    parser.add_argument('--no_require_xpos', action='store_false', dest='require_xpos', help="Don't require that all words have xpos")
     parser.add_argument('--no_check_feats', action='store_false', dest='check_feats', help="Don't check the feats in the file")
     args = parser.parse_args()
 
