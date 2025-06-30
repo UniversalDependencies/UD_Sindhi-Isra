@@ -138,6 +138,7 @@ ENFORCED_XPOS['۾'] = ['PSPL']
 
 ENFORCED_POS_XPOS = {}
 ENFORCED_POS_XPOS['ڪيئن'] = [('ADV', 'ADM'), ('PRON', 'PRWH')]
+ENFORCED_POS_XPOS['پوءِ'] = [('ADP', 'PSP'), ('ADV', 'ADT')]
 
 ALLOWED_STRUCTURE = {
     'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
@@ -336,7 +337,7 @@ def check_pos_xpos_happiness(new_doc, check_xpos):
                     print("WORD WITH INCOMPATIBLE UPOS/XPOS")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d (line %d) has incompatible upos/xpos %s/%s" % (sent.sent_id, sent_idx, word_idx, word.line_number+1, word.upos, word.xpos))
+                print("Sentence %s (%d) word %d |%s| (line %d) has incompatible upos/xpos %s/%s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.upos, word.xpos))
     return problem_sentences
 
 def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
