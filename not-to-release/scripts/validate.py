@@ -136,6 +136,9 @@ ENFORCED_POS['۽'] = ['CCONJ']
 ENFORCED_POS['۾'] = ['ADP']
 ENFORCED_XPOS['۾'] = ['PSPL']
 
+ENFORCED_POS_XPOS = {}
+ENFORCED_POS_XPOS['ڪيئن'] = [('ADV', 'ADM'), ('PRON', 'PRWH')]
+
 ALLOWED_STRUCTURE = {
     'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
    'ھا': [('AUX', 'aux'), ('INTJ', 'discourse')],
@@ -317,6 +320,25 @@ def check_xpos_required(new_doc, check_xpos, require_xpos):
                 print("Sentence %s (%d) word %d (line %d) has no xpos" % (sent.sent_id, sent_idx, word_idx, word.line_number))
     return problem_sentences
 
+def check_pos_xpos_happiness(new_doc, check_xpos):
+    problem_sentences = set()
+    if not check_xpos:
+        return problem_sentences
+
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            allowed = ENFORCED_POS_XPOS.get(word.text)
+            if not allowed:
+                continue
+            if (word.upos, word.xpos) not in allowed:
+                if not printed:
+                    print("WORD WITH INCOMPATIBLE UPOS/XPOS")
+                    printed = True
+                problem_sentences.add(sent_idx)
+                print("Sentence %s (%d) word %d (line %d) has incompatible upos/xpos %s/%s" % (sent.sent_id, sent_idx, word_idx, word.line_number+1, word.upos, word.xpos))
+    return problem_sentences
+
 def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
     problem_sentences = set()
 
@@ -327,6 +349,7 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
     problem_sentences |= check_pos_deprel_happiness(new_doc, check_xpos)
     problem_sentences |= check_unexpected_space_after(new_doc)
     problem_sentences |= check_xpos_required(new_doc, check_xpos, require_xpos)
+    problem_sentences |= check_pos_xpos_happiness(new_doc, check_xpos)
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
