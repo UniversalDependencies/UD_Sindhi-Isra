@@ -337,7 +337,8 @@ def check_pos_xpos_happiness(new_doc, check_xpos):
                     print("WORD WITH INCOMPATIBLE UPOS/XPOS")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d |%s| (line %d) has incompatible upos/xpos %s/%s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.upos, word.xpos))
+                allowed = ", ".join(["/".join(x) for x in allowed])
+                print("Sentence %s (%d) word %d |%s| (line %d) has incompatible upos/xpos %s/%s.  Expected is %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.upos, word.xpos, allowed))
     return problem_sentences
 
 def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
