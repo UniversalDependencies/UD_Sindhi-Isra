@@ -529,8 +529,16 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                             printed = True
                             print("FEATURE ERRORS")
                         print("Sentence %s (%d) word %d |%s| (line %d) had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, feat, word.upos))
+                for feat in feat_pieces:
+                    if len(feat.split("=")) <= 1:
+                        problem_sentences.add(sent_idx)
+                        if not printed:
+                            printed = True
+                            print("FEATURE ERRORS")
+                        print("Sentence %s (%d) word %d |%s| (line %d) had an incomplete feature, not key=value: %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, feat))
+                        continue
                 if word.upos == 'ADP':
-                    feat_map = {x: y for x, y in [x.split("=", maxsplit=2) for x in feat_pieces]}
+                    feat_map = {x: y for x, y in [x.split("=", maxsplit=1) for x in feat_pieces]}
                     if 'Case' in feat_map:
                         if word.xpos != 'PSPG' and word.xpos != 'PSPX':
                             if not printed:
@@ -538,7 +546,7 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                                 print("FEATURE ERRORS")
                             print("Sentence %s (%d) word %d |%s| (line %d) had Case=%s but an xpos %s which is not allowed to have Case" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, feat_map['Case'], word.xpos))
                 if word.upos == 'VERB':
-                    feat_map = {x: y for x, y in [x.split("=", maxsplit=2) for x in feat_pieces]}
+                    feat_map = {x: y for x, y in [x.split("=", maxsplit=1) for x in feat_pieces]}
                     if 'VerbForm' in feat_map and feat_map['VerbForm'] == 'Inf':
                         if feat_map.get('Aspect') != 'Imp':
                             if not printed:
