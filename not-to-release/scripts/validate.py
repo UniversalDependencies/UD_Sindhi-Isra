@@ -392,7 +392,7 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                 print("MULTIPLE ROOTS")
             problem_sentences.add(sent_idx)
             possible_roots = [(x.text, x.upos, x.id) for x in sent.words if x.deprel == 'root']
-            print("Sentence %s (%d) has multiple roots: %s" % (sent_idx, sent.sent_id, possible_roots))
+            print("Sentence %s (%d) has multiple roots: %s" % (sent.sent_id, sent_idx, possible_roots))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
