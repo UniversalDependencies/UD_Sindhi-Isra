@@ -14302,32 +14302,34 @@
 16	لڳا	لڳ	VERB	_	_	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	16	punct	_	_
 
-# sent_id = 3331
-# text = ان کان پوءِ بادشاهه مهاڻي جي ڌيءَ فلپائين جي ڪهاڻي سينيان جي صوبي ۾ لنگائن جي کاري هڪ سهڻي نظاري واري جاءِ آهي،
-1	ان	ان	DET	_	_	2	nmod	_	_
-2	کان	کان	ADP	_	_	22	nmod	_	_
-3	پوءِ	پوءِ	ADP	_	_	2	case	_	_
-4	بادشاهه	بادشاهه	NOUN	_	_	5	nmod	_	_
-5	مهاڻي	_	NOUN	_	_	7	nmod	_	_
-6	جي	جي	ADP	_	_	5	case	_	_
-7	ڌيءَ	ڌيءَ	NOUN	_	_	10	nmod	_	_
-8	فلپائين	_	NOUN	_	_	10	nmod	_	_
-9	جي	جي	ADP	_	_	8	case	_	_
-10	ڪهاڻي	ڪهاڻي	NOUN	_	_	11	nmod	_	_
-11	سينيان	_	NOUN	_	_	13	nmod	_	_
-12	جي	جي	ADP	_	_	11	case	_	_
-13	صوبي	صوبي	NOUN	_	_	22	nmod	_	_
-14	۾	۾	ADP	_	_	13	case	_	_
-15	لنگائن	_	NOUN	_	_	17	nmod	_	_
-16	جي	جي	ADP	_	_	15	case	_	_
-17	کاري	کاري	NOUN	_	_	22	nmod	_	_
-18	هڪ	هڪ	ADJ	_	_	20	amod	_	_
-19	سهڻي	سهڻي	ADJ	_	_	20	amod	_	_
-20	نظاري	_	NOUN	_	_	22	nmod	_	_
-21	واري	وارو	ADP	_	_	22	amod	_	_
-22	جاءِ	جاءِ	NOUN	_	_	0	root	_	_
-23	آهي	آهي	AUX	_	_	22	cop	_	SpaceAfter=No
-24	،	،	PUNCT	_	_	22	punct	_	_
+# sent_id = 3331A
+# text = مهاڻي جي ڌيءَ
+1	مهاڻي	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
+3	ڌيءَ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+
+# sent_id = 3331B
+# text = فلپائين جي ڪهاڻي
+1	فلپائين	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
+2	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
+3	ڪهاڻي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+
+# sent_id = 3331C
+# text = سينيان جي صوبي ۾ لنگائن جي کاري هڪ سهڻي نظاري واري جاءِ آهي،
+1	سينيان	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
+2	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	1	case	_	_
+3	صوبي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+4	۾	_	ADP	PSPL	_	3	case	_	_
+5	لنگائن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
+6	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	5	case	_	_
+7	کاري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+8	هڪ	_	ADJ	JJ	Case=Nom|Number=Sing	10	amod	_	_
+9	سهڻي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	نظاري	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+11	واري	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	10	case	_	_
+12	جاءِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+13	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	12	cop	_	SpaceAfter=No
+14	،	_	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 
 # sent_id = 3332
 # text = پر کاريءَ ۾ اندر هڪڙو اهڙو ڪـُن آهي،
