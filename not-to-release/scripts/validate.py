@@ -152,6 +152,7 @@ ALLOWED_STRUCTURE['وغيره'] = [('PART', 'conj')]
 ALLOWED_STRUCTURE['جيڪڏهن'] = [('SCONJ', 'mark')]
 
 ALLOWED_STRUCTURE['۾'] = [('ADP', 'mark'), ('ADP', 'case')]
+ALLOWED_STRUCTURE['بلڪه'] = [('SCONJ', 'mark')]
 
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
