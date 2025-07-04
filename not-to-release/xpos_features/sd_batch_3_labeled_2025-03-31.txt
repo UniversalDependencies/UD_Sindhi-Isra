@@ -879,13 +879,13 @@
 14	چڪي	چڪو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Voice=Act	13	compound	_	_
 15	آهي	آهي	AUX	VAUX	Person=3|Tense=Pres	13	aux	_	_
 16	ڪميٽي	ڪميٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
-17	جلد	جلد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	advmod	_	_
+17	جلد	جلد	ADV	ADM	_	19	advmod	_	_
 18	سفارشون	سفارش	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	obj	_	_
 19	جوڙيندي	جوڙ	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart|Voice=Act	13	advcl	_	SpaceAfter=No
 20	،	،	PUNCT	PUNCT	_	19	punct	_	_
 21	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	29	nsubj	_	_
 22	مفاهمت	مفاهمت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nmod	_	_
-23	۽	۽	CCONJ	CC	_	25	cc	_	_
+23	۽	۽	CCONJ	CC	_	24	cc	_	_
 24	اتفاق	اتفاق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	conj	_	_
 25	راءِ	راءِ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
 26	سان	سان	ADP	PSP	_	25	case	_	_
@@ -1039,7 +1039,7 @@
 4	ان	ان	DET	PRD	Case=Acc|Number=Sing	11	obj	_	_
 5	کي	کي	ADP	PSP	_	4	case	_	_
 6	حڪومت	حڪومت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
-7	جلد	جلد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	advmod	_	_
+7	جلد	جلد	ADV	ADM	_	11	advmod	_	_
 8	پارليامينٽ	پارليامينٽ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 9	۾	۾	ADP	PSPL	_	8	case	_	_
 10	پيش	پيش	ADJ	JJ	Case=Nom	11	compound	_	_
@@ -9778,14 +9778,14 @@
 # text = هڪ اهڙو نظام جنهن صرف انسانن کي وحشي جانور جيان ڳڙڪايو آهي.
 1	هڪ	هڪ	NUM	NUM	_	3	nummod	_	_
 2	اهڙو	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
-3	نظام	نظام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	dislocated	_	_
+3	نظام	نظام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 4	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	11	nsubj	_	_
 5	صرف	صرف	ADJ	JJ	Case=Nom	6	amod	_	_
 6	انسانن	انسان	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
 7	کي	کي	ADP	PSP	_	6	case	_	_
 8	وحشي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
 9	جانور	جانور	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
-10	جيان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	advmod	_	_
+10	جيان	_	ADP	PSP	_	9	case	_	_
 11	ڳڙڪايو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 12	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	11	punct	_	_
@@ -14210,7 +14210,7 @@
 11	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	12	det	_	_
 12	سڀ	سڀ	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	15	obj	_	_
 13	ايترو	ايترو	ADV	ADT	_	14	advmod	_	_
-14	جلد	جلد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	advmod	_	_
+14	جلد	جلد	ADV	ADM	_	15	advmod	_	_
 15	وسري	وسر	VERB	VM	Aspect=Imp|Voice=Act	7	advcl	_	_
 16	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	15	compound	_	SpaceAfter=No
 17	،	،	PUNCT	PUNCT	_	15	punct	_	_
@@ -14829,8 +14829,8 @@
 # text = ملڪ ۾ مس مس شيون سامت ۾ آيون آهن،
 1	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
-3	مس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
-4	مس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	advmod	_	_
+3	مس	_	ADV	ADV	_	8	advmod	_	_
+4	مس	_	ADV	ADV	_	3	fixed	_	_
 5	شيون	شي	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
 6	سامت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 7	۾	۾	ADP	PSPL	_	6	case	_	_
