@@ -38,6 +38,7 @@ ALLOWED_UPOS_TO_FEATS = {
               'Person=1', 'Person=2', 'Person=3', 'Person[subj]=1', 'Person[subj]=2', 'Person[subj]=3',
               'Polarity=Neg',
               'Tense=Fut', 'Tense=Past', 'Tense=Pres',
+              'Typo=Yes',
               'VerbForm=Inf', 'VerbForm=PresPart',
               'Voice=Act', 'Voice=Pass'],  # TODO: not sure this is correct, but the validator nagging is annoying
     "CCONJ": [],
