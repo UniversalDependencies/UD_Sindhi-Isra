@@ -143,6 +143,7 @@ ENFORCED_POS_XPOS['شايد'] = [('ADV', 'ADM')]
 # Can rarely be ADV but in all the reviewed examples this is ADP/PSP
 ENFORCED_POS_XPOS['وانگر'] = [('ADP', 'PSP')]
 ENFORCED_POS_XPOS['جنهنڪري'] = [('ADV', 'ADV'), ('SCONJ', 'CS')]
+ENFORCED_POS_XPOS['هاڻي'] = [('ADV', 'ADT')]
 
 ALLOWED_STRUCTURE = {
     'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
@@ -155,6 +156,7 @@ ALLOWED_STRUCTURE['جيڪڏهن'] = [('SCONJ', 'mark')]
 ALLOWED_STRUCTURE['۾'] = [('ADP', 'mark'), ('ADP', 'case')]
 ALLOWED_STRUCTURE['بلڪه'] = [('SCONJ', 'mark')]
 ALLOWED_STRUCTURE['جنهنڪري'] = [('ADV', 'advmod'), ('SCONJ', 'mark')]
+ALLOWED_STRUCTURE['هاڻي'] = [('ADV', 'advmod')]
 
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
