@@ -364,32 +364,38 @@
 11	پيو	پيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	10	compound	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-# sent_id = 2956
-# text = بادشاهه وري حيران ٿي پڇيو، پر ڪيئن؟ هڪ پئسي مان ائين ڪيئن ٿي سگهيو؟ مڪاٽو بادشاهه کي سڄي ڳالهه ٻڌائي.
+# sent_id = 2956a
+# text = بادشاهه وري حيران ٿي پڇيو، پر ڪيئن؟
 1	بادشاهه	بادشاهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	وري	وري	ADV	ADM	_	3	advmod	_	_
-3	حيران	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	advcl	_	_
+3	حيران	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	3	cop	_	_
-5	پڇيو	پڇ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-6	،	،	PUNCT	PUNCT	_	5	punct	_	_
-7	پر	پر	SCONJ	CS	_	13	mark	_	_
-8	ڪيئن	ڪيئن	ADV	ADM	_	13	advmod	_	SpaceAfter=No
-9	؟	؟	PUNCT	PUNCT	_	8	punct	_	_
-10	هڪ	هڪ	NUM	NUM	_	11	nummod	_	_
-11	پئسي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
-12	مان	مان	ADP	PSPL	_	11	case	_	_
-13	ائين	ائين	PRON	PRL	_	5	advcl	_	_
-14	ڪيئن	ڪيئن	ADV	ADM	_	13	advmod	_	_
-15	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	13	cop	_	_
-16	سگهيو	سگهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	13	compound	_	SpaceAfter=No
-17	؟	؟	PUNCT	PUNCT	_	13	punct	_	_
-18	مڪاٽو	مڪاٽو	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
-19	بادشاهه	بادشاهه	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	iobj	_	_
-20	کي	کي	ADP	PSP	_	19	case	_	_
-21	سڄي	سڄي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
-22	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	obj	_	_
-23	ٻڌائي	ٻڌا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	13	advcl	_	SpaceAfter=No
-24	.	.	PUNCT	PUNCT	_	23	punct	_	_
+5	پڇيو	پڇ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
+6	،	،	PUNCT	PUNCT	_	3	punct	_	_
+7	پر	پر	SCONJ	CS	_	3	mark	_	_
+8	ڪيئن	ڪيئن	ADV	ADM	_	3	advmod	_	SpaceAfter=No
+9	؟	؟	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 2956b
+# text = هڪ پئسي مان ائين ڪيئن ٿي سگهيو؟
+1	هڪ	هڪ	NUM	NUM	_	2	nummod	_	_
+2	پئسي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+3	مان	مان	ADP	PSPL	_	2	case	_	_
+4	ائين	ائين	PRON	PRL	_	0	root	_	_
+5	ڪيئن	ڪيئن	ADV	ADM	_	4	advmod	_	_
+6	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	4	cop	_	_
+7	سگهيو	سگهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	4	aux	_	SpaceAfter=No
+8	؟	؟	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 2956c
+# text = مڪاٽو بادشاهه کي سڄي ڳالهه ٻڌائي.
+1	مڪاٽو	مڪاٽو	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	بادشاهه	بادشاهه	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	iobj	_	_
+3	کي	کي	ADP	PSP	_	2	case	_	_
+4	سڄي	سڄي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
+6	ٻڌائي	ٻڌا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 3102
 # text = تصوير ٺاهڻ واري هن جي تصوير ٺاهي، جيڪا کڻي هوءَ گهر آئي ۽ گومبئي کي چيائين، هيءَ وٺ منهنجي تصوير.

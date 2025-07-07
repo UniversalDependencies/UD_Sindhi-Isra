@@ -11554,7 +11554,7 @@
 
 # sent_id = 2886c
 # text = مڪاٽو پوڙهيءَ کي ٻڌايو، نه منهنجي ماءُ آهي ۽ نه پيءُ، آءٌ ’مـُون‘ شهر مان آيوآهيان.
-1	مڪاٽو	_	PROPN	_	_	4	nsubj	_	_
+1	مڪاٽو	مڪاٽو	PROPN	_	_	4	nsubj	_	_
 2	پوڙهيءَ	پوڙهي	NOUN	_	_	4	iobj	_	_
 3	کي	کي	ADP	_	_	2	case	_	_
 4	ٻڌايو	ٻڌاءِ	VERB	_	_	0	root	_	SpaceAfter=No
@@ -12225,7 +12225,7 @@
 
 # sent_id = 2931c
 # text = مڪاٽو وراڻيو، مون وٽ ته رڳو هڪ پئسو آهي.
-1	مڪاٽو	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	مڪاٽو	مڪاٽو	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	وراڻيو	وراڻ	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	SpaceAfter=No
 3	،	،	PUNCT	PUNCT	_	2	punct	_	_
 4	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	9	nsubj	_	_
@@ -12541,32 +12541,38 @@
 10	پوکيو	_	VERB	_	_	6	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 2956
-# text = بادشاهه وري حيران ٿي پڇيو، پر ڪيئن؟ هڪ پئسي مان ائين ڪيئن ٿي سگهيو؟ مڪاٽو بادشاهه کي سڄي ڳالهه ٻڌائي.
-1	بادشاهه	بادشاهه	NOUN	_	_	5	nsubj	_	_
-2	وري	وري	ADV	_	_	3	advmod	_	_
-3	حيران	_	NOUN	_	_	5	advcl	_	_
-4	ٿي	آهي	AUX	_	_	5	aux	_	_
-5	پڇيو	پڇ	VERB	_	_	0	root	_	SpaceAfter=No
-6	،	،	PUNCT	_	_	5	punct	_	_
-7	پر	پر	SCONJ	_	_	5	mark	_	_
-8	ڪيئن	ڪيئن	ADV	_	_	15	obl	_	SpaceAfter=No
-9	؟	؟	PUNCT	_	_	8	case	_	_
-10	هڪ	هڪ	NUM	_	_	11	nummod	_	_
-11	پئسي	_	NOUN	_	_	15	obl	_	_
-12	مان	مان	ADP	_	_	11	case	_	_
-13	ائين	ائين	PRON	_	_	15	obl	_	_
-14	ڪيئن	ڪيئن	ADV	_	_	15	obl	_	_
-15	ٿي	آهي	AUX	_	_	5	advcl	_	_
-16	سگهيو	سگهي	AUX	_	_	15	compound	_	SpaceAfter=No
-17	؟	؟	PUNCT	_	_	23	mark	_	_
-18	مڪاٽو	مڪاٽو	NOUN	_	_	23	nsubj	_	_
-19	بادشاهه	بادشاهه	NOUN	_	_	23	obl	_	_
-20	کي	کي	ADP	_	_	19	case	_	_
-21	سڄي	سڄي	ADJ	_	_	22	amod	_	_
-22	ڳالهه	ڳالهه	NOUN	_	_	23	obj	_	_
-23	ٻڌائي	ٻڌا	VERB	_	_	15	advcl	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	23	punct	_	_
+# sent_id = 2956a
+# text = بادشاهه وري حيران ٿي پڇيو، پر ڪيئن؟
+1	بادشاهه	بادشاهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	وري	وري	ADV	ADM	_	3	advmod	_	_
+3	حيران	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	3	cop	_	_
+5	پڇيو	پڇ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
+6	،	،	PUNCT	PUNCT	_	3	punct	_	_
+7	پر	پر	SCONJ	CS	_	3	mark	_	_
+8	ڪيئن	ڪيئن	ADV	ADM	_	3	advmod	_	SpaceAfter=No
+9	؟	؟	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 2956b
+# text = هڪ پئسي مان ائين ڪيئن ٿي سگهيو؟
+1	هڪ	هڪ	NUM	NUM	_	2	nummod	_	_
+2	پئسي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+3	مان	مان	ADP	PSPL	_	2	case	_	_
+4	ائين	ائين	PRON	PRL	_	0	root	_	_
+5	ڪيئن	ڪيئن	ADV	ADM	_	4	advmod	_	_
+6	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	4	cop	_	_
+7	سگهيو	سگهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	4	aux	_	SpaceAfter=No
+8	؟	؟	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 2956c
+# text = مڪاٽو بادشاهه کي سڄي ڳالهه ٻڌائي.
+1	مڪاٽو	مڪاٽو	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	بادشاهه	بادشاهه	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	iobj	_	_
+3	کي	کي	ADP	PSP	_	2	case	_	_
+4	سڄي	سڄي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
+6	ٻڌائي	ٻڌا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 2957
 # text = بادشاهه کي هن ننڍي ڇوڪري جي سياڻپ ۽ محنت ڏاڍي وڻي ۽ هن کي پنهنجي محل ۾ نوڪر ڪري رکيائينس.

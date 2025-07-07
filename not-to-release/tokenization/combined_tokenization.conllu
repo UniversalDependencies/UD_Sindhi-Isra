@@ -54513,32 +54513,38 @@
 10	پوکيو	_	_	_	_	1	dep	_	SpaceAfter=No
 11	.	_	_	_	_	1	dep	_	_
 
-# sent_id = 2956
-# text = بادشاهه وري حيران ٿي پڇيو، پر ڪيئن؟ هڪ پئسي مان ائين ڪيئن ٿي سگهيو؟ مڪاٽو بادشاهه کي سڄي ڳالهه ٻڌائي.
-1	بادشاهه	_	_	_	_	0	root	_	_
-2	وري	_	_	_	_	1	dep	_	_
-3	حيران	_	_	_	_	1	dep	_	_
-4	ٿي	_	_	_	_	1	dep	_	_
-5	پڇيو	_	_	_	_	1	dep	_	SpaceAfter=No
-6	،	_	_	_	_	1	dep	_	_
-7	پر	_	_	_	_	1	dep	_	_
-8	ڪيئن	_	_	_	_	1	dep	_	SpaceAfter=No
-9	؟	_	_	_	_	1	dep	_	_
-10	هڪ	_	_	_	_	1	dep	_	_
-11	پئسي	_	_	_	_	1	dep	_	_
-12	مان	_	_	_	_	1	dep	_	_
-13	ائين	_	_	_	_	1	dep	_	_
-14	ڪيئن	_	_	_	_	1	dep	_	_
-15	ٿي	_	_	_	_	1	dep	_	_
-16	سگهيو	_	_	_	_	1	dep	_	SpaceAfter=No
-17	؟	_	_	_	_	1	dep	_	_
-18	مڪاٽو	_	_	_	_	1	dep	_	_
-19	بادشاهه	_	_	_	_	1	dep	_	_
-20	کي	_	_	_	_	1	dep	_	_
-21	سڄي	_	_	_	_	1	dep	_	_
-22	ڳالهه	_	_	_	_	1	dep	_	_
-23	ٻڌائي	_	_	_	_	1	dep	_	SpaceAfter=No
-24	.	_	_	_	_	1	dep	_	_
+# sent_id = 2956a
+# text = بادشاهه وري حيران ٿي پڇيو، پر ڪيئن؟
+1	بادشاهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	وري	_	ADV	ADM	_	3	advmod	_	_
+3	حيران	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	ٿي	_	AUX	VAUX	AuxType=Be|Number=Sing	3	cop	_	_
+5	پڇيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
+6	،	_	PUNCT	PUNCT	_	3	punct	_	_
+7	پر	_	SCONJ	CS	_	3	mark	_	_
+8	ڪيئن	_	ADV	ADM	_	3	advmod	_	SpaceAfter=No
+9	؟	_	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 2956b
+# text = هڪ پئسي مان ائين ڪيئن ٿي سگهيو؟
+1	هڪ	_	NUM	NUM	_	2	nummod	_	_
+2	پئسي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+3	مان	_	ADP	PSPL	_	2	case	_	_
+4	ائين	_	PRON	PRL	_	0	root	_	_
+5	ڪيئن	_	ADV	ADM	_	4	advmod	_	_
+6	ٿي	_	AUX	VAUX	AuxType=Be|Number=Sing	4	cop	_	_
+7	سگهيو	_	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	4	aux	_	SpaceAfter=No
+8	؟	_	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 2956c
+# text = مڪاٽو بادشاهه کي سڄي ڳالهه ٻڌائي.
+1	مڪاٽو	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	بادشاهه	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	iobj	_	_
+3	کي	_	ADP	PSP	_	2	case	_	_
+4	سڄي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	ڳالهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
+6	ٻڌائي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 2957
 # text = بادشاهه کي هن ننڍي ڇوڪري جي سياڻپ ۽ محنت ڏاڍي وڻي ۽ هن کي پنهنجي محل ۾ نوڪر ڪري رکيائينس.
