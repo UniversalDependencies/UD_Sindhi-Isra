@@ -827,28 +827,28 @@
 
 # sent_id = 3719
 # text = قمر الزمان ڪائره هڪ نجي ٽي وي چينل سان ڳالهائيندي چيو ته 17 هين ترميم ۾ تبديلي آڻڻ وڏو ڪم آهي،
-1	قمر	قمر	PROPN	_	_	3	compound	_	_
-2	الزمان	الزمان	PROPN	_	_	3	compound	_	_
-3	ڪائره	ڪائره	NOUN	_	_	11	nsubj	_	_
-4	هڪ	هڪ	NUM	_	_	7	nummod	_	_
-5	نجي	نجي	ADJ	_	_	7	amod	_	_
-6	ٽي	ٽي	NOUN	_	_	7	nmod	_	_
-7	وي	_	NOUN	_	_	8	nmod	_	_
-8	چينل	چينل	NOUN	_	_	10	obl	_	_
-9	سان	سان	ADP	_	_	8	case	_	_
-10	ڳالهائيندي	ڳالهاءِ	VERB	_	_	11	xcomp	_	_
-11	چيو	چئو	VERB	_	_	0	root	_	_
-12	ته	ته	SCONJ	_	_	20	mark	_	_
-13	17	17	NUM	_	_	15	nummod	_	_
-14	هين	هين	ADJ	_	_	15	compound	_	_
-15	ترميم	ترميم	NOUN	_	_	18	obl	_	_
-16	۾	۾	ADP	_	_	15	case	_	_
-17	تبديلي	تبديلي	NOUN	_	_	18	obj	_	_
-18	آڻڻ	آڻ	VERB	_	_	20	advcl	_	_
-19	وڏو	وڏو	ADJ	_	_	20	amod	_	_
-20	ڪم	ڪم	NOUN	_	_	11	obj	_	_
-21	آهي	آهي	AUX	_	_	20	cop	_	SpaceAfter=No
-22	،	،	PUNCT	_	_	20	punct	_	_
+1	قمر	قمر	PROPN	NNP	Case=Nom|Gender=Masc	3	compound	_	_
+2	الزمان	الزمان	PROPN	NNP	Case=Nom|Gender=Masc	3	compound	_	_
+3	ڪائره	ڪائره	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+4	هڪ	هڪ	NUM	NUM	_	7	nummod	_	_
+5	نجي	نجي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
+6	ٽي	ٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+7	وي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+8	چينل	چينل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+9	سان	سان	ADP	PSP	_	8	case	_	_
+10	ڳالهائيندي	ڳالهاءِ	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart|Voice=Act	11	xcomp	_	_
+11	چيو	چئو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+12	ته	ته	SCONJ	CS	_	20	mark	_	_
+13	17	17	NUM	NUM	_	15	nummod	_	_
+14	هين	هين	ADJ	JJ	Case=Nom	13	compound	_	_
+15	ترميم	ترميم	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+16	۾	۾	ADP	PSPL	_	15	case	_	_
+17	تبديلي	تبديلي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	_
+18	آڻڻ	آڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	20	advcl	_	_
+19	وڏو	وڏو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	20	amod	_	_
+20	ڪم	ڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
+21	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	20	cop	_	SpaceAfter=No
+22	،	،	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = 3720
 # text = ڪميٽي جلد سفارشون جوڙي وٺندي،
@@ -1283,21 +1283,22 @@
 
 # sent_id = 3740a
 # text = ذريعن موجب چارٽر آف ڊيموڪريسي 17 هين ترميم جي خاتمي تي به ڳالهيون ڪيون.
-1	ذريعن	ذريعو	NOUN	_	_	14	obl	_	_
-2	موجب	موجب	ADP	_	_	1	case	_	_
-3	چارٽر	_	NOUN	_	_	5	nmod	_	_
-4	آف	_	ADP	_	_	3	case	_	_
-5	ڊيموڪريسي	ڊيموڪريسي	NOUN	_	_	8	nmod	_	_
-6	17	17	NUM	_	_	8	nummod	_	_
-7	هين	هين	ADJ	_	_	8	amod	_	_
-8	ترميم	ترميم	NOUN	_	_	10	nmod	_	_
-9	جي	جي	ADP	_	_	8	case	_	_
-10	خاتمي	خاتمو	NOUN	_	_	14	obl	_	_
-11	تي	تي	ADP	_	_	10	case	_	_
-12	به	به	PART	_	_	10	advmod:emph	_	_
-13	ڳالهيون	ڳاله	NOUN	_	_	14	obj	_	_
-14	ڪيون	ڪيو	VERB	_	_	0	root	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+# orig_text = ذريعن موجب چارٽر آف ڊيموڪريسي 17 هين ترميم جي خاتمي تي به ڳالهيون ڪيون وزيراعظم چيو ته ان سلسلي ۾ آئيني ڪاميٽي جو ڪم آخري مرحلي ۾ آهي اهم پيڪيج جلد پارليامينٽ ۾ پيش ڪيو ويندو،
+1	ذريعن	ذريعو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+2	موجب	موجب	ADP	PSPL	_	1	case	_	_
+3	چارٽر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+4	آف	_	ADP	PSPL	_	3	case	_	_
+5	ڊيموڪريسي	ڊيموڪريسي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
+6	17	17	NUM	NUM	_	8	nummod	_	_
+7	هين	هين	ADJ	JJ	Case=Nom	6	amod	_	_
+8	ترميم	ترميم	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+9	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	8	case	_	_
+10	خاتمي	خاتمو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+11	تي	تي	ADP	PSPL	_	10	case	_	_
+12	به	به	PART	PART	_	10	advmod:emph	_	_
+13	ڳالهيون	ڳاله	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	obj	_	_
+14	ڪيون	ڪيو	VERB	VM	Aspect=Perf|Number=Plur|Person=3	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
 
 # sent_id = 3740b
 # text = وزيراعظم چيو ته ان سلسلي ۾ آئيني ڪاميٽي جو ڪم آخري مرحلي ۾ آهي.
@@ -3868,36 +3869,36 @@
 # sent_id = 3851b
 # text = اسلام آباد (اي پي پي) پاڪستان پيپلز پارٽي جي باني ۽ اڳوڻي وزيراعظم شهيد ذوالفقار علي ڀٽو جي 82 هين سالگره 5 جنوري اڱاري ڏينهن ملهائي ويندي.
 # orig_text = تفريحي ماڳ انگرادوس رائس جي هڪ ننڍي هوٽل جي عمارت ۽ ان جي ڀرپاسي واريون عمارتون ڊهي تباهه ٿيون،
-1	اسلام	اسلام	PROPN	_	_	28	dislocated	_	_
-2	آباد	آباد	PROPN	_	_	1	flat	_	_
-3	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-4	اي	اي	NOUN	_	_	6	nmod	_	_
-5	پي	پي	NOUN	_	_	6	nmod	_	_
-6	پي	پي	NOUN	_	_	1	appos	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	6	punct	_	_
-8	پاڪستان	پاڪستان	PROPN	_	_	10	nmod	_	_
-9	پيپلز	پيپلز	NOUN	_	_	10	compound	_	_
-10	پارٽي	پارٽي	NOUN	_	_	12	nmod	_	_
-11	جي	جي	ADP	_	_	10	case	_	_
-12	باني	_	NOUN	_	_	19	nmod	_	_
-13	۽	۽	CCONJ	_	_	15	cc	_	_
-14	اڳوڻي	اڳوڻو	ADJ	_	_	15	amod	_	_
-15	وزيراعظم	وزيراعظم	NOUN	_	_	12	conj	_	_
-16	شهيد	_	PROPN	_	_	19	compound	_	_
-17	ذوالفقار	ذوالفقار	PROPN	_	_	19	compound	_	_
-18	علي	علي	PROPN	_	_	19	compound	_	_
-19	ڀٽو	ڀٽو	NOUN	_	_	23	nmod	_	_
-20	جي	جي	ADP	_	_	19	case	_	_
-21	82	_	NUM	_	_	23	nummod	_	_
-22	هين	هين	NUM	_	_	23	nummod	_	_
-23	سالگره	_	NOUN	_	_	28	nsubj	_	_
-24	5	5	NUM	_	_	25	nummod	_	_
-25	جنوري	_	PROPN	_	_	27	nmod	_	_
-26	اڱاري	_	ADJ	_	_	27	amod	_	_
-27	ڏينهن	ڏينهن	NOUN	_	_	28	obl	_	_
-28	ملهائي	_	VERB	_	_	0	root	_	_
-29	ويندي	ويندو	VERB	_	_	28	compound	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+1	اسلام	اسلام	PROPN	NNP	Case=Nom|Gender=Masc	28	dislocated	_	_
+2	آباد	آباد	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	(	(	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+4	اي	اي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+5	پي	پي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
+6	پي	پي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+7	)	)	PUNCT	PUNCT	_	6	punct	_	_
+8	پاڪستان	پاڪستان	PROPN	NNP	Case=Nom|Gender=Masc	10	nmod	_	_
+9	پيپلز	پيپلز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	_
+10	پارٽي	پارٽي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+11	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	10	case	_	_
+12	باني	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_
+13	۽	۽	CCONJ	CC	_	15	cc	_	_
+14	اڳوڻي	اڳوڻو	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	15	amod	_	_
+15	وزيراعظم	وزيراعظم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+16	شهيد	_	PROPN	NNP	Case=Nom|Gender=Masc	19	compound	_	_
+17	ذوالفقار	ذوالفقار	PROPN	NNP	Case=Nom|Gender=Masc	19	compound	_	_
+18	علي	علي	PROPN	NNP	Case=Nom|Gender=Masc	19	compound	_	_
+19	ڀٽو	ڀٽو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
+20	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	19	case	_	_
+21	82	_	NUM	NUM	_	23	nummod	_	_
+22	هين	هين	NUM	NUM	_	21	nummod	_	_
+23	سالگره	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+24	5	5	NUM	NUM	_	25	nummod	_	_
+25	جنوري	_	PROPN	NNP	Case=Nom|Gender=Fem	27	nmod	_	_
+26	اڱاري	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	27	amod	_	_
+27	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	obl	_	_
+28	ملهائي	_	VERB	VM	Aspect=Perf|Number=Sing|Voice=Act	0	root	_	_
+29	ويندي	ويندو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	28	compound	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
 
 # sent_id = 3851c
 # text = قائد عوام کي پاڪستان اندر ڪروڙين ماڻهن جي حمايت حاصل هئي،
@@ -4499,17 +4500,17 @@
 
 # sent_id = 3873
 # text = شهيد ذوالفقار علي ڀٽي جي 82 هين سالگرهه سڀاڻي ملهائي ويندي
-1	شهيد	_	PROPN	_	_	4	compound	_	_
-2	ذوالفقار	ذوالفقار	PROPN	_	_	4	compound	_	_
-3	علي	علي	PROPN	_	_	4	compound	_	_
-4	ڀٽي	_	PROPN	_	_	8	nmod	_	_
-5	جي	جي	ADP	_	_	4	case	_	_
-6	82	_	NUM	_	_	8	nummod	_	_
-7	هين	هين	NUM	_	_	8	nummod	_	_
-8	سالگرهه	_	NOUN	_	_	10	nsubj	_	_
-9	سڀاڻي	_	ADJ	_	_	10	xcomp	_	_
-10	ملهائي	_	VERB	_	_	0	root	_	_
-11	ويندي	ويندو	VERB	_	_	10	compound	_	_
+1	شهيد	شهيد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
+2	ذوالفقار	ذوالفقار	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
+3	علي	علي	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
+4	ڀٽي	ڀٽي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+5	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	4	case	_	_
+6	82	_	NUM	NUM	_	8	nummod	_	_
+7	هين	هين	NUM	NUM	_	6	nummod	_	_
+8	سالگرهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	سڀاڻي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	10	xcomp	_	_
+10	ملهائي	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+11	ويندي	ويندو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|VerbForm=PresPart	10	compound	_	_
 
 # sent_id = 3851b
 # text = اسلام آباد (اي پي پي) پاڪستان پيپلز پارٽي جي باني ۽ اڳوڻي وزيراعظم شهيد ذوالفقار علي ڀٽو جي 82 هين سالگره 5 جنوري اڱاري ڏينهن ملهائي ويندي.
@@ -4587,22 +4588,22 @@
 
 # sent_id = 3877
 # text = جن ۾ 20 هين صدي جي هن عظيم اڳواڻ جي خدمتن تي روشني وڌي ويندي.
-1	جن	جي	PRON	_	_	14	obl	_	_
-2	۾	۾	ADP	_	_	1	case	_	_
-3	20	20	NUM	_	_	5	nummod	_	_
-4	هين	هين	NUM	_	_	5	nummod	_	_
-5	صدي	_	NOUN	_	_	9	nmod	_	_
-6	جي	جي	ADP	_	_	5	case	_	_
-7	هن	هن	DET	_	_	9	det	_	_
-8	عظيم	عظيم	ADJ	_	_	9	amod	_	_
-9	اڳواڻ	اڳواڻ	NOUN	_	_	11	nmod	_	_
-10	جي	جي	ADP	_	_	9	case	_	_
-11	خدمتن	_	NOUN	_	_	14	obl	_	_
-12	تي	تي	ADP	_	_	11	case	_	_
-13	روشني	روشني	NOUN	_	_	14	obj	_	_
-14	وڌي	وڌي	VERB	_	_	0	root	_	_
-15	ويندي	ويندو	VERB	_	_	14	compound	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	14	punct	_	_
+1	جن	جي	PRON	PRP	Case=Acc|Number=Plur|Person=3	14	obl	_	_
+2	۾	۾	ADP	PSPL	_	1	case	_	_
+3	20	20	NUM	NUM	_	5	nummod	_	_
+4	هين	هين	NUM	NUM	_	3	nummod	_	_
+5	صدي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+6	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	5	case	_	_
+7	هن	هن	DET	PRD	Case=Acc|Number=Sing	9	det	_	_
+8	عظيم	عظيم	ADJ	JJ	Case=Nom|Degree=Pos	9	amod	_	_
+9	اڳواڻ	اڳواڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+10	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	9	case	_	_
+11	خدمتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	_
+12	تي	تي	ADP	PSPL	_	11	case	_	_
+13	روشني	روشني	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	_
+14	وڌي	وڌي	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+15	ويندي	ويندو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|VerbForm=PresPart	14	compound	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	14	punct	_	_
 
 # sent_id = 3878
 # text = شهيد ذوالفقار علي ڀٽو عالمي سطح جو هڪ عظيم اڳواڻ هو جنهن 1971ع کان 1973ع تائين پاڪستان جو صدر ۽ 1973ع کان 1977ع تائين ملڪ جي وزيراعظم طور خدمتون انجام ڏنيون.
