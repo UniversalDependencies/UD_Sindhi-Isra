@@ -145,6 +145,7 @@ ENFORCED_POS_XPOS['شايد'] = [('ADV', 'ADM')]
 ENFORCED_POS_XPOS['وانگر'] = [('ADP', 'PSP')]
 ENFORCED_POS_XPOS['جنهنڪري'] = [('ADV', 'ADV'), ('SCONJ', 'CS')]
 ENFORCED_POS_XPOS['هاڻي'] = [('ADV', 'ADT')]
+ENFORCED_POS_XPOS['جيئن"'] = [('ADV', 'ADM'), ('PRON', 'PRL')]
 
 ALLOWED_STRUCTURE = {
     'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
