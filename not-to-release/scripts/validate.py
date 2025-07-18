@@ -146,7 +146,12 @@ ENFORCED_POS_XPOS['وانگر'] = [('ADP', 'PSP')]
 ENFORCED_POS_XPOS['جنهنڪري'] = [('ADV', 'ADV'), ('SCONJ', 'CS')]
 ENFORCED_POS_XPOS['هاڻي'] = [('ADV', 'ADT')]
 ENFORCED_POS_XPOS['جيئن'] = [('ADV', 'ADM'), ('PRON', 'PRL')]
+
+# two inflections of 'all'
 ENFORCED_POS_XPOS['سڀني'] = [('ADJ', 'JJ')]  # updated all JJO -> JJ
+ENFORCED_FEATURES['سڀني'] = ["Case=Acc"]
+ENFORCED_POS_XPOS['سڀئي'] = [('ADJ', 'JJ')]
+ENFORCED_FEATURES['سڀئي'] = ["Case=Nom"]
 
 ALLOWED_STRUCTURE = {
     'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
