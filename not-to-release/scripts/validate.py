@@ -160,6 +160,7 @@ ALLOWED_STRUCTURE['۾'] = [('ADP', 'mark'), ('ADP', 'case')]
 ALLOWED_STRUCTURE['بلڪه'] = [('SCONJ', 'mark')]
 ALLOWED_STRUCTURE['جنهنڪري'] = [('ADV', 'advmod'), ('SCONJ', 'mark')]
 ALLOWED_STRUCTURE['هاڻي'] = [('ADV', 'advmod')]
+ALLOWED_STRUCTURE['تنهنڪري'] = [('SCONJ', 'mark')]
 
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
