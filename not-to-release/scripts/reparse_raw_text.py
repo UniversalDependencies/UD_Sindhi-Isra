@@ -11,7 +11,7 @@ args = parser.parse_args()
 pipeline_args = {
     "processors":         "tokenize,pos,lemma,depparse",
     "package":            "default_accurate",
-    "tokenize_no_spplit": True,
+    "tokenize_no_ssplit": True,
 }
 
 if args.use_local_models:
