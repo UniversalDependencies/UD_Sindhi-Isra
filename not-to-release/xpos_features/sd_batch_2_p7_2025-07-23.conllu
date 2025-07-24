@@ -430,8 +430,6 @@
 
 # sent_id = 1926
 # text = ان ٻوٽي مان ڪيترائي سنگ ڦٽا، جيڪي ٿورن ئي ڏينهن ۾ سونهري ٿي ويا،
-# highlight tokens = 10
-# NOTE Difference at 10: ADP vs PART
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
 2	ٻوٽي	ٻوٽي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 3	مان	مان	ADP	PSPL	_	2	case	_	_
@@ -451,8 +449,6 @@
 
 # sent_id = 1931
 # text = پوءِ ڪو به ماڻهو بکيو نه رهندو، ڇو ته چانور زندگيءَ جي لاءِ خوراڪ آهي.
-# highlight tokens = 10
-# NOTE Difference at 10: PART vs SCONJ
 1	پوءِ	پوءِ	ADP	PSP	_	7	mark	_	_
 2	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
 3	به	به	PART	PART	_	2	advmod:emph	_	_
@@ -473,9 +469,6 @@
 
 # sent_id = 1935
 # text = پوءِ آسمان مان هڪڙي ديوي زمين تي لهي آئي.
-# highlight tokens = 1 3
-# NOTE Difference at 1: ADV vs ADP
-# NOTE Difference at 3: ADV vs ADP
 1	پوءِ	پوءِ	ADV	ADT	_	8	advmod	_	_
 2	آسمان	آسمان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 3	مان	_	ADP	PSPL	_	2	case	_	_
@@ -489,9 +482,6 @@
 
 # sent_id = 1937
 # text = انهيءَ ڏينهن کان پوءِ پجاجارن جي ماڻهن وٽ کاڌ خوراڪ جي گهٽتائي نه ٿي ۽ ڪيترن سالن تائين هنن جي زندگي سکي ستابي گذري.
-# highlight tokens = 4 14
-# NOTE Difference at 4: ADV vs ADP
-# NOTE Difference at 14: VERB vs AUX
 1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
 2	ڏينهن	ڏينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 3	کان	کان	ADP	PSP	_	2	case	_	_
@@ -520,9 +510,6 @@
 
 # sent_id = 1958
 # text = هاڻي وري ڍڳي ۽ سوئر پنهنجي مدد لاءِ اڪيچار جهرڪين کي گهرايو ته اچي سارين جي سنگن مان سڀئي چانور چڳي وڃن.
-# highlight tokens = 8 18
-# NOTE Difference at 8: ADV vs ADP
-# NOTE Difference at 18: ADV vs ADP
 1	هاڻي	هاڻ	ADV	ADT	_	12	advmod	_	_
 2	وري	وري	ADV	ADM	_	12	advmod	_	_
 3	ڍڳي	ڍڳو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -549,8 +536,6 @@
 
 # sent_id = 1960
 # text = نيٺ ٻيو ڪو چار نه ڏسي نڀاڳي ڍڳي جهنگ مان خونخوار جانورن کي گهرايو ۽ هنن کي ملڪ جي سڀني شهرن ۽ ڳوٺن کي تباهه ڪرڻ جو حڪم ڏنو.
-# highlight tokens = 10
-# NOTE Difference at 10: ADV vs ADP
 1	نيٺ	نيٺ	ADV	ADV	_	14	advmod	_	_
 2	ٻيو	ٻيو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
 3	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
@@ -584,8 +569,6 @@
 
 # sent_id = 1962
 # text = هنن سڀني ديوتا جي صلاح سان زمين ۾ سوراخ ڪيا ۽ انهن ۾ ڪنڍا ڦاسائي وڻن سان ڄار ٻڌي ويهي رهيا.
-# highlight tokens = 6
-# NOTE Difference at 6: VERB vs ADP.  Is case correct at word 6?
 1	هنن	هي	PRON	PRP	Case=Acc|Number=Plur|Person=3	10	nsubj	_	_
 2	سڀني	_	ADJ	JJ	Case=Acc	1	amod	_	_
 3	ديوتا	ديوتا	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -611,8 +594,6 @@
 
 # sent_id = 1965
 # text = نڀاڳي ڍڳي کي لڳو ته منهنجي اها چال به ناڪام ٿي ويئي آهي ۽ منهنجي فوج به ختم ٿيندي وڃي،
-# highlight tokens = 11
-# NOTE Difference at 11: VERB vs AUX
 1	نڀاڳي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	nmod	_	_
 2	ڍڳي	ڍڳو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
@@ -637,8 +618,6 @@
 
 # sent_id = 1966
 # text = پر هو پنهنجيءَ هوڏ تان لهڻ ۽ هار مڃڻ لاءِ اڃا به تيار نه ٿيو.
-# highlight tokens = 5
-# NOTE Difference at 5: ADV vs ADP
 1	پر	پر	SCONJ	CS	_	6	mark	_	_
 2	هو	هو	DET	PRD	Case=Nom|Number=Sing	6	nsubj	_	_
 3	پنهنجيءَ	پنهنجيءَ	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	4	nmod	_	_
@@ -658,8 +637,6 @@
 
 # sent_id = 1969
 # text = انهيءَ تي نوجوان ديوتا هن سان وڙهڻ لاءِ اڳتي وڌيو.
-# highlight tokens = 8
-# NOTE Difference at 8: ADV vs ADP
 1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	10	obl	_	_
 2	تي	تي	ADP	PSPL	_	1	case	_	_
 3	نوجوان	نوجوان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
@@ -674,8 +651,6 @@
 
 # sent_id = 1970
 # text = هو پنهنجا هٿ چيلهه تي رکي نڀاڳي ڍڳي جي حملي لاءِ خبردار ٿي بيٺو.
-# highlight tokens = 13
-# NOTE Difference at 13: VERB vs AUX
 1	هو	هو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 2	پنهنجا	پنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	3	nmod	_	_
 3	هٿ	هٿ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
@@ -694,8 +669,6 @@
 
 # sent_id = 1971
 # text = نڀاڳي ڍڳي پنهنجا سڱ هڪ وڻ سان رهڙي تکا ڪيا ۽ پوءِ سڄي طاقت سان، سلنجانا ڏانهن ڌوڪيندو ويو.
-# highlight tokens = 12
-# NOTE Difference at 12: SCONJ vs ADV
 1	نڀاڳي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	nmod	_	_
 2	ڍڳي	ڍڳو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 3	پنهنجا	پنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	4	nmod	_	_
@@ -720,8 +693,6 @@
 
 # sent_id = 1973
 # text = پر تڏهن به هن هار نه مڃي ۽ وري زمين تان اٿي پوري طاقت سان ديوتا تي حملو ڪيائين.
-# highlight tokens = 11
-# NOTE Difference at 11: ADV vs ADP
 1	پر	پر	SCONJ	CS	_	7	mark	_	_
 2	تڏهن	تڏهن	ADV	ADT	_	7	advmod	_	_
 3	به	به	PART	PART	_	2	advmod:emph	_	_
@@ -745,8 +716,6 @@
 
 # sent_id = 1981
 # text = انهن پوکن سان پوءِ وري ڪنهن به جانور هٿ چراند نه ڪئي.
-# highlight tokens = 4
-# NOTE Difference at 4: ADV vs ADP
 1	انهن	انهي	DET	PRD	Case=Acc|Number=Plur	2	nmod	_	_
 2	پوکن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	_
 3	سان	سان	ADP	PSP	_	2	case	_	_
@@ -763,8 +732,6 @@
 
 # sent_id = 1982
 # text = انهيءَ زماني کان وٺي پجاجارن جا رهاڪو پنهنجي زندگي آرام ۽ امن سان گذاريندا اچن ۽ پنهنجو دلپسند کاڌو چانور تمام گهڻو کائيندا آهن.
-# highlight tokens = 13
-# NOTE Difference at 13: ADV vs ADP
 1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
 2	زماني	زمانو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 3	کان	کان	ADP	PSP	_	2	case	_	_
@@ -793,9 +760,6 @@
 
 # sent_id = 2015
 # text = تنهنڪري ماڻهو هن کي دوست جي نالي سان سڏيندا هئا.
-# highlight tokens = 1 8
-# NOTE Difference at 1: ADV vs SCONJ
-# NOTE Difference at 8: ADV vs ADP
 1	تنهنڪري	تنهنڪري	SCONJ	CS	_	9	mark	_	_
 2	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	هن	هن	DET	PRD	Case=Acc|Number=Sing	9	obj	_	_
@@ -810,8 +774,6 @@
 
 # sent_id = 2017
 # text = هن پنهنجي لاءِ هڪ تندرست ۽ سگهارو گهوڙو خريد ڪيو.
-# highlight tokens = 3
-# NOTE Difference at 3: ADV vs ADP
 1	هن	هن	DET	PRD	Case=Acc|Number=Sing	10	nsubj	_	_
 2	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	10	obl	_	_
 3	لاءِ	لاءِ	ADP	PSP	_	2	case	_	_
@@ -826,10 +788,6 @@
 
 # sent_id = 2018
 # text = پوءِ هن گهوڙي جي زين ۾ کاڌي پيتي جون شيون رکيون ۽ الله تعاليٰ جو نالو وٺي پنهنجي شهر مان سفر تي هليو.
-# highlight tokens = 1 9 20
-# NOTE is case at word 9 correct?
-# NOTE Difference at 1: ADV vs ADP
-# NOTE Difference at 20: ADV vs ADP
 1	پوءِ	پوءِ	ADV	ADT	_	11	obl	_	_
 2	هن	هن	DET	PRD	Case=Acc|Number=Sing	11	nsubj	_	_
 3	گهوڙي	گهوڙو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -857,8 +815,6 @@
 
 # sent_id = 2019
 # text = هو اڃا ٿورو ئي اڳتي هليو هو،
-# highlight tokens = 3
-# NOTE Difference at 3: ADV vs ADJ
 1	هو	هو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	اڃا	اڃا	ADV	ADT	_	6	advmod	_	_
 3	ٿورو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
@@ -870,8 +826,6 @@
 
 # sent_id = 2021
 # text = هن سان ملڻ لاءِ هن گهوڙو جهليو، هن جو آڌر ڀاءُ ڪيو ۽ کانئس سندس نالو پڇيو.
-# highlight tokens = 15
-# NOTE Difference at 15: ADV vs ADP
 1	هن	هن	DET	PRD	Case=Acc|Number=Sing	3	obl	_	_
 2	سان	سان	ADP	PSP	_	1	case	_	_
 3	ملڻ	ملڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	7	advcl	_	_
@@ -894,10 +848,6 @@
 
 # sent_id = 2029
 # text = تنهنڪري ٻئي ماني کائڻ جي لاءِ اتي لهي پيا.
-# highlight tokens = 1 2 6
-# NOTE Difference at 1: ADV vs SCONJ
-# NOTE Difference at 2: PRON vs ADJ
-# NOTE Difference at 6: ADV vs ADP
 1	تنهنڪري	تنهنڪري	SCONJ	CS	_	8	mark	_	_
 2	ٻئي	_	ADJ	JJC	Case=Nom|Number=Plur	8	nsubj	_	_
 3	ماني	ماني	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	_
@@ -911,8 +861,6 @@
 
 # sent_id = 2035
 # text = اهڙيءَ طرح ٻئي ڏينهن ٻئي دوست جي آندل ماني کائيندا ۽ سفر ڪندا هليا.
-# highlight tokens = 3
-# NOTE Difference at 3: NUM vs ADJ
 1	اهڙيءَ	اهڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	_
 3	ٻئي	ٻه	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
@@ -931,11 +879,6 @@
 
 # sent_id = 2047
 # text = ٿي سگهي ٿو ته اسان جو سفر تمام ڊگهو ٿئي ۽ جيڪڏهن آءٌ پنهنجي ماني توسان گڏجي کاوان ته ماني جلد ئي ختم ٿي ويندي،
-# highlight tokens = 10 12 22 24
-# NOTE Difference at 10: AUX vs VERB
-# NOTE Difference at 12: CCONJ vs SCONJ
-# NOTE Difference at 22: ADP vs PART
-# NOTE Difference at 24: VERB vs AUX
 1	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	0	root	_	_
 2	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	1	aux	_	_
 3	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	1	aux	_	_
@@ -965,9 +908,6 @@
 
 # sent_id = 2051
 # text = تنهنڪري هڪڙي چوواٽي تي ٻئي هڪ ٻئي کان جدا ٿي ويا.
-# highlight tokens = 1 6
-# NOTE Difference at 1: ADV vs SCONJ
-# NOTE Difference at 6: PRON vs ADJ
 1	تنهنڪري	تنهنڪري	SCONJ	CS	_	9	mark	_	_
 2	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	_
 3	چوواٽي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
@@ -983,9 +923,6 @@
 
 # sent_id = 2052
 # text = پوءِ جڏهن رات ٿي ته دوست هڪ پراڻيءَ چڪيءَ وٽ پهچي ويو هو ۽ رات جا چار پهر آرام ڪرڻ لاءِ چڪيءَ جي ڦٽل جاءِ ۾ هليو ويو.
-# highlight tokens = 1 7
-# NOTE Difference at 1: ADV vs ADP
-# NOTE Difference at 7: ADJ vs NUM
 1	پوءِ	پوءِ	ADV	ADT	_	3	advmod	_	_
 2	جڏهن	جڏهن	ADV	ADT	_	3	advmod	_	_
 3	رات	رات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -1018,8 +955,6 @@
 
 # sent_id = 2054
 # text = انهيءَ ڳري پٿر جي پٺيان سمهڻ لاءِ ويو ۽ اتي ليٽندي ئي هن کي ننڊ کڻي ويئي.
-# highlight tokens = 7
-# NOTE Difference at 7: ADV vs ADP
 1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	3	det	_	_
 2	ڳري	ڳري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	پٿر	پٿر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -1041,10 +976,6 @@
 
 # sent_id = 2055
 # text = پوءِ گوڙ جي آواز تي هن جي ننڊ ڦِٽي ويئي ۽ هو اُٿي بيٺو ۽ وڏي پٿر وٽان جهاتي پائي جو ڏسي ته سامهون چانڊوڪيءَ ۾ هڪڙو شينهن، هڪڙو چيتو،
-# highlight tokens = 5 7 27
-# NOTE case at word 7 is okay?
-# NOTE Difference at 5: ADV vs ADP
-# NOTE Difference at 27: NUM vs ADJ
 1	پوءِ	پوءِ	ADP	PSP	_	9	advmod	_	_
 2	گوڙ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
@@ -1080,8 +1011,6 @@
 
 # sent_id = 2056
 # text = هڪڙو بگهڙ ۽ هڪڙي لومڙي پاڻ ۾ ڳالهيون ويٺا ڪن.
-# highlight tokens = 1
-# NOTE Difference at 1: NUM vs ADJ
 1	هڪڙو	_	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
 2	بگهڙ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	۽	۽	CCONJ	CC	_	5	cc	_	_
@@ -1096,8 +1025,6 @@
 
 # sent_id = 2068
 # text = پوءِ چانڊوڪيءَ جي اڇاڻ ۾ ڪوئا اشرفين سان راند ڪندا آهن ۽ خوشيءَ مان ٺينگ ٺپا ڏيندا آهن.
-# highlight tokens = 14
-# NOTE Difference at 14: ADV vs ADP
 1	پوءِ	پوءِ	ADV	ADT	_	10	advmod	_	_
 2	چانڊوڪيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
@@ -1120,8 +1047,6 @@
 
 # sent_id = 2071
 # text = جنهن جي ڌيءَ چري ٿي پيئي آهي.
-# highlight tokens = 5
-# NOTE Difference at 5: VERB vs AUX
 1	جنهن	جنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	ڌيءَ	ڌيءَ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -1133,8 +1058,6 @@
 
 # sent_id = 2073
 # text = ان ڇوڪريءَ جو علاج هڪڙي خاص ٻوٽيءَ سان ٿي سگهي ٿو،
-# highlight tokens = 8
-# NOTE Difference at 8: ADV vs ADP
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
 2	ڇوڪريءَ	ڇوڪريءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
 3	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
@@ -1150,8 +1073,6 @@
 
 # sent_id = 2076
 # text = ان ٻوٽيءَ جون پاڙون جيڪڏهن کير ۾ اوٻاري شهزاديءَ کي پياريون وڃن ته شهزاديءَ کي بيماري ڇڏي ويندي ۽ هوءَ تندرست ٿي پوندي.
-# highlight tokens = 8 22
-# NOTE Difference at 22: VERB vs AUX
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
 2	ٻوٽيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
 3	جون	جو	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	2	case	_	_
