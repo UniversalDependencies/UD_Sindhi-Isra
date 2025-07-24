@@ -80,6 +80,7 @@ ADVMOD_EMPH_EXCEPTIONS = {
 
 ENFORCED_FEATURES = {}
 
+ENFORCED_POS_XPOS = {}
 ENFORCED_XPOS = {}
 ENFORCED_POS = {
     "جڏهن": ["ADV"],
@@ -115,8 +116,7 @@ for word in can_could_aux:
 
 ENFORCED_POS['ڄڻ'] = ['PRON']
 
-ENFORCED_POS['ڪڏهن'] = ['ADV']
-ENFORCED_XPOS['ڪڏهن'] = ['ADT']
+ENFORCED_POS_XPOS['ڪڏهن'] = [('ADV', 'ADT')]
 
 for word in ("اھڙيءَ","اھڙن","اھڙي","اھڙو","اھڙا","اھڙيون","اھڙين","اهڙيءَ","اهڙن","اهڙي","اهڙو","اهڙا","اهڙيون","اهڙين"):
     ENFORCED_POS[word] = ['DET', 'ADJ']
@@ -127,8 +127,7 @@ ENFORCED_POS['گذريل'] = ['VERB']
 demonstratives = ['ان', 'اِهو', 'انهي', 'انھي', 'انهيءِ', 'اِهو', 'اِهي', 'اھا', 'اھڙو', 'اھي', 'ڪوبه', 'هرڪوئي', 'هِن', 'هُوءَ', 'ھن', 'اُهو', 'اهي', 'اهو', 'اِها']
 demonstratives.extend(['اُها', 'اها'])
 for word in demonstratives:
-    ENFORCED_POS[word] = ['DET']
-    ENFORCED_XPOS[word] = ['PRD']
+    ENFORCED_POS_XPOS[word] = [('DET', 'PRD')]
 
 # the negative polarity AUX words should all be AUX
 for word in ['ڪانهي', 'ڪانھي', 'ناهن', 'ناهي', 'ناهيان', 'ناهيون', 'ناھن', 'ناھي', 'ناھيان', 'ناھيون', 'نٿا', 'نٿو', 'نٿي', 'نٿيون', 'ڪونهن', 'ڪونهي', 'ڪونھن', 'ڪونھي']:
@@ -138,10 +137,7 @@ for word in ['ڪانهي', 'ڪانھي', 'ناهن', 'ناهي', 'ناهيان',
 ENFORCED_POS['توڙي'] = ['CCONJ']
 ENFORCED_POS['۽'] = ['CCONJ']
 
-ENFORCED_POS['۾'] = ['ADP']
-ENFORCED_XPOS['۾'] = ['PSPL']
-
-ENFORCED_POS_XPOS = {}
+ENFORCED_POS_XPOS['۾'] = [('ADP', 'PSPL')]
 ENFORCED_POS_XPOS['ڪيئن'] = [('ADV', 'ADM'), ('PRON', 'PRWH')]
 ENFORCED_POS_XPOS['پوءِ'] = [('ADP', 'PSP'), ('ADV', 'ADT'), ('SCONJ', 'CS')]
 ENFORCED_POS_XPOS['شايد'] = [('ADV', 'ADM')]
