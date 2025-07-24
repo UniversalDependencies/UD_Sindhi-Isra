@@ -1,4 +1,5 @@
 import argparse
+from collections import namedtuple
 import re
 import sys
 
@@ -193,7 +194,60 @@ for word in ('ھڪڙي', 'هڪڙي'):
     ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
     ENFORCED_FEATURES[word] = ["Number=Sing"]
 
+# We keep a list of fixed expressions where we expect each occurrence of the words in order
+# to have the deprel fixed and the listed UPOS/ExtPos.  
+FixedExpression = namedtuple('FixedExpression', 'words extpos')
+FIXED_EXPRESSIONS = []
+FIXED_EXPRESSIONS.append(FixedExpression((('ڏينهون', 'NOUN'), ('ڏينهن', 'NOUN')), 'ADV'))
 
+def check_fixed(new_doc, check_feats):
+    problem_sentences = set()
+    printed = False
+
+    for fixed_expression in FIXED_EXPRESSIONS:
+        for sent_idx, sent in enumerate(new_doc.sentences):
+            for word_idx, word in enumerate(sent.words):
+                # check that the span exists and the words in this span are the words of the fixed expression
+                span = sent.words[word_idx:word_idx+len(fixed_expression.words)]
+                if len(span) < len(fixed_expression.words):
+                    continue
+                if any(w.text != fw[0] for w, fw in zip(span, fixed_expression.words)):
+                    continue
+
+                # we now know the word texts match the expected fixed words
+                # check the POS of the words in this span
+                errors = []
+                if not all(w.pos == fw[1] for w, fw in zip(span, fixed_expression.words)):
+                    words = ", ".join("%s_%s" % fw for fw in fixed_expression.words)
+                    errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) did not follow expected POS: %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, words))
+                # check the deprel of the words after the first
+                for fixed_word in span[1:]:
+                    if fixed_word.head != word_idx+1:
+                        errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) had head %s instead of %d" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, fixed_word.head, word_idx+1))
+                    if fixed_word.deprel != 'fixed':
+                        errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) had deprel %s instead of fixed" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, fixed_word.deprel))
+                # if checking features, look for the correct ExtPos or flag an error
+                if check_feats:
+                    if not span[0].feats or span[0].feats == '_':
+                        errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) did not have an ExtPos; expected %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, fixed_expression.extpos))
+                    else:
+                        feats = span[0].feats.split("|")
+                        for feat in feats:
+                            if feat.startswith("ExtPos="):
+                                if feat.split("=", 1)[1] != fixed_expression.extpos:
+                                    errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) had %s; expected %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, feat, fixed_expression.extpos))
+                                break
+                        else:
+                            errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) had features %s, with no ExtPos; expected %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, span[0].feats, fixed_expression.extpos))
+                if len(errors) > 0:
+                    if not printed:
+                        print("FIXED EXPRESSION ERROR")
+                        printed = True
+                    problem_sentences.add(sent_idx)
+                    for error in errors:
+                        print(error)
+
+    return problem_sentences
 
 def check_unknown_upos(new_doc):
     problem_sentences = set()
@@ -383,6 +437,7 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
     problem_sentences |= check_unexpected_space_after(new_doc)
     problem_sentences |= check_xpos_required(new_doc, check_xpos, require_xpos)
     problem_sentences |= check_pos_xpos_happiness(new_doc, check_xpos)
+    problem_sentences |= check_fixed(new_doc, check_feats)
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
