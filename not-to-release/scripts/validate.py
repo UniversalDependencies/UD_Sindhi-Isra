@@ -184,8 +184,8 @@ ENFORCED_RELATION_UPOS = {
 
 # various inflections of هڪڙو / one
 for word in ('هڪڙو', 'ھڪڙو'):
-    ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
-    ENFORCED_FEATURES[word] = ["Case=Nom", "Number=Sing", "Gender=Masc"]
+    ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC'), ('PROPN', 'NNP')]
+    ENFORCED_FEATURES[(word, 'ADJ')] = ["Case=Nom", "Number=Sing", "Gender=Masc"]
 
 
 for word in ('ھڪڙي', 'هڪڙي'):
@@ -517,20 +517,25 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
         printed = False
         for sent_idx, sent in enumerate(new_doc.sentences):
             for word_idx, word in enumerate(sent.words):
-                if word.text in ENFORCED_FEATURES:
-                    error = ""
-                    if not word.feats or word.feats == '_':
-                        error = "Sentence %s (%d) word %d (line %d) |%s| had blank features, but this word is expected to have %s" % (sent.sent_id, sent_idx, word_idx, word.line_number+1, word.text, ENFORCED_FEATURES[word.text])
-                    else:
-                        pieces = word.feats.split("|")
-                        for expected in ENFORCED_FEATURES[word.text]:
-                            if expected not in pieces:
-                                error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx, word.line_number+1, word.text, expected)
-                    if error:
-                        if not printed:
-                            printed = True
-                            print("EXPECTED FEATURES MISSING")
-                        print(error)
+                expected_features = ENFORCED_FEATURES.get(word.text)
+                if expected_features is None:
+                    expected_features = ENFORCED_FEATURES.get((word.text, word.upos))
+                if expected_features is None:
+                    continue
+
+                error = ""
+                if not word.feats or word.feats == '_':
+                    error = "Sentence %s (%d) word %d (line %d) |%s| had blank features, but this word is expected to have %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected_features)
+                else:
+                    pieces = word.feats.split("|")
+                    for expected in expected_features:
+                        if expected not in pieces:
+                            error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected)
+                if error:
+                    if not printed:
+                        printed = True
+                        print("EXPECTED FEATURES MISSING")
+                    print(error)
 
         printed = False
         for sent_idx, sent in enumerate(new_doc.sentences):
