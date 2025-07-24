@@ -182,6 +182,18 @@ ENFORCED_RELATION_UPOS = {
     "advmod:emph": ["PART"],
 }
 
+# various inflections of هڪڙو / one
+for word in ('هڪڙو', 'ھڪڙو'):
+    ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
+    ENFORCED_FEATURES[word] = ["Case=Nom", "Number=Sing", "Gender=Masc"]
+
+
+for word in ('ھڪڙي', 'هڪڙي'):
+    ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
+    ENFORCED_FEATURES[word] = ["Number=Sing"]
+
+
+
 def check_unknown_upos(new_doc):
     problem_sentences = set()
     printed = False
