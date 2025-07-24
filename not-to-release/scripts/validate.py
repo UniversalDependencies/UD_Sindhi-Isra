@@ -165,6 +165,10 @@ ALLOWED_STRUCTURE['هاڻي'] = [('ADV', 'advmod')]
 ALLOWED_STRUCTURE['تنهنڪري'] = [('SCONJ', 'mark')]
 ALLOWED_STRUCTURE['بلڪ'] = [('SCONJ', 'mark')]
 
+# this word can potentially also be ADJ, but that is not attested in the dataset
+ENFORCED_POS_XPOS['آڏو'] = [('ADP', 'PSP'), ('ADV', 'ADP')]
+ALLOWED_STRUCTURE['آڏو'] = [('ADP', 'case'), ('ADV', 'advmod')]
+
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
 }
