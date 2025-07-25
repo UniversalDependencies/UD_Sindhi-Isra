@@ -200,8 +200,10 @@ for word in ('ھڪڙا', 'هڪڙا'):
 for word in ('ھڪڙن', 'هڪڙن'):
     ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
     ENFORCED_FEATURES[word] = ["Case=Acc", "Number=Plur", "Gender=Masc"]
-
-
+# can be ambiguous between Nom/Acc
+for word in ('هڪڙيء', 'هڪڙيءَ', 'ھڪڙيء', 'ھڪڙيءَ'):
+    ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
+    ENFORCED_FEATURES[word] = ["Number=Sing", "Gender=Fem"]
 # currently not attested anywhere in the dataset
 for word in ('هڪڙيون', 'هڪڙيونءَ', 'هڪڙيونء', 'ھڪڙيونء', 'ھڪڙيونءَ', 'ھڪڙيون'):
     ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
