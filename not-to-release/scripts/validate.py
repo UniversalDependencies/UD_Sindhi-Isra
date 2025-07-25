@@ -202,6 +202,15 @@ for word in ('ھڪڙن', 'هڪڙن'):
     ENFORCED_FEATURES[word] = ["Case=Acc", "Number=Plur", "Gender=Masc"]
 
 
+# currently not attested anywhere in the dataset
+for word in ('هڪڙيون', 'هڪڙيونءَ', 'هڪڙيونء', 'ھڪڙيونء', 'ھڪڙيونءَ', 'ھڪڙيون'):
+    ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
+    ENFORCED_FEATURES[word] = ["Case=Nom", "Number=Plur", "Gender=Fem"]
+# currently not attested anywhere in the dataset
+for word in ('ھڪڙين', 'هڪڙين'):
+    ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
+    ENFORCED_FEATURES[word] = ["Case=Acc", "Number=Plur", "Gender=Fem"]
+
 # We keep a list of fixed expressions where we expect each occurrence of the words in order
 # to have the deprel fixed and the listed UPOS/ExtPos.  
 FixedExpression = namedtuple('FixedExpression', 'words extpos')
