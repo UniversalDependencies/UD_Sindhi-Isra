@@ -112,6 +112,14 @@ can_could_aux.extend(['سگھي', 'سگھنديس', 'سگھندس', 'سگھند�
 for word in can_could_aux:
     ENFORCED_POS[word] = ['AUX']
 
+ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
+ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
+ENFORCED_FEATURES['سگهين'] = ['Person=2', 'Number=Sing']
+# TODO can be AUX or ADV?
+# ENFORCED_FEATURES['سگهو'] = ['Person=2', 'Number=Plur']
+ENFORCED_FEATURES['سگهي'] = ['Person=3', 'Number=Sing']
+ENFORCED_FEATURES['سگهن'] = ['Person=3', 'Number=Plur']
+
 ENFORCED_POS['ڄڻ'] = ['PRON']
 
 ENFORCED_POS_XPOS['ڪڏهن'] = [('ADV', 'ADT')]
