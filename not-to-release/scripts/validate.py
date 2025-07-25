@@ -454,6 +454,37 @@ def check_pos_xpos_happiness(new_doc, check_xpos):
                 print("Sentence %s (%d) word %d |%s| (line %d) has incompatible upos/xpos %s/%s.  Expected is %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.upos, word.xpos, allowed))
     return problem_sentences
 
+def check_missing_heads(new_doc):
+    problem_sentences = set()
+
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word in sent.words:
+            if word.head is None:
+                if not printed:
+                    print("NO HEAD WORDS")
+                    printed = True
+                problem_sentences.add(sent_idx)
+                print("Sentence %s (%d) has a word %s (line %d) with no head" % (sent.sent_id, sent_idx, word.id, word.line_number))
+
+    return problem_sentences
+
+def check_missing_deprel(new_doc):
+    problem_sentences = set()
+
+    printed = False
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word in sent.words:
+            if word.deprel is None or word.deprel == "":
+                if not printed:
+                    print("UNLABELED ARCS")
+                    printed = True
+                problem_sentences.add(sent_idx)
+                print("Sentence %s (%d) has a word %s (line %d) with no deprel" % (sent.sent_id, sent_idx, word.id, word.line_number))
+
+    return problem_sentences
+
+
 def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
     problem_sentences = set()
 
@@ -466,26 +497,8 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
     problem_sentences |= check_xpos_required(new_doc, check_xpos, require_xpos)
     problem_sentences |= check_pos_xpos_happiness(new_doc, check_xpos)
     problem_sentences |= check_fixed(new_doc, check_feats)
-
-    printed = False
-    for sent_idx, sent in enumerate(new_doc.sentences):
-        for word in sent.words:
-            if word.head is None:
-                if not printed:
-                    print("NO HEAD WORDS")
-                    printed = True
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) has a word %s (line %d) with no head" % (sent.sent_id, sent_idx, word.id, word.line_number))
-
-    printed = False
-    for sent_idx, sent in enumerate(new_doc.sentences):
-        for word in sent.words:
-            if word.deprel is None or word.deprel == "":
-                if not printed:
-                    print("UNLABELED ARCS")
-                    printed = True
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) has a word %s (line %d) with no deprel" % (sent.sent_id, sent_idx, word.id, word.line_number))
+    problem_sentences |= check_missing_heads(new_doc)
+    problem_sentences |= check_missing_deprel(new_doc)
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
