@@ -180,6 +180,7 @@ ALLOWED_STRUCTURE['آڏو'] = [('ADP', 'case'), ('ADV', 'advmod')]
 
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
+    "CCONJ": ["advmod"],
 }
 
 DISALLOWED_XPOS_RELATIONS = {
