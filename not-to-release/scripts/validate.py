@@ -188,11 +188,19 @@ ENFORCED_RELATION_UPOS = {
 for word in ('هڪڙو', 'ھڪڙو'):
     ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC'), ('PROPN', 'NNP')]
     ENFORCED_FEATURES[(word, 'ADJ')] = ["Case=Nom", "Number=Sing", "Gender=Masc"]
-
-
+# ambiguous between Nom/Acc and Masc/Fem
 for word in ('ھڪڙي', 'هڪڙي'):
     ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
     ENFORCED_FEATURES[word] = ["Number=Sing"]
+# currently not attested anywhere in the dataset
+for word in ('ھڪڙا', 'هڪڙا'):
+    ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
+    ENFORCED_FEATURES[word] = ["Case=Nom", "Number=Plur", "Gender=Masc"]
+# currently not attested anywhere in the dataset
+for word in ('ھڪڙن', 'هڪڙن'):
+    ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
+    ENFORCED_FEATURES[word] = ["Case=Acc", "Number=Plur", "Gender=Masc"]
+
 
 # We keep a list of fixed expressions where we expect each occurrence of the words in order
 # to have the deprel fixed and the listed UPOS/ExtPos.  
