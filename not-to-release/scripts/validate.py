@@ -484,6 +484,39 @@ def check_missing_deprel(new_doc):
 
     return problem_sentences
 
+def check_th_words(new_doc, check_xpos):
+    """
+    Currently we have the words هين and هون annotated to be compound words of a NUM before them.  This checks those relations and the POS
+    """
+    problem_sentences = set()
+    errors = []
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word.text != 'هين' and word.text != 'هون':
+                continue
+            new_errors = []
+            if word.upos != 'PART':
+                new_errors.append("Sentence %s (%d) word %d |%s| (line %d) has upos %s.  Expected PART" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos))
+            if check_xpos and word.xpos != 'PART':
+                new_errors.append("Sentence %s (%d) word %d |%s| (line %d) has xpos %s.  Expected PART" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.xpos))
+            if word.deprel != 'compound':
+                new_errors.append("Sentence %s (%d) word %d |%s| (line %d) has deprel %s.  Expected all -th words to have compound" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.deprel))
+            if word.head != word_idx:   # heads indexed by 1, enumerate indexed by 0
+                new_errors.append("Sentence %s (%d) word %d |%s| (line %d) attached to %d.  Expected all -th words to attach to the previous word." % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.head))
+            else:
+                head = sent.words[word.head-1]
+                if head.upos != 'NUM':
+                    new_errors.append("Sentence %s (%d) word %d |%s| (line %d) attached to %d |%s| with a POS of %s.  Expected all -th words to attach to NUM." % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.head, head.text, head.upos))
+                if head.deprel != 'amod':
+                    new_errors.append("Sentence %s (%d) word %d |%s| (line %d) attached to %d |%s| with a deprel of %s.  Expected all -th words to attach to an amod." % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.head, head.text, head.deprel))
+            if len(new_errors) > 0:
+                errors.extend(new_errors)
+                problem_sentences.add(sent_idx)
+    if len(errors) > 0:
+        print("ERRORS ON -TH WORDS")
+        for error in errors:
+            print(error)
+    return problem_sentences
 
 def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
     problem_sentences = set()
@@ -499,6 +532,7 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
     problem_sentences |= check_fixed(new_doc, check_feats)
     problem_sentences |= check_missing_heads(new_doc)
     problem_sentences |= check_missing_deprel(new_doc)
+    problem_sentences |= check_th_words(new_doc, check_xpos)
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
