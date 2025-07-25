@@ -8,7 +8,7 @@
 4	کي	کي	ADP	PSP	_	3	case	_	_
 5	آسماني	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
 6	ديوتا	ديوتا	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
-7	طرفان	_	ADP	PSP	_	6	case	_	_
+7	طرفان	طرفان	ADP	PSP	_	6	case	_	_
 8	جڏهن	جڏهن	ADV	ADT	_	11	advmod	_	_
 9	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	10	det	_	_
 10	سوکڙي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
@@ -79,7 +79,7 @@
 9	ڍڳي	ڍڳو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
 10	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	9	case	_	_
 11	پٺيان	پٺيان	ADV	ADP	_	17	advmod	_	_
-12	اهڙي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+12	اهڙي	اهڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 13	ته	ته	PART	PART	_	12	advmod:emph	_	_
 14	زور	زور	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
 15	سان	سان	ADP	PSP	_	14	case	_	_
@@ -147,7 +147,7 @@
 # text = هوءَ ڏينهون ڏينهن ڳرندي وڃي.
 1	هوءَ	هوءَ	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=2	4	nsubj	_	_
 2	ڏينهون	_	NOUN	NN	Case=Nom|ExtPos=ADV|Gender=Masc|Number=Sing	4	advmod	_	_
-3	ڏينهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	fixed	_	_
+3	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	fixed	_	_
 4	ڳرندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	0	root	_	_
 5	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3	4	compound	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -471,7 +471,7 @@
 # text = پوءِ آسمان مان هڪڙي ديوي زمين تي لهي آئي.
 1	پوءِ	پوءِ	ADV	ADT	_	8	advmod	_	_
 2	آسمان	آسمان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
-3	مان	_	ADP	PSPL	_	2	case	_	_
+3	مان	مان	ADP	PSPL	_	2	case	_	_
 4	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
 5	ديوي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 6	زمين	زمين	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
@@ -527,7 +527,7 @@
 15	سارين	ساري	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	nmod	_	_
 16	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	15	case	_	_
 17	سنگن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
-18	مان	_	ADP	PSPL	_	17	case	_	_
+18	مان	مان	ADP	PSPL	_	17	case	_	_
 19	سڀئي	سڀ	ADJ	JJ	Case=Nom	20	amod	_	_
 20	چانور	چانور	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	21	obj	_	_
 21	چڳي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
@@ -545,7 +545,7 @@
 7	نڀاڳي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
 8	ڍڳي	ڍڳو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 9	جهنگ	جهنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
-10	مان	_	ADP	PSPL	_	9	case	_	_
+10	مان	مان	ADP	PSPL	_	9	case	_	_
 11	خونخوار	خونخوار	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	12	nmod	_	_
 12	جانورن	جانور	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
 13	کي	کي	ADP	PSP	_	12	case	_	_
@@ -570,11 +570,11 @@
 # sent_id = 1962
 # text = هنن سڀني ديوتا جي صلاح سان زمين ۾ سوراخ ڪيا ۽ انهن ۾ ڪنڍا ڦاسائي وڻن سان ڄار ٻڌي ويهي رهيا.
 1	هنن	هي	PRON	PRP	Case=Acc|Number=Plur|Person=3	10	nsubj	_	_
-2	سڀني	_	ADJ	JJ	Case=Acc	1	amod	_	_
+2	سڀني	سڀ	ADJ	JJ	Case=Acc	1	amod	_	_
 3	ديوتا	ديوتا	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	3	case	_	_
 5	صلاح	صلاح	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
-6	سان	_	ADP	PSP	_	5	case	_	_
+6	سان	سان	ADP	PSP	_	5	case	_	_
 7	زمين	زمين	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 8	۾	۾	ADP	PSPL	_	7	case	_	_
 9	سوراخ	سوراخ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	xcomp	_	_
@@ -622,7 +622,7 @@
 2	هو	هو	DET	PRD	Case=Nom|Number=Sing	6	nsubj	_	_
 3	پنهنجيءَ	پنهنجيءَ	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	4	nmod	_	_
 4	هوڏ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
-5	تان	_	ADP	PSPL	_	4	case	_	_
+5	تان	تان	ADP	PSPL	_	4	case	_	_
 6	لهڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
 7	۽	۽	CCONJ	CC	_	9	cc	_	_
 8	هار	هار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	_
@@ -680,7 +680,7 @@
 9	تکا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	xcomp	_	_
 10	ڪيا	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
 11	۽	۽	CCONJ	CC	_	19	cc	_	_
-12	پوءِ	_	ADV	ADT	_	19	advmod	_	_
+12	پوءِ	پوءِ	ADV	ADT	_	19	advmod	_	_
 13	سڄي	سڄي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 14	طاقت	طاقت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
 15	سان	سان	ADP	PSP	_	14	case	_	SpaceAfter=No
@@ -703,7 +703,7 @@
 8	۽	۽	CCONJ	CC	_	19	cc	_	_
 9	وري	وري	ADV	ADM	_	12	advmod	_	_
 10	زمين	زمين	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
-11	تان	_	ADP	PSPL	_	10	case	_	_
+11	تان	تان	ADP	PSPL	_	10	case	_	_
 12	اٿي	اٿ	VERB	VM	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
 13	پوري	پوري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 14	طاقت	طاقت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
@@ -744,7 +744,7 @@
 10	آرام	آرام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
 11	۽	۽	CCONJ	CC	_	12	cc	_	_
 12	امن	امن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
-13	سان	_	ADP	PSP	_	10	case	_	_
+13	سان	سان	ADP	PSP	_	10	case	_	_
 14	گذاريندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart	0	root	_	_
 15	اچن	اچ	VERB	VM	Aspect=Imp|Number=Plur|Person=3	14	compound	_	_
 16	۽	۽	CCONJ	CC	_	23	cc	_	_
@@ -767,7 +767,7 @@
 5	دوست	دوست	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 6	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	5	case	_	_
 7	نالي	نالو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
-8	سان	_	ADP	PSP	_	7	case	_	_
+8	سان	سان	ADP	PSP	_	7	case	_	_
 9	سڏيندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart	0	root	_	_
 10	هئا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	9	punct	_	_
@@ -807,7 +807,7 @@
 17	وٺي	وٺ	VERB	VM	Aspect=Perf|VerbForm=Conv	23	advcl	_	_
 18	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	19	nmod	_	_
 19	شهر	شهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	_
-20	مان	_	ADP	PSPL	_	19	case	_	_
+20	مان	مان	ADP	PSPL	_	19	case	_	_
 21	سفر	سفر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	_
 22	تي	تي	ADP	PSPL	_	21	case	_	_
 23	هليو	هل	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	11	conj	_	SpaceAfter=No
@@ -817,7 +817,7 @@
 # text = هو اڃا ٿورو ئي اڳتي هليو هو،
 1	هو	هو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	اڃا	اڃا	ADV	ADT	_	6	advmod	_	_
-3	ٿورو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+3	ٿورو	ٿورو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 4	ئي	ئي	PART	PART	_	3	advmod:emph	_	_
 5	اڳتي	اڳتي	ADV	ADP	_	6	advmod	_	_
 6	هليو	هل	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
@@ -840,7 +840,7 @@
 12	ڀاءُ	ڀاءُ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	xcomp	_	_
 13	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	7	advcl	_	_
 14	۽	۽	CCONJ	CC	_	18	cc	_	_
-15	کانئس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	18	obl	_	_
+15	کانئس	کان	ADP	PSPX	Case=Acc|Number=Sing|Person=3	18	obl	_	_
 16	سندس	سندس	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
 17	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
 18	پڇيو	پڇ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	13	conj	_	SpaceAfter=No
@@ -849,7 +849,7 @@
 # sent_id = 2029
 # text = تنهنڪري ٻئي ماني کائڻ جي لاءِ اتي لهي پيا.
 1	تنهنڪري	تنهنڪري	SCONJ	CS	_	8	mark	_	_
-2	ٻئي	_	ADJ	JJC	Case=Nom|Number=Plur	8	nsubj	_	_
+2	ٻئي	ٻہ	ADJ	JJC	Case=Nom|Number=Plur	8	nsubj	_	_
 3	ماني	ماني	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	_
 4	کائڻ	کاءِ	VERB	VM	Aspect=Imp|VerbForm=Inf	8	advcl	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	mark	_	_
@@ -913,7 +913,7 @@
 3	چوواٽي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 4	تي	تي	ADP	PSPL	_	3	case	_	_
 5	ٻئي	ٻہ	ADJ	JJC	Case=Nom|Number=Plur	9	nsubj	_	_
-6	هڪ	_	ADJ	JJ	Case=Nom|Number=Sing	7	amod	_	_
+6	هڪ	هڪ	ADJ	JJ	Case=Nom|Number=Sing	7	amod	_	_
 7	ٻئي	ٻہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 8	کان	کان	ADP	PSP	_	7	case	_	_
 9	جدا	_	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
@@ -980,7 +980,7 @@
 2	گوڙ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
 4	آواز	آواز	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
-5	تي	_	ADP	PSPL	_	4	case	_	_
+5	تي	تي	ADP	PSPL	_	4	case	_	_
 6	هن	هن	DET	PRD	Case=Acc|Number=Sing	8	nmod	_	_
 7	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
 8	ننڊ	ننڊ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -1002,16 +1002,16 @@
 24	سامهون	سامهون	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_
 25	چانڊوڪيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	root	_	_
 26	۾	۾	ADP	PSPL	_	25	case	_	_
-27	هڪڙو	_	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	28	amod	_	_
+27	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	28	amod	_	_
 28	شينهن	شينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
 29	،	،	PUNCT	PUNCT	_	31	punct	_	_
-30	هڪڙو	_	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	31	amod	_	_
+30	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	31	amod	_	_
 31	چيتو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	28	conj	_	SpaceAfter=No
 32	،	،	PUNCT	PUNCT	_	28	punct	_	_
 
 # sent_id = 2056
 # text = هڪڙو بگهڙ ۽ هڪڙي لومڙي پاڻ ۾ ڳالهيون ويٺا ڪن.
-1	هڪڙو	_	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+1	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
 2	بگهڙ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	۽	۽	CCONJ	CC	_	5	cc	_	_
 4	هڪڙي	هڪڙو	ADJ	JJC	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
@@ -1038,7 +1038,7 @@
 11	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	10	aux	_	_
 12	۽	۽	CCONJ	CC	_	17	cc	_	_
 13	خوشيءَ	خوشيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
-14	مان	_	ADP	PSPL	_	13	case	_	_
+14	مان	مان	ADP	PSPL	_	13	case	_	_
 15	ٺينگ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_
 16	ٺپا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	obj	_	_
 17	ڏيندا	ڏي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart	10	conj	_	_
@@ -1065,7 +1065,7 @@
 5	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
 6	خاص	خاص	ADJ	JJ	Case=Nom|Degree=Pos	7	amod	_	_
 7	ٻوٽيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
-8	سان	_	ADP	PSP	_	7	case	_	_
+8	سان	سان	ADP	PSP	_	7	case	_	_
 9	ٿي	آهي	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 10	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	9	aux	_	_
 11	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	9	aux	_	SpaceAfter=No
