@@ -28,7 +28,11 @@ ALLOWED_UPOS_TO_XPOS = {
 }
 
 ALLOWED_UPOS_TO_FEATS = {
-    "ADJ":   ['Case=Acc', 'Case=Nom', 'Case=Voc', 'Degree=Cmp', 'Degree=Pos', 'Degree=Sup', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing'],
+    "ADJ":   ['Case=Acc', 'Case=Nom', 'Case=Voc',
+              'Degree=Cmp', 'Degree=Pos', 'Degree=Sup',
+              'Gender=Fem', 'Gender=Masc',
+              'Number=Plur', 'Number=Sing',
+              'PronType=Tot'],
     "ADP":   ['Case=Acc', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
     "ADV":   ['Case=Acc', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
     "AUX":   ['Aspect=Imp', 'Aspect=Perf',
@@ -155,9 +159,9 @@ ENFORCED_POS_XPOS['جيئن'] = [('ADV', 'ADM'), ('PRON', 'PRL')]
 
 # two inflections of 'all'
 ENFORCED_POS_XPOS['سڀني'] = [('ADJ', 'JJ')]  # updated all JJO -> JJ
-ENFORCED_FEATURES['سڀني'] = ["Case=Acc"]
+ENFORCED_FEATURES['سڀني'] = ["Case=Acc", "PronType=Tot"]
 ENFORCED_POS_XPOS['سڀئي'] = [('ADJ', 'JJ')]
-ENFORCED_FEATURES['سڀئي'] = ["Case=Nom"]
+ENFORCED_FEATURES['سڀئي'] = ["Case=Nom", "PronType=Tot"]
 
 ALLOWED_STRUCTURE = {
     'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
