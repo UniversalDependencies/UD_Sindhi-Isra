@@ -177,6 +177,7 @@ ALLOWED_STRUCTURE['جنهنڪري'] = [('ADV', 'advmod'), ('SCONJ', 'mark')]
 ALLOWED_STRUCTURE['هاڻي'] = [('ADV', 'advmod')]
 ALLOWED_STRUCTURE['تنهنڪري'] = [('SCONJ', 'mark')]
 ALLOWED_STRUCTURE['بلڪ'] = [('SCONJ', 'mark')]
+ALLOWED_STRUCTURE['جيڪڏھن'] = [('SCONJ', 'mark')]
 
 # this word can potentially also be ADJ, but that is not attested in the dataset
 ENFORCED_POS_XPOS['آڏو'] = [('ADP', 'PSP'), ('ADV', 'ADP')]
