@@ -115,6 +115,8 @@ can_could_aux.extend(['سگھي', 'سگھنديس', 'سگھندس', 'سگھند�
 
 for word in can_could_aux:
     ENFORCED_POS[word] = ['AUX']
+# this one has an exception in the treebank
+ENFORCED_POS['سگهو'] = ['AUX', 'ADV']
 
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
