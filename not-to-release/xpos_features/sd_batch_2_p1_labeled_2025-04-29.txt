@@ -2642,7 +2642,7 @@
 5	به	به	PART	PART	_	4	advmod:emph	_	_
 6	گڏجي	گڏ	VERB	VM	Aspect=Perf|VerbForm=Conv	7	xcomp	_	_
 7	کائڻ	کاءِ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
-8	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	7	aux	_	SpaceAfter=No
+8	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	7	compound	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = 2033
@@ -6342,14 +6342,14 @@
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
 2	مائيءَ	مائيءَ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
-4	ڇو	ڇو	PRON	PRWH	_	11	obl	_	_
+4	ڇو	ڇو	PRON	PRWH	_	3	obl	_	_
 5	نه	نه	PART	PART	_	4	dep	_	_
-6	پٽ	پٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	vocative	_	SpaceAfter=No
+6	پٽ	پٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	vocative	_	SpaceAfter=No
 7	!	!	PUNCT	PUNCT	_	6	punct	_	_
 8	توکي	تو	PRON	PRP	Case=Nom|Number=Sing|Person=2	11	iobj	_	_
 9	ڪيترا	ڪيترو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 10	ٻج	ٻج	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	obj	_	_
-11	گهرجن	گهرجي	VERB	VM	Aspect=Imp|Number=Plur|Person=3	3	ccomp	_	SpaceAfter=No
+11	گهرجن	گهرجي	VERB	VM	Aspect=Imp|Number=Plur|Person=3	3	advcl	_	SpaceAfter=No
 12	؟	؟	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
 
 # sent_id = 2931c
@@ -9983,15 +9983,15 @@
 6	نظام	نظام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
 7	بابت	بابت	ADP	PSP	_	6	case	_	_
 8	فيصلو	فيصلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
-9	پ	پ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	_
-10	پ	پ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obj	_	_
+9	پ	پ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obl	_	_
+10	پ	پ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	_
 11	۽	۽	CCONJ	CC	_	12	cc	_	_
-12	ايم	ايم	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
+12	ايم	ايم	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
 13	ڪيو	ڪيو	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	12	flat	_	_
 14	ايم	ايم	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	12	flat	_	_
-15	کي	کي	ADP	PSP	_	12	case	_	_
+15	کي	کي	ADP	PSP	_	9	case	_	_
 16	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	3	advcl	_	_
-17	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	16	aux	_	SpaceAfter=No
+17	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	16	compound	_	SpaceAfter=No
 18	،	،	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
 
 # sent_id = 3606
@@ -10121,9 +10121,9 @@
 6	به	به	PART	PART	_	5	advmod:emph	_	_
 7	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	8	nmod	_	_
 8	سرڪار	سرڪار	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
-9	کي	کي	ADP	PSP	_	10	compound	_	_
+9	کي	کي	ADP	PSP	_	8	case	_	_
 10	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
-11	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	10	aux	_	SpaceAfter=No
+11	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	10	compound	_	SpaceAfter=No
 12	،	،	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = 3615
