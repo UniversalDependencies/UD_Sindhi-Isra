@@ -229,6 +229,9 @@ for word in ('ھڪڙين', 'هڪڙين'):
     ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC')]
     ENFORCED_FEATURES[word] = ["Case=Acc", "Number=Plur", "Gender=Fem"]
 
+# Depending on the context, جلد can be noun or adverb. As ADV, it should always be ADM.
+ENFORCED_POS_XPOS['جلد'] = [('ADV', 'ADM'), ('NOUN', 'NN')]
+
 # We keep a list of fixed expressions where we expect each occurrence of the words in order
 # to have the deprel fixed and the listed UPOS/ExtPos.  
 FixedExpression = namedtuple('FixedExpression', 'words extpos')
