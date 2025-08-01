@@ -96,6 +96,8 @@ for word in ('هجان', 'هجون', 'هجين', 'هجو', 'هجي', 'هجن'):
     ENFORCED_POS[word] = ["AUX"]
 for word in ('ھجان', 'ھجون', 'ھجين', 'ھجو', 'ھجي', 'ھجن'):
     ENFORCED_POS[word] = ["AUX"]
+for word in ('ہجان', 'ہجون', 'ہجين', 'ہجو', 'ہجي', 'ہجن'):
+    ENFORCED_POS[word] = ["AUX"]
 for word in ('ٿيندو', 'ٿيندا', 'ٿيندي', 'ٿينديون'):
     ENFORCED_POS[word] = ["VERB"]
 ENFORCED_POS['هجئي'] = ["AUX"]
