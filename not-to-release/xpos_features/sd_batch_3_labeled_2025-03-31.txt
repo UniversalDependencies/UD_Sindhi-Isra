@@ -8329,7 +8329,7 @@
 
 # sent_id = 4101
 # text = جيتوڻيڪ هنن جي پوڙهن سان ڪچهري ڪبي آهي ته انگريزن جي خلاف نفرت صاف جهلڪندي آهي پر هتان جي قومپرست جماعت ”شن فين“ ڪا خاص مقبول پارٽي ڪانه آهي ۽ عام ماڻهن ۾ هن پارٽيءَ لاءِ تاثرات سٺا ڪونه آهن.
-1	جيتوڻيڪ	جيتوڻيڪ	ADV	ADT	_	7	mark	_	_
+1	جيتوڻيڪ	جيتوڻيڪ	SCONJ	CS	_	7	mark	_	_
 2	هنن	هي	PRON	PRP	Case=Acc|Number=Plur|Person=3	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
 4	پوڙهن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obl	_	_
@@ -8338,28 +8338,28 @@
 7	ڪبي	ڪبو	VERB	VM	Aspect=Imp|Number=Sing|Voice=Pass	0	root	_	_
 8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	7	aux	_	_
 9	ته	ته	SCONJ	CS	_	15	mark	_	_
-10	انگريزن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	nmod	_	_
+10	انگريزن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	nmod	_	_
 11	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	10	case	_	_
-12	خلاف	خلاف	ADP	PSP	_	15	advmod	_	_
+12	خلاف	خلاف	ADP	PSP	_	10	case	_	_
 13	نفرت	نفرت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 14	صاف	صاف	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	15	xcomp	_	_
-15	جهلڪندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	7	xcomp	_	_
+15	جهلڪندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	7	advcl	_	_
 16	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	15	aux	_	_
-17	پر	پر	SCONJ	CS	_	15	mark	_	_
+17	پر	پر	SCONJ	CS	_	29	mark	_	_
 18	هتان	هتي	NOUN	NN	Case=Acc	21	nmod	_	_
 19	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	18	case	_	_
 20	قومپرست	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	21	amod	_	_
-21	جماعت	جماعت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_
-22	”	”	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
-23	شن	_	PROPN	NNP	Case=Nom|Gender=Masc	24	nmod	_	_
-24	فين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+21	جماعت	جماعت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nmod	_	_
+22	”	”	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+23	شن	_	PROPN	NNP	Case=Nom|Gender=Masc	29	nsubj	_	_
+24	فين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	flat	_	SpaceAfter=No
 25	“	“	PUNCT	PUNCT	_	24	punct	_	_
-26	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	29	nmod	_	_
+26	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	29	det	_	_
 27	خاص	خاص	ADJ	JJ	Case=Nom|Degree=Pos	29	amod	_	_
 28	مقبول	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	29	amod	_	_
-29	پارٽي	پارٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nmod	_	_
-30	ڪانه	ڪانه	PART	PART	_	15	ccomp	_	_
-31	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	30	cop	_	_
+29	پارٽي	پارٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	advcl	_	_
+30	ڪانه	ڪانه	PART	PART	_	29	advmod	_	_
+31	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	29	cop	_	_
 32	۽	۽	CCONJ	CC	_	40	cc	_	_
 33	عام	عام	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	34	amod	_	_
 34	ماڻهن	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	40	obl	_	_
@@ -8368,10 +8368,10 @@
 37	پارٽيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	40	obl	_	_
 38	لاءِ	لاءِ	ADP	PSP	_	37	case	_	_
 39	تاثرات	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	40	nsubj	_	_
-40	سٺا	سٺو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	30	conj	_	_
+40	سٺا	سٺو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	29	conj	_	_
 41	ڪونه	ڪونه	PART	PART	_	40	dep	_	_
 42	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	40	cop	_	SpaceAfter=No
-43	.	.	PUNCT	PUNCT	_	30	punct	_	_
+43	.	.	PUNCT	PUNCT	_	40	punct	_	_
 
 # sent_id = 4102
 # text = هتان جي حڪومت پنهنجي ٻوليءَ آئرش جنهن کي ”گيلڪ“ پڻ چون ٿا،
