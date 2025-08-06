@@ -1717,13 +1717,13 @@
 # text = پر جيئن ئي سمنڊ جي طوفاني لهر ڪناري ڏانهن آئي ته هنن کي حملي ڪرڻ جو وجهه ئي ڪونه مليو.
 1	پر	پر	SCONJ	CS	_	10	mark	_	_
 2	جيئن	جيئن	ADV	ADM	_	10	advmod	_	_
-3	ئي	ئي	ADP	PSPL	_	2	case	_	_
+3	ئي	ئي	ADP	PSPL	_	2	advmod:emph	_	_
 4	سمنڊ	سمنڊ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	4	case	_	_
 6	طوفاني	طوفاني	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
 7	لهر	لهر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 8	ڪناري	ڪنارو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
-9	ڏانهن	ڏانهن	ADV	ADP	_	8	case	_	_
+9	ڏانهن	ڏانهن	ADP	PSP	_	8	case	_	_
 10	آئي	آئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
 11	ته	ته	SCONJ	CS	_	10	mark	_	_
 12	هنن	هي	PRON	PRP	Case=Acc|Number=Plur|Person=3	20	nsubj	_	_
@@ -1732,7 +1732,7 @@
 15	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	17	nmod	_	_
 16	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	15	mark	_	_
 17	وجهه	وجهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	obj	_	_
-18	ئي	ئي	PART	PART	_	17	case	_	_
+18	ئي	ئي	PART	PART	_	17	advmod:emph	_	_
 19	ڪونه	ڪونه	PART	PART	_	20	dep	_	_
 20	مليو	مل	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	10	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	20	punct	_	_
@@ -2332,11 +2332,11 @@
 # text = جيئن ته ڏينهن جو هو هڪڙي ئي هنڌ ويٺو هوندو هو ۽ راند رهڻ لاءِ وٽس ڪي به ڪين هوندو هو،
 1	جيئن	جيئن	ADV	ADM	_	9	advmod	_	_
 2	ته	ته	SCONJ	CS	_	9	mark	_	_
-3	ڏينهن	ڏينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+3	ڏينهن	ڏينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 4	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 5	هو	هو	DET	PRD	Case=Nom|Number=Sing	9	nsubj	_	_
 6	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
-7	ئي	ئي	PART	PART	_	6	case	_	_
+7	ئي	ئي	PART	PART	_	6	advmod:emph	_	_
 8	هنڌ	هنڌ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
 9	ويٺو	ويٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 10	هوندو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|VerbForm=PresPart	9	aux	_	_
