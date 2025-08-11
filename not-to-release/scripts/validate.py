@@ -153,7 +153,8 @@ ENFORCED_POS['۽'] = ['CCONJ']
 
 ENFORCED_POS['ڪٿي'] = ['ADV']
 
-for word in ('ھڪ', 'هڪ'):
+ENFORCED_POS['ٻئي'] = ['ADJ']    # both
+for word in ('ھڪ', 'هڪ'):   # one
     ENFORCED_POS[word] = ['NUM']
 
 ENFORCED_POS_XPOS['۾'] = [('ADP', 'PSPL')]
