@@ -54,7 +54,7 @@ ALLOWED_UPOS_TO_FEATS = {
               'Gender=Fem', 'Gender=Masc',
               'Number=Plur', 'Number=Sing',
               'Person=3'],
-    "NUM":   ['Case=Nom', 'Number=Sing'],
+    "NUM":   ['Case=Acc', 'Case=Nom', 'Number=Sing'],
     "PART":  ['PartType=Emp'],
     "PRON":  ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=2', 'Person=3'],
     "PROPN": ['Case=Abl', 'Case=Acc', 'Case=Nom', 'Case=Voc', 'Gender=Fem', 'Gender=Masc', 'Number=Sing'],
@@ -156,6 +156,8 @@ ENFORCED_POS['ڪٿي'] = ['ADV']
 ENFORCED_POS['ٻئي'] = ['ADJ']    # both
 for word in ('ھڪ', 'هڪ'):   # one
     ENFORCED_POS[word] = ['NUM']
+ENFORCED_POS['ٻن'] = ['NUM'] # two, Case=Acc
+ENFORCED_FEATURES['ٻن'] = ['Case=Acc']
 
 ENFORCED_POS_XPOS['۾'] = [('ADP', 'PSPL')]
 ENFORCED_POS_XPOS['ڪيئن'] = [('ADV', 'ADM'), ('PRON', 'PRWH')]
