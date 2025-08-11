@@ -3718,7 +3718,7 @@
 15	لالچي	_	ADJ	JJ	Case=Nom	16	amod	_	_
 16	ڪانگ	ڪانگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 17	سڙي	سڙي	VERB	VM	Aspect=Imp	18	xcomp	_	_
-18	رک	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+18	رک	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
 19	ٿي	آهي	AUX	VAUX	Number=Sing	18	cop	_	_
 20	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	18	compound	_	SpaceAfter=No
 21	،	،	PUNCT	PUNCT	_	18	punct	_	_
@@ -4588,10 +4588,10 @@
 6	هميشه	هميشه	ADV	ADT	_	13	advmod	_	_
 7	پاڻ	پاڻ	PRON	PRP	Case=Acc|Person=1	13	obl	_	_
 8	سان	سان	ADP	PSP	_	7	case	_	_
-9	گڏ	گڏ	ADV	ADV	_	8	case	_	_
+9	گڏ	گڏ	ADV	ADV	_	13	advmod	_	_
 10	گدڙ	گدڙ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
 11	کي	کي	ADP	PSP	_	10	case	_	_
-12	به	به	PART	PART	_	13	mark	_	_
+12	به	به	PART	PART	_	10	advmod:emph	_	_
 13	کڻندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	2	advcl	_	_
 14	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	13	aux	_	SpaceAfter=No
 15	،	،	PUNCT	PUNCT	_	13	punct	_	_
@@ -6033,8 +6033,8 @@
 3	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
 4	مڙس	مڙس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 5	به	به	PART	PART	_	4	advmod:emph	_	_
-6	ان	ان	DET	PRD	Case=Acc|Number=Sing	7	nmod	_	_
-7	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
+6	ان	ان	DET	PRD	Case=Acc|Number=Sing	7	det	_	_
+7	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
 8	موجود	موجود	ADJ	JJ	Case=Nom	0	root	_	_
 9	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	8	cop	_	SpaceAfter=No
 10	،	،	PUNCT	PUNCT	_	8	punct	_	_
@@ -9857,8 +9857,8 @@
 18	پوندو	پوڻ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	17	compound	_	_
 19	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	17	aux	_	_
 20	۽	۽	CCONJ	CC	_	30	cc	_	_
-21	ڪنهن	ڪو	PRON	PRWH	Case=Acc|Number=Sing	24	det	_	_
-22	نه	نه	PART	PART	_	21	dep	_	_
+21	ڪنهن	ڪو	PRON	PRWH	Case=Acc|Number=Sing	24	nmod	_	_
+22	نه	نه	PART	PART	_	21	advmod:emph	_	_
 23	ڪنهن	ڪو	PRON	PRWH	Case=Acc|Number=Sing	24	nmod	_	_
 24	ترندڙ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
 25	کي	کي	ADP	PSP	_	24	case	_	_
