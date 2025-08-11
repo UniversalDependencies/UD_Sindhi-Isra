@@ -54,7 +54,7 @@ ALLOWED_UPOS_TO_FEATS = {
               'Gender=Fem', 'Gender=Masc',
               'Number=Plur', 'Number=Sing',
               'Person=3'],
-    "NUM":   ['Case=Acc', 'Case=Nom', 'Number=Sing'],
+    "NUM":   ['Case=Acc', 'Case=Nom', 'Number=Plur', 'Number=Sing'],
     "PART":  ['PartType=Emp'],
     "PRON":  ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=2', 'Person=3'],
     "PROPN": ['Case=Abl', 'Case=Acc', 'Case=Nom', 'Case=Voc', 'Gender=Fem', 'Gender=Masc', 'Number=Sing'],
@@ -160,6 +160,8 @@ ENFORCED_POS['ٻن'] = ['NUM'] # two, Case=Acc
 ENFORCED_FEATURES['ٻن'] = ['Case=Acc']
 # ENFORCED_POS['هزارن'] = ['NUM'] # thousands, Case=Acc
 # ENFORCED_FEATURES['هزارن'] = ['Case=Acc', 'Number=Plur']
+ENFORCED_POS['لکن'] = ['NUM', 'VERB'] # millions, Case=Acc, can also be VERB
+ENFORCED_FEATURES[('لکن', 'NUM')] = ['Case=Acc', 'Number=Plur']
 
 ENFORCED_POS_XPOS['۾'] = [('ADP', 'PSPL')]
 ENFORCED_POS_XPOS['ڪيئن'] = [('ADV', 'ADM'), ('PRON', 'PRWH')]
