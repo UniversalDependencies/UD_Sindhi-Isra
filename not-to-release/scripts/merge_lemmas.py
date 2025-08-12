@@ -41,7 +41,7 @@ def set_lemmas(filename, lemmas, remove_existing, unknown_only, words_allowed):
     for sentence in doc.sentences:
         for word in sentence.words:
             if (word.text, word.upos) in lemmas:
-                if words_allowed is not None and word.text != words_allowed:
+                if words_allowed != [] and word.text not in words_allowed:
                     continue
                 if word.lemma is None or not unknown_only:
                     word.lemma = lemmas[(word.text, word.upos)]
@@ -56,7 +56,7 @@ def main():
                         help="If a lemma is currently set, but is not in the known lemma files, remove it.  Makes it easy to look for ones which have been manually edited")
     parser.add_argument('--unknown_only', action='store_true', default=False, dest='unknown_only',
                         help="Only update lemmas which are currently blank")
-    parser.add_argument('--word', default=None, help='Only update lemmas for this word.  Useful for doing updates piecemeal to verify their correctness')
+    parser.add_argument('--word', default=[], action='append', help='Only update lemmas for this word.  Useful for doing updates piecemeal to verify their correctness')
     args = parser.parse_args()
 
     tsv_files = glob.glob("../lemmas/*.tsv")
