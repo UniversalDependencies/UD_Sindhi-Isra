@@ -158,8 +158,8 @@ for word in ('ھڪ', 'هڪ'):   # one
     ENFORCED_POS[word] = ['NUM']
 ENFORCED_POS['ٻن'] = ['NUM'] # two, Case=Acc
 ENFORCED_FEATURES['ٻن'] = ['Case=Acc']
-# ENFORCED_POS['هزارن'] = ['NUM'] # thousands, Case=Acc
-# ENFORCED_FEATURES['هزارن'] = ['Case=Acc', 'Number=Plur']
+ENFORCED_POS['هزارن'] = ['NUM'] # thousands, Case=Acc
+ENFORCED_FEATURES['هزارن'] = ['Case=Acc', 'Number=Plur']
 ENFORCED_POS['لکن'] = ['NUM', 'VERB'] # millions, Case=Acc, can also be VERB
 ENFORCED_FEATURES[('لکن', 'NUM')] = ['Case=Acc', 'Number=Plur']
 
