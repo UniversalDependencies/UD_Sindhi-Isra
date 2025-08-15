@@ -614,13 +614,13 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                         if not printed:
                             printed = True
                             print("XPOS ERRORS")
-                        print("Sentence %s (%d) word %d |%s| (line %d) had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.xpos, word.upos))
+                        print("Sentence %s (%d) word %d |%s| (line %d) had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.xpos, word.upos))
                 else:
                     problem_sentences.add(sent_idx)
                     if not printed:
                         printed = True
                         print("XPOS ERRORS")
-                    print("Sentence %s (%d) word %d |%s| had unknown upos |%s| with xpos |%s|" % (sent.sent_id, sent_idx, word_idx, word.text, word.upos, word.xpos))
+                    print("Sentence %s (%d) word %d |%s| had unknown upos |%s| with xpos |%s|" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.upos, word.xpos))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -630,7 +630,7 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                 if not printed:
                     printed = True
                     print("BLANK FEAT ERRORS")
-                print("Sentence %s (%d) word %d had blank features" % (sent.sent_id, sent_idx, word_idx))
+                print("Sentence %s (%d) word %d had blank features" % (sent.sent_id, sent_idx, word_idx+1))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -693,7 +693,7 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                     if not printed:
                         printed = True
                         print("FEATURE ERRORS")
-                    print("Sentence %s (%d) word %d (line %d) had an unexpected upos %s with features" % (sent.sent_id, sent_idx, word_idx, word.line_number+1, word.upos))
+                    print("Sentence %s (%d) word %d (line %d) had an unexpected upos %s with features" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.upos))
                     continue
                 if not word.feats or word.feats == '_':
                     if word.upos in DISALLOWED_BLANK_FEATS:
@@ -701,7 +701,7 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                         if not printed:
                             printed = True
                             print("FEATURE ERRORS")
-                        print("Sentence %s (%d) word %d (line %d) had blank features, which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx, word.line_number+1, word.upos))
+                        print("Sentence %s (%d) word %d (line %d) had blank features, which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.upos))
                     continue
                 feat_pieces = word.feats.split("|")
                 for feat in feat_pieces:
@@ -710,14 +710,14 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                         if not printed:
                             printed = True
                             print("FEATURE ERRORS")
-                        print("Sentence %s (%d) word %d |%s| (line %d) had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, feat, word.upos))
+                        print("Sentence %s (%d) word %d |%s| (line %d) had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat, word.upos))
                 for feat in feat_pieces:
                     if len(feat.split("=")) <= 1:
                         problem_sentences.add(sent_idx)
                         if not printed:
                             printed = True
                             print("FEATURE ERRORS")
-                        print("Sentence %s (%d) word %d |%s| (line %d) had an incomplete feature, not key=value: %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, feat))
+                        print("Sentence %s (%d) word %d |%s| (line %d) had an incomplete feature, not key=value: %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat))
                         continue
                 if word.upos == 'ADP':
                     feat_map = {x: y for x, y in [x.split("=", maxsplit=1) for x in feat_pieces]}
@@ -726,7 +726,7 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                             if not printed:
                                 printed = True
                                 print("FEATURE ERRORS")
-                            print("Sentence %s (%d) word %d |%s| (line %d) had Case=%s but an xpos %s which is not allowed to have Case" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, feat_map['Case'], word.xpos))
+                            print("Sentence %s (%d) word %d |%s| (line %d) had Case=%s but an xpos %s which is not allowed to have Case" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat_map['Case'], word.xpos))
                 if word.upos == 'VERB':
                     feat_map = {x: y for x, y in [x.split("=", maxsplit=1) for x in feat_pieces]}
                     if 'VerbForm' in feat_map and feat_map['VerbForm'] == 'Inf':
