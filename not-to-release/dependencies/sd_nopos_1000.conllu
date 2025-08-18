@@ -1294,31 +1294,28 @@
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 330
-# text = مون ڪتاب جي علمي.
-1	مون	مون	PRON	_	_	4	nsubj	_	_
-2	ڪتاب	ڪتاب	NOUN	_	_	4	nmod	_	_
-3	جي	جي	ADP	_	_	2	case	_	_
-4	علمي	_	ADJ	_	_	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	_
-
-# sent_id = 331
-# text = اصلاحي ۽ تفريحي پهلوئن کي ذهن ۾ رکندي فورن انهن مطالبن ورنائڻ جون هدايتون ڏنيون.
-1	اصلاحي	_	ADJ	_	_	4	amod	_	_
-2	۽	۽	CCONJ	_	_	3	cc	_	_
-3	تفريحي	تفريحي	ADJ	_	_	1	conj	_	_
-4	پهلوئن	_	NOUN	_	_	8	obj	_	_
-5	کي	کي	ADP	_	_	4	case	_	_
-6	ذهن	_	NOUN	_	_	8	obl	_	_
-7	۾	۾	ADP	_	_	6	case	_	_
-8	رکندي	رکندو	VERB	_	_	15	advcl	_	_
-9	فورن	_	NOUN	_	_	12	obl	_	_
-10	انهن	ان	DET	_	_	11	det	_	_
-11	مطالبن	_	NOUN	_	_	12	obj	_	_
-12	ورنائڻ	_	VERB	_	_	14	nmod	_	_
-13	جون	جو	ADP	_	_	12	mark	_	_
-14	هدايتون	هدايت	NOUN	_	_	15	xcomp	_	_
-15	ڏنيون	ڏني	VERB	_	_	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	15	punct	_	_
+# text = مون ڪتاب جي علمي, اصلاحي ۽ تفريحي پهلوئن کي ذهن ۾ رکندي فورن انهن مطالبن ورنائڻ جون هدايتون ڏنيون.
+1	مون	_	PRON	PRP	Case=Acc|Number=Sing|Person=1	20	nsubj	_	_
+2	ڪتاب	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+3	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
+4	علمي	_	ADJ	JJ	Case=Nom|Degree=Pos	9	amod	_	SpaceAfter=No
+5	,	_	PUNCT	PUNCT	_	6	punct	_	_
+6	اصلاحي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	conj	_	_
+7	۽	_	CCONJ	CC	_	8	cc	_	_
+8	تفريحي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	conj	_	_
+9	پهلوئن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+10	کي	_	ADP	PSP	_	9	case	_	_
+11	ذهن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+12	۾	_	ADP	PSPL	_	11	case	_	_
+13	رکندي	_	VERB	VM	Aspect=Imp|VerbForm=PresPart|Voice=Act	20	advcl	_	_
+14	فورن	_	ADV	ADM	_	17	advmod	_	_
+15	انهن	_	DET	PRD	Case=Acc|Number=Plur	16	det	_	_
+16	مطالبن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	obj	_	_
+17	ورنائڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	19	nmod	_	_
+18	جون	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	17	mark	_	_
+19	هدايتون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	obj	_	_
+20	ڏنيون	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+21	.	_	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
 
 # sent_id = 332
 # text = اڄ هڪ دل ڇُهندڙ ڪتاب جي صورت ۾ اهڙين هدايتن جي ساڀيا ڏسندي پاڻ کي نهايت ئي ڀاڳ ڀريو محسوس ڪريان ٿو.
