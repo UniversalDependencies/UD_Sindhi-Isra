@@ -4695,8 +4695,8 @@
 
 # sent_id = 3900
 # text = ڪراچي اندر ٿيل بم ڌماڪي کانپوءِ اُتي دڪانن ۽ مارڪيٽن جي ڪيل لُٽ مار ۽ باهيون ڏيڻ جي واقعن ۾ اربين روپين جو نقصان ٿي چڪو آهي.
-1	ڪراچي	ڪراچي	PROPN	NNP	Case=Acc|Gender=Masc	2	nmod	_	_
-2	اندر	اندر	ADP	PSPL	_	3	obl	_	_
+1	ڪراچي	ڪراچي	PROPN	NNP	Case=Acc|Gender=Masc	3	obl	_	_
+2	اندر	اندر	ADP	PSPL	_	1	case	_	_
 3	ٿيل	آهي	VERB	VM	Aspect=Perf|VerbForm=PastPart	5	acl	_	_
 4	بم	بم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
 5	ڌماڪي	ڌماڪو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
@@ -6336,8 +6336,8 @@
 4	غور	غور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
 5	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 6	ته	ته	SCONJ	CS	_	18	mark	_	_
-7	پاڪستان	پاڪستان	PROPN	NNP	Case=Acc|Gender=Masc	8	obl	_	_
-8	اندر	اندر	ADP	PSPL	_	18	advmod	_	_
+7	پاڪستان	پاڪستان	PROPN	NNP	Case=Acc|Gender=Masc	10	nmod	_	_
+8	اندر	اندر	ADP	PSPL	_	7	case	_	_
 9	سياسي	سياسي	ADJ	JJ	Case=Nom|Degree=Pos	10	amod	_	_
 10	عمل	عمل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 11	”	”	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
@@ -7239,7 +7239,7 @@
 # text = هن جي اندر ۾ انتقام جو لاوو پچي رهيو هو،
 1	هن	هن	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	1	case	_	_
-3	اندر	اندر	ADP	PSPL	_	8	obl	_	_
+3	اندر	اندر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
 5	انتقام	انتقام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 6	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
