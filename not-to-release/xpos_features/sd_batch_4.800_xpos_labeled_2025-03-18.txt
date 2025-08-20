@@ -13392,12 +13392,12 @@
 3	ته	ته	SCONJ	CS	_	12	mark	_	_
 4	سڀني	سڀ	ADJ	JJ	Case=Acc|PronType=Tot	6	amod	_	_
 5	اعليٰ	اعليٰ	ADJ	JJ	Case=Nom|Degree=Pos	6	amod	_	_
-6	ادارن	اداراو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+6	ادارن	اداراو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	iobj	_	_
 7	کي	کي	ADP	PSP	_	6	case	_	_
 8	سيڪيورٽي	سيڪيورٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
-9	فراهم	فراهم	NOUN	NN	Case=Nom|Number=Sing	11	obl	_	_
-10	نه	نه	PART	PART	_	11	dep	_	_
-11	ٿا	آهي	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	12	xcomp	_	_
+9	فراهم	فراهم	NOUN	NN	Case=Nom|Number=Sing	12	obl	_	_
+10	نه	نه	PART	PART	_	12	advmod	_	_
+11	ٿا	آهي	AUX	VAUX	Number=Plur|Tense=Pres	12	aux	_	_
 12	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	2	advcl	_	_
 13	سگهون	_	AUX	VAUX	Number=Plur|Person=1	12	aux	_	SpaceAfter=No
 14	،	،	PUNCT	PUNCT	_	12	punct	_	_
@@ -17541,16 +17541,16 @@
 # text = ھن چيو ته اسان اھڙي ڪا به اجازت نه ٿا ڏيون،
 1	ھن	ھي	DET	PRD	Case=Acc|Number=Sing|Person=3	2	nsubj	_	_
 2	چيو	چئو	VERB	VM	Aspect=Perf	0	root	_	_
-3	ته	ته	SCONJ	CS	_	10	mark	_	_
-4	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	10	nsubj	_	_
+3	ته	ته	SCONJ	CS	_	11	mark	_	_
+4	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	11	nsubj	_	_
 5	اھڙي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 6	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	8	det	_	_
 7	به	به	PART	PART	_	6	advmod:emph	_	_
-8	اجازت	اجازت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	_
-9	نه	نه	PART	PART	_	10	dep	_	_
-10	ٿا	آهي	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	2	ccomp	_	_
-11	ڏيون	ڏي	AUX	VAUX	Number=Plur|Tense=Pres	10	aux	_	SpaceAfter=No
-12	،	،	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+8	اجازت	اجازت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
+9	نه	نه	PART	PART	_	11	advmod	_	_
+10	ٿا	آهي	AUX	VAUX	Number=Plur|Tense=Pres	11	aux	_	_
+11	ڏيون	ڏي	VERB	VM	Asperct=Imp|Number=Plur	2	advcl	_	SpaceAfter=No
+12	،	،	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
 
 # sent_id = 5118
 # text = ھاڻ قيدين پنھنجي ئي ساٿي مظھر تي پڻ حملو ڪري 4 سپاھين کي يرغمال ڪيو آھي،
