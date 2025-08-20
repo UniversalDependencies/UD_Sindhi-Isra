@@ -989,7 +989,7 @@
 8	ڪرائڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	10	nmod	_	_
 9	جون	جو	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	8	mark	_	_
 10	هدايتون	هدايت	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	obj	_	_
-11	جاري	جاري	VERB	VM	Aspect=Imp	12	xcomp	_	_
+11	جاري	جاري	ADV	ADM	_	12	advmod	_	_
 12	ڪيون	ڪيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	0	root	_	_
 13	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	12	aux	_	SpaceAfter=No
 14	،	،	PUNCT	PUNCT	_	12	punct	_	_
@@ -1029,7 +1029,7 @@
 6	ويب	ويب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
 7	سائيٽ	سائيٽ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 8	تي	تي	ADP	PSPL	_	7	case	_	_
-9	جاري	جاري	VERB	VM	Aspect=Imp	10	xcomp	_	_
+9	جاري	جاري	ADV	ADM	_	10	advmod	_	_
 10	ڪيا	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
 11	ويندا	ويندو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	10	compound	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	10	punct	_	_
@@ -1755,7 +1755,7 @@
 65	فوج	فوج	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	73	nsubj	_	_
 66	دهشتگردي	دهشتگرد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	68	obl	_	_
 67	خلاف	خلاف	ADP	PSPL	_	66	case	_	_
-68	جاري	جاري	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	69	acl	_	_
+68	جاري	جاري	VERB	VM	Aspect=Imp	69	nmod	_	_
 69	جنگ	جنگ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	73	obj	_	_
 70	کي	کي	ADP	PSP	_	69	case	_	_
 71	انجام	انجام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	73	obl	_	_
@@ -2129,18 +2129,18 @@
 # text = هن چيو ته آمريڪا سان ٻطرفن لاڳاپن ۾ واڌ لاءِ ڪوششون جاري رهنديون.
 1	هن	هن	DET	PRD	Case=Acc|Number=Sing|Person=3	2	nsubj	_	_
 2	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
-3	ته	ته	SCONJ	CS	_	12	mark	_	_
-4	آمريڪا	آمريڪا	PROPN	NNP	Case=Nom|Gender=Masc	12	obl	_	_
+3	ته	ته	SCONJ	CS	_	13	mark	_	_
+4	آمريڪا	آمريڪا	PROPN	NNP	Case=Nom|Gender=Masc	13	obl	_	_
 5	سان	سان	ADP	PSP	_	4	case	_	_
 6	ٻطرفن	ٻطرف	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
-7	لاڳاپن	لاڳاپو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	_
+7	لاڳاپن	لاڳاپو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
 8	۾	۾	ADP	PSPL	_	7	case	_	_
-9	واڌ	واڌ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+9	واڌ	واڌ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 10	لاءِ	لاءِ	ADP	PSP	_	9	case	_	_
-11	ڪوششون	ڪوشش	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	compound	_	_
-12	جاري	جاري	VERB	VM	Aspect=Imp	2	advcl	_	_
-13	رهنديون	رهـ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|Voice=Act	12	compound	_	SpaceAfter=No
-14	.	.	PUNCT	PUNCT	_	12	punct	_	_
+11	ڪوششون	ڪوشش	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	obj	_	_
+12	جاري	جاري	ADV	ADM	_	13	advmod	_	_
+13	رهنديون	رهـ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|Voice=Act	2	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = 5358
 # text = اسامابن لادن زندهه آهي ۽ ڪٿي لڪيل آهي:اڳوڻو آمريڪي صدر بش نئين دهلي (آن لائن) آمريڪا جي اڳوڻي صدر جارج ڊبليو بش چيو آهي ته القاعده جو سربراهه اسامابن لادن زنده آهي ۽ ڪنهن هنڌ تي لڪيل آهي،
@@ -7374,14 +7374,14 @@
 28	سسٽم	سسٽم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
 29	آسان	آسان	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	20	advcl	_	_
 30	۽	۽	CCONJ	CC	_	31	cc	_	_
-31	جاري	جاري	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	29	conj	_	_
-32	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	31	aux	_	SpaceAfter=No
-33	،	،	PUNCT	PUNCT	_	31	punct	_	_
+31	جاري	جاري	VERB	VM	Aspect=Imp	29	conj	_	_
+32	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	29	cop	_	SpaceAfter=No
+33	،	،	PUNCT	PUNCT	_	29	punct	_	_
 
 # sent_id = 5620
 # text = جيڪو جاري ئي رهندو.
-1	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	جاري	جاري	VERB	VM	Aspect=Imp	4	advcl	_	_
+1	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+2	جاري	جاري	ADV	ADM	_	4	advmod	_	_
 3	ئي	ئي	PART	PART	_	2	advmod:emph	_	_
 4	رهندو	ره	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -8461,7 +8461,7 @@
 25	پيڙائيءَ	پيڙائيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	nmod	_	_
 26	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	25	case	_	_
 27	حڪم	حڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	obj	_	_
-28	جاري	جاري	VERB	VM	Aspect=Perf	29	compound	_	_
+28	جاري	جاري	ADV	ADM	_	29	advmod	_	_
 29	ڪيا	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	11	advcl	_	_
 30	۽	۽	CCONJ	CC	_	33	cc	_	_
 31	اڄ	اڄ	ADV	ADT	_	33	advmod	_	_
@@ -8578,10 +8578,10 @@
 # sent_id = 5679
 # text = جو اها حڪم ته جاري ڪري ٿي،
 1	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	6	mark	_	_
-2	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+2	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 3	حڪم	حڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 4	ته	ته	PART	PART	_	3	advmod:emph	_	_
-5	جاري	جاري	VERB	VM	Aspect=Imp|Voice=Act	6	xcomp	_	_
+5	جاري	جاري	ADV	ADM	_	6	advmod	_	_
 6	ڪري	ڪر	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 7	ٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	6	punct	_	_
@@ -8626,8 +8626,8 @@
 9	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	8	aux	_	_
 10	ته	ته	SCONJ	CS	_	8	mark	_	_
 11	پوءِ	پوءِ	ADV	ADT	_	17	advmod	_	_
-12	حڪم	حڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
-13	جاري	جاري	VERB	VM	Aspect=Imp	17	advcl	_	_
+12	حڪم	حڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
+13	جاري	جاري	ADV	ADM	_	17	advmod	_	_
 14	ئي	ئي	ADP	PSP	_	13	mark	_	_
 15	ڇو	_	VERB	VM	Aspect=Perf|Number=Sing	17	advcl	_	_
 16	ٿا	آهي	AUX	VAUX	Number=Plur|Tense=Pres	17	aux	_	_
@@ -9577,7 +9577,7 @@
 # sent_id = 5726
 # text = ڊاڪٽر ڀون راءِ روپاڻي/حيدرآباد پل جي تعمير تي تڪرار سنڌوءَ درياءَ تي ٽن نين پلن اڏائڻ جو نوٽيفيڪشن جاري ٿي ويو آهي،
 1	ڊاڪٽر	ڊاڪٽر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
-2	ڀون	_	PROPN	NNP	Case=Nom|Gender=Masc	21	parataxis	_	_
+2	ڀون	_	PROPN	NNP	Case=Nom|Gender=Masc	20	parataxis	_	_
 3	راءِ	راءِ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
 4	روپاڻي	_	PROPN	NNP	Case=Nom|Gender=Masc	2	flat	_	SpaceAfter=No
 5	/	/	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
@@ -9595,12 +9595,12 @@
 17	پلن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	obj	_	_
 18	اڏائڻ	اڏاءِ	VERB	VM	Aspect=Imp|VerbForm=Inf	20	nmod	_	_
 19	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	18	mark	_	_
-20	نوٽيفيڪشن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
-21	جاري	جاري	VERB	VM	Aspect=Imp	0	root	_	_
-22	ٿي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	21	aux	_	_
-23	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	21	compound	_	_
+20	نوٽيفيڪشن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+21	جاري	جاري	ADV	ADM	_	20	advmod	_	_
+22	ٿي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	20	cop	_	_
+23	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	20	compound	_	_
 24	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	23	aux	_	SpaceAfter=No
-25	،	،	PUNCT	PUNCT	_	21	punct	_	_
+25	،	،	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = 5727
 # text = جن مان هڪ پل تڪرار جو سبب بڻجي وئي آهي.
@@ -9836,9 +9836,9 @@
 4	سنڌي	سنڌي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 5	هنڌو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
 6	ڀائر	ڀائر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
-7	ورهاڱي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+7	ورهاڱي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 8	کان	کان	ADP	PSP	_	7	case	_	_
-9	جاري	جاري	VERB	VM	Aspect=Imp	10	xcomp	_	_
+9	جاري	جاري	ADV	ADM	_	10	advmod	_	_
 10	رکيو	رک	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 11	اچن	اچ	VERB	VM	Aspect=Imp|Number=Plur|Person=3	10	compound	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	10	punct	_	_
