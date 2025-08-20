@@ -5045,11 +5045,11 @@
 # text = اڃا پاڻي پهتو ئي نه هيو ته 2 آگسٽ تي ڪشمور کان خيرپور - لاڙڪاڻو پل تائين ڪيترن بندن ۽ ڪچي جي ماڻهن کي ٻڌايو سين ته نڪرو ،
 1	اڃا	اڃا	ADV	ADT	_	3	advmod	_	_
 2	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-3	پهتو	پهتو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	6	advcl	_	_
-4	ئي	ئي	PART	PART	_	3	mark	_	_
+3	پهتو	پهتو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+4	ئي	ئي	PART	PART	_	3	advmod:emph	_	_
 5	نه	نه	PART	PART	_	3	advmod	_	_
-6	هيو	هيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
-7	ته	ته	SCONJ	CS	_	6	mark	_	_
+6	هيو	آھي	AUX	VAUX	Number=Sing|Tense=Past	3	aux	_	_
+7	ته	ته	SCONJ	CS	_	25	mark	_	_
 8	2	2	NUM	NUM	_	9	nmod	_	_
 9	آگسٽ	آگسٽ	PROPN	NNP	Case=Acc|Gender=Fem	25	obl	_	_
 10	تي	تي	ADP	PSPL	_	9	case	_	_
@@ -5067,7 +5067,7 @@
 22	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	21	case	_	_
 23	ماڻهن	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obj	_	_
 24	کي	کي	ADP	PSP	_	23	case	_	_
-25	ٻڌايو	ٻڌاءِ	VERB	VM	Aspect=Perf|Number=Sing	6	advcl	_	_
+25	ٻڌايو	ٻڌاءِ	VERB	VM	Aspect=Perf|Number=Sing	3	advcl	_	_
 26	سين	سين	PRON	PRP	Number=Plur|Person=1	25	compound	_	_
 27	ته	ته	SCONJ	CS	_	28	mark	_	_
 28	نڪرو	نڪر	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3	25	advcl	_	_
