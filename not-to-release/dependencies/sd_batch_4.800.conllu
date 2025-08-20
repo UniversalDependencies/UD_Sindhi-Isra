@@ -3331,26 +3331,21 @@
 7	،	،	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 4629
-# text = جيڪو هاڻي هر نئين مالياتي ايوارڊ مطابق وڌائي 9.
-1	جيڪو	جيڪو	PRON	_	_	8	nsubj	_	_
-2	هاڻي	هاڻ	ADV	_	_	8	advmod	_	_
-3	هر	هر	DET	_	_	6	det	_	_
-4	نئين	نئين	ADJ	_	_	6	amod	_	_
-5	مالياتي	مالياتي	NOUN	_	_	6	nmod	_	_
-6	ايوارڊ	ايوارڊ	NOUN	_	_	8	obl	_	_
-7	مطابق	مطابق	ADP	_	_	6	case	_	_
-8	وڌائي	وڌاءِ	VERB	_	_	0	root	_	_
-9	9	9	NUM	_	_	8	advmod	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	8	punct	_	_
-
-# sent_id = 4630
-# text = 09 سيڪڙو ڪيو ويو آهي.
-1	09	_	NUM	_	_	2	nummod	_	_
-2	سيڪڙو	سيڪڙو	NOUN	_	_	3	nsubj	_	_
-3	ڪيو	ڪيو	VERB	_	_	0	root	_	_
-4	ويو	ويو	VERB	_	_	3	compound	_	_
-5	آهي	آهي	AUX	_	_	3	aux	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	3	punct	_	_
+# text = جيڪو هاڻي هر نئين مالياتي ايوارڊ مطابق وڌائي 9 سيڪڙو ڪيو ويو آهي.
+1	جيڪو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	هاڻي	_	ADV	ADT	_	11	advmod	_	_
+3	هر	_	DET	PRD	Case=Nom|Number=Sing	5	det	_	_
+4	نئين	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	مالياتي	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	ايوارڊ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+7	مطابق	_	ADP	PSP	_	6	case	_	_
+8	وڌائي	_	VERB	VM	Aspect=Perf|Voice=Act	11	advcl	_	_
+9	9	_	NUM	NUM	_	10	nummod	_	_
+10	سيڪڙو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	obj	_	_
+11	ڪيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+12	ويو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	11	compound	_	_
+13	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
+14	.	_	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
 
 # sent_id = 4631
 # text = مجموعي طور بلوچستان کي وڌيڪ 83 ارب رپيا ملي رهيا آهن ۽ ائين سراسري طور هاڻ بلوچستان کي هن نئين قومي مالياتي ايوارڊ مطابق ٻيڻي رقم ملندي،
