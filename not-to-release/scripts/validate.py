@@ -128,6 +128,12 @@ ENFORCED_FEATURES['سگهين'] = ['Person=2', 'Number=Sing']
 ENFORCED_FEATURES['سگهي'] = ['Person=3', 'Number=Sing']
 ENFORCED_FEATURES['سگهن'] = ['Person=3', 'Number=Plur']
 
+# demonstrative pronoun or aux verb
+ENFORCED_POS['هو'] = ['AUX', 'DET']
+
+# this one reviewed by Prof Rahman, can be quite a few possibilities
+ENFORCED_POS['ڇو'] = ['VERB', 'PRON', 'ADV', 'SCONJ']
+
 ENFORCED_POS['ڄڻ'] = ['PRON']
 
 ENFORCED_POS_XPOS['ڪڏهن'] = [('ADV', 'ADT')]
