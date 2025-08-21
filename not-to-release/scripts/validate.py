@@ -133,6 +133,7 @@ ENFORCED_POS['هو'] = ['AUX', 'DET']
 
 # this one reviewed by Prof Rahman, can be quite a few possibilities
 ENFORCED_POS['ڇو'] = ['VERB', 'PRON', 'ADV', 'SCONJ']
+ENFORCED_POS['ڪن'] = ['DET', 'NOUN', 'VERB']
 
 ENFORCED_POS['ڄڻ'] = ['PRON']
 
