@@ -277,15 +277,15 @@
 # sent_id = 275
 # text = اهو ٻڌي راجا ڏاڍو ناراض ٿيو ۽ هن حڪم ڏنو ته انهيءَ عملدار کي هڪدم مارايو وڃي.
 1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
-2	ٻڌي	ٻڌ	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
-3	راجا	راجا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	ٻڌي	ٻڌ	VERB	VM	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
+3	راجا	راجا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
-5	ناراض	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	6	xcomp	_	_
-6	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+5	ناراض	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	cop	_	_
 7	۽	۽	CCONJ	CC	_	10	cc	_	_
 8	هن	هن	DET	PRD	Case=Acc|Number=Sing	10	nsubj	_	_
 9	حڪم	حڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
-10	ڏنو	ڏنو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	6	conj	_	_
+10	ڏنو	ڏنو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	conj	_	_
 11	ته	ته	SCONJ	CS	_	16	mark	_	_
 12	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	13	det	_	_
 13	عملدار	عملدار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
@@ -368,16 +368,16 @@
 6	ڏٺو	ڏٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 7	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	6	aux	_	SpaceAfter=No
 8	؟	؟	PUNCT	PUNCT	_	6	punct	_	_
-9	پر	پر	SCONJ	CS	_	16	mark	_	_
+9	پر	پر	SCONJ	CS	_	13	mark	_	_
 10	هيءُ	هيءُ	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	11	det	_	_
-11	هاٿي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+11	هاٿي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 12	ٿلهو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
-13	متارو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	xcomp	_	_
-14	ڇو	ڇو	ADV	ADV	_	16	advmod	_	_
+13	متارو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	advcl	_	_
+14	ڇو	ڇو	ADV	ADV	_	13	advmod	_	_
 15	نه	نه	PART	PART	_	14	advmod:emph	_	_
-16	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	6	advcl	_	_
-17	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	16	aux	_	SpaceAfter=No
-18	؟	؟	PUNCT	PUNCT	_	16	punct	_	_
+16	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	13	cop	_	_
+17	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	13	aux	_	SpaceAfter=No
+18	؟	؟	PUNCT	PUNCT	_	13	punct	_	_
 19	وزير	وزير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
 20	واڇون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	obj	_	_
 21	ٽيڙي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	26	advcl	_	_
@@ -385,7 +385,7 @@
 23	ته	ته	PART	PART	_	22	advmod:emph	_	_
 24	زور	زور	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	26	obl	_	_
 25	سان	سان	ADP	PSP	_	24	case	_	_
-26	کليو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	16	advcl	_	_
+26	کليو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	13	advcl	_	_
 27	جو	جو	ADP	PSP	_	26	mark	_	_
 28	هن	هن	DET	PRD	Case=Acc|Number=Sing	32	nmod	_	_
 29	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	28	case	_	_
@@ -1641,11 +1641,11 @@
 
 # sent_id = 267
 # text = راجا ڏاڍو خوش ٿيو.
-1	راجا	راجا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+1	راجا	راجا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
-3	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	4	xcomp	_	_
-4	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+3	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
+4	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	3	cop	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 268
 # text = پر هن جي اها خوشي گهڻو وقت نه هلي.
@@ -1688,11 +1688,11 @@
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	4	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	اهڙو	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
-4	حال	حال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	حال	حال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 5	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	7	obl	_	_
 6	ڪري	ڪري	ADP	PSP	_	5	case	_	_
-7	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	7	aux	_	_
+7	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	cop	_	_
+8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	4	aux	_	_
 9	جو	جو	SCONJ	CS	_	20	mark	_	_
 10	هاٿين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	nmod	_	_
 11	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	10	case	_	_
@@ -1703,8 +1703,8 @@
 16	پوريءَ	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
 17	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
 18	خوراڪ	خوراڪ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	obj	_	_
-19	ڪانه	ڪانه	PART	PART	_	20	dep	_	_
-20	ڏني	ڏني	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	7	advcl	_	SpaceAfter=No
+19	ڪانه	ڪانه	PART	PART	_	20	advmod	_	_
+20	ڏني	ڏني	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	4	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = 277

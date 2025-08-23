@@ -457,18 +457,18 @@
 # sent_id = birdsofsindh_barbet_24
 # text = مارچ 2020 ۾ پهريون ڀيرو پنهنجي ڳوٺ ۾ ڪاپرسمٿ باربيٽ جو مشاهدو ٿيو جيڪو تصويرن ۽ وڊيوز جي صورت ۾ محفوظ ڪيو تہ ان کان پوء مسلسل هن ننڍڙي خوبصورت پکي تي نظر رهندي پئي اچي.
 1	مارچ	مارچ	PROPN	NNP	Case=Nom|Gender=Masc	2	nmod	_	_
-2	2020	2020	NUM	NUM	_	13	obl	_	_
+2	2020	2020	NUM	NUM	_	12	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
 4	پهريون	پهريون	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
-5	ڀيرو	ڀيرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obl	_	_
+5	ڀيرو	ڀيرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
 6	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	7	nmod	_	_
-7	ڳوٺ	ڳوٺ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+7	ڳوٺ	ڳوٺ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 8	۾	۾	ADP	PSPL	_	7	case	_	_
 9	ڪاپرسمٿ	ڪاپرسمٿ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
 10	باربيٽ	باربيٽ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
 11	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	10	case	_	_
-12	مشاهدو	مشاهدو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
-13	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+12	مشاهدو	مشاهدو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+13	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	12	cop	_	_
 14	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
 15	تصويرن	تصوير	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nmod	_	_
 16	۽	۽	CCONJ	CC	_	17	cc	_	_
@@ -477,7 +477,7 @@
 19	صورت	صورت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
 20	۾	۾	ADP	PSPL	_	19	case	_	_
 21	محفوظ	محفوظ	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	22	xcomp	_	_
-22	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	13	advcl	_	_
+22	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	12	advcl	_	_
 23	تہ	تہ	SCONJ	CS	_	34	mark	_	_
 24	ان	ان	DET	PRD	Case=Acc|Number=Sing	34	obl	_	_
 25	کان	کان	ADP	PSP	_	24	case	_	_
@@ -655,14 +655,14 @@
 7	۾	۾	ADP	PSPL	_	6	case	_	_
 8	خوراڪ	خوراڪ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 9	لاءِ	لاءِ	ADP	PSP	_	8	case	_	_
-10	ويهندو	ويهندو	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	15	advcl	_	_
+10	ويهندو	ويهندو	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	14	advcl	_	_
 11	آ	آهي	AUX	VAUX	Number=Sing|Tense=Pres	10	aux	_	_
-12	ته	ته	SCONJ	CS	_	15	mark	_	_
-13	ڳولڻ	ڳول	VERB	VM	Aspect=Imp|VerbForm=Inf	15	advcl	_	_
-14	مشڪل	مشڪل	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	xcomp	_	_
-15	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-16	پوي	پو	VERB	VM	Aspect=Imp|Number=Sing|Person=3	15	compound	_	SpaceAfter=No
-17	.	.	PUNCT	PUNCT	_	15	punct	_	_
+12	ته	ته	SCONJ	CS	_	14	mark	_	_
+13	ڳولڻ	ڳول	VERB	VM	Aspect=Imp|VerbForm=Inf	14	advcl	_	_
+14	مشڪل	مشڪل	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+15	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	14	cop	_	_
+16	پوي	پو	VERB	VM	Aspect=Imp|Number=Sing|Person=3	14	compound	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	14	punct	_	_
 
 # newdoc
 # newpar

@@ -5225,14 +5225,14 @@
 # sent_id = 3929
 # text = مثال طور جيئن هاڻي ڪراچيءَ ۾ ٿيو آهي.
 1	مثال	مثال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
-2	طور	طور	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obl	_	_
-3	جيئن	جيئن	ADV	ADM	_	7	advmod	_	_
-4	هاڻي	هاڻ	ADV	ADT	_	7	advmod	_	_
-5	ڪراچيءَ	ڪراچيءَ	PROPN	NNP	Case=Acc|Gender=Fem	7	obl	_	_
+2	طور	طور	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	جيئن	جيئن	ADV	ADM	_	2	advmod	_	_
+4	هاڻي	هاڻ	ADV	ADT	_	2	advmod	_	_
+5	ڪراچيءَ	ڪراچيءَ	PROPN	NNP	Case=Acc|Gender=Fem	2	obl	_	_
 6	۾	۾	ADP	PSPL	_	5	case	_	_
-7	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	7	aux	_	SpaceAfter=No
-9	.	.	PUNCT	PUNCT	_	7	punct	_	_
+7	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	2	cop	_	_
+8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	2	aux	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = 3930
 # text = اُتي معاملن کي منهن ڏيڻ کان سٽي گورنمينٽ بلڪل نابري واري ويٺي آهي،
@@ -8069,7 +8069,7 @@
 9	هڪ	هڪ	NUM	NUM	_	12	nummod	_	_
 10	تمام	تمام	ADV	ADV	_	9	dep	_	_
 11	ڏورانهين	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
-12	شهر	شهر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
+12	شهر	شهر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
 13	ليٽر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
 14	ڪينيءَ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
 15	۾	۾	ADP	PSPL	_	14	case	_	_
@@ -8077,11 +8077,11 @@
 17	دفعي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	obl	_	_
 18	بس	بس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
 19	ذريعي	ذريعو	ADP	PSP	_	18	case	_	_
-20	وڃڻ	وڃ	VERB	VM	Aspect=Imp|VerbForm=Inf	22	obl	_	_
+20	وڃڻ	وڃ	VERB	VM	Aspect=Imp|VerbForm=Inf	22	nmod	_	_
 21	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	20	mark	_	_
-22	اتفاق	اتفاق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	xcomp	_	_
-23	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
-24	.	.	PUNCT	PUNCT	_	23	punct	_	_
+22	اتفاق	اتفاق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+23	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	22	cop	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	22	punct	_	_
 
 # sent_id = 4084
 # text = ڊگهي سفر ڪري مون کي ڏاڍو ٿڪ هو سو سيٽ تي ئي ليٽي پيس ۽ ننڊ کڄي وئي.
@@ -9301,11 +9301,11 @@
 8	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	case	_	_
 9	متعلق	متعلق	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	_
 10	اڃا	اڃا	ADV	ADT	_	12	advmod	_	_
-11	بحث	بحث	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	xcomp	_	_
+11	بحث	بحث	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	_
 12	هلي	هل	VERB	VM	Aspect=Imp	0	root	_	_
 13	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	12	compound	_	_
 14	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	12	aux	_	_
-15	ته	ته	SCONJ	CS	_	12	mark	_	_
+15	ته	ته	SCONJ	CS	_	22	mark	_	_
 16	ڀر	ڀر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	_
 17	واري	وارو	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	16	case	_	_
 18	اجڙيل	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	19	amod	_	_
@@ -9315,12 +9315,12 @@
 22	رکڻ	رکڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	25	nmod	_	_
 23	واري	وارو	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	22	mark	_	_
 24	هڪ	هڪ	NUM	NUM	_	25	nummod	_	_
-25	شخص	شخص	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	nmod	_	_
+25	شخص	شخص	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	obl	_	_
 26	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	25	case	_	_
-27	اتان	اتي	ADV	ADP	_	29	advmod	_	_
-28	گذر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	xcomp	_	_
-29	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	12	advcl	_	SpaceAfter=No
-30	.	.	PUNCT	PUNCT	_	29	punct	_	_
+27	اتان	اتي	ADV	ADP	_	28	advmod	_	_
+28	گذر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	advcl	_	_
+29	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	28	cop	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	28	punct	_	_
 
 # sent_id = 4153
 # text = چٻري رڙ ڪري ان همراهه کي پاڻ وٽ سڏيو ۽ عرض ڪيو ته هو هن جي ۽ طوطي جي وچ ۾ هلندڙ جهيڙي جو فيصلو ڪري.
@@ -10773,7 +10773,7 @@
 # sent_id = 4242
 # text = هن وقت تائين، طبعيات جي ماهرن ۽ گيتڪارن جي وچ ۾ بحث مباحثي جو ڪو سلسلو نه ٿيو آهي.
 1	هن	هن	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
-2	وقت	وقت	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+2	وقت	وقت	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
 3	تائين	_	ADV	ADT	_	2	case	_	SpaceAfter=No
 4	،	،	PUNCT	PUNCT	_	2	punct	_	_
 5	طبعيات	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
@@ -10782,17 +10782,17 @@
 8	۽	۽	CCONJ	CC	_	9	cc	_	_
 9	گيتڪارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	_
 10	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	case	_	_
-11	وچ	وچ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+11	وچ	وچ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
 12	۾	۾	ADP	PSPL	_	11	case	_	_
 13	بحث	بحث	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	compound	_	_
 14	مباحثي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_
 15	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	14	case	_	_
 16	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	17	det	_	_
-17	سلسلو	سلسلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
-18	نه	نه	PART	PART	_	19	dep	_	_
-19	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-20	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	19	aux	_	SpaceAfter=No
-21	.	.	PUNCT	PUNCT	_	19	punct	_	_
+17	سلسلو	سلسلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+18	نه	نه	PART	PART	_	17	advmod	_	_
+19	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	17	cop	_	_
+20	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	17	aux	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	17	punct	_	_
 
 # sent_id = 4243
 # text = جيتوڻيڪ سائنس ۽ ٽيڪنالاجي حقيقت ۾ هن موجوده دنيا ۾ ڏاڍي ترقي ڪئي آهي.
@@ -13572,15 +13572,15 @@
 
 # sent_id = 4408
 # text = ڇا جهان خاني جهان ڪڏهن ختم ٿيو آهي؟
-1	ڇا	ڇا	PRON	PRWH	_	7	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	_	6	obl	_	_
 2	جهان	جهان	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
 3	خاني	خاني	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
-4	جهان	جهان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-5	ڪڏهن	ڪڏهن	ADV	ADT	_	7	advmod	_	_
-6	ختم	ختم	ADJ	JJ	Case=Nom|Degree=Pos	7	compound	_	_
-7	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	7	aux	_	SpaceAfter=No
-9	؟	؟	PUNCT	PUNCT	_	7	punct	_	_
+4	جهان	جهان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	ڪڏهن	ڪڏهن	ADV	ADT	_	6	advmod	_	_
+6	ختم	ختم	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
+7	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	6	cop	_	_
+8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
+9	؟	؟	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 4409
 # text = چون ته جمهوريت آهي،
@@ -14852,12 +14852,12 @@
 # text = ادارن جو احترام وڌڻ شروع ٿيو آهي،
 1	ادارن	اداراو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
-3	احترام	احترام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-4	وڌڻ	وڌ	VERB	VM	Aspect=Imp|VerbForm=Inf	6	xcomp	_	_
-5	شروع	شروع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	_
-6	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-7	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	SpaceAfter=No
-8	،	،	PUNCT	PUNCT	_	6	punct	_	_
+3	احترام	احترام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+4	وڌڻ	وڌ	VERB	VM	Aspect=Imp|VerbForm=Inf	5	advcl	_	_
+5	شروع	شروع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	cop	_	_
+7	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	5	aux	_	SpaceAfter=No
+8	،	،	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 4481
 # text = پارليامينٽ پنهنجا پر سورڻ شروع ڪيا آهن،
@@ -14875,19 +14875,19 @@
 1	انڌو	انڌو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
 2	منڊو	منڊو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
 3	ئي	ئي	PART	PART	_	2	advmod:emph	_	_
-4	ٺيڪ	ٺيڪ	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	obl	_	_
-5	پر	پر	SCONJ	CS	_	14	dep	_	_
+4	ٺيڪ	ٺيڪ	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	obl	_	_
+5	پر	پر	SCONJ	CS	_	13	mark	_	_
 6	اين	اين	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
 7	ايف	ايف	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
 8	سي	سي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
-9	ايوارڊ	ايوارڊ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+9	ايوارڊ	ايوارڊ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 10	متفقه	متفقه	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	_
-11	طور	طور	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+11	طور	طور	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
 12	تي	تي	ADP	PSPL	_	11	case	_	_
-13	منظور	منظور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	xcomp	_	_
-14	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-15	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	14	aux	_	SpaceAfter=No
-16	.	.	PUNCT	PUNCT	_	14	punct	_	_
+13	منظور	منظور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+14	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	13	cop	_	_
+15	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	13	aux	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = 4483
 # text = بلوچستان جي ورهين کان اڊڙيل ڦٽن تي مرهم رکڻ واري ڪم جي شروعات ٿي آهي.
