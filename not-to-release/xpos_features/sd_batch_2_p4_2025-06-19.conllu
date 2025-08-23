@@ -333,23 +333,23 @@
 # text = ڪن ڏينهن گذرڻ کان پوءِ هونگ وانگ بادشاهه جو اتان لنگهڻ ٿيو ۽ هن کي به اها آکاڻي ٻڌائي ويئي.
 1	ڪن	_	DET	PRD	Case=Acc|Number=Plur	2	det	_	_
 2	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	obj	_	_
-3	گذرڻ	گذرڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	12	advcl	_	_
+3	گذرڻ	گذرڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	11	advcl	_	_
 4	کان	کان	ADP	PSP	_	3	mark	_	_
 5	پوءِ	پوءِ	ADP	PSP	_	4	fixed	_	_
 6	هونگ	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 7	وانگ	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
-8	بادشاهه	بادشاهه	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+8	بادشاهه	بادشاهه	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 9	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
 10	اتان	اتي	ADV	ADP	_	11	advmod	_	_
-11	لنگهڻ	لنگھ	VERB	VM	Aspect=Imp|VerbForm=Inf	12	xcomp	_	_
-12	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+11	لنگهڻ	لنگھ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
+12	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	11	aux	_	_
 13	۽	۽	CCONJ	CC	_	19	cc	_	_
 14	هن	هن	DET	PRD	Case=Acc|Number=Sing	19	nsubj	_	_
 15	کي	کي	ADP	PSP	_	14	case	_	_
 16	به	به	PART	PART	_	14	advmod:emph	_	_
 17	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	18	det	_	_
 18	آکاڻي	آکاڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	obj	_	_
-19	ٻڌائي	ٻڌا	VERB	VM	Aspect=Perf|Number=Sing	12	conj	_	_
+19	ٻڌائي	ٻڌا	VERB	VM	Aspect=Perf|Number=Sing	11	conj	_	_
 20	ويئي	وڃ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	19	compound	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	19	punct	_	_
 
@@ -1313,18 +1313,18 @@
 
 # sent_id = 2096
 # text = پر دوست کي بلڪل ڊپ نه ٿيو ۽ هو محل ڏانهن ويو.
-1	پر	پر	SCONJ	CS	_	7	mark	_	_
-2	دوست	دوست	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nsubj	_	_
+1	پر	پر	SCONJ	CS	_	5	mark	_	_
+2	دوست	دوست	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	بلڪل	بلڪل	ADV	ADV	_	5	advmod	_	_
-5	ڊپ	ڊپ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
-6	نه	نه	PART	PART	_	7	dep	_	_
-7	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+5	ڊپ	ڊپ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	نه	نه	PART	PART	_	5	advmod	_	_
+7	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	cop	_	_
 8	۽	۽	CCONJ	CC	_	12	cc	_	_
 9	هو	هو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 10	محل	محل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 11	ڏانهن	ڏانهن	ADV	ADP	_	12	advmod	_	_
-12	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	7	conj	_	SpaceAfter=No
+12	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	conj	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 2097

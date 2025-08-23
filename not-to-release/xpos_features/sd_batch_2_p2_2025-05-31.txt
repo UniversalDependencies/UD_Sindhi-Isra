@@ -31,16 +31,16 @@
 
 # sent_id = 1306
 # text = هن کي ايترو ته ڏک ٿيو جو هوءَ بيمار ٿي پيئي.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	nsubj	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	nsubj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
-3	ايترو	ايترو	ADV	ADT	_	6	advmod	_	_
+3	ايترو	ايترو	ADV	ADT	_	5	advmod	_	_
 4	ته	ته	PART	PART	_	3	advmod:emph	_	_
-5	ڏک	ڏک	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	_
-6	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-7	جو	جو	ADP	PSP	_	10	mark	_	_
+5	ڏک	ڏک	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	cop	_	_
+7	جو	جو	SCONJ	CS	_	10	mark	_	_
 8	هوءَ	هوءَ	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 9	بيمار	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	10	xcomp	_	_
-10	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	6	advcl	_	_
+10	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	5	advcl	_	_
 11	پيئي	پيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	10	compound	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
@@ -718,12 +718,12 @@
 12	ڏسي	ڏس	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 13	ورتو	ورتو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	12	compound	_	_
 14	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	12	aux	_	_
-15	۽	۽	CCONJ	CC	_	19	cc	_	_
-16	هن	هن	DET	PRD	Case=Acc|Number=Sing	19	nsubj	_	_
+15	۽	۽	CCONJ	CC	_	18	cc	_	_
+16	هن	هن	DET	PRD	Case=Acc|Number=Sing	18	nsubj	_	_
 17	کي	کي	ADP	PSP	_	16	case	_	_
-18	شڪ	شڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	compound	_	_
-19	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	12	conj	_	SpaceAfter=No
-20	.	.	PUNCT	PUNCT	_	19	punct	_	_
+18	شڪ	شڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+19	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	18	cop	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	18	punct	_	_
 
 # sent_id = 1573
 # text = پوڙهي ڏاڍي خوش پئي لڳي ته شڪر آهي جو باندرن ۽ شينهن مان ڇوٽڪارو مليو.

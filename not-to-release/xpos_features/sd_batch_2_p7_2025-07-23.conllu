@@ -13,12 +13,12 @@
 9	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	10	det	_	_
 10	سوکڙي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
 11	ملي	مل	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
-12	ته	ته	SCONJ	CS	_	16	mark	_	_
-13	هو	هو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+12	ته	ته	SCONJ	CS	_	15	mark	_	_
+13	هو	هو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 14	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
-15	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	16	xcomp	_	_
-16	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	11	advcl	_	SpaceAfter=No
-17	.	.	PUNCT	PUNCT	_	16	punct	_	_
+15	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	11	advcl	_	_
+16	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	15	cop	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
 # sent_id = 1939
 # text = چانورن کي ڏسي ۽ اهي کائي هن جي دل ۾ لالچ ٿي ۽ هن سڀئي چانور خريد ڪري پاڻ سان کڻي وڃڻ گهريا.
@@ -1186,9 +1186,9 @@
 
 # sent_id = 2088
 # text = صبح ٿيو ته دوست ڳوٺ مان ٻاهر نڪري جهنگ ۾ گهمڻ لڳو، اتي هڪڙو ريڍار ويٺو هو.
-1	صبح	صبح	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-3	ته	ته	SCONJ	CS	_	8	mark	_	_
+1	صبح	صبح	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	1	cop	_	_
+3	ته	ته	SCONJ	CS	_	12	mark	_	_
 4	دوست	دوست	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 5	ڳوٺ	ڳوٺ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 6	مان	مان	ADP	PSPL	_	5	case	_	_
@@ -1197,7 +1197,7 @@
 9	جهنگ	جهنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 10	۾	۾	ADP	PSPL	_	9	case	_	_
 11	گهمڻ	گهُم	VERB	VM	Aspect=Imp|VerbForm=Inf	12	xcomp	_	_
-12	لڳو	لڳو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	2	advcl	_	SpaceAfter=No
+12	لڳو	لڳو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	1	advcl	_	SpaceAfter=No
 13	،	،	PUNCT	PUNCT	_	12	punct	_	_
 14	اتي	اتي	ADV	ADT	_	17	advmod	_	_
 15	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	_
@@ -1615,14 +1615,14 @@
 # sent_id = 3107
 # text = هڪڙي ڏينهن ڇا ٿيو جو هوا ڏاڍي تيز لڳي ۽ تصوير آسمان ڏانهن اُڏامي ويئي.
 1	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
-2	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
-3	ڇا	ڇا	PRON	PRWH	_	4	obj	_	_
-4	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-5	جو	جو	ADP	PSP	_	4	mark	_	_
+2	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	_
+3	ڇا	ڇا	PRON	PRWH	_	0	root	_	_
+4	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	3	cop	_	_
+5	جو	جو	SCONJ	CS	_	9	mark	_	_
 6	هوا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 7	ڏاڍي	ڏاڍي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	تيز	تيز	ADJ	JJ	Case=Nom|Degree=Pos	9	xcomp	_	_
-9	لڳي	لڳ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	4	advcl	_	_
+9	لڳي	لڳ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	3	advcl	_	_
 10	۽	۽	CCONJ	CC	_	14	cc	_	_
 11	تصوير	تصوير	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 12	آسمان	آسمان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_

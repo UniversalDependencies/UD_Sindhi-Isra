@@ -871,19 +871,19 @@
 
 # sent_id = 464
 # text = پر هن کان رهيو نه ٿيو ۽ هن زور سان هڪڙو ٽهڪ ڏنو،
-1	پر	پر	SCONJ	CS	_	6	mark	_	_
-2	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	nsubj	_	_
+1	پر	پر	SCONJ	CS	_	4	mark	_	_
+2	هن	هن	DET	PRD	Case=Acc|Number=Sing	4	nsubj	_	_
 3	کان	کان	ADP	PSP	_	2	case	_	_
-4	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	6	xcomp	_	_
-5	نه	نه	PART	PART	_	6	dep	_	_
-6	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+4	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+5	نه	نه	PART	PART	_	4	dep	_	_
+6	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	aux	_	_
 7	۽	۽	CCONJ	CC	_	13	cc	_	_
 8	هن	هن	DET	PRD	Case=Acc|Number=Sing	13	nsubj	_	_
 9	زور	زور	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
 10	سان	سان	ADP	PSP	_	9	case	_	_
 11	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	_
 12	ٽهڪ	ٽهڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
-13	ڏنو	ڏنو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	6	conj	_	SpaceAfter=No
+13	ڏنو	ڏنو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	conj	_	SpaceAfter=No
 14	،	،	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = 472
@@ -1429,10 +1429,10 @@
 
 # sent_id = 538
 # text = هن کي ڊپ ٿيو ته هاڻي چيتو مارڻ کان سواءِ نه ڇڏيندو.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	4	nsubj	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing	3	nsubj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
-3	ڊپ	ڊپ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
-4	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+3	ڊپ	ڊپ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	3	cop	_	_
 5	ته	ته	SCONJ	CS	_	12	mark	_	_
 6	هاڻي	هاڻ	ADV	ADT	_	12	advmod	_	_
 7	چيتو	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -1440,7 +1440,7 @@
 9	کان	کان	ADP	PSP	_	8	mark	_	_
 10	سواءِ	_	ADP	PSP	_	9	fixed	_	_
 11	نه	نه	PART	PART	_	12	dep	_	_
-12	ڇڏيندو	ڇڏ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	4	advcl	_	SpaceAfter=No
+12	ڇڏيندو	ڇڏ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	3	advcl	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 539
@@ -2228,18 +2228,18 @@
 
 # sent_id = 957
 # text = چيتي کي ايترو ته سور ٿيو جو اڇلجي گهر مان ٻاهر نڪري ويو.
-1	چيتي	چيتو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nsubj	_	_
+1	چيتي	چيتو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
-3	ايترو	ايترو	ADV	ADT	_	6	advmod	_	_
+3	ايترو	ايترو	ADV	ADT	_	5	advmod	_	_
 4	ته	ته	PART	PART	_	3	advmod:emph	_	_
-5	سور	سور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	_
-6	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-7	جو	جو	ADP	PSP	_	6	mark	_	_
+5	سور	سور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	cop	_	_
+7	جو	جو	ADP	PSP	_	5	mark	_	_
 8	اڇلجي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
 9	گهر	گهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 10	مان	مان	ADP	PSPL	_	9	case	_	_
 11	ٻاهر	ٻاهر	ADV	ADP	_	12	advmod	_	_
-12	نڪري	نڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+12	نڪري	نڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
 13	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	12	compound	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
@@ -2418,9 +2418,9 @@
 
 # sent_id = 1088
 # text = ڇا ٿيو جو ٻين ڇوڪرن ٿائو کام جو گاڏڙو پپر جي هڪ تمام وڏي وڻ جي ڇانوَ ۾ آڻي بيهاريو.
-1	ڇا	ڇا	PRON	PRWH	_	2	nsubj	_	_
-2	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-3	جو	جو	ADP	PSP	_	2	mark	_	_
+1	ڇا	ڇا	PRON	PRWH	_	0	root	_	_
+2	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	1	cop	_	_
+3	جو	جو	ADP	PSP	_	1	mark	_	_
 4	ٻين	ٻيو	ADJ	JJO	Case=Acc|Number=Plur	5	amod	_	_
 5	ڇوڪرن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
 6	ٿائو	_	PROPN	NNP	Case=Nom|Gender=Masc	9	nmod	_	_
@@ -2437,7 +2437,7 @@
 17	ڇانوَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
 18	۾	۾	ADP	PSPL	_	17	case	_	_
 19	آڻي	آڻ	VERB	VM	Aspect=Perf|VerbForm=Conv	20	xcomp	_	_
-20	بيهاريو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	2	advcl	_	SpaceAfter=No
+20	بيهاريو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	1	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = 1090
@@ -2495,14 +2495,14 @@
 
 # sent_id = 1098
 # text = انهيءَ تي ٿائو کام به ڏاڍو خوش ٿيو.
-1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	8	obl	_	_
+1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	7	obl	_	_
 2	تي	تي	ADP	PSPL	_	1	case	_	_
 3	ٿائو	_	VERB	VM	Aspect=Perf|Number=Sing	4	nmod	_	_
-4	کام	کام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	کام	کام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 5	به	به	PART	PART	_	4	advmod:emph	_	_
 6	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
-7	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	8	compound	_	_
-8	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+7	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
+8	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	7	cop	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 1100
