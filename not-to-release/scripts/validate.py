@@ -207,6 +207,8 @@ ALLOWED_STRUCTURE['جيڪڏھن'] = [('SCONJ', 'mark')]
 ENFORCED_POS_XPOS['آڏو'] = [('ADP', 'PSP'), ('ADV', 'ADP')]
 ALLOWED_STRUCTURE['آڏو'] = [('ADP', 'case'), ('ADV', 'advmod')]
 
+ALLOWED_STRUCTURE['ٿيو'] = [('AUX', 'aux'), ('AUX', 'cop')]
+
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
     "CCONJ": ["advmod"],
