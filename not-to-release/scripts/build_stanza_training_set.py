@@ -70,7 +70,7 @@ def official_split(paths, doc):
     test_doc = read_directory(*test_globs, strip_xpos=False)
     dev_doc = read_directory(*dev_globs, strip_xpos=False)
     train_doc = filter_duplicates(doc, test_doc)
-    train_doc = filter_duplicates(doc, dev_doc)
+    train_doc = filter_duplicates(train_doc, dev_doc)
     return (train_doc, dev_doc, test_doc)
 
 def split_document(paths, doc, use_official_split):
