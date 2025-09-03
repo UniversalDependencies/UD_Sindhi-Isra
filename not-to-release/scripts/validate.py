@@ -553,22 +553,8 @@ def check_th_words(new_doc, check_xpos):
             print(error)
     return problem_sentences
 
-def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
+def check_punct_root(new_doc):
     problem_sentences = set()
-
-    problem_sentences |= check_unknown_upos(new_doc)
-    problem_sentences |= check_no_root_sentences(new_doc)
-    problem_sentences |= check_space_in_word(new_doc)
-    problem_sentences |= check_punct_word_labels(new_doc)
-    problem_sentences |= check_pos_deprel_happiness(new_doc, check_xpos)
-    problem_sentences |= check_unexpected_space_after(new_doc)
-    problem_sentences |= check_xpos_required(new_doc, check_xpos, require_xpos)
-    problem_sentences |= check_pos_xpos_happiness(new_doc, check_xpos)
-    problem_sentences |= check_fixed(new_doc, check_feats)
-    problem_sentences |= check_missing_heads(new_doc)
-    problem_sentences |= check_missing_deprel(new_doc)
-    problem_sentences |= check_th_words(new_doc, check_xpos)
-
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         punct = sent.words[-1]
@@ -580,7 +566,10 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                 print("PUNCT ROOT")
             problem_sentences.add(sent_idx)
             print("Sentence %s (%d) has a punct word as the root" % (sent.sent_id, sent_idx))
+    return problem_sentences
 
+def check_multiple_roots(new_doc):
+    problem_sentences = set()
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         if sum(x.deprel == 'root' for x in sent.words) > 1:
@@ -590,7 +579,10 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
             problem_sentences.add(sent_idx)
             possible_roots = [(x.text, x.upos, x.id) for x in sent.words if x.deprel == 'root']
             print("Sentence %s (%d) has multiple roots: %s" % (sent.sent_id, sent_idx, possible_roots))
+    return problem_sentences
 
+def check_graph_cycles(new_doc):
+    problem_sentences = set()
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         graph = nx.MultiDiGraph()
@@ -611,7 +603,11 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                 print(edge[0], sent.words[edge[0]-1].text, edge[1], sent.words[edge[1]-1].text, edge[2])
         except nx.NetworkXNoCycle:
             pass
+    return problem_sentences
 
+def check_upos_xpos_match(new_doc, check_xpos):
+    # checks that the xpos for each word is allowed based on the word's upos
+    problem_sentences = set()
     if check_xpos:
         printed = False
         for sent_idx, sent in enumerate(new_doc.sentences):
@@ -631,6 +627,27 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                         printed = True
                         print("XPOS ERRORS")
                     print("Sentence %s (%d) word %d |%s| had unknown upos |%s| with xpos |%s|" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.upos, word.xpos))
+    return problem_sentences
+
+def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
+    problem_sentences = set()
+
+    problem_sentences |= check_unknown_upos(new_doc)
+    problem_sentences |= check_no_root_sentences(new_doc)
+    problem_sentences |= check_space_in_word(new_doc)
+    problem_sentences |= check_punct_word_labels(new_doc)
+    problem_sentences |= check_pos_deprel_happiness(new_doc, check_xpos)
+    problem_sentences |= check_unexpected_space_after(new_doc)
+    problem_sentences |= check_xpos_required(new_doc, check_xpos, require_xpos)
+    problem_sentences |= check_pos_xpos_happiness(new_doc, check_xpos)
+    problem_sentences |= check_fixed(new_doc, check_feats)
+    problem_sentences |= check_missing_heads(new_doc)
+    problem_sentences |= check_missing_deprel(new_doc)
+    problem_sentences |= check_th_words(new_doc, check_xpos)
+    problem_sentences |= check_punct_root(new_doc)
+    problem_sentences |= check_multiple_roots(new_doc)
+    problem_sentences |= check_graph_cycles(new_doc)
+    problem_sentences |= check_upos_xpos_match(new_doc, check_xpos)
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
