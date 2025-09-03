@@ -192,6 +192,8 @@ ALLOWED_STRUCTURE = {
    'ھا': [('AUX', 'aux'), ('INTJ', 'discourse')],
 }
 
+ALLOWED_STRUCTURE['ئي'] = [('PART', 'advmod:emph')]
+
 ALLOWED_STRUCTURE['وغيره'] = [('PART', 'conj')]
 ALLOWED_STRUCTURE['جيڪڏهن'] = [('SCONJ', 'mark')]
 
