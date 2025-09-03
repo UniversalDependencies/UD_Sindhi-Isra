@@ -322,7 +322,7 @@ def check_unknown_upos(new_doc):
                     print("UNKNOWN UPOS")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d |%s| (line %d) had an unknown upos |%s|" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.upos))
+                print("Sentence %s (%d) word %d |%s| (line %d) had an unknown upos |%s|" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos))
     return problem_sentences
 
 def check_no_root_sentences(new_doc):
@@ -347,7 +347,7 @@ def check_space_in_word(new_doc):
                     print("SPACE IN WORD")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d has a space in it: |%s|\n  Original sentence text was:\n  %s" % (sent.sent_id, sent_idx, word_idx, word.text, sent.text))
+                print("Sentence %s (%d) word %d has a space in it: |%s|\n  Original sentence text was:\n  %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, sent.text))
     return problem_sentences
 
 def check_punct_word_labels(new_doc):
@@ -360,7 +360,7 @@ def check_punct_word_labels(new_doc):
                     print("PUNCT WORDS LABELED NON-PUNCT")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d has a punct word |%s| (line %d) labeled %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.upos))
+                print("Sentence %s (%d) word %d has a punct word |%s| (line %d) labeled %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos))
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -370,7 +370,7 @@ def check_punct_word_labels(new_doc):
                     print("NON PUNCT WORDS LABELED PUNCT")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d has a non-punct word |%s| labeled %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.upos))
+                print("Sentence %s (%d) word %d has a non-punct word |%s| labeled %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.upos))
 
     return problem_sentences
 
@@ -450,7 +450,7 @@ def check_unexpected_space_after(new_doc):
                     print("UNEXPECTED SpaceAfter=No")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d (line %d) has SpaceAfter=No between two non-punct words" % (sent.sent_id, sent_idx, word_idx, word.line_number))
+                print("Sentence %s (%d) word %d (line %d) has SpaceAfter=No between two non-punct words" % (sent.sent_id, sent_idx, word_idx+1, word.line_number))
     return problem_sentences
 
 def check_xpos_required(new_doc, check_xpos, require_xpos):
@@ -466,7 +466,7 @@ def check_xpos_required(new_doc, check_xpos, require_xpos):
                     print("WORD WITH NO XPOS")
                     printed = True
                 problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d (line %d) has no xpos" % (sent.sent_id, sent_idx, word_idx, word.line_number))
+                print("Sentence %s (%d) word %d (line %d) has no xpos" % (sent.sent_id, sent_idx, word_idx+1, word.line_number))
     return problem_sentences
 
 def check_pos_xpos_happiness(new_doc, check_xpos):
@@ -486,7 +486,7 @@ def check_pos_xpos_happiness(new_doc, check_xpos):
                     printed = True
                 problem_sentences.add(sent_idx)
                 allowed = ", ".join(["/".join(x) for x in allowed])
-                print("Sentence %s (%d) word %d |%s| (line %d) has incompatible upos/xpos %s/%s.  Expected is %s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, word.upos, word.xpos, allowed))
+                print("Sentence %s (%d) word %d |%s| (line %d) has incompatible upos/xpos %s/%s.  Expected is %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos, word.xpos, allowed))
     return problem_sentences
 
 def check_missing_heads(new_doc):
@@ -761,7 +761,7 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                             if not printed:
                                 printed = True
                                 print("FEATURE ERRORS")
-                            print("Sentence %s (%d) word %d |%s| (line %d) had VerbForm=Inf but an Aspect=%s" % (sent.sent_id, sent_idx, word_idx, word.text, word.line_number+1, feat_map.get('Aspect')))
+                            print("Sentence %s (%d) word %d |%s| (line %d) had VerbForm=Inf but an Aspect=%s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat_map.get('Aspect')))
 
     return problem_sentences
 
