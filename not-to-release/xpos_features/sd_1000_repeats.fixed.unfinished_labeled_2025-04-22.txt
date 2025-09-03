@@ -64,7 +64,7 @@
 45	ڏيکاريندي	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	54	advcl	_	_
 46	،	،	PUNCT	PUNCT	_	45	punct	_	_
 47	ٻاراڻي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	48	amod	_	_
-48	ادب	ادب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	53	obj	_	_
+48	ادب	ادب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	53	iobj	_	_
 49	کي	کي	ADP	PSP	_	48	case	_	_
 50	اهم	اهم	ADJ	JJ	Case=Nom|Degree=Pos	51	amod	_	_
 51	وٿ	وٿ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	53	obj	_	_
@@ -338,7 +338,7 @@
 32	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	35	nmod	_	_
 33	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	32	case	_	_
 34	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
-35	نسل	نسل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	40	obj	_	_
+35	نسل	نسل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	40	iobj	_	_
 36	کي	کي	ADP	PSP	_	35	case	_	_
 37	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	39	det	_	_
 38	املهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	39	nmod	_	_
@@ -638,7 +638,7 @@
 # text = نيٺ چيتو سانڊي کي ٽن مهينن جي مهلت ڏيڻ لاءِ تيار ٿي ويو.
 1	نيٺ	نيٺ	ADV	ADV	_	11	advmod	_	_
 2	چيتو	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
-3	سانڊي	سانڊو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+3	سانڊي	سانڊو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	iobj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
 5	ٽن	ٽي	NUM	NUM	_	6	nummod	_	_
 6	مهينن	مهينو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
@@ -812,7 +812,7 @@
 1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
 2	هوندي	آهي	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	7	advcl	_	_
 3	به	به	PART	PART	_	2	advmod:emph	_	_
-4	هن	هن	DET	PRD	Case=Acc|Number=Sing	7	obj	_	_
+4	هن	هن	DET	PRD	Case=Acc|Number=Sing	7	iobj	_	_
 5	کي	کي	ADP	PSP	_	4	case	_	_
 6	چڪ	چڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
 7	هڻندو	هڻ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	0	root	_	_
@@ -855,7 +855,7 @@
 6	ڏانهن	ڏانهن	ADV	ADP	_	5	case	_	_
 7	نهاريو	نهار	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 8	۽	۽	CCONJ	CC	_	13	cc	_	_
-9	ان	ان	DET	PRD	Case=Acc|Number=Sing	13	obj	_	_
+9	ان	ان	DET	PRD	Case=Acc|Number=Sing	13	iobj	_	_
 10	کي	کي	ADP	PSP	_	9	case	_	_
 11	به	به	PART	PART	_	9	advmod:emph	_	_
 12	ڇهي	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	13	xcomp	_	_
@@ -943,7 +943,7 @@
 8	ته	ته	SCONJ	CS	_	15	mark	_	_
 9	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	10	det	_	_
 10	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obj	_	_
-11	هن	هن	DET	PRD	Case=Acc|Number=Sing	15	obj	_	_
+11	هن	هن	DET	PRD	Case=Acc|Number=Sing	15	iobj	_	_
 12	کي	کي	ADP	PSP	_	11	case	_	_
 13	به	به	PART	PART	_	11	advmod:emph	_	_
 14	نه	نه	PART	PART	_	15	dep	_	_
@@ -1194,7 +1194,7 @@
 9	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	10	det	_	_
 10	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	_
 11	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	16	nsubj	_	_
-12	ڪنهن	ڪو	PRON	PRWH	Case=Acc|Number=Sing	16	obj	_	_
+12	ڪنهن	ڪو	PRON	PRWH	Case=Acc|Number=Sing	16	iobj	_	_
 13	کي	کي	ADP	PSP	_	12	case	_	_
 14	به	به	PART	PART	_	12	advmod:emph	_	_
 15	ڪونه	ڪونه	ADV	ADN	_	16	advmod	_	_
@@ -1277,7 +1277,7 @@
 10	ته	ته	SCONJ	CS	_	17	mark	_	SpaceAfter=No
 11	،	،	PUNCT	PUNCT	_	17	punct	_	_
 12	سانڊي	سانڊو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
-13	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	17	obj	_	_
+13	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	17	iobj	_	_
 14	کي	کي	ADP	PSP	_	13	case	_	_
 15	هتي	هتي	ADV	ADP	_	17	advmod	_	_
 16	چڪ	چڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
