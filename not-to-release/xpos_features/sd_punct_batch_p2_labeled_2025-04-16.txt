@@ -154,7 +154,7 @@
 16	عملدار	عملدار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 17	اسانجن	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	19	nmod	_	_
 18	پيارين	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nmod	_	_
-19	لومڙين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
+19	لومڙين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	iobj	_	_
 20	کي	کي	ADP	PSP	_	19	case	_	_
 21	ڪمبل	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
 22	به	به	PART	PART	_	21	advmod:emph	_	_
@@ -335,7 +335,7 @@
 49	ٺاهي	ٺاه	VERB	VM	Aspect=Perf|VerbForm=Conv	51	advcl	_	_
 50	تيار	تيار	ADJ	JJ	Case=Nom	51	xcomp	_	_
 51	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	55	advcl	_	_
-52	هن	هن	DET	PRD	Case=Acc|Number=Sing	55	obj	_	_
+52	هن	هن	DET	PRD	Case=Acc|Number=Sing	55	iobj	_	_
 53	کي	کي	ADP	PSP	_	52	case	_	_
 54	ڦاهي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	55	obj	_	_
 55	ڏني	ڏني	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	41	advcl	_	_
@@ -347,7 +347,7 @@
 1	اتي	اتي	ADV	ADP	_	2	advmod	_	_
 2	پهچي	پهچ	VERB	VM	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
 3	وزير	وزير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
-4	راجا	راجا	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+4	راجا	راجا	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	iobj	_	_
 5	کي	کي	ADP	PSP	_	4	case	_	_
 6	هٿ	هٿ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
 7	ٻڌي	ٻڌ	VERB	VM	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
@@ -721,7 +721,7 @@
 12	خيال	خيال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obl	_	_
 13	رکي	رک	VERB	VM	Aspect=Perf|VerbForm=Conv	26	advcl	_	_
 14	ٻين	ٻيو	ADJ	JJO	Case=Acc|Number=Plur	15	amod	_	_
-15	وزيرن	وزير	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	23	obj	_	_
+15	وزيرن	وزير	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	23	iobj	_	_
 16	کي	کي	ADP	PSP	_	15	case	_	_
 17	به	به	PART	PART	_	15	advmod:emph	_	_
 18	اڄ	اڄ	ADV	ADT	_	23	advmod	_	_
@@ -810,7 +810,7 @@
 14	ائين	ائين	PRON	PRL	_	15	obl	_	_
 15	چئي	چئو	VERB	VM	Aspect=Perf|VerbForm=Conv	22	advcl	_	_
 16	هن	هن	DET	PRD	Case=Acc|Number=Sing	22	nsubj	_	_
-17	سوتون	سوتون	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+17	سوتون	سوتون	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	22	iobj	_	_
 18	کي	کي	ADP	PSP	_	17	case	_	_
 19	هڪجهڙيون	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_
 20	ست	_	ADJ	JJC	Case=Nom|Number=Plur	21	amod	_	_
@@ -1108,7 +1108,7 @@
 2	ڙي	ڙي	INTJ	INTJ	_	8	discourse	_	_
 3	درياءَ	درياءَ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
 4	!	!	PUNCT	PUNCT	_	3	punct	_	_
-5	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	8	obj	_	_
+5	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	8	iobj	_	_
 6	کي	کي	ADP	PSP	_	5	case	_	_
 7	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 8	ڏي	ڏي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	SpaceAfter=No
@@ -1458,7 +1458,7 @@
 # text = مائي! مون کي ٿورو پاڻي پيئڻ لاءِ ڏي.
 1	مائي	مائي	NOUN	NN	Case=Voc|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
 2	!	!	PUNCT	PUNCT	_	1	punct	_	_
-3	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	7	obj	_	_
+3	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	7	iobj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
 5	ٿورو	ٿورو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
@@ -1747,7 +1747,7 @@
 5	!	!	PUNCT	PUNCT	_	4	punct	_	_
 6	باقي	باقي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
 7	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	14	nsubj	_	_
-8	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	14	obj	_	_
+8	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	14	iobj	_	_
 9	کي	کي	ADP	PSP	_	8	case	_	_
 10	جادوءَ	جادوءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
 11	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	10	case	_	_
@@ -2143,7 +2143,7 @@
 17	“	“	PUNCT	PUNCT	_	15	punct	_	_
 18	اوهان	اوهان	PRON	PRP	Case=Acc|Number=Plur|Person=1	23	nsubj	_	_
 19	جيئن	جيئن	ADV	ADM	_	23	advmod	_	_
-20	هن	هن	DET	PRD	Case=Acc|Number=Sing	23	obj	_	_
+20	هن	هن	DET	PRD	Case=Acc|Number=Sing	23	iobj	_	_
 21	کي	کي	ADP	PSP	_	20	case	_	_
 22	پين	پين	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	obj	_	_
 23	ڏيندوء	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	15	advcl	_	SpaceAfter=No
@@ -2835,7 +2835,7 @@
 7	وي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 8	چئنلن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_
 9	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	8	case	_	_
-10	نمائندن	نمائندو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+10	نمائندن	نمائندو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	iobj	_	_
 11	کي	کي	ADP	PSP	_	10	case	_	_
 12	سندن	سندو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=3	13	nmod	_	_
 13	سامهون	سامهون	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	_
