@@ -331,7 +331,7 @@
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	به	به	PART	PART	_	2	advmod:emph	_	_
 5	چرين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
-6	وانگر	وانگر	ADV	ADP	_	8	advmod	_	_
+6	وانگر	وانگر	ADP	PSP	_	5	case	_	_
 7	ٽهڪ	ٽهڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	obj	_	_
 8	ڏيئي	ڏيئي	VERB	VM	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
 9	کلندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	10	xcomp	_	_
@@ -454,8 +454,8 @@
 13	ان	ان	DET	PRD	Case=Acc|Number=Sing	15	obl	_	_
 14	تي	تي	ADP	PSPL	_	13	case	_	_
 15	چڙهندو	چڙه	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	18	advcl	_	_
-16	وڻ	وڻ	NOUN	NN	Aspect=Perf|VerbForm=Conv	18	obl	_	_
-17	تي	تي	ADP	PSPL	_	16	mark	_	_
+16	وڻ	وڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+17	تي	تي	ADP	PSPL	_	16	case	_	_
 18	چڙهي	چڙهي	VERB	VM	Aspect=Perf|VerbForm=Conv	11	conj	_	_
 19	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	18	compound	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	18	punct	_	_
@@ -521,7 +521,7 @@
 4	ويجهو	ويجهو	ADV	ADP	_	5	advmod	_	_
 5	آيو	آءَ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 6	۽	۽	CCONJ	CC	_	19	cc	_	_
-7	سواءِ	سواءِ	ADV	ADT	_	9	advmod	_	_
+7	سواءِ	سواءِ	ADP	PSP	_	8	case	_	_
 8	ڪي	ڪي	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	obj	_	_
 9	چوڻ	چوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	19	advcl	_	_
 10	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	9	mark	_	_
@@ -886,16 +886,16 @@
 7	مڇيون	مڇي	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
 8	هيون	آهي	AUX	VAUX	Gender=Fem|Number=Plur|Person=3|Tense=Past	7	cop	_	SpaceAfter=No
 9	،	،	PUNCT	PUNCT	_	7	punct	_	_
-10	جو	جو	SCONJ	CS	_	16	mark	_	_
-11	انهن	ان	DET	PRD	Case=Acc|Number=Plur	16	obl	_	_
+10	جو	جو	SCONJ	CS	_	15	mark	_	_
+11	انهن	ان	DET	PRD	Case=Acc|Number=Plur	15	obl	_	_
 12	سان	سان	ADP	PSP	_	11	case	_	_
 13	سڄو	سڄو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	14	amod	_	_
-14	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
-15	اڇو	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	16	xcomp	_	_
-16	ٿيو	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	7	advcl	_	_
-17	پيو	پيو	VERB	VM	Aspect=Imp|Number=Sing|Person=3	16	compound	_	_
-18	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	16	aux	_	SpaceAfter=No
-19	.	.	PUNCT	PUNCT	_	16	punct	_	_
+14	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	اڇو	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	7	advcl	_	_
+16	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	15	cop	_	_
+17	پيو	پيو	VERB	VM	Aspect=Imp|Number=Sing|Person=3	15	compound	_	_
+18	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	15	aux	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
 # sent_id = 751
 # text = لهريون مـڇـيـن سـمـيـت تـيـزيءَ سـان ڊوڙنـديـون اچـي ڪيلي جي ٿڙن جي ديوار سان ٽڪريون.
@@ -998,7 +998,7 @@
 # text = هن دل ئي دل ۾ چيو،
 1	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	nsubj	_	_
 2	دل	دل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
-3	ئي	ئي	PART	PART	_	2	case	_	_
+3	ئي	ئي	PART	PART	_	2	advmod:emph	_	_
 4	دل	دل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 5	۾	۾	ADP	PSPL	_	4	case	_	_
 6	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	SpaceAfter=No
