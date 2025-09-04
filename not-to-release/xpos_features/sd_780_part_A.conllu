@@ -4180,7 +4180,7 @@
 # sent_id = Kawish-20100810-174
 # text = جڏهن ته لکين گهرن کي نقصان پهتو آهي .
 1	جڏهن	جڏهن	ADV	ADT	_	7	advmod	_	_
-2	ته	ته	PART	PART	_	7	mark	_	_
+2	ته	ته	PART	PART	_	1	advmod:emph	_	_
 3	لکين	لک	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 4	گهرن	گهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
 5	کي	کي	ADP	PSP	_	4	case	_	_
@@ -4192,7 +4192,7 @@
 # sent_id = Kawish-20100810-175
 # text = جڏهن ته وزيراعظم ٻوڏ متاثرين جي لاءِ فنڊ گڏ ڪرڻ لاءِ پرڏيهي ملڪن ڏانهن وفد موڪلڻ جو اعلان ڪري ڇڏيو آهي ،
 1	جڏهن	جڏهن	ADV	ADT	_	19	advmod	_	_
-2	ته	ته	PART	PART	_	19	mark	_	_
+2	ته	ته	PART	PART	_	1	advmod:emph	_	_
 3	وزيراعظم	وزيراعظم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
 4	ٻوڏ	ٻوڏ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
 5	متاثرين	متاثر	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
@@ -6440,7 +6440,7 @@
 # sent_id = Kawish-20100810-321
 # text = خير ته آهي ،
 1	خير	خير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-2	ته	ته	PART	PART	_	1	mark	_	_
+2	ته	ته	PART	PART	_	1	advmod:emph	_	_
 3	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	1	cop	_	_
 4	،	،	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -7008,8 +7008,8 @@
 # sent_id = Kawish-20100810-364
 # text = ڇو ته جي اونائي ڪندس ته هڪدم اوسي پاسي جا گدڙ به اونايون ڪندا ۽ ڀڄندا ايندا ،
 1	ڇو	ڇو	PRON	PRWH	Case=Nom	5	obl	_	_
-2	ته	ته	PART	PART	_	5	mark	_	_
-3	جي	جي	CCONJ	CC	_	1	case	_	_
+2	ته	ته	PART	PART	_	1	advmod:emph	_	_
+3	جي	جي	CCONJ	CC	_	5	mark	_	_
 4	اونائي	اونائي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	_
 5	ڪندس	ڪن	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	14	advcl	_	_
 6	ته	ته	SCONJ	CS	_	14	mark	_	_
@@ -7017,13 +7017,13 @@
 8	اوسي	اوسي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	_
 9	پاسي	پاسو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
 10	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	9	case	_	_
-11	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+11	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
 12	به	به	PART	PART	_	11	advmod:emph	_	_
 13	اونايون	اونائي	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	obj	_	_
 14	ڪندا	ڪن	VERB	VM	Gender=Masc|Number=Plur|VerbForm=PastPart	0	root	_	_
 15	۽	۽	CCONJ	CC	_	16	cc	_	_
 16	ڀڄندا	ڀڄ	VERB	VM	Gender=Masc|Number=Plur|VerbForm=PresPart	14	conj	_	_
-17	ايندا	ايندو	VERB	VM	Gender=Masc|Number=Plur|VerbForm=PresPart	14	conj	_	_
+17	ايندا	ايندو	VERB	VM	Gender=Masc|Number=Plur|VerbForm=PresPart	16	compound	_	_
 18	،	،	PUNCT	PUNCT	_	17	punct	_	_
 
 # sent_id = Kawish-20100810-365
