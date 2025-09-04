@@ -631,26 +631,8 @@ def check_upos_xpos_match(new_doc, check_xpos):
                     print("Sentence %s (%d) word %d |%s| had unknown upos |%s| with xpos |%s|" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.upos, word.xpos))
     return problem_sentences
 
-def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
+def check_null_features(new_doc):
     problem_sentences = set()
-
-    problem_sentences |= check_unknown_upos(new_doc)
-    problem_sentences |= check_no_root_sentences(new_doc)
-    problem_sentences |= check_space_in_word(new_doc)
-    problem_sentences |= check_punct_word_labels(new_doc)
-    problem_sentences |= check_pos_deprel_happiness(new_doc, check_xpos)
-    problem_sentences |= check_unexpected_space_after(new_doc)
-    problem_sentences |= check_xpos_required(new_doc, check_xpos, require_xpos)
-    problem_sentences |= check_pos_xpos_happiness(new_doc, check_xpos)
-    problem_sentences |= check_fixed(new_doc, check_feats)
-    problem_sentences |= check_missing_heads(new_doc)
-    problem_sentences |= check_missing_deprel(new_doc)
-    problem_sentences |= check_th_words(new_doc, check_xpos)
-    problem_sentences |= check_punct_root(new_doc)
-    problem_sentences |= check_multiple_roots(new_doc)
-    problem_sentences |= check_graph_cycles(new_doc)
-    problem_sentences |= check_upos_xpos_match(new_doc, check_xpos)
-
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
@@ -658,9 +640,13 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                 problem_sentences.add(sent_idx)
                 if not printed:
                     printed = True
-                    print("BLANK FEAT ERRORS")
+                    print("NULL FEAT ERRORS")
                 print("Sentence %s (%d) word %d had blank features" % (sent.sent_id, sent_idx, word_idx+1))
+    return problem_sentences
 
+
+def check_advmod_emph_errors(new_doc):
+    problem_sentences = set()
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
@@ -678,7 +664,10 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                         printed = True
                         print("ADVMOD:EMPH ERRORS")
                     print(error)
+    return problem_sentences
 
+def check_enforced_pos(new_doc):
+    problem_sentences = set()
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
@@ -687,7 +676,11 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                     printed = True
                     print("Word-specific POS error")
                 print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s, which is not in %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, ENFORCED_POS[word.text]))
+    return problem_sentences
 
+
+def check_expected_features(new_doc, check_feats):
+    problem_sentences = set()
     if check_feats:
         printed = False
         for sent_idx, sent in enumerate(new_doc.sentences):
@@ -711,7 +704,11 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                         printed = True
                         print("EXPECTED FEATURES MISSING")
                     print(error)
+    return problem_sentences
 
+def check_feature_errors(new_doc, check_feats):
+    problem_sentences = set()
+    if check_feats:
         printed = False
         for sent_idx, sent in enumerate(new_doc.sentences):
             for word_idx, word in enumerate(sent.words):
@@ -764,6 +761,32 @@ def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
                                 printed = True
                                 print("FEATURE ERRORS")
                             print("Sentence %s (%d) word %d |%s| (line %d) had VerbForm=Inf but an Aspect=%s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat_map.get('Aspect')))
+    return problem_sentences
+
+def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
+    problem_sentences = set()
+
+    problem_sentences |= check_unknown_upos(new_doc)
+    problem_sentences |= check_no_root_sentences(new_doc)
+    problem_sentences |= check_space_in_word(new_doc)
+    problem_sentences |= check_punct_word_labels(new_doc)
+    problem_sentences |= check_pos_deprel_happiness(new_doc, check_xpos)
+    problem_sentences |= check_unexpected_space_after(new_doc)
+    problem_sentences |= check_xpos_required(new_doc, check_xpos, require_xpos)
+    problem_sentences |= check_pos_xpos_happiness(new_doc, check_xpos)
+    problem_sentences |= check_fixed(new_doc, check_feats)
+    problem_sentences |= check_missing_heads(new_doc)
+    problem_sentences |= check_missing_deprel(new_doc)
+    problem_sentences |= check_th_words(new_doc, check_xpos)
+    problem_sentences |= check_punct_root(new_doc)
+    problem_sentences |= check_multiple_roots(new_doc)
+    problem_sentences |= check_graph_cycles(new_doc)
+    problem_sentences |= check_upos_xpos_match(new_doc, check_xpos)
+    problem_sentences |= check_null_features(new_doc)
+    problem_sentences |= check_advmod_emph_errors(new_doc)
+    problem_sentences |= check_enforced_pos(new_doc)
+    problem_sentences |= check_expected_features(new_doc, check_feats)
+    problem_sentences |= check_feature_errors(new_doc, check_feats)
 
     return problem_sentences
 
