@@ -1,4 +1,5 @@
 import argparse
+from collections import defaultdict
 from collections import namedtuple
 import re
 import sys
@@ -265,6 +266,8 @@ FixedExpression = namedtuple('FixedExpression', 'words extpos')
 FIXED_EXPRESSIONS = []
 FIXED_EXPRESSIONS.append(FixedExpression((('ڏينهون', 'NOUN'), ('ڏينهن', 'NOUN')), 'ADV'))
 
+Incident = namedtuple("Incident", "category filename sent_idx sentence error nodes")
+
 def check_fixed(new_doc, check_feats):
     problem_sentences = set()
     printed = False
@@ -376,45 +379,47 @@ def check_punct_word_labels(new_doc):
 
     return problem_sentences
 
-def check_pos_deprel_happiness(new_doc, check_xpos):
-    problem_sentences = set()
-    printed = False
+def check_pos_deprel_happiness(filename, new_doc, check_xpos):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if word.text in ALLOWED_STRUCTURE:
                 structure = (word.pos, word.deprel)
                 if structure not in ALLOWED_STRUCTURE[word.text]:
-                    if not printed:
-                        printed = True
-                        print("Found an unexpected POS & deprel combination")
-                    problem_sentences.add(sent_idx)
-                    print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s.  Expected: %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel, ALLOWED_STRUCTURE[word.text]))
+                    incidents.append(Incident(category="POS/deprel combination",
+                                              filename=filename,
+                                              sent_idx=sent_idx,
+                                              sentence=sent,
+                                              error="Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s.  Expected: %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel, ALLOWED_STRUCTURE[word.text]),
+                                              nodes=[word.id]))
 
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if word.upos in DISALLOWED_UPOS_RELATIONS and word.deprel in DISALLOWED_UPOS_RELATIONS[word.upos]:
-                if not printed:
-                    printed = True
-                    print("Found an unexpected POS & deprel combination")
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel))
+                incidents.append(Incident(category="POS/deprel combination",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error="Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel),
+                                          nodes=[word.id]))
             if check_xpos and word.xpos in DISALLOWED_XPOS_RELATIONS and word.deprel in DISALLOWED_XPOS_RELATIONS[word.xpos]:
-                if not printed:
-                    printed = True
-                    print("Found an unexpected POS & deprel combination")
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d (line %d) is |%s| with an XPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.xpos, word.deprel))
+                incidents.append(Incident(category="POS/deprel combination",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error="Sentence %s (%d) word %d (line %d) is |%s| with an XPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.xpos, word.deprel),
+                                          nodes=[word.id]))
 
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             for deprel, allowed_upos in ENFORCED_RELATION_UPOS.items():
                 if word.deprel == deprel and word.upos not in allowed_upos:
-                    if not printed:
-                        printed = True
-                        print("Found an unexpected POS & deprel combination")
-                    problem_sentences.add(sent_idx)
-                    print("Sentence %s (%d) word %d (line %d, |%s|) has a UPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel))
-
+                    incidents.append(Incident(category="POS/deprel combination",
+                                              filename=filename,
+                                              sent_idx=sent_idx,
+                                              sentence=sent,
+                                              error="Sentence %s (%d) word %d (line %d, |%s|) has a UPOS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel),
+                                              nodes=[word.id]))
 
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
@@ -428,13 +433,14 @@ def check_pos_deprel_happiness(new_doc, check_xpos):
                 if next_word.upos == 'ADP' and next_word.text in ('واري', 'وارين', 'وارن', 'وارو'):
                     error = False
             if error:
-                if not printed:
-                    printed = True
-                    print("Found an unexpected POS & deprel combination")
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel))
+                incidents.append(Incident(category="POS/deprel combination",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error="Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s and deprel of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, word.deprel),
+                                          nodes=[word.id]))
 
-    return problem_sentences
+    return incidents
 
 def check_unexpected_space_after(new_doc):
     problem_sentences = set()
@@ -521,13 +527,13 @@ def check_missing_deprel(new_doc):
 
     return problem_sentences
 
-def check_th_words(new_doc, check_xpos):
+def check_th_words(filename, new_doc, check_xpos):
     """
     Currently we have the words هين and هون annotated to be compound words of a NUM before them.  This checks those relations and the POS
     """
-    problem_sentences = set()
-    errors = []
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
+        errors = []
         for word_idx, word in enumerate(sent.words):
             if word.text != 'هين' and word.text != 'هون':
                 continue
@@ -546,14 +552,14 @@ def check_th_words(new_doc, check_xpos):
                     new_errors.append("Sentence %s (%d) word %d |%s| (line %d) attached to %d |%s| with a POS of %s.  Expected all -th words to attach to NUM." % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.head, head.text, head.upos))
                 if head.deprel != 'amod':
                     new_errors.append("Sentence %s (%d) word %d |%s| (line %d) attached to %d |%s| with a deprel of %s.  Expected all -th words to attach to an amod." % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.head, head.text, head.deprel))
-            if len(new_errors) > 0:
-                errors.extend(new_errors)
-                problem_sentences.add(sent_idx)
-    if len(errors) > 0:
-        print("ERRORS ON -TH WORDS")
-        for error in errors:
-            print(error)
-    return problem_sentences
+            for error in new_errors:
+                incidents.append(Incident(category="-TH word error",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word_idx+1]))
+    return incidents
 
 def check_punct_root(new_doc):
     problem_sentences = set()
@@ -607,9 +613,9 @@ def check_graph_cycles(new_doc):
             pass
     return problem_sentences
 
-def check_upos_xpos_match(new_doc, check_xpos):
+def check_upos_xpos_match(filename, new_doc, check_xpos):
     # checks that the xpos for each word is allowed based on the word's upos
-    problem_sentences = set()
+    incidents = []
     if check_xpos:
         printed = False
         for sent_idx, sent in enumerate(new_doc.sentences):
@@ -618,18 +624,20 @@ def check_upos_xpos_match(new_doc, check_xpos):
                     continue
                 if word.upos in ALLOWED_UPOS_TO_XPOS:
                     if word.xpos not in ALLOWED_UPOS_TO_XPOS[word.upos]:
-                        problem_sentences.add(sent_idx)
-                        if not printed:
-                            printed = True
-                            print("XPOS ERRORS")
-                        print("Sentence %s (%d) word %d |%s| (line %d) had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.xpos, word.upos))
+                        incidents.append(Incident(category="XPOS error",
+                                                  filename=filename,
+                                                  sent_idx=sent_idx,
+                                                  sentence=sent,
+                                                  error="Sentence %s (%d) word %d |%s| (line %d) had xpos %s which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.xpos, word.upos),
+                                                  nodes=[word_idx+1]))
                 else:
-                    problem_sentences.add(sent_idx)
-                    if not printed:
-                        printed = True
-                        print("XPOS ERRORS")
-                    print("Sentence %s (%d) word %d |%s| had unknown upos |%s| with xpos |%s|" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.upos, word.xpos))
-    return problem_sentences
+                    incidents.append(Incident(category="XPOS error",
+                                              filename=filename,
+                                              sent_idx=sent_idx,
+                                              sentence=sent,
+                                              error="Sentence %s (%d) word %d |%s| had unknown upos |%s| with xpos |%s|" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.upos, word.xpos),
+                                              nodes=[word_idx+1]))
+    return incidents
 
 def check_null_features(new_doc):
     problem_sentences = set()
@@ -763,32 +771,33 @@ def check_feature_errors(new_doc, check_feats):
                             print("Sentence %s (%d) word %d |%s| (line %d) had VerbForm=Inf but an Aspect=%s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat_map.get('Aspect')))
     return problem_sentences
 
-def validate(new_doc, check_xpos=True, check_feats=True, require_xpos=True):
+def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=True):
     problem_sentences = set()
+    incidents = []
 
     problem_sentences |= check_unknown_upos(new_doc)
     problem_sentences |= check_no_root_sentences(new_doc)
     problem_sentences |= check_space_in_word(new_doc)
     problem_sentences |= check_punct_word_labels(new_doc)
-    problem_sentences |= check_pos_deprel_happiness(new_doc, check_xpos)
+    incidents.extend(check_pos_deprel_happiness(filename, new_doc, check_xpos))
     problem_sentences |= check_unexpected_space_after(new_doc)
     problem_sentences |= check_xpos_required(new_doc, check_xpos, require_xpos)
     problem_sentences |= check_pos_xpos_happiness(new_doc, check_xpos)
     problem_sentences |= check_fixed(new_doc, check_feats)
     problem_sentences |= check_missing_heads(new_doc)
     problem_sentences |= check_missing_deprel(new_doc)
-    problem_sentences |= check_th_words(new_doc, check_xpos)
+    incidents.extend(check_th_words(filename, new_doc, check_xpos))
     problem_sentences |= check_punct_root(new_doc)
     problem_sentences |= check_multiple_roots(new_doc)
     problem_sentences |= check_graph_cycles(new_doc)
-    problem_sentences |= check_upos_xpos_match(new_doc, check_xpos)
+    incidents.extend(check_upos_xpos_match(filename, new_doc, check_xpos))
     problem_sentences |= check_null_features(new_doc)
     problem_sentences |= check_advmod_emph_errors(new_doc)
     problem_sentences |= check_enforced_pos(new_doc)
     problem_sentences |= check_expected_features(new_doc, check_feats)
     problem_sentences |= check_feature_errors(new_doc, check_feats)
 
-    return problem_sentences
+    return incidents
 
 def main():
     parser = argparse.ArgumentParser(description='Validate a file of SD dependencies & tags')
@@ -796,12 +805,32 @@ def main():
     parser.add_argument('--no_check_xpos', action='store_false', dest='check_xpos', help="Don't check the xpos in the file")
     parser.add_argument('--no_require_xpos', action='store_false', dest='require_xpos', help="Don't require that all words have xpos")
     parser.add_argument('--no_check_feats', action='store_false', dest='check_feats', help="Don't check the feats in the file")
+    parser.add_argument('--error_output', default=None, help="Where to save the errors collected by the validator")
     args = parser.parse_args()
 
+    error_doc = []
     for filename in args.filename:
         print("Validating %s" % filename)
         new_doc = CoNLL.conll2doc(filename, keep_line_numbers=True)
-        validate(new_doc, check_xpos=args.check_xpos, check_feats=args.check_feats)
+        error_sentences = {}
+        error_nodes = defaultdict(list)
+
+        incidents = validate(filename, new_doc, check_xpos=args.check_xpos, check_feats=args.check_feats)
+        for incident in incidents:
+            print("%s: %s" % (incident.category, incident.error))
+            if incident.sent_idx not in error_sentences:
+                error_sentences[incident.sent_idx] = incident.sentence
+            error_sentences[incident.sent_idx].add_comment("ERROR: %s" % incident.error)
+            error_nodes[incident.sent_idx].extend(incident.nodes)
+        for sent_idx in error_nodes:
+            nodes = "highlight tokens = %s" % (" ".join("%d" % x for x in error_nodes[sent_idx]))
+            error_sentences[sent_idx].add_comment(nodes)
+
+        error_doc.extend(error_sentences.values())
+
+    if len(args.filename) > 0 and args.error_output is not None:
+        new_doc.sentences = error_doc
+        CoNLL.write_doc2conll(new_doc, args.error_output)
 
 if __name__ == '__main__':
     main()
