@@ -3163,7 +3163,7 @@
 6	ٿورو	ٿورو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	کير	کير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 8	آڻي	آڻ	VERB	VM	Aspect=Perf|VerbForm=Conv	2	advcl	_	_
-9	ڏيو	ڏي	VERB	VM	Aspect=Perf|Number=Sing|Person=3	2	ccomp	_	SpaceAfter=No
+9	ڏيو	ڏي	VERB	VM	Aspect=Perf|Number=Sing|Person=3	8	compound	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = 2101
@@ -4072,8 +4072,8 @@
 12	تنهنجي	تنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=2	13	nmod	_	_
 13	ڍڳِي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	_
 14	ڏيڻ	ڏي	VERB	VM	Aspect=Imp|VerbForm=Inf	16	nmod	_	_
-15	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	16	case	_	_
-16	انجام	انجام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	compound	_	_
+15	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	14	mark	_	_
+16	انجام	انجام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
 17	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	3	advcl	_	_
 18	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	17	aux	_	SpaceAfter=No
 19	،	،	PUNCT	PUNCT	_	17	punct	_	_
@@ -4103,11 +4103,11 @@
 # sent_id = 2541
 # text = پنهنجي پوڙهن ۽ ڏُٻرن ڍڳن کي بچائڻ لاءِ شينهن کي منهنجي ههڙي ملوڪ ڍڳِي ڏيڻ مان تنهنجو مطلب ڇا آهي؟ ڍڳي ويئي ته ٻارن کي کير ڪير ڏيندو؟ ۽ گهر ۾ گيهه مڱڻ کان سواءِ رڌ پچاءُ ڪيئن ٿيندو؟ ڪڙميءَ جواب ڏنو،
 1	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	2	nmod	_	_
-2	پوڙهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	obj	_	_
+2	پوڙهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	iobj	_	_
 3	۽	۽	CCONJ	CC	_	5	cc	_	_
 4	ڏُٻرن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nmod	_	_
-5	ڍڳن	ڍڳو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	iobj	_	_
-6	کي	کي	ADP	PSP	_	5	case	_	_
+5	ڍڳن	ڍڳو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	_
+6	کي	کي	ADP	PSP	_	2	case	_	_
 7	بچائڻ	بچا	VERB	VM	Aspect=Imp|VerbForm=Inf	19	advcl	_	_
 8	لاءِ	لاءِ	ADP	PSP	_	7	mark	_	_
 9	شينهن	شينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	iobj	_	_
@@ -5293,9 +5293,9 @@
 6	لاءِ	لاءِ	ADP	PSP	_	5	mark	_	_
 7	ويچاري	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	iobj	_	_
 8	کي	کي	ADP	PSP	_	7	case	_	_
-9	پاڻ	پاڻ	PRON	PRP	Case=Acc	12	obj	_	_
-10	محنت	محنت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	compound	_	_
-11	مزدوري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	compound	_	_
+9	پاڻ	پاڻ	PRON	PRP	Case=Acc	12	obl	_	_
+10	محنت	محنت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
+11	مزدوري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	_
 12	ڪرڻي	ڪرڻي	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=FutPart	1	advcl	_	_
 13	پيئي	پيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	12	compound	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	12	punct	_	_
@@ -5518,7 +5518,7 @@
 3	هن	هن	DET	PRD	Case=Acc|Number=Sing	8	iobj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
 5	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
-6	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	نئين	نئين	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	compound:redup	_	_
 7	ڪم	ڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 8	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	11	nmod	_	_
 9	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	mark	_	_
@@ -6730,12 +6730,12 @@
 5	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	6	xcomp	_	_
 6	لڳو	لڳو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 7	۽	۽	CCONJ	CC	_	14	cc	_	_
-8	هن	هن	DET	PRD	Case=Acc|Number=Sing	14	obj	_	_
+8	هن	هن	DET	PRD	Case=Acc|Number=Sing	14	iobj	_	_
 9	کي	کي	ADP	PSP	_	8	case	_	_
-10	وڏي	وڏي	ADJ	JJ	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	13	amod	_	_
-11	۾	۾	ADP	PSPL	_	13	case	_	_
+10	وڏي	وڏي	ADJ	JJ	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	12	amod	_	_
+11	۾	۾	ADP	PSPL	_	10	case	_	_
 12	وڏو	وڏو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	13	amod	_	_
-13	عهدو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	iobj	_	_
+13	عهدو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	_
 14	ملندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	6	conj	_	_
 15	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	14	compound	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	14	punct	_	_
@@ -6745,9 +6745,9 @@
 1	نيٺ	نيٺ	ADV	ADV	_	8	advmod	_	_
 2	هن	هن	DET	PRD	Case=Acc|Number=Sing	8	obj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
-4	کن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
-5	وانگ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
-6	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	7	case	_	_
+4	کن	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+5	وانگ	_	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+6	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
 7	لقب	لقب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	iobj	_	_
 8	مليو	مل	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 9	،	،	PUNCT	PUNCT	_	8	punct	_	_
@@ -7086,7 +7086,7 @@
 5	ٺاهڻ	ٺاه	VERB	VM	Aspect=Imp|VerbForm=Inf	15	advcl	_	_
 6	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
 7	هن	هن	DET	PRD	Case=Acc|Number=Sing	15	nsubj	_	_
-8	جتين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+8	جتين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	iobj	_	_
 9	کي	کي	ADP	PSP	_	8	case	_	_
 10	نه	نه	PART	PART	_	15	advmod	_	_
 11	پر	پر	SCONJ	CS	_	15	mark	_	_

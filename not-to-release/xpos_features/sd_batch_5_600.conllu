@@ -485,7 +485,7 @@
 11	سنڌ	سنڌ	PROPN	NNP	Case=Acc|Gender=Fem	15	iobj	_	_
 12	کي	کي	ADP	PSP	_	11	case	_	_
 13	ڪجهه	ڪجهه	ADJ	JJ	Case=Nom|Degree=Pos	15	obj	_	_
-14	نه	نه	PART	PART	_	15	dep	_	_
+14	نه	نه	PART	PART	_	15	advmod	_	_
 15	وريو	ور	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	2	advcl	_	_
 16	آھي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	15	aux	_	SpaceAfter=No
 17	،	،	PUNCT	PUNCT	_	15	punct	_	_
@@ -644,7 +644,7 @@
 6	نائب	نائب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
 7	ناظم	ناظم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
 8	جبار	جبار	PROPN	NNP	Case=Nom|Gender=Masc	9	compound	_	_
-9	ميمڻ	ميمڻ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+9	ميمڻ	ميمڻ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
 10	۽	۽	CCONJ	CC	_	14	cc	_	_
 11	تعلقي	تعلقو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
 12	ٺٽو	ٺٽو	PROPN	NNP	Case=Nom|Gender=Masc	14	nmod	_	_
@@ -652,7 +652,7 @@
 14	ناظم	ناظم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
 15	ادا	_	PROPN	NNP	Case=Nom|Gender=Masc	17	compound	_	_
 16	محمد	محمد	PROPN	NNP	Case=Nom|Gender=Masc	17	compound	_	_
-17	ميمڻ	ميمڻ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_
+17	ميمڻ	ميمڻ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
 18	پهچي	پهچ	VERB	VM	Aspect=Perf|VerbForm=Conv	27	advcl	_	_
 19	باهه	باهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nmod	_	_
 20	متاثرن	متاثر	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	iobj	_	_
@@ -661,7 +661,7 @@
 23	فراهم	فراهم	NOUN	NN	Case=Nom|Number=Sing	24	compound	_	_
 24	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	26	nmod	_	_
 25	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	24	mark	_	_
-26	يقين	يقين	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	xcomp	_	_
+26	يقين	يقين	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	obj	_	_
 27	ڏياريو	ڏيار	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	27	punct	_	_
 
@@ -2272,12 +2272,12 @@
 5	ٽي	ٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
 6	وي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_
 7	موجب	موجب	ADP	PSPL	_	6	case	_	_
-8	احمد	احمد	PROPN	NNP	Case=Nom|Gender=Masc	10	compound	_	_
-9	شجاع	_	PROPN	NNP	Case=Nom|Gender=Masc	10	compound	_	_
-10	پاشا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
-11	شاهه	شاهه	PROPN	NNP	Case=Nom|Gender=Masc	12	compound	_	_
-12	عبدالله	عبدالله	PROPN	NNP	Case=Nom|Gender=Masc	23	iobj	_	_
-13	کي	کي	ADP	PSP	_	12	case	_	_
+8	احمد	احمد	PROPN	NNP	Case=Nom|Gender=Masc	23	nsubj	_	_
+9	شجاع	_	PROPN	NNP	Case=Nom|Gender=Masc	8	flat	_	_
+10	پاشا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
+11	شاهه	شاهه	PROPN	NNP	Case=Nom|Gender=Masc	23	iobj	_	_
+12	عبدالله	عبدالله	PROPN	NNP	Case=Nom|Gender=Masc	11	flat	_	_
+13	کي	کي	ADP	PSP	_	11	case	_	_
 14	صدر	صدر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
 15	آصف	آصف	PROPN	NNP	Case=Nom|Gender=Masc	17	compound	_	_
 16	علي	علي	PROPN	NNP	Case=Nom|Gender=Masc	17	compound	_	_
@@ -2448,13 +2448,13 @@
 24	به	به	PART	PART	_	23	advmod:emph	_	_
 25	صورت	صورت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	_
 26	۾	۾	ADP	PSPL	_	25	case	_	_
-27	پاڻمرادو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	obj	_	_
+27	پاڻمرادو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	obl	_	_
 28	اٿي	اٿ	VERB	VM	Aspect=Imp|Voice=Act	31	advcl	_	_
 29	پيل	پيو	VERB	VM	Aspect=Perf|VerbForm=PastPart|Voice=Pass	28	compound	_	_
 30	مخالفت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	31	obj	_	_
 31	چوڻ	چوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	33	nmod	_	_
 32	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	31	mark	_	_
-33	غلطي	غلطي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	35	compound	_	_
+33	غلطي	غلطي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	35	obj	_	_
 34	نٿا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Polarity=Neg|Tense=Pres	35	aux	_	_
 35	ڪريون	ڪر	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	10	conj	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	_	35	punct	_	_
@@ -5856,7 +5856,7 @@
 17	،	،	PUNCT	PUNCT	_	15	punct	_	_
 18	هنن	هن	DET	PRD	Case=Acc|Number=Plur	19	det	_	_
 19	اشارن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nmod	_	_
-20	ڪناين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	27	iobj	_	_
+20	ڪناين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	27	obl	_	_
 21	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	20	case	_	_
 22	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	27	iobj	_	_
 23	کي	کي	ADP	PSP	_	22	case	_	_
@@ -8355,7 +8355,7 @@
 3	حڪمن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
 5	شگر	شگر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
-6	ملز	مل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	iobj	_	_
+6	ملز	مل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	nsubj	_	_
 7	وارن	وارو	ADP	PSPG	Number=Sing	6	case	_	_
 8	ليکي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 9	۾	۾	ADP	PSPL	_	8	case	_	_
@@ -8381,7 +8381,7 @@
 5	ئي	ئي	PART	PART	_	4	advmod:emph	_	_
 6	حڪمن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	iobj	_	_
 7	کي	کي	ADP	PSP	_	6	case	_	_
-8	پاڻ	پاڻ	PRON	PRP	Case=Acc	13	obj	_	_
+8	پاڻ	پاڻ	PRON	PRP	Case=Acc	13	nsubj	_	_
 9	ئي	ئي	PART	PART	_	8	advmod:emph	_	_
 10	کل	کل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
 11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
@@ -8564,7 +8564,7 @@
 # text = دراصل حڪومت پاڻ ئي پنهنجي حڪمن کي تماشو بڻائي ڇڏيو آهي،
 1	دراصل	_	ADV	ADV	_	9	advmod	_	_
 2	حڪومت	حڪومت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
-3	پاڻ	پاڻ	PRON	PRP	Case=Acc	9	nmod:poss	_	_
+3	پاڻ	پاڻ	PRON	PRP	Case=Acc	2	nmod	_	_
 4	ئي	ئي	PART	PART	_	3	advmod:emph	_	_
 5	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	6	nmod	_	_
 6	حڪمن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	iobj	_	_
@@ -9402,7 +9402,7 @@
 18	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	26	advcl	_	_
 19	کانپوءِ	کان	ADP	PSPL	_	18	mark	_	_
 20	به	به	PART	PART	_	18	advmod:emph	_	_
-21	اولاد	اولاد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	iobj	_	_
+21	اولاد	اولاد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	26	iobj	_	_
 22	کي	کي	ADP	PSP	_	21	case	_	_
 23	وڌيڪ	وڌيڪ	ADJ	JJ	Case=Nom|Degree=Cmp	24	amod	_	_
 24	خرچ	خرچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	obj	_	_
@@ -11475,7 +11475,7 @@
 6	پاسي	پاسو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	iobj	_	_
 7	کي	کي	ADP	PSP	_	6	case	_	_
 8	ئي	ئي	PART	PART	_	6	advmod:emph	_	_
-9	نه	نه	PART	PART	_	10	dep	_	_
+9	نه	نه	PART	PART	_	10	advmod	_	_
 10	ڏسڻ	ڏسڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
 11	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	10	compound	_	SpaceAfter=No
 12	،	،	PUNCT	PUNCT	_	10	punct	_	_
