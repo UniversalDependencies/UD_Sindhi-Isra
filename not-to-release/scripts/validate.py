@@ -212,6 +212,8 @@ ALLOWED_STRUCTURE['آڏو'] = [('ADP', 'case'), ('ADV', 'advmod')]
 
 ALLOWED_STRUCTURE['ٿيو'] = [('AUX', 'aux'), ('AUX', 'cop')]
 
+ALLOWED_STRUCTURE['ته'] = [('PART', 'advmod:emph'), ('SCONJ', 'fixed'), ('SCONJ', 'mark')]
+
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
     "CCONJ": ["advmod"],
