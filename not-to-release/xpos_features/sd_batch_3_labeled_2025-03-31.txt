@@ -3388,9 +3388,9 @@
 29	ڦاٽي	ڦاٽ	VERB	VM	Aspect=Imp|Number=Sing	25	acl	_	_
 30	يا	يا	CCONJ	CC	_	31	cc	_	_
 31	آسمان	آسمان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	conj	_	_
-32	بي	بي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	33	compound	_	_
-33	بي	بي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	35	nmod	_	_
-34	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	33	case	_	_
+32	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem	35	nmod	_	_
+33	بي	بي	PROPN	NNP	Case=Acc|Gender=Fem	32	flat	_	_
+34	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	32	case	_	_
 35	قتل	قتل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_
 36	هڪ	هڪ	NUM	NUM	_	37	nummod	_	_
 37	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	40	obl	_	_
@@ -3490,8 +3490,8 @@
 # text = ان بعد بي بي صفدر کي نعرا هڻڻ لاءِ چيو انهيءَ دوران بي بي ڪري پئي ان جي 3 کان 4 سيڪنڊن بعد ڌماڪو ٿيو.
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	10	obl	_	_
 2	بعد	بعد	ADP	PSP	_	1	case	_	_
-3	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-4	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	_
+3	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem	10	nsubj	_	_
+4	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem	3	flat	_	_
 5	صفدر	صفدر	PROPN	NNP	Case=Nom|Gender=Masc	10	iobj	_	_
 6	کي	کي	ADP	PSP	_	5	case	_	_
 7	نعرا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	obj	_	_
@@ -3500,8 +3500,8 @@
 10	چيو	چئو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 11	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	15	obl	_	_
 12	دوران	دوران	ADP	PSP	_	11	case	_	_
-13	بي	بي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nmod	_	_
-14	بي	بي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+13	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem	15	nsubj	_	_
+14	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem	13	flat	_	_
 15	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	10	advcl	_	_
 16	پئي	پيو	VERB	VM	Aspect=Perf|Number=Sing	15	compound	_	_
 17	ان	ان	DET	PRD	Case=Acc|Number=Sing	22	nmod	_	_
@@ -3520,9 +3520,9 @@
 1	خوفناڪ	خوفناڪ	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	_
 2	انداز	انداز	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
-4	بي	بي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
-5	بي	بي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
-6	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
+4	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem	7	nmod	_	_
+5	بي	بي	PROPN	NNP	Case=Acc|Gender=Fem	4	flat	_	_
+6	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
 7	رت	رت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	وهي	وه	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 9	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	8	compound	_	_
@@ -3552,9 +3552,9 @@
 19	اسپتال	اسپتال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	obl	_	_
 20	پهچڻ	پهچڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	27	advcl	_	_
 21	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	obl	_	_
-22	بي	بي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	compound	_	_
-23	بي	بي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	nmod	_	_
-24	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	23	case	_	_
+22	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem	25	nmod	_	_
+23	بي	بي	PROPN	NNP	Case=Acc|Gender=Fem	22	flat	_	_
+24	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	22	case	_	_
 25	نبض	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	obj	_	_
 26	چيڪ	چيڪ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	xcomp	_	_
 27	ڪئي	ڪئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	16	advcl	_	_
@@ -3587,8 +3587,8 @@
 # sent_id = 3848
 # text = اڄ بي بي اسان ۾ ناهي پر ان جو باب ڪڏهن به بند نه ٿيندو.
 1	اڄ	اڄ	ADV	ADT	_	15	advmod	_	_
-2	بي	بي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	compound	_	_
-3	بي	بي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem	4	nsubj	_	_
+3	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem	2	flat	_	_
 4	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	15	obl	_	_
 5	۾	۾	ADP	PSPL	_	4	case	_	_
 6	ناهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	4	cop	_	_
