@@ -2829,7 +2829,7 @@
 32	پوندو	پوڻ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=PresPart|Voice=Act	31	compound	_	_
 33	۽	۽	CCONJ	CC	_	40	cc	_	_
 34	نه	نه	PART	PART	_	40	advmod	_	_
-35	ئي	ئي	PART	PART	_	34	fixed	_	_
+35	ئي	ئي	PART	PART	_	34	advmod:emph	_	_
 36	تخت	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	40	obj	_	_
 37	کي	کي	ADP	PSP	_	36	case	_	_
 38	ڌڙن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	39	nmod	_	_
@@ -3469,7 +3469,7 @@
 4	سياسي	سياسي	ADJ	JJ	Case=Nom|Degree=Pos	5	amod	_	_
 5	پٺ	پٺ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	37	dislocated	_	SpaceAfter=No
 6	،	،	PUNCT	PUNCT	_	5	punct	_	_
-7	نه	نه	PART	PART	_	5	dep	_	_
+7	نه	نه	PART	PART	_	17	advmod	_	_
 8	ئي	ئي	PART	PART	_	7	advmod:emph	_	_
 9	ٿاڻي	ٿاڻو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
 10	ڪچهرين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	_
@@ -3968,18 +3968,18 @@
 
 # sent_id = 5438
 # text = نه پنهنجي وومين منسٽري ۽ نه ئي ڪنهن ٻي سرڪاري ڌر مدد ڪئي.
-1	نه	نه	PART	PART	_	13	dep	_	_
+1	نه	نه	PART	PART	_	13	advmod	_	_
 2	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	4	nmod	_	_
 3	وومين	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
 4	منسٽري	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 5	۽	۽	CCONJ	CC	_	11	cc	_	_
-6	نه	نه	PART	PART	_	13	dep	_	_
-7	ئي	ئي	PART	PART	_	4	advmod:emph	_	_
+6	نه	نه	PART	PART	_	13	advmod	_	_
+7	ئي	ئي	PART	PART	_	6	advmod:emph	_	_
 8	ڪنهن	ڪو	PRON	PRWH	Case=Acc|Gender=Masc|Number=Sing	11	det	_	_
 9	ٻي	ٻہ	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
 10	سرڪاري	سرڪاري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
-11	ڌر	ڌر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
-12	مدد	مدد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	compound	_	_
+11	ڌر	ڌر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+12	مدد	مدد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	obj	_	_
 13	ڪئي	ڪئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
