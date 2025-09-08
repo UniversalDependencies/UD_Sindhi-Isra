@@ -46,12 +46,12 @@
 4	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	5	compound	_	_
 5	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	12	advcl	_	_
 6	لاءِ	لاءِ	ADP	PSP	_	5	mark	_	_
-7	کيس	کي	ADP	PSPX	Case=Acc|Number=Sing|Person=3	12	obl	_	_
+7	کيس	کي	ADP	PSPX	Case=Acc|Number=Sing|Person=3	12	iobj	_	_
 8	ڪـُن	ڪـُن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 9	مان	مان	ADP	PSPL	_	8	case	_	_
 10	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
 11	ٽٻي	ٽٻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
-12	ڏياري	ڏيار	VERB	VM	Gender=Fem|Number=Sing	0	root	_	_
+12	ڏياري	ڏيار	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 13	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = Kawish-20100810-382
@@ -301,11 +301,11 @@
 # text = پڇاڙيءَ ۾ هڪڙي پوڙهي رِڍَ سهڪندي سهڪندي تلاءُ تي آئي .
 1	پڇاڙيءَ	پڇاڙي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
-3	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
+3	هڪڙي	هڪڙو	ADJ	JJC	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
 4	پوڙهي	پوڙهي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	رِڍَ	رِڍَ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-6	سهڪندي	سهڪندو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	7	advcl	_	_
-7	سهڪندي	سهڪندو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	10	advcl	_	_
+6	سهڪندي	سهڪندو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	10	advcl	_	_
+7	سهڪندي	سهڪندو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	6	compund:redup	_	_
 8	تلاءُ	تلاءُ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 9	تي	تي	ADP	PSPL	_	8	case	_	_
 10	آئي	آئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
@@ -374,7 +374,7 @@
 5	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 6	پيئڻ	پيءَ	VERB	VM	Aspect=Imp|VerbForm=Inf	8	nmod	_	_
 7	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	mark	_	_
-8	موڪل	موڪل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	_
+8	موڪل	موڪل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	_
 9	ڏني	ڏني	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 10	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
@@ -426,7 +426,7 @@
 
 # sent_id = Kawish-20100810-410
 # text = اهو ٻڌڻ سان گدڙ سڙي پچي ويو ۽ رِڍَ تي حملو ڪيائين .
-1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	ٻڌڻ	ٻڌ	VERB	VM	Aspect=Imp|VerbForm=Inf	6	advcl	_	_
 3	سان	سان	ADP	PSP	_	2	mark	_	_
 4	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -436,8 +436,8 @@
 8	۽	۽	CCONJ	CC	_	12	cc	_	_
 9	رِڍَ	رِڍَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 10	تي	تي	ADP	PSPL	_	9	case	_	_
-11	حملو	حملو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	compound	_	_
-12	ڪيائين	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	6	conj	_	_
+11	حملو	حملو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	_
+12	ڪيائين	ڪيو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	6	conj	_	_
 13	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = Kawish-20100810-411
@@ -485,20 +485,20 @@
 
 # sent_id = Kawish-20100810-415
 # text = ۽ جهنگ منهن ڪري وٺي ڀڳو ۽ وري ڪڏهن پاڻ کي سلطان نه سڏايائين .
-1	۽	۽	CCONJ	CC	_	6	cc	_	_
-2	جهنگ	جهنگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+1	۽	۽	CCONJ	CC	_	5	cc	_	_
+2	جهنگ	جهنگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
 3	منهن	منهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
-4	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
-5	وٺي	وٺ	VERB	VM	Aspect=Perf|VerbForm=Conv	6	compound	_	_
-6	ڀڳو	ڀڄ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+4	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
+5	وٺي	وٺ	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
+6	ڀڳو	ڀڄ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	compound	_	_
 7	۽	۽	CCONJ	CC	_	14	cc	_	_
 8	وري	وري	ADV	ADM	_	14	advmod	_	_
 9	ڪڏهن	ڪڏهن	ADV	ADT	_	14	advmod	_	_
-10	پاڻ	پاڻ	PRON	PRP	Case=Acc|Number=Sing|Person=1	14	obj	_	_
+10	پاڻ	پاڻ	PRON	PRP	Case=Acc|Person=3	14	iobj	_	_
 11	کي	کي	ADP	PSP	_	10	case	_	_
-12	سلطان	سلطان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	xcomp	_	_
+12	سلطان	سلطان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	_
 13	نه	نه	PART	PART	_	14	advmod	_	_
-14	سڏايائين	سڏاءِ	VERB	VMX	Aspect=Imp|Number=Sing|Person=1|Voice=Act	6	conj	_	_
+14	سڏايائين	سڏاءِ	VERB	VMX	Aspect=Imp|Number=Sing|Person=1|Voice=Act	5	conj	_	_
 15	.	.	PUNCT	PUNCT	_	14	punct	_	_
 
 # sent_id = Kawish-20100810-416
@@ -519,7 +519,7 @@
 9	تي	تي	ADP	PSPL	_	8	case	_	_
 10	غار	غار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
 11	ٺاهي	ٺاه	VERB	VM	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
-12	اچي	اچ	VERB	VM	Aspect=Perf|VerbForm=Conv	13	xcomp	_	_
+12	اچي	اچ	VERB	VM	Aspect=Perf|VerbForm=Conv	11	compound	_	_
 13	ويهي	ويه	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 14	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	13	compound	_	_
 15	.	.	PUNCT	PUNCT	_	13	punct	_	_
@@ -533,7 +533,7 @@
 5	پيئڻ	پيءَ	VERB	VM	_	8	advcl	_	_
 6	لاءِ	لاءِ	ADP	PSP	_	5	mark	_	_
 7	سـِـڪي	سـِـڪيو	VERB	VM	Aspect=Perf|VerbForm=Conv	8	xcomp	_	_
-8	مـُـئا	مـُء	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
+8	مـُـئا	مـُء	VERB	VM	Gender=Masc|Number=Plur	0	root	_	_
 9	هئا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	8	aux	_	_
 10	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -605,9 +605,9 @@
 4	گڏ	گڏ	ADV	ADV	_	7	advmod	_	_
 5	تلاءُ	تلاءُ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 6	ڏانهن	ڏانهن	ADV	ADP	_	5	case	_	_
-7	هلڻ	هلڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	8	xcomp	_	_
-8	لڳي	لڳ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
-9	.	.	PUNCT	PUNCT	_	8	punct	_	_
+7	هلڻ	هلڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
+8	لڳي	لڳ	VERB	VM	Gender=Fem|Number=Sing|Person=3	7	compound	_	_
+9	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = Kawish-20100810-426
 # text = جڏهن ڪجهه اڳڀرو ويا ته گدڙ چيو ته : ڀلو ٿيئي هڪ سؤ ڪوڙ ته وسري ويو اٿم .
@@ -929,7 +929,7 @@
 4	:	:	PUNCT	PUNCT	_	2	punct	_	_
 5	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
 6	ٻچا	ٻچو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	obj	_	_
-7	ڪڍي	ڪڍ	VERB	VM	Aspect=Perf|VerbForm=Conv	2	advcl	_	_
+7	ڪڍي	ڪڍ	VERB	VM	Aspect=Perf|VerbForm=Conv	2	ccomp	_	_
 8	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	7	aux	_	_
 9	اچان	اچ	VERB	VM	Number=Sing|Person=1	7	compound	_	_
 10	.	.	PUNCT	PUNCT	_	7	punct	_	_
@@ -964,7 +964,7 @@
 # text = ائين چئي اها به اندر ويئي ۽ وري نه موٽي .
 1	ائين	ائين	PRON	PRL	Case=Nom	2	obl	_	_
 2	چئي	چئو	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
-3	اها	اها	DET	PRD	Case=Nom|Number=Sing	6	nsubj	_	_
+3	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 4	به	به	PART	PART	_	3	advmod:emph	_	_
 5	اندر	اندر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	_
 6	ويئي	وڃ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
@@ -997,8 +997,8 @@
 # text = نيٺ شينهن ويچارو ارمان ڪندو هليو ويو .
 1	نيٺ	نيٺ	ADV	ADV	_	6	advmod	_	_
 2	شينهن	شينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-3	ويچارو	ويچارو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	5	advmod	_	_
-4	ارمان	ارمان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
+3	ويچارو	ويچارو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+4	ارمان	ارمان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
 5	ڪندو	ڪن	VERB	VM	Gender=Masc|Number=Sing|VerbForm=PresPart	6	xcomp	_	_
 6	هليو	هل	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 7	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	6	compound	_	_
@@ -1422,14 +1422,14 @@
 # sent_id = Kawish-20100810-486
 # text = مائي اها سربستي ڳالهه وڃي پنهنجي مڙس کي ٻڌائي .
 1	مائي	مائي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
-2	اها	اها	DET	PRD	Case=Nom|Number=Sing	4	det	_	_
+2	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	4	det	_	_
 3	سربستي	سربستو	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
 4	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
 5	وڃي	وڃ	VERB	VM	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
-6	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	7	nmod	_	_
+6	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	7	nmod	_	_
 7	مڙس	مڙس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 8	کي	کي	ADP	PSP	_	7	case	_	_
-9	ٻڌائي	ٻڌا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
+9	ٻڌائي	ٻڌا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 10	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = Kawish-20100810-487
