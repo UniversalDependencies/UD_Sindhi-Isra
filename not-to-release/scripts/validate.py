@@ -720,62 +720,75 @@ def check_expected_features(filename, new_doc, check_feats):
                                               nodes=[word_idx+1]))
     return incidents
 
-def check_feature_errors(new_doc, check_feats):
-    problem_sentences = set()
+def check_feature_errors(filename, new_doc, check_feats):
+    incidents = []
     if check_feats:
-        printed = False
         for sent_idx, sent in enumerate(new_doc.sentences):
             for word_idx, word in enumerate(sent.words):
                 if not word.upos:
                     continue
                 if word.upos not in ALLOWED_UPOS_TO_FEATS:
-                    problem_sentences.add(sent_idx)
-                    if not printed:
-                        printed = True
-                        print("FEATURE ERRORS")
-                    print("Sentence %s (%d) word %d (line %d) had an unexpected upos %s with features" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.upos))
+                    error = "Sentence %s (%d) word %d (line %d) had an unexpected upos %s with features" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.upos)
+                    incidents.append(Incident(category="Features error",
+                                              filename=filename,
+                                              sent_idx=sent_idx,
+                                              sentence=sent,
+                                              error=error,
+                                              nodes=[word_idx+1]))
                     continue
                 if not word.feats or word.feats == '_':
                     if word.upos in DISALLOWED_BLANK_FEATS:
-                        problem_sentences.add(sent_idx)
-                        if not printed:
-                            printed = True
-                            print("FEATURE ERRORS")
-                        print("Sentence %s (%d) word %d (line %d) had blank features, which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.upos))
+                        error = "Sentence %s (%d) word %d (line %d) had blank features, which is not allowed for upos %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.upos)
+                        incidents.append(Incident(category="Features error",
+                                                  filename=filename,
+                                                  sent_idx=sent_idx,
+                                                  sentence=sent,
+                                                  error=error,
+                                                  nodes=[word_idx+1]))
                     continue
                 feat_pieces = word.feats.split("|")
                 for feat in feat_pieces:
                     if feat not in ALLOWED_UPOS_TO_FEATS[word.upos]:
-                        problem_sentences.add(sent_idx)
-                        if not printed:
-                            printed = True
-                            print("FEATURE ERRORS")
-                        print("Sentence %s (%d) word %d |%s| (line %d) had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat, word.upos))
+                        error = "Sentence %s (%d) word %d |%s| (line %d) had an unexpected feature %s for upos %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat, word.upos)
+                        incidents.append(Incident(category="Features error",
+                                                  filename=filename,
+                                                  sent_idx=sent_idx,
+                                                  sentence=sent,
+                                                  error=error,
+                                                  nodes=[word_idx+1]))
                 for feat in feat_pieces:
                     if len(feat.split("=")) <= 1:
-                        problem_sentences.add(sent_idx)
-                        if not printed:
-                            printed = True
-                            print("FEATURE ERRORS")
-                        print("Sentence %s (%d) word %d |%s| (line %d) had an incomplete feature, not key=value: %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat))
+                        error = "Sentence %s (%d) word %d |%s| (line %d) had an incomplete feature, not key=value: %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat)
+                        incidents.append(Incident(category="Features error",
+                                                  filename=filename,
+                                                  sent_idx=sent_idx,
+                                                  sentence=sent,
+                                                  error=error,
+                                                  nodes=[word_idx+1]))
                         continue
                 if word.upos == 'ADP':
                     feat_map = {x: y for x, y in [x.split("=", maxsplit=1) for x in feat_pieces]}
                     if 'Case' in feat_map:
                         if word.xpos != 'PSPG' and word.xpos != 'PSPX':
-                            if not printed:
-                                printed = True
-                                print("FEATURE ERRORS")
-                            print("Sentence %s (%d) word %d |%s| (line %d) had Case=%s but an xpos %s which is not allowed to have Case" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat_map['Case'], word.xpos))
+                            error = "Sentence %s (%d) word %d |%s| (line %d) had Case=%s but an xpos %s which is not allowed to have Case" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat_map['Case'], word.xpos)
+                            incidents.append(Incident(category="Features error",
+                                                      filename=filename,
+                                                      sent_idx=sent_idx,
+                                                      sentence=sent,
+                                                      error=error,
+                                                      nodes=[word_idx+1]))
                 if word.upos == 'VERB':
                     feat_map = {x: y for x, y in [x.split("=", maxsplit=1) for x in feat_pieces]}
                     if 'VerbForm' in feat_map and feat_map['VerbForm'] == 'Inf':
                         if feat_map.get('Aspect') != 'Imp':
-                            if not printed:
-                                printed = True
-                                print("FEATURE ERRORS")
-                            print("Sentence %s (%d) word %d |%s| (line %d) had VerbForm=Inf but an Aspect=%s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat_map.get('Aspect')))
-    return problem_sentences
+                            error = "Sentence %s (%d) word %d |%s| (line %d) had VerbForm=Inf but an Aspect=%s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat_map.get('Aspect'))
+                            incidents.append(Incident(category="Features error",
+                                                      filename=filename,
+                                                      sent_idx=sent_idx,
+                                                      sentence=sent,
+                                                      error=error,
+                                                      nodes=[word_idx+1]))
+    return incidents
 
 def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=True):
     problem_sentences = set()
@@ -801,7 +814,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     problem_sentences |= check_advmod_emph_errors(new_doc)
     problem_sentences |= check_enforced_pos(new_doc)
     incidents.extend(check_expected_features(filename, new_doc, check_feats))
-    problem_sentences |= check_feature_errors(new_doc, check_feats)
+    incidents.extend(check_feature_errors(filename, new_doc, check_feats))
 
     return incidents
 
