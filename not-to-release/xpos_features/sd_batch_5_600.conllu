@@ -3125,7 +3125,7 @@
 36	۽	۽	CCONJ	CC	_	37	cc	_	_
 37	عقابن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	35	conj	_	_
 38	۾	۾	ADP	PSPL	_	35	case	_	_
-39	جلاوطن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	obj	_	_
+39	جلاوطن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	ccomp	_	_
 40	هئي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Past	39	cop	_	SpaceAfter=No
 41	،	،	PUNCT	PUNCT	_	39	punct	_	_
 
@@ -6550,11 +6550,11 @@
 18	ڪندو	ڪن	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	0	root	_	_
 19	۽	۽	CCONJ	CC	_	30	cc	_	_
 20	بقايا	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Plur	21	amod	_	_
-21	مرڪ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	obj	_	_
-22	اوهان	اوهان	PRON	PRP	Case=Acc|Number=Plur|Person=3	25	nmod	_	_
+21	مرڪ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	iobj	_	_
+22	اوهان	اوهان	PRON	PRP	Case=Acc|Number=Plur|Person=3	24	nmod	_	_
 23	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	22	case	_	_
-24	وار	وار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_
-25	وار	وار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	obj	_	_
+24	وار	وار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	obj	_	_
+25	وار	وار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	compound:redup	_	_
 26	ساڙڻ	ساڙڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	30	advcl	_	_
 27	لاءِ	لاءِ	ADP	PSP	_	26	mark	_	_
 28	اوهان	اوهان	PRON	PRP	Case=Acc|Number=Plur|Person=3	29	nmod	_	_
@@ -7301,7 +7301,7 @@
 11	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	15	obl	_	_
 12	لاءِ	لاءِ	ADP	PSP	_	11	case	_	_
 13	ايئرڪنڊيشنز	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	obj	_	_
-14	مفت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	_
+14	مفت	_	ADJ	JJ	Case=Nom|Number=Sing	15	xcomp	_	_
 15	هلائڻ	هلاءِ	VERB	VM	Aspect=Imp|VerbForm=Inf	18	advcl	_	_
 16	کي	کي	ADP	PSP	_	15	mark	_	_
 17	حق	حق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
@@ -9466,13 +9466,13 @@
 12	به	به	PART	PART	_	6	advmod:emph	_	_
 13	سرڪار	سرڪار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
 14	وظيفو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
-15	نه	نه	PART	PART	_	17	dep	_	_
+15	نه	نه	PART	PART	_	17	advmod	_	_
 16	ٿي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	17	aux	_	_
 17	ڏئي	ڏئي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 18	ته	ته	SCONJ	CS	_	17	mark	_	_
 19	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_
 20	ڪيڏي	_	ADV	ADT	_	24	amod	_	_
-21	نه	نه	PART	PART	_	20	dep	_	_
+21	نه	نه	PART	PART	_	20	advmod:emph	_	_
 22	انهن	ان	DET	PRD	Case=Acc|Number=Plur	23	det	_	_
 23	پڙهندڙ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nmod	_	_
 24	ڊاڪٽرن	ڊاڪٽر	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	30	nmod	_	_
@@ -9481,7 +9481,7 @@
 27	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	26	case	_	_
 28	مائٽن	مائٽ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	conj	_	_
 29	سان	سان	ADP	PSP	_	28	case	_	_
-30	ويڌن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obj	_	_
+30	ويڌن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	advcl	_	_
 31	(	(	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
 32	ظلم	ظلم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
 33	)	)	PUNCT	PUNCT	_	32	punct	_	_
@@ -10350,7 +10350,7 @@
 33	قابل	_	ADJ	JJ	Case=Nom|Degree=Pos	34	amod	_	_
 34	گرفت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	36	nmod	_	_
 35	اهي	اهو	DET	PRD	Case=Nom|Number=Plur	36	det	_	_
-36	استاد	استاد	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	obj	_	_
+36	استاد	استاد	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	ccomp	_	_
 37	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	36	cop	_	SpaceAfter=No
 38	،	،	PUNCT	PUNCT	_	36	punct	_	_
 
@@ -12129,7 +12129,7 @@
 71	گهر	گهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	73	nmod	_	_
 72	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	71	case	_	_
 73	ڪم	ڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	75	obj	_	_
-74	ڪوثر	_	PROPN	NNP	Case=Nom|Gender=Masc	75	obj	_	_
+74	ڪوثر	_	PROPN	NNP	Case=Nom|Gender=Masc	75	nsubj	_	_
 75	نڀائي	نڀاءِ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	68	conj	_	_
 76	ٿي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	75	aux	_	SpaceAfter=No
 77	.	.	PUNCT	PUNCT	_	75	punct	_	_
