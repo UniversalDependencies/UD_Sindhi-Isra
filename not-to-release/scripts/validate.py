@@ -681,17 +681,19 @@ def check_advmod_emph_errors(new_doc):
                     print(error)
     return problem_sentences
 
-def check_enforced_pos(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_enforced_pos(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if word.text in ENFORCED_POS and word.upos not in ENFORCED_POS[word.text]:
-                if not printed:
-                    printed = True
-                    print("Word-specific POS error")
-                print("Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s, which is not in %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, ENFORCED_POS[word.text]))
-    return problem_sentences
+                error = "Sentence %s (%d) word %d (line %d) is |%s| with a POS of %s, which is not in %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.upos, ENFORCED_POS[word.text])
+                incidents.append(Incident(category="Word-specific POS error",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word_idx+1]))
+    return incidents
 
 
 def check_expected_features(filename, new_doc, check_feats):
@@ -814,7 +816,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     incidents.extend(check_upos_xpos_match(filename, new_doc, check_xpos))
     problem_sentences |= check_null_features(new_doc)
     problem_sentences |= check_advmod_emph_errors(new_doc)
-    problem_sentences |= check_enforced_pos(new_doc)
+    incidents.extend(check_enforced_pos(filename, new_doc))
     incidents.extend(check_expected_features(filename, new_doc, check_feats))
     incidents.extend(check_feature_errors(filename, new_doc, check_feats))
 
@@ -846,7 +848,7 @@ def main():
             error_nodes[incident.sent_idx].extend(incident.nodes)
 
         ud_state = udvalidator.validate_files([filename])
-        for incident in ud_state.error_counter['Syntax']:
+        for incident in ud_state.error_tracker['Syntax']:
             print(incident.sentid, incident.lineno, incident.message)
             # TODO: use lineno instead
             for sent_idx, sentence in enumerate(new_doc.sentences):
