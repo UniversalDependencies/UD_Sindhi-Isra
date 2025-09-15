@@ -8,6 +8,8 @@ import networkx as nx
 
 from stanza.utils.conll import CoNLL
 
+from tools.validate import Validator
+
 ALLOWED_UPOS = { "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB"}
 
 ALLOWED_UPOS_TO_XPOS = {
@@ -828,6 +830,7 @@ def main():
     args = parser.parse_args()
 
     error_doc = []
+    udvalidator = Validator(["--lang", "sd", '--quiet'])
     for filename in args.filename:
         print("Validating %s" % filename)
         new_doc = CoNLL.conll2doc(filename, keep_line_numbers=True)
@@ -841,6 +844,21 @@ def main():
                 error_sentences[incident.sent_idx] = incident.sentence
             error_sentences[incident.sent_idx].add_comment("ERROR: %s" % incident.error)
             error_nodes[incident.sent_idx].extend(incident.nodes)
+
+        ud_state = udvalidator.validate_files([filename])
+        for incident in ud_state.error_counter['Syntax']:
+            print(incident.sentid, incident.lineno, incident.message)
+            # TODO: use lineno instead
+            for sent_idx, sentence in enumerate(new_doc.sentences):
+                if sentence.sent_id == incident.sentid:
+                    break
+            else:
+                raise ValueError("failed to find the expected sentence id!")
+            if sent_idx not in error_sentences:
+                error_sentences[sent_idx] = sentence
+            error_sentences[sent_idx].add_comment("ERROR: %s" % incident.message)
+            error_nodes[sent_idx].append(incident.nodeid)
+
         for sent_idx in error_nodes:
             nodes = "highlight tokens = %s" % (" ".join("%d" % x for x in error_nodes[sent_idx]))
             error_sentences[sent_idx].add_comment(nodes)
