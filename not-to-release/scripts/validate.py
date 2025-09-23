@@ -828,10 +828,12 @@ def main():
     parser.add_argument('--no_check_xpos', action='store_false', dest='check_xpos', help="Don't check the xpos in the file")
     parser.add_argument('--no_require_xpos', action='store_false', dest='require_xpos', help="Don't require that all words have xpos")
     parser.add_argument('--no_check_feats', action='store_false', dest='check_feats', help="Don't check the feats in the file")
-    parser.add_argument('--error_output', default=None, help="Where to save the errors collected by the validator")
+    parser.add_argument('--save_errors', default=None, help="Where to save the errors collected by the validator")
+    parser.add_argument('--save_clean', default=None, help="Where to save trees with no errors detected")
     args = parser.parse_args()
 
     error_doc = []
+    clean_doc = []
     udvalidator = Validator(["--lang", "sd", '--quiet'])
     for filename in args.filename:
         print("Validating %s" % filename)
@@ -866,11 +868,19 @@ def main():
             nodes = "highlight tokens = %s" % (" ".join("%d" % x for x in error_nodes[sent_idx]))
             error_sentences[sent_idx].add_comment(nodes)
 
+        for sent_idx, sentence in enumerate(new_doc.sentences):
+            if sent_idx not in error_sentences:
+                clean_doc.append(sentence)
+
         error_doc.extend(error_sentences.values())
 
-    if len(args.filename) > 0 and args.error_output is not None:
+    if len(args.filename) > 0 and args.save_errors is not None:
         new_doc.sentences = error_doc
-        CoNLL.write_doc2conll(new_doc, args.error_output)
+        CoNLL.write_doc2conll(new_doc, args.save_errors)
+
+    if len(args.filename) > 0 and args.save_clean is not None:
+        new_doc.sentences = clean_doc
+        CoNLL.write_doc2conll(new_doc, args.save_clean)
 
 if __name__ == '__main__':
     main()
