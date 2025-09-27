@@ -1,0 +1,316 @@
+# sent_id = 1096
+# text = وري جو هوا لڳي ته وڻ جا پن لڏڻ لڳا، جنهنڪري زمين تي ائين پئي ڏسڻ ۾ آيو ته اهي جانور سچ پچ جيئرا آهن ۽ خوشيءَ وچان پيا نچن.
+# ERROR: Sentence 1096 (16) word 12 (line 358) is |جنهنڪري| with a POS of CCONJ and deprel of cc.  Expected: [('ADV', 'advmod'), ('SCONJ', 'mark')]
+# ERROR: Sentence 1096 (16) word 12 |جنهنڪري| (line 358) has incompatible upos/xpos CCONJ/CC.  Expected is ADV/ADV, SCONJ/CS
+# highlight tokens = 12 12
+1	وري	وري	ADV	ADM	_	4	advmod	_	_
+2	جو	جو	ADP	PSP	_	1	case	_	_
+3	هوا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	لڳي	لڳ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	10	advcl	_	_
+5	ته	ته	SCONJ	CS	_	4	mark	_	_
+6	وڻ	وڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+7	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	6	case	_	_
+8	پن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	obj	_	_
+9	لڏڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	10	xcomp	_	_
+10	لڳا	لڳ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+11	،	،	PUNCT	PUNCT	_	10	punct	_	_
+12	جنهنڪري	جنهنڪري	CCONJ	CC	_	19	cc	_	_
+13	زمين	زمين	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+14	تي	تي	ADP	PSPL	_	13	case	_	_
+15	ائين	ائين	PRON	PRL	_	16	obj	_	_
+16	پئي	پيو	VERB	VM	Aspect=Imp|Voice=Act	17	advcl	_	_
+17	ڏسڻ	ڏسڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	19	advcl	_	_
+18	۾	۾	ADP	PSPL	_	17	mark	_	_
+19	آيو	آءَ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	9	conj	_	_
+20	ته	ته	SCONJ	CS	_	25	mark	_	_
+21	اهي	اهو	DET	PRD	Case=Nom|Number=Plur	22	det	_	_
+22	جانور	جانور	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+23	سچ	سچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nmod	_	_
+24	پچ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	obl	_	_
+25	جيئرا	_	ADV	ADV	_	19	obj	_	_
+26	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	25	cop	_	_
+27	۽	۽	CCONJ	CC	_	30	cc	_	_
+28	خوشيءَ	خوشيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obl	_	_
+29	وچان	وچان	ADV	ADP	_	30	advmod	_	_
+30	پيا	پيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	25	conj	_	_
+31	نچن	نچ	VERB	VM	Aspect=Imp|Number=Plur|Person=3	30	compound	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	30	punct	_	_
+
+# sent_id = 1250
+# text = تڏهن ڪمپا ڪابيرو پرن نه ملڻ جي ڪري اتي ئي ترسي پيئي.
+# ERROR: Sentence 1250 (28) word 10 (line 591) is |ئي| with a POS of ADP and deprel of case.  Expected: [('PART', 'advmod:emph')]
+# highlight tokens = 10
+1	تڏهن	تڏهن	ADV	ADT	_	11	advmod	_	_
+2	ڪمپا	ڪمپا	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+3	ڪابيرو	ڪابيرو	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
+4	پرن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	obj	_	_
+5	نه	نه	PART	PART	_	6	dep	_	_
+6	ملڻ	ملڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	8	advcl	_	_
+7	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	6	mark	_	_
+8	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
+9	اتي	اتي	ADV	ADP	_	11	advmod	_	_
+10	ئي	ئي	ADP	PSP	_	9	case	_	_
+11	ترسي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
+12	پيئي	پيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	11	compound	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = 1244
+# text = شڪاري جهنگ ڏانهن ويو ۽ هڪڙي چشمي جي ڪناري وٽ ننڍن وڻن ۾ لڪي ويٺو ته اتان ڪو هرڻ لنگهي ته جهلي وٺانس.
+# ERROR: Sentence 1244 (27) word 19 (line 573) is |هرڻ| with a POS of VERB and deprel of obj
+# highlight tokens = 19
+1	شڪاري	شڪار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	جهنگ	جهنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+3	ڏانهن	ڏانهن	ADV	ADP	_	2	case	_	_
+4	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+5	۽	۽	CCONJ	CC	_	14	cc	_	_
+6	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	چشمي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+8	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	case	_	_
+9	ڪناري	ڪنارو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+10	وٽ	وٽ	ADP	PSPL	_	9	case	_	_
+11	ننڍن	_	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+12	وڻن	وڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+13	۾	۾	ADP	PSPL	_	12	case	_	_
+14	لڪي	لڪ	VERB	VM	Aspect=Perf|VerbForm=Conv	4	conj	_	_
+15	ويٺو	ويٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	14	compound	_	_
+16	ته	ته	SCONJ	CS	_	22	mark	_	_
+17	اتان	اتي	ADV	ADT	_	20	advmod	_	_
+18	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	19	det	_	_
+19	هرڻ	_	VERB	VM	Aspect=Perf|VerbForm=Conv	20	obj	_	_
+20	لنگهي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3	22	advcl	_	_
+21	ته	ته	SCONJ	CS	_	22	mark	_	_
+22	جهلي	جهل	VERB	VM	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
+23	وٺانس	_	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	22	compound	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	22	punct	_	_
+
+# sent_id = 868
+# text = انهيءَ اوچتي ڇڪ جي ڪري چارئي گنجا هڪ ٻئي ڏانهن ڇڪجي آيا ۽ هنن جا گنجا مٿا هڪ ٻئي سان ٽڪرائجي پرزا پرزا ٿي ويا.
+# ERROR: Sentence 868 (5) word 9 (line 107) is |ٻئي| with a POS of NOUN, which is not in ['ADJ']
+# ERROR: Sentence 868 (5) word 19 (line 117) is |ٻئي| with a POS of NOUN, which is not in ['ADJ']
+# highlight tokens = 9 19
+1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	3	det	_	_
+2	اوچتي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	ڇڪ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+4	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	3	case	_	_
+5	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
+6	چارئي	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+7	گنجا	گنجو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+8	هڪ	هڪ	NUM	NUM	_	9	nummod	_	_
+9	ٻئي	ٻيو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+10	ڏانهن	ڏانهن	ADV	ADP	_	11	advmod	_	_
+11	ڇڪجي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
+12	آيا	آيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	11	compound	_	_
+13	۽	۽	CCONJ	CC	_	23	cc	_	_
+14	هنن	هي	PRON	PRP	Case=Acc|Number=Plur|Person=3	17	nmod	_	_
+15	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	14	case	_	_
+16	گنجا	گنجو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nmod	_	_
+17	مٿا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+18	هڪ	هڪ	NUM	NUM	_	19	nummod	_	_
+19	ٻئي	ٻيو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
+20	سان	سان	ADP	PSP	_	19	case	_	_
+21	ٽڪرائجي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	23	advcl	_	_
+22	پرزا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	compound	_	_
+23	پرزا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	conj	_	_
+24	ٿي	آهي	AUX	VAUX	AuxType=Be	23	cop	_	_
+25	ويا	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	23	compound	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	23	punct	_	_
+
+# sent_id = 856
+# text = اهو ٻڌي چارئي گنجا ڏاڍا خوش ٿيا ته اهڙي سولائيءَ سان اسان کي ٻه نوڪر ملي پوندا.
+# ERROR: Multiple subjects [12, 15] ('اسان', 'نوڪر') not subtyped as ':outer'.
+# highlight tokens = 16
+1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	ٻڌي	ٻڌ	VERB	VM	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
+3	چارئي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
+4	گنجا	گنجو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+5	ڏاڍا	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	7	xcomp	_	_
+7	ٿيا	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
+8	ته	ته	SCONJ	CS	_	16	mark	_	_
+9	اهڙي	اهڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	سولائيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+11	سان	سان	ADP	PSP	_	10	mark	_	_
+12	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	16	nsubj	_	_
+13	کي	کي	ADP	PSP	_	12	case	_	_
+14	ٻه	ٻه	ADJ	JJ	Case=Nom	15	amod	_	_
+15	نوڪر	نوڪر	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	ملي	مل	VERB	VM	Aspect=Imp|Voice=Act	7	advcl	_	_
+17	پوندا	پو	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	16	compound	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# sent_id = 941
+# text = جيئن ئي چيتو ڪمري ۾ گهڙيو ته ڀئونر پنهنجي پـَرَ سان ميڻ بتي وسائي ڇڏي.
+# ERROR: Multiple direct objects [12, 13] ('ميڻ', 'بتي') under one predicate.
+# highlight tokens = 14
+1	جيئن	جيئن	ADV	ADM	_	6	advmod	_	_
+2	ئي	ئي	PART	PART	_	1	advmod:emph	_	_
+3	چيتو	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	ڪمري	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+5	۾	۾	ADP	PSPL	_	4	case	_	_
+6	گهڙيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+7	ته	ته	SCONJ	CS	_	6	mark	_	_
+8	ڀئونر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+9	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	10	nmod	_	_
+10	پـَرَ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+11	سان	سان	ADP	PSP	_	10	case	_	_
+12	ميڻ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	_
+13	بتي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	_
+14	وسائي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+15	ڇڏي	ڇڏ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	14	compound	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# sent_id = 1144
+# text = اهي ڏاڍا خوش ٿيا ته مس مس اسان کي به ڪجهه چوڻ جو وجهه مليو آهي،
+# ERROR: Multiple subjects [8, 14] ('اسان', 'وجهه') not subtyped as ':outer'.
+# highlight tokens = 15
+1	اهي	اهو	DET	PRD	Case=Nom|Number=Plur	4	nsubj	_	_
+2	ڏاڍا	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	4	xcomp	_	_
+4	ٿيا	آهي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
+5	ته	ته	SCONJ	CS	_	15	mark	_	_
+6	مس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
+7	مس	مس	ADV	ADT	_	15	advmod	_	_
+8	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	15	nsubj	_	_
+9	کي	کي	ADP	PSP	_	8	case	_	_
+10	به	به	PART	PART	_	8	advmod:emph	_	_
+11	ڪجهه	ڪجهه	ADJ	JJ	Case=Nom|Degree=Pos	12	obj	_	_
+12	چوڻ	چوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	14	nmod	_	_
+13	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	12	mark	_	_
+14	وجهه	وجهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	مليو	مل	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	advcl	_	_
+16	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	15	aux	_	SpaceAfter=No
+17	،	،	PUNCT	PUNCT	_	15	punct	_	_
+
+# sent_id = 1256
+# text = جيڪي هن پيتيءَ ۾ بند ڪري ان جي ڪلف جي ڪنجي پاڻ وٽ لڪائي ڇڏي.
+# ERROR: Multiple subjects [1, 2] ('جيڪي', 'هن') not subtyped as ':outer'.
+# highlight tokens = 6
+1	جيڪي	جيڪو	PRON	PRP	Case=Nom|Number=Plur	6	nsubj	_	_
+2	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	nsubj	_	_
+3	پيتيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+4	۾	۾	ADP	PSPL	_	3	case	_	_
+5	بند	_	VERB	VM	Aspect=Perf	6	compound	_	_
+6	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
+7	ان	ان	DET	PRD	Case=Acc|Number=Sing	9	nmod	_	_
+8	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	7	case	_	_
+9	ڪلف	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+10	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	9	case	_	_
+11	ڪنجي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	_
+12	پاڻ	پاڻ	PRON	PRP	Case=Acc|Person=1	14	obl	_	_
+13	وٽ	وٽ	ADP	PSP	_	12	case	_	_
+14	لڪائي	لڪ	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
+15	ڇڏي	ڇڏ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	14	compound	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# sent_id = 846
+# text = وري هن مٿي ڏٺو ته کيس کجيءَ جي ٽارن ۾ ٽوڪرين ٺاهڻ وارو لڙڪندو ڏسڻ ۾ آيو.
+# NOTE Difference at 6: NOUN vs ADP
+# highlight tokens = 6
+1	وري	وري	ADV	ADM	_	4	advmod	_	_
+2	هن	هن	DET	PRD	Case=Acc|Number=Sing	4	nsubj	_	_
+3	مٿي	مٿي	ADV	ADV	_	4	advmod	_	_
+4	ڏٺو	ڏٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+5	ته	ته	SCONJ	CS	_	4	mark	_	_
+6	کيس	کيس	ADP	PSPX	Case=Acc|Number=Sing|Person=3	17	nsubj	_	_
+7	کجيءَ	کجيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+8	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	case	_	_
+9	ٽارن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	_
+10	۾	۾	ADP	PSPL	_	9	case	_	_
+11	ٽوڪرين	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	obj	_	_
+12	ٺاهڻ	ٺاه	VERB	VM	Aspect=Imp|VerbForm=Inf	14	advcl	_	_
+13	وارو	وارو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	12	mark	_	_
+14	لڙڪندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	15	advcl	_	_
+15	ڏسڻ	ڏسڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	17	advcl	_	_
+16	۾	۾	ADP	PSPL	_	15	mark	_	_
+17	آيو	آءَ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# sent_id = 902
+# text = ڪفگير، نوڪدار سوئو ۽ توب گهوڙي تي سوار اڳتي هليا.
+# NOTE Difference at 3: ADJ vs PROPN
+# highlight tokens = 3
+1	ڪفگير	_	PROPN	NNP	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No
+2	،	،	PUNCT	PUNCT	_	4	punct	_	_
+3	نوڪدار	نوڪدار	PROPN	NNP	Case=Nom|Gender=Masc	4	amod	_	_
+4	سوئو	_	PROPN	NNP	Case=Nom|Gender=Masc	1	conj	_	_
+5	۽	۽	CCONJ	CC	_	6	cc	_	_
+6	توب	توب	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+7	گهوڙي	گهوڙو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+8	تي	تي	ADP	PSPL	_	7	case	_	_
+9	سوار	سوار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	_
+10	اڳتي	اڳتي	ADV	ADP	_	11	advmod	_	_
+11	هليا	هل	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = 1099
+# text = هاڻي ٻارن لاءِ اها راند هڪ رونشو ٿي پيئي.
+# NOTE Difference at 6: ADJ vs NUM
+# highlight tokens = 6
+1	هاڻي	هاڻ	ADV	ADT	_	9	advmod	_	_
+2	ٻارن	ٻار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_
+3	لاءِ	لاءِ	ADP	PSP	_	2	case	_	_
+4	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	5	det	_	_
+5	راند	راند	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	هڪ	هڪ	NUM	NUM	_	7	amod	_	_
+7	رونشو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	xcomp	_	_
+8	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	9	aux	_	_
+9	پيئي	پيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# sent_id = 1141
+# text = پوءِ جڏهن به هن ڳالهائڻ لاءِ وات کوليو ٿي ته مٽيءَ جو ڀتر سڌو اچي ٿي هن جي وات ۾ پيو،
+# NOTE Difference at 1: ADP vs ADV
+# highlight tokens = 1
+1	پوءِ	پوءِ	ADV	ADT	_	8	mark	_	_
+2	جڏهن	جڏهن	ADV	ADT	_	8	advmod	_	_
+3	به	به	PART	PART	_	2	advmod:emph	_	_
+4	هن	هن	DET	PRD	Case=Acc|Number=Sing	8	nsubj	_	_
+5	ڳالهائڻ	ڳالهاءِ	VERB	VM	Aspect=Imp|VerbForm=Inf	8	advcl	_	_
+6	لاءِ	لاءِ	ADP	PSP	_	5	mark	_	_
+7	وات	وات	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
+8	کوليو	کول	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+9	ٿي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	8	aux	_	_
+10	ته	ته	SCONJ	CS	_	8	mark	_	_
+11	مٽيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
+12	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	11	case	_	_
+13	ڀتر	ڀتر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	سڌو	سڌو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	compound	_	_
+15	اچي	اچ	VERB	VM	Aspect=Perf|VerbForm=Conv	21	advcl	_	_
+16	ٿي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	15	aux	_	_
+17	هن	هن	DET	PRD	Case=Acc|Number=Sing	19	nmod	_	_
+18	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	17	case	_	_
+19	وات	وات	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
+20	۾	۾	ADP	PSPL	_	19	case	_	_
+21	پيو	پيو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	8	advcl	_	SpaceAfter=No
+22	،	،	PUNCT	PUNCT	_	21	punct	_	_
+
+# sent_id = 1249
+# text = پوءِ جڏهن هـُن جون ٻيون ڀينرون وهنجي پنهنجا پنهنجا پر ڍڪي اُڏامي ويون،
+# NOTE Difference at 1: ADP vs ADV
+# highlight tokens = 1
+1	پوءِ	پوءِ	ADV	ADT	_	12	mark	_	_
+2	جڏهن	جڏهن	ADV	ADT	_	12	advmod	_	_
+3	هـُن	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	6	nmod	_	_
+4	جون	جو	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	3	case	_	_
+5	ٻيون	ٻي	ADJ	JJ	Case=Nom|Gender=Fem|Number=Plur	6	amod	_	_
+6	ڀينرون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+7	وهنجي	وهنج	VERB	VM	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
+8	پنهنجا	پنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	10	nmod	_	_
+9	پنهنجا	پنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	10	nmod	_	_
+10	پر	پر	SCONJ	CS	_	11	obj	_	_
+11	ڍڪي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	12	xcomp	_	_
+12	اُڏامي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
+13	ويون	ويو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	12	compound	_	SpaceAfter=No
+14	،	،	PUNCT	PUNCT	_	12	punct	_	_
+
+# sent_id = 857
+# text = اڙي رڙيون نه ڪريو.
+# NOTE Difference at 1: ADV vs INTJ
+# highlight tokens = 1
+# ERROR: 'advmod' should be 'ADV' but it is 'INTJ' ('اڙي')
+1	اڙي	_	INTJ	INTJ	_	4	advmod	_	_
+2	رڙيون	رڙ	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	obj	_	_
+3	نه	نه	PART	PART	_	4	dep	_	_
+4	ڪريو	ڪر	VERB	VM	Aspect=Imp|Number=Plur|Person=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
