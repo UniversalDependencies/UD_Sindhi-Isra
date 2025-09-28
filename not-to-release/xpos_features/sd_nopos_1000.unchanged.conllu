@@ -966,7 +966,7 @@
 
 # sent_id = 755
 # text = تان جو پاڻيءَ ۾ هڪڙي به ڪٽار مڇي نه بچي.
-1	تان	_	ADP	PSP	_	10	advmod	_	_
+1	تان	_	ADP	PSP	_	10	mark	_	_
 2	جو	جو	ADP	PSP	_	1	fixed	_	_
 3	پاڻيءَ	پاڻيءَ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
@@ -1091,7 +1091,7 @@
 
 # sent_id = 765
 # text = اتي سپاهين ڏٺو ته ڇوڪرو گهري ننڊ ۾ ستو پيو آهي،
-1	اتي	اتي	ADP	PSPL	_	3	advmod	_	_
+1	اتي	اتي	ADV	ADP	_	3	advmod	_	_
 2	سپاهين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	ڏٺو	ڏٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 4	ته	ته	SCONJ	CS	_	9	mark	_	_
@@ -1099,7 +1099,7 @@
 6	گهري	گهرو	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
 7	ننڊ	ننڊ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 8	۾	۾	ADP	PSPL	_	7	case	_	_
-9	ستو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	advcl	_	_
+9	ستو	_	VERB	VM	Aspect=Imp|Number=Sing	3	advcl	_	_
 10	پيو	پيو	VERB	VM	Aspect=Imp|Number=Sing|Person=3	9	compound	_	_
 11	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	9	aux	_	SpaceAfter=No
 12	،	،	PUNCT	PUNCT	_	9	punct	_	_
@@ -1188,10 +1188,10 @@
 # sent_id = 830
 # text = چار گنجا کمير جي ڪهاڻي هڪڙي ڀيري جي ڳالهه آهي ته ڪو ماڻهو هوندو هو،
 1	چار	چار	ADJ	JJO	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
-2	گنجا	گنجو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	appos	_	_
+2	گنجا	گنجو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	parataxis	_	_
 3	کمير	_	PROPN	NNP	Case=Nom|Gender=Masc	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
-5	ڪهاڻي	ڪهاڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	parataxis	_	_
+5	ڪهاڻي	ڪهاڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
 6	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
 7	ڀيري	ڀيرو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
 8	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	7	case	_	_
