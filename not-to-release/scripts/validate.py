@@ -449,9 +449,8 @@ def check_pos_deprel_happiness(filename, new_doc, check_xpos):
 
     return incidents
 
-def check_unexpected_space_after(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_unexpected_space_after(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if word_idx == len(sent.words) - 1:
@@ -461,12 +460,15 @@ def check_unexpected_space_after(new_doc):
                 continue
             next_word = sent.words[word_idx+1]
             if word.upos != "PUNCT" and next_word.upos != "PUNCT":
-                if not printed:
-                    print("UNEXPECTED SpaceAfter=No")
-                    printed = True
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d (line %d) has SpaceAfter=No between two non-punct words" % (sent.sent_id, sent_idx, word_idx+1, word.line_number))
-    return problem_sentences
+                category = "Unexpected SpaceAfter=No"
+                error = "Sentence %s (%d) word %d (line %d) has SpaceAfter=No between two non-punct words" % (sent.sent_id, sent_idx, word_idx+1, word.line_number)
+                incidents.append(Incident(category=category,
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word_idx+1]))
+    return incidents
 
 def check_xpos_required(new_doc, check_xpos, require_xpos):
     problem_sentences = set()
@@ -487,7 +489,7 @@ def check_xpos_required(new_doc, check_xpos, require_xpos):
 def check_pos_xpos_happiness(filename, new_doc, check_xpos):
     incidents = []
     if not check_xpos:
-        return problem_sentences
+        return incidents
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
@@ -805,7 +807,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     problem_sentences |= check_space_in_word(new_doc)
     problem_sentences |= check_punct_word_labels(new_doc)
     incidents.extend(check_pos_deprel_happiness(filename, new_doc, check_xpos))
-    problem_sentences |= check_unexpected_space_after(new_doc)
+    incidents.extend(check_unexpected_space_after(filename, new_doc))
     problem_sentences |= check_xpos_required(new_doc, check_xpos, require_xpos)
     incidents.extend(check_pos_xpos_happiness(filename, new_doc, check_xpos))
     problem_sentences |= check_fixed(new_doc, check_feats)
