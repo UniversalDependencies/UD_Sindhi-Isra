@@ -6,7 +6,7 @@ from stanza.utils.conll import CoNLL
 parser = argparse.ArgumentParser(description='Look for sentences which have not yet been xpos-featurized')
 parser.add_argument('--ignore_split', action='store_true', default=False, dest='ignore_split',
                     help='Ignore the sentences which are apparently already resplit, such as with a letter at the end of the sent_id')
-parser.add_argument('--upos_file', default='../dependencies/sd_nopos_1000.conllu')
+parser.add_argument('--upos_file', default='../dependencies/sd_bad_tokenization.conllu')
 # previously would do: "../xpos_features/sd_batch_2*"
 parser.add_argument('--xpos_glob', default="../xpos_features/*")
 args = parser.parse_args()
