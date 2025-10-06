@@ -99,53 +99,55 @@
 52	ويو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	51	compound	_	SpaceAfter=No
 53	.	_	PUNCT	PUNCT	_	51	punct	_	SpaceAfter=No
 
-# sent_id = 4772
-# text = آخرڪار دهشتگردن جي انهن ڪارواين کان روڪڻ لاءِ پنهنجي جمهوري حڪومت ۾ به روڪ ٿام ته ٿيندي ته ته پوءِ ڪڏهن ٿيندي؟ هيءُ دهشت سان ڀريل خودڪش حملا بمم ڌماڪا پوري ملڪ جي 18 ڪروڙ عوام کي ڄڻ ته يرغمال ڪري ڇڏين ٿا.
-1	آخرڪار	_	ADV	_	_	2	amod	_	_
-2	دهشتگردن	دهشتگرد	NOUN	_	_	5	nmod	_	_
-3	جي	جي	ADP	_	_	2	case	_	_
-4	انهن	ان	DET	_	_	5	det	_	_
-5	ڪارواين	ڪاروائي	NOUN	_	_	7	obl	_	_
-6	کان	کان	ADP	_	_	5	case	_	_
-7	روڪڻ	روڪڻ	VERB	_	_	17	advcl	_	_
-8	لاءِ	لاءِ	ADP	_	_	7	mark	_	_
-9	پنهنجي	پنهنجي	PRON	_	_	11	nmod	_	_
-10	جمهوري	جمهوري	ADJ	_	_	11	amod	_	_
-11	حڪومت	حڪومت	NOUN	_	_	17	obl	_	_
-12	۾	۾	ADP	_	_	11	case	_	_
-13	به	به	PART	_	_	11	advmod:emph	_	_
-14	روڪ	روڪ	NOUN	_	_	15	nmod	_	_
-15	ٿام	_	NOUN	_	_	17	nsubj	_	_
-16	ته	ته	PART	_	_	15	advmod:emph	_	_
-17	ٿيندي	آهي	VERB	_	_	0	root	_	_
-18	ته	ته	SCONJ	_	_	22	mark	_	_
-19	ته	ته	SCONJ	_	_	22	mark	_	_
-20	پوءِ	پوءِ	ADP	_	_	22	mark	_	_
-21	ڪڏهن	ڪڏهن	ADV	_	_	22	advmod	_	_
-22	ٿيندي	آهي	VERB	_	_	17	conj	_	SpaceAfter=No
-23	؟	؟	PUNCT	_	_	22	punct	_	_
-24	هيءُ	هي	DET	_	_	25	det	_	_
-25	دهشت	دهشت	NOUN	_	_	27	obl	_	_
-26	سان	سان	ADP	_	_	25	case	_	_
-27	ڀريل	_	VERB	_	_	29	acl	_	_
-28	خودڪش	خودڪش	ADJ	_	_	29	amod	_	_
-29	حملا	حملو	NOUN	_	_	31	nmod	_	_
-30	بمم	_	NOUN	_	_	31	nmod	_	_
-31	ڌماڪا	_	NOUN	_	_	42	nsubj	_	_
-32	پوري	پوري	ADJ	_	_	33	amod	_	_
-33	ملڪ	ملڪ	NOUN	_	_	36	nmod	_	_
-34	جي	جي	ADP	_	_	33	case	_	_
-35	18	18	NUM	_	_	36	nummod	_	_
-36	ڪروڙ	ڪروڙ	NOUN	_	_	37	nmod	_	_
-37	عوام	عوام	NOUN	_	_	42	obj	_	_
-38	کي	کي	ADP	_	_	37	case	_	_
-39	ڄڻ	ڄڻ	ADV	_	_	42	advmod	_	_
-40	ته	ته	PART	_	_	39	advmod:emph	_	_
-41	يرغمال	يرغمال	NOUN	_	_	42	compound	_	_
-42	ڪري	ڪر	VERB	_	_	22	advcl	_	_
-43	ڇڏين	ڇڏ	VERB	_	_	42	compound	_	_
-44	ٿا	آهي	AUX	_	_	42	aux	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	42	punct	_	_
+# sent_id = 4772a
+# text = آخرڪار دهشتگردن جي انهن ڪارواين کان روڪڻ لاءِ پنهنجي جمهوري حڪومت ۾ به روڪ ٿام نہ ٿيندي  ته پوءِ ڪڏهن ٿيندي؟
+1	آخرڪار	_	ADV	ADV	_	7	advmod	_	_
+2	دهشتگردن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_
+3	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
+4	انهن	_	DET	PRD	Case=Acc|Number=Plur	5	det	_	_
+5	ڪارواين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	_
+6	کان	_	ADP	PSP	_	5	case	_	_
+7	روڪڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	17	advcl	_	_
+8	لاءِ	_	ADP	PSP	_	7	mark	_	_
+9	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	11	nmod	_	_
+10	جمهوري	_	ADJ	JJ	Case=Nom|Degree=Pos	11	amod	_	_
+11	حڪومت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+12	۾	_	ADP	PSPL	_	11	case	_	_
+13	به	_	PART	PART	_	11	advmod:emph	_	_
+14	روڪ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	_
+15	ٿام	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	نہ	_	PART	PART	_	17	advmod	_	_
+17	ٿيندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	SpacesAfter=\s\s
+18	ته	_	SCONJ	CS	_	21	mark	_	_
+19	پوءِ	_	ADV	ADT	_	21	advmod	_	_
+20	ڪڏهن	_	ADV	ADT	_	21	advmod	_	_
+21	ٿيندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart|Voice=Act	17	advcl	_	SpaceAfter=No
+22	؟	_	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 4772b
+# text = هيءُ دهشت سان ڀريل خودڪش حملا بمم ڌماڪا پوري ملڪ جي 18 ڪروڙ عوام کي ڄڻ ته يرغمال ڪري ڇڏين ٿا.
+1	هيءُ	_	DET	PRD	Case=Nom|Number=Sing	6	det	_	_
+2	دهشت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+3	سان	_	ADP	PSP	_	2	case	_	_
+4	ڀريل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart	6	acl	_	_
+5	خودڪش	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
+6	حملا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nmod	_	_
+7	بمم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+8	ڌماڪا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+9	پوري	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	ملڪ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+11	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	10	case	_	_
+12	18	_	NUM	NUM	_	13	nummod	_	_
+13	ڪروڙ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nmod	_	_
+14	عوام	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+15	کي	_	ADP	PSP	_	14	case	_	_
+16	ڄڻ	_	ADV	ADM	_	19	advmod	_	_
+17	ته	_	PART	PART	_	16	advmod:emph	_	_
+18	يرغمال	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	compound	_	_
+19	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+20	ڇڏين	_	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	19	compound	_	_
+21	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	19	aux	_	SpaceAfter=No
+22	.	_	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
 
 # sent_id = 4926a
 # text = سنڌ ۾ 10 مهينن دوران 1539 ڌاڙا لڳا ۽ 146 ماڻهو اغوا ٿيا.
