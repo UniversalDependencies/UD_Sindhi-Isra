@@ -101869,36 +101869,37 @@
 13	،	_	_	_	_	1	dep	_	_
 
 # sent_id = 5069
-# text = جاري ڪيل بيان ۾ پرڏيهي ترجمان عبدالباسط چيو ته دهشتگردن کي سرحد پار ڪرڻ کان روڪڻ لاءِ افغان پاڪ سرحد تي ٻنهي پاسنکان سخت چيڪنگ جي ضرورت آهي.
-1	جاري	_	_	_	_	0	root	_	_
-2	ڪيل	_	_	_	_	1	dep	_	_
-3	بيان	_	_	_	_	1	dep	_	_
-4	۾	_	_	_	_	1	dep	_	_
-5	پرڏيهي	_	_	_	_	1	dep	_	_
-6	ترجمان	_	_	_	_	1	dep	_	_
-7	عبدالباسط	_	_	_	_	1	dep	_	_
-8	چيو	_	_	_	_	1	dep	_	_
-9	ته	_	_	_	_	1	dep	_	_
-10	دهشتگردن	_	_	_	_	1	dep	_	_
-11	کي	_	_	_	_	1	dep	_	_
-12	سرحد	_	_	_	_	1	dep	_	_
-13	پار	_	_	_	_	1	dep	_	_
-14	ڪرڻ	_	_	_	_	1	dep	_	_
-15	کان	_	_	_	_	1	dep	_	_
-16	روڪڻ	_	_	_	_	1	dep	_	_
-17	لاءِ	_	_	_	_	1	dep	_	_
-18	افغان	_	_	_	_	1	dep	_	_
-19	پاڪ	_	_	_	_	1	dep	_	_
-20	سرحد	_	_	_	_	1	dep	_	_
-21	تي	_	_	_	_	1	dep	_	_
-22	ٻنهي	_	_	_	_	1	dep	_	_
-23	پاسنکان	_	_	_	_	1	dep	_	_
-24	سخت	_	_	_	_	1	dep	_	_
-25	چيڪنگ	_	_	_	_	1	dep	_	_
-26	جي	_	_	_	_	1	dep	_	_
-27	ضرورت	_	_	_	_	1	dep	_	_
-28	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-29	.	_	_	_	_	1	dep	_	_
+# text = جاري ڪيل بيان ۾ پرڏيهي ترجمان عبدالباسط چيو ته دهشتگردن کي سرحد پار ڪرڻ کان روڪڻ لاءِ افغان پاڪ سرحد تي ٻنهي پاسن کان سخت چيڪنگ جي ضرورت آهي.
+1	جاري	_	VERB	VM	Aspect=Imp	2	compound	_	_
+2	ڪيل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart	3	acl	_	_
+3	بيان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+4	۾	_	ADP	PSPL	_	3	case	_	_
+5	پرڏيهي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
+6	ترجمان	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	عبدالباسط	_	PROPN	NNP	Case=Nom|Gender=Masc	8	nsubj	_	_
+8	چيو	_	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
+9	ته	_	SCONJ	CS	_	16	mark	_	_
+10	دهشتگردن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+11	کي	_	ADP	PSP	_	10	case	_	_
+12	سرحد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	_
+13	پار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	compound	_	_
+14	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	16	advcl	_	_
+15	کان	_	ADP	PSP	_	14	mark	_	_
+16	روڪڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	28	advcl	_	_
+17	لاءِ	_	ADP	PSP	_	16	mark	_	_
+18	افغان	_	ADJ	JJ	Case=Nom|Degree=Pos	20	amod	_	_
+19	پاڪ	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	20	amod	_	_
+20	سرحد	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	_
+21	تي	_	ADP	PSPL	_	20	case	_	_
+22	ٻنهي	_	ADJ	JJ	Case=Acc|Number=Plur	23	amod	_	_
+23	پاسن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	28	obl	_	_
+24	کان	_	ADP	PSP	_	23	case	_	_
+25	سخت	_	ADJ	JJ	Case=Nom|Degree=Pos	26	amod	_	_
+26	چيڪنگ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	nmod	_	_
+27	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	26	case	_	_
+28	ضرورت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	advcl	_	_
+29	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	28	cop	_	SpaceAfter=No
+30	.	_	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
 
 # sent_id = 5070a
 # text = ڊاڪٽر عافيه کي آمريڪا حوالي ڪرڻ تي ڪاميٽي فيصل صالح کي طلب ڪري ورتو
