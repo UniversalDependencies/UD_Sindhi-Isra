@@ -114077,43 +114077,47 @@
 45	ايندا	_	_	_	_	1	dep	_	SpaceAfter=No
 46	،	_	_	_	_	1	dep	_	_
 
-# sent_id = 5504
-# text = هتي ئي اوهان کي اندر جي درد، رشتن جي سچائيءَ، ننڍ وڏائي، احترام عزت ۽ احساس جي دولت جا مثبت پهلو ملندا پنهنجي منهن سانپنهنجي تعريف ڪرڻ ڏاڍو عجيب لڳندو آهي،
-1	هتي	_	_	_	_	0	root	_	_
-2	ئي	_	_	_	_	1	dep	_	_
-3	اوهان	_	_	_	_	1	dep	_	_
-4	کي	_	_	_	_	1	dep	_	_
-5	اندر	_	_	_	_	1	dep	_	_
-6	جي	_	_	_	_	1	dep	_	_
-7	درد	_	_	_	_	1	dep	_	SpaceAfter=No
-8	،	_	_	_	_	1	dep	_	_
-9	رشتن	_	_	_	_	1	dep	_	_
-10	جي	_	_	_	_	1	dep	_	_
-11	سچائيءَ	_	_	_	_	1	dep	_	SpaceAfter=No
-12	،	_	_	_	_	1	dep	_	_
-13	ننڍ	_	_	_	_	1	dep	_	_
-14	وڏائي	_	_	_	_	1	dep	_	SpaceAfter=No
-15	،	_	_	_	_	1	dep	_	_
-16	احترام	_	_	_	_	1	dep	_	_
-17	عزت	_	_	_	_	1	dep	_	_
-18	۽	_	_	_	_	1	dep	_	_
-19	احساس	_	_	_	_	1	dep	_	_
-20	جي	_	_	_	_	1	dep	_	_
-21	دولت	_	_	_	_	1	dep	_	_
-22	جا	_	_	_	_	1	dep	_	_
-23	مثبت	_	_	_	_	1	dep	_	_
-24	پهلو	_	_	_	_	1	dep	_	_
-25	ملندا	_	_	_	_	1	dep	_	_
-26	پنهنجي	_	_	_	_	1	dep	_	_
-27	منهن	_	_	_	_	1	dep	_	_
-28	سانپنهنجي	_	_	_	_	1	dep	_	_
-29	تعريف	_	_	_	_	1	dep	_	_
-30	ڪرڻ	_	_	_	_	1	dep	_	_
-31	ڏاڍو	_	_	_	_	1	dep	_	_
-32	عجيب	_	_	_	_	1	dep	_	_
-33	لڳندو	_	_	_	_	1	dep	_	_
-34	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-35	،	_	_	_	_	1	dep	_	_
+# sent_id = 5504a
+# text = هتي ئي اوهان کي اندر جي درد، رشتن جي سچائيءَ، ننڍ وڏائي، احترام عزت ۽ احساس جي دولت جا مثبت پهلو ملندا
+1	هتي	_	ADV	ADT	_	25	advmod	_	_
+2	ئي	_	PART	PART	_	1	advmod:emph	_	_
+3	اوهان	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	25	nsubj	_	_
+4	کي	_	ADP	PSP	_	3	case	_	_
+5	اندر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+6	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	5	case	_	_
+7	درد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+8	،	_	PUNCT	PUNCT	_	11	punct	_	_
+9	رشتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	_
+10	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	9	case	_	_
+11	سچائيءَ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+12	،	_	PUNCT	PUNCT	_	11	punct	_	_
+13	ننڍ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nmod	_	_
+14	وڏائي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+15	،	_	PUNCT	PUNCT	_	14	punct	_	_
+16	احترام	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
+17	عزت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_
+18	۽	_	CCONJ	CC	_	19	cc	_	_
+19	احساس	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	conj	_	_
+20	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	19	case	_	_
+21	دولت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	nmod	_	_
+22	جا	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	21	case	_	_
+23	مثبت	_	ADJ	JJ	Case=Nom|Degree=Pos	24	amod	_	_
+24	پهلو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	obj	_	_
+25	ملندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	SpaceAfter=No
+
+# sent_id = 5504b
+# text = پنهنجي منهن سان پنهنجي تعريف ڪرڻ ڏاڍو عجيب لڳندو آهي،
+1	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	2	nmod	_	_
+2	منهن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+3	سان	_	ADP	PSP	_	2	case	_	_
+4	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	5	nmod	_	_
+5	تعريف	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	_
+6	ڪرڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	9	advcl	_	_
+7	ڏاڍو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	عجيب	_	ADJ	JJ	Case=Nom|Degree=Pos	9	xcomp	_	_
+9	لڳندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	_
+10	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	9	aux	_	SpaceAfter=No
+11	،	_	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 
 # sent_id = 5505
 # text = پر ڳالهه اها آهي ته هن فقير جو چهرو ته سانورو ٿي سگهي ٿو،
@@ -122028,38 +122032,42 @@
 40	وڃي	_	_	_	_	1	dep	_	SpaceAfter=No
 41	.	_	_	_	_	1	dep	_	_
 
-# sent_id = 5852
-# text = ڀٽائي جي سورمي”مارئي“ جو ميلو تاريخ ۾ ڀيرا 7 ملهايو ويو مٺي: ڀٽائي جي سورمي مارئي جو ميلو تاريخ ۾ ست ڀيرا ملهايو ويو آهي،
-1	ڀٽائي	_	_	_	_	0	root	_	_
-2	جي	_	_	_	_	1	dep	_	_
-3	سورمي	_	_	_	_	1	dep	_	SpaceAfter=No
-4	”	_	_	_	_	1	dep	_	SpaceAfter=No
-5	مارئي	_	_	_	_	1	dep	_	SpaceAfter=No
-6	“	_	_	_	_	1	dep	_	_
-7	جو	_	_	_	_	1	dep	_	_
-8	ميلو	_	_	_	_	1	dep	_	_
-9	تاريخ	_	_	_	_	1	dep	_	_
-10	۾	_	_	_	_	1	dep	_	_
-11	ڀيرا	_	_	_	_	1	dep	_	_
-12	7	_	_	_	_	1	dep	_	_
-13	ملهايو	_	_	_	_	1	dep	_	_
-14	ويو	_	_	_	_	1	dep	_	_
-15	مٺي	_	_	_	_	1	dep	_	SpaceAfter=No
-16	:	_	_	_	_	1	dep	_	_
-17	ڀٽائي	_	_	_	_	1	dep	_	_
-18	جي	_	_	_	_	1	dep	_	_
-19	سورمي	_	_	_	_	1	dep	_	_
-20	مارئي	_	_	_	_	1	dep	_	_
-21	جو	_	_	_	_	1	dep	_	_
-22	ميلو	_	_	_	_	1	dep	_	_
-23	تاريخ	_	_	_	_	1	dep	_	_
-24	۾	_	_	_	_	1	dep	_	_
-25	ست	_	_	_	_	1	dep	_	_
-26	ڀيرا	_	_	_	_	1	dep	_	_
-27	ملهايو	_	_	_	_	1	dep	_	_
-28	ويو	_	_	_	_	1	dep	_	_
-29	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-30	،	_	_	_	_	1	dep	_	_
+# sent_id = 5852a
+# text = ڀٽائي جي سورمي”مارئي“ جو ميلو تاريخ ۾ 7 ڀيرا ملهايو ويو.
+1	ڀٽائي	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
+2	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	1	case	_	_
+3	سورمي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+4	”	_	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	مارئي	_	PROPN	NNP	Case=Nom|Gender=Masc	8	nmod	_	SpaceAfter=No
+6	“	_	PUNCT	PUNCT	_	5	punct	_	_
+7	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
+8	ميلو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+9	تاريخ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+10	۾	_	ADP	PSPL	_	9	case	_	SpacesAfter=\s\s
+11	7	_	NUM	NUM	_	12	nummod	_	_
+12	ڀيرا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	obl	_	SpacesAfter=\s\s
+13	ملهايو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+14	ويو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	13	compound	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5852b
+# text = مٺي: ڀٽائي جي سورمي مارئي جو ميلو تاريخ ۾ ست ڀيرا ملهايو ويو آهي،
+1	مٺي	_	PROPN	NNP	Case=Nom|Gender=Masc	13	discourse	_	SpaceAfter=No
+2	:	_	PUNCT	PUNCT	_	1	punct	_	_
+3	ڀٽائي	_	PROPN	NNP	Case=Nom|Gender=Masc	5	nmod	_	_
+4	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	3	case	_	_
+5	سورمي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
+6	مارئي	_	PROPN	NNP	Case=Nom|Gender=Masc	8	nmod	_	_
+7	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	6	case	_	_
+8	ميلو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+9	تاريخ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+10	۾	_	ADP	PSPL	_	9	case	_	_
+11	ست	_	NUM	NUM	_	12	nummod	_	_
+12	ڀيرا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	obl	_	_
+13	ملهايو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+14	ويو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	13	compound	_	_
+15	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	13	aux	_	SpaceAfter=No
+16	،	_	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
 
 # sent_id = 5853
 # text = پهريون ڀيرو مارئي جو ميلو ملهائڻ جو ڪريڊٽ مير رسول بخش ٽالپر کي حاصل ٿيو،
@@ -122182,41 +122190,42 @@
 17	،	_	_	_	_	1	dep	_	_
 
 # sent_id = 5858
-# text = انهي کان اڳ ۾ ٻه ڀيرا وري مارئي جي جنم ڀومي جي ڳوٺاڻن پنهنجي مدد پاڻ تحت مارئي ميلا ڪاميٽي جي پليٽ فارم تان مارئي ميلوسال 1998ع ۽ سال 1999ع ۾ ملهايو هو.
-1	انهي	_	_	_	_	0	root	_	_
-2	کان	_	_	_	_	1	dep	_	_
-3	اڳ	_	_	_	_	1	dep	_	_
-4	۾	_	_	_	_	1	dep	_	_
-5	ٻه	_	_	_	_	1	dep	_	_
-6	ڀيرا	_	_	_	_	1	dep	_	_
-7	وري	_	_	_	_	1	dep	_	_
-8	مارئي	_	_	_	_	1	dep	_	_
-9	جي	_	_	_	_	1	dep	_	_
-10	جنم	_	_	_	_	1	dep	_	_
-11	ڀومي	_	_	_	_	1	dep	_	_
-12	جي	_	_	_	_	1	dep	_	_
-13	ڳوٺاڻن	_	_	_	_	1	dep	_	_
-14	پنهنجي	_	_	_	_	1	dep	_	_
-15	مدد	_	_	_	_	1	dep	_	_
-16	پاڻ	_	_	_	_	1	dep	_	_
-17	تحت	_	_	_	_	1	dep	_	_
-18	مارئي	_	_	_	_	1	dep	_	_
-19	ميلا	_	_	_	_	1	dep	_	_
-20	ڪاميٽي	_	_	_	_	1	dep	_	_
-21	جي	_	_	_	_	1	dep	_	_
-22	پليٽ	_	_	_	_	1	dep	_	_
-23	فارم	_	_	_	_	1	dep	_	_
-24	تان	_	_	_	_	1	dep	_	_
-25	مارئي	_	_	_	_	1	dep	_	_
-26	ميلوسال	_	_	_	_	1	dep	_	_
-27	1998ع	_	_	_	_	1	dep	_	_
-28	۽	_	_	_	_	1	dep	_	_
-29	سال	_	_	_	_	1	dep	_	_
-30	1999ع	_	_	_	_	1	dep	_	_
-31	۾	_	_	_	_	1	dep	_	_
-32	ملهايو	_	_	_	_	1	dep	_	_
-33	هو	_	_	_	_	1	dep	_	SpaceAfter=No
-34	.	_	_	_	_	1	dep	_	_
+# text = انهي کان اڳ ۾ ٻه ڀيرا وري مارئي جي جنم ڀومي جي ڳوٺاڻن پنهنجي مدد پاڻ تحت مارئي ميلا ڪاميٽي جي پليٽ فارم تان مارئي ميلو سال 1998ع ۽ سال 1999ع ۾ ملهايو هو.
+1	انهي	_	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
+2	کان	_	ADP	PSP	_	1	case	_	_
+3	اڳ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	33	obl	_	_
+4	۾	_	ADP	PSPL	_	3	case	_	_
+5	ٻه	_	NUM	NUM	_	6	nummod	_	_
+6	ڀيرا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	33	obl	_	_
+7	وري	_	ADV	ADM	_	33	advmod	_	_
+8	مارئي	_	PROPN	NNP	Case=Nom|Gender=Masc	11	nmod	_	_
+9	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	8	case	_	_
+10	جنم	_	NOUN	NN	Case=Nom|Number=Sing	11	compound	_	_
+11	ڀومي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
+12	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	11	case	_	_
+13	ڳوٺاڻن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	_
+14	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	15	nmod	_	_
+15	مدد	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	_
+16	پاڻ	_	PRON	PRP	Case=Acc|Person=1	33	obl	_	_
+17	تحت	_	ADP	PSP	_	16	case	_	_
+18	مارئي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nmod	_	_
+19	ميلا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
+20	ڪاميٽي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	_
+21	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	20	case	_	_
+22	پليٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
+23	فارم	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	33	obl	_	_
+24	تان	_	ADP	PSPL	_	23	case	_	_
+25	مارئي	_	PROPN	NNP	Case=Nom|Gender=Masc	26	nmod	_	_
+26	ميلو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	33	obj	_	_
+27	سال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nmod	_	_
+28	1998ع	_	NUM	NUM	_	33	obl	_	_
+29	۽	_	CCONJ	CC	_	31	cc	_	_
+30	سال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	nmod	_	_
+31	1999ع	_	NUM	NUM	_	28	conj	_	_
+32	۾	_	ADP	PSPL	_	31	case	_	_
+33	ملهايو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+34	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	33	aux	_	SpaceAfter=No
+35	.	_	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
 
 # sent_id = 5859
 # text = جڏهن ته ثقافت کاتي جي اڳوڻي صوبائي وزير شبير احمد قائمي طرفان سال 2003ع جي مارئي ميلي جي ادبي ڪانفرنس ۾ باقائده مارئي جو ميلو هر سال سندس ڳوٺ ڀالوا ۾ ثقافت کاتي طرفان لڳائڻ جو اعلان ڪيو هو،
@@ -122992,38 +123001,43 @@
 25	آھن	_	_	_	_	1	dep	_	SpaceAfter=No
 26	.	_	_	_	_	1	dep	_	_
 
-# sent_id = 5884
-# text = صوماليا ۾ سامونڊي ڌاڙيلن وڌيڪ هڪ جهاز هائيجيڪ ڪري ورتو ماسڪو(اي پي پي) صومالي سامونڊي ڌاڙيلن هندي سمنڊ ۾سيشلز سامونڊي جهاز کي هائيجيڪ ڪري ورتو آهي،
-1	صوماليا	_	_	_	_	0	root	_	_
-2	۾	_	_	_	_	1	dep	_	_
-3	سامونڊي	_	_	_	_	1	dep	_	_
-4	ڌاڙيلن	_	_	_	_	1	dep	_	_
-5	وڌيڪ	_	_	_	_	1	dep	_	_
-6	هڪ	_	_	_	_	1	dep	_	_
-7	جهاز	_	_	_	_	1	dep	_	_
-8	هائيجيڪ	_	_	_	_	1	dep	_	_
-9	ڪري	_	_	_	_	1	dep	_	_
-10	ورتو	_	_	_	_	1	dep	_	_
-11	ماسڪو	_	_	_	_	1	dep	_	SpaceAfter=No
-12	(	_	_	_	_	1	dep	_	SpaceAfter=No
-13	اي	_	_	_	_	1	dep	_	_
-14	پي	_	_	_	_	1	dep	_	_
-15	پي	_	_	_	_	1	dep	_	SpaceAfter=No
-16	)	_	_	_	_	1	dep	_	_
-17	صومالي	_	_	_	_	1	dep	_	_
-18	سامونڊي	_	_	_	_	1	dep	_	_
-19	ڌاڙيلن	_	_	_	_	1	dep	_	_
-20	هندي	_	_	_	_	1	dep	_	_
-21	سمنڊ	_	_	_	_	1	dep	_	_
-22	۾سيشلز	_	_	_	_	1	dep	_	_
-23	سامونڊي	_	_	_	_	1	dep	_	_
-24	جهاز	_	_	_	_	1	dep	_	_
-25	کي	_	_	_	_	1	dep	_	_
-26	هائيجيڪ	_	_	_	_	1	dep	_	_
-27	ڪري	_	_	_	_	1	dep	_	_
-28	ورتو	_	_	_	_	1	dep	_	_
-29	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-30	،	_	_	_	_	1	dep	_	_
+# sent_id = 5884a
+# text = صوماليا ۾ سامونڊي ڌاڙيلن وڌيڪ هڪ جهاز هائيجيڪ ڪري ورتو.
+1	صوماليا	_	PROPN	NNP	Case=Nom|Gender=Masc	9	obl	_	_
+2	۾	_	ADP	PSPL	_	1	case	_	_
+3	سامونڊي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
+4	ڌاڙيلن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+5	وڌيڪ	_	ADJ	JJ	Case=Nom|Degree=Pos	7	amod	_	_
+6	هڪ	_	NUM	NUM	_	7	nummod	_	_
+7	جهاز	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
+8	هائيجيڪ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	_
+9	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+10	ورتو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	9	compound	_	SpaceAfter=No
+11	.	_	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 5884b
+# text = ماسڪو(اي پي پي) صومالي سامونڊي ڌاڙيلن هندي سمنڊ ۾ سيشلز سامونڊي جهاز کي هائيجيڪ ڪري ورتو آهي،
+1	ماسڪو	_	PROPN	NNP	Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No
+2	(	_	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+3	اي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+4	پي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
+5	پي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+6	)	_	PUNCT	PUNCT	_	5	punct	_	_
+7	صومالي	_	PROPN	NNP	Case=Nom|Gender=Masc	9	nmod	_	_
+8	سامونڊي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
+9	ڌاڙيلن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+10	هندي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	_
+11	سمنڊ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+12	۾	_	ADP	PSPL	_	11	case	_	_
+13	سيشلز	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+14	سامونڊي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	15	amod	_	_
+15	جهاز	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+16	کي	_	ADP	PSP	_	15	case	_	_
+17	هائيجيڪ	_	VERB	VM	Aspect=Imp|Voice=Act	18	compound	_	_
+18	ڪري	_	VERB	VM	Aspect=Imp|Voice=Act	1	parataxis	_	_
+19	ورتو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	18	compound	_	_
+20	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	18	aux	_	SpaceAfter=No
+21	،	_	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
 
 # sent_id = 5885
 # text = جنهن جي عملي ۾ 23 روسي شهري، گهانا ۽ فلپائن جا 2-2 شهري پڻ شامل آهن،
@@ -123790,32 +123804,33 @@
 13	،	_	_	_	_	1	dep	_	_
 
 # sent_id = 5912
-# text = اهڙي درخواست آڌار سيشن جج وڳڻ ٿاڻي جي ايس ايڇ او کي لکت ۾ حڪم ڏنو ته ڄاڻايل ڊاڪٽرياڻي خلاف درخواستگذار جو ڪيسداخل ڪيو،
-1	اهڙي	_	_	_	_	0	root	_	_
-2	درخواست	_	_	_	_	1	dep	_	_
-3	آڌار	_	_	_	_	1	dep	_	_
-4	سيشن	_	_	_	_	1	dep	_	_
-5	جج	_	_	_	_	1	dep	_	_
-6	وڳڻ	_	_	_	_	1	dep	_	_
-7	ٿاڻي	_	_	_	_	1	dep	_	_
-8	جي	_	_	_	_	1	dep	_	_
-9	ايس	_	_	_	_	1	dep	_	_
-10	ايڇ	_	_	_	_	1	dep	_	_
-11	او	_	_	_	_	1	dep	_	_
-12	کي	_	_	_	_	1	dep	_	_
-13	لکت	_	_	_	_	1	dep	_	_
-14	۾	_	_	_	_	1	dep	_	_
-15	حڪم	_	_	_	_	1	dep	_	_
-16	ڏنو	_	_	_	_	1	dep	_	_
-17	ته	_	_	_	_	1	dep	_	_
-18	ڄاڻايل	_	_	_	_	1	dep	_	_
-19	ڊاڪٽرياڻي	_	_	_	_	1	dep	_	_
-20	خلاف	_	_	_	_	1	dep	_	_
-21	درخواستگذار	_	_	_	_	1	dep	_	_
-22	جو	_	_	_	_	1	dep	_	_
-23	ڪيسداخل	_	_	_	_	1	dep	_	_
-24	ڪيو	_	_	_	_	1	dep	_	SpaceAfter=No
-25	،	_	_	_	_	1	dep	_	_
+# text = اهڙي درخواست آڌار سيشن جج وڳڻ ٿاڻي جي ايس ايڇ او کي لکت ۾ حڪم ڏنو ته ڄاڻايل ڊاڪٽرياڻي خلاف درخواستگذار جو ڪيس داخل ڪيو،
+1	اهڙي	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+2	درخواست	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
+3	آڌار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	_
+4	سيشن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	جج	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+6	وڳڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	ٿاڻي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+8	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	case	_	_
+9	ايس	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	_
+10	ايڇ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	_
+11	او	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	iobj	_	_
+12	کي	_	ADP	PSP	_	11	case	_	_
+13	لکت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+14	۾	_	ADP	PSPL	_	13	case	_	_
+15	حڪم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	_
+16	ڏنو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+17	ته	_	SCONJ	CS	_	25	mark	_	_
+18	ڄاڻايل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart	19	acl	_	_
+19	ڊاڪٽرياڻي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
+20	خلاف	_	ADP	PSP	_	19	case	_	_
+21	درخواستگذار	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	nmod	_	_
+22	جو	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	21	case	_	_
+23	ڪيس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	obj	_	_
+24	داخل	_	VERB	VM	Aspect=Perf|Voice=Act	25	xcomp	_	_
+25	ڪيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	16	ccomp	_	SpaceAfter=No
+26	،	_	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
 
 # sent_id = 5913
 # text = ٻئي طرف وڳڻ پوليس ڳوٺاڻي تاج محمد پنهور جي فرياد تي ڊاڪٽرياڻي رخسانه زال اياز تنيو خلاف قلم 137 ايل ون ۽ 137 آءِ تحت ڪيس داخل ڪيو آهي.
