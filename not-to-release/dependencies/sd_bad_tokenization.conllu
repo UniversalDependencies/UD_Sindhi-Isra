@@ -206,62 +206,68 @@
 21	ٿا	_	AUX	VAUX	Number=Plur|Tense=Pres	19	aux	_	SpaceAfter=No
 22	.	_	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
 
-# sent_id = 4926
-# text = سنڌ ۾ 10 مهينن دوران 1539 ڌاڙا لڳا ۽ 146 ماڻهو اغوا ٿيا ڪراچي: صوبي جي امن امان جي حوالي سان سنڌ جي وڏي وزير کيگذريل ڏينهن ڏنل بريفنگ ۾ پوليس کاتي دعويٰ ڪئي آهي ته هلندڙ سال 2009ع جي 10 مهينن دوران 2269 ماڻهو قتل ۽ 226 عورتن سان جنسيڏاڍائي ٿي،
-1	سنڌ	سنڌ	PROPN	_	_	8	obl	_	_
-2	۾	۾	ADP	_	_	1	case	_	_
-3	10	10	NUM	_	_	4	nummod	_	_
-4	مهينن	مهينو	NOUN	_	_	8	obl	_	_
-5	دوران	دوران	ADP	_	_	4	case	_	_
-6	1539	_	NUM	_	_	7	nummod	_	_
-7	ڌاڙا	ڌاڙو	NOUN	_	_	8	obj	_	_
-8	لڳا	لڳ	VERB	_	_	0	root	_	_
-9	۽	۽	CCONJ	_	_	13	cc	_	_
-10	146	_	NUM	_	_	11	nummod	_	_
-11	ماڻهو	ماڻهو	NOUN	_	_	13	nsubj	_	_
-12	اغوا	اغوا	NOUN	_	_	13	xcomp	_	_
-13	ٿيا	آهي	VERB	_	_	8	conj	_	_
-14	ڪراچي	ڪراچي	PROPN	_	_	19	nmod	_	SpaceAfter=No
-15	:	:	PUNCT	_	_	14	punct	_	_
-16	صوبي	_	PROPN	_	_	19	nmod	_	_
-17	جي	جي	ADP	_	_	16	case	_	_
-18	امن	امن	NOUN	_	_	19	compound	_	_
-19	امان	امان	NOUN	_	_	21	nmod	_	_
-20	جي	جي	ADP	_	_	19	case	_	_
-21	حوالي	حوالي	NOUN	_	_	29	obl	_	_
-22	سان	سان	ADP	_	_	21	case	_	_
-23	سنڌ	سنڌ	PROPN	_	_	26	nmod	_	_
-24	جي	جي	ADP	_	_	23	case	_	_
-25	وڏي	وڏي	ADJ	_	_	26	compound	_	_
-26	وزير	وزير	NOUN	_	_	28	nmod	_	_
-27	کيگذريل	_	ADJ	_	_	28	amod	_	_
-28	ڏينهن	ڏينهن	NOUN	_	_	29	obl	_	_
-29	ڏنل	ڏنو	VERB	_	_	30	acl	_	_
-30	بريفنگ	بريفنگ	NOUN	_	_	35	obl	_	_
-31	۾	۾	ADP	_	_	30	case	_	_
-32	پوليس	پوليس	NOUN	_	_	33	nmod	_	_
-33	کاتي	کاتو	NOUN	_	_	35	nsubj	_	_
-34	دعويٰ	_	NOUN	_	_	35	xcomp	_	_
-35	ڪئي	ڪئي	VERB	_	_	13	conj	_	_
-36	آهي	آهي	AUX	_	_	35	mark	_	_
-37	ته	ته	SCONJ	_	_	52	mark	_	_
-38	هلندڙ	هل	VERB	_	_	39	acl	_	_
-39	سال	سال	NOUN	_	_	40	nummod	_	_
-40	2009ع	2009ع	NUM	_	_	43	nummod	_	_
-41	جي	جي	ADP	_	_	40	case	_	_
-42	10	10	NUM	_	_	43	nummod	_	_
-43	مهينن	مهينو	NOUN	_	_	47	obl	_	_
-44	دوران	دوران	ADV	_	_	47	advmod	_	_
-45	2269	_	NUM	_	_	46	nummod	_	_
-46	ماڻهو	ماڻهو	NOUN	_	_	47	nsubj	_	_
-47	قتل	قتل	NOUN	_	_	52	nmod	_	_
-48	۽	۽	CCONJ	_	_	50	cc	_	_
-49	226	_	NUM	_	_	50	nummod	_	_
-50	عورتن	عورت	NOUN	_	_	47	conj	_	_
-51	سان	سان	ADP	_	_	50	case	_	_
-52	جنسيڏاڍائي	_	NOUN	_	_	53	xcomp	_	_
-53	ٿي	آهي	AUX	_	_	35	ccomp	_	SpaceAfter=No
-54	،	،	PUNCT	_	_	53	punct	_	_
+# sent_id = 4926a
+# text = سنڌ ۾ 10 مهينن دوران 1539 ڌاڙا لڳا ۽ 146 ماڻهو اغوا ٿيا.
+1	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	8	obl	_	_
+2	۾	_	ADP	PSPL	_	1	case	_	_
+3	10	_	NUM	NUM	_	4	nummod	_	_
+4	مهينن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
+5	دوران	_	ADP	PSPL	_	4	case	_	_
+6	1539	_	NUM	NUM	_	7	nummod	_	_
+7	ڌاڙا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	obj	_	_
+8	لڳا	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
+9	۽	_	CCONJ	CC	_	12	cc	_	_
+10	146	_	NUM	NUM	_	11	nummod	_	_
+11	ماڻهو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	اغوا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
+13	ٿيا	_	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur	12	cop	_	SpaceAfter=No
+14	.	_	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 4926b
+# text = ڪراچي: صوبي جي امن امان جي حوالي سان سنڌ جي وڏي وزير کي گذريل ڏينهن ڏنل بريفنگ ۾ پوليس کاتي دعويٰ ڪئي آهي ته هلندڙ سال 2009ع جي 10 مهينن دوران 2269 ماڻهو قتل ۽ 226 عورتن سان جنسي ڏاڍائي ٿي،
+1	ڪراچي	_	PROPN	NNP	Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No
+2	:	_	PUNCT	PUNCT	_	1	punct	_	_
+3	صوبي	_	PROPN	NNP	Case=Nom|Gender=Masc	6	nmod	_	_
+4	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	3	case	_	_
+5	امن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	_
+6	امان	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+7	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	6	case	_	_
+8	حوالي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+9	سان	_	ADP	PSP	_	8	case	_	_
+10	سنڌ	_	PROPN	NNP	Case=Nom|Gender=Fem	13	nmod	_	_
+11	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	10	case	_	_
+12	وڏي	_	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	13	compound	_	_
+13	وزير	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+14	کي	_	ADP	PSP	_	13	case	_	_
+15	گذريل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart	16	amod	_	_
+16	ڏينهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	_
+17	ڏنل	_	VERB	VM	Aspect=Perf|Tense=Past|VerbForm=PastPart|Voice=Pass	18	acl	_	_
+18	بريفنگ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_
+19	۾	_	ADP	PSPL	_	18	case	_	_
+20	پوليس	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nmod	_	_
+21	کاتي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+22	دعويٰ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	xcomp	_	_
+23	ڪئي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	1	parataxis	_	_
+24	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	23	aux	_	_
+25	ته	_	SCONJ	CS	_	41	mark	_	_
+26	هلندڙ	_	VERB	VM	Aspect=Perf|VerbForm=Vnoun	27	acl	_	_
+27	سال	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nummod	_	_
+28	2009ع	_	NUM	NUM	_	31	nummod	_	_
+29	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	28	case	_	_
+30	10	_	NUM	NUM	_	31	nummod	_	_
+31	مهينن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	41	obl	_	_
+32	دوران	_	ADV	ADP	_	35	advmod	_	_
+33	2269	_	NUM	NUM	_	34	nummod	_	_
+34	ماڻهو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	35	nsubj	_	_
+35	قتل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	41	nmod	_	_
+36	۽	_	CCONJ	CC	_	38	cc	_	_
+37	226	_	NUM	NUM	_	38	nummod	_	_
+38	عورتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	35	conj	_	_
+39	سان	_	ADP	PSP	_	38	case	_	_
+40	جنسي	_	ADJ	JJ	Case=Nom|Degree=Pos	41	amod	_	_
+41	ڏاڍائي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	advcl	_	_
+42	ٿي	_	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	41	cop	_	SpaceAfter=No
+43	،	_	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 5069
 # text = جاري ڪيل بيان ۾ پرڏيهي ترجمان عبدالباسط چيو ته دهشتگردن کي سرحد پار ڪرڻ کان روڪڻ لاءِ افغان پاڪ سرحد تي ٻنهي پاسن کان سخت چيڪنگ جي ضرورت آهي.
