@@ -180,6 +180,62 @@
 29	آهي	_	AUX	VAUX	Number=Sing|Tense=Pres	28	cop	_	SpaceAfter=No
 30	.	_	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
 
+# sent_id = 5102a
+# text = هوڏانهن پوليس جي بي حسي واري رويي خلاف مقتول جي وارثن لاش ڳوٺ ٻاهران رکي 3 ڪلاڪن تائين ڌرڻو هنيو،
+1	هوڏانهن	_	ADV	ADP	_	20	advmod	_	_
+2	پوليس	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+3	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
+4	بي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	_
+5	حسي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+6	واري	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	5	case	_	_
+7	رويي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+8	خلاف	_	ADP	PSP	_	7	case	_	_
+9	مقتول	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+10	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	9	case	_	_
+11	وارثن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+12	لاش	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	_
+13	ڳوٺ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+14	ٻاهران	_	ADV	ADP	_	15	advmod	_	_
+15	رکي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	20	advcl	_	_
+16	3	_	NUM	NUM	_	17	nummod	_	_
+17	ڪلاڪن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obl	_	_
+18	تائين	_	ADP	PSPL	_	17	case	_	_
+19	ڌرڻو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	obj	_	_
+20	هنيو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+21	،	_	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 5102b
+# text = ان ڏس ۾ مقتول جي والد غلام اڪبر، غلام حسين، غلام محمد ڪلهوڙي ۽ ٻين صحافين کي ٻڌايو ته اسان سردار اڪبر جوڻيجي جا هاري آهيون،
+1	ان	_	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+2	ڏس	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
+3	۾	_	ADP	PSPL	_	2	case	_	_
+4	مقتول	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+5	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
+6	والد	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	غلام	_	PROPN	NNP	Case=Nom|Gender=Masc	20	nsubj	_	_
+8	اڪبر	_	PROPN	NNP	Case=Nom|Gender=Masc	7	flat	_	SpaceAfter=No
+9	،	_	PUNCT	PUNCT	_	10	punct	_	_
+10	غلام	_	PROPN	NNP	Case=Nom|Gender=Masc	7	conj	_	_
+11	حسين	_	PROPN	NNP	Case=Nom|Gender=Masc	10	flat	_	SpaceAfter=No
+12	،	_	PUNCT	PUNCT	_	13	punct	_	_
+13	غلام	_	PROPN	NNP	Case=Nom|Gender=Masc	10	conj	_	_
+14	محمد	_	PROPN	NNP	Case=Nom|Gender=Masc	13	flat	_	_
+15	ڪلهوڙي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	_
+16	۽	_	CCONJ	CC	_	17	cc	_	_
+17	ٻين	_	ADJ	JJ	Case=Acc|Number=Plur	13	conj	_	_
+18	صحافين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	iobj	_	_
+19	کي	_	ADP	PSP	_	18	case	_	_
+20	ٻڌايو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+21	ته	_	SCONJ	CS	_	27	mark	_	_
+22	اسان	_	PRON	PRP	Case=Acc|Number=Plur|Person=1	27	nsubj	_	_
+23	سردار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nmod	_	_
+24	اڪبر	_	PROPN	NNP	Case=Nom|Gender=Masc	27	nmod	_	_
+25	جوڻيجي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	flat	_	_
+26	جا	_	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	24	case	_	_
+27	هاري	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	advcl	_	_
+28	آهيون	_	AUX	VAUX	Number=Plur|Person=1|Tense=Pres	27	cop	_	SpaceAfter=No
+29	،	_	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+
 # sent_id = 5504a
 # text = هتي ئي اوهان کي اندر جي درد، رشتن جي سچائيءَ، ننڍ وڏائي، احترام عزت ۽ احساس جي دولت جا مثبت پهلو ملندا
 1	هتي	_	ADV	ADT	_	25	advmod	_	_
