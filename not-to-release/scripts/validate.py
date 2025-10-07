@@ -853,7 +853,7 @@ def main():
 
         incidents = validate(filename, new_doc, check_xpos=args.check_xpos, check_feats=args.check_feats)
         for incident in incidents:
-            print("%s: %s" % (incident.category, incident.error))
+            print(" %s: %s" % (incident.category, incident.error))
             if incident.sent_idx not in error_sentences:
                 error_sentences[incident.sent_idx] = incident.sentence
             error_sentences[incident.sent_idx].add_comment("ERROR: %s" % incident.error)
@@ -861,7 +861,7 @@ def main():
 
         ud_state = udvalidator.validate_files([filename])
         for incident in ud_state.error_tracker['Syntax']:
-            print(incident.sentid, incident.lineno, incident.message)
+            print("", incident.sentid, incident.lineno, incident.message)
             # TODO: use lineno instead
             for sent_idx, sentence in enumerate(new_doc.sentences):
                 if sentence.sent_id == incident.sentid:
