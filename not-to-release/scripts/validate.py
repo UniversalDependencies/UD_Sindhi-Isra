@@ -470,21 +470,23 @@ def check_unexpected_space_after(filename, new_doc):
                                           nodes=[word_idx+1]))
     return incidents
 
-def check_xpos_required(new_doc, check_xpos, require_xpos):
-    problem_sentences = set()
+def check_xpos_required(filename, new_doc, check_xpos, require_xpos):
+    incidents = []
     if not check_xpos or not require_xpos:
-        return problem_sentences
+        return incidents
 
     printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if word.xpos is None:
-                if not printed:
-                    print("WORD WITH NO XPOS")
-                    printed = True
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d (line %d) has no xpos" % (sent.sent_id, sent_idx, word_idx+1, word.line_number))
-    return problem_sentences
+                error = "Sentence %s (%d) word %d |%s| (line %d) has no xpos (upos %s)" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number, word.upos)
+                incidents.append(Incident(category="Missing XPOS",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word_idx+1]))
+    return incidents
 
 def check_pos_xpos_happiness(filename, new_doc, check_xpos):
     incidents = []
@@ -808,7 +810,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     problem_sentences |= check_punct_word_labels(new_doc)
     incidents.extend(check_pos_deprel_happiness(filename, new_doc, check_xpos))
     incidents.extend(check_unexpected_space_after(filename, new_doc))
-    problem_sentences |= check_xpos_required(new_doc, check_xpos, require_xpos)
+    incidents.extend(check_xpos_required(filename, new_doc, check_xpos, require_xpos))
     incidents.extend(check_pos_xpos_happiness(filename, new_doc, check_xpos))
     problem_sentences |= check_fixed(new_doc, check_feats)
     problem_sentences |= check_missing_heads(new_doc)
