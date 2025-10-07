@@ -275,9 +275,8 @@ FIXED_EXPRESSIONS.append(FixedExpression((('ڏينهون', 'NOUN'), ('ڏينهن
 
 Incident = namedtuple("Incident", "category filename sent_idx sentence error nodes")
 
-def check_fixed(new_doc, check_feats):
-    problem_sentences = set()
-    printed = False
+def check_fixed(filename, new_doc, check_feats):
+    incidents = []
 
     for fixed_expression in FIXED_EXPRESSIONS:
         for sent_idx, sent in enumerate(new_doc.sentences):
@@ -294,48 +293,51 @@ def check_fixed(new_doc, check_feats):
                 errors = []
                 if not all(w.pos == fw[1] for w, fw in zip(span, fixed_expression.words)):
                     words = ", ".join("%s_%s" % fw for fw in fixed_expression.words)
-                    errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) did not follow expected POS: %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, words))
+                    errors.append((word_idx+1, "Sentence %s (%d) fixed expression starting at word %d (line %d) did not follow expected POS: %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, words)))
                 # check the deprel of the words after the first
                 for fixed_word in span[1:]:
                     if fixed_word.head != word_idx+1:
-                        errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) had head %s instead of %d" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, fixed_word.head, word_idx+1))
+                        errors.append((word_idx+1, "Sentence %s (%d) fixed expression starting at word %d (line %d) had head %s instead of %d" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, fixed_word.head, word_idx+1)))
                     if fixed_word.deprel != 'fixed':
-                        errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) had deprel %s instead of fixed" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, fixed_word.deprel))
+                        errors.append((word_idx+1, "Sentence %s (%d) fixed expression starting at word %d (line %d) had deprel %s instead of fixed" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, fixed_word.deprel)))
                 # if checking features, look for the correct ExtPos or flag an error
                 if check_feats:
                     if not span[0].feats or span[0].feats == '_':
-                        errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) did not have an ExtPos; expected %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, fixed_expression.extpos))
+                        errors.append((word_idx+1, "Sentence %s (%d) fixed expression starting at word %d (line %d) did not have an ExtPos; expected %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, fixed_expression.extpos)))
                     else:
                         feats = span[0].feats.split("|")
                         for feat in feats:
                             if feat.startswith("ExtPos="):
                                 if feat.split("=", 1)[1] != fixed_expression.extpos:
-                                    errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) had %s; expected %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, feat, fixed_expression.extpos))
+                                    errors.append((word_idx+1, "Sentence %s (%d) fixed expression starting at word %d (line %d) had %s; expected %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, feat, fixed_expression.extpos)))
                                 break
                         else:
-                            errors.append("Sentence %s (%d) fixed expression starting at word %d (line %d) had features %s, with no ExtPos; expected %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, span[0].feats, fixed_expression.extpos))
-                if len(errors) > 0:
-                    if not printed:
-                        print("FIXED EXPRESSION ERROR")
-                        printed = True
-                    problem_sentences.add(sent_idx)
-                    for error in errors:
-                        print(error)
+                            errors.append((word_idx+1, "Sentence %s (%d) fixed expression starting at word %d (line %d) had features %s, with no ExtPos; expected %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, span[0].feats, fixed_expression.extpos)))
+                for error in errors:
+                    category = "Fixed expression error"
+                    incidents.append(Incident(category="POS/deprel combination",
+                                              filename=filename,
+                                              sent_idx=sent_idx,
+                                              sentence=sent,
+                                              error=error[1],
+                                              nodes=[error[0]]))
 
-    return problem_sentences
+    return incidents
 
-def check_unknown_upos(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_unknown_upos(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if word.upos not in ALLOWED_UPOS:
-                if not printed:
-                    print("UNKNOWN UPOS")
-                    printed = True
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d |%s| (line %d) had an unknown upos |%s|" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos))
-    return problem_sentences
+                category = "Unknown UPOS"
+                error = "Sentence %s (%d) word %d |%s| (line %d) had an unknown upos |%s|" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos)
+                incidents.append(Incident(category=category,
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word_idx+1]))
+    return incidents
 
 def check_no_root_sentences(new_doc):
     problem_sentences = set()
@@ -349,18 +351,20 @@ def check_no_root_sentences(new_doc):
             print("Sentence %d |%s| has no root" % (sent_idx, sent.sent_id))
     return problem_sentences
 
-def check_space_in_word(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_space_in_word(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if " " in word.text:
-                if not printed:
-                    print("SPACE IN WORD")
-                    printed = True
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d has a space in it: |%s|\n  Original sentence text was:\n  %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, sent.text))
-    return problem_sentences
+                error = "Sentence %s (%d) word %d has a space in it: |%s|" % (sent.sent_id, sent_idx, word_idx+1, word.text)
+                incidents.append(Incident(category="POS/deprel combination",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word.id]))
+
+    return incidents
 
 def check_punct_word_labels(new_doc):
     problem_sentences = set()
@@ -461,7 +465,7 @@ def check_unexpected_space_after(filename, new_doc):
             next_word = sent.words[word_idx+1]
             if word.upos != "PUNCT" and next_word.upos != "PUNCT":
                 category = "Unexpected SpaceAfter=No"
-                error = "Sentence %s (%d) word %d (line %d) has SpaceAfter=No between two non-punct words" % (sent.sent_id, sent_idx, word_idx+1, word.line_number)
+                error = "Sentence %s (%d) word %d (line %d) has SpaceAfter=No between two non-punct words" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1)
                 incidents.append(Incident(category=category,
                                           filename=filename,
                                           sent_idx=sent_idx,
@@ -479,7 +483,7 @@ def check_xpos_required(filename, new_doc, check_xpos, require_xpos):
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if word.xpos is None:
-                error = "Sentence %s (%d) word %d |%s| (line %d) has no xpos (upos %s)" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number, word.upos)
+                error = "Sentence %s (%d) word %d |%s| (line %d) has no xpos (upos %s)" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos)
                 incidents.append(Incident(category="Missing XPOS",
                                           filename=filename,
                                           sent_idx=sent_idx,
@@ -804,15 +808,15 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     problem_sentences = set()
     incidents = []
 
-    problem_sentences |= check_unknown_upos(new_doc)
+    incidents.extend(check_unknown_upos(filename, new_doc))
     problem_sentences |= check_no_root_sentences(new_doc)
-    problem_sentences |= check_space_in_word(new_doc)
+    incidents.extend(check_space_in_word(filename, new_doc))
     problem_sentences |= check_punct_word_labels(new_doc)
     incidents.extend(check_pos_deprel_happiness(filename, new_doc, check_xpos))
     incidents.extend(check_unexpected_space_after(filename, new_doc))
     incidents.extend(check_xpos_required(filename, new_doc, check_xpos, require_xpos))
     incidents.extend(check_pos_xpos_happiness(filename, new_doc, check_xpos))
-    problem_sentences |= check_fixed(new_doc, check_feats)
+    incidents.extend(check_fixed(filename, new_doc, check_feats))
     problem_sentences |= check_missing_heads(new_doc)
     problem_sentences |= check_missing_deprel(new_doc)
     incidents.extend(check_th_words(filename, new_doc, check_xpos))
