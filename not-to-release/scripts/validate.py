@@ -139,7 +139,7 @@ ENFORCED_POS['ڇو'] = ['VERB', 'PRON', 'ADV', 'SCONJ']
 ENFORCED_POS['ڪن'] = ['DET', 'NOUN', 'VERB']
 ENFORCED_POS['جو'] = ['DET', 'SCONJ', 'ADP']   # mostly ADP
 
-ENFORCED_POS['ڄڻ'] = ['PRON']
+ENFORCED_POS['ڄڻ'] = ['ADV', 'PRON']
 
 ENFORCED_POS_XPOS['ڪڏهن'] = [('ADV', 'ADT')]
 
