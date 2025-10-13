@@ -37,7 +37,9 @@ Publication out for review.
 
 * 2024-05-15 v2.16
   * Initial release in Universal Dependencies.
-
+  * test: xpos_features/sd_780_A.conllu, retagging/parsing of most of the MazharDootio dataset
+  * dev: xpos_features/sd_780_B.conllu
+  * train: xpos_standard/xpos_tagged_with_features.conllu (the handwritten sentences used to demonstrate xpos & features)
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
