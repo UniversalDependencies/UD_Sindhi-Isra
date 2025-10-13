@@ -145,8 +145,9 @@ def main():
             CoNLL.write_doc2conll(filter_doc, args.raw_retagged)
         train_datasets = {
             "sd_isra_train.in.conllu": train,
-            "sd_isra_noxpos.conllu":   noxpos_doc,
         }
+        if len(noxpos_doc.sentences) > 0:
+            train_datasets["sd_isra_noxpos.conllu"] = noxpos_doc
         if args.retagged:
             train_datasets[os.path.split(args.retagged)[1]] = filter_doc
         for name in extra_docs:
