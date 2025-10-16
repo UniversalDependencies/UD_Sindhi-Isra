@@ -52,7 +52,7 @@ for pred_sent, orig_sent in zip(pred_doc.sentences, orig_doc.sentences):
                 skipped += 1
                 continue
             lemmas[(pred_word.text, pred_word.upos)] = pred_word.lemma
-    if len(lemmas) > 1000:
+    if len(lemmas) > 10000:
         break
 
 print("Skipped %d words" % skipped, file=sys.stderr)
