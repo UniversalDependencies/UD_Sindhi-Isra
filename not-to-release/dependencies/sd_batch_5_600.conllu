@@ -943,7 +943,7 @@
 # text = ٽيسٽ ۾ 13300 اميدوار ويهندا، ڪراچي ۾ ڊائو ميڊيڪل يونيورسٽي، حيدرآباد ۾ لياقت ميڊيڪل يونيورسٽي ڄامشورو، سکر ۾ پبلڪ هيلٿ اسڪول ۽ لاڙڪاڻي ۾ پوليس ٽريننگ اسڪول ۾ ٽيسٽ ورتي ويندي،
 1	ٽيسٽ	ٽيسٽ	NOUN	_	_	5	obl	_	_
 2	۾	۾	ADP	_	_	1	case	_	_
-3	13300	_	NUM	_	_	4	nummod	_	_
+3	13300	13300	NUM	_	_	4	nummod	_	_
 4	اميدوار	_	NOUN	_	_	5	nsubj	_	_
 5	ويهندا	_	VERB	_	_	0	root	_	SpaceAfter=No
 6	،	،	PUNCT	_	_	5	punct	_	_
@@ -9107,7 +9107,7 @@
 8	لاءِ	لاءِ	ADP	_	_	7	case	_	_
 9	ماهوار	ماهوار	NOUN	_	_	10	nmod	_	_
 10	وظيفو	_	NOUN	_	_	12	nsubj	_	_
-11	10000	_	NUM	_	_	12	nummod	_	_
+11	10000	10000	NUM	_	_	12	nummod	_	_
 12	ڏنو	ڏنو	VERB	_	_	0	root	_	_
 13	ويندو	ويندو	VERB	_	_	12	compound	_	_
 14	هو	آهي	AUX	_	_	12	aux	_	_
@@ -9238,7 +9238,7 @@
 12	ڪرڻ	ڪر	VERB	_	_	13	mark	_	_
 13	وارن	وارو	ADP	_	_	20	obj	_	_
 14	کي	کي	ADP	_	_	13	case	_	_
-15	27000	_	NUM	_	_	16	nummod	_	_
+15	27000	27000	NUM	_	_	16	nummod	_	_
 16	پگهار	_	NOUN	_	_	20	obj	_	_
 17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	وظيفو	_	NOUN	_	_	16	conj	_	SpaceAfter=No
@@ -10706,9 +10706,9 @@
 
 # sent_id = 5787
 # text = 80ع ۽ 90ع جي ڏهاڪي جي زماني ۾ آئون هن ڳوٺ جو رهاڪو ۽ شاهه عبداللطيف يونيورسٽي خيرپور جو شاگرد هئس.
-1	80ع	_	NUM	_	_	5	nummod	_	_
+1	80ع	80ع	NUM	_	_	5	nummod	_	_
 2	۽	۽	CCONJ	_	_	3	cc	_	_
-3	90ع	_	NUM	_	_	1	nummod	_	_
+3	90ع	90ع	NUM	_	_	1	nummod	_	_
 4	جي	جي	ADP	_	_	1	case	_	_
 5	ڏهاڪي	ڏهاڪو	NOUN	_	_	7	nmod	_	_
 6	جي	جي	ADP	_	_	5	case	_	_
@@ -11336,7 +11336,7 @@
 17	جي	جي	ADP	_	_	16	case	_	_
 18	نقصان	نقصان	NOUN	_	_	22	obl	_	_
 19	تي	تي	ADP	_	_	18	case	_	_
-20	65	_	NUM	_	_	21	nummod	_	_
+20	65	65	NUM	_	_	21	nummod	_	_
 21	رنسون	_	NOUN	_	_	22	obj	_	_
 22	ٺاهيون	_	VERB	_	_	0	root	_	SpaceAfter=No
 23	،	،	PUNCT	_	_	22	punct	_	_
@@ -11348,7 +11348,7 @@
 29	۽	۽	CCONJ	_	_	31	cc	_	_
 30	گدو	_	PROPN	_	_	31	nmod	_	_
 31	ڌيمن	_	NOUN	_	_	28	conj	_	_
-32	27	_	NUM	_	_	33	nummod	_	_
+32	27	27	NUM	_	_	33	nummod	_	_
 33	رنسون	_	NOUN	_	_	34	obj	_	_
 34	جوڙيون	_	VERB	_	_	41	advcl	_	_
 35	پاڪستان	پاڪستان	PROPN	_	_	41	obl	_	_
@@ -11390,7 +11390,7 @@
 11	ته	ته	SCONJ	_	_	16	mark	_	_
 12	فيصل	_	PROPN	_	_	13	compound	_	_
 13	اقبال	اقبال	PROPN	_	_	16	nsubj	_	_
-14	26	_	NUM	_	_	15	nummod	_	_
+14	26	26	NUM	_	_	15	nummod	_	_
 15	رنسون	_	NOUN	_	_	16	obj	_	_
 16	ٺاهيون	_	VERB	_	_	8	advcl	_	SpaceAfter=No
 17	،	،	PUNCT	_	_	16	punct	_	_
@@ -12553,9 +12553,9 @@
 20	دوران	دوران	ADP	_	_	19	case	_	_
 21	ٻه	ٻه	NUM	_	_	22	nummod	_	_
 22	سال	سال	NOUN	_	_	33	obl	_	_
-23	1967ع	_	NUM	_	_	33	obl	_	_
+23	1967ع	1967ع	NUM	_	_	33	obl	_	_
 24	۽	۽	CCONJ	_	_	25	cc	_	_
-25	1968ع	_	NUM	_	_	23	nummod	_	_
+25	1968ع	1968ع	NUM	_	_	23	nummod	_	_
 26	۾	۾	ADP	_	_	23	case	_	_
 27	مارئي	مارئي	PROPN	_	_	30	nmod	_	_
 28	جي	جي	ADP	_	_	27	case	_	_
@@ -12591,7 +12591,7 @@
 1	جنهن	جنهن	PRON	_	_	19	obl	_	_
 2	۾	۾	ADP	_	_	1	case	_	_
 3	سال	سال	NOUN	_	_	4	nmod	_	_
-4	1997ع	_	NUM	_	_	19	obl	_	_
+4	1997ع	1997ع	NUM	_	_	19	obl	_	_
 5	۾	۾	ADP	_	_	4	case	_	_
 6	ڀالوا	ڀالوا	PROPN	_	_	19	obl	_	_
 7	۾	۾	ADP	_	_	6	case	_	_
@@ -13400,7 +13400,7 @@
 12	تي	تي	ADP	_	_	11	case	_	_
 13	سيشلز	_	PROPN	_	_	18	obl	_	_
 14	کان	کان	ADP	_	_	13	case	_	_
-15	200	_	NUM	_	_	17	nummod	_	_
+15	200	200	NUM	_	_	17	nummod	_	_
 16	ناٽيڪل	_	NUM	_	_	17	nummod	_	_
 17	ميل	ميل	NOUN	_	_	18	obl	_	_
 18	پري	پري	ADV	_	_	23	advmod	_	_
