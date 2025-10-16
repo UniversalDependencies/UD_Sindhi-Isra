@@ -3889,7 +3889,7 @@
 18	علي	علي	PROPN	NNP	Case=Nom|Gender=Masc	19	compound	_	_
 19	ڀٽو	ڀٽو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
 20	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	19	case	_	_
-21	82	_	NUM	NUM	_	23	nummod	_	_
+21	82	82	NUM	NUM	_	23	nummod	_	_
 22	هين	هين	NUM	NUM	_	21	nummod	_	_
 23	سالگره	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
 24	5	5	NUM	NUM	_	25	nummod	_	_
@@ -4505,7 +4505,7 @@
 3	علي	علي	PROPN	NNP	Case=Nom|Gender=Masc	4	compound	_	_
 4	ڀٽي	ڀٽي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	4	case	_	_
-6	82	_	NUM	NUM	_	8	nummod	_	_
+6	82	82	NUM	NUM	_	8	nummod	_	_
 7	هين	هين	NUM	NUM	_	6	nummod	_	_
 8	سالگرهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 9	سڀاڻي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	10	xcomp	_	_
@@ -6907,7 +6907,7 @@
 15	نظام	نظام	NOUN	_	_	17	obl	_	_
 16	۾	۾	ADP	_	_	15	case	_	_
 17	رهندي	رهندو	VERB	_	_	9	advcl	_	_
-18	–	_	PUNCT	_	_	17	punct	_	_
+18	–	–	PUNCT	_	_	17	punct	_	_
 19	ڀل	_	VERB	_	_	26	obl	_	_
 20	پوءِ	پوءِ	ADP	_	_	19	mark	_	_
 21	اُهو	_	PRON	_	_	26	nsubj	_	_
@@ -6917,7 +6917,7 @@
 25	سان	سان	ADP	_	_	24	case	_	_
 26	ڀريل	_	VERB	_	_	17	advcl	_	_
 27	هجي	هجي	VERB	_	_	26	compound	_	_
-28	–	_	PUNCT	_	_	26	punct	_	_
+28	–	–	PUNCT	_	_	26	punct	_	_
 29	اسان	اسين	PRON	_	_	36	nsubj	_	_
 30	ان	ان	DET	_	_	31	det	_	_
 31	نظام	نظام	NOUN	_	_	36	obl	_	_
@@ -7080,7 +7080,7 @@
 7	سکي	_	VERB	_	_	0	root	_	_
 8	سگهجي	سگهي	VERB	_	_	7	compound	_	_
 9	ٿو	آهي	AUX	_	_	7	aux	_	_
-10	–	_	PUNCT	_	_	7	punct	_	_
+10	–	–	PUNCT	_	_	7	punct	_	_
 11	”	”	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	نظام	نظام	NOUN	_	_	18	obj	_	SpaceAfter=No
 13	“	“	PUNCT	_	_	12	punct	_	_
@@ -7186,7 +7186,7 @@
 5	انويسٽيگيشن	_	NOUN	_	_	6	nmod	_	_
 6	جرنلزم	_	NOUN	_	_	21	nsubj	_	SpaceAfter=No
 7	“	“	PUNCT	_	_	6	punct	_	_
-8	–	_	PUNCT	_	_	6	punct	_	_
+8	–	–	PUNCT	_	_	6	punct	_	_
 9	پوءِ	پوءِ	ADP	_	_	6	case	_	_
 10	ڀلي	ڀلو	ADJ	_	_	11	obl	_	_
 11	کڻي	کڻي	VERB	_	_	21	advcl	_	_
@@ -7195,7 +7195,7 @@
 14	نموني	نمونو	NOUN	_	_	21	obl	_	_
 15	ئي	ئي	PART	_	_	14	advmod:emph	_	_
 16	سهي	_	ADV	_	_	21	advmod	_	_
-17	–	_	PUNCT	_	_	19	punct	_	_
+17	–	–	PUNCT	_	_	19	punct	_	_
 18	جي	جي	ADP	_	_	16	case	_	_
 19	شروعات	شروعات	NOUN	_	_	21	nsubj	_	_
 20	به	به	PART	_	_	19	advmod:emph	_	_
@@ -7332,7 +7332,7 @@
 2	جي	جي	ADP	_	_	1	case	_	_
 3	نتيجي	نتيجو	NOUN	_	_	7	obl	_	_
 4	۾	۾	ADP	_	_	3	case	_	_
-5	14599	_	NUM	_	_	6	nummod	_	_
+5	14599	14599	NUM	_	_	6	nummod	_	_
 6	ماڻهو	ماڻهو	NOUN	_	_	7	nsubj	_	_
 7	ماريا	ماريو	VERB	_	_	0	root	_	_
 8	ويا	ويو	VERB	_	_	7	compound	_	SpaceAfter=No
@@ -7349,7 +7349,7 @@
 7	ٿيندڙ	ٿيندڙ	VERB	_	_	8	acl	_	_
 8	موتن	_	NOUN	_	_	11	nmod	_	_
 9	جو	جو	ADP	_	_	8	case	_	_
-10	32	_	NUM	_	_	11	nummod	_	_
+10	32	32	NUM	_	_	11	nummod	_	_
 11	سيڪڙو	سيڪڙو	NOUN	_	_	0	root	_	_
 12	آهن	آهي	AUX	_	_	11	cop	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	_	_
@@ -7446,7 +7446,7 @@
 17	جي	جي	ADP	_	_	16	case	_	_
 18	حملن	حملو	NOUN	_	_	21	nmod	_	_
 19	جو	جو	ADP	_	_	18	case	_	_
-20	91	_	NUM	_	_	21	nummod	_	_
+20	91	91	NUM	_	_	21	nummod	_	_
 21	سيڪڙو	سيڪڙو	NOUN	_	_	22	nsubj	_	_
 22	ٿين	آهي	VERB	_	_	0	root	_	_
 23	ٿا	آهي	AUX	_	_	22	aux	_	SpaceAfter=No
@@ -7787,7 +7787,7 @@
 19	اتي	اتي	ADV	_	_	30	advmod	_	_
 20	هنن	هي	DET	_	_	30	nsubj	_	_
 21	کي	کي	ADP	_	_	20	case	_	_
-22	700	_	NUM	_	_	26	nummod	_	_
+22	700	700	NUM	_	_	26	nummod	_	_
 23	کان	کان	ADP	_	_	22	case	_	_
 24	وڌيڪ	وڌيڪ	ADJ	_	_	26	amod	_	_
 25	پرڏيهي	پرڏيهي	ADJ	_	_	26	amod	_	_
@@ -7813,19 +7813,19 @@
 11	ويا	ويو	VERB	_	_	10	compound	_	_
 12	هئا	آهي	AUX	_	_	10	aux	_	_
 13	ته	ته	SCONJ	_	_	19	mark	_	_
-14	700	_	NUM	_	_	15	nummod	_	_
+14	700	700	NUM	_	_	15	nummod	_	_
 15	جنگجوئن	_	NOUN	_	_	19	obl	_	_
 16	مان	مان	ADP	_	_	15	case	_	_
-17	137	_	NUM	_	_	18	nummod	_	_
+17	137	137	NUM	_	_	18	nummod	_	_
 18	لبيائي	_	ADJ	_	_	19	xcomp	_	_
 19	هئا	آهي	AUX	_	_	10	aux	_	SpaceAfter=No
 20	،	،	PUNCT	_	_	19	punct	_	_
 21	جڏهن	جڏهن	ADV	_	_	31	advmod	_	_
 22	ته	ته	SCONJ	_	_	21	mark	_	_
 23	انهن	ان	DET	_	_	24	det	_	_
-24	137	_	NUM	_	_	31	nummod	_	_
+24	137	137	NUM	_	_	31	nummod	_	_
 25	مان	مان	ADP	_	_	24	case	_	_
-26	52	_	NUM	_	_	29	nummod	_	_
+26	52	52	NUM	_	_	29	nummod	_	_
 27	هڪ	هڪ	ADJ	_	_	29	amod	_	_
 28	ئي	ئي	ADP	_	_	27	case	_	_
 29	ڳوٺ	ڳوٺ	NOUN	_	_	31	nmod	_	_
@@ -11342,7 +11342,7 @@
 
 # sent_id = 4236
 # text = " حقيقت ۾ خبر ناهي ته آدم جو ڪو وجود به هو پر جيڪڏهن هو به کڻي ته هو اڪيلو رهي نه سگهيو هوندو.
-1	"	_	PUNCT	_	_	4	punct	_	_
+1	"	"	PUNCT	_	_	4	punct	_	_
 2	حقيقت	حقيقت	NOUN	_	_	4	obl	_	_
 3	۾	۾	ADP	_	_	2	case	_	_
 4	خبر	خبر	NOUN	_	_	0	root	_	_
@@ -13165,7 +13165,7 @@
 
 # sent_id = 4353
 # text = " اها عظمت، سنڌي ادب جي موجوده تخليقي دؤر ۽ ادبي ترجمن جي دور تي لاڳو ٿئي ٿي يا نه، انهيءَ تي بحث ناهي پر جيتري قدر سنڌي ادب ۾ ترجمو ڪيل ادب جي واڌاري جو سوال آهي ته آئون بنا هٻڪ جي چئي سگهان ٿو ته سنڌي ادب جي تخليقي دور کي وڌ کان وڌ ادبي صلاحيتون ادا ڪرڻ ۾ ادبي ترجمن جو وڏو هٿ آهي،
-1	"	_	PUNCT	_	_	18	punct	_	_
+1	"	"	PUNCT	_	_	18	punct	_	_
 2	اها	اها	DET	_	_	3	det	_	_
 3	عظمت	عظمت	NOUN	_	_	18	nsubj	_	SpaceAfter=No
 4	،	،	PUNCT	_	_	6	cc	_	_

@@ -4140,7 +4140,7 @@
 3	علي	علي	PROPN	NNP	Case=Nom|Gender=Masc	2	flat	_	_
 4	ڀٽي	ڀٽي	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
-6	82	_	NUM	NUM	_	8	amod	_	_
+6	82	82	NUM	NUM	_	8	amod	_	_
 7	هين	هين	PART	PART	_	6	compound	_	_
 8	سالگرهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 9	سڀاڻي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	10	xcomp	_	_
@@ -6427,7 +6427,7 @@
 15	نظام	نظام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
 16	۾	۾	ADP	PSPL	_	15	case	_	_
 17	رهندي	رهندو	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart|Voice=Act	6	advcl	_	_
-18	–	_	PUNCT	PUNCT	_	17	punct	_	_
+18	–	–	PUNCT	PUNCT	_	17	punct	_	_
 19	ڀل	_	VERB	VM	Aspect=Imp	26	obl	_	_
 20	پوءِ	پوءِ	ADP	PSP	_	19	mark	_	_
 21	اُهو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
@@ -6437,7 +6437,7 @@
 25	سان	سان	ADP	PSP	_	24	case	_	_
 26	ڀريل	_	VERB	VM	Aspect=Perf|VerbForm=PastPart	17	advcl	_	_
 27	هجي	آهي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3|Voice=Pass	26	aux	_	_
-28	–	_	PUNCT	PUNCT	_	26	punct	_	_
+28	–	–	PUNCT	PUNCT	_	26	punct	_	_
 29	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	36	nsubj	_	_
 30	ان	ان	DET	PRD	Case=Acc|Number=Sing	31	det	_	_
 31	نظام	نظام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	36	obl	_	_
@@ -6600,7 +6600,7 @@
 7	سکي	_	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 8	سگهجي	سگهي	AUX	VAUX	Number=Sing|Person=3|Voice=Pass	7	aux	_	_
 9	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	7	aux	_	_
-10	–	_	PUNCT	PUNCT	_	7	punct	_	_
+10	–	–	PUNCT	PUNCT	_	7	punct	_	_
 11	”	”	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 12	نظام	نظام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
 13	“	“	PUNCT	PUNCT	_	12	punct	_	_
@@ -6706,7 +6706,7 @@
 5	انويسٽيگيشن	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
 6	جرنلزم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 7	“	“	PUNCT	PUNCT	_	6	punct	_	_
-8	–	_	PUNCT	PUNCT	_	6	punct	_	_
+8	–	–	PUNCT	PUNCT	_	6	punct	_	_
 9	پوءِ	پوءِ	ADV	ADT	_	11	advmod	_	_
 10	ڀلي	ڀلي	ADV	ADM	_	11	advmod	_	_
 11	کڻي	کڻي	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
@@ -6715,7 +6715,7 @@
 14	نموني	نمونو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 15	ئي	ئي	PART	PART	_	14	advmod:emph	_	_
 16	سهي	_	ADV	ADT	_	14	advmod	_	_
-17	–	_	PUNCT	PUNCT	_	6	punct	_	_
+17	–	–	PUNCT	PUNCT	_	6	punct	_	_
 18	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
 19	شروعات	شروعات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 20	به	به	PART	PART	_	19	advmod:emph	_	_
@@ -6852,7 +6852,7 @@
 2	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	1	case	_	_
 3	نتيجي	نتيجو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
-5	14599	_	NUM	NUM	_	6	nummod	_	_
+5	14599	14599	NUM	NUM	_	6	nummod	_	_
 6	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 7	ماريا	ماريو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
 8	ويا	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	7	compound	_	SpaceAfter=No
@@ -6869,7 +6869,7 @@
 7	ٿيندڙ	ٿيندڙ	VERB	VM	Aspect=Imp|VerbForm=Vnoun	8	acl	_	_
 8	موتن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	_
 9	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
-10	32	_	NUM	NUM	_	11	nummod	_	_
+10	32	32	NUM	NUM	_	11	nummod	_	_
 11	سيڪڙو	سيڪڙو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 12	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	11	cop	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	11	punct	_	_
@@ -6966,7 +6966,7 @@
 17	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	16	case	_	_
 18	حملن	حملو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	nmod	_	_
 19	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	18	case	_	_
-20	91	_	NUM	NUM	_	21	nummod	_	_
+20	91	91	NUM	NUM	_	21	nummod	_	_
 21	سيڪڙو	سيڪڙو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	obj	_	_
 22	ٿين	آهي	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
 23	ٿا	آهي	AUX	VAUX	Number=Plur|Tense=Pres	22	aux	_	SpaceAfter=No
@@ -7307,7 +7307,7 @@
 19	اتي	اتي	ADV	ADT	_	30	advmod	_	_
 20	هنن	هي	DET	PRD	Case=Acc|Number=Plur	30	nsubj	_	_
 21	کي	کي	ADP	PSP	_	20	case	_	_
-22	700	_	NUM	NUM	_	26	nummod	_	_
+22	700	700	NUM	NUM	_	26	nummod	_	_
 23	کان	کان	ADP	PSP	_	22	case	_	_
 24	وڌيڪ	وڌيڪ	ADJ	JJ	Case=Nom|Degree=Pos	26	amod	_	_
 25	پرڏيهي	پرڏيهي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	26	amod	_	_
@@ -7333,19 +7333,19 @@
 11	ويا	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	10	compound	_	_
 12	هئا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	10	aux	_	_
 13	ته	ته	SCONJ	CS	_	18	mark	_	_
-14	700	_	NUM	NUM	_	15	nummod	_	_
+14	700	700	NUM	NUM	_	15	nummod	_	_
 15	جنگجوئن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	obl	_	_
 16	مان	مان	ADP	PSPL	_	15	case	_	_
-17	137	_	NUM	NUM	_	18	nsubj	_	_
+17	137	137	NUM	NUM	_	18	nsubj	_	_
 18	لبيائي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	10	advcl	_	_
 19	هئا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	18	cop	_	SpaceAfter=No
 20	،	،	PUNCT	PUNCT	_	18	punct	_	_
 21	جڏهن	جڏهن	ADV	ADT	_	31	advmod	_	_
 22	ته	ته	SCONJ	CS	_	21	mark	_	_
 23	انهن	ان	DET	PRD	Case=Acc|Number=Plur	24	det	_	_
-24	137	_	NUM	NUM	_	31	obl	_	_
+24	137	137	NUM	NUM	_	31	obl	_	_
 25	مان	مان	ADP	PSPL	_	24	case	_	_
-26	52	_	NUM	NUM	_	31	nsubj	_	_
+26	52	52	NUM	NUM	_	31	nsubj	_	_
 27	هڪ	هڪ	NUM	NUM	_	29	nummod	_	_
 28	ئي	ئي	PART	PART	_	27	advmod:emph	_	_
 29	ڳوٺ	ڳوٺ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	31	nmod	_	_
@@ -10655,7 +10655,7 @@
 
 # sent_id = 4236
 # text = " حقيقت ۾ خبر ناهي ته آدم جو ڪو وجود به هو پر جيڪڏهن هو به کڻي ته هو اڪيلو رهي نه سگهيو هوندو.
-1	"	_	PUNCT	PUNCT	_	4	punct	_	_
+1	"	"	PUNCT	PUNCT	_	4	punct	_	_
 2	حقيقت	حقيقت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
 4	خبر	خبر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -12477,7 +12477,7 @@
 
 # sent_id = 4353
 # text = " اها عظمت، سنڌي ادب جي موجوده تخليقي دؤر ۽ ادبي ترجمن جي دور تي لاڳو ٿئي ٿي يا نه، انهيءَ تي بحث ناهي پر جيتري قدر سنڌي ادب ۾ ترجمو ڪيل ادب جي واڌاري جو سوال آهي ته آئون بنا هٻڪ جي چئي سگهان ٿو ته سنڌي ادب جي تخليقي دور کي وڌ کان وڌ ادبي صلاحيتون ادا ڪرڻ ۾ ادبي ترجمن جو وڏو هٿ آهي،
-1	"	_	PUNCT	PUNCT	_	18	punct	_	_
+1	"	"	PUNCT	PUNCT	_	18	punct	_	_
 2	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
 3	عظمت	عظمت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
 4	،	،	PUNCT	PUNCT	_	6	punct	_	_

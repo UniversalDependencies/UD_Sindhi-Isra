@@ -1869,7 +1869,7 @@
 7	جناح	جناح	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 8	تي	تي	ADP	PSPL	_	7	case	_	_
 9	ٿيل	آهي	VERB	VM	Aspect=Perf|VerbForm=PastPart	13	acl	_	_
-10	28	_	NUM	NUM	_	11	nmod	_	_
+10	28	28	NUM	NUM	_	11	nmod	_	_
 11	ڊسمبر	ڊسمبر	PROPN	NNP	Case=Nom|Gender=Masc	13	nmod	_	_
 12	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	11	case	_	_
 13	ڌماڪي	ڌماڪو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
@@ -2345,7 +2345,7 @@
 36	ڪرائي	ڪرائي	VERB	VM	Aspect=Imp|Voice=Act	28	conj	_	_
 37	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	36	aux	_	SpaceAfter=No
 38	؟	؟	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
-39	!!	_	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
+39	!!	!!	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
 40	ڪيتريون	ڪيتريون	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	42	amod	_	_
 41	شگر	شگر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	42	nmod	_	_
 42	ملون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	47	nsubj	_	_
@@ -2411,9 +2411,9 @@
 7	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	6	case	_	_
 8	ويجهو	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	13	advmod	_	_
 9	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	11	det	_	_
-10	"	_	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+10	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
 11	مقصد	مقصد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
-12	"	_	PUNCT	PUNCT	_	11	punct	_	_
+12	"	"	PUNCT	PUNCT	_	11	punct	_	_
 13	هوندو	هوندو	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	3	advcl	_	_
 14	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	13	aux	_	_
 15	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
@@ -2431,7 +2431,7 @@
 
 # sent_id = 4234
 # text = 13 صديءَ جي آرمينيائي نامينلسٽ فيلسوف واگرام رُبوهي (Vagram Rabuhi) لکيو هو: "آدم جو وجود تڏهن هو،
-1	13	_	NUM	NUM	_	2	nummod	_	_
+1	13	13	NUM	NUM	_	2	nummod	_	_
 2	صديءَ	صديءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
 4	آرمينيائي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
@@ -2446,7 +2446,7 @@
 13	لکيو	لک	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 14	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	13	aux	_	SpaceAfter=No
 15	:	:	PUNCT	PUNCT	_	13	punct	_	_
-16	"	_	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+16	"	"	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
 17	آدم	_	PROPN	NNP	Case=Acc|Gender=Masc	19	nmod	_	_
 18	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	17	case	_	_
 19	وجود	وجود	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
@@ -2456,10 +2456,10 @@
 
 # sent_id = 4244
 # text = "ٽيڪنالاجيءَ جي "دؤر جي اصطلاح لاءِ Johannes Becher لکيو آهي ته: اهو "هن دؤر جي بنيادي تاريخي ڪردار سان ميل نٿو کائي،
-1	"	_	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	ٽيڪنالاجيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
-4	"	_	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 5	دؤر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 6	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	5	case	_	_
 7	اصطلاح	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
@@ -2471,7 +2471,7 @@
 13	ته	ته	SCONJ	CS	_	11	mark	_	SpaceAfter=No
 14	:	:	PUNCT	PUNCT	_	11	punct	_	_
 15	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
-16	"	_	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+16	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 17	هن	هن	DET	PRD	Case=Acc|Number=Sing	18	det	_	_
 18	دؤر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	_
 19	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	18	case	_	_
@@ -2490,11 +2490,11 @@
 2	ڪري	ڪري	ADP	PSP	_	1	case	_	_
 3	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	10	obj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
-5	"	_	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+5	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 6	انسان	انسان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
 7	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	6	case	_	_
 8	دور	دور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
-9	"	_	PUNCT	PUNCT	_	8	punct	_	_
+9	"	"	PUNCT	PUNCT	_	8	punct	_	_
 10	چوڻ	چوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
 11	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	10	compound	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	10	punct	_	_
@@ -2509,11 +2509,11 @@
 6	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	aux	_	_
 7	ته	ته	SCONJ	CS	_	5	mark	_	SpaceAfter=No
 8	:	:	PUNCT	PUNCT	_	5	punct	_	_
-9	"	_	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 10	وار	وار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
 11	اينڊ	_	PROPN	NNP	Case=Nom|Gender=Masc	12	nmod	_	_
 12	پيس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-13	"	_	PUNCT	PUNCT	_	12	punct	_	_
+13	"	"	PUNCT	PUNCT	_	12	punct	_	_
 14	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	12	case	_	_
 15	اڀياس	اڀياس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
 16	سان	سان	ADP	PSP	_	15	case	_	_
@@ -2540,11 +2540,11 @@
 2	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	1	case	_	_
 3	ڪاوشن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obl	_	_
 4	سان	سان	ADP	PSP	_	3	case	_	_
-5	"	_	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+5	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 6	وار	وار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 7	اينڊ	_	PROPN	NNP	Case=Nom|Gender=Masc	8	compound	_	_
 8	پيس	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
-9	"	_	PUNCT	PUNCT	_	8	punct	_	_
+9	"	"	PUNCT	PUNCT	_	8	punct	_	_
 10	جهڙا	جهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Plur	11	det	_	_
 11	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
 12	نه	نه	PART	PART	_	13	advmod:emph	_	_
@@ -2626,10 +2626,10 @@
 
 # sent_id = 4264
 # text = "ڊاڪٽر زوواگو" جو ناول نگار نوبل انعام يافته بورس پيسترنڪ جڏهن حڪومت جي پابندين جي ڪري تخليقي ڪم نه ڪري سگهيو ته هن شيڪسپيئر جي ڊرامن جو روسيءَ ۾ ترجمو ڪيو،
-1	"	_	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 2	ڊاڪٽر	ڊاڪٽر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 3	زوواگو	_	PROPN	NNP	Case=Acc|Gender=Masc	6	nmod	_	SpaceAfter=No
-4	"	_	PUNCT	PUNCT	_	3	punct	_	_
+4	"	"	PUNCT	PUNCT	_	3	punct	_	_
 5	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 6	ناول	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
 7	نگار	_	PROPN	NNP	Case=Nom|Gender=Masc	12	nmod	_	_
@@ -2663,7 +2663,7 @@
 
 # sent_id = 4266
 # text = "شاعري، تاريخ کان وڌيڪ فيلسوفاڻي ۽ اهميت جوڳي آهي،
-1	"	_	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+1	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 2	شاعري	شاعري	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
 3	،	،	PUNCT	PUNCT	_	2	punct	_	_
 4	تاريخ	تاريخ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
@@ -2678,9 +2678,9 @@
 
 # sent_id = 4280
 # text = "شاهنامو" به اهڙي طرح هڪ جيئرو جاڳندو شاهڪار آهي جو اڄ به اوڀر توڙي اولهه جي پڙهندڙن جي لاءِ دلچسپيءَ جو سبب آهي،
-1	"	_	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	شاهنامو	_	PROPN	NNP	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No
-3	"	_	PUNCT	PUNCT	_	2	punct	_	_
+3	"	"	PUNCT	PUNCT	_	2	punct	_	_
 4	به	به	PART	PART	_	2	advmod:emph	_	_
 5	اهڙي	اهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	6	det	_	_
 6	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	_
@@ -2711,7 +2711,7 @@
 2	پائونڊ	_	PROPN	NNP	Case=Nom|Gender=Masc	14	obl	_	_
 3	مطابق	مطابق	ADP	PSP	_	2	case	_	SpaceAfter=No
 4	:	:	PUNCT	PUNCT	_	2	punct	_	_
-5	"	_	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+5	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 6	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	7	det	_	_
 7	دور	دور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 8	تخليقي	تخليقي	ADJ	JJ	Case=Nom|Degree=Pos	9	amod	_	_
@@ -2749,10 +2749,10 @@
 21	۽	۽	CCONJ	CC	_	28	cc	_	_
 22	سمورو	سمورو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	23	amod	_	_
 23	ملڪ	ملڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
-24	"	_	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+24	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
 25	هاءِ	هاءِ	PROPN	NNP	Case=Nom|Gender=Masc	26	compound	_	_
 26	الرٽ	_	PROPN	NNP	Case=Nom|Gender=Masc	28	obl	_	SpaceAfter=No
-27	"	_	PUNCT	PUNCT	_	26	punct	_	_
+27	"	"	PUNCT	PUNCT	_	26	punct	_	_
 28	بنايو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Voice=Act	18	conj	_	_
 29	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	28	compound	_	_
 30	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	28	aux	_	SpaceAfter=No
@@ -2765,10 +2765,10 @@
 3	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	2	cop	_	_
 4	ته	ته	SCONJ	CS	_	8	mark	_	_
 5	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-6	"	_	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+6	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 7	بم	بم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 8	ڌماڪو	ڌماڪو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	advcl	_	SpaceAfter=No
-9	"	_	PUNCT	PUNCT	_	8	punct	_	_
+9	"	"	PUNCT	PUNCT	_	8	punct	_	_
 10	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	8	cop	_	_
 11	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 12	ڪنهن	ڪو	PRON	PRWH	Case=Acc|Number=Sing	13	det	_	_
@@ -2798,10 +2798,10 @@
 15	گهرجن	گهرجي	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Pass	14	compound	_	_
 16	ته	ته	SCONJ	CS	_	40	mark	_	_
 17	جيئن	جيئن	ADV	ADM	_	27	advmod	_	_
-18	"	_	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+18	"	"	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
 19	جمهوري	جمهوري	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	20	amod	_	_
 20	حڪومت	حڪومت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
-21	"	_	PUNCT	PUNCT	_	20	punct	_	_
+21	"	"	PUNCT	PUNCT	_	20	punct	_	_
 22	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	20	case	_	_
 23	دؤر	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	obl	_	_
 24	۾	۾	ADP	PSPL	_	23	case	_	_
@@ -2849,7 +2849,7 @@
 21	چون	چو	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
 22	ٿا	آهي	AUX	VAUX	Number=Plur|Tense=Pres	21	aux	_	_
 23	ته	ته	SCONJ	CS	_	21	mark	_	_
-24	"	_	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+24	"	"	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
 25	جڏهن	جڏهن	ADV	ADT	_	31	advmod	_	_
 26	باهه	باهه	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	nmod	_	_
 27	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	26	case	_	_
@@ -2900,10 +2900,10 @@
 28	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	27	cop	_	_
 29	ويون	ويو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	27	compound	_	_
 30	۽	۽	CCONJ	CC	_	41	cc	_	_
-31	"	_	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+31	"	"	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
 32	هاءِ	هاءِ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	33	nmod	_	_
 33	الرٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
-34	"	_	PUNCT	PUNCT	_	33	punct	_	_
+34	"	"	PUNCT	PUNCT	_	33	punct	_	_
 35	وارا	وارو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	33	case	_	_
 36	مطمئن	مطمئن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	37	compound	_	_
 37	ڪرائيندڙ	_	VERB	VM	Aspect=Imp|VerbForm=Vnoun	38	acl	_	_
