@@ -36,7 +36,11 @@ ALLOWED_UPOS_TO_FEATS = {
               'Gender=Fem', 'Gender=Masc',
               'Number=Plur', 'Number=Sing',
               'PronType=Tot'],
-    "ADP":   ['Case=Acc', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
+    "ADP":   ['Case=Acc', 'Case=Nom',
+              'ExtPos=ADP',
+              'Gender=Fem', 'Gender=Masc',
+              'Number=Plur', 'Number=Sing',
+              'Person=3'],
     "ADV":   ['Case=Acc', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
     "AUX":   ['Aspect=Imp', 'Aspect=Perf',
               'AuxType=Be',
@@ -273,6 +277,7 @@ FixedExpression = namedtuple('FixedExpression', 'words extpos')
 FIXED_EXPRESSIONS = []
 FIXED_EXPRESSIONS.append(FixedExpression((('ڏينهون', 'NOUN'), ('ڏينهن', 'NOUN')), 'ADV'))
 FIXED_EXPRESSIONS.append(FixedExpression((('ڇاڪاڻ', 'SCONJ'), ('ته', 'SCONJ')), 'SCONJ'))
+FIXED_EXPRESSIONS.append(FixedExpression((('کان', 'ADP'), ('سواءِ', 'ADP')), 'ADP'))
 
 Incident = namedtuple("Incident", "category filename sent_idx sentence error nodes")
 
