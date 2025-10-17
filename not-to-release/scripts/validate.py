@@ -62,7 +62,7 @@ ALLOWED_UPOS_TO_FEATS = {
     "PRON":  ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=2', 'Person=3'],
     "PROPN": ['Case=Abl', 'Case=Acc', 'Case=Nom', 'Case=Voc', 'Gender=Fem', 'Gender=Masc', 'Number=Sing'],
     "PUNCT": [],
-    "SCONJ": [],
+    "SCONJ": ['ExtPos=SCONJ'],
     "SYM":   [],
     "VERB":  ['Aspect=Imp', 'Aspect=Perf', 'Aspect=Prog',
               'Case=Acc', 'Case=Nom',
@@ -272,6 +272,7 @@ ENFORCED_POS_XPOS['جلد'] = [('ADV', 'ADM'), ('NOUN', 'NN')]
 FixedExpression = namedtuple('FixedExpression', 'words extpos')
 FIXED_EXPRESSIONS = []
 FIXED_EXPRESSIONS.append(FixedExpression((('ڏينهون', 'NOUN'), ('ڏينهن', 'NOUN')), 'ADV'))
+FIXED_EXPRESSIONS.append(FixedExpression((('ڇاڪاڻ', 'SCONJ'), ('ته', 'SCONJ')), 'SCONJ'))
 
 Incident = namedtuple("Incident", "category filename sent_idx sentence error nodes")
 
