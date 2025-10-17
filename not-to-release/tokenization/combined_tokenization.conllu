@@ -123862,3 +123862,103 @@
 29	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
 30	.	_	_	_	_	1	dep	_	_
 
+# sent_id = 6000
+# text = سو هڪل ڪري ڪڙميءَ کي چيائين ته : ڙي ڪڙمي ! هتان هيلوڪو ،
+1	سو	سو	PRON	PRL	Case=Nom|Number=Sing	3	nsubj	_	_
+2	هڪل	هڪل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	xcomp	_	_
+3	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+4	ڪڙميءَ	ڪڙمي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	iobj	_	_
+5	کي	کي	ADP	PSP	_	4	case	_	_
+6	چيائين	چيائين	VERB	VMX	Aspect=Perf|Number=Sing|Person=3	0	root	_	_
+7	ته	ته	SCONJ	CS	_	6	mark	_	_
+8	:	:	PUNCT	PUNCT	_	6	punct	_	_
+9	ڙي	ڙي	INTJ	INTJ	_	6	discourse	_	_
+10	ڪڙمي	_	VERB	VM	Number=Sing|Person=1	6	conj	_	_
+11	!	!	PUNCT	PUNCT	_	10	punct	_	_
+12	هتان	هتي	ADV	ADP	_	10	advmod	_	_
+13	هيلوڪو	_	ADV	ADA	_	10	advmod	_	_
+14	،	،	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 6001
+# text = ڪڙميءَ عزرائيل کي جواب ڏنو ته : سائين ! هتي ته شينهن آهيئي ڪونه ،
+1	ڪڙميءَ	ڪڙمي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	عزرائيل	عزرائيل	PROPN	NNP	Case=Nom|Gender=Masc	5	iobj	_	_
+3	کي	کي	ADP	PSP	_	2	case	_	_
+4	جواب	جواب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
+5	ڏنو	ڏنو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+6	ته	ته	SCONJ	CS	_	5	mark	_	_
+7	:	:	PUNCT	PUNCT	_	5	punct	_	_
+8	سائين	سائين	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	vocative	_	_
+9	!	!	PUNCT	PUNCT	_	8	punct	_	_
+10	هتي	هتي	ADV	ADT	_	12	advmod	_	_
+11	ته	ته	PART	PART	_	10	advmod:emph	_	_
+12	شينهن	شينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
+13	آهيئي	آهي	AUX	VAUXX	Number=Sing|Person=1|Tense=Pres	12	cop	_	_
+14	ڪونه	ڪونه	PART	PART	_	12	dep	_	_
+15	،	،	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 6002
+# text = تون وري ڪوڙ ٿو ڪرين ! جي سچي نٿو ڪرين ته تنهنجو به خير ڪونهي ! ان تي ڪڙميءَ وراڻيو ته : سائين ! اهو پير جيڪو اوهين ڏسو پيا ،
+1	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	5	nsubj	_	_
+2	وري	وري	ADV	ADM	_	5	advmod	_	_
+3	ڪوڙ	ڪوڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
+4	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	aux	_	_
+5	ڪرين	ڪر	VERB	VM	Aspect=Imp|Number=Sing|Person=1	0	root	_	_
+6	!	!	PUNCT	PUNCT	_	5	punct	_	_
+7	جي	جي	SCONJ	CS	_	5	mark	_	_
+8	سچي	سچي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	10	acl	_	_
+9	نٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Polarity=Neg|Tense=Pres	10	aux	_	_
+10	ڪرين	ڪر	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	5	advcl	_	_
+11	ته	ته	SCONJ	CS	_	14	mark	_	_
+12	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	14	nmod	_	_
+13	به	به	PART	PART	_	12	advmod:emph	_	_
+14	خير	خير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	_
+15	ڪونهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	14	cop	_	_
+16	!	!	PUNCT	PUNCT	_	14	punct	_	_
+17	ان	ان	DET	PRD	Case=Acc|Number=Sing	20	obl	_	_
+18	تي	تي	ADP	PSPL	_	17	case	_	_
+19	ڪڙميءَ	ڪڙمي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	وراڻيو	وراڻ	VERB	VM	Aspect=Perf|Number=Sing	5	advcl	_	_
+21	ته	ته	SCONJ	CS	_	20	mark	_	_
+22	:	:	PUNCT	PUNCT	_	20	punct	_	_
+23	سائين	سائين	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	vocative	_	_
+24	!	!	PUNCT	PUNCT	_	23	punct	_	_
+25	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	26	det	_	_
+26	پير	پير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	obj	_	_
+27	جيڪو	جيڪو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	26	nmod	_	_
+28	اوهين	اوهين	PRON	PRP	Case=Nom|Number=Plur|Person=2	29	nsubj	_	_
+29	ڏسو	ڏسو	VERB	VM	Aspect=Imp	20	advcl	_	_
+30	پيا	پيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	29	compound	_	_
+31	،	،	PUNCT	PUNCT	_	29	punct	_	_
+
+# sent_id = 6003
+# text = اتي عزرائيل چيو ته : نه ڙي نه ! تون ڪوڙ ٿو ڳالهائين .
+1	اتي	اتي	ADV	ADT	_	3	advmod	_	_
+2	عزرائيل	عزرائيل	PROPN	NNP	Case=Nom|Gender=Masc	3	nsubj	_	_
+3	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
+4	ته	ته	SCONJ	CS	_	3	mark	_	_
+5	:	:	PUNCT	PUNCT	_	3	punct	_	_
+6	نه	نه	PART	PART	_	3	advmod	_	_
+7	ڙي	ڙي	INTJ	INTJ	_	3	discourse	_	_
+8	نه	نه	PART	PART	_	3	advmod	_	_
+9	!	!	PUNCT	PUNCT	_	8	punct	_	_
+10	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	13	nsubj	_	_
+11	ڪوڙ	ڪوڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
+12	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	13	aux	_	_
+13	ڳالهائين	ڳالهاءِ	VERB	VM	Aspect=Imp|Number=Sing|Person=2	3	advcl	_	_
+14	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# sent_id = 6004
+# text = ڪڙميء َجواب ڏنس ته : يار ! اهو عزرائيل آهي ،
+1	ڪڙميء	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	َجواب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	_
+3	ڏنس	ڏنو	VERB	VMX	Aspect=Perf|Number=Sing|Person=3	0	root	_	_
+4	ته	ته	SCONJ	CS	_	3	mark	_	_
+5	:	:	PUNCT	PUNCT	_	3	punct	_	_
+6	يار	يار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	vocative	_	_
+7	!	!	PUNCT	PUNCT	_	6	punct	_	_
+8	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	عزرائيل	عزرائيل	PROPN	NNP	Case=Nom|Gender=Masc	3	advcl	_	_
+10	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	9	cop	_	_
+11	،	،	PUNCT	PUNCT	_	9	punct	_	_
+
