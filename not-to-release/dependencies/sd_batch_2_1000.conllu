@@ -14566,59 +14566,62 @@
 12	هئي	آهي	AUX	_	_	11	aux	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	_	_
 
-# sent_id = 3346
-# text = ماءُ ۽ پيءُ هن کي ڏسي سَرها ٿيندا هئا ۽ هڪ ٻئي کان پڇندا هئا ته ماليڪٽ کان سواءِ پاڻ ڪيئن رهي سگهنداسون؟ ماليڪٽ ائين به ڪندي هئي جو پنهنجي ننڍڙي ٻيڙيءَ ۾ چڙهي کاريءَ جي لڪل کاهين ۽ غارن جي ڳولا ۾ پري پري تائين نڪري ويندي هئي.
-1	ماءُ	ماءُ	NOUN	_	_	8	nsubj	_	_
-2	۽	۽	CCONJ	_	_	3	cc	_	_
-3	پيءُ	پيءُ	NOUN	_	_	1	conj	_	_
-4	هن	هن	DET	_	_	6	obj	_	_
-5	کي	کي	ADP	_	_	4	case	_	_
-6	ڏسي	ڏس	VERB	_	_	8	advcl	_	_
-7	سَرها	_	NOUN	_	_	8	xcomp	_	_
-8	ٿيندا	آهي	VERB	_	_	0	root	_	_
-9	هئا	آهي	AUX	_	_	8	aux	_	_
-10	۽	۽	CCONJ	_	_	14	cc	_	_
-11	هڪ	هڪ	ADJ	_	_	12	compound	_	_
-12	ٻئي	ٻيو	ADJ	_	_	14	obl	_	_
-13	کان	کان	ADP	_	_	12	case	_	_
-14	پڇندا	_	VERB	_	_	8	conj	_	_
-15	هئا	آهي	AUX	_	_	14	compound	_	_
-16	ته	ته	SCONJ	_	_	22	mark	_	_
-17	ماليڪٽ	ماليڪٽ	NOUN	_	_	22	obl	_	_
-18	کان	کان	ADP	_	_	17	case	_	_
-19	سواءِ	_	ADP	_	_	18	fixed	_	_
-20	پاڻ	پاڻ	PRON	_	_	22	nsubj	_	_
-21	ڪيئن	ڪيئن	ADV	_	_	22	advmod	_	_
-22	رهي	ره	VERB	_	_	14	advcl	_	_
-23	سگهنداسون	سگهي	AUX	_	_	22	compound	_	SpaceAfter=No
-24	؟	؟	PUNCT	_	_	28	punct	_	_
-25	ماليڪٽ	ماليڪٽ	NOUN	_	_	28	nsubj	_	_
-26	ائين	ائين	PRON	_	_	28	obl	_	_
-27	به	به	PART	_	_	28	xcomp	_	_
-28	ڪندي	ڪن	VERB	_	_	22	conj	_	_
-29	هئي	آهي	AUX	_	_	28	compound	_	_
-30	جو	جو	ADP	_	_	28	mark	_	_
-31	پنهنجي	پنهنجي	PRON	_	_	33	nmod	_	_
-32	ننڍڙي	ننڍڙو	ADJ	_	_	33	amod	_	_
-33	ٻيڙيءَ	_	NOUN	_	_	35	obl	_	_
-34	۾	۾	ADP	_	_	33	case	_	_
-35	چڙهي	چڙهي	VERB	_	_	48	advcl	_	_
-36	کاريءَ	کاري	NOUN	_	_	39	nmod	_	_
-37	جي	جي	ADP	_	_	36	case	_	_
-38	لڪل	_	NOUN	_	_	39	nmod	_	_
-39	کاهين	_	NOUN	_	_	43	nmod	_	_
-40	۽	۽	CCONJ	_	_	41	cc	_	_
-41	غارن	_	NOUN	_	_	39	conj	_	_
-42	جي	جي	ADP	_	_	39	case	_	_
-43	ڳولا	ڳولا	NOUN	_	_	48	obl	_	_
-44	۾	۾	ADP	_	_	43	case	_	_
-45	پري	پري	ADV	_	_	46	amod	_	_
-46	پري	پري	ADV	_	_	48	obl	_	_
-47	تائين	تائين	ADP	_	_	46	case	_	_
-48	نڪري	نڪر	VERB	_	_	28	advcl	_	_
-49	ويندي	ويندو	VERB	_	_	48	compound	_	_
-50	هئي	آهي	AUX	_	_	48	aux	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	48	punct	_	_
+# sent_id = 3346a
+# text = ماءُ ۽ پيءُ هن کي ڏسي سَرها ٿيندا هئا ۽ هڪ ٻئي کان پڇندا هئا ته ماليڪٽ کان سواءِ پاڻ ڪيئن رهي سگهنداسون؟
+1	ماءُ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+2	۽	_	CCONJ	CC	_	3	cc	_	_
+3	پيءُ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	هن	_	DET	PRD	Case=Acc|Number=Sing	6	obj	_	_
+5	کي	_	ADP	PSP	_	4	case	_	_
+6	ڏسي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
+7	سَرها	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	xcomp	_	_
+8	ٿيندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	_
+9	هئا	_	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	8	aux	_	_
+10	۽	_	CCONJ	CC	_	14	cc	_	_
+11	هڪ	_	NUM	NUM	_	14	obl	_	_
+12	ٻئي	_	ADJ	JJ	Case=Acc|Number=Sing	11	fixed	_	_
+13	کان	_	ADP	PSP	_	11	case	_	_
+14	پڇندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart	8	conj	_	_
+15	هئا	_	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	14	aux	_	_
+16	ته	_	SCONJ	CS	_	22	mark	_	_
+17	ماليڪٽ	_	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
+18	کان	_	ADP	PSP	_	17	case	_	_
+19	سواءِ	_	ADP	PSP	_	18	fixed	_	_
+20	پاڻ	_	PRON	PRP	Case=Acc|Person=1	22	nsubj	_	_
+21	ڪيئن	_	ADV	ADM	_	22	advmod	_	_
+22	رهي	_	VERB	VM	Aspect=Imp|Voice=Act	14	advcl	_	_
+23	سگهنداسون	_	AUX	VAUX	Number=Plur|Tense=Pres	22	aux	_	SpaceAfter=No
+24	؟	_	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 3346b
+# text = ماليڪٽ ائين به ڪندي هئي جو پنهنجي ننڍڙي ٻيڙيءَ ۾ چڙهي کاريءَ جي لڪل کاهين ۽ غارن جي ڳولا ۾ پري پري تائين نڪري ويندي هئي.
+1	ماليڪٽ	_	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	ائين	_	PRON	PRL	_	4	obl	_	_
+3	به	_	PART	PART	_	2	advmod:emph	_	_
+4	ڪندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	0	root	_	_
+5	هئي	_	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Past	4	aux	_	_
+6	جو	_	ADP	PSP	_	4	mark	_	_
+7	پنهنجي	_	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	9	nmod	_	_
+8	ننڍڙي	_	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	ٻيڙيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+10	۾	_	ADP	PSPL	_	9	case	_	_
+11	چڙهي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	24	advcl	_	_
+12	کاريءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+13	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	12	case	_	_
+14	لڪل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	_
+15	کاهين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nmod	_	_
+16	۽	_	CCONJ	CC	_	17	cc	_	_
+17	غارن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	conj	_	_
+18	جي	_	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	15	case	_	_
+19	ڳولا	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
+20	۾	_	ADP	PSPL	_	19	case	_	_
+21	پري	_	ADV	ADV	_	22	amod	_	_
+22	پري	_	ADV	ADV	_	24	obl	_	_
+23	تائين	_	ADP	PSPL	_	22	case	_	_
+24	نڪري	_	VERB	VM	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
+25	ويندي	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	24	compound	_	_
+26	هئي	_	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Past	24	aux	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 3347
 # text = هڪڙي ڏينهن شام جو هوءَ پاڻ سان هڪ عجب جهڙو سامونڊي گاهه کڻي آئي.
