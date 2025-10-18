@@ -61729,30 +61729,27 @@
 20	.	_	_	_	_	1	dep	_	_
 
 # sent_id = 3382
-# text = زمين تي هن ڪنڌ کڻي مٿي ڏٺو ته هن جي سامهون هڪ تمام ڊگهو،
-1	زمين	_	_	_	_	0	root	_	_
-2	تي	_	_	_	_	1	dep	_	_
-3	هن	_	_	_	_	1	dep	_	_
-4	ڪنڌ	_	_	_	_	1	dep	_	_
-5	کڻي	_	_	_	_	1	dep	_	_
-6	مٿي	_	_	_	_	1	dep	_	_
-7	ڏٺو	_	_	_	_	1	dep	_	_
-8	ته	_	_	_	_	1	dep	_	_
-9	هن	_	_	_	_	1	dep	_	_
-10	جي	_	_	_	_	1	dep	_	_
-11	سامهون	_	_	_	_	1	dep	_	_
-12	هڪ	_	_	_	_	1	dep	_	_
-13	تمام	_	_	_	_	1	dep	_	_
-14	ڊگهو	_	_	_	_	1	dep	_	SpaceAfter=No
-15	،	_	_	_	_	1	dep	_	_
-
-# sent_id = 3383
-# text = ڪڻڪ رنگو ماڻهو هو.
-1	ڪڻڪ	_	_	_	_	0	root	_	_
-2	رنگو	_	_	_	_	1	dep	_	_
-3	ماڻهو	_	_	_	_	1	dep	_	_
-4	هو	_	_	_	_	1	dep	_	SpaceAfter=No
-5	.	_	_	_	_	1	dep	_	_
+# text = زمين تي هن ڪنڌ کڻي مٿي ڏٺو ته هن جي سامهون هڪ تمام ڊگهو، ڪڻڪ رنگو ماڻهو هو.
+1	زمين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+2	تي	_	ADP	PSPL	_	1	case	_	_
+3	هن	_	DET	PRD	Case=Acc|Number=Sing	7	nsubj	_	_
+4	ڪنڌ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
+5	کڻي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
+6	مٿي	_	ADV	ADP	_	7	advmod	_	_
+7	ڏٺو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
+8	ته	_	SCONJ	CS	_	7	mark	_	_
+9	هن	_	DET	PRD	Case=Acc|Number=Sing	11	nmod	_	_
+10	جي	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	9	case	_	_
+11	سامهون	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obl	_	_
+12	هڪ	_	NUM	NUM	_	14	nummod	_	_
+13	تمام	_	ADV	ADV	_	14	advmod	_	_
+14	ڊگهو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+15	،	_	PUNCT	PUNCT	_	16	punct	_	_
+16	ڪڻڪ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	conj	_	_
+17	رنگو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+18	ماڻهو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
+19	هو	_	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	18	cop	_	SpaceAfter=No
+20	.	_	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 
 # sent_id = 3384
 # text = اهو ماڻهو هڪ تخت تي ويٺو هو ۽ هن جي مٿي تي هڪ چمڪندڙ تاج هو.
@@ -64088,32 +64085,6 @@
 18	وڃي	_	_	_	_	1	dep	_	_
 19	ڪِري	_	_	_	_	1	dep	_	SpaceAfter=No
 20	.	_	_	_	_	1	dep	_	_
-
-# sent_id = 3515
-# text = زمين تي هن ڪنڌ کڻي مٿي ڏٺو ته هن جي سامهون هڪ تمام ڊگهو،
-1	زمين	_	_	_	_	0	root	_	_
-2	تي	_	_	_	_	1	dep	_	_
-3	هن	_	_	_	_	1	dep	_	_
-4	ڪنڌ	_	_	_	_	1	dep	_	_
-5	کڻي	_	_	_	_	1	dep	_	_
-6	مٿي	_	_	_	_	1	dep	_	_
-7	ڏٺو	_	_	_	_	1	dep	_	_
-8	ته	_	_	_	_	1	dep	_	_
-9	هن	_	_	_	_	1	dep	_	_
-10	جي	_	_	_	_	1	dep	_	_
-11	سامهون	_	_	_	_	1	dep	_	_
-12	هڪ	_	_	_	_	1	dep	_	_
-13	تمام	_	_	_	_	1	dep	_	_
-14	ڊگهو	_	_	_	_	1	dep	_	SpaceAfter=No
-15	،	_	_	_	_	1	dep	_	_
-
-# sent_id = 3516
-# text = ڪڻڪ رنگو ماڻهو هو.
-1	ڪڻڪ	_	_	_	_	0	root	_	_
-2	رنگو	_	_	_	_	1	dep	_	_
-3	ماڻهو	_	_	_	_	1	dep	_	_
-4	هو	_	_	_	_	1	dep	_	SpaceAfter=No
-5	.	_	_	_	_	1	dep	_	_
 
 # sent_id = 3517
 # text = اهو ماڻهو هڪ تخت تي ويٺو هو ۽ هن جي مٿي تي هڪ چمڪندڙ تاج هو.
