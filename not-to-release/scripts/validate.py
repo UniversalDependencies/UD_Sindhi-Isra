@@ -278,6 +278,7 @@ FIXED_EXPRESSIONS = []
 FIXED_EXPRESSIONS.append(FixedExpression((('ڏينهون', 'NOUN'), ('ڏينهن', 'NOUN')), 'ADV'))
 FIXED_EXPRESSIONS.append(FixedExpression((('ڇاڪاڻ', 'SCONJ'), ('ته', 'SCONJ')), 'SCONJ'))
 FIXED_EXPRESSIONS.append(FixedExpression((('کان', 'ADP'), ('سواءِ', 'ADP')), 'ADP'))
+FIXED_EXPRESSIONS.append(FixedExpression((('کان', 'ADP'), ('پوءِ', 'ADP')), 'ADP'))
 
 Incident = namedtuple("Incident", "category filename sent_idx sentence error nodes")
 
