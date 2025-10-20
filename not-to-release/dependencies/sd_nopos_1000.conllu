@@ -1359,31 +1359,20 @@
 20	ٿيندا	آهي	VERB	_	_	13	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	20	punct	_	_
 
-# sent_id = 404
-# text = سانڊي ۽ چيتي جي ويڙهه سري لنڪا جي ڪهاڻي هڪڙي ڀيري جي ڳالهه آهي ته ڪنهن جهنگ ۾ هڪڙو چيتو رهندو هو.
-1	سانڊي	_	PROPN	_	_	5	nmod	_	_
-2	۽	۽	CCONJ	_	_	3	cc	_	_
-3	چيتي	چيتو	NOUN	_	_	1	conj	_	_
-4	جي	جي	ADP	_	_	1	case	_	_
-5	ويڙهه	ويڙهه	NOUN	_	_	13	nsubj	_	_
-6	سري	_	NOUN	_	_	7	compound	_	_
-7	لنڪا	_	PROPN	_	_	9	nmod	_	_
-8	جي	جي	ADP	_	_	7	case	_	_
-9	ڪهاڻي	ڪهاڻي	NOUN	_	_	13	nsubj	_	_
-10	هڪڙي	هڪڙو	ADJ	_	_	11	amod	_	_
-11	ڀيري	ڀيرو	NOUN	_	_	13	nmod	_	_
-12	جي	جي	ADP	_	_	11	case	_	_
-13	ڳالهه	ڳالهه	NOUN	_	_	0	root	_	_
-14	آهي	آهي	AUX	_	_	13	cop	_	_
-15	ته	ته	SCONJ	_	_	21	mark	_	_
-16	ڪنهن	ڪو	DET	_	_	17	det	_	_
-17	جهنگ	جهنگ	NOUN	_	_	21	obl	_	_
-18	۾	۾	ADP	_	_	17	case	_	_
-19	هڪڙو	_	DET	_	_	20	det	_	_
-20	چيتو	چيتو	NOUN	_	_	21	nsubj	_	_
-21	رهندو	ره	VERB	_	_	13	advcl	_	_
-22	هو	آهي	AUX	_	_	21	aux	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	21	punct	_	_
+# sent_id = 404a
+# text = سانڊي ۽ چيتي جي ويڙهه
+1	سانڊي	_	PROPN	NNP	Case=Nom|Gender=Masc	5	nmod	_	_
+2	۽	_	CCONJ	CC	_	3	cc	_	_
+3	چيتي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
+4	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
+5	ويڙهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+
+# sent_id = 404b
+# text = سري لنڪا جي ڪهاڻي
+1	سري	_	PROPN	NNP	Case=Nom|Gender=Fem	2	compound	_	_
+2	لنڪا	_	PROPN	NNP	Case=Nom|Gender=Masc	4	nmod	_	_
+3	جي	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
+4	ڪهاڻي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 
 # sent_id = 407
 # text = هن کي بک به ڏاڍي لڳي هئي.
