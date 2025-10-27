@@ -268,6 +268,9 @@ for word in ('ھڪڙين', 'هڪڙين'):
 ENFORCED_POS_XPOS['بادشاهه'] = [('NOUN', 'NN')]
 ENFORCED_FEATURES['بادشاهه'] = ["Gender=Masc"]
 
+ENFORCED_POS_XPOS['گذريل'] = [('VERB', 'VM')]
+ENFORCED_FEATURES['گذريل'] = ["Aspect=Perf", "VerbForm=PastPart"]
+
 # Depending on the context, جلد can be noun or adverb. As ADV, it should always be ADM.
 ENFORCED_POS_XPOS['جلد'] = [('ADV', 'ADM'), ('NOUN', 'NN')]
 
