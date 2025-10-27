@@ -65,7 +65,10 @@ def random_select(doc, size):
 def official_split(paths, doc):
     test_globs = [os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/*_md_*"),
                   os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/sd_780_part_A.conllu")]
-    dev_globs = [os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/sd_780_part_B.conllu")]
+    dev_globs = [os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/sd_780_part_B.conllu"),
+                 os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/adabi_0.conllu"),
+                 os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/adabi_1.conllu"),
+                 os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/adabi_2.conllu")]
 
     test_doc = read_directory(*test_globs, strip_xpos=False)
     dev_doc = read_directory(*dev_globs, strip_xpos=False)
