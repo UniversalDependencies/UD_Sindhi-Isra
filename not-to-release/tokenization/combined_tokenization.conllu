@@ -9039,12 +9039,18 @@
 24	.	_	_	_	_	1	dep	_	_
 
 # sent_id = adabi_2_082
-# text = ٻارن جو قسم کنيو.
-1	ٻارن	_	_	_	_	0	root	_	_
-2	جو	_	_	_	_	1	dep	_	_
-3	قسم	_	_	_	_	1	dep	_	_
-4	کنيو	_	_	_	_	1	dep	_	SpaceAfter=No
-5	.	_	_	_	_	1	dep	_	_
+# text = انـهيءَ تي ڪـاٺير پـنهنجي زال ۽ ٻارن جو قسم کنيو.
+1	انـهيءَ	_	DET	PRD	Case=Acc|Number=Sing	10	obl	_	_
+2	تي	تي	ADP	PSPL	_	1	case	_	_
+3	ڪـاٺير	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+4	پـنهنجي	_	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	5	nmod	_	_
+5	زال	زال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_
+6	۽	۽	CCONJ	CC	_	7	cc	_	_
+7	ٻارن	ٻار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	_
+8	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
+9	قسم	قسم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
+10	کنيو	کڻ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 
 # sent_id = adabi_2_083
 # text = پر چيتي کي وري به تسلي نه ٿي.
