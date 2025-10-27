@@ -720,9 +720,9 @@ def check_cop_lemmas(filename, new_doc):
             if word.deprel == 'cop':
                 error = None
                 if not word.lemma:
-                    error = "Sentence %s (%d) word %d (line %d) is |%s| with a deprel of cop, but a blank lemma" % (sent.sent_id, sent_idx, word.id, word.line_number+1)
+                    error = "Sentence %s (%d) word %d (line %d) is |%s| with a deprel of cop, but a blank lemma" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text)
                 elif word.lemma != 'آهي':
-                    error = "Sentence %s (%d) word %d (line %d) is |%s| with a deprel of cop, but a lemma of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.lemma)
+                    error = "Sentence %s (%d) word %d (line %d) is |%s| with a deprel of cop, but a lemma of %s" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.lemma)
                 if error:
                     incidents.append(Incident(category="cop-lemma error",
                                               filename=filename,
