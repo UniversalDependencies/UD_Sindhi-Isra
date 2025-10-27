@@ -1534,7 +1534,7 @@
 # text = ڪراچي بم ڌماڪي ۽ باهين جي مذمت ڪندي متاثرين جي بحالي لاءِ وزيراعظم يوسف رضا گيلاني پاران 3 ارب روپيا ۽ وزيراعليٰ سنڌ سيد قائم علي شاهه پاران 50 ڪروڙ روپين جي شروعاتي امداد تي کين خراج تحسين پيش ڪيو ويو،
 1	ڪراچي	ڪراچي	PROPN	NNP	Case=Nom|Gender=Masc	2	nmod	_	_
 2	بم	بم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
-3	ڌماڪي	ڌماڪو	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
+3	ڌماڪي	ڌماڪو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
 4	۽	۽	CCONJ	CC	_	5	cc	_	_
 5	باهين	باهي	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	_
 6	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
@@ -1643,11 +1643,11 @@
 
 # sent_id = 3759
 # text = ڪشمير ڀارت جو اڻ ٽٽ حصو آهي،
-1	ڪشمير	ڪشمير	PROPN	NNP	Case=Nom|Gender=Masc	6	nsubj	_	_
+1	ڪشمير	_	PROPN	NNP	Case=Nom|Gender=Masc	6	nsubj	_	_
 2	ڀارت	ڀارت	PROPN	NNP	Case=Acc|Gender=Masc	6	nmod	_	_
 3	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
-4	اڻ	اڻ	ADJ	JJ	Case=Nom	5	amod	_	_
-5	ٽٽ	ٽٽ	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+4	اڻ	_	ADJ	JJ	Case=Nom	5	amod	_	_
+5	ٽٽ	_	ADJ	JJ	Case=Nom|Gender=Masc	6	amod	_	_
 6	حصو	حصو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 7	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	cop	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
@@ -4143,7 +4143,7 @@
 6	82	82	NUM	NUM	_	8	amod	_	_
 7	هين	هين	PART	PART	_	6	compound	_	_
 8	سالگرهه	سالگرهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-9	سڀاڻي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	10	xcomp	_	_
+9	سڀاڻي	سڀاڻي	ADV	ADT	_	10	advmod	_	_
 10	ملهائي	ملهاءِ	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 11	ويندي	ويندو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|VerbForm=PresPart	10	compound	_	_
 
@@ -4632,9 +4632,9 @@
 2	صرف	صرف	ADV	ADV	_	3	amod	_	_
 3	اها	اها	DET	PRD	Case=Acc|Number=Sing	0	root	_	_
 4	ڪونهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	3	cop	_	_
-5	ته	ته	SCONJ	CS	_	21	mark	_	_
+5	ته	ته	SCONJ	CS	_	20	mark	_	_
 6	ملڪي	ملڪي	ADJ	JJ	Case=Nom|Degree=Pos	7	amod	_	_
-7	سطح	سطح	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
+7	سطح	سطح	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
 8	تي	تي	ADP	PSPL	_	7	case	_	_
 9	دهشتگردي	دهشتگرد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
 10	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	9	case	_	_
@@ -4642,16 +4642,16 @@
 12	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	11	case	_	_
 13	هن	هن	DET	PRD	Case=Acc|Number=Sing	15	det	_	_
 14	تازي	تازو	ADJ	JJ	Case=Nom|Degree=Pos	15	amod	_	_
-15	لهر	لهر	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
+15	لهر	لهر	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
 16	۾	۾	ADP	PSPL	_	15	case	_	_
 17	انساني	انساني	ADJ	JJ	Case=Nom|Degree=Pos	18	amod	_	_
-18	جانين	جاني	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	nmod	_	_
+18	جانين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	nmod	_	_
 19	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	18	case	_	_
-20	ذيان	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	21	xcomp	_	_
-21	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	3	obj	_	_
-22	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	21	compound	_	_
-23	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	21	aux	_	SpaceAfter=No
-24	،	،	PUNCT	PUNCT	_	21	punct	_	_
+20	ذيان	_	NOUN	NN	Case=Nom|Number=Sing	3	advcl	_	_
+21	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	20	cop	_	_
+22	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	20	compound	_	_
+23	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	20	aux	_	SpaceAfter=No
+24	،	،	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = 3898
 # text = پر فڪر اهو به آهي ته ان جاني نقصان سان گڏوگڏ ڪيترو نه مالي نقصان ٿي رهيو آهي.
@@ -6748,13 +6748,13 @@
 7	گڏ	گڏ	ADV	ADV	_	8	advmod	_	_
 8	آهيو	آهي	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
 9	يا	يا	CCONJ	CC	_	12	cc	_	_
-10	اسانجا	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+10	اسانجا	اسين	DET	PRD	Case=Nom|Gender=Masc|Number=Plur	11	nmod	_	_
 11	مخالف	مخالف	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	12	xcomp	_	_
 12	آهيو	آهي	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	8	conj	_	SpaceAfter=No
 13	“	“	PUNCT	PUNCT	_	12	punct	_	_
 14	وارو	وارو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	12	mark	_	_
 15	موقف	موقف	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
-16	ترڪ	ترڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	compound	_	_
+16	ترڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	compound	_	_
 17	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	19	nmod	_	_
 18	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	17	mark	_	_
 19	ضرورت	ضرورت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
@@ -7158,7 +7158,7 @@
 # sent_id = 4031
 # text = اهو ڌماڪو هڪ ريسٽورنٽ ۾ ڪيو ويو هو.
 1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
-2	ڌماڪو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	ڌماڪو	ڌماڪو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	هڪ	هڪ	NUM	NUM	_	4	nummod	_	_
 4	ريسٽورنٽ	ريسٽورنٽ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 5	۾	۾	ADP	PSPL	_	4	case	_	_
