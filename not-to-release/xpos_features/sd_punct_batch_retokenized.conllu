@@ -92,7 +92,7 @@
 13	ٿورا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	obj	_	_
 14	مڃڻ	مڃ	VERB	VM	Aspect=Imp|VerbForm=Inf	17	advcl	_	_
 15	لاءِ	لاءِ	ADP	PSP	_	14	mark	_	_
-16	نعرا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	obj	_	_
+16	نعرا	نعرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	obj	_	_
 17	پيون	پيو	VERB	VM	Aspect=Perf|Number=Plur	4	ccomp	_	_
 18	هڻن	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	17	compound	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	17	punct	_	_
@@ -163,7 +163,7 @@
 
 # sent_id = 882b
 # text = اي نوجوان! آءٌ توسان گڏ هلي سگهان ٿو.
-1	اي	_	INTJ	INTJ	_	7	discourse	_	_
+1	اي	اي	INTJ	INTJ	_	7	discourse	_	_
 2	نوجوان	نوجوان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	dislocated	_	SpaceAfter=No
 3	!	!	PUNCT	PUNCT	_	2	punct	_	_
 4	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
@@ -410,7 +410,7 @@
 5	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
 6	حڪم	حڪم	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
 7	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
-8	تعميل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	_
+8	تعميل	تعميل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	_
 9	ڪئي	ڪئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 10	راجا	راجا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
 11	ڪيانگان	ڪيانگان	PROPN	NNP	Case=Nom|Gender=Masc	14	nsubj	_	_
@@ -440,7 +440,7 @@
 3	ڏنس	ڏنو	VERB	VMX	Aspect=Perf|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 4	،	،	PUNCT	PUNCT	_	3	punct	_	_
 5	ٿورو	ٿورو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
-6	صبر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	_
+6	صبر	صبر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	_
 7	ته	ته	PART	PART	_	6	advmod:emph	_	_
 8	ڪر	ڪر	VERB	VM	Number=Sing|Person=1	3	advcl	_	_
 9	مائي	مائي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	_
@@ -500,7 +500,7 @@
 
 # sent_id = 1521c
 # text = ڪراڙي! تون وقت تي پهتي آهين.
-1	ڪراڙي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	discourse	_	SpaceAfter=No
+1	ڪراڙي	ڪراڙو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	discourse	_	SpaceAfter=No
 2	!	!	PUNCT	PUNCT	_	1	punct	_	_
 3	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	nsubj	_	_
 4	وقت	وقت	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
@@ -541,7 +541,7 @@
 5	کڻي	کڻي	VERB	VM	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
 6	اُتر	اُتر	PROPN	NNP	Case=Nom|Gender=Masc	9	nmod	_	SpaceAfter=No
 7	-	-	PUNCT	PUNCT	_	8	punct	_	_
-8	اوڀر	_	PROPN	NNP	Case=Nom|Gender=Masc	6	conj	_	_
+8	اوڀر	اوڀر	PROPN	NNP	Case=Nom|Gender=Masc	6	conj	_	_
 9	پاسي	پاسو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 10	اشارو	اشارو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	_
 11	ڪندي	ڪن	VERB	VM	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
@@ -587,12 +587,12 @@
 
 # sent_id = 2887a
 # text = ياخدا! ڇا تون سچ پچ ’مـُون‘ شهر مان آيو آهين؟
-1	ياخدا	_	INTJ	INTJ	_	10	discourse	_	SpaceAfter=No
+1	ياخدا	ياخدا	INTJ	INTJ	_	10	discourse	_	SpaceAfter=No
 2	!	!	PUNCT	PUNCT	_	1	punct	_	_
 3	ڇا	ڇا	PRON	PRWH	_	10	obl	_	_
 4	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	10	nsubj	_	_
 5	سچ	سچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
-6	پچ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obl	_	_
+6	پچ	پچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obl	_	_
 7	’مـُون‘	_	PROPN	NNP	Case=Nom|Gender=Masc	8	nmod	_	_
 8	شهر	شهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 9	مان	مان	ADP	PSPL	_	8	case	_	_
@@ -682,7 +682,7 @@
 5	ڳالهائي	ڳالهاءِ	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 6	چڪا	چڪو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	5	compound	_	_
 7	ته	ته	SCONJ	CS	_	5	mark	_	_
-8	چرچل	_	PROPN	NNP	Case=Nom|Gender=Masc	11	nsubj	_	_
+8	چرچل	چرچل	PROPN	NNP	Case=Nom|Gender=Masc	11	nsubj	_	_
 9	هنن	هي	DET	PRD	Case=Acc|Number=Plur|Person=3	11	obl	_	_
 10	کان	کان	ADP	PSP	_	9	case	_	_
 11	پڇيو	پڇ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	5	conj	_	_
@@ -896,7 +896,7 @@
 
 # sent_id = 5736b
 # text = آچر 27 سيپٽمبر 2009ع تي ڪاوش جي هائيڊپارڪ ۾ ڊاڪٽر راجيش ڪمار گرناڻي ”شهدادڪوٽ“ جو خط ”ڇا اسان به ماضي جو قصو بڻجي وينداسين؟“ جي عنوان سان نظر مان گذريو.
-1	آچر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	obl	_	_
+1	آچر	آچر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	obl	_	_
 2	27	27	NUM	NUM	_	3	nmod	_	_
 3	سيپٽمبر	سيپٽمبر	PROPN	NNP	Case=Nom|Gender=Masc	4	nmod	_	_
 4	2009ع	2009ع	NUM	NUM	_	1	appos	_	_
@@ -1001,7 +1001,7 @@
 14	ٻين	ٻيو	ADJ	JJ	Case=Acc|Number=Plur	15	amod	_	_
 15	شهيدن	شهيد	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	_
 16	خلاف	خلاف	ADP	PSP	_	15	case	_	_
-17	سازشون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	compound	_	_
+17	سازشون	سازش	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	compound	_	_
 18	ڪيون	ڪيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	0	root	_	_
 19	هيون	آهي	AUX	VAUX	Gender=Fem|Number=Plur|Person=3|Tense=Past	18	aux	_	SpaceAfter=No
 20	،	،	PUNCT	PUNCT	_	18	punct	_	_
@@ -1019,10 +1019,10 @@
 9	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
 10	هڪ	هڪ	NUM	NUM	_	12	nummod	_	_
 11	مخصوص	_	ADJ	JJ	Case=Nom|Degree=Pos	12	amod	_	_
-12	ادارو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+12	ادارو	ادارو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
 13	جمهوريت	جمهوريت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
 14	کي	کي	ADP	PSP	_	13	case	_	_
-15	بدنام	_	ADJ	JJ	Case=Nom|Degree=Pos	16	compound	_	_
+15	بدنام	بدنام	ADJ	JJ	Case=Nom|Degree=Pos	16	compound	_	_
 16	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	18	nmod	_	_
 17	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	16	mark	_	_
 18	ڪوشش	ڪوشش	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
@@ -1103,7 +1103,7 @@
 12	عصمت	_	PROPN	NNP	Case=Nom|Gender=Masc	14	compound	_	_
 13	الله	الله	PROPN	NNP	Case=Nom|Gender=Masc	14	compound	_	_
 14	شاهين	_	PROPN	NNP	Case=Nom|Gender=Masc	15	nmod	_	_
-15	جهڙي	_	PRON	PRL	Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
+15	جهڙي	جهڙو	PRON	PRL	Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
 16	خونخوار	خونخوار	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	17	amod	_	_
 17	دهشتگرد	دهشتگرد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
 18	پاران	پاران	ADP	PSPL	_	17	case	_	_

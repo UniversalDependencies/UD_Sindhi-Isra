@@ -149,7 +149,7 @@
 2	سوچ	سوچ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	ڪڏهن	ڪڏهن	ADV	ADT	_	5	advmod	_	_
 4	به	به	PART	PART	_	3	advmod:emph	_	_
-5	بدلجي	_	VERB	VM	Aspect=Imp|Voice=Pass	0	root	_	_
+5	بدلجي	بدلج	VERB	VM	Aspect=Imp|Voice=Pass	0	root	_	_
 6	نٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Polarity=Neg|Tense=Pres	5	aux	_	_
 7	سگھي	سگهي	AUX	VAUX	Number=Sing|Person=3	5	aux	_	_
 8	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -392,7 +392,7 @@
 5	ڪيئن	ڪيئن	ADV	ADM	_	6	advmod	_	_
 6	چوي	چوي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
 7	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
-8	جوئي	_	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	advcl	_	_
+8	جوئي	جوئي	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	advcl	_	_
 9	آهيان	آهي	AUX	VAUX	Number=Sing|Person=1|Tense=Pres	8	cop	_	_
 10	سوئي	سو	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	advcl	_	_
 11	آهيان	آهي	AUX	VAUX	Number=Sing|Person=1|Tense=Pres	10	cop	_	_
@@ -412,7 +412,7 @@
 # text = قومن جي سڃاڻپ انهن جي ٻولي ڌرتي ۽ ثقافت سان ٿيندي آهي .
 1	قومن	قوم	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
-3	سڃاڻپ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+3	سڃاڻپ	سڃاڻپ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 4	انهن	ان	DET	PRD	Case=Acc|Number=Plur	6	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
 6	ٻولي	ٻولي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obl	_	_
@@ -450,7 +450,7 @@
 6	۽	۽	CCONJ	CC	_	7	cc	_	_
 7	سچ	سچ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	_
 8	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	5	case	_	_
-9	سڃاڻپ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	_
+9	سڃاڻپ	سڃاڻپ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	_
 10	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 11	ٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	10	aux	_	_
 12	.	.	PUNCT	PUNCT	_	10	punct	_	_
@@ -494,7 +494,7 @@
 5	دنيا	دنيا	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
 6	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	5	case	_	_
 7	قديم	قديم	ADJ	JJ	Case=Nom|Degree=Pos	9	amod	_	_
-8	ترين	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
+8	ترين	تريون	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
 9	ٻولين	ٻول	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_
 10	۾	۾	ADP	PSPL	_	9	case	_	_
 11	ٿئي	آهي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3	4	cop	_	_
@@ -1306,7 +1306,7 @@
 9	سٺو	سٺو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	compound	_	_
 10	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	17	advcl	_	_
 11	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	10	aux	_	_
-12	تنهنڪري	_	SCONJ	CS	_	17	mark	_	_
+12	تنهنڪري	تنهنڪري	SCONJ	CS	_	17	mark	_	_
 13	ماڻهو	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
 14	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	13	case	_	_
 15	سٺو	سٺو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
