@@ -22,7 +22,7 @@ def read_tsv_files(tsv_files):
                 continue
             pieces = line.split("\t")
             if len(pieces) < 3:
-                raise ValueError("unexpected line format at %s line %d: only %d tab pieces" % (filename, line_idx+1))
+                raise ValueError("unexpected line format at %s line %d: only %d tab pieces" % (filename, line_idx+1, len(pieces)))
             if len(pieces) > 3:
                 # this was a lemma with a note on it, such as a wrong tag or wrong tokenization
                 continue
