@@ -158,11 +158,6 @@ demonstratives.extend(['اُها', 'اها', 'انهيءَ'])
 for word in demonstratives:
     ENFORCED_POS_XPOS[word] = [('DET', 'PRD')]
 
-# the negative polarity AUX words should all be AUX
-for word in ['ڪانهي', 'ڪانھي', 'ناهن', 'ناهي', 'ناهيان', 'ناهيون', 'ناھن', 'ناھي', 'ناھيان', 'ناھيون', 'نٿا', 'نٿو', 'نٿي', 'نٿيون', 'ڪونهن', 'ڪونهي', 'ڪونھن', 'ڪونھي']:
-    ENFORCED_POS[word] = ["AUX"]
-    ENFORCED_FEATURES[word] = ["Polarity=Neg"]
-
 ENFORCED_POS['توڙي'] = ['CCONJ']
 ENFORCED_POS['۽'] = ['CCONJ']
 
@@ -198,6 +193,11 @@ ALLOWED_STRUCTURE = {
     'ها': [('AUX', 'aux'), ('INTJ', 'discourse')],
    'ھا': [('AUX', 'aux'), ('INTJ', 'discourse')],
 }
+
+# the negative polarity AUX words should all be AUX
+for word in ['ڪانهي', 'ڪانھي', 'ناهن', 'ناهي', 'ناهيان', 'ناهيون', 'ناھن', 'ناھي', 'ناھيان', 'ناھيون', 'نٿا', 'نٿو', 'نٿي', 'نٿيون', 'ڪونهن', 'ڪونهي', 'ڪونھن', 'ڪونھي']:
+    ALLOWED_STRUCTURE[word] = [("AUX", "cop"), ("AUX", "aux")]
+    ENFORCED_FEATURES[word] = ["Polarity=Neg"]
 
 ALLOWED_STRUCTURE['ئي'] = [('PART', 'advmod:emph')]
 
