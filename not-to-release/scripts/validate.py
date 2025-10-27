@@ -274,6 +274,10 @@ ENFORCED_FEATURES['گذريل'] = ["Aspect=Perf", "VerbForm=PastPart"]
 # Depending on the context, جلد can be noun or adverb. As ADV, it should always be ADM.
 ENFORCED_POS_XPOS['جلد'] = [('ADV', 'ADM'), ('NOUN', 'NN')]
 
+for word in ('گهرجن', 'گهرجي'):
+    ENFORCED_POS_XPOS[word] = [('VERB', 'VM')]
+    ENFORCED_FEATURES[word] = ["Aspect=Imp", "Voice=Pass"]
+
 # We keep a list of fixed expressions where we expect each occurrence of the words in order
 # to have the deprel fixed and the listed UPOS/ExtPos.  
 FixedExpression = namedtuple('FixedExpression', 'words extpos')
