@@ -85,6 +85,9 @@ DISALLOWED_BLANK_FEATS = {"NOUN", "PROPN"}
 ALLOWED_PUNCT_CHARS = r"؟–؛!\"().۔,-/:،“”"
 ALLOWED_PUNCT_WORD = re.compile("[%s]+" % ALLOWED_PUNCT_CHARS)
 
+# these characters should definitely not show up in a non-punct word
+DISALLOWED_PUNCT_CHARS = r"،"
+
 ADVMOD_EMPH_EXCEPTIONS = {
     """جن جي ڪاوشن سان "وار اينڊ پيس" جهڙا ڪتاب نه رڳو هڪ ٻوليءَ ۾ هڪ قوم لاءِ آهن بلڪه دنيا جي ڪيترين ئي ٻولين ۾، دنيا جي ڪيترن ئي ماڻهن لاءِ آهن ۽ اهو ٻڌائڻ ۾ ڪا شرم جي ڳالهه ناهي ته دنيا جي هر ادب ۾ هومر، دانتي، شيڪسپيئر، گوئٽي، دوستو وسڪي، لوشون، نظامي، خيام، ڪاليداس ۽ ٽئگور لاءِ جڳهه آهي ۽ دنيا جي هر ٻوليءَ ۾ الف ليليٰ دلچسپيءَ سان پڙهيو ويندو آهي،"""
     }
@@ -739,6 +742,28 @@ def check_cop_lemmas(filename, new_doc):
                                               nodes=[word_idx+1]))
     return incidents
 
+def check_disallowed_punct_chars(filename, new_doc):
+    incidents = []
+    for sent_idx, sent in enumerate(new_doc.sentences):
+        for word_idx, word in enumerate(sent.words):
+            if word.upos is None:
+                continue
+            if word.upos == 'PUNCT':
+                continue
+            error = None
+            if any(x in DISALLOWED_PUNCT_CHARS for x in word.text):
+                error = "Sentence %s (%d) word %d (line %d) is |%s|, which contains an unexpected punct char" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text)
+            elif word.lemma and any(x in DISALLOWED_PUNCT_CHARS for x in word.lemma):
+                error = "Sentence %s (%d) word %d (line %d) is |%s| with a lemma of |%s|, which contains an unexpected punct char" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.text, word.lemma)
+            if error:
+                incidents.append(Incident(category="punct in non-punct word",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word_idx+1]))
+    return incidents
+
 def check_expected_features(filename, new_doc, check_feats):
     incidents = []
     if check_feats:
@@ -863,6 +888,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     incidents.extend(check_expected_features(filename, new_doc, check_feats))
     incidents.extend(check_feature_errors(filename, new_doc, check_feats))
     incidents.extend(check_cop_lemmas(filename, new_doc))
+    incidents.extend(check_disallowed_punct_chars(filename, new_doc))
 
     return incidents
 
