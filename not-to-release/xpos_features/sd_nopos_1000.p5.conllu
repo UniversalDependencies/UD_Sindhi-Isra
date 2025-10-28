@@ -24,7 +24,7 @@
 22	جانور	جانور	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
 23	سچ	سچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	obl	_	_
 24	پچ	پچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	fixed	_	_
-25	جيئرا	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Plur	19	advcl	_	_
+25	جيئرا	جيئرو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Plur	19	advcl	_	_
 26	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	25	cop	_	_
 27	۽	۽	CCONJ	CC	_	30	cc	_	_
 28	خوشيءَ	خوشيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obl	_	_
@@ -61,7 +61,7 @@
 8	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	case	_	_
 9	ڪناري	ڪنارو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
 10	وٽ	وٽ	ADP	PSPL	_	9	case	_	_
-11	ننڍن	_	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+11	ننڍن	ننڍو	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
 12	وڻن	وڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
 13	۾	۾	ADP	PSPL	_	12	case	_	_
 14	لڪي	لڪ	VERB	VM	Aspect=Perf|VerbForm=Conv	4	conj	_	_
@@ -79,11 +79,11 @@
 # sent_id = 868
 # text = انهيءَ اوچتي ڇڪ جي ڪري چارئي گنجا هڪ ٻئي ڏانهن ڇڪجي آيا ۽ هنن جا گنجا مٿا هڪ ٻئي سان ٽڪرائجي پرزا پرزا ٿي ويا.
 1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	3	det	_	_
-2	اوچتي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	اوچتي	اوچتي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	ڇڪ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	3	case	_	_
 5	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
-6	چارئي	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+6	چارئي	چارئي	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
 7	گنجا	گنجو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 8	هڪ	هڪ	NUM	NUM	_	9	nummod	_	_
 9	ٻئي	ٻہ	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
@@ -109,7 +109,7 @@
 # text = اهو ٻڌي چارئي گنجا ڏاڍا خوش ٿيا ته اهڙي سولائيءَ سان اسان کي ٻه نوڪر ملي پوندا.
 1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
 2	ٻڌي	ٻڌ	VERB	VM	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
-3	چارئي	_	ADJ	JJ	Case=Nom	4	amod	_	_
+3	چارئي	چارئي	ADJ	JJ	Case=Nom	4	amod	_	_
 4	گنجا	گنجو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 5	ڏاڍا	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
 6	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	7	xcomp	_	_
@@ -262,7 +262,7 @@
 # text = پوءِ جڏهن هـُن جون ٻيون ڀينرون وهنجي پنهنجا پنهنجا پر ڍڪي اُڏامي ويون،
 1	پوءِ	پوءِ	ADV	ADT	_	12	advmod	_	_
 2	جڏهن	جڏهن	ADV	ADT	_	12	advmod	_	_
-3	هـُن	_	PRON	PRP	Case=Acc|Number=Plur|Person=3	6	nmod	_	_
+3	هـُن	هـُن	PRON	PRP	Case=Acc|Number=Plur|Person=3	6	nmod	_	_
 4	جون	جو	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	3	case	_	_
 5	ٻيون	ٻي	ADJ	JJ	Case=Nom|Gender=Fem|Number=Plur	6	amod	_	_
 6	ڀينرون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_

@@ -178,7 +178,7 @@
 # sent_id = 3843a
 # text = هڪ خانگي ٽي وي کي انٽرويو ڏيندي ناهيد خان چيو ته 27 ڊسمبر 2007 تي لياقت باغ جي جلسي کان پهرين بي بي شهيد تقريبن 3 وڳي جلسي گاهه ڏانهن رواني ٿي۔
 1	هڪ	هڪ	NUM	NUM	_	4	nummod	_	_
-2	خانگي	_	ADJ	JJ	Case=Nom|Degree=Pos	4	amod	_	_
+2	خانگي	خانگي	ADJ	JJ	Case=Nom|Degree=Pos	4	amod	_	_
 3	ٽي	ٽي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
 4	وي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	iobj	_	_
 5	کي	کي	ADP	PSP	_	4	case	_	_
@@ -348,7 +348,7 @@
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	17	obl	_	_
 2	بعد	بعد	ADP	PSP	_	1	case	_	_
 3	هن	هن	DET	PRD	Case=Acc|Number=Sing	4	det	_	_
-4	دکدائڪ	_	ADJ	JJ	Case=Nom|Number=Sing	5	amod	_	_
+4	دکدائڪ	دکدائڪ	ADJ	JJ	Case=Nom|Number=Sing	5	amod	_	_
 5	واقعي	واقعي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
 6	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	5	case	_	_
 7	ٻي	ٻہ	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
@@ -390,7 +390,7 @@
 3	،	،	PUNCT	PUNCT	_	4	punct	_	_
 4	پوليس	پوليس	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
 5	۽	۽	CCONJ	CC	_	7	cc	_	_
-6	خانگي	_	ADJ	JJ	Case=Nom|Degree=Pos	7	amod	_	_
+6	خانگي	خانگي	ADJ	JJ	Case=Nom|Degree=Pos	7	amod	_	_
 7	ماڻهن	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	_
 8	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	7	case	_	_
 9	گاڏين	گاڏي	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	_
@@ -418,7 +418,7 @@
 6	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	4	aux	_	_
 7	۽	۽	CCONJ	CC	_	11	cc	_	_
 8	آهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	xcomp	_	_
-9	و	_	CCONJ	CC	_	10	cc	_	_
+9	و	و	CCONJ	CC	_	10	cc	_	_
 10	پڪار	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
 11	ٿي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	4	conj	_	_
 12	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	11	compound	_	_
@@ -559,7 +559,7 @@
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	3	case	_	_
 5	سڙڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	10	advcl	_	_
 6	سان	سان	ADP	PSP	_	5	mark	_	_
-7	اربين	_	ADJ	JJ	Case=Acc|Number=Plur	8	amod	_	_
+7	اربين	اربين	ADJ	JJ	Case=Acc|Number=Plur	8	amod	_	_
 8	ورپين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_
 9	جي	جي	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
 10	نقصان	نقصان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -614,7 +614,7 @@
 22	يا	يا	CCONJ	CC	_	23	cc	_	_
 23	ليز	ليز	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	conj	_	_
 24	تي	تي	ADP	PSPL	_	21	case	_	_
-25	رهائشي	_	ADJ	JJ	Case=Nom|Degree=Pos	26	amod	_	_
+25	رهائشي	رهائشي	ADJ	JJ	Case=Nom|Degree=Pos	26	amod	_	_
 26	مقصد	مقصد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	obl	_	_
 27	لاءِ	لاءِ	ADP	PSP	_	26	case	_	_
 28	گهر	گهر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
@@ -668,7 +668,7 @@
 15	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	16	det	_	_
 16	پلاٽ	پلاٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
 17	،	،	PUNCT	PUNCT	_	19	punct	_	_
-18	رهائشي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	19	amod	_	_
+18	رهائشي	رهائشي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	19	amod	_	_
 19	گهر	گهر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 20	،	،	PUNCT	PUNCT	_	19	punct	_	_
 21	بنگلو	بنگلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No

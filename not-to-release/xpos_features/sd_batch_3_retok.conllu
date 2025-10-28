@@ -23,9 +23,9 @@
 20	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	conj	_	_
 21	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	20	case	_	_
 22	خاطر	خاطر	ADP	PSP	_	20	case	_	_
-23	جارحانه	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	24	amod	_	_
+23	جارحانه	جارحانه	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	24	amod	_	_
 24	رويو	رويو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	obj	_	_
-25	نروار	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	26	compound	_	_
+25	نروار	نروار	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	26	compound	_	_
 26	ٿي	آهي	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	0	root	_	_
 27	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	26	compound	_	_
 28	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	26	aux	_	SpaceAfter=No
@@ -288,7 +288,7 @@
 9	مٿان	مٿي	ADV	ADP	_	7	amod	_	_
 10	پوليس	پوليس	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
 11	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	10	case	_	_
-12	وحشياڻي	_	ADJ	JJ	Case=Nom|Degree=Pos	13	amod	_	_
+12	وحشياڻي	وحشياڻو	ADJ	JJ	Case=Nom|Degree=Pos	13	amod	_	_
 13	تشدد	تشدد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
 14	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	13	case	_	_
 15	سخت	سخت	ADJ	JJ	Case=Nom|Degree=Pos	16	amod	_	_
@@ -396,7 +396,7 @@
 11	يا	يا	CCONJ	CC	_	12	cc	_	_
 12	شخصن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_
 13	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	10	case	_	_
-14	سازشي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	15	amod	_	_
+14	سازشي	سازشي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	15	amod	_	_
 15	ڄار	ڄار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
 16	پاران	پاران	ADP	PSPL	_	15	case	_	_
 17	تيار	تيار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	_
@@ -579,7 +579,7 @@
 3	سال	سال	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
 5	شروعات	شروعات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
-6	ڀل	_	ADV	ADV	_	9	advmod	_	_
+6	ڀل	ڀل	ADV	ADV	_	9	advmod	_	_
 7	اُميدن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_
 8	سان	سان	ADP	PSP	_	7	case	_	_
 9	ڪريون	ڪر	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	SpaceAfter=No
@@ -622,7 +622,7 @@
 3	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	اڳواڻي	اڳواڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	dislocated	_	_
 5	اهي	اهو	DET	PRD	Case=Nom|Number=Plur	7	det	_	_
-6	لالچي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+6	لالچي	لالچي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
 7	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 8	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 9	رهيا	ره	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	8	compound	_	_
@@ -634,7 +634,7 @@
 # orig_text = دنيا هڪ اهڙي ماڳ ڏانهن وڌي رهي آهي جنهن ماڳ جي اڳواڻي اهي لالچي ماڻهو ڪري رهيا آهن جن پنهنجن بدصورت چهرن مٿان مهذب پڻي جا ماسڪ پاتا آهن.
 1	جن	جي	PRON	PRP	Case=Acc|Number=Plur|Person=3	10	nsubj	_	_
 2	پنهنجن	پنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	4	nmod	_	_
-3	بدصورت	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
+3	بدصورت	بدصورت	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
 4	چهرن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
 5	مٿان	مٿي	ADV	ADP	_	10	advmod	_	_
 6	مهذب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -760,7 +760,7 @@
 3	سر	سر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 4	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	3	case	_	_
 5	سائين	سائين	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-6	ساڳي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
+6	ساڳي	ساڳيو	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
 7	”	”	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 8	راڳ	راڳ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
 9	روپيو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No

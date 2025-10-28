@@ -33,7 +33,7 @@
 21	،	،	PUNCT	PUNCT	_	20	punct	_	_
 22	هي	هي	DET	PRD	Case=Nom|Number=Sing	23	det	_	_
 23	ميوو	ميوو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
-24	ورسٽائل	_	ADJ	JJ	Case=Nom|Number=Sing	20	obl	_	_
+24	ورسٽائل	ورسٽائل	ADJ	JJ	Case=Nom|Number=Sing	20	obl	_	_
 25	۽	۽	CCONJ	CC	_	27	cc	_	_
 26	بيحد	بيحد	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	27	amod	_	_
 27	مشهور	مشهور	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	24	conj	_	_
@@ -45,7 +45,7 @@
 1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
 2	،	،	PUNCT	PUNCT	_	1	punct	_	_
 3	سڌو	سڌو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
-4	سنئون	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	_
+4	سنئون	سنئون	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	_
 5	چئون	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	0	root	_	_
 6	تہ	تہ	SCONJ	CS	_	8	mark	_	_
 7	هڪ	هڪ	NUM	NUM	_	8	nummod	_	_
@@ -75,8 +75,8 @@
 3	تمام	تمام	ADV	ADV	_	4	amod	_	_
 4	گهڻا	گهڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
 5	اڻ	اڻ	ADJ	JJ	Case=Nom	6	amod	_	_
-6	سيچيوريٽڊ	_	ADJ	JJ	Case=Nom	8	amod	_	SpacesAfter=\s\s
-7	فيٽي	_	ADJ	JJ	Case=Nom	8	amod	_	_
+6	سيچيوريٽڊ	سيچيوريٽڊ	ADJ	JJ	Case=Nom	8	amod	_	SpacesAfter=\s\s
+7	فيٽي	فيٽي	ADJ	JJ	Case=Nom	8	amod	_	_
 8	ايسڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 9	هوندا	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	_
 10	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	9	aux	_	SpaceAfter=No
@@ -96,7 +96,7 @@
 24	هڪ	هڪ	NUM	NUM	_	25	nummod	_	_
 25	صحتمند	صحتمند	ADJ	JJ	Case=Nom|Degree=Pos	28	amod	_	_
 26	۽	۽	CCONJ	CC	_	27	cc	_	_
-27	متوازن	_	ADJ	JJ	Case=Nom|Degree=Pos	25	conj	_	_
+27	متوازن	متوازن	ADJ	JJ	Case=Nom|Degree=Pos	25	conj	_	_
 28	غذائيت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obl	_	_
 29	لاءِ	لاءِ	ADP	PSP	_	28	case	_	_
 30	ضروري	ضروري	ADJ	JJ	Case=Nom|Degree=Pos	19	conj	_	_
@@ -113,7 +113,7 @@
 6	کي	کي	ADP	PSP	_	5	case	_	_
 7	دل	دل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	_
 8	۽	۽	CCONJ	CC	_	10	cc	_	_
-9	هاءِ	_	ADJ	JJ	Case=Nom	10	amod	_	_
+9	هاءِ	هاءِ	ADJ	JJ	Case=Nom	10	amod	_	_
 10	ڪوليسٽرول	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	conj	_	_
 11	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	10	case	_	_
 12	مسئلا	مسئلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
@@ -121,7 +121,7 @@
 14	،	،	PUNCT	PUNCT	_	12	punct	_	_
 15	ايواڪاڊو	_	PROPN	NNP	Case=Nom|Gender=Masc	19	obl	_	_
 16	۾	۾	ADP	PSPL	_	15	case	_	_
-17	مددگار	_	ADJ	JJ	Case=Nom|Degree=Pos	18	amod	_	_
+17	مددگار	مددگار	ADJ	JJ	Case=Nom|Degree=Pos	18	amod	_	_
 18	خاصيتون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
 19	ٿي	آهي	VERB	VM	Aspect=Imp|Voice=Act	12	acl:relcl	_	_
 20	سگهن	سگهي	AUX	VAUX	Number=Plur|Person=3	19	aux	_	_
@@ -132,7 +132,7 @@
 # text = ان کان علاوه،چيو وڃي ٿو تہ ميوا عضلات جي تعمير ۾ مدد گار ھجن ٿا ۽ ان ڪري ڪيترن ئي رانديگرن ۾ تمام گهڻو مشهور آهن.
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	5	obl	_	_
 2	کان	کان	ADP	PSP	_	1	case	_	_
-3	علاوه	_	ADP	PSP	_	1	case	_	SpaceAfter=No
+3	علاوه	علاوه	ADP	PSP	_	1	case	_	SpaceAfter=No
 4	،	،	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
 5	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing|Voice=Act	0	root	_	_
 6	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	5	compound	_	_
@@ -191,7 +191,7 @@
 5	2½	_	NUM	NUM	_	6	nummod	_	SpacesAfter=\s\s
 6	ميوا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 7	آھن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	6	cop	_	_
-8	انھن	_	DET	PRD	Case=Acc|Number=Plur	15	obl	_	_
+8	انھن	ان	DET	PRD	Case=Acc|Number=Plur	15	obl	_	_
 9	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	8	case	_	_
 10	لاءِ	لاءِ	ADP	PSP	_	8	case	_	_
 11	تقريبن	تقريبن	ADJ	JJ	Case=Nom|Degree=Pos	13	amod	_	_
@@ -222,12 +222,12 @@
 
 # sent_id = avocado_10
 # text = اھو سڀ ايواڪاڊو کي ھڪ مھانگو کاڌو بڻائي ٿو، ائين کڻي چئجي تہ ميون جو لوبسٽر.
-1	اھو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+1	اھو	اھو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
 2	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur	8	nsubj	_	_
 3	ايواڪاڊو	_	PROPN	NNP	Case=Nom|Gender=Masc	8	iobj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
 5	ھڪ	_	NUM	NUM	_	7	nummod	_	_
-6	مھانگو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	مھانگو	مھانگو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	کاڌو	کاڌو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 8	بڻائي	بڻاءِ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 9	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	8	aux	_	SpaceAfter=No
@@ -275,7 +275,7 @@
 
 # sent_id = avocado_12
 # text = شعوري لطف اندوزي هتي تمام ضروري آهي.
-1	شعوري	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
+1	شعوري	شعوري	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
 2	لطف	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
 3	اندوزي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 4	هتي	هتي	ADV	ADT	_	6	advmod	_	_
@@ -310,7 +310,7 @@
 5	مقدار	مقدار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 6	قسم	قسم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
 7	۽	۽	CCONJ	CC	_	8	cc	_	_
-8	پڪل	_	ADJ	JJ	Case=Nom|Degree=Pos	6	conj	_	_
+8	پڪل	پڪل	ADJ	JJ	Case=Nom|Degree=Pos	6	conj	_	_
 9	ھجڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	12	advcl	_	_
 10	تي	تي	ADP	PSPL	_	9	mark	_	_
 11	دارومدار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	_
@@ -320,7 +320,7 @@
 
 # sent_id = avocado_15
 # text = جڏھن تہ ڪل فروڪٽوز جي مقدار خالص فروڪٽوز ۽ 1/2 سُڪروز تي مشتمل آهي.
-1	جڏھن	_	ADV	ADT	_	15	advmod	_	_
+1	جڏھن	جڏھن	ADV	ADT	_	15	advmod	_	_
 2	تہ	تہ	PART	PART	_	1	advmod:emph	_	_
 3	ڪل	ڪل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
 4	فروڪٽوز	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
