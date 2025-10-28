@@ -1142,23 +1142,25 @@
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 79
-# text = بلڪه هر اهو ادب جيڪو ٻارن جي ذهنيت مطابق، سندن وندر، دلچسپيءَ جو باعث بڻجي.
-1	بلڪه	بلڪه	SCONJ	_	_	15	mark	_	_
-2	هر	هر	DET	_	_	4	det	_	_
-3	اهو	اهو	DET	_	_	4	det	_	_
-4	ادب	ادب	NOUN	_	_	15	nsubj	_	_
-5	جيڪو	جيڪو	PRON	_	_	4	nmod	_	_
-6	ٻارن	ٻار	NOUN	_	_	8	nmod	_	_
-7	جي	جي	ADP	_	_	6	case	_	_
-8	ذهنيت	ذهنيت	NOUN	_	_	15	obl	_	_
-9	مطابق،	مطابق،	ADP	_	_	8	case	_	_
-10	سندن	_	DET	_	_	11	det	_	_
-11	وندر،	_	NOUN	_	_	12	nmod	_	_
-12	دلچسپيءَ	دلچسپيءَ	NOUN	_	_	14	nmod	_	_
-13	جو	جو	ADP	_	_	12	case	_	_
-14	باعث	_	NOUN	_	_	15	xcomp	_	_
-15	بڻجي	بڻجي	VERB	_	_	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	15	punct	_	_
+# text = بلڪه هر اهو ادب جيڪو ٻارن جي ذهنيت مطابق، سندن وندر، دلچسپيءَ جو باعث بڻجي .
+1	بلڪه	بلڪه	SCONJ	CS	_	17	mark	_	_
+2	هر	هر	DET	PRD	Case=Nom|Number=Sing	4	det	_	_
+3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+4	ادب	ادب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+5	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+6	ٻارن	ٻار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
+7	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
+8	ذهنيت	ذهنيت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	_
+9	مطابق	مطابق	ADP	PSP	_	8	case	_	SpaceAfter=No
+10	،	،	PUNCT	PUNCT	_	9	punct	_	_
+11	سندن	_	DET	PRD	Case=Acc|Number=Plur	12	det	_	_
+12	وندر	وندر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+13	،	،	PUNCT	PUNCT	_	12	punct	_	_
+14	دلچسپيءَ	دلچسپيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+15	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	14	case	_	_
+16	باعث	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	_
+17	بڻجي	بڻجي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
+18	.	.	PUNCT	PUNCT	_	17	punct	_	_
 
 # sent_id = 80
 # text = ۽ سندن طبيعت ۾ اڳتي وڌڻ جو جذبو پيدا ڪرڻ لاءِ اهم ڪردار ادا ڪري.
