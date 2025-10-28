@@ -3588,7 +3588,7 @@
 # sent_id = 4643
 # text = جو هروڀرو ان هڪڙي ڳالهه کي ئي اسان پنهنجي ڪاميابي جو معراج سمجهون.
 1	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	13	mark	_	_
-2	هروڀرو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+2	هروڀرو	_	ADV	ADV	_	13	advmod	_	_
 3	ان	ان	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
 4	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
 5	ڳالهه	ڳالهه	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
@@ -5217,9 +5217,9 @@
 10	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	9	case	_	_
 11	نيٽ	نيٽ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	_
 12	ورڪ	ورڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
-13	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
-14	و	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	15	compound	_	_
-15	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	_
+13	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	_
+14	و	_	CCONJ	CC	_	15	cc	_	_
+15	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
 16	مضبوط	مضبوط	ADJ	JJ	Case=Nom|Degree=Pos	17	xcomp	_	_
 17	ٿيندو	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	_
 18	پيو	پيو	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Voice=Act	17	compound	_	_
@@ -9437,7 +9437,7 @@
 1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	اعلان	اعلان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
-4	اڱاري	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	اڱاري	اڱارو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 5	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
 6	اسلام	اسلام	PROPN	NNP	Case=Nom|Gender=Masc	9	obl	_	_
 7	آباد	آباد	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	6	flat	_	_
@@ -10125,8 +10125,8 @@
 36	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	34	compound	_	_
 37	ته	ته	SCONJ	CS	_	40	mark	_	_
 38	ڪجهه	ڪجهه	ADJ	JJ	Case=Nom|Degree=Pos	40	amod	_	_
-39	اهڙيون	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	40	amod	_	_
-40	ذميواريون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	34	obj	_	_
+39	اهڙيون	اهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Plur	40	det	_	_
+40	ذميواريون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	34	advcl	_	_
 41	۽	۽	CCONJ	CC	_	42	cc	_	_
 42	ڪم	ڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	40	conj	_	_
 43	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	40	cop	_	SpaceAfter=No
@@ -10559,7 +10559,7 @@
 8	۾	۾	ADP	PSPL	_	7	case	_	_
 9	اڳ	اڳ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
 10	به	به	PART	PART	_	9	advmod:emph	_	_
-11	اهڙيون	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
+11	اهڙيون	اهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Plur	12	det	_	_
 12	هدايتون	هدايت	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	obj	_	_
 13	جاري	جاري	ADV	ADM	_	14	advmod	_	_
 14	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	4	advcl	_	_
@@ -13843,10 +13843,10 @@
 26	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	25	aux	_	_
 27	ته	ته	SCONJ	CS	_	34	mark	_	_
 28	سياسي	سياسي	NOUN	NN	Case=Nom|Number=Sing	29	nmod	_	_
-29	پارٽين	پارٽين	NOUN	NN	Case=Acc|Number=Plur	32	nmod	_	_
+29	پارٽين	پارٽين	NOUN	NN	Case=Acc|Number=Plur	33	nmod	_	_
 30	جون	جو	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	29	case	_	_
-31	ڪهڙي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	32	amod	_	_
-32	نموني	نمونو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	34	obl	_	_
+31	ڪهڙي	_	DET	PRD	Case=Acc|Gender=Masc|Number=Sing	32	det	_	_
+32	نموني	نمونو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	33	nmod	_	_
 33	چونڊون	چونڊ	NOUN	NN	Case=Nom|Number=Plur	34	obj	_	_
 34	ڪرايون	_	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur|Voice=Act	25	advcl	_	_
 35	وڃن	وڃ	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	34	compound	_	_
@@ -14954,9 +14954,9 @@
 30	اڳتي	اڳتي	ADV	ADP	_	31	advmod	_	_
 31	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	38	advcl	_	_
 32	سان	سان	ADP	PSP	_	31	mark	_	_
-33	روزانو	_	ADJ	JJ	Case=Nom|Degree=Pos	35	amod	_	_
+33	روزانو	روزانو	ADV	ADT	_	38	advmod	_	_
 34	250	250	NUM	NUM	_	35	nummod	_	_
-35	ميگاواٽ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	36	nmod	_	_
+35	ميگاواٽ	ميگاواٽ	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	36	nmod	_	_
 36	بجلي	بجلي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	_
 37	بچت	بچت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	compound	_	_
 38	ٿيندي	آهي	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart|Voice=Act	24	advcl	_	_
@@ -20640,7 +20640,7 @@
 22	10	10	NUM	NUM	_	23	nummod	_	_
 23	سالن	سال	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	26	nmod	_	_
 24	واري	وارو	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	23	case	_	_
-25	ناقص	ناقص	ADJ	JJ	Case=Nom|Degree=Pos	26	amod	_	_
+25	ناقص	_	ADJ	JJ	Case=Nom|Degree=Pos	26	amod	_	_
 26	ڪارڪردگي	ڪارڪردگي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	36	obl	_	_
 27	سبب	سبب	ADP	PSP	_	26	case	_	_
 28	تعليمي	تعليم	ADJ	JJ	Case=Nom|Degree=Pos	29	amod	_	_
@@ -20648,7 +20648,7 @@
 30	مڪمل	مڪمل	ADJ	JJ	Case=Nom|Degree=Pos	31	amod	_	_
 31	طور	طور	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	36	obl	_	_
 32	تي	تي	ADP	PSPL	_	31	case	_	_
-33	تباهي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	34	amod	_	_
+33	تباهي	تباهي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	34	nmod	_	_
 34	ڪناري	ڪنارو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	36	obl	_	_
 35	تي	تي	ADP	PSPL	_	34	case	_	_
 36	پهتل	_	VERB	VM	Aspect=Imp|Voice=Act	14	advcl	_	_

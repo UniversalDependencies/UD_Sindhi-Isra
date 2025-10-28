@@ -6257,7 +6257,7 @@
 2	ياد	ياد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
 3	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
 4	دامن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-5	شل	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	شل	_	ADV	ADV	_	6	advmod	_	_
 6	سلامت	سلامت	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
 7	هجي	آهي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3|Voice=Pass	6	cop	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	6	punct	_	_
@@ -7901,9 +7901,9 @@
 13	رهي	ره	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 14	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	13	aux	_	_
 15	۽	۽	CCONJ	CC	_	25	cc	_	_
-16	ان	ان	DET	PRD	Case=Acc|Number=Sing	17	det	_	_
-17	عوام	عوام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_
-18	دشمن	_	ADJ	JJ	Case=Nom|Degree=Pos	19	amod	_	_
+16	ان	ان	DET	PRD	Case=Acc|Number=Sing	19	det	_	_
+17	عوام	عوام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_
+18	دشمن	دشمن	NOUN	NN	Case=Nom|Number=Sing	19	nmod	_	_
 19	نظام	نظام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
 20	کي	کي	ADP	PSP	_	19	case	_	_
 21	ٽيڪ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
@@ -9810,14 +9810,14 @@
 # text = خط جو مضمون درد جي دانهن ته واقعي آهي،
 1	خط	خط	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
-3	مضمون	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+3	مضمون	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	درد	درد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
-6	دانهن	دانهن	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	دانهن	دانهن	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 7	ته	ته	PART	PART	_	6	advmod:emph	_	_
-8	واقعي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
-9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	cop	_	SpaceAfter=No
-10	،	،	PUNCT	PUNCT	_	8	punct	_	_
+8	واقعي	_	ADV	ADV	_	6	advmod	_	_
+9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	cop	_	SpaceAfter=No
+10	،	،	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 5738
 # text = پر ڇا آخري حل اهڙو هجي،
@@ -9933,21 +9933,21 @@
 # text = مٿيون سڀ ذاتيون سنڌ جي شهه رڳ ۾ پوري جاهه و جلال سان محوِ سفر آهن.
 1	مٿيون	مٿي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 2	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur	3	amod	_	_
-3	ذاتيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+3	ذاتيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
 4	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	7	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	4	case	_	_
 6	شهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
-7	رڳ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+7	رڳ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
 8	۾	۾	ADP	PSPL	_	7	case	_	_
 9	پوري	پوري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
-10	جاهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	_
-11	و	و	CCONJ	CC	_	12	cc	_	_
+10	جاهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obl	_	_
+11	و	_	CCONJ	CC	_	12	cc	_	_
 12	جلال	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
 13	سان	سان	ADP	PSP	_	12	case	_	_
-14	محوِ	_	ADJ	JJ	Case=Nom	15	amod	_	_
-15	سفر	سفر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-16	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	15	cop	_	SpaceAfter=No
-17	.	.	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+14	محوِ	محوِ	VERB	VM	Aspect=Imp	0	root	_	_
+15	سفر	سفر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
+16	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	14	aux	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
 
 # sent_id = 5745
 # text = پر ڀٽائي سرڪار چيو آهي ته ”جيڪي وڃان وڃان ڪن،
@@ -10023,7 +10023,7 @@
 # text = ان تي يقينن نوابشاهه، لاڙڪاڻو ۽ قمبر شهدادڪوٽ ضلعي جي عوام کي خوشي ٿي آهي،
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing	14	obl	_	_
 2	تي	تي	ADP	PSPL	_	1	case	_	_
-3	يقينن	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	يقينن	يقينن	ADV	ADV	_	14	advmod	_	_
 4	نوابشاهه	نوابشاهه	PROPN	NNP	Case=Nom|Gender=Masc	12	nmod	_	SpaceAfter=No
 5	،	،	PUNCT	PUNCT	_	6	punct	_	_
 6	لاڙڪاڻو	لاڙڪاڻو	PROPN	NNP	Case=Nom|Gender=Masc	4	conj	_	_
@@ -10441,7 +10441,7 @@
 
 # sent_id = 5773
 # text = ڪاش استاد ان ڳالهه کي دل سان محسوس ڪن.
-1	ڪاش	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+1	ڪاش	_	INTJ	INTJ	_	9	vocative	_	_
 2	استاد	استاد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	ان	ان	DET	PRD	Case=Acc|Number=Sing	4	det	_	_
 4	ڳالهه	ڳالهه	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
@@ -12075,8 +12075,8 @@
 16	ڪائنات	ڪائنات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No
 17	“	“	PUNCT	PUNCT	_	16	punct	_	_
 18	هڪ	هڪ	NUM	NUM	_	20	nummod	_	_
-19	فيملي	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	20	amod	_	_
-20	ڊرامو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
+19	فيملي	فيملي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nmod	_	_
+20	ڊرامو	ڊرامو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 21	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	20	cop	_	_
 22	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	29	obl	_	_
 23	۾	۾	ADP	PSPL	_	22	case	_	_
