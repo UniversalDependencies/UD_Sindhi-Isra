@@ -163,8 +163,11 @@ ENFORCED_POS['گذريل'] = ['VERB']
 # demonstratives
 demonstratives = ['ان', 'اِهو', 'انهي', 'انھي', 'انهيءِ', 'اِهو', 'اِهي', 'اھا', 'اھڙو', 'اھي', 'ڪوبه', 'هرڪوئي', 'هِن', 'هُوءَ', 'ھن', 'اُهو', 'اهي', 'اهو', 'اِها']
 demonstratives.extend(['اُها', 'اها', 'انهيءَ'])
+demonstratives.extend(['ڪهڙيءَ', 'ڪهڙين', 'ڪهڙي', 'ڪهڙيون'])
 for word in demonstratives:
     ENFORCED_POS_XPOS[word] = [('DET', 'PRD')]
+
+ENFORCED_POS_XPOS['ڪهڙا'] = [('DET', 'PRD'), ('ADJ', 'JJ')]
 
 ENFORCED_POS['توڙي'] = ['CCONJ']
 ENFORCED_POS['۽'] = ['CCONJ']
