@@ -54,7 +54,12 @@ ALLOWED_UPOS_TO_FEATS = {
               'VerbForm=Inf', 'VerbForm=PresPart',
               'Voice=Act', 'Voice=Pass'],  # TODO: not sure this is correct, but the validator nagging is annoying
     "CCONJ": [],
-    "DET":   ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=3'],
+    "DET":   ['Case=Acc', 'Case=Gen', 'Case=Nom',
+              'ExtPos=DET',
+              'Gender=Fem', 'Gender=Masc',
+              'Number=Plur', 'Number=Sing',
+              'Person=1', 'Person=3',
+              'PronType=Dem'],
     "INTJ":  [],
     "NOUN":  ['Case=Abl', 'Case=Acc', 'Case=Nom', 'Case=Voc',
               'ExtPos=ADV',
