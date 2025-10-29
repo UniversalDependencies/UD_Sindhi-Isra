@@ -1,6 +1,6 @@
 # sent_id = sample_0
 # text = اهي اسڪول وڃن ٿا.
-1	اهي	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+1	اهي	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	3	nsubj	_	_
 2	اسڪول	اسڪول	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
 3	وڃن	وڃ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Tense=Pres|Voice=Act	0	root	_	_
 4	ٿا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	3	aux	_	SpaceAfter=No
@@ -8,7 +8,7 @@
 
 # sent_id = sample_1
 # text = اسان مسلمان آهيون.
-1	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1	2	nsubj	_	_
+1	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	2	nsubj	_	_
 2	مسلمان	مسلمان	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
 3	آهيون	آهي	AUX	VAUX	AuxType=Be|Number=Plur|Tense=Pres	2	cop	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -25,7 +25,7 @@
 
 # sent_id = sample_3
 # text = هيءُ منهنجو دوست آهي.
-1	هيءُ	هيءُ	DET	PRD	Case=Nom|Number=Sing	3	nsubj	_	_
+1	هيءُ	هيءُ	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 3	دوست	دوست	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	SpaceAfter=No
@@ -56,7 +56,7 @@
 
 # sent_id = sample_6
 # text = جنهن جي معنيٰ آهي.
-1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
+1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	معنيٰ	معنيٰ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Plur|Tense=Pres	3	cop	_	SpaceAfter=No
@@ -81,11 +81,11 @@
 
 # sent_id = sample_8
 # text = جيڪو ڪا آکاڻي يا ڪو تصويري ڪتاب پڙهي ٿو.
-1	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-2	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+1	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+2	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	آکاڻي	آکاڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_
 4	يا	يا	CCONJ	CC	_	7	cc	_	_
-5	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	7	det	_	_
+5	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 6	تصويري	تصويري	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
 7	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 8	پڙهي	پڙه	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres|Voice=Act	0	root	_	_
@@ -94,7 +94,7 @@
 
 # sent_id = sample_9
 # text = ان موجب ٻار يا ٻال لفظ ننڍي عمر جي لکڻ پڙهڻ ڄاڻيندڙ ماڻهوءَ ڏانهن اشارو ڪري ٿو.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	16	obl	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	16	obl	_	_
 2	موجب	موجب	ADP	PSPL	_	1	case	_	_
 3	ٻار	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 4	يا	يا	CCONJ	CC	_	5	cc	_	_
@@ -155,7 +155,7 @@
 
 # sent_id = sample_13
 # text = اھي آکاڻيون جيڪي ٻارن لاءِ لکيون ويون هجن.
-1	اھي	اهو	DET	PRD	Case=Nom|Number=Plur	2	det	_	_
+1	اھي	اهو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	2	det	_	_
 2	آکاڻيون	آکاڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
 3	جيڪي	جيڪو	PRON	PRWH	Case=Nom|Number=Plur	6	obj	_	_
 4	ٻارن	ٻار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_
@@ -167,7 +167,7 @@
 
 # sent_id = sample_14
 # text = اهڙا ڪتاب به جيڪي اصل ۾ وڏن لاءِ لکيا ويا هئا.
-1	اهڙا	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Plur	2	det	_	_
+1	اهڙا	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 3	به	به	PART	PART	_	2	advmod:emph	_	_
 4	جيڪي	جيڪو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Plur	9	obj	_	_
@@ -193,7 +193,7 @@
 
 # sent_id = sample_16
 # text = اهي به ٻاراڻي ادب ۾ ڳڻجن ٿا.
-1	اهي	اهو	DET	PRD	Case=Nom|Number=Plur	6	nsubj	_	_
+1	اهي	اهو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	6	nsubj	_	_
 2	به	به	PART	PART	_	1	advmod:emph	_	_
 3	ٻاراڻي	ٻاراڻو	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	_
 4	ادب	ادب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
@@ -232,9 +232,9 @@
 9	لکيل	لک	VERB	VM	Aspect=Perf|Tense=Past|VerbForm=PastPart	0	root	_	_
 10	ادب	ادب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 11	يعني	يعني	CCONJ	CC	_	21	cc	_	_
-12	اهڙو	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	13	det	_	_
+12	اهڙو	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	ادب	ادب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
-14	جيڪو	جيڪو	DET	PRD	Case=Nom|Number=Sing	16	det	_	_
+14	جيڪو	جيڪو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	16	det	_	_
 15	خالص	خالص	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	16	amod	_	_
 16	ٻارن	ٻار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	nmod	_	_
 17	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	16	case	_	_
@@ -246,7 +246,7 @@
 
 # sent_id = sample_19
 # text = انهن ۾ عقل ۽ شعور پيدا ڪرڻ نصيحت ۽ اخلاقي تربيت ڪرڻ لاءِ لکيو وڃي.
-1	انهن	ان	DET	PRD	Case=Acc|Number=Plur	7	nsubj	_	_
+1	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	7	nsubj	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
 3	عقل	عقل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 4	۽	۽	CCONJ	CC	_	5	cc	_	_
@@ -265,7 +265,7 @@
 
 # sent_id = sample_20
 # text = ان کي ٻاراڻو ادب چئجي ٿو.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	5	obj	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	obj	_	_
 2	کي	کي	ADP	PSPL	_	1	case	_	_
 3	ٻاراڻو	ٻاراڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	ادب	ادب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -275,10 +275,10 @@
 
 # sent_id = sample_21
 # text = هن ڪائنات ۾ هر جاندار جي بقا لاءِ پنهنجو نسل پيدا ڪن ٿا.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	ڪائنات	ڪائنات	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
-4	هر	هر	DET	PRD	Number=Sing	5	det	_	_
+4	هر	هر	DET	PRD	Number=Sing|PronType=Dem	5	det	_	_
 5	جاندار	جاندار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 6	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	5	case	_	_
 7	بقا	بقا	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
@@ -293,7 +293,7 @@
 # sent_id = sample_22
 # text = جيڪي ان نسل کي زنده رکن ٿا.
 1	جيڪي	جيڪو	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=2	6	nsubj	_	_
-2	ان	ان	DET	PRD	Case=Acc|Number=Sing	3	det	_	_
+2	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	3	det	_	_
 3	نسل	نسل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 4	کي	کي	ADP	PSPL	_	3	case	_	_
 5	زنده	زنده	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	compound	_	_
@@ -317,11 +317,11 @@
 # text = ۽ ائين اهي پنهنجي نسل کي هن ڪائنات ۾ باقي رکن ٿا.
 1	۽	۽	CCONJ	CC	_	11	cc	_	_
 2	ائين	ائين	PRON	PRL	_	11	obl	_	_
-3	اهي	اهو	DET	PRD	Case=Nom|Number=Plur	11	nsubj	_	_
-4	پنهنجي	پنهنجو	DET	PRD	Case=Acc|Number=Sing	5	nmod	_	_
+3	اهي	اهو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	11	nsubj	_	_
+4	پنهنجي	پنهنجو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	nmod	_	_
 5	نسل	نسل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 6	کي	کي	ADP	PSP	_	5	case	_	_
-7	هن	هن	DET	PRD	Case=Acc|Number=Sing	8	det	_	_
+7	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	8	det	_	_
 8	ڪائنات	ڪائنات	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 9	۾	۾	ADP	PSPL	_	8	case	_	_
 10	باقي	باقي	ADJ	JJ	Case=Nom|Degree=Pos	11	compound	_	_
@@ -334,10 +334,10 @@
 1	ڏٺو	ڏٺو	VERB	VM	Gender=Masc|Number=Sing	0	root	_	_
 2	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres	1	compound	_	_
 3	ته	ته	SCONJ	CS	_	12	mark	_	_
-4	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
+4	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	det	_	_
 5	ڪائنات	ڪائنات	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 6	۾	۾	ADP	PSPL	_	5	case	_	_
-7	جن	جي	DET	PRD	Case=Acc|Number=Plur	8	det	_	_
+7	جن	جي	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	8	det	_	_
 8	جاندارن	جاندار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_
 9	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	8	case	_	_
 10	نسل	نسل	NOUN	NN	Case=Nom|Gender=Masc	12	nsubj	_	_
@@ -348,10 +348,10 @@
 
 # sent_id = sample_26
 # text = ان جو سبب انهن جاندارن جي نسل جي واڌ نه ٿيڻ آهي.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	3	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	سبب	سبب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
-4	انهن	ان	DET	PRD	Case=Acc|Number=Plur	5	det	_	_
+4	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	5	det	_	_
 5	جاندارن	جاندار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
 6	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	5	case	_	_
 7	نسل	نسل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
@@ -364,10 +364,10 @@
 
 # sent_id = sample_27
 # text = جنهن سبب اهي هن ڪائنات مان ميسارجي ويا آهن.
-1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	2	det	_	_
+1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
 2	سبب	سبب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
-3	اهي	اهو	DET	PRD	Case=Nom|Number=Plur	7	nsubj:pass	_	_
-4	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
+3	اهي	اهو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	7	nsubj:pass	_	_
+4	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	det	_	_
 5	ڪائنات	ڪائنات	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 6	مان	مان	ADP	PSPL	_	5	case	_	_
 7	ميسارجي	ميسارج	VERB	VM	Aspect=Perf|Voice=Pass	0	root	_	_
@@ -388,9 +388,9 @@
 
 # sent_id = sample_29
 # text = جهڙي ريت هر جاندار جي نسل جي واڌ ويجهه ضروري آهي.
-1	جهڙي	جهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+1	جهڙي	جهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	ريت	ريت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	_
-3	هر	هر	DET	PRD	Case=Nom|Number=Sing	4	det	_	_
+3	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	4	det	_	_
 4	جاندار	جاندار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
 6	نسل	نسل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -403,7 +403,7 @@
 
 # sent_id = sample_30
 # text = اهڙي طرح انساني نسل لاءِ به پيدائش جو سلسلو جاري رکڻ ضروري آهي.
-1	اهڙي	اهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+1	اهڙي	اهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obl	_	_
 3	انساني	انساني	ADJ	JJ	Case=Nom|Number=Sing	4	amod	_	_
 4	نسل	نسل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -450,7 +450,7 @@
 
 # sent_id = sample_33
 # text = اهو انسان ئي آهي.
-1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	انسان	انسان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	ئي	ئي	PART	PART	_	2	advmod:emph	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	2	cop	_	SpaceAfter=No
@@ -458,11 +458,11 @@
 
 # sent_id = sample_34
 # text = جنهن پنهنجي عقل سان هن ڪائنات جي نقشن کي تبديل ڪري ڇڏيو آهي.
-1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	11	nsubj	_	_
+1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
 2	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	3	nmod	_	_
 3	عقل	عقل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 4	سان	سان	ADP	PSP	_	3	case	_	_
-5	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	det	_	_
+5	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	det	_	_
 6	ڪائنات	ڪائنات	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
 7	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	6	case	_	_
 8	نقشن	نقشو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
@@ -492,13 +492,13 @@
 # sent_id = sample_36
 # text = انسان پنهنجي زندگيءَ جي لاهن چاڙهن، پنهنجي نقصانن کي پنهنجي سامهون رکي ٻين لاءِ نيڪ هدايتون ڏيندو رهيو آهي.
 1	انسان	انسان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
-2	پنهنجي	پنهنجو	DET	PRD	Case=Gen|Gender=Fem|Number=Sing	3	det	_	_
+2	پنهنجي	پنهنجو	DET	PRD	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	زندگيءَ	زندگيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
 5	لاهن	لاه	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	obj	_	_
 6	چاڙهن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	compound	_	SpaceAfter=No
 7	،	،	PUNCT	PUNCT	_	6	punct	_	_
-8	پنهنجي	پنهنجو	DET	PRD	Case=Gen|Gender=Masc	9	det	_	_
+8	پنهنجي	پنهنجو	DET	PRD	Case=Gen|Gender=Masc|PronType=Dem	9	det	_	_
 9	نقصانن	نقصان	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_
 10	کي	کي	ADP	PSP	_	9	case	_	_
 11	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	12	nmod	_	_
@@ -515,13 +515,13 @@
 
 # sent_id = sample_37
 # text = جنهن مان سندس مقصد ٻين کي انهن نقصانن کان بچائڻ آهي.
-1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	10	obl	_	_
+1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	10	obl	_	_
 2	مان	مان	ADP	PSPL	_	1	case	_	_
-3	سندس	_	DET	PRD	Case=Nom|Number=Sing	4	det	_	_
+3	سندس	_	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	4	det	_	_
 4	مقصد	مقصد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 5	ٻين	ٻيو	ADJ	JJ	Case=Acc|Number=Plur	10	obj	_	_
 6	کي	کي	ADP	PSP	_	5	case	_	_
-7	انهن	ان	DET	PRD	Case=Acc|Number=Plur	8	det	_	_
+7	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	8	det	_	_
 8	نقصانن	نقصان	NOUN	NN	Case=Abl|Gender=Masc|Number=Plur	10	obl	_	_
 9	کان	کان	ADP	PSP	_	8	case	_	_
 10	بچائڻ	بچا	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
@@ -531,7 +531,7 @@
 # sent_id = sample_38
 # text = انسان پنهنجي زندگيءَ ۾ ڪيل تحقيقن ۽ ايجادن جو علم ٻين تائين پهچائڻ لاءِ مختلف طريقا اپنايا آهن.
 1	انسان	انسان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
-2	پنهنجي	پنهنجو	DET	PRD	Case=Acc|Gender=Fem|Number=Sing	3	det	_	_
+2	پنهنجي	پنهنجو	DET	PRD	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	زندگيءَ	زندگيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
 5	ڪيل	ڪيو	VERB	VM	Aspect=Perf|VerbForm=PastPart	6	acl	_	_
@@ -552,7 +552,7 @@
 
 # sent_id = sample_39
 # text = اهڙي طرح علمن جي لکجڻ جي شروعات ٿئي ٿي.
-1	اهڙي	اهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+1	اهڙي	اهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	_
 3	علمن	علم	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	3	case	_	_
@@ -566,10 +566,10 @@
 # sent_id = sample_40
 # text = انسان پنهنجي علم کي پنهنجي نسل ڏانهن منتقل ڪرڻ تمام ضروري سمجهيو.
 1	انسان	انسان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-2	پنهنجي	پنهنجو	DET	PRD	Case=Acc|Gender=Masc|Number=Sing	3	det	_	_
+2	پنهنجي	پنهنجو	DET	PRD	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	علم	علم	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
-5	پنهنجي	پنهنجو	DET	PRD	Case=Acc|Number=Sing	6	nmod	_	_
+5	پنهنجي	پنهنجو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	nmod	_	_
 6	نسل	نسل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 7	ڏانهن	ڏانهن	ADV	ADP	_	6	case	_	_
 8	منتقل	_	VERB	VM	_	9	compound	_	_
@@ -594,7 +594,7 @@
 # text = ڇاڪاڻ ته اهي ٻار ئي آهن.
 1	ڇاڪاڻ	ڇاڪاڻ	SCONJ	CS	ExtPos=SCONJ	4	mark	_	_
 2	ته	ته	SCONJ	CS	_	1	fixed	_	_
-3	اهي	اهو	DET	PRD	Case=Nom|Number=Sing	4	det	_	_
+3	اهي	اهو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	4	det	_	_
 4	ٻار	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 5	ئي	ئي	PART	PART	_	4	advmod:emph	_	_
 6	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	4	cop	_	SpaceAfter=No
@@ -618,7 +618,7 @@
 
 # sent_id = sample_44
 # text = ان ڪري ئي ٻاراڻو ادب تخليق ٿيو.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	6	obl	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	obl	_	_
 2	ڪري	ڪري	ADP	PSP	_	1	case	_	_
 3	ئي	ئي	PART	PART	_	1	advmod:emph	_	_
 4	ٻاراڻو	ٻاراڻو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
@@ -629,7 +629,7 @@
 
 # sent_id = sample_45
 # text = هن ڪائنات ۾ سماج ۾ بنيادي ايڪو گهر کي تصور ڪيو وڃي ٿو.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	ڪائنات	ڪائنات	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
 4	سماج	سماج	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
@@ -646,7 +646,7 @@
 
 # sent_id = sample_46
 # text = جنهن گهر ۾ زال ۽ مڙس بنيادي ٿنڀا آهن.
-1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	2	det	_	_
+1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
 2	گهر	گهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
 4	زال	زال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -659,7 +659,7 @@
 
 # sent_id = sample_47
 # text = انهن جي تعلقات جي سبب نسل جي واڌ لاءِ ٻار جو جنم ٿئي ٿو.
-1	انهن	ان	DET	PRD	Case=Acc|Number=Plur	3	nmod	_	_
+1	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	تعلقات	تعلقات	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
@@ -690,7 +690,7 @@
 
 # sent_id = sample_49
 # text = هن جي جنم تي گهر ۾ خوشيون اچن ٿيون.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	جنم	جنم	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 4	تي	تي	ADP	PSPL	_	3	case	_	_

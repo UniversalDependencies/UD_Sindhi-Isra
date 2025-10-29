@@ -2,7 +2,7 @@
 # text = ايواڪاڊو ڪا جديد سبزي ناهي!
 # doc_id = https://sd.frusano.com/en/nutrition/fructose-free-diet237/seasonal-calendar/juni-avocado.html
 1	ايواڪاڊو	_	PROPN	NNP	Case=Nom|Gender=Masc	4	nsubj	_	_
-2	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	4	det	_	_
+2	ڪا	ڪا	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 3	جديد	جديد	ADJ	JJ	Case=Nom|Degree=Pos	4	amod	_	_
 4	سبزي	سبز	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	ناهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	4	cop	_	SpaceAfter=No
@@ -31,7 +31,7 @@
 19	تي	تي	ADP	PSPL	_	18	case	_	_
 20	پکڙيل	پکڙو	VERB	VM	Aspect=Perf|VerbForm=PastPart	0	root	_	SpaceAfter=No
 21	،	،	PUNCT	PUNCT	_	20	punct	_	_
-22	هي	هي	DET	PRD	Case=Nom|Number=Sing	23	det	_	_
+22	هي	هي	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	23	det	_	_
 23	ميوو	ميوو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 24	ورسٽائل	ورسٽائل	ADJ	JJ	Case=Nom|Number=Sing	20	obl	_	_
 25	۽	۽	CCONJ	CC	_	27	cc	_	_
@@ -42,7 +42,7 @@
 
 # sent_id = avocado_2
 # text = اهو، سڌو سنئون چئون تہ هڪ بيري آهي ۽ اهڙي طرح ھن جي هڪ ميوي جي طور تي درجه بندي ڪئي وئي آهي.
-1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	SpaceAfter=No
 2	،	،	PUNCT	PUNCT	_	1	punct	_	_
 3	سڌو	سڌو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	سنئون	سنئون	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	_
@@ -52,9 +52,9 @@
 8	بيري	بيري	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	_
 9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	cop	_	_
 10	۽	۽	CCONJ	CC	_	22	cc	_	_
-11	اهڙي	اهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	12	det	_	_
+11	اهڙي	اهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
 12	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	obl	_	_
-13	ھن	ھي	DET	PRD	Case=Acc|Number=Sing|Person=3	16	nmod	_	_
+13	ھن	ھي	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	16	nmod	_	_
 14	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	13	case	_	_
 15	هڪ	هڪ	NUM	NUM	_	16	nummod	_	_
 16	ميوي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
@@ -91,7 +91,7 @@
 19	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	9	advcl	_	_
 20	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	19	aux	_	_
 21	۽	۽	CCONJ	CC	_	30	cc	_	_
-22	ان	ان	DET	PRD	Case=Acc|Number=Sing	30	obl	_	_
+22	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	30	obl	_	_
 23	ڪري	ڪري	ADP	PSP	_	22	case	_	_
 24	هڪ	هڪ	NUM	NUM	_	25	nummod	_	_
 25	صحتمند	صحتمند	ADJ	JJ	Case=Nom|Degree=Pos	28	amod	_	_
@@ -106,7 +106,7 @@
 # sent_id = avocado_4
 # text = پر انهن لاءِ به جن کي دل ۽ هاءِ ڪوليسٽرول جا مسئلا آهن، ايواڪاڊو ۾ مددگار خاصيتون ٿي سگهن ٿيون.
 1	پر	پر	SCONJ	CS	_	12	mark	_	_
-2	انهن	ان	DET	PRD	Case=Acc|Number=Plur	12	obl	_	_
+2	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	12	obl	_	_
 3	لاءِ	لاءِ	ADP	PSP	_	2	case	_	_
 4	به	به	PART	PART	_	2	advmod:emph	_	_
 5	جن	جي	PRON	PRP	Case=Acc|Number=Plur|Person=3	12	nsubj	_	_
@@ -130,7 +130,7 @@
 
 # sent_id = avocado_5
 # text = ان کان علاوه،چيو وڃي ٿو تہ ميوا عضلات جي تعمير ۾ مدد گار ھجن ٿا ۽ ان ڪري ڪيترن ئي رانديگرن ۾ تمام گهڻو مشهور آهن.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	5	obl	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	obl	_	_
 2	کان	کان	ADP	PSP	_	1	case	_	_
 3	علاوه	علاوه	ADP	PSP	_	1	case	_	SpaceAfter=No
 4	،	،	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
@@ -148,7 +148,7 @@
 16	ھجن	آهي	AUX	VAUX	AuxType=Be|Number=Plur|Person=3|Voice=Pass	14	cop	_	_
 17	ٿا	آهي	AUX	VAUX	Number=Plur|Tense=Pres	14	aux	_	_
 18	۽	۽	CCONJ	CC	_	27	cc	_	_
-19	ان	ان	DET	PRD	Case=Acc|Number=Sing	27	obl	_	_
+19	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	27	obl	_	_
 20	ڪري	ڪري	ADP	PSP	_	19	case	_	_
 21	ڪيترن	ڪيترو	ADJ	JJ	Case=Acc|Number=Plur	23	amod	_	_
 22	ئي	ئي	PART	PART	_	21	advmod:emph	_	_
@@ -170,7 +170,7 @@
 
 # sent_id = avocado_7
 # text = ان کانسواءِ ايواڪاڊو جي پوک تمام گھڻو پاڻي وپرائي  ٿي.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	9	obl	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	9	obl	_	_
 2	کانسواءِ	کان	ADP	PSP	_	1	case	_	_
 3	ايواڪاڊو	_	PROPN	NNP	Case=Nom|Gender=Masc	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	3	case	_	_
@@ -187,11 +187,11 @@
 1	ھڪ	_	NUM	NUM	_	2	nummod	_	_
 2	ڪلو	ڪلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 3	ايواڪاڊو	_	PROPN	NNP	Case=Nom|Gender=Masc	6	nsubj	_	_
-4	جيڪي	جيڪو	DET	PRD	Case=Nom|Number=Plur	6	det	_	_
+4	جيڪي	جيڪو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	6	det	_	_
 5	2½	_	NUM	NUM	_	6	nummod	_	SpacesAfter=\s\s
 6	ميوا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 7	آھن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	6	cop	_	_
-8	انھن	ان	DET	PRD	Case=Acc|Number=Plur	15	obl	_	_
+8	انھن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	15	obl	_	_
 9	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	8	case	_	_
 10	لاءِ	لاءِ	ADP	PSP	_	8	case	_	_
 11	تقريبن	تقريبن	ADJ	JJ	Case=Nom|Degree=Pos	13	amod	_	_
@@ -204,7 +204,7 @@
 
 # sent_id = avocado_9
 # text = ان جي ڀيٽ ۾ ھڪ ڪلو ٽماٽن لاءِ صرف 200 لٽر پاڻي گهربل ھوندو.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	1	case	_	_
 3	ڀيٽ	ڀيٽ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
@@ -222,7 +222,7 @@
 
 # sent_id = avocado_10
 # text = اھو سڀ ايواڪاڊو کي ھڪ مھانگو کاڌو بڻائي ٿو، ائين کڻي چئجي تہ ميون جو لوبسٽر.
-1	اھو	اھو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+1	اھو	اھو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur	8	nsubj	_	_
 3	ايواڪاڊو	_	PROPN	NNP	Case=Nom|Gender=Masc	8	iobj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
@@ -256,14 +256,14 @@
 11	ناهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	10	cop	_	SpaceAfter=No
 12	،	،	PUNCT	PUNCT	_	10	punct	_	SpacesAfter=\s\s
 13	پر	پر	SCONJ	CS	_	17	mark	_	_
-14	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1	17	nsubj	_	_
+14	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	17	nsubj	_	_
 15	کي	کي	ADP	PSP	_	14	case	_	_
 16	غور	غور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
 17	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	10	advcl	_	_
 18	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	17	compound	_	_
 19	ته	ته	SCONJ	CS	_	27	mark	_	_
-20	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1	27	nsubj	_	_
-21	هن	هن	DET	PRD	Case=Acc|Number=Sing	24	det	_	_
+20	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	27	nsubj	_	_
+21	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	24	det	_	_
 22	ڏکڻ	ڏکڻ	PROPN	NNP	Case=Nom|Gender=Masc	23	nmod	_	_
 23	آمريڪي	آمريڪي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	24	amod	_	_
 24	ميوي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
@@ -303,7 +303,7 @@
 
 # sent_id = avocado_14
 # text = ھن ۾ کنڊ جي مقدار قسم ۽ پڪل ھجڻ تي دارومدار رکي ٿي.
-1	ھن	ھي	DET	PRD	Case=Acc|Number=Sing|Person=3	12	obl	_	_
+1	ھن	ھي	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	12	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
 3	کنڊ	کنڊ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_

@@ -23,7 +23,7 @@
 4	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
 6	ته	ته	SCONJ	CS	_	12	mark	_	_
-7	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing	8	det	_	_
+7	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	8	det	_	_
 8	جهنگ	جهنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 9	۾	۾	ADP	PSPL	_	8	case	_	_
 10	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	_
@@ -37,7 +37,7 @@
 1	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Fem|Number=Sing	2	amod	_	_
 2	شام	شام	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 3	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
-4	هو	هو	DET	PRD	Case=Nom|Number=Sing	10	nsubj	_	_
+4	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	10	nsubj	_	_
 5	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	6	nmod	_	_
 6	عادت	عادت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 7	موجب	موجب	ADP	PSPL	_	6	case	_	_
@@ -49,9 +49,9 @@
 # sent_id = adabi_2_004
 # text = پر هن کي ڪو به ننڍو يا وڏو جانور هٿ نه آيو.
 1	پر	پر	SCONJ	CS	_	12	mark	_	_
-2	هن	هن	DET	PRD	Case=Acc|Number=Sing	12	iobj	_	_
+2	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	12	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
-4	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	9	det	_	_
+4	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 5	به	به	PART	PART	_	4	advmod:emph	_	_
 6	ننڍو	ننڍو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	9	amod	_	_
 7	يا	يا	CCONJ	CC	_	8	cc	_	_
@@ -64,7 +64,7 @@
 
 # sent_id = adabi_2_005
 # text = هن کي بک به ڏاڍي لڳي هئي.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	iobj	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	iobj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
 3	بک	بک	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
 4	به	به	PART	PART	_	3	advmod:emph	_	_
@@ -76,7 +76,7 @@
 # sent_id = adabi_2_006
 # text = نيٺ هن کي هڪڙو سانڊو ملي ويو.
 1	نيٺ	نيٺ	ADV	ADV	_	6	advmod	_	_
-2	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	iobj	_	_
+2	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
 5	سانڊو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
@@ -217,7 +217,7 @@
 6	کي	کي	ADP	PSP	_	5	case	_	_
 7	ماريندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	12	advcl	_	_
 8	ته	ته	SCONJ	CS	_	12	mark	_	_
-9	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+9	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	12	nsubj	_	_
 10	بي	بي	ADJ	JJ	Case=Nom	11	amod	_	_
 11	انصافي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
 12	ٿيندي	آهي	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	SpaceAfter=No
@@ -225,11 +225,11 @@
 
 # sent_id = adabi_2_017
 # text = اسان جو مذهب به ان جي اجازت نٿو ڏئي.
-1	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1	3	nmod	_	_
+1	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	3	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	مذهب	مذهب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 4	به	به	PART	PART	_	3	advmod:emph	_	_
-5	ان	ان	DET	PRD	Case=Acc|Number=Sing	7	nmod	_	_
+5	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	nmod	_	_
 6	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	5	case	_	_
 7	اجازت	اجازت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	_
 8	نٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Polarity=Neg|Tense=Pres	9	aux	_	_
@@ -272,11 +272,11 @@
 8	خبر	خبر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	cop	_	_
 10	۽	۽	CCONJ	CC	_	12	cc	_	_
-11	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-12	هيءُ	هيءُ	DET	PRD	Case=Nom|Number=Sing	8	conj	_	_
+11	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	nsubj	_	_
+12	هيءُ	هيءُ	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	8	conj	_	_
 13	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	12	cop	_	_
 14	ته	ته	SCONJ	CS	_	12	mark	_	_
-15	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	17	det	_	_
+15	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
 16	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
 17	سو	سو	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 18	گابو	گابو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
@@ -295,8 +295,8 @@
 1	تنهنڪري	تنهنڪري	SCONJ	CS	_	7	mark	_	_
 2	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	7	obl	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
-4	هر	هر	DET	PRD	Case=Nom|Number=Sing	6	det	_	_
-5	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+4	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	6	det	_	_
+5	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	حق	حق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	حاصل	حاصل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 8	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	7	cop	_	_
@@ -337,7 +337,7 @@
 
 # sent_id = adabi_2_026
 # text = اهو ٻڌي چيتي هڪ وڏو ٽهڪ ڏنو ۽ گجگوڙ ڪندي چيو،
-1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
 2	ٻڌي	ٻڌ	VERB	VM	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
 3	چيتي	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 4	هڪ	هڪ	NUM	NUM	_	6	nummod	_	_
@@ -372,7 +372,7 @@
 # sent_id = adabi_2_029
 # text = جي اها ڳالهه آهي ته پوءِ مون کي ٽن مهينن جي مهلت ڏي،
 1	جي	جي	SCONJ	CS	_	3	mark	_	_
-2	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+2	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
 5	ته	ته	SCONJ	CS	_	13	mark	_	_
@@ -388,7 +388,7 @@
 
 # sent_id = adabi_2_030
 # text = ان عرصي ۾ آءٌ توجهڙو ٿي ويندس.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	عرصي	عرصو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
 4	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
@@ -426,10 +426,10 @@
 8	مهينن	مهينو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	obl	_	_
 9	کان	کان	ADP	PSP	ExtPos=ADP	8	case	_	_
 10	پوءِ	پوءِ	ADP	PSP	_	9	fixed	_	_
-11	ان	ان	DET	PRD	Case=Acc|Number=Sing	12	det	_	_
+11	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	12	det	_	_
 12	هنڌ	هنڌ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	_
 13	۽	۽	CCONJ	CC	_	15	cc	_	_
-14	ان	ان	DET	PRD	Case=Acc|Number=Sing	15	det	_	_
+14	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	15	det	_	_
 15	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
 16	وري	وري	ADV	ADM	_	17	advmod	_	_
 17	ملنداسون	_	VERB	VMX	Aspect=Imp|Number=Plur|Person=1|Voice=Act	5	ccomp	_	SpaceAfter=No
@@ -450,8 +450,8 @@
 
 # sent_id = adabi_2_034
 # text = هو هر روز چانورن جي پوک ۾ ويندو هو ۽ اتي گپ ۽ چڪ ۾ ليٿڙيون پائيندو هو.
-1	هو	هو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-2	هر	هر	DET	PRD	Case=Nom|Number=Sing	3	det	_	_
+1	هو	هو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+2	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	3	det	_	_
 3	روز	روز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
 4	چانورن	چانور	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	4	case	_	_
@@ -485,11 +485,11 @@
 
 # sent_id = adabi_2_036
 # text = هن جي بدن تي جيڪا گپ چڪ لڳل هوندي هئي،
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	1	case	_	_
 3	بدن	بدن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 4	تي	تي	ADP	PSPL	_	3	case	_	_
-5	جيڪا	جيڪو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	6	det	_	_
+5	جيڪا	جيڪو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	گپ	گپ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 7	چڪ	چڪ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	_
 8	لڳل	لڳو	VERB	VM	Aspect=Perf|VerbForm=PastPart	0	root	_	_
@@ -499,11 +499,11 @@
 
 # sent_id = adabi_2_037
 # text = اها اُس ۾ سـُڪي هن جي جسم تي ڄمي ويندي هئي.
-1	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+1	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	nsubj	_	_
 2	اُس	اُس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
 4	سـُڪي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
-5	هن	هن	DET	PRD	Case=Acc|Number=Sing	7	nmod	_	_
+5	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	nmod	_	_
 6	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	5	case	_	_
 7	جسم	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 8	تي	تي	ADP	PSPL	_	7	case	_	_
@@ -517,9 +517,9 @@
 1	ٽن	ٽي	NUM	NUM	_	2	nummod	_	_
 2	مهينن	مهينو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
 3	تائين	تائين	ADP	PSPL	_	2	case	_	_
-4	هر	هر	DET	PRD	Case=Nom|Number=Sing	5	det	_	_
+4	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	5	det	_	_
 5	روز	روز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
-6	هو	هو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	هو	هو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
 7	ائين	ائين	ADV	ADM	_	8	obl	_	_
 8	ڪندو	ڪن	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	_
 9	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	8	aux	_	SpaceAfter=No
@@ -528,7 +528,7 @@
 # sent_id = adabi_2_039
 # text = جنهنڪري هن جي بدن تي گپ جو تهه ٿلهو ٿيندو ويو.
 1	جنهنڪري	جنهنڪري	ADV	ADV	_	10	advmod	_	_
-2	هن	هن	DET	PRD	Case=Acc|Number=Sing	4	nmod	_	_
+2	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
 4	بدن	بدن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 5	تي	تي	ADP	PSPL	_	4	case	_	_
@@ -553,7 +553,7 @@
 9	ٽن	ٽي	NUM	NUM	_	10	nummod	_	_
 10	مهينن	مهينو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
 11	۾	۾	ADP	PSPL	_	10	case	_	_
-12	هو	هو	DET	PRD	Case=Nom|Number=Sing	14	nsubj	_	_
+12	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	14	nsubj	_	_
 13	ديرو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
 14	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
 15	ٿي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	14	cop	_	_
@@ -609,9 +609,9 @@
 # sent_id = adabi_2_044
 # text = پر هن جي هر ڌڪ سان سانڊي جي بدن مان گپ جو هڪڙو چاپوڙو ڪِري ٿي پيو ۽ سانڊي کي رهنڊو به ڪونه ٿي لڳو.
 1	پر	پر	SCONJ	CS	_	15	mark	_	_
-2	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	nmod	_	_
+2	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
-4	هر	هر	DET	PRD	Case=Nom|Number=Sing	5	det	_	_
+4	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	5	det	_	_
 5	ڌڪ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
 6	سان	سان	ADP	PSP	_	5	case	_	_
 7	سانڊي	سانڊو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
@@ -648,7 +648,7 @@
 9	چڙهي	چڙهي	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 10	ويٺو	ويٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	9	compound	_	_
 11	۽	۽	CCONJ	CC	_	23	cc	_	_
-12	هن	هن	DET	PRD	Case=Acc|Number=Sing	14	det	_	_
+12	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	14	det	_	_
 13	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	12	case	_	_
 14	بدن	بدن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
 15	کي	کي	ADP	PSP	_	14	case	_	_
@@ -666,7 +666,7 @@
 # text = اهڙيءَ ريت هن چيتي جو سڄو بدن وڍي ٽـُڪي رتوڇاڻ ڪري ڇڏيو.
 1	اهڙيءَ	اهڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	ريت	ريت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obl	_	_
-3	هن	هن	DET	PRD	Case=Acc|Number=Sing	4	nmod	_	_
+3	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	4	nmod	_	_
 4	چيتي	چيتو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 5	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
 6	سڄو	سڄو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	7	amod	_	_
@@ -680,10 +680,10 @@
 
 # sent_id = adabi_2_047
 # text = انهيءَ هوندي به هن کي چڪ هڻندو رهيو، جنهنڪري جيتي جو سڄو بدن زخمن سان ڀرجي پيو.
-1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	هوندي	آهي	VERB	VM	Aspect=Imp|Number=Sing|Voice=Act	7	advcl	_	_
 3	به	به	PART	PART	_	2	advmod:emph	_	_
-4	هن	هن	DET	PRD	Case=Acc|Number=Sing	7	iobj	_	_
+4	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	iobj	_	_
 5	کي	کي	ADP	PSP	_	4	case	_	_
 6	چڪ	چڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
 7	هڻندو	هڻ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	0	root	_	_
@@ -718,8 +718,8 @@
 
 # sent_id = adabi_2_049
 # text = جيڪا هو سهي نه سگهيو ۽ پاڻ ڇڏائي سور کان دانهون ڪوڪون ڪندو ميدان ڇڏي وٺي ڀڳو.
-1	جيڪا	جيڪو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	_
-2	هو	هو	DET	PRD	Case=Nom|Number=Sing	3	nsubj	_	_
+1	جيڪا	جيڪو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	obj	_	_
+2	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	سهي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
 4	نه	نه	PART	PART	_	3	advmod	_	_
 5	سگهيو	سگهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing	3	aux	_	_
@@ -756,14 +756,14 @@
 # sent_id = adabi_2_051
 # text = اتي هن پنهنجي ساڄي ڪلهي کي ڏٺو ۽ ان کي پنهنجي چنبي سان ڇـُهيو ته اتي هڪ زخم هو.
 1	اتي	اتي	ADV	ADT	_	7	advmod	_	_
-2	هن	هن	DET	PRD	Case=Acc|Number=Sing	7	nsubj	_	_
+2	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	nsubj	_	_
 3	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	5	nmod	_	_
 4	ساڄي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
 5	ڪلهي	ڪلھو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 6	کي	کي	ADP	PSP	_	5	case	_	_
 7	ڏٺو	ڏٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 8	۽	۽	CCONJ	CC	_	14	cc	_	_
-9	ان	ان	DET	PRD	Case=Acc|Number=Sing	14	obj	_	_
+9	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	14	obj	_	_
 10	کي	کي	ADP	PSP	_	9	case	_	_
 11	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	12	nmod	_	_
 12	چنبي	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
@@ -778,7 +778,7 @@
 
 # sent_id = adabi_2_052
 # text = هن گهـُٽيل آواز ۾ چيو،
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	nsubj	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	nsubj	_	_
 2	گهـُٽيل	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	آواز	آواز	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
@@ -790,7 +790,7 @@
 1	سانڊي	سانڊو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nsubj	_	_
 2	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	8	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
-4	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
+4	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	det	_	_
 5	جاءِ	جاءِ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 6	تي	تي	ADP	PSPL	_	5	case	_	_
 7	چڪ	چڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
@@ -801,14 +801,14 @@
 # sent_id = adabi_2_054
 # text = وري هن پنهنجي کاٻي ڪلهي ڏانهن نهاريو ۽ ان کي به ڇهي ڏٺائين، ته اتي به هڪ زخم هو.
 1	وري	وري	ADV	ADM	_	7	advmod	_	_
-2	هن	هن	DET	PRD	Case=Acc|Number=Sing	7	nsubj	_	_
+2	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	nsubj	_	_
 3	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	5	nmod	_	_
 4	کاٻي	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
 5	ڪلهي	ڪلھو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 6	ڏانهن	ڏانهن	ADV	ADP	_	5	case	_	_
 7	نهاريو	نهار	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 8	۽	۽	CCONJ	CC	_	13	cc	_	_
-9	ان	ان	DET	PRD	Case=Acc|Number=Sing	13	iobj	_	_
+9	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	13	iobj	_	_
 10	کي	کي	ADP	PSP	_	9	case	_	_
 11	به	به	PART	PART	_	9	advmod:emph	_	_
 12	ڇهي	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	13	xcomp	_	_
@@ -824,9 +824,9 @@
 
 # sent_id = adabi_2_055
 # text = اهو ڏسي هن وري دانهن ڪئي،
-1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
 2	ڏسي	ڏس	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
-3	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	nsubj	_	_
+3	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	nsubj	_	_
 4	وري	وري	ADV	ADM	_	6	advmod	_	_
 5	دانهن	دانهن	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
 6	ڪئي	ڪئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
@@ -836,7 +836,7 @@
 # text = اڙي، هن مون کي هتي به چڪ هنيو آهي.
 1	اڙي	اڙي	INTJ	INTJ	_	9	vocative	_	SpaceAfter=No
 2	،	،	PUNCT	PUNCT	_	1	punct	_	_
-3	هن	هن	DET	PRD	Case=Acc|Number=Sing	9	nsubj	_	_
+3	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	9	nsubj	_	_
 4	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	9	iobj	_	_
 5	کي	کي	ADP	PSP	_	4	case	_	_
 6	هتي	هتي	ADV	ADT	_	9	advmod	_	_
@@ -865,7 +865,7 @@
 15	ڇهي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 16	ڏٺو	ڏٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	15	compound	_	_
 17	ته	ته	SCONJ	CS	_	20	mark	_	_
-18	هر	هر	DET	PRD	Case=Nom|Number=Sing	19	det	_	_
+18	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	19	det	_	_
 19	هنڌ	هنڌ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	obl	_	_
 20	زخم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	advcl	_	_
 21	هئا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	20	cop	_	SpaceAfter=No
@@ -874,7 +874,7 @@
 # sent_id = adabi_2_060
 # text = انهيءَ ماڻهوءَ جي دل ۾ پئي آيو ته وڏا وڏا ٽهڪ ڏيئي کلي،
 # orig_text = انهيءَ ماڻهوءَ جي دل ۾ پئي آيو ته وڏا وڏا ٽهڪ ڏيئي کلي، ڇاڪاڻ ته اهو ڏسي سچ پچ کل پئي آئي ته وڻ جي هيٺ هڪ تمام وڏو چيتو پنهنجي بدن تي لڳل انهن زخمن جي ڪري پئي رنو ۽ رڙيو، جيڪي هڪ ننڍڙي سانڊي هن کي هنيا هئا.
-1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	ماڻهوءَ	ماڻهوءَ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
 4	دل	دل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
@@ -894,7 +894,7 @@
 # orig_text = انهيءَ ماڻهوءَ جي دل ۾ پئي آيو ته وڏا وڏا ٽهڪ ڏيئي کلي، ڇاڪاڻ ته اهو ڏسي سچ پچ کل پئي آئي ته وڻ جي هيٺ هڪ تمام وڏو چيتو پنهنجي بدن تي لڳل انهن زخمن جي ڪري پئي رنو ۽ رڙيو، جيڪي هڪ ننڍڙي سانڊي هن کي هنيا هئا.
 1	ڇاڪاڻ	ڇاڪاڻ	SCONJ	CS	ExtPos=SCONJ	8	mark	_	_
 2	ته	ته	SCONJ	CS	_	1	fixed	_	_
-3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
 4	ڏسي	ڏس	VERB	VM	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
 5	سچ	سچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 6	پچ	پچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
@@ -913,7 +913,7 @@
 19	بدن	بدن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
 20	تي	تي	ADP	PSPL	_	19	case	_	_
 21	لڳل	لڳو	VERB	VM	Aspect=Perf|VerbForm=PastPart	23	acl	_	_
-22	انهن	ان	DET	PRD	Case=Acc|Number=Plur	23	det	_	_
+22	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	23	det	_	_
 23	زخمن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obl	_	_
 24	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	23	case	_	_
 25	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	26	advcl	_	_
@@ -926,7 +926,7 @@
 32	هڪ	هڪ	NUM	NUM	_	34	nummod	_	_
 33	ننڍڙي	ننڍڙو	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	34	amod	_	_
 34	سانڊي	سانڊو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_
-35	هن	هن	DET	PRD	Case=Acc|Number=Sing	37	iobj	_	_
+35	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	37	iobj	_	_
 36	کي	کي	ADP	PSP	_	35	case	_	_
 37	هنيا	ھڻ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	29	advcl	_	_
 38	هئا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	37	aux	_	SpaceAfter=No
@@ -934,7 +934,7 @@
 
 # sent_id = adabi_2_062
 # text = ان ماڻهوءَ پنهنجيءَ کل روڪڻ جي ڏاڍي ڪوشش ڪئي،
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	ماڻهوءَ	ماڻهوءَ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	پنهنجيءَ	پنهنجيءَ	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	4	nmod	_	_
 4	کل	کل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
@@ -948,13 +948,13 @@
 # sent_id = adabi_2_063
 # text = پر هن کان رهيو نه ٿيو ۽ هن زور سان هڪڙو ٽهڪ ڏنو،
 1	پر	پر	SCONJ	CS	_	4	mark	_	_
-2	هن	هن	DET	PRD	Case=Acc|Number=Sing	4	nsubj	_	_
+2	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	کان	کان	ADP	PSP	_	2	case	_	_
 4	رهيو	رهيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 5	نه	نه	PART	PART	_	4	dep	_	_
 6	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	aux	_	_
 7	۽	۽	CCONJ	CC	_	13	cc	_	_
-8	هن	هن	DET	PRD	Case=Acc|Number=Sing	13	nsubj	_	_
+8	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	13	nsubj	_	_
 9	زور	زور	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
 10	سان	سان	ADP	PSP	_	9	case	_	_
 11	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	_
@@ -986,13 +986,13 @@
 # sent_id = adabi_2_065
 # text = هن دل ۾ ويچاريو ته ڇا هن ماڻهوءَ مون کي ههڙيءَ حالت ۾ ڏسي ورتو آهي؟
 # orig_text = هن دل ۾ ويچاريو ته ڇا هن ماڻهوءَ مون کي ههڙيءَ حالت ۾ ڏسي ورتو آهي؟ انهيءَ تي هن کي ڏاڍي ڪاوڙ لڳي،
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	4	nsubj	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	دل	دل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 3	۾	۾	ADP	PSPL	_	4	mark	_	_
 4	ويچاريو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 5	ته	ته	SCONJ	CS	_	14	mark	_	_
 6	ڇا	ڇا	PRON	PRWH	_	14	obl	_	_
-7	هن	هن	DET	PRD	Case=Acc|Number=Sing	8	det	_	_
+7	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	8	det	_	_
 8	ماڻهوءَ	ماڻهوءَ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 9	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	14	obj	_	_
 10	کي	کي	ADP	PSP	_	9	case	_	_
@@ -1007,9 +1007,9 @@
 # sent_id = adabi_2_066
 # text = انهيءَ تي هن کي ڏاڍي ڪاوڙ لڳي،
 # orig_text = هن دل ۾ ويچاريو ته ڇا هن ماڻهوءَ مون کي ههڙيءَ حالت ۾ ڏسي ورتو آهي؟ انهيءَ تي هن کي ڏاڍي ڪاوڙ لڳي،
-1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	7	obl	_	_
+1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	obl	_	_
 2	تي	تي	ADP	PSPL	_	1	case	_	_
-3	هن	هن	DET	PRD	Case=Acc|Number=Sing	7	nsubj	_	_
+3	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	nsubj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
 5	ڏاڍي	ڏاڍي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	ڪاوڙ	ڪاوڙ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	_
@@ -1020,7 +1020,7 @@
 # text = ڇاڪاڻ ته هن جي مرضي نه هئي ته سانڊي کان هارائڻ جي خبر ماڻهن کي پوي.
 1	ڇاڪاڻ	ڇاڪاڻ	SCONJ	CS	ExtPos=SCONJ	5	mark	_	_
 2	ته	ته	SCONJ	CS	_	1	fixed	_	_
-3	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	nmod	_	_
+3	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
 5	مرضي	مرضي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	نه	نه	PART	PART	_	5	advmod	_	_
@@ -1039,7 +1039,7 @@
 # sent_id = adabi_2_068
 # text = تنهنڪري هو هڪدم وڻ تي چڙهي ويو ۽ گجگوڙ ڪري چوڻ لڳو، اڙي بند ڪر اها کي، کي، کي، نه ته هينئر جو هينئر توکي کائي هضم ٿو ڪريان.
 1	تنهنڪري	تنهنڪري	SCONJ	CS	_	6	mark	_	_
-2	هو	هو	DET	PRD	Case=Nom|Number=Sing	6	nsubj	_	_
+2	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	6	nsubj	_	_
 3	هڪدم	هڪدم	ADV	ADM	_	6	advmod	_	_
 4	وڻ	وڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
 5	تي	تي	ADP	PSPL	_	4	case	_	_
@@ -1054,7 +1054,7 @@
 14	اڙي	اڙي	INTJ	INTJ	_	16	vocative	_	_
 15	بند	بند	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	compound	_	_
 16	ڪر	ڪر	VERB	VM	Aspect=Imp|Number=Sing|Person=1	12	advcl	_	_
-17	اها	اها	DET	PRD	Case=Acc|Number=Sing	18	det	_	_
+17	اها	اها	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	18	det	_	_
 18	کي	کي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
 19	،	،	PUNCT	PUNCT	_	18	punct	_	_
 20	کي	کي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
@@ -1154,7 +1154,7 @@
 # text = مون کي هن جهنگ جي ديوتائن جو قسم آهي ته آءٌ اهو راز ڪنهن کي به ڪونه ٻڌائيندس.
 1	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	8	nsubj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
-3	هن	هن	DET	PRD	Case=Acc|Number=Sing	4	det	_	_
+3	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	4	det	_	_
 4	جهنگ	جهنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
 6	ديوتائن	ديوتا	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
@@ -1163,9 +1163,9 @@
 9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	cop	_	_
 10	ته	ته	SCONJ	CS	_	18	mark	_	_
 11	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	18	nsubj	_	_
-12	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	13	det	_	_
+12	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
-14	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing	18	obl	_	_
+14	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	18	obl	_	_
 15	کي	کي	ADP	PSP	_	14	case	_	_
 16	به	به	PART	PART	_	14	advmod:emph	_	_
 17	ڪونه	ڪونه	ADV	ADP	_	18	advmod	_	_
@@ -1197,9 +1197,9 @@
 6	به	به	PART	PART	_	5	advmod:emph	_	_
 7	کڻ	کڻ	VERB	VM	Aspect=Imp|Number=Sing|Person=2	0	root	_	_
 8	ته	ته	SCONJ	CS	_	15	mark	_	_
-9	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	10	det	_	_
+9	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
-11	هن	هن	DET	PRD	Case=Acc|Number=Sing	15	iobj	_	_
+11	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	15	iobj	_	_
 12	کي	کي	ADP	PSP	_	11	case	_	_
 13	به	به	PART	PART	_	11	advmod:emph	_	_
 14	نه	نه	PART	PART	_	15	dep	_	_
@@ -1208,7 +1208,7 @@
 
 # sent_id = adabi_2_079
 # text = انھيءَ تي ڪاٺير ڏٺو تہ وڻ تي ھڪڙو پکي ويٺو آھي.
-1	انھيءَ	_	DET	PRD	Case=Acc|Number=Sing	4	obl	_	_
+1	انھيءَ	_	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	4	obl	_	_
 2	تي	تي	ADP	PSPL	_	1	case	_	_
 3	ڪاٺير	ڪاٺير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	ڏٺو	ڏٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
@@ -1226,7 +1226,7 @@
 1	پر	پر	SCONJ	CS	_	5	mark	_	_
 2	چيتي	چيتو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
-4	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	5	det	_	_
+4	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	خبر	خبر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	نه	نه	PART	PART	_	5	advmod	_	_
 7	هئي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Past	5	cop	_	_
@@ -1241,7 +1241,7 @@
 
 # sent_id = adabi_2_081
 # text = هن چيتي ۽ سانڊي جي ويڙهه ڏٺي هئي ۽ هن چيتي جون ڳالهيون به ٻڌيون هيون ۽ هن جا زخم به ڏٺا هئا.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	7	nsubj	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	nsubj	_	_
 2	چيتي	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 3	۽	۽	CCONJ	CC	_	4	cc	_	_
 4	سانڊي	سانڊو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	conj	_	_
@@ -1250,7 +1250,7 @@
 7	ڏٺي	ڏٺو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 8	هئي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Past	7	aux	_	_
 9	۽	۽	CCONJ	CC	_	15	cc	_	_
-10	هن	هن	DET	PRD	Case=Acc|Number=Sing	15	nsubj	_	_
+10	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	15	nsubj	_	_
 11	چيتي	چيتو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
 12	جون	جو	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	11	case	_	_
 13	ڳالهيون	ڳاله	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	obj	_	_
@@ -1258,7 +1258,7 @@
 15	ٻڌيون	ٻڌ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	7	conj	_	_
 16	هيون	آهي	AUX	VAUX	Gender=Fem|Number=Plur|Person=3|Tense=Past	15	aux	_	_
 17	۽	۽	CCONJ	CC	_	22	cc	_	_
-18	هن	هن	DET	PRD	Case=Acc|Number=Sing	20	nmod	_	_
+18	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	20	nmod	_	_
 19	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	18	case	_	_
 20	زخم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	obj	_	_
 21	به	به	PART	PART	_	20	advmod:emph	_	_
@@ -1268,7 +1268,7 @@
 
 # sent_id = adabi_2_082
 # text = انـهيءَ تي ڪـاٺير پـنهنجي زال ۽ ٻارن جو قسم کنيو.
-1	انـهيءَ	_	DET	PRD	Case=Acc|Number=Sing	10	obl	_	_
+1	انـهيءَ	_	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	10	obl	_	_
 2	تي	تي	ADP	PSPL	_	1	case	_	_
 3	ڪـاٺير	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 4	پـنهنجي	_	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	5	nmod	_	_
@@ -1294,7 +1294,7 @@
 
 # sent_id = adabi_2_084
 # text = هن ڪاٺير کي چيو،
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	4	nsubj	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	ڪاٺير	ڪاٺير	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	SpaceAfter=No
@@ -1314,7 +1314,7 @@
 
 # sent_id = adabi_2_086
 # text = هيءَ ڳالهه تنهجي دل ۾ نه رهندي ۽ تون هنن کي وڃي ٻڌائيندين.
-1	هيءَ	هي	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+1	هيءَ	هي	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	تنهجي	_	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	4	nmod	_	_
 4	دل	دل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
@@ -1323,7 +1323,7 @@
 7	رهندي	رهندو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	0	root	_	_
 8	۽	۽	CCONJ	CC	_	13	cc	_	_
 9	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	13	nsubj	_	_
-10	هنن	هي	DET	PRD	Case=Acc|Number=Plur|Person=3	13	obj	_	_
+10	هنن	هي	DET	PRD	Case=Acc|Number=Plur|Person=3|PronType=Dem	13	obj	_	_
 11	کي	کي	ADP	PSP	_	10	case	_	_
 12	وڃي	وڃ	VERB	VM	Aspect=Perf|VerbForm=Conv	13	xcomp	_	_
 13	ٻڌائيندين	_	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	7	conj	_	SpaceAfter=No
@@ -1346,11 +1346,11 @@
 13	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	23	nsubj	_	_
 14	ڳوٺ	ڳوٺ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
 15	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	14	case	_	_
-16	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing	18	det	_	_
+16	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	18	det	_	_
 17	به	به	PART	PART	_	16	advmod:emph	_	_
 18	ماڻهوءَ	ماڻهوءَ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	_
 19	سان	سان	ADP	PSP	_	18	case	_	_
-20	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	21	det	_	_
+20	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
 21	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	obj	_	_
 22	نه	نه	PART	PART	_	23	dep	_	_
 23	ڪندس	ڪن	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	10	advcl	_	SpaceAfter=No
@@ -1396,19 +1396,19 @@
 8	۽	۽	CCONJ	CC	_	14	cc	_	_
 9	هر	هر	ADV	ADM	_	14	advmod	_	_
 10	هر	هر	ADV	ADM	_	9	compound:redup	_	_
-11	هن	هن	DET	PRD	Case=Acc|Number=Sing	14	nsubj	_	_
+11	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	14	nsubj	_	_
 12	کي	کي	ADP	PSP	_	11	case	_	_
 13	خيال	خيال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	_
 14	پئي	پيو	VERB	VM	Aspect=Imp|Voice=Act	4	conj	_	_
 15	آيو	آءَ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	14	compound	_	_
 16	ته	ته	SCONJ	CS	_	25	mark	_	_
-17	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	19	det	_	_
+17	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	19	det	_	_
 18	ٻن	ٻہ	NUM	NUM	Case=Acc	19	nummod	_	_
 19	ٽنگن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	nmod	_	_
 20	واري	وارو	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	19	case	_	_
 21	مخلوق	مخلوق	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
 22	تي	تي	ADP	PSPL	_	21	case	_	_
-23	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+23	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	25	nsubj	_	_
 24	به	به	PART	PART	_	23	advmod:emph	_	_
 25	اعتبار	اعتبار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	advcl	_	_
 26	ڪونهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	25	cop	_	SpaceAfter=No
@@ -1416,7 +1416,7 @@
 
 # sent_id = adabi_2_091
 # text = اهو نڀاڳو ڪاٺير پڪ سان پنهنجيءَ زال کي اهو راز ٻڌائيندو.
-1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	نڀاڳو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	ڪاٺير	ڪاٺير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 4	پڪ	پڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
@@ -1424,7 +1424,7 @@
 6	پنهنجيءَ	پنهنجيءَ	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	7	nmod	_	_
 7	زال	زال	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	iobj	_	_
 8	کي	کي	ADP	PSP	_	7	case	_	_
-9	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	10	det	_	_
+9	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
 11	ٻڌائيندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	11	punct	_	_
@@ -1433,16 +1433,16 @@
 # text = پوءِ جڏهن ڪو راز ڪنهن عورت کي معلوم ٿئي ٿو ته اهو راز، راز نٿو رهي.
 1	پوءِ	پوءِ	ADP	PSP	_	9	mark	_	_
 2	جڏهن	جڏهن	ADV	ADT	_	9	advmod	_	_
-3	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+3	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-5	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing	6	nsubj	_	_
+5	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	nsubj	_	_
 6	عورت	عورت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
 7	کي	کي	ADP	PSP	_	6	case	_	_
 8	معلوم	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	_
 9	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 10	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	9	aux	_	_
 11	ته	ته	SCONJ	CS	_	17	mark	_	_
-12	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	13	det	_	_
+12	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
 14	،	،	PUNCT	PUNCT	_	13	punct	_	_
 15	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	xcomp	_	_
@@ -1462,7 +1462,7 @@
 8	وٺڻ	وٺ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
 9	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	8	compound	_	_
 10	ته	ته	SCONJ	CS	_	16	mark	_	_
-11	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	12	det	_	_
+11	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 12	ڪاٺير	ڪاٺير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 13	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	14	nmod	_	_
 14	انجام	انجام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
@@ -1476,7 +1476,7 @@
 
 # sent_id = adabi_2_094
 # text = اها ڳالهه سوچي چيتو اُٿيو ۽ تکو تکو هلندو اچي ڪاٺير جي جهوپڙيءَ جي پٺيان اڱڻ ۾ بيٺو.
-1	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+1	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	_
 3	سوچي	سوچ	VERB	VM	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
 4	چيتو	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -1499,7 +1499,7 @@
 # sent_id = adabi_2_095
 # text = اتي هو جهوپڙيءَ جي ڀت کي ٽيڪ ڏيئي ويهي رهيو ۽ اندران ايندڙ آوازن کي ڌيان سان ٻڌڻ لڳو.
 1	اتي	اتي	ADV	ADT	_	9	advmod	_	_
-2	هو	هو	DET	PRD	Case=Nom|Number=Sing	9	nsubj	_	_
+2	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	9	nsubj	_	_
 3	جهوپڙيءَ	جهوپڙيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	3	case	_	_
 5	ڀت	ڀت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
@@ -1554,9 +1554,9 @@
 
 # sent_id = adabi_2_098
 # text = انهيءَ تي هن جي ٻارن کائونئس پڇيو، بابا، تون ڇو پيو کلين؟
-1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	7	obl	_	_
+1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	obl	_	_
 2	تي	تي	ADP	PSPL	_	1	case	_	_
-3	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	nmod	_	_
+3	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 5	ٻارن	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 6	کائونئس	_	ADP	PSPX	Case=Acc|Number=Sing|Person=3	7	obl	_	_
@@ -1586,7 +1586,7 @@
 
 # sent_id = adabi_2_101
 # text = اهو هڪڙو راز آهي.
-1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
 3	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	SpaceAfter=No
@@ -1594,7 +1594,7 @@
 
 # sent_id = adabi_2_102
 # text = هن جي ڌيءَ چوڻ لڳي،
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	ڌيءَ	ڌيءَ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 4	چوڻ	چوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
@@ -1605,9 +1605,9 @@
 # text = بابا، اهو راز اسان کي به ٻڌاءَ اسين به توسان گڏ کلون.
 1	بابا	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	8	discourse	_	SpaceAfter=No
 2	،	،	PUNCT	PUNCT	_	1	punct	_	_
-3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
-5	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1	8	iobj	_	_
+5	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	8	iobj	_	_
 6	کي	کي	ADP	PSP	_	5	case	_	_
 7	به	به	PART	PART	_	5	advmod:emph	_	_
 8	ٻڌاءَ	_	VERB	VM	Aspect=Imp|Number=Sing|Person=1	0	root	_	_
@@ -1629,9 +1629,9 @@
 6	ڌيءَ	ڌيءَ	NOUN	NN	Case=Voc|Gender=Fem|Number=Sing	15	vocative	_	SpaceAfter=No
 7	،	،	PUNCT	PUNCT	_	6	punct	_	_
 8	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	15	nsubj	_	_
-9	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	10	det	_	_
+9	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obj	_	_
-11	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing	15	iobj	_	_
+11	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	15	iobj	_	_
 12	کي	کي	ADP	PSP	_	11	case	_	_
 13	به	به	PART	PART	_	11	advmod:emph	_	_
 14	ڪونه	ڪونه	ADV	ADN	_	15	advmod	_	_
@@ -1667,7 +1667,7 @@
 
 # sent_id = adabi_2_107
 # text = انهيءَ تي ڪاٺير جي زال پنهنجن ٻارن کي چيو،
-1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	9	obl	_	_
+1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	9	obl	_	_
 2	تي	تي	ADP	PSPL	_	1	case	_	_
 3	ڪاٺير	ڪاٺير	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
@@ -1695,7 +1695,7 @@
 1	ڏسو	ڏسو	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
 2	نه	نه	PART	PART	_	1	advmod:emph	_	_
 3	ته	ته	SCONJ	CS	_	8	mark	_	_
-4	هن	هن	DET	PRD	Case=Acc|Number=Sing	8	nsubj	_	_
+4	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	8	nsubj	_	_
 5	ايترا	ايترو	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
 6	ته	ته	PART	PART	_	5	advmod:emph	_	_
 7	ٽهڪ	ٽهڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	obj	_	_
@@ -1714,7 +1714,7 @@
 
 # sent_id = adabi_2_110
 # text = اهو چئي،
-1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
 2	چئي	چئو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 3	،	،	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -1735,7 +1735,7 @@
 13	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	12	case	_	_
 14	وٽو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obj	_	_
 15	ڀري	ڀر	VERB	VM	Aspect=Perf|VerbForm=Conv	20	advcl	_	_
-16	هن	هن	DET	PRD	Case=Acc|Number=Sing	18	nmod	_	_
+16	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	18	nmod	_	_
 17	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	16	case	_	_
 18	چپن	چپ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obl	_	_
 19	تي	تي	ADP	PSPL	_	18	case	_	_
@@ -1777,7 +1777,7 @@
 
 # sent_id = adabi_2_114
 # text = هن جي زال وري جهوپڙيءَ ۾ هڪ ڪنڊ ۾ پيل تئونريءَ تي ليٽي پيئي.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	3	nmod	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	3	nmod	_	_
 2	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
 3	زال	زال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 4	وري	وري	ADV	ADM	_	10	advmod	_	_
@@ -1817,7 +1817,7 @@
 7	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	8	aux	_	_
 8	ڪيون	ڪيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	0	root	_	_
 9	ته	ته	SCONJ	CS	_	14	mark	_	_
-10	هن	هن	DET	PRD	Case=Acc|Number=Sing	14	nsubj	_	_
+10	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	14	nsubj	_	_
 11	کي	کي	ADP	PSP	_	10	case	_	_
 12	ائين	ائين	PRON	PRL	_	14	obl	_	_
 13	ٿي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	14	aux	_	_
@@ -1835,13 +1835,13 @@
 1	هوڏانهن	هوڏانهن	ADV	ADP	_	8	advmod	_	_
 2	زال	زال	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nsubj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
-4	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	8	obl	_	_
+4	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	8	obl	_	_
 5	ڪري	ڪري	ADP	PSP	_	4	case	_	_
 6	ننڊ	ننڊ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	_
 7	نٿي	آهي	AUX	VAUX	Polarity=Neg	8	aux	_	_
 8	آئي	آئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
 9	جو	جو	ADP	PSP	_	8	mark	_	_
-10	هوءَ	هوءَ	DET	PRD	Case=Nom|Number=Sing	19	nsubj	_	_
+10	هوءَ	هوءَ	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	19	nsubj	_	_
 11	به	به	PART	PART	_	10	advmod:emph	_	_
 12	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	13	nmod	_	_
 13	مڙس	مڙس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	_
@@ -1872,7 +1872,7 @@
 4	،	،	PUNCT	PUNCT	_	3	punct	_	_
 5	ها	ها	INTJ	INTJ	_	13	discourse	_	SpaceAfter=No
 6	!	!	PUNCT	PUNCT	_	5	punct	_	_
-7	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	13	obl	_	_
+7	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	13	obl	_	_
 8	تي	تي	ADP	PSPL	_	7	case	_	_
 9	زال	زال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 10	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	11	nmod	_	_
@@ -1891,7 +1891,7 @@
 # text = نيٺ ڳالهه ڪهڙي آهي! هاڻي ته مون کي پنهنجو راز کڻي ٻڌاءِ.
 1	نيٺ	نيٺ	ADV	ADV	_	3	advmod	_	_
 2	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-3	ڪهڙي	ڪهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	ڪهڙي	ڪهڙو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	SpaceAfter=No
 5	!	!	PUNCT	PUNCT	_	3	punct	_	_
 6	هاڻي	هاڻ	ADV	ADT	_	13	advmod	_	_
@@ -1914,7 +1914,7 @@
 6	۽	۽	CCONJ	CC	_	12	cc	_	_
 7	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	8	nmod	_	_
 8	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
-9	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	12	det	_	_
+9	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 10	به	به	PART	PART	_	9	advmod:emph	_	_
 11	نه	نه	PART	PART	_	12	dep	_	_
 12	ٻڌندو	ٻڌ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	3	conj	_	SpaceAfter=No
@@ -1930,10 +1930,10 @@
 6	کنيو	کڻ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	2	advcl	_	_
 7	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	aux	_	_
 8	ته	ته	SCONJ	CS	_	16	mark	_	_
-9	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	10	det	_	_
+9	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	راز	راز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	_
 11	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	16	nsubj	_	_
-12	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing	16	iobj	_	_
+12	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	16	iobj	_	_
 13	کي	کي	ADP	PSP	_	12	case	_	_
 14	به	به	PART	PART	_	12	advmod:emph	_	_
 15	ڪونه	ڪونه	ADV	ADN	_	16	advmod	_	_
@@ -1952,7 +1952,7 @@
 # text = پر زال هن کي ليلائڻ ۽ منٿون ڪرڻ لڳي ۽ ڪاٺير نيٺ هار مڃي، زال کي چيتي ۽ سانڊي جي ويڙهه لڪي ڏسڻ واري ڳالهه پيرائتي ڪري ٻڌائي ۽ هن کي اهو به ٻڌايو ته انهيءَ ويڙهه ۾ چيتو پڇ پائي ميدان مان ڀڄي ويو ۽ اچي هڪڙي وڻ جي هيٺان ويٺو، جتي آءٌ ويٺو هوس.
 1	پر	پر	SCONJ	CS	_	9	mark	_	_
 2	زال	زال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
-3	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	obj	_	_
+3	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	obj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
 5	ليلائڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	9	advcl	_	_
 6	۽	۽	CCONJ	CC	_	7	cc	_	_
@@ -1980,13 +1980,13 @@
 28	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	29	xcomp	_	_
 29	ٻڌائي	ٻڌا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	9	conj	_	_
 30	۽	۽	CCONJ	CC	_	35	cc	_	_
-31	هن	هن	DET	PRD	Case=Acc|Number=Sing	35	iobj	_	_
+31	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	35	iobj	_	_
 32	کي	کي	ADP	PSP	_	31	case	_	_
-33	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	35	det	_	_
+33	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_
 34	به	به	PART	PART	_	33	advmod:emph	_	_
 35	ٻڌايو	ٻڌاءِ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	29	conj	_	_
 36	ته	ته	SCONJ	CS	_	45	mark	_	_
-37	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	38	det	_	_
+37	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	38	det	_	_
 38	ويڙهه	ويڙهه	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	45	obl	_	_
 39	۾	۾	ADP	PSPL	_	38	case	_	_
 40	چيتو	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	45	nsubj	_	_
@@ -2041,7 +2041,7 @@
 
 # sent_id = adabi_2_126
 # text = هن منهنجو سڄو بدن رتوڇاڻ ڪري ڇڏيو آهي.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	nsubj	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	nsubj	_	_
 2	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	4	nmod	_	_
 3	سڄو	سڄو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	4	amod	_	_
 4	بدن	بدن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
@@ -2053,10 +2053,10 @@
 
 # sent_id = adabi_2_127
 # text = اها ڳالهه ٻڌي هن جي زال به ساڻس کلڻ ۽ ٽهڪن ڏيڻ ۾ شامل ٿي ويئي.
-1	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+1	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	_
 3	ٻڌي	ٻڌ	VERB	VM	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
-4	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	nmod	_	_
+4	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
 6	زال	زال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 7	به	به	PART	PART	_	6	advmod:emph	_	_
@@ -2087,7 +2087,7 @@
 12	سان	سان	ADP	PSP	_	11	case	_	_
 13	ڪن	ڪن	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	obj	_	_
 14	ڏيو	ڏي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	18	advcl	_	_
-15	اهي	اهو	DET	PRD	Case=Nom|Number=Plur	17	det	_	_
+15	اهي	اهو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	17	det	_	_
 16	سڀئي	سڀ	ADJ	JJ	Case=Nom|PronType=Tot	17	amod	_	_
 17	ڳالهيون	ڳاله	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	obj	_	_
 18	پئي	پيو	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
@@ -2096,7 +2096,7 @@
 
 # sent_id = adabi_2_129
 # text = هن ڪاٺير کي به چرين وانگر ٽهڪ ڏيئي کلندي ٻڌو ۽ هاڻي هن جي زال به ٽهڪ پئي ڏنا.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	10	nsubj	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	10	nsubj	_	_
 2	ڪاٺير	ڪاٺير	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	به	به	PART	PART	_	2	advmod:emph	_	_
@@ -2108,7 +2108,7 @@
 10	ٻڌو	ٻڌ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 11	۽	۽	CCONJ	CC	_	19	cc	_	_
 12	هاڻي	هاڻ	ADV	ADT	_	19	advmod	_	_
-13	هن	هن	DET	PRD	Case=Acc|Number=Sing	15	nmod	_	_
+13	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	15	nmod	_	_
 14	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	13	case	_	_
 15	زال	زال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
 16	به	به	PART	PART	_	15	advmod:emph	_	_
@@ -2119,7 +2119,7 @@
 
 # sent_id = adabi_2_130
 # text = اهي ڳالهيون ۽ ٽهڪ ٻڌي چيتي کي ننهن کان وٺي چوٽيءَ تائين باهه وٺي ويئي.
-1	اهي	اهو	DET	PRD	Case=Nom|Number=Plur	2	det	_	_
+1	اهي	اهو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	2	det	_	_
 2	ڳالهيون	ڳاله	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	obj	_	_
 3	۽	۽	CCONJ	CC	_	4	cc	_	_
 4	ٽهڪ	ٽهڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
@@ -2173,7 +2173,7 @@
 
 # sent_id = adabi_2_134
 # text = جيڪا ڪکن جي ٺهيل هئي.
-1	جيڪا	جيڪو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+1	جيڪا	جيڪو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	ڪکن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	_
 3	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	ٺهيل	ٺهيو	VERB	VM	Aspect=Perf|VerbForm=PastPart	0	root	_	_
@@ -2211,7 +2211,7 @@
 # sent_id = adabi_2_136
 # text = پوءِ جنهن کٽ تي ڪاٺير ستو پيو هو،
 1	پوءِ	پوءِ	ADP	PSP	_	6	mark	_	_
-2	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
+2	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	3	nmod	_	_
 3	کٽ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
 4	تي	تي	ADP	PSPL	_	3	case	_	_
 5	ڪاٺير	ڪاٺير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -2223,13 +2223,13 @@
 # sent_id = adabi_2_137
 # text = چيتو ان جي هيٺان گهڙي ويو ۽ ان کٽ کي پنهنجن پٺن تي کڻي کليل دروازي مان ٻاهر نڪري ويو.
 1	چيتو	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-2	ان	ان	DET	PRD	Case=Acc|Number=Sing	5	obl	_	_
+2	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	obl	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
 4	هيٺان	هيٺ	ADV	ADP	_	5	advmod	_	_
 5	گهڙي	گهڙ	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 6	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	compound	_	_
 7	۽	۽	CCONJ	CC	_	19	cc	_	_
-8	ان	ان	DET	PRD	Case=Acc|Number=Sing	9	det	_	_
+8	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	9	det	_	_
 9	کٽ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
 10	کي	کي	ADP	PSP	_	9	case	_	_
 11	پنهنجن	پنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	12	nmod	_	_
@@ -2259,7 +2259,7 @@
 11	کلي	کلي	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
 12	ويئي	وڃ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	11	compound	_	_
 13	۽	۽	CCONJ	CC	_	16	cc	_	_
-14	هن	هن	DET	PRD	Case=Acc|Number=Sing	16	nsubj	_	_
+14	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	16	nsubj	_	_
 15	کي	کي	ADP	PSP	_	14	case	_	_
 16	لڳو	لڳو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	11	conj	_	_
 17	ته	ته	SCONJ	CS	_	19	mark	_	_
@@ -2299,7 +2299,7 @@
 
 # sent_id = adabi_2_141
 # text = هن کي ڊپ ٿيو ته هاڻي چيتو مارڻ کان سواءِ نه ڇڏيندو.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	3	nsubj	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	کي	کي	ADP	PSP	_	1	case	_	_
 3	ڊپ	ڊپ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	3	cop	_	_
@@ -2323,7 +2323,7 @@
 6	پر	پر	SCONJ	CS	_	4	mark	_	_
 7	اوڏي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
 8	مهل	مهل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	_
-9	هو	هو	DET	PRD	Case=Nom|Number=Sing	12	nsubj	_	_
+9	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	12	nsubj	_	_
 10	اهڙي	اهڙو	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
 11	هنڌان	هنڌي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
 12	پئي	پيو	VERB	VM	Aspect=Imp	13	xcomp	_	_
@@ -2339,7 +2339,7 @@
 
 # sent_id = adabi_2_143
 # text = ان وڻ جي هڪ وڏي ٽاري هيٺ پئي لڙڪي.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	وڻ	وڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
 4	هڪ	هڪ	NUM	NUM	_	6	nummod	_	_
@@ -2352,7 +2352,7 @@
 
 # sent_id = adabi_2_144
 # text = ان ٽاريءَ کي ڏسندي ئي ڪاٺير جهٽ ڏيئي ان کي جهليو ۽ ان تي چڙهندو وڻ تي چڙهي ويو.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	ٽاريءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	ڏسندي	ڏس	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart	11	advcl	_	_
@@ -2360,11 +2360,11 @@
 6	ڪاٺير	ڪاٺير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 7	جهٽ	جهٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 8	ڏيئي	ڏيئي	VERB	VM	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
-9	ان	ان	DET	PRD	Case=Acc|Number=Sing	11	obj	_	_
+9	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	11	obj	_	_
 10	کي	کي	ADP	PSP	_	9	case	_	_
 11	جهليو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 12	۽	۽	CCONJ	CC	_	18	cc	_	_
-13	ان	ان	DET	PRD	Case=Acc|Number=Sing	15	obl	_	_
+13	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	15	obl	_	_
 14	تي	تي	ADP	PSPL	_	13	case	_	_
 15	چڙهندو	چڙه	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	18	advcl	_	_
 16	وڻ	وڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
@@ -2382,7 +2382,7 @@
 5	نه	نه	PART	PART	_	6	advmod	_	_
 6	پيئي	پيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
 7	۽	۽	CCONJ	CC	_	14	cc	_	_
-8	هو	هو	DET	PRD	Case=Nom|Number=Sing	14	nsubj	_	_
+8	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	14	nsubj	_	_
 9	پنهنجن	پنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	11	nmod	_	_
 10	ئي	ئي	PART	PART	_	9	advmod:emph	_	_
 11	خيالن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
@@ -2486,7 +2486,7 @@
 4	پئي	پيو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	3	compound	_	SpaceAfter=No
 5	،	،	PUNCT	PUNCT	_	3	punct	_	_
 6	تنهن	_	ADV	ADT	_	11	nsubj	_	_
-7	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
+7	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 8	ڏسي	ڏس	VERB	VM	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
 9	رڙ	رڙ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
 10	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	11	xcomp	_	_
@@ -2565,16 +2565,16 @@
 
 # sent_id = adabi_2_155
 # text = انهيءَ کان پوءِ ڪاٺير يا ڪنهن ٻئي ماڻهوءَ وري اهو چيتو نه ڏٺو.
-1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing	13	obl	_	_
+1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	13	obl	_	_
 2	کان	کان	ADP	PSP	ExtPos=ADP	1	case	_	_
 3	پوءِ	پوءِ	ADP	PSP	_	2	fixed	_	_
 4	ڪاٺير	ڪاٺير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 5	يا	يا	CCONJ	CC	_	8	cc	_	_
-6	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing	8	det	_	_
+6	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	8	det	_	_
 7	ٻئي	ٻہ	ADJ	JJ	Case=Acc|Number=Sing	8	amod	_	_
 8	ماڻهوءَ	ماڻهوءَ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
 9	وري	وري	ADV	ADM	_	13	advmod	_	_
-10	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	11	det	_	_
+10	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	چيتو	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 12	نه	نه	PART	PART	_	13	dep	_	_
 13	ڏٺو	ڏٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
@@ -2589,7 +2589,7 @@
 5	شرم	شرم	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 6	وچان	وچان	ADP	PSP	_	5	case	_	_
 7	چيتو	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
-8	اهي	اهو	DET	PRD	Case=Nom|Number=Plur	9	det	_	_
+8	اهي	اهو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	9	det	_	_
 9	پٽ	پٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
 10	ڇڏي	ڇڏ	VERB	VM	Aspect=Perf|Number=Sing|Person=3	2	ccomp	_	SpaceAfter=No
 11	،	،	PUNCT	PUNCT	_	10	punct	_	_

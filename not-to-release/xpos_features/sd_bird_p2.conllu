@@ -20,7 +20,7 @@
 
 # sent_id = birdsofsindh_parrot_2
 # text = هن پيج جي شروعات فبروري 2019ع کان ڪئي.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	پيج	پيج	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	شروعات	شروعات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -33,7 +33,7 @@
 # sent_id = birdsofsindh_parrot_3
 # text = صرف ان مقصد خاطر ته پنهنجي ديس جي ماڻهن کي پکين ۽ ٻي جيوت جي باري ۾ درست ڄاڻ حاصل ٿئي.
 1	صرف	صرف	ADJ	JJ	_	3	amod	_	_
-2	ان	ان	DET	PRD	Case=Acc|Number=Sing	3	det	_	_
+2	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	3	det	_	_
 3	مقصد	مقصد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
 4	خاطر	خاطر	ADP	PSP	_	3	case	_	_
 5	ته	ته	SCONJ	CS	_	21	mark	_	_
@@ -59,16 +59,16 @@
 # text = ڇو ته اسان وٽ اهڙو معاشرو جڙي ويو آهي جنهن ۾ هر طرف صرف خود غرضي ۽ ذاتي مفاد جي تعليم ۽ تربيت عام ڪئي ويئي.
 1	ڇو	ڇو	PRON	PRWH	_	7	obl	_	_
 2	ته	ته	SCONJ	CS	_	7	mark	_	_
-3	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1	7	obl	_	_
+3	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	7	obl	_	_
 4	وٽ	وٽ	ADP	PSPL	_	3	case	_	_
-5	اهڙو	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+5	اهڙو	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	معاشرو	معاشرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	جڙي	جڙ	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 8	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	7	compound	_	_
 9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	7	aux	_	_
-10	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	25	obl	_	_
+10	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	25	obl	_	_
 11	۾	۾	ADP	PSPL	_	10	case	_	_
-12	هر	هر	DET	PRD	Case=Nom|Number=Sing	13	det	_	_
+12	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	13	det	_	_
 13	طرف	طرف	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	obl	_	_
 14	صرف	صرف	ADJ	JJ	Case=Nom	16	amod	_	_
 15	خود	خود	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
@@ -89,7 +89,7 @@
 # text = ماڻهن مان اهو احساس ئي مري چڪو آهي ته ڌرتيءَ تي هي نظام زندگي مال دولت، شهرت تي قائم ڪونهي پر فطرت جي اهڙي ميزان تي قائم آهي جنهن ۾ هر جيوت جو وجود اهم آهي.
 1	ماڻهن	ماڻهو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_
 2	مان	مان	ADP	PSPL	_	1	case	_	_
-3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	احساس	احساس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	ئي	ئي	PART	PART	_	4	advmod:emph	_	_
 6	مري	مر	VERB	VM	Aspect=Imp	0	root	_	_
@@ -98,7 +98,7 @@
 9	ته	ته	SCONJ	CS	_	20	mark	_	_
 10	ڌرتيءَ	ڌرتيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
 11	تي	تي	ADP	PSPL	_	10	case	_	_
-12	هي	هي	DET	PRD	Case=Nom|Number=Sing	13	det	_	_
+12	هي	هي	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	13	det	_	_
 13	نظام	نظام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
 14	زندگي	زندگي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
 15	مال	مال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_
@@ -116,9 +116,9 @@
 27	تي	تي	ADP	PSPL	_	26	case	_	_
 28	قائم	قائم	ADJ	JJ	Case=Nom|Degree=Pos	20	advcl	_	_
 29	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	28	cop	_	_
-30	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	36	obl	_	_
+30	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	36	obl	_	_
 31	۾	۾	ADP	PSPL	_	30	case	_	_
-32	هر	هر	DET	PRD	Case=Nom|Number=Sing	33	det	_	_
+32	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	33	det	_	_
 33	جيوت	جيوت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	35	nmod	_	_
 34	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	33	case	_	_
 35	وجود	وجود	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	_
@@ -128,11 +128,11 @@
 
 # sent_id = birdsofsindh_parrot_6
 # text = اسان جو معاشرو وري هر شئي کي دولت جي تارازي ۾ توريندو آهي.
-1	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1	3	nmod	_	_
+1	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	3	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	معاشرو	معاشرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 4	وري	وري	ADV	ADM	_	12	advmod	_	_
-5	هر	هر	DET	PRD	Case=Nom|Number=Sing	6	det	_	_
+5	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	6	det	_	_
 6	شئي	شئي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
 7	کي	کي	ADP	PSP	_	6	case	_	_
 8	دولت	دولت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
@@ -145,7 +145,7 @@
 
 # sent_id = birdsofsindh_parrot_7
 # text = اهڙي جاهل معاشري ۾ جيوت جي اهميت به ان ئي معيار مطابق طئي ٿيندي آهي ته مارڪيٽ م ڪهڙي پکي يا جانور جي قيمت ۽ طلب ڪيتري وڌيڪ آهي ۽ پوء ان مطابق اهي جانور ۽ پکي ماريا ويندا آهن يا ڦاسائي وڪرو ڪيا ويندا آهن.
-1	اهڙي	اهڙو	DET	PRD	Case=Acc|Gender=Fem|Number=Sing	3	det	_	_
+1	اهڙي	اهڙو	DET	PRD	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 2	جاهل	جاهل	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
 3	معاشري	معاشرو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
@@ -153,7 +153,7 @@
 6	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	5	case	_	_
 7	اهميت	اهميت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 8	به	به	PART	PART	_	7	advmod:emph	_	_
-9	ان	ان	DET	PRD	Case=Acc|Number=Sing	11	nmod	_	_
+9	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	11	nmod	_	_
 10	ئي	ئي	PART	PART	_	9	advmod:emph	_	_
 11	معيار	معيار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
 12	مطابق	مطابق	ADP	PSP	_	11	case	_	_
@@ -163,7 +163,7 @@
 16	ته	ته	SCONJ	CS	_	28	mark	_	_
 17	مارڪيٽ	مارڪيٽ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	_
 18	م	م	ADP	PSPL	_	17	case	_	_
-19	ڪهڙي	ڪهڙو	DET	PRD	Case=Acc|Number=Sing	20	amod	_	_
+19	ڪهڙي	ڪهڙو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	20	amod	_	_
 20	پکي	پکي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nmod	_	_
 21	يا	يا	CCONJ	CC	_	22	cc	_	_
 22	جانور	جانور	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	conj	_	_
@@ -176,9 +176,9 @@
 29	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	28	cop	_	_
 30	۽	۽	CCONJ	CC	_	38	cc	_	_
 31	پوء	پوء	ADP	PSP	_	38	mark	_	_
-32	ان	ان	DET	PRD	Case=Acc|Number=Sing	38	obl	_	_
+32	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	38	obl	_	_
 33	مطابق	مطابق	ADP	PSP	_	32	case	_	_
-34	اهي	اهو	DET	PRD	Case=Nom|Number=Plur	35	det	_	_
+34	اهي	اهو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	35	det	_	_
 35	جانور	جانور	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	38	obj	_	_
 36	۽	۽	CCONJ	CC	_	37	cc	_	_
 37	پکي	پکي	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	35	conj	_	_
@@ -198,7 +198,7 @@
 1	اهڙي	اهڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	روش	روش	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 3	سبب	سبب	ADP	PSP	_	2	case	_	_
-4	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1	6	nmod	_	_
+4	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	6	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	4	case	_	_
 6	جنت	جنت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
 7	نظير	نظير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -236,7 +236,7 @@
 # sent_id = birdsofsindh_parrot_11
 # text = طوطو اسان جي سنڌ جي سونهن هو.
 1	طوطو	طوطو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-2	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1	4	nmod	_	_
+2	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
 4	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	6	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
@@ -270,11 +270,11 @@
 10	ڏسبا	ڏسبو	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Pass	0	root	_	_
 11	ها	آهي	AUX	VAUX	Mood=Sub|Number=Plur|Tense=Past	10	aux	_	_
 12	۽	۽	CCONJ	CC	_	22	cc	_	_
-13	هر	هر	DET	PRD	Case=Nom|Number=Sing	14	det	_	_
+13	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	14	det	_	_
 14	طرف	طرف	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obl	_	_
 15	فضا	فضا	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
 16	۾	۾	ADP	PSPL	_	15	case	_	_
-17	انهن	ان	DET	PRD	Case=Acc|Number=Plur	19	nmod	_	_
+17	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	19	nmod	_	_
 18	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	17	case	_	_
 19	ٻولين	ٻول	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	nmod	_	_
 20	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	19	case	_	_
@@ -286,7 +286,7 @@
 # sent_id = birdsofsindh_parrot_14
 # text = مگر اسان جي بي حسي سبب طوطي جو نسل ئي سنڌ ما ناپيد ٿي ويو آ.
 1	مگر	مگر	SCONJ	CS	_	13	mark	_	_
-2	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1	5	nmod	_	_
+2	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	5	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	2	case	_	_
 4	بي	بي	PART	PART	_	5	dep	_	_
 5	حسي	حسي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
@@ -309,11 +309,11 @@
 2	ڪٿي	ڪٿي	ADV	ADP	_	6	advmod	_	_
 3	مشڪل	مشڪل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
 4	سان	سان	ADP	PSP	_	3	case	_	_
-5	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+5	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	طوطو	طوطو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 7	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	cop	_	_
 8	ته	ته	SCONJ	CS	_	14	mark	_	_
-9	ان	ان	DET	PRD	Case=Acc|Number=Sing	14	obj	_	_
+9	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	14	obj	_	_
 10	کي	کي	ADP	PSP	_	9	case	_	_
 11	به	به	PART	PART	_	9	advmod:emph	_	_
 12	شڪاري	شڪار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -328,7 +328,7 @@
 2	حالت	حالت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
 4	جڏنهن	جڏنهن	ADV	ADT	_	10	advmod	_	_
-5	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	det	_	_
+5	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	det	_	_
 6	پيج	پيج	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 7	تان	تان	ADP	PSPL	_	6	case	_	_
 8	معلومات	معلومات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
@@ -370,7 +370,7 @@
 44	۾	۾	ADP	PSPL	_	43	mark	_	_
 45	اچن	اچ	VERB	VM	Aspect=Imp|Number=Plur|Person=3	31	advcl	_	_
 46	جيڪي	جيڪو	PRON	PRP	Case=Nom|Number=Plur	51	obj	_	_
-47	هو	هو	DET	PRD	Case=Nom|Number=Sing	51	nsubj	_	_
+47	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	51	nsubj	_	_
 48	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	49	nmod	_	_
 49	ننڍپڻ	ننڍپڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	51	obl	_	_
 50	۾	۾	ADP	PSPL	_	49	case	_	_
@@ -380,7 +380,7 @@
 
 # sent_id = birdsofsindh_parrot_17
 # text = ان نوجوان اوسي پاسي جي وڏڙن بزرگن کان معلومات ورتي ته طوطا ڪهڙيون شيون کائڻ پسند ڪندا آهن؟
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	نوجوان	نوجوان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 3	اوسي	اوسي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	_
 4	پاسي	پاسو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
@@ -392,7 +392,7 @@
 10	ورتي	ورتي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 11	ته	ته	SCONJ	CS	_	17	mark	_	_
 12	طوطا	طوطو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
-13	ڪهڙيون	ڪهڙي	DET	PRD	Case=Nom|Gender=Fem|Number=Plur	14	det	_	_
+13	ڪهڙيون	ڪهڙي	DET	PRD	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
 14	شيون	شي	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	obj	_	_
 15	کائڻ	کاءِ	VERB	VM	Aspect=Imp|VerbForm=Inf	17	advcl	_	_
 16	پسند	پسند	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	compound	_	_
@@ -402,10 +402,10 @@
 
 # sent_id = birdsofsindh_parrot_18
 # text = ان معلومات مطابق هن پنهنجي زمين ٽڪري تي سورج مکي، ساوا مرچ، فروٽ جا وڻ ٻوتا پوکڻ شروع ڪيا.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	معلومات	معلومات	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
 3	مطابق	مطابق	ADP	PSP	_	2	case	_	_
-4	هن	هن	DET	PRD	Case=Acc|Number=Sing	21	nsubj	_	_
+4	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	21	nsubj	_	_
 5	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	6	nmod	_	_
 6	زمين	زمين	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
 7	ٽڪري	ٽڪري	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
@@ -439,7 +439,7 @@
 10	کيس	کي	ADP	PSPX	Case=Acc|Number=Sing|Person=3	16	nsubj	_	_
 11	پهرين	پهرين	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
 12	ڪاميابي	ڪامياب	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obj	_	_
-13	ان	ان	DET	PRD	Case=Acc|Number=Sing	14	det	_	_
+13	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	14	det	_	_
 14	صورت	صورت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
 15	۾	۾	ADP	PSPL	_	14	case	_	_
 16	ملي	مل	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	5	advcl	_	_
@@ -467,7 +467,7 @@
 2	انتظار	انتظار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 3	کان	کان	ADP	PSP	_	2	case	_	_
 4	پوء	پوء	ADP	PSP	_	3	fixed	_	_
-5	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	nsubj	_	_
 6	وڏي	وڏي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 7	ڪاميابي	ڪامياب	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 8	هئي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Past	7	cop	_	SpaceAfter=No
@@ -475,7 +475,7 @@
 
 # sent_id = birdsofsindh_parrot_21
 # text = هن نوجوان پنهنجي زمين جي تڪري م  طوطن جي دعوت جو انتظام ڪيو ۽ طوطن سندس دعوت قبول ڪري ورتي تہ نوجوان انهن جي لاءِ گهر جو انتظام ڪيو.
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	نوجوان	نوجوان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 3	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	4	nmod	_	_
 4	زمين	زمين	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -497,7 +497,7 @@
 20	ورتي	ورتي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	19	compound	_	_
 21	تہ	تہ	SCONJ	CS	_	29	mark	_	_
 22	نوجوان	نوجوان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
-23	انهن	ان	DET	PRD	Case=Acc|Number=Plur	29	obl	_	_
+23	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	29	obl	_	_
 24	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	23	case	_	_
 25	لاءِ	لاءِ	ADP	PSP	_	23	case	_	_
 26	گهر	گهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	nmod	_	_
@@ -551,15 +551,15 @@
 9	جوڙي	جوڙو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
 10	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	9	case	_	_
 11	نظر	نظر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
-12	انهن	ان	DET	PRD	Case=Acc|Number=Plur	13	det	_	_
+12	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	13	det	_	_
 13	گهرن	گهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
 14	تي	تي	ADP	PSPL	_	13	case	_	_
 15	پئجي	پئج	VERB	VM	Aspect=Imp|Voice=Pass	0	root	_	_
 16	وئي	وئي	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	15	compound	_	_
 17	۽	۽	CCONJ	CC	_	29	cc	_	_
-18	هو	هو	DET	PRD	Case=Nom|Number=Sing	23	nsubj	_	_
+18	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	23	nsubj	_	_
 19	روزانو	روز	ADV	ADV	_	23	advmod	_	_
-20	انهن	ان	DET	PRD	Case=Acc|Number=Plur	22	nmod	_	_
+20	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	22	nmod	_	_
 21	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	20	case	_	_
 22	جائزو	جائزو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	obj	_	_
 23	وٺڻ	وٺ	VERB	VM	Aspect=Imp|VerbForm=Inf	29	advcl	_	_
@@ -573,7 +573,7 @@
 
 # sent_id = birdsofsindh_parrot_24
 # text = ان دوران هڪڙي گهر تي چٻرن جي جوڙي قبضو ڄمائي ورتو.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	10	obl	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	10	obl	_	_
 2	دوران	دوران	ADP	PSP	_	1	case	_	_
 3	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	_
 4	گهر	گهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
@@ -631,7 +631,7 @@
 # text = گذريل سال هنن ئي ڏينهن ۾ مان بہ سندس رهائش تي ويو هيم ۽ هن نوجوان جي محنت ۽ جذبو پنهنجي اکين سان ڏسي آيو هيم.
 1	گذريل	گذريو	VERB	VM	Aspect=Perf|VerbForm=PastPart	2	amod	_	_
 2	سال	سال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
-3	هنن	هي	DET	PRD	Case=Acc|Number=Plur	5	det	_	_
+3	هنن	هي	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	5	det	_	_
 4	ئي	ئي	PART	PART	_	3	advmod:emph	_	_
 5	ڏينهن	ڏينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 6	۾	۾	ADP	PSPL	_	5	case	_	_
@@ -643,7 +643,7 @@
 12	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 13	هيم	آهي	AUX	VAUXX	Number=Sing|Person=1	12	aux	_	_
 14	۽	۽	CCONJ	CC	_	24	cc	_	_
-15	هن	هن	DET	PRD	Case=Acc|Number=Sing	16	det	_	_
+15	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	16	det	_	_
 16	نوجوان	نوجوان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
 17	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	16	case	_	_
 18	محنت	محنت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	obj	_	_
@@ -659,7 +659,7 @@
 
 # sent_id = birdsofsindh_parrot_28
 # text = ان وقت طوطن جو جوڙو ڌڻي بخش جي لڳايل مصنوعي گهر سان مانوس ٿي چڪو هو.
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obl	_	_
 3	طوطن	طوطو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_
 4	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
@@ -686,7 +686,7 @@
 5	اندر	اندر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	_
 6	پئي	پيو	VERB	VM	Aspect=Imp|Voice=Act	7	xcomp	_	_
 7	گذاريو	گذار	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
-8	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3	10	obl	_	_
+8	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	10	obl	_	_
 9	مان	مان	ADP	PSPL	_	8	case	_	_
 10	لڳي	لڳ	VERB	VM	Aspect=Imp	7	conj	_	_
 11	پيو	پيو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	10	compound	_	_
@@ -721,7 +721,7 @@
 
 # sent_id = birdsofsindh_parrot_31
 # text = اهو ڏسي کيس بيحد خوشي ٿي ته اندر طوطن جو هڪڙو ٻچو موجود هو جڏنهن ته 2 آنا ثابت موجود هئا جيڪي شايد خراب ٿي چڪا هئا.
-1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+1	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
 2	ڏسي	ڏس	VERB	VM	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
 3	کيس	کي	ADP	PSPX	Case=Acc|Number=Sing|Person=3	5	nsubj	_	_
 4	بيحد	بيحد	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_

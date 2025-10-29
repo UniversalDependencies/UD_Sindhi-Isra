@@ -5,7 +5,7 @@
 3	اسلم	اسلم	PROPN	NNP	Case=Nom|Gender=Masc	5	obj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
 5	ماري	مار	VERB	VM	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
-6	هنن	هي	DET	PRD	Case=Acc|Number=Plur	7	det	_	_
+6	هنن	هي	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	7	det	_	_
 7	ظلم	ظلم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	_
 8	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
@@ -14,13 +14,13 @@
 # text = گھوڙاڙي ! هُو ڇت تان ڪري پيو ۽ هوءَ ڏسندي رهي ،
 1	گھوڙاڙي	گھوڙاڙي	INTJ	INTJ	_	6	discourse	_	_
 2	!	!	PUNCT	PUNCT	_	1	punct	_	_
-3	هُو	هُو	DET	PRD	Case=Nom|Number=Sing	6	nsubj	_	_
+3	هُو	هُو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	6	nsubj	_	_
 4	ڇت	ڇت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 5	تان	تان	ADP	PSPL	_	4	case	_	_
 6	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 7	پيو	پيو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	6	compound	_	_
 8	۽	۽	CCONJ	CC	_	11	cc	_	_
-9	هوءَ	هوءَ	DET	PRD	Case=Nom|Number=Sing	11	det	_	_
+9	هوءَ	هوءَ	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	11	det	_	_
 10	ڏسندي	ڏس	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	11	xcomp	_	_
 11	رهي	ره	VERB	VM	Aspect=Imp|Number=Sing|Person=3	6	conj	_	_
 12	،	،	PUNCT	PUNCT	_	11	punct	_	_
@@ -55,7 +55,7 @@
 2	!	!	PUNCT	PUNCT	_	1	punct	_	_
 3	آءَ	آءَ	PRON	PRP	Case=Nom|Number=Sing|Person=1	9	nsubj	_	_
 4	تنهنجي	تنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=2	6	nmod	_	_
-5	هن	هن	DET	PRD	Case=Acc|Number=Sing	6	det	_	_
+5	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	det	_	_
 6	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
 7	مدد	مدد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	_
 8	نه	نه	PART	PART	_	9	advmod	_	_
@@ -67,7 +67,7 @@
 # text = مار ! هن ههڙو قهر ڪيو .
 1	مار	مار	INTJ	INTJ	_	6	discourse	_	_
 2	!	!	PUNCT	PUNCT	_	1	punct	_	_
-3	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	det	_	_
+3	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	det	_	_
 4	ههڙو	_	PRON	PRD	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
 5	قهر	قهر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	_
 6	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
