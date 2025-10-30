@@ -46,7 +46,7 @@
 2	،	،	PUNCT	PUNCT	_	1	punct	_	_
 3	سڌو	سڌو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	سنئون	سنئون	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	_
-5	چئون	_	VERB	VM	Aspect=Imp|Number=Plur|Person=3	0	root	_	_
+5	چئون	چئ	VERB	VM	Aspect=Imp|Number=Plur|Person=3	0	root	_	_
 6	تہ	تہ	SCONJ	CS	_	8	mark	_	_
 7	هڪ	هڪ	NUM	NUM	_	8	nummod	_	_
 8	بيري	بيري	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	_
@@ -178,7 +178,7 @@
 6	تمام	تمام	ADV	ADV	_	8	amod	_	_
 7	گھڻو	گھڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
-9	وپرائي	_	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	SpacesAfter=\s\s
+9	وپرائي	وپرائي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	SpacesAfter=\s\s
 10	ٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 
@@ -198,8 +198,8 @@
 12	1000	1000	NUM	NUM	_	13	nummod	_	_
 13	لٽر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nmod	_	_
 14	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
-15	گھربل	_	VERB	VM	Aspect=Imp|Voice=Act	6	acl:relcl	_	_
-16	ھوندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	15	compound	_	SpaceAfter=No
+15	گھربل	گھر	VERB	VM	Aspect=Imp|Voice=Act	6	acl:relcl	_	_
+16	ھوندو	آھي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	15	compound	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 
 # sent_id = avocado_9
@@ -217,7 +217,7 @@
 11	لٽر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nmod	_	_
 12	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 13	گهربل	_	VERB	VM	Aspect=Perf|Voice=Act	0	root	_	_
-14	ھوندو	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	13	compound	_	SpaceAfter=No
+14	ھوندو	آھي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	13	compound	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
 
 # sent_id = avocado_10
@@ -311,7 +311,7 @@
 6	قسم	قسم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
 7	۽	۽	CCONJ	CC	_	8	cc	_	_
 8	پڪل	پڪل	ADJ	JJ	Case=Nom|Degree=Pos	6	conj	_	_
-9	ھجڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	12	advcl	_	_
+9	ھجڻ	آھي	VERB	VM	Aspect=Imp|VerbForm=Inf	12	advcl	_	_
 10	تي	تي	ADP	PSPL	_	9	mark	_	_
 11	دارومدار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	_
 12	رکي	رک	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
