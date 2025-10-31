@@ -457,7 +457,7 @@
 6	نه	نه	PART	PART	_	7	dep	_	_
 7	رهندو	ره	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	7	punct	_	_
-9	ڇو	ڇو	SCONJ	CS	_	15	mark	_	_
+9	ڇو	ڇو	SCONJ	CS	ExtPos=SCONJ	15	mark	_	_
 10	ته	ته	SCONJ	CS	_	9	fixed	_	_
 11	چانور	چانور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 12	زندگيءَ	زندگيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
@@ -1591,8 +1591,8 @@
 
 # sent_id = 3610
 # text = ڇو ته آئين ۾ ايڊمنسٽريٽر يا نگران مقرر ڪرڻ جي ڪابه گنجائش ناهي،
-1	ڇو	ڇو	ADV	ADV	_	12	advmod	_	_
-2	ته	ته	PART	PART	_	1	advmod:emph	_	_
+1	ڇو	ڇو	SCONJ	CS	ExtPos=SCONJ	12	mark	_	_
+2	ته	ته	SCONJ	CS	_	1	fixed	_	_
 3	آئين	آئين	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
 5	ايڊمنسٽريٽر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
