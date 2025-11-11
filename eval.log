@@ -1,56 +1,79 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Sindhi-Isra:
-commit cdb473b745e40de4741c76dc1051f78c96dccc90
+commit 2957054bb691e8a5acd39412fc1ae3e45d4d6f40
+Merge: f9af227 06ab8d6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 22:39:16 2025 +0200
-Size: counted 15741 of 15741 words (nodes).
-Size: min(0, log((N/1000)**2)) = 5.51253754674537.
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'sd_isra'
+Language code (from CoNLL-U file name) = 'sd'
+Found the following data files: sd_isra-ud-dev.conllu, sd_isra-ud-test.conllu, sd_isra-ud-train.conllu
+Size: counted 95227 of 95227 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.11252703006402.
 Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
+Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 10973 out of 15741 total words have one or more features.
+Features: 66952 out of 95227 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
-Universal relations: 30 out of 37 found in the corpus.
+Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL       2970
-Udapi: found 2970 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 15741 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sd --max-err=10 UD_Sindhi-Isra/sd_isra-ud-dev.conllu
-[Line 586 Sent Kawish-20100810-423 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ڪو نه ڪو' does not have the 'ExtPos' feature
-[Line 2809 Sent Kawish-20100810-604 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
-[Line 3411 Sent Kawish-20100810-650 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'کان پوءِ' does not have the 'ExtPos' feature
-[Line 3823 Sent Kawish-20100810-680 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'کان پوءِ' does not have the 'ExtPos' feature
-[Line 4230 Sent Kawish-20100810-707 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'کان پوءِ' does not have the 'ExtPos' feature
-[Line 4981 Sent Kawish-20100810-745 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ته به' does not have the 'ExtPos' feature
-Warnings: 6
+[Line 31 Sent Kawish-20100810-380]: [L3 Warning pron-det-without-prontype] The word 'مونکي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 60 Sent Kawish-20100810-382]: [L3 Warning pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 89 Sent Kawish-20100810-384]: [L3 Warning pron-det-without-prontype] The word 'پاڻ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 148 Sent Kawish-20100810-387]: [L3 Warning pron-det-without-prontype] The word 'منهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 206 Sent Kawish-20100810-393]: [L3 Warning pron-det-without-prontype] The word 'تون' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 209 Sent Kawish-20100810-393]: [L3 Warning pron-det-without-prontype] The word 'سو' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 211 Sent Kawish-20100810-393]: [L3 Warning pron-det-without-prontype] The word 'جهڙو' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 235 Sent Kawish-20100810-395]: [L3 Warning pron-det-without-prontype] The word 'ڄڻ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 245 Sent Kawish-20100810-396]: [L3 Warning pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 285 Sent Kawish-20100810-399]: [L3 Warning pron-det-without-prontype] The word 'جي' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 454
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sd --max-err=10 UD_Sindhi-Isra/sd_isra-ud-test.conllu
-[Line 4261 Sent Kawish-20100810-178 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'جي لاءِ' does not have the 'ExtPos' feature
-[Line 5344 Sent Kawish-20100810-235 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
-[Line 5760 Sent Kawish-20100810-266 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ڇاڪاڻ ته' does not have the 'ExtPos' feature
-[Line 6200 Sent Kawish-20100810-300 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'کان پوءِ' does not have the 'ExtPos' feature
-Warnings: 4
+[Line 45 Sent Kawish-20100810-002]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'ڪلاڪن') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 80 Sent Kawish-20100810-004]: [L3 Warning obl-should-be-nmod] The parent (node [13] 'بندن') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 445 Sent Kawish-20100810-020]: [L3 Warning pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 552 Sent Kawish-20100810-022]: [L3 Warning pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 601 Sent Kawish-20100810-024]: [L3 Warning pron-det-without-prontype] The word 'پنهنجو' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 642 Sent Kawish-20100810-025]: [L3 Warning obl-should-be-nmod] The parent (node [34] 'ڪلواڙي') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1137 Sent Kawish-20100810-043]: [L3 Warning pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1376 Sent Kawish-20100810-050]: [L3 Warning pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1379 Sent Kawish-20100810-050]: [L3 Warning pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1381 Sent Kawish-20100810-050]: [L3 Warning pron-det-without-prontype] The word 'پاڻ' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 272
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sd --max-err=10 UD_Sindhi-Isra/sd_isra-ud-train.conllu
+[Line 98 Sent xpos_11]: [L3 Warning pron-det-without-prontype] The word 'آئون' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 106 Sent xpos_12]: [L3 Warning pron-det-without-prontype] The word 'اسين' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 114 Sent xpos_13]: [L3 Warning pron-det-without-prontype] The word 'مون' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 130 Sent xpos_15]: [L3 Warning pron-det-without-prontype] The word 'مون' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 151 Sent xpos_17]: [L3 Warning pron-det-without-prontype] The word 'جھڙا' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 158 Sent xpos_18]: [L3 Warning pron-det-without-prontype] The word 'ڇا' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 165 Sent xpos_19]: [L3 Warning pron-det-without-prontype] The word 'ڪھڙا' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 173 Sent xpos_20]: [L3 Warning pron-det-without-prontype] The word 'تون' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 206 Sent xpos_24]: [L3 Warning pron-det-without-prontype] The word 'ھو' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 213 Sent xpos_25]: [L3 Warning pron-det-without-prontype] The word 'ھو' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 1946
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.399010772972667) = 0.102310454608376
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.411186298778338) * (availability=1) * (validity=1) = 0.411186298778338
-STARS = 2
-UD_Sindhi-Isra	0.411186298778338	2
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.659586700891838) = 0.244291370700681
+(weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
+(weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
+(weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
+(TOTAL score=0.713448370838073) * (availability=1) * (validity=1) = 0.713448370838073
+STARS = 3.5
+UD_Sindhi-Isra	0.713448370838073	3.5
