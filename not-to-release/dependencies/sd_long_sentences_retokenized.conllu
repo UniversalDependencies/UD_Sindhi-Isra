@@ -29,11 +29,11 @@
 27	ڊويزن	ڊويزن	NOUN	_	_	31	nmod	_	_
 28	جو	جو	ADP	_	_	27	case	_	_
 29	ڊاڪٽر	ڊاڪٽر	NOUN	_	_	31	nmod	_	_
-30	تحسين	_	PROPN	_	_	31	compound	_	_
+30	تحسين	تحسين	PROPN	_	_	31	compound	_	_
 31	شيخ	شيخ	NOUN	_	_	11	conj	_	SpaceAfter=No
 32	،	،	PUNCT	_	_	35	punct	_	_
 33	ڊاڪٽر	ڊاڪٽر	NOUN	_	_	35	compound	_	_
-34	نصرالله	_	PROPN	_	_	35	compound	_	_
+34	نصرالله	نصرالله	PROPN	_	_	35	compound	_	_
 35	بلوچ	بلوچ	NOUN	_	_	11	conj	_	SpaceAfter=No
 36	،	،	PUNCT	_	_	38	punct	_	_
 37	آفتاب	آفتاب	PROPN	_	_	38	compound	_	_
@@ -80,7 +80,7 @@
 78	جميل	جميل	PROPN	_	_	79	compound	_	_
 79	دايو	دايو	PROPN	_	_	11	conj	_	SpaceAfter=No
 80	،	،	PUNCT	_	_	83	punct	_	_
-81	انجنيئر	_	NOUN	_	_	83	nmod	_	_
+81	انجنيئر	انجنيئر	NOUN	_	_	83	nmod	_	_
 82	نجم	_	PROPN	_	_	83	compound	_	_
 83	الدين	الدين	PROPN	_	_	11	conj	_	SpaceAfter=No
 84	،	،	PUNCT	_	_	88	punct	_	_
@@ -91,7 +91,7 @@
 89	،	،	PUNCT	_	_	92	punct	_	_
 90	برهان	_	PROPN	_	_	92	compound	_	_
 91	الدين	الدين	PROPN	_	_	92	compound	_	_
-92	ڪنڀار	_	NOUN	_	_	11	conj	_	SpaceAfter=No
+92	ڪنڀار	ڪنڀار	NOUN	_	_	11	conj	_	SpaceAfter=No
 93	،	،	PUNCT	_	_	95	punct	_	_
 94	عبدالجبار	_	PROPN	_	_	95	compound	_	_
 95	عارفاڻي	_	PROPN	_	_	11	conj	_	SpaceAfter=No
@@ -128,10 +128,10 @@
 5	پ	پ	NOUN	_	_	6	nmod	_	_
 6	سنڌ	سنڌ	PROPN	_	_	9	nmod	_	_
 7	جي	جي	ADP	_	_	6	case	_	_
-8	سڌ	_	PROPN	_	_	9	compound	_	_
-9	سماءَ	_	NOUN	_	_	11	nmod	_	_
+8	سڌ	سڌ	PROPN	_	_	9	compound	_	_
+9	سماءَ	سماءَ	NOUN	_	_	11	nmod	_	_
 10	جي	جي	ADP	_	_	9	case	_	_
-11	سيڪريٽرين	_	NOUN	_	_	13	nmod	_	_
+11	سيڪريٽرين	سيڪريٽري	NOUN	_	_	13	nmod	_	_
 12	جي	جي	ADP	_	_	11	case	_	_
 13	اجلاس	اجلاس	NOUN	_	_	17	obl	_	_
 14	۾	۾	ADP	_	_	13	case	_	_
@@ -150,7 +150,7 @@
 27	علي	علي	PROPN	_	_	28	compound	_	_
 28	زرداري	زرداري	NOUN	_	_	31	nmod	_	_
 29	جي	جي	ADP	_	_	28	case	_	_
-30	27	_	NUM	_	_	31	nummod	_	_
+30	27	27	NUM	_	_	31	nummod	_	_
 31	ڊسمبر	ڊسمبر	PROPN	_	_	39	obl	_	_
 32	تي	تي	ADP	_	_	31	case	_	_
 33	عملي	عملي	ADJ	_	_	34	amod	_	_
@@ -178,21 +178,21 @@
 # sent_id = 3843a
 # text = هڪ خانگي ٽي وي کي انٽرويو ڏيندي ناهيد خان چيو ته 27 ڊسمبر 2007 تي لياقت باغ جي جلسي کان پهرين بي بي شهيد تقريبن 3 وڳي جلسي گاهه ڏانهن رواني ٿي۔
 1	هڪ	هڪ	ADJ	_	_	4	amod	_	_
-2	خانگي	_	ADJ	_	_	4	amod	_	_
+2	خانگي	خانگي	ADJ	_	_	4	amod	_	_
 3	ٽي	ٽي	NOUN	_	_	4	nmod	_	_
 4	وي	_	NOUN	_	_	7	iobj	_	_
 5	کي	کي	ADP	_	_	4	case	_	_
-6	انٽرويو	_	NOUN	_	_	7	obj	_	_
+6	انٽرويو	انٽرويو	NOUN	_	_	7	obj	_	_
 7	ڏيندي	ڏي	VERB	_	_	10	advcl	_	_
 8	ناهيد	ناهيد	PROPN	_	_	9	compound	_	_
 9	خان	خان	NOUN	_	_	10	nsubj	_	_
 10	چيو	چئو	VERB	_	_	0	root	_	_
 11	ته	ته	SCONJ	_	_	31	mark	_	_
-12	27	_	NUM	_	_	13	nummod	_	_
+12	27	27	NUM	_	_	13	nummod	_	_
 13	ڊسمبر	ڊسمبر	PROPN	_	_	14	nmod	_	_
-14	2007	_	NUM	_	_	31	obl	_	_
+14	2007	2007	NUM	_	_	31	obl	_	_
 15	تي	تي	ADP	_	_	14	case	_	_
-16	لياقت	_	PROPN	_	_	17	compound	_	_
+16	لياقت	لياقت	PROPN	_	_	17	compound	_	_
 17	باغ	باغ	NOUN	_	_	19	nmod	_	_
 18	جي	جي	ADP	_	_	17	case	_	_
 19	جلسي	_	NOUN	_	_	31	obl	_	_
@@ -228,8 +228,8 @@
 3	ويجهو	ويجهو	ADV	_	_	14	advmod	_	_
 4	بينظير	بينظير	PROPN	_	_	5	compound	_	_
 5	ڀٽو	ڀٽو	NOUN	_	_	14	nsubj	_	_
-6	خالد	_	PROPN	_	_	7	compound	_	_
-7	شهنشاهه	_	PROPN	_	_	12	iobj	_	_
+6	خالد	خالد	PROPN	_	_	7	compound	_	_
+7	شهنشاهه	شهنشاهه	PROPN	_	_	12	iobj	_	_
 8	کي	کي	ADP	_	_	7	case	_	_
 9	گاڏي	گاڏي	NOUN	_	_	11	nmod	_	_
 10	جي	جي	ADP	_	_	9	case	_	_
@@ -244,11 +244,11 @@
 1	جنهن	جنهن	PRON	_	_	12	obl	_	_
 2	بعد	بعد	ADP	_	_	1	case	_	_
 3	شهيد	شهيد	NOUN	_	_	4	nmod	_	_
-4	راڻي	_	NOUN	_	_	12	nsubj	_	_
+4	راڻي	راڻي	NOUN	_	_	12	nsubj	_	_
 5	بيهي	بيه	VERB	_	_	12	advcl	_	_
 6	ڪارڪنن	ڪارڪن	NOUN	_	_	8	nmod	_	_
 7	جي	جي	ADP	_	_	6	case	_	_
-8	نعرن	_	NOUN	_	_	10	nmod	_	_
+8	نعرن	نعري	NOUN	_	_	10	nmod	_	_
 9	جو	جو	ADP	_	_	8	case	_	_
 10	جواب	جواب	NOUN	_	_	11	obj	_	_
 11	ڏيڻ	ڏي	VERB	_	_	12	xcomp	_	_
@@ -282,8 +282,8 @@
 # text = ڪارڪنن تالو ٽوڙي دروازو کوليو جنهن بعد محترمه اندر ويئي جلسو ختم ٿيو ته محترمه خوش ۽ مطمئن هئي۔
 1	ڪارڪنن	ڪارڪن	NOUN	_	_	5	nsubj	_	_
 2	تالو	_	NOUN	_	_	3	obj	_	_
-3	ٽوڙي	_	VERB	_	_	5	advcl	_	_
-4	دروازو	_	NOUN	_	_	5	obj	_	_
+3	ٽوڙي	ٽوڙ	VERB	_	_	5	advcl	_	_
+4	دروازو	دروازو	NOUN	_	_	5	obj	_	_
 5	کوليو	کول	VERB	_	_	0	root	_	_
 6	جنهن	جنهن	PRON	_	_	10	obl	_	_
 7	بعد	بعد	ADP	_	_	6	case	_	_
@@ -318,7 +318,7 @@
 13	CCTV	_	NOUN	_	_	14	nummod	_	_
 14	ڪيمرائون	ڪيمرا	NOUN	_	_	16	obj	_	_
 15	به	به	PART	_	_	14	advmod:emph	_	_
-16	لڳايون	_	VERB	_	_	9	advcl	_	_
+16	لڳايون	لڳاءِ	VERB	_	_	9	advcl	_	_
 17	ويون	ويو	VERB	_	_	16	compound	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	16	punct	_	_
 19	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
@@ -330,7 +330,7 @@
 1	پو‌	پو‌	ADV	_	_	14	advmod	_	_
 2	به	به	PART	_	_	1	advmod:emph	_	_
 3	ڪراچي	ڪراچي	PROPN	_	_	4	nmod	_	_
-4	جهڙي	_	PRON	_	_	6	nmod	_	_
+4	جهڙي	جهڙو	PRON	_	_	6	nmod	_	_
 5	اهم	اهم	ADJ	_	_	6	amod	_	_
 6	شهر	شهر	NOUN	_	_	14	obl	_	_
 7	۾	۾	ADP	_	_	6	case	_	_
@@ -348,39 +348,39 @@
 1	ان	ان	DET	_	_	17	obl	_	_
 2	بعد	بعد	ADP	_	_	1	case	_	_
 3	هن	هن	DET	_	_	4	det	_	_
-4	دکدائڪ	_	ADJ	_	_	5	amod	_	_
+4	دکدائڪ	دکدائڪ	ADJ	_	_	5	amod	_	_
 5	واقعي	واقعي	NOUN	_	_	8	nmod	_	_
 6	جي	جي	ADP	_	_	5	case	_	_
 7	ٻي	ٻہ	ADJ	_	_	8	amod	_	_
 8	ڪارروائيءَ	_	NOUN	_	_	17	obl	_	_
 9	۾	۾	ADP	_	_	8	case	_	_
-10	550	_	NUM	_	_	16	nummod	_	_
+10	550	550	NUM	_	_	16	nummod	_	_
 11	يا	يا	CCONJ	_	_	12	cc	_	_
 12	ان	ان	DET	_	_	10	conj	_	_
 13	کان	کان	ADP	_	_	10	case	_	_
 14	به	به	PART	_	_	10	advmod:emph	_	_
 15	وڌيڪ	وڌيڪ	ADJ	_	_	16	amod	_	_
 16	دوڪان	دوڪان	NOUN	_	_	17	obj	_	_
-17	ساڙي	_	VERB	_	_	0	root	_	_
-18	ڇڏڻ	_	VERB	_	_	17	compound	_	SpaceAfter=No
+17	ساڙي	ساڙ	VERB	_	_	0	root	_	_
+18	ڇڏڻ	ڇڏ	VERB	_	_	17	compound	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = 4683d
 # text = ۽ باهيون ڏئي لٽ مار ڪرڻ سميت باهه وسائڻ وارين گاڏين کي نقصان رسائڻ.
 1	۽	۽	CCONJ	_	_	6	cc	_	_
-2	باهيون	_	NOUN	_	_	3	obj	_	_
+2	باهيون	باه	NOUN	_	_	3	obj	_	_
 3	ڏئي	ڏئي	VERB	_	_	6	advcl	_	_
-4	لٽ	_	NOUN	_	_	5	nmod	_	_
+4	لٽ	لٽ	NOUN	_	_	5	nmod	_	_
 5	مار	مار	NOUN	_	_	6	compound	_	_
 6	ڪرڻ	ڪر	VERB	_	_	14	advcl	_	_
 7	سميت	سميت	ADP	_	_	6	dep	_	_
 8	باهه	باهه	NOUN	_	_	9	obj	_	_
-9	وسائڻ	_	VERB	_	_	11	nmod	_	_
-10	وارين	واري	ADP	_	_	9	mark	_	_
+9	وسائڻ	وساءِ	VERB	_	_	11	nmod	_	_
+10	وارين	وارو	ADP	_	_	9	mark	_	_
 11	گاڏين	گاڏي	NOUN	_	_	14	obj	_	_
 12	کي	کي	ADP	_	_	11	case	_	_
 13	نقصان	نقصان	NOUN	_	_	14	compound	_	_
-14	رسائڻ	_	VERB	_	_	0	root	_	SpaceAfter=No
+14	رسائڻ	رساءِ	VERB	_	_	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 4683e
@@ -390,14 +390,14 @@
 3	،	،	PUNCT	_	_	4	punct	_	_
 4	پوليس	پوليس	NOUN	_	_	2	conj	_	_
 5	۽	۽	CCONJ	_	_	7	cc	_	_
-6	خانگي	_	ADJ	_	_	7	amod	_	_
+6	خانگي	خانگي	ADJ	_	_	7	amod	_	_
 7	ماڻهن	ماڻهو	NOUN	_	_	9	nmod	_	_
 8	جي	جي	ADP	_	_	7	case	_	_
 9	گاڏين	گاڏي	NOUN	_	_	2	conj	_	_
 10	۽	۽	CCONJ	_	_	11	cc	_	_
 11	عمارتن	عمارت	NOUN	_	_	9	conj	_	_
 12	کي	کي	ADP	_	_	9	case	_	_
-13	باهيون	_	NOUN	_	_	14	obj	_	_
+13	باهيون	باه	NOUN	_	_	14	obj	_	_
 14	ڏيڻ	ڏي	VERB	_	_	20	advcl	_	_
 15	پٺيان	پٺيان	ADV	_	_	14	mark	_	_
 16	ڪهڙا	ڪهڙو	ADJ	_	_	17	amod	_	_
@@ -418,7 +418,7 @@
 6	ٿو	آهي	AUX	_	_	4	aux	_	_
 7	۽	۽	CCONJ	_	_	11	cc	_	_
 8	آهه	_	NOUN	_	_	10	conj	_	_
-9	و	_	CCONJ	_	_	8	cc	_	_
+9	و	و	CCONJ	_	_	8	cc	_	_
 10	پڪار	_	NOUN	_	_	11	xcomp	_	_
 11	ٿي	آهي	AUX	_	_	4	conj	_	_
 12	وڃي	وڃ	VERB	_	_	11	compound	_	_
@@ -442,7 +442,7 @@
 13	ئي	ئي	PART	_	_	12	advmod:emph	_	_
 14	سانحي	_	NOUN	_	_	30	obl	_	_
 15	کان	کان	ADP	_	_	14	case	_	_
-16	پوءِ	پوءِ	ADP	_	_	14	case	_	_
+16	پوءِ	پوءِ	ADP	_	_	15	fixed	_	_
 17	ڪراچيءَ	ڪراچيءَ	PROPN	_	_	18	nmod	_	_
 18	ڇا	ڇا	PRON	_	_	30	obl	_	_
 19	پر	پر	SCONJ	_	_	18	dep	_	_
@@ -479,9 +479,9 @@
 14	مارڪيٽ	مارڪيٽ	NOUN	_	_	19	obj	_	_
 15	کي	کي	ADP	_	_	14	case	_	_
 16	هزارين	هزار	ADJ	_	_	17	nummod	_	_
-17	دوڪانن	_	NOUN	_	_	19	obj	_	_
+17	دوڪانن	دوڪان	NOUN	_	_	19	obj	_	_
 18	کي	کي	ADP	_	_	17	case	_	_
-19	ساڙي	_	VERB	_	_	21	advcl	_	_
+19	ساڙي	ساڙ	VERB	_	_	21	advcl	_	_
 20	رک	رک	NOUN	_	_	21	compound	_	_
 21	بڻائي	بڻاءِ	VERB	_	_	5	advcl	_	_
 22	ٿي	آهي	AUX	_	_	21	aux	_	_
@@ -555,9 +555,9 @@
 # text = ۽ انهن دوڪانن جي سڙڻ سان اربين ورپين جي نقصان ٿيو آهي۔
 1	۽	۽	CCONJ	_	_	11	cc	_	_
 2	انهن	ان	DET	_	_	3	det	_	_
-3	دوڪانن	_	NOUN	_	_	5	obj	_	_
+3	دوڪانن	دوڪان	NOUN	_	_	5	obj	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
-5	سڙڻ	_	VERB	_	_	11	advcl	_	_
+5	سڙڻ	سڙ	VERB	_	_	11	advcl	_	_
 6	سان	سان	ADP	_	_	5	mark	_	_
 7	اربين	_	PROPN	_	_	8	nmod	_	_
 8	ورپين	_	NOUN	_	_	10	nmod	_	_
@@ -603,18 +603,18 @@
 11	کي	کي	ADP	_	_	10	case	_	_
 12	اطلاع	اطلاع	NOUN	_	_	13	compound	_	_
 13	ڏيڻ	ڏي	VERB	_	_	56	advcl	_	_
-14	بنا	_	ADP	_	_	13	mark	_	_
+14	بنا	بنا	ADP	_	_	13	mark	_	_
 15	سڄي	سڄي	ADJ	_	_	16	amod	_	_
 16	سنڌ	سنڌ	PROPN	_	_	35	obl	_	_
 17	۾	۾	ADP	_	_	16	case	_	_
 18	غير	غير	ADJ	_	_	19	amod	_	_
-19	ملڪين	_	NOUN	_	_	35	obj	_	_
+19	ملڪين	ملڪي	NOUN	_	_	35	obj	_	_
 20	کي	کي	ADP	_	_	19	case	_	_
 21	مسواڙ	_	NOUN	_	_	35	obl	_	_
 22	يا	يا	CCONJ	_	_	23	cc	_	_
 23	ليز	ليز	NOUN	_	_	21	conj	_	_
 24	تي	تي	ADP	_	_	21	case	_	_
-25	رهائشي	_	ADJ	_	_	26	amod	_	_
+25	رهائشي	رهائشي	ADJ	_	_	26	amod	_	_
 26	مقصد	مقصد	NOUN	_	_	35	obl	_	_
 27	لاءِ	لاءِ	ADP	_	_	26	case	_	_
 28	گهر	گهر	NOUN	_	_	35	obl	_	SpaceAfter=No
@@ -627,9 +627,9 @@
 35	ڏيڻ	ڏي	VERB	_	_	45	advcl	_	_
 36	تي	تي	ADP	_	_	35	mark	_	_
 37	قلم	قلم	NOUN	_	_	38	nummod	_	_
-38	144	_	NUM	_	_	45	obl	_	_
+38	144	144	NUM	_	_	45	obl	_	_
 39	تحت	تحت	ADP	_	_	38	case	_	_
-40	90	_	NUM	_	_	41	nummod	_	_
+40	90	90	NUM	_	_	41	nummod	_	_
 41	ڏينهن	ڏينهن	NOUN	_	_	45	obl	_	_
 42	لاءِ	لاءِ	ADP	_	_	41	case	_	_
 43	پابندي	پابندي	NOUN	_	_	45	obj	_	_
@@ -656,7 +656,7 @@
 3	کاتي	کاتو	NOUN	_	_	5	nmod	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
 5	اجازت	اجازت	NOUN	_	_	12	obl	_	_
-6	بنا	_	ADP	_	_	5	case	_	_
+6	بنا	بنا	ADP	_	_	5	case	_	_
 7	۽	۽	CCONJ	_	_	9	cc	_	_
 8	لاڳاپيل	_	VERB	_	_	9	acl	_	_
 9	ٿاڻي	ٿاڻو	NOUN	_	_	12	obj	_	_
@@ -664,11 +664,11 @@
 11	ڄاڻ	ڄاڻ	NOUN	_	_	12	compound	_	_
 12	ڏيڻ	ڏي	VERB	_	_	39	advcl	_	_
 13	کان	کان	ADP	_	_	12	mark	_	_
-14	بنا	_	ADP	_	_	12	mark	_	_
+14	بنا	بنا	ADP	_	_	12	mark	_	_
 15	ڪو	ڪو	DET	_	_	16	det	_	_
 16	پلاٽ	پلاٽ	NOUN	_	_	31	obl	_	SpaceAfter=No
 17	،	،	PUNCT	_	_	19	punct	_	_
-18	رهائشي	_	ADJ	_	_	19	amod	_	_
+18	رهائشي	رهائشي	ADJ	_	_	19	amod	_	_
 19	گهر	گهر	NOUN	_	_	16	conj	_	SpaceAfter=No
 20	،	،	PUNCT	_	_	19	punct	_	_
 21	بنگلو	بنگلو	NOUN	_	_	16	conj	_	SpaceAfter=No

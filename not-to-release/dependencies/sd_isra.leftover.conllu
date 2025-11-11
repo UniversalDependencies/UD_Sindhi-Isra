@@ -1,34 +1,47 @@
 # sent_id = 1146a
-# text = درٻار ختم ٿيڻ کان پوءِ بادشاهه گهڻ ڳالهائو وزير کان پڇيو، اڄ توکي ڇا ٿي ويو هو؟ اڄ ته تو ڪجهه به نه ڳالهايو؟
-1	درٻار	_	NOUN	_	_	3	obj	_	_
-2	ختم	ختم	ADJ	_	_	3	compound	_	_
-3	ٿيڻ	آهي	VERB	_	_	11	advcl	_	_
-4	کان	کان	ADP	_	_	3	mark	_	_
-5	پوءِ	پوءِ	ADP	_	_	3	mark	_	_
-6	بادشاهه	بادشاهه	NOUN	_	_	11	nsubj	_	_
-7	گهڻ	_	ADJ	_	_	8	amod	_	_
-8	ڳالهائو	_	NOUN	_	_	9	nmod	_	_
-9	وزير	وزير	NOUN	_	_	11	obl	_	_
-10	کان	کان	ADP	_	_	9	case	_	_
-11	پڇيو	پڇ	VERB	_	_	0	root	_	SpaceAfter=No
-12	،	،	PUNCT	_	_	11	punct	_	_
-13	اڄ	اڄ	ADV	_	_	16	advmod	_	_
-14	توکي	تو	PRON	_	_	16	obj	_	_
-15	ڇا	ڇا	PRON	_	_	16	obj	_	_
-16	ٿي	آهي	VERB	_	_	11	advcl	_	_
-17	ويو	ويو	VERB	_	_	16	compound	_	_
-18	هو	آهي	AUX	_	_	16	aux	_	SpaceAfter=No
-19	؟	؟	PUNCT	_	_	16	punct	_	_
-20	اڄ	اڄ	ADV	_	_	26	advmod	_	_
-21	ته	ته	PART	_	_	20	advmod:emph	_	_
-22	تو	تو	PRON	_	_	26	nsubj	_	_
-23	ڪجهه	ڪجهه	ADJ	_	_	26	obj	_	_
-24	به	به	PART	_	_	23	advmod:emph	_	_
-25	نه	نه	PART	_	_	26	dep	_	_
-26	ڳالهايو	_	VERB	_	_	16	advcl	_	SpaceAfter=No
-27	؟	؟	PUNCT	_	_	26	punct	_	_
+# text = درٻار ختم ٿيڻ کان پوءِ بادشاهه گهڻ ڳالهائو وزير کان پڇيو، اڄ توکي ڇا ٿي ويو هو؟
+1	درٻار	درٻار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	ختم	ختم	ADJ	JJ	Case=Nom|Degree=Pos	3	compound	_	_
+3	ٿيڻ	آهي	VERB	VM	Aspect=Imp|VerbForm=Inf	11	advcl	_	_
+4	کان	کان	ADP	PSP	_	3	mark	_	_
+5	پوءِ	پوءِ	ADP	PSP	_	4	fixed	_	_
+6	بادشاهه	بادشاهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	گهڻ	گهڻ	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	_
+8	ڳالهائو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	وزير	وزير	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+10	کان	کان	ADP	PSP	_	9	case	_	_
+11	پڇيو	پڇ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+12	،	،	PUNCT	PUNCT	_	11	punct	_	_
+13	اڄ	اڄ	ADV	ADT	_	17	advmod	_	_
+14	توکي	تو	PRON	PRP	Case=Nom|Number=Sing|Person=2	17	nsubj	_	_
+15	ڇا	ڇا	PRON	PRWH	_	17	obj	_	_
+16	ٿي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	17	aux	_	_
+17	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	11	advcl	_	_
+18	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	17	aux	_	SpaceAfter=No
+19	؟	؟	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 
 # sent_id = 1146b
+# text = اڄ ته تو ڪجهه به نه ڳالهايو؟
+1	اڄ	اڄ	ADV	ADT	_	7	advmod	_	_
+2	ته	ته	PART	PART	_	1	advmod:emph	_	_
+3	تو	تو	PRON	PRP	Case=Nom|Number=Sing|Person=2	7	nsubj	_	_
+4	ڪجهه	ڪجهه	ADJ	JJ	Case=Nom|Degree=Pos	7	obj	_	_
+5	به	به	PART	PART	_	4	advmod:emph	_	_
+6	نه	نه	PART	PART	_	7	advmod	_	_
+7	ڳالهايو	ڳالهاءِ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+8	؟	؟	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 1146c
+# text = وزير وراڻيو، اجازت ڏيئي ڇڏي،
+1	وزير	وزير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	وراڻيو	وراڻ	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	SpaceAfter=No
+3	،	،	PUNCT	PUNCT	_	2	punct	_	_
+4	اجازت	اجازت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
+5	ڏيئي	ڏيئي	VERB	VM	Aspect=Imp	2	advcl	_	_
+6	ڇڏي	ڇڏ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	5	compound	_	SpaceAfter=No
+7	،	،	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 1146d
 # text = وزير وراڻيو، بادشاهه سلامت! مون کي ته ڪيتريون ئي ضروري ڳالهيون ڪرڻيون هيون.
 1	وزير	وزير	NOUN	_	_	2	nsubj	_	_
 2	وراڻيو	وراڻ	VERB	_	_	0	root	_	SpaceAfter=No
@@ -43,7 +56,7 @@
 11	ئي	ئي	ADP	_	_	10	case	_	_
 12	ضروري	ضروري	ADJ	_	_	13	amod	_	_
 13	ڳالهيون	ڳاله	NOUN	_	_	14	obj	_	_
-14	ڪرڻيون	_	VERB	_	_	2	advcl	_	_
+14	ڪرڻيون	ڪر	VERB	_	_	2	advcl	_	_
 15	هيون	آهي	AUX	_	_	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -61,7 +74,7 @@
 10	ٿي	آهي	AUX	_	_	9	aux	_	_
 11	ته	ته	SCONJ	_	_	9	mark	_	_
 12	ڪو	ڪو	DET	_	_	13	det	_	_
-13	جيت	_	NOUN	_	_	14	nsubj	_	_
+13	جيت	جيت	NOUN	_	_	14	nsubj	_	_
 14	اچي	اچ	VERB	_	_	18	advcl	_	_
 15	ٿي	آهي	VERB	_	_	14	compound	_	_
 16	وات	وات	NOUN	_	_	18	obl	_	_
@@ -101,14 +114,14 @@
 9	ذخيره	_	NOUN	_	_	10	nmod	_	_
 10	اندوزي	_	NOUN	_	_	14	nsubj	_	_
 11	ان	ان	DET	_	_	12	det	_	_
-12	انتها	_	NOUN	_	_	14	obl	_	_
+12	انتها	انتها	NOUN	_	_	14	obl	_	_
 13	تي	تي	ADP	_	_	12	case	_	_
 14	پهتي	پهتو	VERB	_	_	5	advcl	_	_
 15	جو	جو	ADP	_	_	14	mark	_	_
 16	ماڻهن	ماڻهو	NOUN	_	_	29	nsubj	_	_
-17	80	_	NUM	_	_	22	nummod	_	SpaceAfter=No
+17	80	80	NUM	_	_	22	nummod	_	SpaceAfter=No
 18	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	70	_	NUM	_	_	17	nummod	_	_
+19	70	70	NUM	_	_	17	nummod	_	_
 20	۽	۽	CCONJ	_	_	22	cc	_	_
 21	ڪن	_	ADJ	_	_	22	amod	_	_
 22	حالتن	حالت	NOUN	_	_	29	obl	_	_
@@ -124,17 +137,17 @@
 # sent_id = 4599
 # text = ائين ننڍن صوبن جي مالياتي ايوارڊ گهڻ رخي بنياد تي ڪرڻ واري پراڻي مطالبي کي ڄڻ ته هن ڀيري مانُ ڏئي منظور ڪيو ويو.
 1	ائين	ائين	PRON	_	_	11	obl	_	_
-2	ننڍن	_	ADJ	_	_	3	amod	_	_
+2	ننڍن	ننڍو	ADJ	_	_	3	amod	_	_
 3	صوبن	صوبو	NOUN	_	_	5	nmod	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
 5	مالياتي	مالياتي	NOUN	_	_	6	nmod	_	_
 6	ايوارڊ	ايوارڊ	NOUN	_	_	11	obj	_	_
-7	گهڻ	_	ADJ	_	_	9	amod	_	_
-8	رخي	_	ADJ	_	_	9	amod	_	_
+7	گهڻ	گهڻ	ADJ	_	_	9	amod	_	_
+8	رخي	رخي	ADJ	_	_	9	amod	_	_
 9	بنياد	بنياد	NOUN	_	_	11	obl	_	_
 10	تي	تي	ADP	_	_	9	case	_	_
 11	ڪرڻ	ڪر	VERB	_	_	14	nmod	_	_
-12	واري	واري	ADP	_	_	11	mark	_	_
+12	واري	وارو	ADP	_	_	11	mark	_	_
 13	پراڻي	پراڻو	ADJ	_	_	14	amod	_	_
 14	مطالبي	_	NOUN	_	_	21	obj	_	_
 15	کي	کي	ADP	_	_	14	case	_	_
@@ -150,26 +163,43 @@
 25	.	.	PUNCT	_	_	23	punct	_	_
 
 # sent_id = 4601
-# text = جيڪا ايندڙ 2015-16ع تائين هلندي ۽ ائين سراسري طور مذڪوره ورڇ مطابق پنجاب کي 51.
-1	جيڪا	جيڪو	PRON	_	_	8	nsubj	_	_
-2	ايندڙ	ايندو	VERB	_	_	3	acl	_	_
-3	2015	_	NUM	_	_	6	nummod	_	SpaceAfter=No
-4	-	-	PUNCT	_	_	5	cc	_	SpaceAfter=No
-5	16	16	NUM	_	_	3	nummod	_	SpaceAfter=No
-6	ع	_	NOUN	_	_	8	obl	_	_
-7	تائين	تائين	ADP	_	_	6	case	_	_
-8	هلندي	هل	VERB	_	_	0	root	_	_
-9	۽	۽	CCONJ	_	_	18	cc	_	_
-10	ائين	ائين	PRON	_	_	12	nmod	_	_
-11	سراسري	سراسري	ADJ	_	_	12	amod	_	_
-12	طور	طور	NOUN	_	_	18	nmod	_	_
-13	مذڪوره	_	ADJ	_	_	14	amod	_	_
-14	ورڇ	ورڇ	NOUN	_	_	18	nmod	_	_
-15	مطابق	مطابق	ADP	_	_	14	case	_	_
-16	پنجاب	پنجاب	PROPN	_	_	18	nummod	_	_
-17	کي	کي	ADP	_	_	16	case	_	_
-18	51	_	NUM	_	_	8	nummod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	8	punct	_	_
+# text = جيڪا ايندڙ 2015-16ع تائين هلندي ۽ ائين سراسري طور مذڪوره ورڇ مطابق پنجاب کي 51 سيڪڙو، سنڌ کي 24 سيڪڙو، سرحد کي 14 سيڪڙو ۽ بلوچستان کي 9 سيڪڙو حصو ملندو.
+1	جيڪا	جيڪو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	ايندڙ	ايندو	VERB	VM	Aspect=Imp|VerbForm=Vnoun	3	acl	_	_
+3	2015	2015	NUM	NUM	_	7	obl	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	16ع	16ع	NUM	NUM	_	3	conj	_	_
+6	تائين	تائين	ADP	PSPL	_	3	case	_	_
+7	هلندي	هل	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	0	root	_	_
+8	۽	۽	CCONJ	CC	_	35	cc	_	_
+9	ائين	ائين	PRON	PRL	_	11	nmod	_	_
+10	سراسري	سراسري	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	_
+11	طور	طور	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	35	obl	_	_
+12	مذڪوره	مذڪوره	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	ورڇ	ورڇ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	obl	_	_
+14	مطابق	مطابق	ADP	PSP	_	13	case	_	_
+15	پنجاب	پنجاب	PROPN	NNP	Case=Nom|Gender=Masc	35	iobj	_	_
+16	کي	کي	ADP	PSP	_	15	case	_	_
+17	51	51	NUM	NUM	_	18	nummod	_	_
+18	سيڪڙو	سيڪڙو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
+19	،	،	PUNCT	PUNCT	_	20	punct	_	_
+20	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	18	conj	_	_
+21	کي	کي	ADP	PSP	_	20	case	_	_
+22	24	24	NUM	NUM	_	23	nummod	_	_
+23	سيڪڙو	سيڪڙو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+24	،	،	PUNCT	PUNCT	_	23	punct	_	_
+25	سرحد	سرحد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	conj	_	_
+26	کي	کي	ADP	PSP	_	25	case	_	_
+27	14	14	NUM	NUM	_	28	nummod	_	_
+28	سيڪڙو	سيڪڙو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	conj	_	_
+29	۽	۽	CCONJ	CC	_	30	cc	_	_
+30	بلوچستان	بلوچستان	PROPN	NNP	Case=Nom|Gender=Masc	28	conj	_	_
+31	کي	کي	ADP	PSP	_	30	case	_	_
+32	9	9	NUM	NUM	_	33	nummod	_	_
+33	سيڪڙو	سيڪڙو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	34	nmod	_	_
+34	حصو	حصو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	obj	_	_
+35	ملندو	مل	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	7	conj	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
 
 # sent_id = 4803
 # text = جڏهن ته سوات ۾ سرچ آپريشن 100 شڪي گرفتار ڪيا ويا آهن،
@@ -177,7 +207,7 @@
 2	ته	ته	SCONJ	_	_	10	mark	_	_
 3	سوات	سوات	PROPN	_	_	10	obl	_	_
 4	۾	۾	ADP	_	_	3	case	_	_
-5	سرچ	_	NOUN	_	_	6	compound	_	_
+5	سرچ	سرچ	NOUN	_	_	6	compound	_	_
 6	آپريشن	آپريشن	NOUN	_	_	10	nsubj	_	_
 7	100	100	NUM	_	_	8	nummod	_	_
 8	شڪي	_	NOUN	_	_	10	obj	_	_
@@ -196,10 +226,10 @@
 5	وڌيڪ	_	ADV	_	_	6	compound	_	_
 6	چيو	چئو	VERB	_	_	0	root	_	_
 7	ته	ته	SCONJ	_	_	20	mark	_	_
-8	رياست	_	NOUN	_	_	11	obl	_	_
+8	رياست	رياست	NOUN	_	_	11	obl	_	_
 9	لاءِ	لاءِ	ADP	_	_	8	case	_	_
 10	خطرو	خطرو	NOUN	_	_	11	compound	_	_
-11	بڻجندڙ	_	VERB	_	_	12	acl	_	_
+11	بڻجندڙ	بڻج	VERB	_	_	12	acl	_	_
 12	شرپسندن	شرپسند	NOUN	_	_	20	obj	_	_
 13	کي	کي	ADP	_	_	12	case	_	_
 14	هر	هر	DET	_	_	15	det	_	_
@@ -208,7 +238,7 @@
 17	شڪست	شڪست	NOUN	_	_	20	obj	_	_
 18	کي	کي	ADP	_	_	17	case	_	_
 19	منهن	منهن	NOUN	_	_	20	compound	_	_
-20	ڏسڻو	_	VERB	_	_	6	advcl	_	_
+20	ڏسڻو	ڏس	VERB	_	_	6	advcl	_	_
 21	پوندو	پوڻ	VERB	_	_	20	compound	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	20	punct	_	_
 
@@ -243,7 +273,7 @@
 2	ته	ته	SCONJ	_	_	7	mark	_	_
 3	جاچ	جاچ	NOUN	_	_	4	nmod	_	_
 4	آفيسر	آفيسر	NOUN	_	_	6	nmod	_	_
-5	اسماعيل	_	PROPN	_	_	6	compound	_	_
+5	اسماعيل	اسماعيل	PROPN	_	_	6	compound	_	_
 6	جت	_	NOUN	_	_	7	nsubj	_	_
 7	ٻڌايو	ٻڌاءِ	VERB	_	_	0	root	_	_
 8	ته	ته	SCONJ	_	_	17	mark	_	_
@@ -251,7 +281,7 @@
 10	جي	جي	ADP	_	_	9	case	_	_
 11	جاچ	جاچ	NOUN	_	_	17	obl	_	_
 12	۾	۾	ADP	_	_	11	case	_	_
-13	ٻنهي	ٻن	ADJ	_	_	14	amod	_	_
+13	ٻنهي	ٻہ	ADJ	_	_	14	amod	_	_
 14	جوابدارن	جوابدار	NOUN	_	_	17	obl	_	_
 15	خلاف	خلاف	ADP	_	_	14	case	_	_
 16	شاهديون	_	NOUN	_	_	17	obj	_	_
@@ -283,10 +313,10 @@
 2	ٻيو	ٻيو	ADJ	_	_	3	amod	_	_
 3	قصو	قصو	NOUN	_	_	5	obj	_	_
 4	نٿا	آهي	AUX	_	_	5	aux	_	_
-5	سٽيل	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	سٽيل	سٽ	VERB	_	_	0	root	_	SpaceAfter=No
 6	,	_	PUNCT	_	_	5	punct	_	_
 7	جيڪڏهن	جيڪڏهن	SCONJ	_	_	5	mark	_	_
-8	ڀيٽ	_	NOUN	_	_	15	nsubj	_	_
+8	ڀيٽ	ڀيٽ	NOUN	_	_	15	nsubj	_	_
 9	ميان	ميان	NOUN	_	_	11	compound	_	_
 10	شهباز	_	PROPN	_	_	11	compound	_	_
 11	شريف	شريف	NOUN	_	_	15	obl	_	_
@@ -298,12 +328,12 @@
 
 # sent_id = 5472
 # text = وٽيل سٽيل جيڪڏهن اوهان کي ويڙهي وڃن ته اکين مان منظرن جو تسلسل ختم ٿيڻ جو نالو ئي نه وٺندو.
-1	وٽيل	_	ADJ	_	_	2	amod	_	_
+1	وٽيل	وٽيل	ADJ	_	_	2	amod	_	_
 2	سٽيل	_	NOUN	_	_	6	nsubj	_	_
 3	جيڪڏهن	جيڪڏهن	ADV	_	_	6	advmod	_	_
 4	اوهان	اوهان	PRON	_	_	6	obj	_	_
 5	کي	کي	ADP	_	_	4	case	_	_
-6	ويڙهي	_	VERB	_	_	0	root	_	_
+6	ويڙهي	ويڙهو	VERB	_	_	0	root	_	_
 7	وڃن	وڃ	VERB	_	_	6	compound	_	_
 8	ته	ته	SCONJ	_	_	6	mark	_	_
 9	اکين	اک	NOUN	_	_	15	obl	_	_
@@ -322,13 +352,13 @@
 
 # sent_id = 5490
 # text = معزز خواتين و حضرات، خوشيون خريد ۾ ”گهٽ“ اچن ٿيون ۽ سچي ڳالهه ته اها آهي ته هاڻي ته اهو ملهه به ڪونهي،
-1	معزز	_	ADJ	_	_	2	amod	_	_
+1	معزز	معزز	ADJ	_	_	2	amod	_	_
 2	خواتين	_	NOUN	_	_	12	nsubj	_	_
-3	و	_	CCONJ	_	_	4	cc	_	_
+3	و	و	CCONJ	_	_	4	cc	_	_
 4	حضرات	_	NOUN	_	_	2	conj	_	SpaceAfter=No
 5	،	،	PUNCT	_	_	4	punct	_	_
 6	خوشيون	خوشي	NOUN	_	_	12	nsubj	_	_
-7	خريد	_	VERB	_	_	12	obl	_	_
+7	خريد	خريد	VERB	_	_	12	obl	_	_
 8	۾	۾	ADP	_	_	7	mark	_	_
 9	”	”	PUNCT	_	_	7	punct	_	SpaceAfter=No
 10	گهٽ	گهٽ	ADJ	_	_	12	xcomp	_	SpaceAfter=No
@@ -354,11 +384,11 @@
 # text = پر ان سچائيءَ ڏانهن به ڌيان ڌري ها“ عرض ڪري چڪو آهيان نه، اکين ۾ ايوان کلن ته الاءِ ڪيترا خيال جهومندا، ڳائيندا ايندا آهن،
 1	پر	پر	SCONJ	_	_	7	mark	_	_
 2	ان	ان	DET	_	_	3	det	_	_
-3	سچائيءَ	_	NOUN	_	_	7	obl	_	_
+3	سچائيءَ	سچائيءَ	NOUN	_	_	7	obl	_	_
 4	ڏانهن	ڏانهن	ADV	_	_	3	case	_	_
 5	به	به	PART	_	_	3	advmod:emph	_	_
 6	ڌيان	ڌيان	NOUN	_	_	7	compound	_	_
-7	ڌري	_	VERB	_	_	0	root	_	_
+7	ڌري	ڌر	VERB	_	_	0	root	_	_
 8	ها	آهي	AUX	_	_	7	aux	_	SpaceAfter=No
 9	“	“	PUNCT	_	_	7	punct	_	_
 10	عرض	عرض	NOUN	_	_	11	compound	_	_
@@ -375,9 +405,9 @@
 21	الاءِ	الاءِ	ADV	_	_	24	advmod	_	_
 22	ڪيترا	ڪيترو	ADJ	_	_	23	amod	_	_
 23	خيال	خيال	NOUN	_	_	24	nsubj	_	_
-24	جهومندا	_	VERB	_	_	27	advcl	_	SpaceAfter=No
+24	جهومندا	جهوم	VERB	_	_	27	advcl	_	SpaceAfter=No
 25	،	،	PUNCT	_	_	24	punct	_	_
-26	ڳائيندا	_	VERB	_	_	27	xcomp	_	_
+26	ڳائيندا	ڳاءِ	VERB	_	_	27	xcomp	_	_
 27	ايندا	ايندو	VERB	_	_	19	advcl	_	_
 28	آهن	آهي	AUX	_	_	27	aux	_	SpaceAfter=No
 29	،	،	PUNCT	_	_	27	punct	_	_
@@ -430,19 +460,19 @@
 1	مخالف	مخالف	ADJ	_	_	2	amod	_	_
 2	ڌر	ڌر	NOUN	_	_	12	nsubj	_	_
 3	وزيراعظم	وزيراعظم	NOUN	_	_	4	obj	_	_
-4	بڻجڻ	_	VERB	_	_	6	nmod	_	_
+4	بڻجڻ	بڻج	VERB	_	_	6	nmod	_	_
 5	جي	جي	ADP	_	_	4	mark	_	_
 6	شوق	شوق	NOUN	_	_	11	obl	_	_
 7	۾	۾	ADP	_	_	6	case	_	_
 8	ملڪ	ملڪ	NOUN	_	_	9	nmod	_	_
 9	داءُ	_	NOUN	_	_	11	obl	_	_
 10	تي	تي	ADP	_	_	9	case	_	_
-11	پئي	پئي	VERB	_	_	12	xcomp	_	_
-12	لڳائي	_	VERB	_	_	0	root	_	SpaceAfter=No
+11	پئي	پيو	VERB	_	_	12	xcomp	_	_
+12	لڳائي	لڳ	VERB	_	_	0	root	_	SpaceAfter=No
 13	:	:	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	فضل	فضل	PROPN	_	_	15	compound	_	_
 15	الرحمان	الرحمان	PROPN	_	_	16	nmod	_	_
-16	ملتان	ملتاو	PROPN	_	_	11	nsubj	_	_
+16	ملتان	ملتان	PROPN	_	_	11	nsubj	_	_
 17	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 18	مانيٽرنگ	مانيٽرنگ	NOUN	_	_	19	compound	_	_
 19	ڊيسڪ	ڊيسڪ	NOUN	_	_	16	conj	_	SpaceAfter=No
@@ -476,7 +506,7 @@
 47	آهيان	آهي	AUX	_	_	46	cop	_	SpaceAfter=No
 48	،	،	PUNCT	_	_	46	punct	_	_
 
-# sent_id = 421
+# sent_id = adabi_2_019
 # text = ڪمزور سدائين دين ڌرم جون ڳالهيون ڪندا آهن،
 1	ڪمزور	ڪمزور	ADJ	_	_	7	nsubj	_	_
 2	سدائين	سدائين	ADV	_	_	7	advmod	_	_
@@ -516,7 +546,7 @@
 # text = راڳ کان پوءِ سڀ شينهن گڏجي گدڙ وٽ آيا ۽ کيس عرض ڪيائون ته اسان جي ريت آهي ته شاديءَ ۾ جي به مهمان ايندا آهن،
 1	راڳ	راڳ	NOUN	_	_	9	obl	_	_
 2	کان	کان	ADP	_	_	1	case	_	_
-3	پوءِ	پوءِ	ADP	_	_	1	case	_	_
+3	پوءِ	پوءِ	ADP	_	_	2	fixed	_	_
 4	سڀ	سڀ	ADJ	_	_	5	amod	_	_
 5	شينهن	شينهن	NOUN	_	_	9	nsubj	_	_
 6	گڏجي	گڏ	ADV	_	_	9	advmod	_	_
@@ -526,7 +556,7 @@
 10	۽	۽	CCONJ	_	_	13	cc	_	_
 11	کيس	کي	ADP	_	_	13	nsubj	_	_
 12	عرض	عرض	NOUN	_	_	13	xcomp	_	_
-13	ڪيائون	_	VERB	_	_	9	conj	_	_
+13	ڪيائون	ڪر	VERB	_	_	9	conj	_	_
 14	ته	ته	SCONJ	_	_	17	mark	_	_
 15	اسان	اسين	PRON	_	_	17	nmod	_	_
 16	جي	جي	ADP	_	_	15	case	_	_

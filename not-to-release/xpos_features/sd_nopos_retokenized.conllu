@@ -1,0 +1,111 @@
+# sent_id = 132a
+# text = سلطان ۽ گدڙ
+# orig_text = سلطان ۽ گدڙ هڪڙو گدڙ ڪنهن نيروٽيءَ جي دڪان ۾ ويو،
+1	سلطان	_	PROPN	NNP	Case=Nom|Gender=Masc	0	root	_	_
+2	۽	۽	CCONJ	CC	_	3	cc	_	_
+3	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+
+# sent_id = 132b
+# text = هڪڙو گدڙ ڪنهن نيروٽيءَ جي دڪان ۾ ويو،
+# orig_text = سلطان ۽ گدڙ هڪڙو گدڙ ڪنهن نيروٽيءَ جي دڪان ۾ ويو،
+1	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	4	nmod	_	_
+4	نيروٽيءَ	نيروٽي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+5	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
+6	دڪان	دڪان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+7	۾	۾	ADP	PSPL	_	6	case	_	_
+8	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+9	،	،	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 764a
+# text = اڌ رات هن چار سئو سپاهي ان ٽڪريءَ ڏانهن اُماڻيا،
+# orig_text = اڌ رات هن چار سئو سپاهي ان ٽڪريءَ ڏانهن اُماڻيا، جتي هڪ ننڍي جهوپڙيءَ ۾ اهو عقلمند ڇوڪرو رهندو هو.
+1	اڌ	اڌ	ADJ	JJF	Case=Nom|Number=Sing	2	amod	_	_
+2	رات	رات	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obl	_	_
+3	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	10	nsubj	_	_
+4	چار	_	NUM	NUM	_	5	nummod	_	_
+5	سئو	سئو	NUM	NUM	_	6	nummod	_	_
+6	سپاهي	سپاهي	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	obj	_	_
+7	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	8	det	_	_
+8	ٽڪريءَ	ٽڪري	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+9	ڏانهن	ڏانهن	ADV	ADP	_	10	advmod	_	_
+10	اُماڻيا	اُماڻ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+11	،	،	PUNCT	PUNCT	_	10	punct	_	_
+
+# sent_id = 764b
+# text = جتي هڪ ننڍي جهوپڙيءَ ۾ اهو عقلمند ڇوڪرو رهندو هو.
+# orig_text = اڌ رات هن چار سئو سپاهي ان ٽڪريءَ ڏانهن اُماڻيا، جتي هڪ ننڍي جهوپڙيءَ ۾ اهو عقلمند ڇوڪرو رهندو هو.
+1	جتي	جتي	ADV	ADT	_	9	advmod	_	_
+2	هڪ	هڪ	NUM	NUM	_	4	nummod	_	_
+3	ننڍي	ننڍو	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	جهوپڙيءَ	جهوپڙيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+5	۾	۾	ADP	PSPL	_	4	case	_	_
+6	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	عقلمند	عقلمند	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	_
+8	ڇوڪرو	ڇوڪرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	رهندو	ره	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	0	root	_	_
+10	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# sent_id = 1069a
+# text = ٿائوکام نشانچي
+# orig_text = ٿائوکام نشانچي لائوس جي ڪهاڻي ڳالهه ٿا ڪن ته هڪڙي ڀيري ڪو ڇوڪر هو،
+1	ٿائوکام	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	نشانچي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = 1069b
+# text = لائوس جي ڪهاڻي
+# orig_text = ٿائوکام نشانچي لائوس جي ڪهاڻي ڳالهه ٿا ڪن ته هڪڙي ڀيري ڪو ڇوڪر هو،
+1	لائوس	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
+2	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
+3	ڪهاڻي	ڪهاڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = 1069c
+# text = ڳالهه ٿا ڪن ته هڪڙي ڀيري ڪو ڇوڪر هو،
+# orig_text = ٿائوکام نشانچي لائوس جي ڪهاڻي ڳالهه ٿا ڪن ته هڪڙي ڀيري ڪو ڇوڪر هو،
+1	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	ٿا	آهي	AUX	VAUX	Number=Plur|Tense=Pres	3	aux	_	_
+3	ڪن	ڪن	VERB	VM	Aspect=Imp|Number=Plur|Person=3	8	advcl	_	_
+4	ته	ته	SCONJ	CS	_	3	mark	_	_
+5	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	ڀيري	ڀيرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	ڇوڪر	ڇوڪر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+9	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	8	cop	_	SpaceAfter=No
+10	،	،	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 1237a
+# text = راجا سوتون جا ڪارناما
+# orig_text = راجا سوتون جا ڪارناما ملائيشيا جي ڪهاڻي ڳالهه ڪن ٿا ته پراڻي زماني ۾ هڪ ڏاڍو سکيو ستابو ملڪ هوندو هو،
+1	راجا	راجا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	سوتون	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+3	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	2	case	_	_
+4	ڪارناما	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+
+# sent_id = 1237b
+# text = ملائيشيا جي ڪهاڻي
+# orig_text = راجا سوتون جا ڪارناما ملائيشيا جي ڪهاڻي ڳالهه ڪن ٿا ته پراڻي زماني ۾ هڪ ڏاڍو سکيو ستابو ملڪ هوندو هو،
+1	ملائيشيا	_	PROPN	NNP	Case=Nom|Gender=Masc	3	nmod	_	_
+2	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	1	case	_	_
+3	ڪهاڻي	ڪهاڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = 1237c
+# text = ڳالهه ڪن ٿا ته پراڻي زماني ۾ هڪ ڏاڍو سکيو ستابو ملڪ هوندو هو،
+# orig_text = راجا سوتون جا ڪارناما ملائيشيا جي ڪهاڻي ڳالهه ڪن ٿا ته پراڻي زماني ۾ هڪ ڏاڍو سکيو ستابو ملڪ هوندو هو،
+1	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	compound	_	_
+2	ڪن	ڪن	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
+3	ٿا	آهي	AUX	VAUX	Number=Plur|Tense=Pres	2	aux	_	_
+4	ته	ته	SCONJ	CS	_	13	mark	_	_
+5	پراڻي	پراڻو	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	زماني	زمانو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+7	۾	۾	ADP	PSPL	_	6	case	_	_
+8	هڪ	هڪ	NUM	NUM	_	12	nummod	_	_
+9	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+10	سکيو	سکي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	ستابو	ستابو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	ملڪ	ملڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	هوندو	هوندو	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	2	advcl	_	_
+14	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	13	aux	_	SpaceAfter=No
+15	،	،	PUNCT	PUNCT	_	13	punct	_	_
+

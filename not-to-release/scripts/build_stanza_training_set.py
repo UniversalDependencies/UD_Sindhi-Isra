@@ -62,6 +62,28 @@ def random_select(doc, size):
     sentence_comments = [sent.comments for sent in sentences[:size]]
     return Document(sentence_dicts, comments=sentence_comments)
 
+def official_split(paths, doc):
+    test_globs = [os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/*_md_*"),
+                  os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/sd_780_part_A.conllu")]
+    dev_globs = [os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/sd_780_part_B.conllu"),
+                 os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/adabi_0.conllu"),
+                 os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/adabi_1.conllu"),
+                 os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/adabi_2.conllu")]
+
+    test_doc = read_directory(*test_globs, strip_xpos=False)
+    dev_doc = read_directory(*dev_globs, strip_xpos=False)
+    train_doc = filter_duplicates(doc, test_doc)
+    train_doc = filter_duplicates(train_doc, dev_doc)
+    return (train_doc, dev_doc, test_doc)
+
+def split_document(paths, doc, use_official_split):
+    if use_official_split:
+        train, dev, test = official_split(paths, doc)
+    else:
+        random.seed(1234)
+        train, dev, test = random_split(doc, weights=(0.8, 0.1, 0.1))
+    print("Split the xpos doc into %d train, %d dev, %d test" % (len(train.sentences), len(dev.sentences), len(test.sentences)))
+    return train, dev, test
 
 def main():
     paths = get_default_paths()
@@ -78,14 +100,15 @@ def main():
     parser.add_argument('--use_tamil', default=False, action='store_true', help="Include Tamil trees in the dataset")
     parser.add_argument('--use_urdu', default=False, action='store_true', help="Include Urdu trees in the dataset")
 
+    parser.add_argument('--use_official_split', default=False, action='store_true', help="Use the dev & test sets we plan to release")
+
     parser.add_argument('--dataset_name', default='sd_isra', help='What name to use for the dataset')
     parser.add_argument('--sindhi_train_size', type=int, default=None, help='Only use this many Sindhi trees for train')
     parser.add_argument('--sindhi_dev_size', type=int, default=None, help='Only use this many Sindhi trees for dev')
     args = parser.parse_args()
 
     noxpos_doc = read_directory(os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/dependencies/*"))
-    xpos_doc = read_directory(os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/*"),
-                              os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_standard/xpos_tagged_with_features.conllu"), strip_xpos=False)
+    xpos_doc = read_directory(os.path.join(paths["UDBASE_GIT"], "UD_Sindhi-Isra/not-to-release/xpos_features/*"), strip_xpos=False)
 
     print("%d sentences with xpos and features" % len(xpos_doc.sentences))
     print("%d sentences with no xpos or features" % len(noxpos_doc.sentences))
@@ -119,16 +142,15 @@ def main():
             print("Doc to be tagged, after filtering: %d sentences" % len(filter_doc.sentences))
             noxpos_doc = filter_duplicates(noxpos_doc, filter_doc)
 
-        random.seed(1234)
-        train, dev, test = random_split(xpos_doc, weights=(0.8, 0.1, 0.1))
-        print("Split the xpos doc into %d train, %d dev, %d test" % (len(train.sentences), len(dev.sentences), len(test.sentences)))
+        train, dev, test = split_document(paths, xpos_doc, args.use_official_split)
 
         if args.retagged and args.raw_retagged:
             CoNLL.write_doc2conll(filter_doc, args.raw_retagged)
         train_datasets = {
             "sd_isra_train.in.conllu": train,
-            "sd_isra_noxpos.conllu":   noxpos_doc,
         }
+        if len(noxpos_doc.sentences) > 0:
+            train_datasets["sd_isra_noxpos.conllu"] = noxpos_doc
         if args.retagged:
             train_datasets[os.path.split(args.retagged)[1]] = filter_doc
         for name in extra_docs:
@@ -142,9 +164,7 @@ def main():
         print("%d total training sentences" % len(xpos_doc.sentences))
         remove_xpos_and_features(xpos_doc)
 
-        random.seed(1234)
-        train, dev, test = random_split(xpos_doc, weights=(0.8, 0.1, 0.1))
-        print("Split the combined doc into %d train, %d dev, %d test" % (len(train.sentences), len(dev.sentences), len(test.sentences)))
+        train, dev, test = split_document(paths, xpos_doc, args.use_official_split)
 
     elif args.mode == 'depparse' or args.mode == 'upos':
         sentences = xpos_doc.sentences + noxpos_doc.sentences
@@ -157,9 +177,7 @@ def main():
         else:
             output_directory = paths["DEPPARSE_DATA_DIR"]
 
-        random.seed(1234)
-        train, dev, test = random_split(xpos_doc, weights=(0.8, 0.1, 0.1))
-        print("Split the combined doc into %d train, %d dev, %d test" % (len(train.sentences), len(dev.sentences), len(test.sentences)))
+        train, dev, test = split_document(paths, xpos_doc, args.use_official_split)
 
         if args.sindhi_train_size is not None:
             train = random_select(train, args.sindhi_train_size)

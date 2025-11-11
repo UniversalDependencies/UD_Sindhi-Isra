@@ -5,7 +5,7 @@ import sys
 from stanza.utils.conll import CoNLL
 
 def get_filenames():
-    filenames = glob.glob("../xpos_features/*conllu") + glob.glob("../xpos_features/*txt") + ["../xpos_standard/xpos_tagged_with_features.conllu"]
+    filenames = glob.glob("../xpos_features/*conllu") + glob.glob("../xpos_features/*txt")
     filenames.extend(glob.glob("../dependencies/*conllu"))
     return filenames
 
@@ -22,7 +22,7 @@ def read_tsv_files(tsv_files):
                 continue
             pieces = line.split("\t")
             if len(pieces) < 3:
-                raise ValueError("unexpected line format at %s line %d: only %d tab pieces" % (filename, line_idx+1))
+                raise ValueError("unexpected line format at %s line %d: only %d tab pieces" % (filename, line_idx+1, len(pieces)))
             if len(pieces) > 3:
                 # this was a lemma with a note on it, such as a wrong tag or wrong tokenization
                 continue
@@ -35,13 +35,16 @@ def read_tsv_files(tsv_files):
             locations[word_tag] = (filename, line_idx)
     return lemmas
 
-def set_lemmas(filename, lemmas, remove_existing):
+def set_lemmas(filename, lemmas, remove_existing, unknown_only, words_allowed):
     print("Lemmatizing %s" % filename)
     doc = CoNLL.conll2doc(filename)
     for sentence in doc.sentences:
         for word in sentence.words:
             if (word.text, word.upos) in lemmas:
-                word.lemma = lemmas[(word.text, word.upos)]
+                if words_allowed != [] and word.text not in words_allowed:
+                    continue
+                if word.lemma is None or not unknown_only:
+                    word.lemma = lemmas[(word.text, word.upos)]
             elif remove_existing:
                 word.lemma = None
     CoNLL.write_doc2conll(doc, filename)
@@ -51,6 +54,9 @@ def main():
     parser = argparse.ArgumentParser(description='Merge all known lemmas into the conllu files')
     parser.add_argument('--remove_existing', action='store_true', default=False, dest='remove_existing',
                         help="If a lemma is currently set, but is not in the known lemma files, remove it.  Makes it easy to look for ones which have been manually edited")
+    parser.add_argument('--unknown_only', action='store_true', default=False, dest='unknown_only',
+                        help="Only update lemmas which are currently blank")
+    parser.add_argument('--word', default=[], action='append', help='Only update lemmas for this word.  Useful for doing updates piecemeal to verify their correctness')
     args = parser.parse_args()
 
     tsv_files = glob.glob("../lemmas/*.tsv")
@@ -59,7 +65,7 @@ def main():
     filenames = get_filenames()
 
     for filename in filenames:
-        set_lemmas(filename, lemmas, args.remove_existing)
+        set_lemmas(filename, lemmas, args.remove_existing, args.unknown_only, args.word)
 
 if __name__ == '__main__':
     main()

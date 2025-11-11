@@ -59,7 +59,7 @@
 # text = هن کي ڪهڙي خبر ته هُو منهنجي زندگي آهي .
 1	هن	هن	DET	_	_	4	nsubj	_	_
 2	کي	کي	ADP	_	_	1	case	_	_
-3	ڪهڙي	_	DET	_	_	4	det	_	_
+3	ڪهڙي	ڪهڙو	DET	_	_	4	det	_	_
 4	خبر	خبر	NOUN	_	_	0	root	_	_
 5	ته	ته	SCONJ	_	_	8	mark	_	_
 6	هُو	هُو	PRON	_	_	8	nsubj	_	_
@@ -149,7 +149,7 @@
 2	سوچ	سوچ	NOUN	_	_	5	nsubj	_	_
 3	ڪڏهن	ڪڏهن	ADV	_	_	5	obl	_	_
 4	به	به	PART	_	_	3	advmod:emph	_	_
-5	بدلجي	_	VERB	_	_	0	root	_	_
+5	بدلجي	بدلج	VERB	_	_	0	root	_	_
 6	نٿي	آهي	ADV	_	_	5	advmod	_	_
 7	سگھي	سگهي	AUX	_	_	5	aux	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
@@ -392,7 +392,7 @@
 5	ڪيئن	ڪيئن	ADV	_	_	6	advmod	_	_
 6	چوي	چوي	VERB	_	_	0	root	_	_
 7	مان	مان	PRON	_	_	10	nsubj	_	_
-8	جوئي	_	PRON	_	_	10	nsubj	_	_
+8	جوئي	جوئي	PRON	_	_	10	nsubj	_	_
 9	آهيان	آهي	AUX	_	_	8	cop	_	_
 10	سوئي	سو	PRON	_	_	6	csubj	_	_
 11	آهيان	آهي	AUX	_	_	10	cop	_	_
@@ -412,7 +412,7 @@
 # text = قومن جي سڃاڻپ انهن جي ٻولي ڌرتي ۽ ثقافت سان ٿيندي آهي .
 1	قومن	قوم	NOUN	_	_	3	nmod	_	_
 2	جي	جي	ADP	_	_	1	case	_	_
-3	سڃاڻپ	_	NOUN	_	_	11	nsubj	_	_
+3	سڃاڻپ	سڃاڻپ	NOUN	_	_	11	nsubj	_	_
 4	انهن	ان	DET	_	_	6	nmod	_	_
 5	جي	جي	ADP	_	_	4	case	_	_
 6	ٻولي	ٻولي	NOUN	_	_	11	obl	_	_
@@ -450,7 +450,7 @@
 6	۽	۽	CCONJ	_	_	7	cc	_	_
 7	سچ	سچ	NOUN	_	_	5	conj	_	_
 8	جي	جي	ADP	_	_	5	case	_	_
-9	سڃاڻپ	_	NOUN	_	_	10	compound	_	_
+9	سڃاڻپ	سڃاڻپ	NOUN	_	_	10	compound	_	_
 10	ٿئي	ٿي	VERB	_	_	0	root	_	_
 11	ٿي	آهي	VERB	_	_	10	aux	_	_
 12	.	.	PUNCT	_	_	10	punct	_	_
@@ -494,7 +494,7 @@
 5	دنيا	دنيا	NOUN	_	_	9	nmod	_	_
 6	جي	جي	ADP	_	_	5	case	_	_
 7	قديم	قديم	ADJ	_	_	9	amod	_	_
-8	ترين	_	ADJ	_	_	9	amod	_	_
+8	ترين	تريون	ADJ	_	_	9	amod	_	_
 9	ٻولين	ٻول	NOUN	_	_	11	obl	_	_
 10	۾	۾	ADP	_	_	9	case	_	_
 11	ٿئي	ٿي	VERB	_	_	0	root	_	_
@@ -756,7 +756,7 @@
 # text = خودغرض انسان ڪنهن کي نه وڻندو آهي .
 1	خودغرض	خودغرض	ADJ	_	_	2	amod	_	_
 2	انسان	انسان	NOUN	_	_	6	nsubj	_	_
-3	ڪنهن	ڪنهن	DET	_	_	6	obl	_	_
+3	ڪنهن	ڪو	DET	_	_	6	obl	_	_
 4	کي	کي	ADP	_	_	3	case	_	_
 5	نه	نه	ADV	_	_	6	advmod	_	_
 6	وڻندو	وڻڻ	VERB	_	_	0	root	_	_
@@ -951,7 +951,7 @@
 11	قدرت	قدرت	NOUN	_	_	13	nmod	_	_
 12	سين	سين	ADP	_	_	11	case	_	_
 13	قائم	قائم	NOUN	_	_	0	root	_	_
-14	آه	آه	AUX	_	_	13	cop	_	_
+14	آه	آهي	AUX	_	_	13	cop	_	_
 15	قديم	قديم	ADJ	_	_	13	amod	_	_
 16	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -1280,8 +1280,8 @@
 5	ترقي	ترقي	NOUN	_	_	6	compound	_	_
 6	آئي	آئي	VERB	_	_	18	ccomp	_	_
 7	آهي	آهي	AUX	_	_	6	aux	_	_
-8	تيئن	_	ADV	_	_	16	advmod	_	_
-9	تيئن	_	ADV	_	_	16	advmod	_	_
+8	تيئن	تي	ADV	_	_	16	advmod	_	_
+9	تيئن	تي	ADV	_	_	16	advmod	_	_
 10	سماجي	سماجي	ADJ	_	_	11	amod	_	_
 11	جوڙجڪ	جوڙجڪ	NOUN	_	_	16	obl	_	_
 12	جا	جو	ADP	_	_	11	case	_	_
@@ -1306,7 +1306,7 @@
 9	سٺو	سٺو	ADJ	_	_	10	compound	_	_
 10	ٿئي	ٿي	VERB	_	_	17	advcl	_	_
 11	ٿو	آهي	AUX	_	_	10	aux	_	_
-12	تنهنڪري	_	SCONJ	_	_	17	mark	_	_
+12	تنهنڪري	تنهنڪري	SCONJ	_	_	17	mark	_	_
 13	ماڻهو	ماڻهو	NOUN	_	_	16	nmod	_	_
 14	جو	جو	ADP	_	_	13	case	_	_
 15	سٺو	سٺو	ADJ	_	_	16	amod	_	_

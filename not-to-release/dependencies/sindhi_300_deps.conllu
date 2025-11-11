@@ -17,7 +17,7 @@
 # text = قومن جي سڃاڻپ انهن جي ٻولي ،
 1	قومن	قوم	NOUN	_	_	3	nmod	_	_
 2	جي	جي	ADP	_	_	1	case	_	_
-3	سڃاڻپ	_	NOUN	_	_	6	nsubj	_	_
+3	سڃاڻپ	سڃاڻپ	NOUN	_	_	6	nsubj	_	_
 4	انهن	ان	DET	_	_	6	nmod	_	_
 5	جي	جي	ADP	_	_	4	case	_	_
 6	ٻولي	ٻولي	NOUN	_	_	0	root	_	_
@@ -28,7 +28,7 @@
 1	اصل	اصل	ADJ	_	_	2	amod	_	_
 2	عبادت	عبادت	NOUN	_	_	7	nsubj	_	_
 3	ته	ته	PART	_	_	2	advmod:emph	_	_
-4	انسانيت	_	NOUN	_	_	6	nmod	_	_
+4	انسانيت	انسانيت	NOUN	_	_	6	nmod	_	_
 5	جي	جي	ADP	_	_	4	case	_	_
 6	خدمت	خدمت	NOUN	_	_	7	compound	_	_
 7	ڪرڻ	ڪر	VERB	_	_	0	root	_	_
@@ -39,7 +39,7 @@
 
 # sent_id = MD-194
 # text = ڪنهن جي دل آزارڻ نه گھرجي ڇاڪاڻ ته هر دل ۾ خدا پاڻ رهي ٿو ،
-1	ڪنهن	ڪنهن	DET	_	_	3	nmod	_	_
+1	ڪنهن	ڪو	DET	_	_	3	nmod	_	_
 2	جي	جي	ADP	_	_	1	case	_	_
 3	دل	دل	NOUN	_	_	4	obj	_	_
 4	آزارڻ	آزار	VERB	_	_	6	xcomp	_	_
@@ -258,7 +258,7 @@
 4	مذهب	مذهب	NOUN	_	_	11	nsubj	_	_
 5	توهان	توهان	PRON	_	_	11	obj	_	_
 6	کي	کي	ADP	_	_	5	case	_	_
-7	ڪنهن	ڪنهن	DET	_	_	10	obl	_	_
+7	ڪنهن	ڪو	DET	_	_	10	obl	_	_
 8	سان	سان	ADP	_	_	7	case	_	_
 9	نفرت	نفرت	NOUN	_	_	10	compound	_	_
 10	ڪرڻ	ڪر	VERB	_	_	11	xcomp	_	_
@@ -466,7 +466,7 @@
 2	سوچ	سوچ	NOUN	_	_	5	nsubj	_	_
 3	ڪڏهن	ڪڏهن	ADV	_	_	5	advmod	_	_
 4	به	به	PART	_	_	3	advmod:emph	_	_
-5	بدلجي	_	VERB	_	_	0	root	_	_
+5	بدلجي	بدلج	VERB	_	_	0	root	_	_
 6	نٿي	آهي	ADV	_	_	5	advmod	_	_
 7	سگھي	سگهي	AUX	_	_	5	aux	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
@@ -497,7 +497,7 @@
 5	ثقافت	ثقافت	NOUN	_	_	1	conj	_	_
 6	قومن	قوم	NOUN	_	_	8	nmod	_	_
 7	جي	جي	ADP	_	_	6	case	_	_
-8	سڃاڻپ	_	NOUN	_	_	9	xcomp	_	_
+8	سڃاڻپ	سڃاڻپ	NOUN	_	_	9	xcomp	_	_
 9	هوندي	آهي	VERB	_	_	0	root	_	_
 10	آهي	آهي	AUX	_	_	9	aux	_	_
 11	.	.	PUNCT	_	_	9	punct	_	_
@@ -637,7 +637,7 @@
 1	هريش	هريش	PROPN	_	_	4	nsubj	_	_
 2	ٿڌو	ٿڌو	ADJ	_	_	3	amod	_	_
 3	شربت	شربت	NOUN	_	_	4	obj	_	_
-4	پيئي	پيءَ	VERB	_	_	0	root	_	_
+4	پيئي	پيو	VERB	_	_	0	root	_	_
 5	ٿو	آهي	AUX	_	_	4	aux	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -941,7 +941,7 @@
 10	سگھي	_	VERB	_	_	9	compound	_	_
 11	ٿو	آهي	AUX	_	_	9	aux	_	_
 12	ڇاڪاڻ	ڇاڪاڻ	SCONJ	_	_	9	mark	_	_
-13	ته	ته	ADP	_	_	9	mark	_	_
+13	ته	ته	ADP	_	_	12	fixed	_	_
 14	انٽرنيٽ	انٽرنيٽ	NOUN	_	_	18	nsubj	_	_
 15	پوري	پوري	ADJ	_	_	16	amod	_	_
 16	دنيا	دنيا	NOUN	_	_	18	obj	_	_
@@ -1456,7 +1456,7 @@
 
 # sent_id = MD-397
 # text = اسانجي معاشري ۾ غريب ماڻهو ڏاڍا پريشان ۽ ڏکايل رهن ٿا .
-1	اسانجي	اسان	PRON	_	_	2	nmod	_	_
+1	اسانجي	اسين	PRON	_	_	2	nmod	_	_
 2	معاشري	معاشرو	NOUN	_	_	10	obl	_	_
 3	۾	۾	ADP	_	_	2	case	_	_
 4	غريب	غريب	ADJ	_	_	5	amod	_	_
@@ -1502,7 +1502,7 @@
 # sent_id = MD-405
 # text = پر ٻئي دفعي تنهنجي مدد ضرور ڪندس .
 1	پر	پر	CCONJ	_	_	7	cc	_	_
-2	ٻئي	ٻه	NUM	_	_	3	nummod	_	_
+2	ٻئي	ٻيو	NUM	_	_	3	nummod	_	_
 3	دفعي	دفعو	ADV	_	_	7	advmod	_	_
 4	تنهنجي	تنهنجي	PRON	_	_	5	nmod	_	_
 5	مدد	مدد	NOUN	_	_	7	nsubj	_	_
@@ -1555,7 +1555,7 @@
 7	رهڻ	ره	VERB	_	_	0	root	_	_
 8	گھرجي	گھرجي	AUX	_	_	7	aux	_	_
 9	۽	۽	CCONJ	_	_	16	cc	_	_
-10	ڪنهن	ڪنهن	DET	_	_	12	det	_	_
+10	ڪنهن	ڪو	DET	_	_	12	det	_	_
 11	به	به	PART	_	_	10	advmod:emph	_	_
 12	قسم	قسم	NOUN	_	_	14	nmod	_	_
 13	جي	جي	ADP	_	_	12	case	_	_
@@ -1732,7 +1732,7 @@
 # text = جيتوڻيڪ چيو هومانس تڏهن به هُو ڪونه آيو .
 1	جيتوڻيڪ	جيتوڻيڪ	CCONJ	_	_	2	cc	_	_
 2	چيو	چئو	VERB	_	_	0	root	_	_
-3	هومانس	هو	AUX	_	_	2	aux	_	_
+3	هومانس	آهي	AUX	_	_	2	aux	_	_
 4	تڏهن	تڏهن	ADV	_	_	8	advmod	_	_
 5	به	به	PART	_	_	4	advmod:emph	_	_
 6	هُو	هُو	DET	_	_	8	nsubj	_	_
@@ -1757,7 +1757,7 @@
 2	ڪامياب	ڪامياب	ADJ	_	_	3	compound	_	_
 3	ٿيا	آهي	VERB	_	_	0	root	_	_
 4	ڇاڪاڻ	ڇاڪاڻ	SCONJ	_	_	3	mark	_	_
-5	ته	ته	ADP	_	_	3	mark	_	_
+5	ته	ته	ADP	_	_	4	fixed	_	_
 6	اوهان	اوهان	PRON	_	_	8	nsubj	_	_
 7	محنت	محنت	NOUN	_	_	8	compound	_	_
 8	ڪئي	ڪئي	VERB	_	_	3	advcl	_	_
@@ -1966,7 +1966,7 @@
 # sent_id = MD-447
 # text = حڪومت پاناماليڪس جي جاچ نٿي ڪرائڻ چاهي .
 1	حڪومت	حڪومت	NOUN	_	_	7	nsubj	_	_
-2	پاناماليڪس	_	PROPN	_	_	4	nmod	_	_
+2	پاناماليڪس	پاناماليڪس	PROPN	_	_	4	nmod	_	_
 3	جي	جي	ADP	_	_	2	case	_	_
 4	جاچ	جاچ	NOUN	_	_	6	nmod	_	_
 5	نٿي	آهي	ADV	_	_	6	advmod	_	_
@@ -2103,7 +2103,7 @@
 # sent_id = MD-458
 # text = حج واري عيد تي ماڻهو گوشت کائي تنگ ٿيو وڃن .
 1	حج	حج	PROPN	_	_	3	nmod	_	_
-2	واري	واري	ADP	_	_	1	case	_	_
+2	واري	وارو	ADP	_	_	1	case	_	_
 3	عيد	عيد	NOUN	_	_	9	obl	_	_
 4	تي	تي	ADP	_	_	3	case	_	_
 5	ماڻهو	ماڻهو	NOUN	_	_	9	nsubj	_	_
@@ -2242,7 +2242,7 @@
 
 # sent_id = MD-468
 # text = هنن سياستدانن ته ملڪ کي تباھ ڪري ڇڏيو آهي .
-1	هنن	هن	DET	_	_	2	det	_	_
+1	هنن	هي	DET	_	_	2	det	_	_
 2	سياستدانن	سياست	NOUN	_	_	7	nsubj	_	_
 3	ته	ته	PART	_	_	2	advmod:emph	_	_
 4	ملڪ	ملڪ	NOUN	_	_	7	obj	_	_
@@ -2327,7 +2327,7 @@
 # sent_id = MD-475
 # text = ڀٽائي انسانيت سان محبت جو درس ڏيئي ٿو .
 1	ڀٽائي	ڀٽائي	PROPN	_	_	7	nsubj	_	_
-2	انسانيت	_	NOUN	_	_	4	nmod	_	_
+2	انسانيت	انسانيت	NOUN	_	_	4	nmod	_	_
 3	سان	سان	ADP	_	_	2	case	_	_
 4	محبت	محبت	NOUN	_	_	6	nmod	_	_
 5	جو	جو	ADP	_	_	4	case	_	_
@@ -2359,7 +2359,7 @@
 6	به	به	PART	_	_	5	advmod:emph	_	_
 7	ٿو	آهي	AUX	_	_	5	aux	_	_
 8	۽	۽	CCONJ	_	_	12	cc	_	_
-9	اسانکي	اسان	PRON	_	_	12	obj	_	_
+9	اسانکي	اسين	PRON	_	_	12	obj	_	_
 10	گھوري	گھور	ADV	_	_	11	advmod	_	_
 11	گھوري	گھور	ADV	_	_	12	advmod	_	_
 12	ڏسي	ڏس	VERB	_	_	5	conj	_	_
@@ -2439,7 +2439,7 @@
 6	صورتحال	صورتحال	NOUN	_	_	8	nsubj	_	_
 7	تشويشناڪ	تشويش	ADJ	_	_	8	xcomp	_	_
 8	ٿيندي	آهي	VERB	_	_	0	root	_	_
-9	پئي	پئي	VERB	_	_	8	compound	_	_
+9	پئي	پيو	VERB	_	_	8	compound	_	_
 10	وڃي	وڃ	VERB	_	_	8	aux	_	_
 11	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -2539,7 +2539,7 @@
 1	لاڙڪاڻو	لاڙڪاڻو	PROPN	_	_	2	nmod	_	_
 2	ساھ	ساھ	NOUN	_	_	5	nmod	_	_
 3	سيباڻو	سيباڻو	ADJ	_	_	5	amod	_	_
-4	واري	واري	ADP	_	_	3	case	_	_
+4	واري	وارو	ADP	_	_	3	case	_	_
 5	ڳالھ	ڳالھ	NOUN	_	_	10	nsubj	_	_
 6	ته	ته	PART	_	_	5	advmod:emph	_	_
 7	بس	بس	ADV	_	_	8	advmod	_	_
@@ -2572,7 +2572,7 @@
 3	جو	جو	ADP	_	_	2	case	_	_
 4	قتل	قتل	NOUN	_	_	8	nsubj	_	_
 5	پوري	پوري	ADJ	_	_	6	amod	_	_
-6	انسانيت	_	NOUN	_	_	8	nmod	_	_
+6	انسانيت	انسانيت	NOUN	_	_	8	nmod	_	_
 7	جو	جو	ADP	_	_	6	case	_	_
 8	قتل	قتل	NOUN	_	_	0	root	_	_
 9	آهي	آهي	AUX	_	_	8	cop	_	_
@@ -2593,7 +2593,7 @@
 
 # sent_id = MD-495
 # text = انسانيت سان پيار ۽ انهن جي خدمت ئي عبادت آهي .
-1	انسانيت	_	NOUN	_	_	3	nmod	_	_
+1	انسانيت	انسانيت	NOUN	_	_	3	nmod	_	_
 2	سان	سان	ADP	_	_	1	case	_	_
 3	پيار	پيار	NOUN	_	_	9	nsubj	_	_
 4	۽	۽	CCONJ	_	_	7	cc	_	_
@@ -2627,7 +2627,7 @@
 1	صوفي	صوفي	NOUN	_	_	3	nsubj	_	_
 2	صاف	صاف	ADJ	_	_	3	compound	_	_
 3	ڪيو	ڪيو	VERB	_	_	5	acl	_	_
-4	ڌوئي	_	VERB	_	_	3	compound	_	_
+4	ڌوئي	ڌوءِ	VERB	_	_	3	compound	_	_
 5	ورق	ورق	NOUN	_	_	6	nsubj	_	_
 6	وجود	وجود	NOUN	_	_	0	root	_	_
 7	جو	جو	ADP	_	_	6	case	_	_
@@ -2741,7 +2741,7 @@
 1	گلاب	گلاب	PROPN	_	_	3	nmod	_	_
 2	جي	جي	ADP	_	_	1	case	_	_
 3	گل	گل	NOUN	_	_	5	nmod	_	_
-4	جھڙو	_	PRON	_	_	5	nmod	_	_
+4	جھڙو	جھڙو	PRON	_	_	5	nmod	_	_
 5	انسان	انسان	NOUN	_	_	6	xcomp	_	_
 6	ٿيڻ	آهي	VERB	_	_	12	advcl	_	_
 7	لاءِ	لاءِ	ADP	_	_	6	mark	_	_
@@ -2787,7 +2787,7 @@
 2	ناهي	ناهي	ADV	_	_	1	advmod	_	_
 3	ماڻهو	ماڻهو	NOUN	_	_	6	nsubj	_	_
 4	ايئن	ايئن	ADV	_	_	6	advmod	_	_
-5	ڇو	_	VERB	_	_	6	advcl	_	_
+5	ڇو	ڇو	VERB	_	_	6	advcl	_	_
 6	پيا	پيو	VERB	_	_	0	root	_	_
 7	ڪن	ڪن	VERB	_	_	6	aux	_	_
 8	؟	؟	PUNCT	_	_	6	punct	_	_
@@ -2902,7 +2902,7 @@
 6	ڪيو	ڪيو	VERB	_	_	12	advcl	_	_
 7	ان	ان	DET	_	_	9	det	_	_
 8	پوري	پوري	ADJ	_	_	9	amod	_	_
-9	انسانيت	_	NOUN	_	_	12	obj	_	_
+9	انسانيت	انسانيت	NOUN	_	_	12	obj	_	_
 10	کي	کي	ADP	_	_	9	case	_	_
 11	قتل	قتل	NOUN	_	_	12	compound	_	_
 12	ڪيو	ڪيو	VERB	_	_	0	root	_	_
@@ -3034,14 +3034,14 @@
 # sent_id = MD-628
 # text = جيئن تيئن ٽيڪنولوجي ۾ ترقي آئي آهي تيئن تيئن سماجي جوڙجڪ جا به نوان طريقا نافظ ٿيڻ لڳا .
 1	جيئن	جيئن	ADV	_	_	6	advmod	_	_
-2	تيئن	_	ADV	_	_	6	advmod	_	_
+2	تيئن	تي	ADV	_	_	6	advmod	_	_
 3	ٽيڪنولوجي	ٽيڪنولوجي	NOUN	_	_	6	obl	_	_
 4	۾	۾	ADP	_	_	3	case	_	_
 5	ترقي	ترقي	NOUN	_	_	6	compound	_	_
 6	آئي	آئي	VERB	_	_	16	advcl	_	_
 7	آهي	آهي	AUX	_	_	6	aux	_	_
-8	تيئن	_	ADV	_	_	16	advmod	_	_
-9	تيئن	_	ADV	_	_	16	advmod	_	_
+8	تيئن	تي	ADV	_	_	16	advmod	_	_
+9	تيئن	تي	ADV	_	_	16	advmod	_	_
 10	سماجي	سماجي	ADJ	_	_	11	amod	_	_
 11	جوڙجڪ	جوڙجڪ	NOUN	_	_	15	nmod	_	_
 12	جا	جو	ADP	_	_	11	case	_	_
@@ -3077,7 +3077,7 @@
 1	تون	تون	PRON	_	_	4	nsubj	_	_
 2	ڏاڍي	ڏاڍي	ADJ	_	_	3	amod	_	_
 3	سهڻي	سهڻي	ADJ	_	_	4	xcomp	_	_
-4	پئي	پئي	VERB	_	_	0	root	_	_
+4	پئي	پيو	VERB	_	_	0	root	_	_
 5	لڳين	لڳ	VERB	_	_	4	compound	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -3087,7 +3087,7 @@
 2	سان	سان	ADP	_	_	1	case	_	_
 3	ٽٻ	ٽٻ	ADJ	_	_	4	xcomp	_	_
 4	لڳين	لڳ	VERB	_	_	0	root	_	_
-5	پئي	پئي	VERB	_	_	4	compound	_	_
+5	پئي	پيو	VERB	_	_	4	compound	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = MD-639
@@ -3213,7 +3213,7 @@
 14	۽	۽	CCONJ	_	_	15	cc	_	_
 15	انوکي	انوکي	ADJ	_	_	13	conj	_	_
 16	آهي	آهي	AUX	_	_	13	cop	_	_
-17	انڪري	_	SCONJ	_	_	13	mark	_	_
+17	انڪري	انڪري	SCONJ	_	_	13	mark	_	_
 18	سنڌ	سنڌ	PROPN	_	_	23	nsubj	_	_
 19	نه	نه	PART	_	_	23	dep	_	_
 20	صرف	صرف	ADJ	_	_	21	amod	_	_
@@ -3309,7 +3309,7 @@
 39	دنيا	دنيا	NOUN	_	_	43	nmod	_	_
 40	جي	جي	ADP	_	_	39	case	_	_
 41	قديم	قديم	ADJ	_	_	43	amod	_	_
-42	ترين	_	ADJ	_	_	41	compound	_	_
+42	ترين	تريون	ADJ	_	_	41	compound	_	_
 43	علائقي	علائقو	NOUN	_	_	44	nmod	_	_
 44	سمير	سمير	PROPN	_	_	49	obl	_	_
 45	کان	کان	ADP	_	_	44	case	_	_
@@ -3414,7 +3414,7 @@
 7	صحت	صحت	NOUN	_	_	10	nsubj	_	_
 8	ئي	ئي	PART	_	_	7	advmod:emph	_	_
 9	سڀ	سڀ	ADJ	_	_	10	amod	_	_
-10	ڪجھ	_	ADJ	_	_	3	advcl	_	_
+10	ڪجھ	ڪجھ	ADJ	_	_	3	advcl	_	_
 11	آهي	آهي	AUX	_	_	10	cop	_	_
 12	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -3458,11 +3458,11 @@
 5	ڪونهي	آهي	ADV	_	_	4	advmod	_	_
 6	جو	جو	ADP	_	_	4	case	_	_
 7	ڪڏهن	ڪڏهن	ADV	_	_	14	advmod	_	_
-8	ڪنهن	ڪنهن	DET	_	_	14	obl	_	_
+8	ڪنهن	ڪو	DET	_	_	14	obl	_	_
 9	سان	سان	ADP	_	_	8	case	_	_
 10	ته	ته	PART	_	_	8	advmod:emph	_	_
 11	ڪڏهن	ڪڏهن	ADV	_	_	14	advmod	_	_
-12	ڪنهن	ڪنهن	DET	_	_	14	obl	_	_
+12	ڪنهن	ڪو	DET	_	_	14	obl	_	_
 13	سان	سان	ADP	_	_	12	case	_	_
 14	ڪجي	ڪج	VERB	_	_	4	acl:relcl	_	_
 15	.	.	PUNCT	_	_	14	punct	_	_
@@ -3532,7 +3532,7 @@
 11	هو	هو	PRON	_	_	16	nsubj	_	_
 12	حقيقت	حقيقت	NOUN	_	_	16	obl	_	_
 13	۾	۾	ADP	_	_	12	case	_	_
-14	اهي	اهي	DET	_	_	15	det	_	_
+14	اهي	اهو	DET	_	_	15	det	_	_
 15	ملڪ	ملڪ	NOUN	_	_	16	obj	_	_
 16	گھمائيندا	گھُم	VERB	_	_	7	ccomp	_	_
 17	آهن	آهي	AUX	_	_	16	aux	_	_
@@ -3578,7 +3578,7 @@
 5	تي	تي	ADP	_	_	4	case	_	_
 6	خطرناڪ	خطرناڪ	ADJ	_	_	7	amod	_	_
 7	ٻوڏ	ٻوڏ	NOUN	_	_	9	nmod	_	_
-8	واري	واري	ADP	_	_	7	case	_	_
+8	واري	وارو	ADP	_	_	7	case	_	_
 9	حالت	حالت	NOUN	_	_	0	root	_	_
 10	،	،	PUNCT	_	_	9	punct	_	_
 
@@ -3605,7 +3605,7 @@
 1	سکر	سکر	PROPN	_	_	2	nmod	_	_
 2	بئراج	بئراج	NOUN	_	_	4	nsubj	_	_
 3	فوج	فوج	NOUN	_	_	4	obl	_	_
-4	حوالي	_	VERB	_	_	34	advcl	_	_
+4	حوالي	حوالي	VERB	_	_	34	advcl	_	_
 5	لاهور	لاهور	PROPN	_	_	34	obl	_	_
 6	/	/	PUNCT	_	_	7	punct	_	_
 7	سکر	سکر	PROPN	_	_	5	conj	_	_
@@ -3632,10 +3632,10 @@
 28	24	24	NUM	_	_	29	nummod	_	_
 29	ڪلاڪن	ڪلاڪ	NOUN	_	_	34	obl	_	_
 30	۾	۾	ADP	_	_	29	case	_	_
-31	ڪوٽڙي	_	PROPN	_	_	32	compound	_	_
+31	ڪوٽڙي	ڪوٽڙي	PROPN	_	_	32	compound	_	_
 32	بئراج	بئراج	NOUN	_	_	34	obl	_	_
 33	کان	کان	ADP	_	_	32	case	_	_
-34	گذرندي	_	VERB	_	_	0	root	_	_
+34	گذرندي	گذر	VERB	_	_	0	root	_	_
 35	،	،	PUNCT	_	_	34	punct	_	_
 
 # sent_id = 670
@@ -3651,7 +3651,7 @@
 9	وقت	وقت	NOUN	_	_	15	obl	_	_
 10	خطرناڪ	خطرناڪ	ADJ	_	_	11	amod	_	_
 11	ٻوڏ	ٻوڏ	NOUN	_	_	13	nmod	_	_
-12	واري	واري	ADP	_	_	11	case	_	_
+12	واري	وارو	ADP	_	_	11	case	_	_
 13	حالت	حالت	NOUN	_	_	15	obl	_	_
 14	۾	۾	ADP	_	_	13	case	_	_
 15	هوندا	آهي	VERB	_	_	0	root	_	_
@@ -3677,7 +3677,7 @@
 2	وڃي	وڃ	VERB	_	_	1	compound	_	_
 3	ٿو	آهي	AUX	_	_	1	aux	_	_
 4	ته	ته	SCONJ	_	_	18	mark	_	_
-5	ڪوٽڙي	_	PROPN	_	_	6	nmod	_	_
+5	ڪوٽڙي	ڪوٽڙي	PROPN	_	_	6	nmod	_	_
 6	بئراج	بئراج	NOUN	_	_	18	obl	_	_
 7	تي	تي	ADP	_	_	6	case	_	_
 8	پاڻي	پاڻي	NOUN	_	_	10	nmod	_	_
@@ -3698,10 +3698,10 @@
 1	واضح	واضح	ADJ	_	_	2	compound	_	_
 2	رهي	ره	VERB	_	_	0	root	_	_
 3	ته	ته	SCONJ	_	_	16	mark	_	_
-4	ڪوٽڙي	_	PROPN	_	_	5	nmod	_	_
+4	ڪوٽڙي	ڪوٽڙي	PROPN	_	_	5	nmod	_	_
 5	بئراج	بئراج	NOUN	_	_	16	obl	_	_
 6	تي	تي	ADP	_	_	5	case	_	_
-7	ساڍا	_	ADJ	_	_	9	amod	_	_
+7	ساڍا	ساڍو	ADJ	_	_	9	amod	_	_
 8	6	6	NUM	_	_	9	nummod	_	_
 9	لک	لک	NOUN	_	_	10	nmod	_	_
 10	ڪيوسڪ	ڪيوسڪ	NOUN	_	_	11	nmod	_	_
@@ -3757,7 +3757,7 @@
 # text = سڀاڻي کان ڪوٽڙي بئراج تي به اها صورتحال پيدا ٿي ويندي .
 1	سڀاڻي	سڀاڻي	NOUN	_	_	9	obl	_	_
 2	کان	کان	ADP	_	_	1	case	_	_
-3	ڪوٽڙي	_	PROPN	_	_	4	compound	_	_
+3	ڪوٽڙي	ڪوٽڙي	PROPN	_	_	4	compound	_	_
 4	بئراج	بئراج	NOUN	_	_	9	obl	_	_
 5	تي	تي	ADP	_	_	4	case	_	_
 6	به	به	PART	_	_	4	advmod:emph	_	_
@@ -3779,7 +3779,7 @@
 7	ٻوڏ	ٻوڏ	NOUN	_	_	9	nmod	_	_
 8	جي	جي	ADP	_	_	7	case	_	_
 9	صورتحال	صورتحال	NOUN	_	_	15	nsubj	_	_
-10	ايندڙ	_	ADJ	_	_	12	amod	_	_
+10	ايندڙ	ايندڙ	ADJ	_	_	12	amod	_	_
 11	ٻن	ٻہ	NUM	_	_	12	nummod	_	_
 12	ڏينهن	ڏينهن	NOUN	_	_	15	obl	_	_
 13	تائين	تائين	ADP	_	_	12	case	_	_
@@ -3796,10 +3796,10 @@
 3	سکر	سکر	PROPN	_	_	4	compound	_	_
 4	بئراج	بئراج	NOUN	_	_	17	nsubj	_	_
 5	هڪ	هڪ	NUM	_	_	7	nummod	_	_
-6	محتاط	_	ADJ	_	_	7	amod	_	_
+6	محتاط	محتاط	ADJ	_	_	7	amod	_	_
 7	اندازي	_	NOUN	_	_	8	obl	_	_
 8	مطابق	_	VERB	_	_	17	advcl	_	_
-9	ايندڙ	_	ADJ	_	_	10	amod	_	_
+9	ايندڙ	ايندڙ	ADJ	_	_	10	amod	_	_
 10	هفتي	_	NOUN	_	_	17	obl	_	_
 11	تائين	تائين	ADP	_	_	10	case	_	_
 12	خطرناڪ	خطرناڪ	ADJ	_	_	13	amod	_	_
@@ -3824,7 +3824,7 @@
 10	خطرناڪ	خطرناڪ	ADJ	_	_	11	amod	_	_
 11	ٻوڏ	ٻوڏ	NOUN	_	_	13	nmod	_	_
 12	جا	جو	ADP	_	_	11	case	_	_
-13	وهڪرا	_	NOUN	_	_	0	root	_	_
+13	وهڪرا	وهڪرو	NOUN	_	_	0	root	_	_
 14	آهن	آهي	AUX	_	_	13	cop	_	_
 
 # sent_id = 680
@@ -3842,7 +3842,7 @@
 11	سنڌو	سنڌو	PROPN	_	_	12	compound	_	_
 12	درياءَ	درياءَ	NOUN	_	_	14	nmod	_	_
 13	جا	جو	ADP	_	_	12	case	_	_
-14	وهڪرا	_	NOUN	_	_	20	nsubj	_	_
+14	وهڪرا	وهڪرو	NOUN	_	_	20	nsubj	_	_
 15	11	11	NUM	_	_	16	nummod	_	_
 16	لک	لک	NOUN	_	_	17	nmod	_	_
 17	ڪيوسڪ	ڪيوسڪ	NOUN	_	_	20	obl	_	_
@@ -3995,13 +3995,13 @@
 5	آهي	آهي	AUX	_	_	4	cop	_	_
 6	ته	ته	SCONJ	_	_	24	mark	_	_
 7	زور	زور	NOUN	_	_	8	compound	_	_
-8	ٽٽي	_	VERB	_	_	24	advcl	_	_
+8	ٽٽي	ٽٽ	VERB	_	_	24	advcl	_	_
 9	وڃڻ	وڃ	VERB	_	_	8	compound	_	_
 10	باوجود	باوجود	ADP	_	_	8	case	_	_
 11	گڊو	گڊو	PROPN	_	_	12	compound	_	_
 12	بئراج	بئراج	NOUN	_	_	14	nmod	_	_
 13	جا	جو	ADP	_	_	12	case	_	_
-14	وهڪرا	_	NOUN	_	_	24	nsubj	_	_
+14	وهڪرا	وهڪرو	NOUN	_	_	24	nsubj	_	_
 15	خطرناڪ	خطرناڪ	ADJ	_	_	16	amod	_	_
 16	ٻوڏ	ٻوڏ	NOUN	_	_	24	obl	_	_
 17	يعني	يعني	ADP	_	_	16	case	_	_
@@ -4020,7 +4020,7 @@
 2	ته	ته	SCONJ	_	_	12	mark	_	_
 3	سکر	سکر	PROPN	_	_	4	nmod	_	_
 4	بئراج	بئراج	NOUN	_	_	12	nsubj	_	_
-5	ايندڙ	_	ADJ	_	_	7	amod	_	_
+5	ايندڙ	ايندڙ	ADJ	_	_	7	amod	_	_
 6	چئن	_	NUM	_	_	7	nummod	_	_
 7	ڏينهن	ڏينهن	NOUN	_	_	12	obl	_	_
 8	تائين	تائين	ADP	_	_	7	case	_	_
@@ -4071,8 +4071,8 @@
 23	خطرناڪ	خطرناڪ	ADJ	_	_	21	conj	_	_
 24	ٻوڏ	ٻوڏ	NOUN	_	_	26	nmod	_	_
 25	جا	جو	ADP	_	_	24	case	_	_
-26	وهڪرا	_	NOUN	_	_	27	nsubj	_	_
-27	گذرندا	_	VERB	_	_	0	root	_	_
+26	وهڪرا	وهڪرو	NOUN	_	_	27	nsubj	_	_
+27	گذرندا	گذر	VERB	_	_	0	root	_	_
 28	.	.	PUNCT	_	_	27	punct	_	_
 
 # sent_id = 690
@@ -4087,7 +4087,7 @@
 8	انفلو	_	NOUN	_	_	15	nsubj	_	_
 9	5	5	NUM	_	_	13	nummod	_	_
 10	کان	کان	ADP	_	_	9	case	_	_
-11	ساڍا	_	ADJ	_	_	13	amod	_	_
+11	ساڍا	ساڍو	ADJ	_	_	13	amod	_	_
 12	6	6	NUM	_	_	13	nummod	_	_
 13	لک	لک	NOUN	_	_	15	xcomp	_	_
 14	ٿي	آهي	AUX	_	_	13	cop	_	_
@@ -4104,10 +4104,10 @@
 6	وهڪرو	وهڪرو	NOUN	_	_	16	nsubj	_	_
 7	5	5	NUM	_	_	8	nummod	_	_
 8	لک	لک	NOUN	_	_	10	nmod	_	_
-9	80	_	NUM	_	_	10	nummod	_	_
+9	80	80	NUM	_	_	10	nummod	_	_
 10	هزار	هزار	NOUN	_	_	16	obl	_	_
 11	کان	کان	ADP	_	_	10	case	_	_
-12	ساڍا	_	ADJ	_	_	13	amod	_	_
+12	ساڍا	ساڍو	ADJ	_	_	13	amod	_	_
 13	7	7	NUM	_	_	14	nummod	_	_
 14	لک	لک	NOUN	_	_	16	xcomp	_	_
 15	ٿي	آهي	AUX	_	_	16	aux	_	_
@@ -4129,7 +4129,7 @@
 11	کان	کان	ADP	_	_	10	case	_	_
 12	7	7	NUM	_	_	13	nummod	_	_
 13	لک	لک	NOUN	_	_	15	nmod	_	_
-14	80	_	NUM	_	_	15	nummod	_	_
+14	80	80	NUM	_	_	15	nummod	_	_
 15	هزار	هزار	NOUN	_	_	17	xcomp	_	_
 16	ٿي	آهي	AUX	_	_	17	aux	_	_
 17	ويندي	ويندو	VERB	_	_	0	root	_	_
@@ -4148,7 +4148,7 @@
 9	خطرناڪ	خطرناڪ	ADJ	_	_	10	amod	_	_
 10	ٻوڏ	ٻوڏ	NOUN	_	_	12	nmod	_	_
 11	جا	جو	ADP	_	_	10	case	_	_
-12	وهڪرا	_	NOUN	_	_	13	nsubj	_	_
+12	وهڪرا	وهڪرو	NOUN	_	_	13	nsubj	_	_
 13	گذري	گذر	VERB	_	_	0	root	_	_
 14	رهيا	ره	VERB	_	_	13	compound	_	_
 15	آهن	آهي	AUX	_	_	13	aux	_	_
@@ -4166,7 +4166,7 @@
 8	وڏي	وڏي	ADJ	_	_	9	amod	_	_
 9	ٻوڏ	ٻوڏ	NOUN	_	_	11	nmod	_	_
 10	جا	جو	ADP	_	_	9	case	_	_
-11	وهڪرا	_	NOUN	_	_	12	obj	_	_
+11	وهڪرا	وهڪرو	NOUN	_	_	12	obj	_	_
 12	گذرڻ	گذرڻ	VERB	_	_	14	xcomp	_	_
 13	جو	جو	ADP	_	_	12	mark	_	_
 14	امڪان	امڪان	NOUN	_	_	0	root	_	_

@@ -22,11 +22,11 @@
 # sent_id = MD-310B
 # text = ئ اها خبر پئي ته هوءَ تمام گھڻي خوش آهي
 1	ئ	_	ADV	ADV	_	4	advmod	_	_
-2	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+2	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	خبر	خبر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	_
-4	پئي	پئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
+4	پئي	پيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
 5	ته	ته	SCONJ	CS	_	9	mark	_	_
-6	هوءَ	هوءَ	DET	PRD	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	هوءَ	هوءَ	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	nsubj	_	_
 7	تمام	تمام	ADV	ADV	_	8	advmod	_	_
 8	گھڻي	گھڻي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	4	ccomp	_	_
@@ -68,7 +68,7 @@
 # text = سومر تي اسان کي موڪل آهي .
 1	سومر	سومر	PROPN	NNP	Case=Nom|Gender=Masc	5	obl	_	_
 2	تي	تي	ADP	PSPL	_	1	case	_	_
-3	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	5	nsubj	_	_
+3	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	5	nsubj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
 5	موڪل	موڪل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	5	cop	_	_
@@ -107,7 +107,7 @@
 2	۽	۽	CCONJ	CC	_	3	cc	_	_
 3	ثقافت	ثقافت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	_
 4	سان	سان	ADP	PSP	_	1	case	_	_
-5	ٿيندي	آهي	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	0	root	_	_
+5	ٿيندي	آهي	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	_
 6	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	5	aux	_	_
 7	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 
@@ -163,7 +163,7 @@
 
 # sent_id = MD-369A
 # text = هي زندگي عارضي آهي .
-1	هي	هي	DET	PRD	Case=Nom|Number=Sing	2	det	_	_
+1	هي	هي	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	2	det	_	_
 2	زندگي	زندگي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	عارضي	عارضي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
@@ -250,15 +250,15 @@
 
 # sent_id = MD-418C
 # text = هُو اڄ ڪونه ايندو .
-1	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+1	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	اڄ	اڄ	ADV	ADT	_	4	advmod	_	_
 3	ڪونه	ڪونه	ADV	ADN	_	4	advmod	_	_
-4	ايندو	اچ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
+4	ايندو	اچ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|VerbForm=PresPart|Voice=Act	0	root	_	_
 5	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
 
 # sent_id = MD-420A
 # text = هي انب مٺو آهي .
-1	هي	هي	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+1	هي	هي	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	انب	انب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	مٺو	مٺو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
@@ -274,7 +274,7 @@
 # sent_id = MD-421A
 # text = آءَ هن کان ڪتاب وٺندومانس .
 1	آءَ	آءَ	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
-2	هن	هن	DET	PRD	Case=Acc|Number=Sing	5	obl	_	_
+2	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	obl	_	_
 3	کان	کان	ADP	PSP	_	2	case	_	_
 4	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
 5	وٺندومانس	_	VERB	VMX	Number=Sing|Number[subj]=Sing|Person=1|Person[subj]=1	0	root	_	_
@@ -293,7 +293,7 @@
 # sent_id = MD-431A
 # text = اڄ اسان کان چوري ٿي .
 1	اڄ	اڄ	ADV	ADT	_	4	advmod	_	_
-2	اسان	اسين	PRON	PRP	Case=Acc|Number=Plur|Person=1	4	obl	_	_
+2	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	4	obl	_	_
 3	کان	کان	ADP	PSP	_	2	case	_	_
 4	چوري	چوري	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
 5	ٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	4	cop	_	_
@@ -301,18 +301,18 @@
 
 # sent_id = MD-431B
 # text = اچو ته اڄ عيد جي وڏي ڏينهن تي پاڻ هڪ ٿي وڃون ۽ اڳتي محبت سان رهڻ جو وچن ڪريون ته پاڻ ڪڏهن به جھڳڙا نه ڪنداسين ۽ سڀئي اختلاف ختم ڪري ڇڏينداسين هي جماليات جو بهترين مثال آهي .
-1	اچو	اچ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	11	advcl	_	_
-2	ته	ته	SCONJ	CS	_	11	mark	_	_
-3	اڄ	اڄ	ADV	ADT	Case=Nom|Number=Sing	11	advmod	_	_
+1	اچو	اچ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	10	advcl	_	_
+2	ته	ته	SCONJ	CS	_	10	mark	_	_
+3	اڄ	اڄ	ADV	ADT	Case=Nom|Number=Sing	10	advmod	_	_
 4	عيد	عيد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
 6	وڏي	وڏي	ADJ	JJ	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	7	amod	_	_
-7	ڏينهن	ڏينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+7	ڏينهن	ڏينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 8	تي	تي	ADP	PSPL	_	7	case	_	_
-9	پاڻ	پاڻ	PRON	PRP	Case=Acc	11	nsubj	_	_
-10	هڪ	هڪ	ADJ	JJ	Case=Nom|Degree=Pos	11	xcomp	_	_
-11	ٿي	آهي	AUX	VAUX	Number=Sing	0	root	_	_
-12	وڃون	وڃ	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	11	compound	_	_
+9	پاڻ	پاڻ	PRON	PRP	Case=Acc	10	nsubj	_	_
+10	هڪ	هڪ	NUM	NUM	_	0	root	_	_
+11	ٿي	آهي	AUX	VAUX	Number=Sing	10	cop	_	_
+12	وڃون	وڃ	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	10	compound	_	_
 13	۽	۽	CCONJ	CC	_	20	cc	_	_
 14	اڳتي	اڳتي	ADV	ADP	_	17	advmod	_	_
 15	محبت	محبت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
@@ -320,7 +320,7 @@
 17	رهڻ	ره	VERB	VM	Aspect=Imp|VerbForm=Inf	19	nmod	_	_
 18	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	17	mark	_	_
 19	وچن	وچن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	xcomp	_	_
-20	ڪريون	ڪر	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	11	conj	_	_
+20	ڪريون	ڪر	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	10	conj	_	_
 21	ته	ته	SCONJ	CS	_	27	mark	_	_
 22	پاڻ	پاڻ	PRON	PRP	Case=Acc|Person=1	27	nsubj	_	_
 23	ڪڏهن	ڪڏهن	ADV	ADT	_	27	advmod	_	_
@@ -329,12 +329,12 @@
 26	نه	نه	PART	PART	_	27	dep	_	_
 27	ڪنداسين	ڪن	VERB	VMX	Aspect=Imp|Number=Plur|Voice=Act	20	advcl	_	_
 28	۽	۽	CCONJ	CC	_	32	cc	_	_
-29	سڀئي	سڀ	ADJ	JJ	Case=Nom|Number=Plur	30	amod	_	_
+29	سڀئي	سڀ	ADJ	JJ	Case=Nom|PronType=Tot	30	amod	_	_
 30	اختلاف	اختلاف	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	_
 31	ختم	ختم	ADJ	JJ	Case=Nom|Degree=Pos	32	xcomp	_	_
 32	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	27	conj	_	_
 33	ڇڏينداسين	_	VERB	VMX	Aspect=Imp|Number=Plur|Number[subj]=Plur|Person[subj]=1|Voice=Act	32	compound	_	_
-34	هي	هي	DET	PRD	Case=Nom|Number=Sing	35	det	_	_
+34	هي	هي	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	35	det	_	_
 35	جماليات	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	38	nmod	_	_
 36	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	35	case	_	_
 37	بهترين	بهتر	ADJ	JJ	Case=Nom|Degree=Pos	38	amod	_	_
@@ -345,8 +345,8 @@
 # sent_id = MD-484A
 # text = دوست اهو جيڪو ڏکيي وقت ۾ ڪم اچي .
 1	دوست	دوست	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-2	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_
-3	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_
+2	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+3	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 4	ڏکيي	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	وقت	وقت	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 6	۾	۾	ADP	PSPL	_	5	case	_	_
@@ -366,10 +366,10 @@
 
 # sent_id = MD-496A
 # text = هن ملڪ ۾ جيڪو ڏاڍو سو گابو آ .
-1	هن	هن	DET	PRD	Case=Acc|Number=Sing	2	det	_	_
+1	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
-4	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+4	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 5	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	سو	سو	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	گابو	گابو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -399,8 +399,8 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 
 # sent_id = MD-456B
-# notes = the second half of 456 was incomplete, so it includes 457 to make a complete sentence
 # text = سنڌ ڌرتي تي ڌارين جي آبادڪاري جي ڪري سنڌي سوچ ، ثقافت ۽ روين تي تمام گھڻو اثر ٿيو آهي
+# notes = the second half of 456 was incomplete, so it includes 457 to make a complete sentence
 1	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	2	nmod	_	_
 2	ڌرتي	ڌرتي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 3	تي	تي	ADP	PSPL	_	2	case	_	_
@@ -408,9 +408,9 @@
 5	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	4	case	_	_
 6	آبادڪاري	آبادڪار	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 7	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	6	case	_	_
-8	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	19	advcl	_	_
+8	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	18	advcl	_	_
 9	سنڌي	سنڌي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	_
-10	سوچ	سوچ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+10	سوچ	سوچ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
 11	،	،	PUNCT	PUNCT	_	12	punct	_	_
 12	ثقافت	ثقافت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
 13	۽	۽	CCONJ	CC	_	14	cc	_	_
@@ -418,7 +418,7 @@
 15	تي	تي	ADP	PSPL	_	14	case	_	_
 16	تمام	تمام	ADV	ADV	_	17	advmod	_	_
 17	گھڻو	گھڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
-18	اثر	اثر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	compound	_	_
-19	ٿيو	آهي	VERB	VM	Aspect=Perf|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
-20	آهي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Pres	19	aux	_	SpaceAfter=No
+18	اثر	اثر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+19	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	18	cop	_	_
+20	آهي	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Pres	18	aux	_	SpaceAfter=No
 

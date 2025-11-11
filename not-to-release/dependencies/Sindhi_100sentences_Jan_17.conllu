@@ -21,7 +21,7 @@
 5	والدين	والدين	NOUN	_	_	8	nsubj	_	_
 6	تمام	تمام	ADV	_	_	7	advmod	_	_
 7	گهڻو	گهڻو	ADJ	_	_	8	xcomp	_	_
-8	پتوڙن	_	VERB	_	_	0	root	_	_
+8	پتوڙن	پتوڙ	VERB	_	_	0	root	_	_
 9	ٿا	آهي	AUX	_	_	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -77,7 +77,7 @@
 6	جا	جو	ADP	_	_	5	case	_	_
 7	تمام	تمام	ADJ	_	_	8	amod	_	_
 8	ٿڪ	_	NOUN	_	_	11	nsubj	_	_
-9	دور	_	ADV	_	_	11	compound	_	_
+9	دور	دور	ADV	_	_	11	compound	_	_
 10	ٿي	آهي	AUX	_	_	11	aux	_	_
 11	وڃن	وڃ	VERB	_	_	0	root	_	_
 12	ٿا	آهي	AUX	_	_	11	aux	_	SpaceAfter=No
@@ -89,10 +89,10 @@
 2	ان	ان	DET	_	_	5	obj	_	_
 3	کي	کي	ADP	_	_	2	case	_	_
 4	سکيا	سکيو	NOUN	_	_	5	obj	_	_
-5	ڏيارڻ	_	VERB	_	_	10	advcl	_	_
+5	ڏيارڻ	ڏيار	VERB	_	_	10	advcl	_	_
 6	لاءِ	لاءِ	ADP	_	_	5	mark	_	_
 7	والدين	والدين	NOUN	_	_	10	nsubj	_	_
-8	ڀرپور	_	ADJ	_	_	9	amod	_	_
+8	ڀرپور	ڀرپور	ADJ	_	_	9	amod	_	_
 9	ڪوشش	ڪوشش	NOUN	_	_	10	compound	_	_
 10	ڪندا	ڪن	VERB	_	_	0	root	_	_
 11	آهن	آهي	AUX	_	_	10	aux	_	SpaceAfter=No
@@ -106,23 +106,23 @@
 4	هن	هن	DET	_	_	5	det	_	_
 5	معاشري	معاشرو	NOUN	_	_	9	obl	_	_
 6	لاءِ	لاءِ	ADP	_	_	5	case	_	_
-7	ڪارآمد	_	ADJ	_	_	8	amod	_	_
+7	ڪارآمد	ڪارآمد	ADJ	_	_	8	amod	_	_
 8	فرد	فرد	NOUN	_	_	9	xcomp	_	_
 9	بڻجي	بڻجي	VERB	_	_	0	root	_	_
 10	سگهن	سگهي	AUX	_	_	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 8
-# text = هيٺ ٻارڙن لاءِ پيش ڪيل وصفون ڏجن ٿيو.
-1	هيٺ	هيٺ	ADV	_	_	7	advmod	_	_
-2	ٻارڙن	ٻارڙو	NOUN	_	_	5	obl	_	_
-3	لاءِ	لاءِ	ADP	_	_	2	case	_	_
-4	پيش	پيش	NOUN	_	_	5	compound	_	_
-5	ڪيل	ڪيو	VERB	_	_	6	acl	_	_
-6	وصفون	_	NOUN	_	_	7	nsubj	_	_
-7	ڏجن	_	VERB	_	_	0	root	_	_
-8	ٿيو	آهي	AUX	_	_	7	aux	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	7	punct	_	_
+# text = هيٺ ٻارڙن لاءِ پيش ڪيل وصفون ڏجن ٿيون .
+1	هيٺ	هيٺ	ADV	ADV	_	7	advmod	_	_
+2	ٻارڙن	ٻارڙو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	obl	_	_
+3	لاءِ	لاءِ	ADP	PSP	_	2	case	_	_
+4	پيش	پيش	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	_
+5	ڪيل	ڪيو	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Pass	6	acl	_	_
+6	وصفون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+7	ڏجن	ڏج	VERB	VM	Aspect=Imp|Number=Plur|Person=3|Voice=Act	0	root	_	_
+8	ٿيون	آهي	AUX	VAUX	Gender=Fem|Number=Plur|Tense=Pres	7	aux	_	_
+9	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = 9
 # text = ٻنهي جهانن جي سردار حضرت محمد صلي الله عليه وسلم جن ٻارن جي لاءِ فرمايو آهي.
@@ -140,7 +140,7 @@
 12	ٻارن	ٻار	NOUN	_	_	15	obl	_	_
 13	جي	جي	ADP	_	_	12	case	_	_
 14	لاءِ	لاءِ	ADP	_	_	12	case	_	_
-15	فرمايو	_	VERB	_	_	0	root	_	_
+15	فرمايو	فرماءِ	VERB	_	_	0	root	_	_
 16	آهي	آهي	AUX	_	_	15	aux	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -162,8 +162,8 @@
 2	غزالي	_	PROPN	_	_	6	nsubj	_	_
 3	ٻارن	ٻار	NOUN	_	_	5	nmod	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
-5	بابت	_	ADV	_	_	6	advmod	_	_
-6	فرمايو	_	VERB	_	_	0	root	_	_
+5	بابت	بابت	ADV	_	_	6	advmod	_	_
+6	فرمايو	فرماءِ	VERB	_	_	0	root	_	_
 7	آهي	آهي	AUX	_	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -174,7 +174,7 @@
 3	وٽ	وٽ	ADP	_	_	2	case	_	_
 4	الله	الله	PROPN	_	_	7	nmod	_	_
 5	جي	جي	ADP	_	_	4	case	_	_
-6	انمول	_	ADJ	_	_	7	amod	_	_
+6	انمول	انمول	ADJ	_	_	7	amod	_	_
 7	امانت	_	NOUN	_	_	0	root	_	_
 8	آهي	آهي	AUX	_	_	7	cop	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
@@ -187,7 +187,7 @@
 4	جي	جي	ADP	_	_	3	case	_	_
 5	فرض	فرض	NOUN	_	_	7	obl	_	_
 6	کان	کان	ADP	_	_	5	case	_	_
-7	غافل	_	ADJ	_	_	0	root	_	_
+7	غافل	غافل	ADJ	_	_	0	root	_	_
 8	آهن	آهي	AUX	_	_	7	cop	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -200,7 +200,7 @@
 5	خيانت	_	NOUN	_	_	7	nmod	_	_
 6	جا	جو	ADP	_	_	5	case	_	_
 7	ذميوار	_	ADJ	_	_	9	xcomp	_	_
-8	بنجي	_	VERB	_	_	9	compound	_	_
+8	بنجي	بنج	VERB	_	_	9	compound	_	_
 9	رهيا	ره	VERB	_	_	0	root	_	_
 10	آهن	آهي	AUX	_	_	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
@@ -230,7 +230,7 @@
 4	خوشحال	خوشحال	ADJ	_	_	5	amod	_	_
 5	آئيندي	آئيندو	NOUN	_	_	7	nmod	_	_
 6	جي	جي	ADP	_	_	5	case	_	_
-7	سڃاڻپ	_	NOUN	_	_	0	root	_	_
+7	سڃاڻپ	سڃاڻپ	NOUN	_	_	0	root	_	_
 8	آهي	آهي	AUX	_	_	7	cop	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -334,7 +334,7 @@
 3	ٻار	ٻار	NOUN	_	_	12	obj	_	_
 4	کي	کي	ADP	_	_	3	case	_	_
 5	به	به	PART	_	_	3	advmod:emph	_	_
-6	ڪنهن	ڪنهن	DET	_	_	7	det	_	_
+6	ڪنهن	ڪو	DET	_	_	7	det	_	_
 7	ملڪ	ملڪ	NOUN	_	_	12	obl	_	_
 8	يا	يا	CCONJ	_	_	9	cc	_	_
 9	سماج	سماج	NOUN	_	_	7	conj	_	_
@@ -383,8 +383,8 @@
 
 # sent_id = 26
 # text = ڇاڪاڻ ته هن ٻار کي ئي اڳتي هلي هن سماج کي هلائڻو آهي.
-1	ڇاڪاڻ	_	CCONJ	_	_	12	cc	_	_
-2	ته	ته	SCONJ	_	_	12	mark	_	_
+1	ڇاڪاڻ	ڇاڪاڻ	SCONJ	_	_	12	mark	_	_
+2	ته	ته	SCONJ	_	_	1	fixed	_	_
 3	هن	هن	DET	_	_	4	det	_	_
 4	ٻار	ٻار	NOUN	_	_	12	nsubj	_	_
 5	کي	کي	ADP	_	_	4	case	_	_
@@ -415,7 +415,7 @@
 1	پنهنجي	پنهنجي	PRON	_	_	2	nmod	_	_
 2	صلاحيت	صلاحيت	NOUN	_	_	8	obl	_	_
 3	مطابق	مطابق	ADP	_	_	2	case	_	_
-4	ڪنهن	ڪنهن	DET	_	_	5	det	_	_
+4	ڪنهن	ڪو	DET	_	_	5	det	_	_
 5	اداري	ادارو	NOUN	_	_	8	nsubj	_	_
 6	کي	کي	ADP	_	_	5	case	_	_
 7	ترقي	ترقي	NOUN	_	_	8	compound	_	_
@@ -436,7 +436,7 @@
 9	زندگيءَ	زندگيءَ	NOUN	_	_	12	nmod	_	_
 10	جي	جي	ADP	_	_	9	case	_	_
 11	هر	هر	DET	_	_	12	det	_	_
-12	شعبي	_	NOUN	_	_	15	obl	_	_
+12	شعبي	شعبي	NOUN	_	_	15	obl	_	_
 13	۾	۾	ADP	_	_	12	case	_	_
 14	اپاءُ	_	NOUN	_	_	15	obj	_	_
 15	ورتا	ورتو	VERB	_	_	0	root	_	_
@@ -472,7 +472,7 @@
 13	ٿا	آهي	AUX	_	_	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 32
+# sent_id = 7001
 # text = انڪري انهن جي صحتيابي ۽ مضبوطي معاشري کي پنهنجي پيرن تي بيهاري سگهي ٿي.
 1	انڪري	_	CCONJ	_	_	12	cc	_	_
 2	انهن	انهي	PRON	_	_	4	nmod	_	_
@@ -509,7 +509,7 @@
 # sent_id = 34
 # text = ٻار اوترو جلد پنهنجي سماج جي سياسي معاشي تعليمي ادبي توڙي هر قسم جي ترقيءَ جو باعث بڻجندا.
 1	ٻار	ٻار	NOUN	_	_	18	nsubj	_	_
-2	اوترو	_	ADJ	_	_	3	compound	_	_
+2	اوترو	اوترو	ADJ	_	_	3	compound	_	_
 3	جلد	جلد	ADV	_	_	18	advmod	_	_
 4	پنهنجي	پنهنجي	PRON	_	_	5	nmod	_	_
 5	سماج	سماج	NOUN	_	_	7	nmod	_	_
@@ -525,7 +525,7 @@
 15	ترقيءَ	_	NOUN	_	_	18	obl	_	_
 16	جو	جو	ADP	_	_	15	case	_	_
 17	باعث	_	NOUN	_	_	18	xcomp	_	_
-18	بڻجندا	_	VERB	_	_	0	root	_	SpaceAfter=No
+18	بڻجندا	بڻج	VERB	_	_	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = 35
@@ -553,7 +553,7 @@
 5	فائديمند	_	NOUN	_	_	6	nmod	_	_
 6	ادب	ادب	NOUN	_	_	9	obj	_	_
 7	کي	کي	ADP	_	_	6	case	_	_
-8	تخليق	_	NOUN	_	_	9	compound	_	_
+8	تخليق	تخليق	NOUN	_	_	9	compound	_	_
 9	ڪيو	ڪيو	VERB	_	_	0	root	_	_
 10	وڃي	وڃ	VERB	_	_	9	compound	_	_
 11	ٿو	آهي	AUX	_	_	9	aux	_	SpaceAfter=No
@@ -572,7 +572,7 @@
 9	ڪري	ڪر	VERB	_	_	15	advcl	_	_
 10	پنهنجي	پنهنجو	DET	_	_	11	det	_	_
 11	اندر	اندر	NOUN	_	_	15	obl	_	_
-12	ڪا	ڪا	DET	_	_	13	det	_	_
+12	ڪا	ڪو	DET	_	_	13	det	_	_
 13	صلاحيت	صلاحيت	NOUN	_	_	15	obj	_	_
 14	پيدا	پيدا	VERB	_	_	15	compound	_	_
 15	ڪري	ڪر	VERB	_	_	0	root	_	_
@@ -596,7 +596,7 @@
 12	نيون	نيون	ADJ	_	_	13	nmod	_	_
 13	ايجادون	_	NOUN	_	_	19	obj	_	_
 14	۽	۽	CCONJ	_	_	17	cc	_	_
-15	نت	_	ADV	_	_	17	nmod	_	_
+15	نت	نت	ADV	_	_	17	nmod	_	_
 16	نوان	نئون	ADJ	_	_	17	amod	_	_
 17	طريقا	طريقو	NOUN	_	_	13	conj	_	_
 18	دريافت	_	NOUN	_	_	19	compound	_	_
@@ -608,11 +608,11 @@
 # sent_id = 39
 # text = جيئن ڪنهن به سماج جي واڌاري ۽ ان جي بقا لاءِ نسل جي واڌ ضروري هوندي آهي.
 1	جيئن	جيئن	ADV	_	_	16	advmod	_	_
-2	ڪنهن	ڪنهن	DET	_	_	4	det	_	_
+2	ڪنهن	ڪو	DET	_	_	4	det	_	_
 3	به	به	PART	_	_	2	advmod:emph	_	_
 4	سماج	سماج	NOUN	_	_	6	nmod	_	_
 5	جي	جي	ADP	_	_	4	case	_	_
-6	واڌاري	_	NOUN	_	_	16	obl	_	_
+6	واڌاري	واڌارو	NOUN	_	_	16	obl	_	_
 7	۽	۽	CCONJ	_	_	10	cc	_	_
 8	ان	ان	DET	_	_	10	nmod	_	_
 9	جي	جي	ADP	_	_	8	case	_	_
@@ -634,8 +634,8 @@
 4	ان	ان	DET	_	_	5	det	_	_
 5	ٻار	ٻار	NOUN	_	_	8	nmod	_	_
 6	جي	جي	ADP	_	_	5	case	_	_
-7	ذهني	_	ADJ	_	_	8	amod	_	_
-8	صلاحيتن	_	NOUN	_	_	10	nmod	_	_
+7	ذهني	ذهني	ADJ	_	_	8	amod	_	_
+8	صلاحيتن	صلاحيت	NOUN	_	_	10	nmod	_	_
 9	جي	جي	ADP	_	_	8	case	_	_
 10	بقا	بقا	NOUN	_	_	14	nmod	_	_
 11	۽	۽	CCONJ	_	_	12	cc	_	_
@@ -650,15 +650,15 @@
 
 # sent_id = 41
 # text = ڇاڪاڻ ته اڄ جو ٻار مستقبل جو ڊاڪٽر انجنيئر سائنسدان يا ڪو ڏاهو بڻجي ٿو.
-1	ڇاڪاڻ	_	CCONJ	_	_	14	cc	_	_
-2	ته	ته	SCONJ	_	_	14	mark	_	_
+1	ڇاڪاڻ	ڇاڪاڻ	SCONJ	_	_	14	mark	_	_
+2	ته	ته	SCONJ	_	_	1	fixed	_	_
 3	اڄ	اڄ	ADV	_	_	5	nmod	_	_
 4	جو	جو	ADP	_	_	3	case	_	_
 5	ٻار	ٻار	NOUN	_	_	14	nsubj	_	_
 6	مستقبل	مستقبل	NOUN	_	_	8	nmod	_	_
 7	جو	جو	ADP	_	_	6	case	_	_
 8	ڊاڪٽر	ڊاڪٽر	NOUN	_	_	14	obj	_	_
-9	انجنيئر	_	NOUN	_	_	8	nmod	_	_
+9	انجنيئر	انجنيئر	NOUN	_	_	8	nmod	_	_
 10	سائنسدان	_	NOUN	_	_	8	nmod	_	_
 11	يا	يا	CCONJ	_	_	13	cc	_	_
 12	ڪو	ڪو	DET	_	_	13	det	_	_
@@ -667,7 +667,7 @@
 15	ٿو	آهي	AUX	_	_	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	_
 
-# sent_id = 42
+# sent_id = 7002
 # text = جيڪڏهن ٻارن کي بهترين رستو فراهم ڪبو.
 1	جيڪڏهن	جيڪڏهن	CCONJ	_	_	7	mark	_	_
 2	ٻارن	ٻار	NOUN	_	_	7	iobj	_	_
@@ -675,7 +675,7 @@
 4	بهترين	بهتر	ADJ	_	_	5	amod	_	_
 5	رستو	رستو	NOUN	_	_	7	obj	_	_
 6	فراهم	فراهم	NOUN	_	_	7	nmod	_	_
-7	ڪبو	_	VERB	_	_	0	root	_	SpaceAfter=No
+7	ڪبو	ڪر	VERB	_	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 43
@@ -698,7 +698,7 @@
 1	شاعر	شاعر	NOUN	_	_	4	nmod	_	_
 2	۽	۽	CCONJ	_	_	3	cc	_	_
 3	ليکڪ	ليکڪ	NOUN	_	_	1	conj	_	_
-4	پروفيسر	_	NOUN	_	_	7	nmod	_	_
+4	پروفيسر	پروفيسر	NOUN	_	_	7	nmod	_	_
 5	زوار	_	PROPN	_	_	7	compound	_	_
 6	حسين	حسين	PROPN	_	_	7	compound	_	_
 7	شاھ	_	NOUN	_	_	8	nmod	_	_
@@ -712,10 +712,10 @@
 3	جي	جي	ADP	_	_	2	case	_	_
 4	ڪتاب	ڪتاب	NOUN	_	_	13	obl	_	_
 5	۾	۾	ADP	_	_	4	case	_	_
-6	ٻاراڻي	_	ADJ	_	_	7	amod	_	_
+6	ٻاراڻي	ٻاراڻو	ADJ	_	_	7	amod	_	_
 7	ادب	ادب	NOUN	_	_	13	obl	_	_
 8	بابت	بابت	ADP	_	_	7	case	_	_
-9	هنن	هن	DET	_	_	10	det	_	_
+9	هنن	هي	DET	_	_	10	det	_	_
 10	خيالن	_	NOUN	_	_	12	nmod	_	_
 11	جو	جو	ADP	_	_	10	case	_	_
 12	اظهار	اظهار	NOUN	_	_	13	compound	_	_
@@ -727,7 +727,7 @@
 # text = ٻاراڻو ادب ڪنهن به سماج جي اها پيڙھ آهي.
 1	ٻاراڻو	ٻاراڻو	ADJ	_	_	2	amod	_	_
 2	ادب	ادب	NOUN	_	_	8	nsubj	_	_
-3	ڪنهن	ڪنهن	DET	_	_	5	det	_	_
+3	ڪنهن	ڪو	DET	_	_	5	det	_	_
 4	به	به	PART	_	_	3	advmod:emph	_	_
 5	سماج	سماج	NOUN	_	_	8	nmod	_	_
 6	جي	جي	ADP	_	_	5	case	_	_
@@ -819,7 +819,7 @@
 3	ئي	ئي	PART	_	_	2	advmod:emph	_	_
 4	ٻاراڻو	ٻاراڻو	ADJ	_	_	5	amod	_	_
 5	ادب	ادب	NOUN	_	_	7	nsubj	_	_
-6	ڪوٺڻ	_	VERB	_	_	7	compound	_	_
+6	ڪوٺڻ	ڪوٺ	VERB	_	_	7	compound	_	_
 7	گهرجي	گهرجي	VERB	_	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -866,7 +866,7 @@
 4	ئي	ئي	PART	_	_	3	advmod:emph	_	_
 5	ٻاراڻو	ٻاراڻو	ADJ	_	_	6	amod	_	_
 6	ادب	ادب	NOUN	_	_	7	nsubj	_	_
-7	ڪوٺڻ	_	VERB	_	_	0	root	_	_
+7	ڪوٺڻ	ڪوٺ	VERB	_	_	0	root	_	_
 8	گهرجي	گهرجي	VERB	_	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -883,13 +883,13 @@
 9	هجي	هجي	VERB	_	_	7	aux	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = 58
+# sent_id = 7000
 # text = جيڪي رچنائون ٻار پڙهن سي ئي صحيح معنيٰ ۾ ٻال ساهتيه ٻاراڻو ادب آهن.
 1	جيڪي	جيڪو	DET	_	_	2	det	_	_
 2	رچنائون	_	NOUN	_	_	4	nsubj	_	_
 3	ٻار	ٻار	NOUN	_	_	4	nsubj	_	_
 4	پڙهن	پڙه	VERB	_	_	5	acl:relcl	_	_
-5	سي	_	PRON	_	_	13	nsubj	_	_
+5	سي	سي	PRON	_	_	13	nsubj	_	_
 6	ئي	ئي	PART	_	_	5	advmod:emph	_	_
 7	صحيح	صحيح	NOUN	_	_	8	nmod	_	_
 8	معنيٰ	معنيٰ	NOUN	_	_	13	nmod	_	_
@@ -939,7 +939,7 @@
 8	ڇا	ڇا	PRON	_	_	11	obl	_	_
 9	مان	مان	ADP	_	_	8	case	_	_
 10	آنند	_	NOUN	_	_	11	obj	_	_
-11	ملندو	_	VERB	_	_	4	conj	_	SpaceAfter=No
+11	ملندو	مل	VERB	_	_	4	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 62
@@ -950,7 +950,7 @@
 4	امداد	_	PROPN	_	_	5	compound	_	_
 5	حسينيءَ	_	NOUN	_	_	15	nsubj	_	_
 6	ڪتاب	ڪتاب	NOUN	_	_	8	nmod	_	_
-7	اڌوري	_	ADJ	_	_	8	amod	_	_
+7	اڌوري	اڌورو	ADJ	_	_	8	amod	_	_
 8	تصوير	تصوير	NOUN	_	_	10	nmod	_	_
 9	جي	جي	ADP	_	_	8	case	_	_
 10	مهاڳ	_	NOUN	_	_	15	obl	_	_
@@ -968,7 +968,7 @@
 2	۾	۾	ADP	_	_	1	case	_	_
 3	هڪ	هڪ	NUM	_	_	4	nummod	_	_
 4	ڪتاب	ڪتاب	NOUN	_	_	5	nsubj	_	_
-5	ڏٺم	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	ڏٺم	ڏس	VERB	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 64
@@ -1019,7 +1019,7 @@
 1	ان	ان	DET	_	_	2	det	_	_
 2	ريت	ريت	NOUN	_	_	11	obl	_	_
 3	گل	گل	NOUN	_	_	4	compound	_	_
-4	ڦل	_	NOUN	_	_	11	obl	_	_
+4	ڦل	ڦل	NOUN	_	_	11	obl	_	_
 5	۾	۾	ADP	_	_	4	case	_	_
 6	مظفر	مظفر	PROPN	_	_	7	compound	_	_
 7	حسن	حسن	PROPN	_	_	10	nmod	_	_
@@ -1074,12 +1074,12 @@
 # text = جيڪڏهن ڪير ٻاراڻي ادب جو ٺپو هڻي ڇپيندو.
 1	جيڪڏهن	جيڪڏهن	CCONJ	_	_	8	mark	_	_
 2	ڪير	ڪير	PRON	_	_	7	nsubj	_	_
-3	ٻاراڻي	_	ADJ	_	_	4	amod	_	_
+3	ٻاراڻي	ٻاراڻو	ADJ	_	_	4	amod	_	_
 4	ادب	ادب	NOUN	_	_	6	nmod	_	_
 5	جو	جو	ADP	_	_	4	case	_	_
 6	ٺپو	_	NOUN	_	_	7	obj	_	_
 7	هڻي	هڻ	VERB	_	_	0	root	_	_
-8	ڇپيندو	_	VERB	_	_	7	compound	_	SpaceAfter=No
+8	ڇپيندو	ڇپ	VERB	_	_	7	compound	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 74
@@ -1142,23 +1142,25 @@
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 79
-# text = بلڪه هر اهو ادب جيڪو ٻارن جي ذهنيت مطابق، سندن وندر، دلچسپيءَ جو باعث بڻجي.
-1	بلڪه	بلڪه	SCONJ	_	_	15	mark	_	_
-2	هر	هر	DET	_	_	4	det	_	_
-3	اهو	اهو	DET	_	_	4	det	_	_
-4	ادب	ادب	NOUN	_	_	15	nsubj	_	_
-5	جيڪو	جيڪو	PRON	_	_	4	nmod	_	_
-6	ٻارن	ٻار	NOUN	_	_	8	nmod	_	_
-7	جي	جي	ADP	_	_	6	case	_	_
-8	ذهنيت	_	NOUN	_	_	15	obl	_	_
-9	مطابق،	_	ADP	_	_	8	case	_	_
-10	سندن	_	DET	_	_	11	det	_	_
-11	وندر،	_	NOUN	_	_	12	nmod	_	_
-12	دلچسپيءَ	_	NOUN	_	_	14	nmod	_	_
-13	جو	جو	ADP	_	_	12	case	_	_
-14	باعث	_	NOUN	_	_	15	xcomp	_	_
-15	بڻجي	بڻجي	VERB	_	_	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	15	punct	_	_
+# text = بلڪه هر اهو ادب جيڪو ٻارن جي ذهنيت مطابق، سندن وندر، دلچسپيءَ جو باعث بڻجي .
+1	بلڪه	بلڪه	SCONJ	CS	_	17	mark	_	_
+2	هر	هر	DET	PRD	Case=Nom|Number=Sing	4	det	_	_
+3	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+4	ادب	ادب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+5	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+6	ٻارن	ٻار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
+7	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
+8	ذهنيت	ذهنيت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	_
+9	مطابق	مطابق	ADP	PSP	_	8	case	_	SpaceAfter=No
+10	،	،	PUNCT	PUNCT	_	9	punct	_	_
+11	سندن	_	DET	PRD	Case=Acc|Number=Plur	12	det	_	_
+12	وندر	وندر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+13	،	،	PUNCT	PUNCT	_	12	punct	_	_
+14	دلچسپيءَ	دلچسپيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+15	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	14	case	_	_
+16	باعث	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	_
+17	بڻجي	بڻجي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
+18	.	.	PUNCT	PUNCT	_	17	punct	_	_
 
 # sent_id = 80
 # text = ۽ سندن طبيعت ۾ اڳتي وڌڻ جو جذبو پيدا ڪرڻ لاءِ اهم ڪردار ادا ڪري.
@@ -1207,7 +1209,7 @@
 13	۽	۽	CCONJ	_	_	16	cc	_	_
 14	سندن	_	DET	_	_	16	det	_	_
 15	ڪنهن	ڪو	PRON	_	_	16	nmod	_	_
-16	راھ	_	NOUN	_	_	5	conj	_	_
+16	راھ	راھ	NOUN	_	_	5	conj	_	_
 17	ڏانهن	ڏانهن	ADV	_	_	19	advmod	_	_
 18	گامزن	_	ADJ	_	_	19	compound	_	_
 19	ڪري	ڪر	VERB	_	_	0	root	_	_
@@ -1223,8 +1225,8 @@
 5	ذهني	_	NOUN	_	_	6	nmod	_	_
 6	ڪيفيتن	_	NOUN	_	_	13	obj	_	_
 7	کي	کي	ADP	_	_	6	case	_	_
-8	ڪنهن	ڪنهن	DET	_	_	9	det	_	_
-9	راھ	_	NOUN	_	_	13	obl	_	_
+8	ڪنهن	ڪو	DET	_	_	9	det	_	_
+9	راھ	راھ	NOUN	_	_	13	obl	_	_
 10	راست	_	ADJ	_	_	9	amod	_	_
 11	ڏانهن	ڏانهن	ADV	_	_	13	advmod	_	_
 12	راغب	_	NOUN	_	_	13	compound	_	_
@@ -1262,7 +1264,7 @@
 4	کان	کان	ADP	_	_	3	case	_	_
 5	وڏو	وڏو	ADJ	_	_	6	amod	_	_
 6	ملڪ	ملڪ	NOUN	_	_	7	nsubj	_	_
-7	ڪھڙو	_	PRON	_	_	0	root	_	_
+7	ڪھڙو	ڪھڙو	PRON	_	_	0	root	_	_
 8	آھي	آهي	AUX	_	_	7	cop	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -1309,7 +1311,7 @@
 7	ڪيتريون	ڪيتريون	ADJ	_	_	9	amod	_	_
 8	ئي	ئي	PART	_	_	7	advmod:emph	_	_
 9	شيون	شي	NOUN	_	_	10	obj	_	_
-10	ڳوليون	_	VERB	_	_	0	root	_	SpaceAfter=No
+10	ڳوليون	ڳول	VERB	_	_	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 92
@@ -1330,7 +1332,7 @@
 2	هميشه	هميشه	ADV	_	_	5	advmod	_	_
 3	وقت	وقت	NOUN	_	_	5	nmod	_	_
 4	جو	جو	ADP	_	_	3	case	_	_
-5	پابند	_	ADJ	_	_	0	root	_	_
+5	پابند	پابند	ADJ	_	_	0	root	_	_
 6	آهيان	آهي	AUX	_	_	5	cop	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
