@@ -424,20 +424,20 @@
 
 # sent_id = 333
 # text = اميد ته لائق پڙهندڙ پڻ انهيءَ خوشيءَ ۾ مون سان ڀاڱي ڀائيوار ٿيندا.
-1	اميد	اميد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	obl	_	_
-2	ته	ته	SCONJ	CS	_	13	mark	_	_
+1	اميد	اميد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	_
+2	ته	ته	PART	PART	_	1	advmod:emph	_	_
 3	لائق	لائق	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
-4	پڙهندڙ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	nsubj	_	_
+4	پڙهندڙ	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	nsubj	_	_
 5	پڻ	پڻ	ADP	PSP	_	4	case	_	_
 6	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	det	_	_
-7	خوشيءَ	خوشيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+7	خوشيءَ	خوشيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 8	۾	۾	ADP	PSPL	_	7	case	_	_
-9	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	13	obl	_	_
+9	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	12	obl	_	_
 10	سان	سان	ADP	PSP	_	9	case	_	_
-11	ڀاڱي	_	VERB	VM	Aspect=Perf|VerbForm=Conv	12	compound	_	_
-12	ڀائيوار	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
-13	ٿيندا	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	SpaceAfter=No
-14	.	.	PUNCT	PUNCT	_	13	punct	_	_
+11	ڀاڱي	ڀاڱو	ADJ	JJ	Case=Acc|Number=Sing	12	amod	_	_
+12	ڀائيوار	_	ADJ	JJ	Case=Nom|Number=Sing	0	root	_	_
+13	ٿيندا	آهي	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	12	cop	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 334
 # text = خاص طرح نئين نسل ۾ سنڌي ٻوليءَ جي گهٽجندڙ واهپي ۽ ٻين ٻولين ڏانهن وڌندڙ لاڙي تي هر با شعور سنڌيءَ کي ڪيئي تحفظات آهن.
@@ -1442,13 +1442,13 @@
 # text = انهيءَ تي ٿائو کام به ڏاڍو خوش ٿيو.
 1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	obl	_	_
 2	تي	تي	ADP	PSPL	_	1	case	_	_
-3	ٿائو	_	VERB	VM	Aspect=Perf|Number=Sing	4	nmod	_	_
-4	کام	کام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-5	به	به	PART	PART	_	4	advmod:emph	_	_
+3	ٿائو	ٿائو	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	کام	کام	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+5	به	به	PART	PART	_	3	advmod:emph	_	_
 6	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	خوش	خوش	ADJ	JJ	Case=Nom|Degree=Pos	0	root	_	_
 8	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	7	cop	_	SpaceAfter=No
-9	.	.	PUNCT	PUNCT	_	8	punct	_	_
+9	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = 1100
 # text = هو هر هر ٿائو کام کي وڻ جي پنن ۾ ڪيترن ئي جانورن جون شڪليون ٺاهڻ لاءِ چوندا رهيا ۽ خوش ٿيندا رهيا.
