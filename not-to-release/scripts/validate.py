@@ -18,7 +18,7 @@ ALLOWED_UPOS_TO_XPOS = {
     "ADJ":   ["JJ", "JJC", "JJO", "JJM", "JJF"],
     "PRON":  ["PRP", "PRD", "PRWH", "PRL"],
     "ADV":   ["ADV", "ADT", "ADM", "ADN", "ADQ", "ADA", "ADS", "ADP", "ADPX"],
-    "ADP":   ["PSP", "PSPX", "PSPL", "PSPG"],
+    "ADP":   ["PSP", "PSPX", "PSPL", "PSPG", "PSPR"],
     "CCONJ": ["CC"],
     "SCONJ": ["CS"],
     "AUX":   ["VAUX", "VAUXX", "VAUXN"],
@@ -854,7 +854,7 @@ def check_feature_errors(filename, new_doc, check_feats):
                 if word.upos == 'ADP':
                     feat_map = {x: y for x, y in [x.split("=", maxsplit=1) for x in feat_pieces]}
                     if 'Case' in feat_map:
-                        if word.xpos != 'PSPG' and word.xpos != 'PSPX':
+                        if word.xpos != 'PSPG' and word.xpos != 'PSPX' and word.xpos != 'PSPR':
                             error = "Sentence %s (%d) word %d |%s| (line %d) had Case=%s but an xpos %s which is not allowed to have Case" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat_map['Case'], word.xpos)
                             incidents.append(Incident(category="Features error",
                                                       filename=filename,
