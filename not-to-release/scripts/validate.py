@@ -623,18 +623,19 @@ def check_punct_root(new_doc):
             print("Sentence %s (%d) has a punct word as the root" % (sent.sent_id, sent_idx))
     return problem_sentences
 
-def check_multiple_roots(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_multiple_roots(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         if sum(x.deprel == 'root' for x in sent.words) > 1:
-            if not printed:
-                printed = True
-                print("MULTIPLE ROOTS")
-            problem_sentences.add(sent_idx)
             possible_roots = [(x.text, x.upos, x.id) for x in sent.words if x.deprel == 'root']
-            print("Sentence %s (%d) has multiple roots: %s" % (sent.sent_id, sent_idx, possible_roots))
-    return problem_sentences
+            root_ids = [x.id for x in sent.words if x.deprel == 'root']
+            incidents.append(Incident(category="Multiple roots",
+                                      filename=filename,
+                                      sent_idx=sent_idx,
+                                      sentence=sent,
+                                      error="Sentence %s (%d) has multiple roots: %s" % (sent.sent_id, sent_idx, possible_roots),
+                                      nodes=root_ids))
+    return incidents
 
 def check_graph_cycles(new_doc):
     problem_sentences = set()
@@ -891,7 +892,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     problem_sentences |= check_missing_deprel(new_doc)
     incidents.extend(check_th_words(filename, new_doc, check_xpos))
     problem_sentences |= check_punct_root(new_doc)
-    problem_sentences |= check_multiple_roots(new_doc)
+    incidents.extend(check_multiple_roots(filename, new_doc))
     problem_sentences |= check_graph_cycles(new_doc)
     incidents.extend(check_upos_xpos_match(filename, new_doc, check_xpos))
     problem_sentences |= check_null_features(new_doc)
