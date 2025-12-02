@@ -235,6 +235,9 @@ ALLOWED_STRUCTURE['ٿيو'] = [('AUX', 'aux'), ('AUX', 'cop')]
 
 ALLOWED_STRUCTURE['ته'] = [('PART', 'advmod:emph'), ('PART', 'fixed'), ('SCONJ', 'fixed'), ('SCONJ', 'mark')]
 
+# a PRON that is either PRP or PRL
+ENFORCED_POS_XPOS['تنهن'] = [('PRON', 'PRP'), ('PRON', 'PRL')]
+
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
     "CCONJ": ["advmod"],
