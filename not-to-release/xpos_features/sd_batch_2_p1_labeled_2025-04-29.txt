@@ -15,8 +15,8 @@
 13	ته	ته	SCONJ	CS	_	21	mark	_	_
 14	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	21	obl	_	_
 15	مان	مان	ADP	PSPL	_	14	case	_	_
-16	عجب	عجب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
-17	جهڙا	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Plur	19	nmod	_	_
+16	عجب	عجب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	_
+17	جهڙا	جهڙو	ADP	PSPR	Case=Nom|Gender=Masc|Number=Plur	16	case	_	_
 18	ڀوائتا	ڀوائتو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
 19	آواز	آواز	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
 20	ٿي	آهي	AUX	VAUX	Number=Plur|Tense=Pres	21	aux	_	_
@@ -144,8 +144,8 @@
 12	پيئي	پيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 13	ته	ته	SCONJ	CS	_	19	mark	_	_
 14	راجا	راجا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
-15	سوتون	سوتون	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
-16	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_
+15	سوتون	سوتون	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	_
+16	جهڙو	جهڙو	ADP	PSPR	Case=Nom|Gender=Masc|Number=Sing	15	case	_	_
 17	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
 18	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	obj	_	_
 19	آيل	آيو	VERB	VM	Aspect=Perf|Number=Sing	12	advcl	_	_
@@ -945,7 +945,7 @@
 1	ايتري	ايتري	ADV	ADT	Gender=Masc|Number=Sing	8	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
 3	گجگوڙ	گجگوڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
-4	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+4	جهڙو	جهڙو	ADP	PSPR	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 5	آواز	آواز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 6	ٻڌڻ	ٻڌ	VERB	VM	Aspect=Imp|VerbForm=Inf	8	advcl	_	_
 7	۾	۾	ADP	PSPL	_	6	mark	_	_
@@ -1703,9 +1703,9 @@
 # text = جنهن ۾ بادام جهڙيون سوپاريون ڦٽيون ٿي.
 1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	6	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
-3	بادام	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
-4	جهڙيون	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	3	case	_	_
-5	سوپاريون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+3	بادام	بادام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+4	جهڙيون	جهڙو	ADP	PSPR	Case=Nom|Gender=Fem|Number=Plur	3	case	_	_
+5	سوپاريون	سوپاري	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
 6	ڦٽيون	ڦٽ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	0	root	_	_
 7	ٿي	آهي	AUX	VAUX	Number=Sing	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -2125,7 +2125,7 @@
 3	مٿان	مٿي	ADV	ADP	_	8	advmod	_	_
 4	هڪ	هڪ	NUM	NUM	_	7	nummod	_	_
 5	عجب	عجب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
-6	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+6	جهڙو	جهڙو	ADP	PSPR	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
 7	ٻوٽو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	ڦٽي	ڦٽ	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 9	نڪتو	نڪتو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	8	compound	_	SpaceAfter=No

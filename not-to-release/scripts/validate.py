@@ -149,6 +149,7 @@ ENFORCED_FEATURES['سگهن'] = ['Person=3', 'Number=Plur']
 
 # demonstrative pronoun or aux verb
 ENFORCED_POS['هو'] = ['AUX', 'DET']
+# TODO: expected features as AUX are Gender=Masc|Number=Sing|Person=3|Tense=Past
 
 # these ones reviewed by Prof Rahman, can be quite a few possibilities
 ENFORCED_POS['ڇو'] = ['VERB', 'PRON', 'ADV', 'SCONJ']
