@@ -8,6 +8,7 @@ import networkx as nx
 
 from stanza.utils.conll import CoNLL
 
+from tools.validate import parse_args as ud_parse_args
 from tools.validate import Validator
 
 ALLOWED_UPOS = { "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB"}
@@ -921,7 +922,9 @@ def main():
 
     error_doc = []
     clean_doc = []
-    udvalidator = Validator(["--lang", "sd", '--quiet'])
+    udargs = ['--lang', 'sd', '--quiet']
+    udargs = ud_parse_args(udargs)
+    udvalidator = Validator(lang="sd", args=udargs)
     for filename in args.filename:
         print("Validating %s" % filename)
         new_doc = CoNLL.conll2doc(filename, keep_line_numbers=True)
