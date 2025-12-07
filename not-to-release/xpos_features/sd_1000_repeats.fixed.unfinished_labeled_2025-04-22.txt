@@ -603,7 +603,7 @@
 8	هوندا	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	_
 9	هئا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	8	aux	_	SpaceAfter=No
 10	،	،	PUNCT	PUNCT	_	8	punct	_	_
-11	ڇو	ڇو	PRON	PRP	Case=Acc|Number=Sing|Person=3	23	obl	_	_
+11	ڇو	ڇو	PRON	PRWH	Case=Acc	23	obl	_	_
 12	جو	جو	ADP	PSP	_	11	case	_	_
 13	ڪٽار	ڪٽار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
 14	مڇيون	مڇي	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	_
@@ -857,8 +857,8 @@
 
 # sent_id = 886
 # text = ڇو نه، تون به هيڏانهن گهوڙي تي چڙهي ويهه.
-1	ڇو	ڇو	VERB	VM	Aspect=Imp|Number=Sing	9	obl	_	_
-2	نه	نه	PART	PART	_	1	dep	_	SpaceAfter=No
+1	ڇو	ڇو	ADV	ADV	_	9	advmod	_	_
+2	نه	نه	PART	PART	_	1	advmod:emph	_	SpaceAfter=No
 3	،	،	PUNCT	PUNCT	_	1	punct	_	_
 4	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	9	nsubj	_	_
 5	به	به	PART	PART	_	4	advmod:emph	_	_
