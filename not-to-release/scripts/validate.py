@@ -10,6 +10,7 @@ from stanza.utils.conll import CoNLL
 
 from tools.validate import parse_args as ud_parse_args
 from tools.validate import Validator
+from udtools.src.udtools.incident import TestClass
 
 ALLOWED_UPOS = { "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB"}
 
@@ -940,7 +941,9 @@ def main():
             error_nodes[incident.sent_idx].extend(incident.nodes)
 
         ud_state = udvalidator.validate_files([filename])
-        for incident in ud_state.error_tracker['Syntax']:
+        for incident in ud_state.error_tracker:
+            if incident.testclass not in (TestClass.SYNTAX, TestClass.UNICODE):
+                continue
             print("", incident.sentid, incident.lineno, incident.message)
             # TODO: use lineno instead
             for sent_idx, sentence in enumerate(new_doc.sentences):
