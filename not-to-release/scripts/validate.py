@@ -956,6 +956,9 @@ def main():
             error_sentences[sent_idx].add_comment("ERROR: %s" % incident.message)
             if incident.nodeid is not None:
                 error_nodes[sent_idx].append(incident.nodeid)
+            for reference in incident.references:
+                if reference.nodeid and isinstance(reference.nodeid, int):
+                    error_nodes[sent_idx].append(reference.nodeid)
 
         for sent_idx in error_nodes:
             nodes = "highlight tokens = %s" % (" ".join("%d" % x for x in error_nodes[sent_idx]))
