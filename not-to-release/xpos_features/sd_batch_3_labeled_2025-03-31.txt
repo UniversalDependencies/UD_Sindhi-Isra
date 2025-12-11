@@ -8093,7 +8093,7 @@
 6	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	ٿڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 8	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	7	cop	_	_
-9	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+9	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	13	nsubj	_	_
 10	سيٽ	سيٽ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
 11	تي	تي	ADP	PSPL	_	10	case	_	_
 12	ئي	ئي	PART	PART	_	11	advmod:emph	_	_
@@ -10335,7 +10335,7 @@
 # text = ڇا اهي ائين ئي آهن جيئن اسان کي ڏسڻ ۾ اچي رهيا آهن؟
 1	ڇا	ڇا	PRON	PRWH	_	3	obl	_	_
 2	اهي	اهو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	3	det	_	_
-3	ائين	ائين	PRON	PRL	_	0	root	_	_
+3	ائين	ائين	PRON	PRL	PronType=Rel	0	root	_	_
 4	ئي	ئي	PART	PART	_	3	advmod:emph	_	_
 5	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	3	cop	_	_
 6	جيئن	جيئن	ADV	ADM	_	11	advmod	_	_
@@ -10601,7 +10601,7 @@
 
 # sent_id = 4231
 # text = تنهن ڪري ثقافت جي اسرڻ سان ئي ترجمي جي ضرورت ٿيندي آهي.
-1	تنهن	تنهن	PRON	PRL	Case=Acc|Number=Sing	11	obl	_	_
+1	تنهن	تنهن	PRON	PRL	Case=Acc|Number=Sing|PronType=Rel	11	obl	_	_
 2	ڪري	ڪري	ADP	PSP	_	1	case	_	_
 3	ثقافت	ثقافت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	3	case	_	_
@@ -11479,7 +11479,7 @@
 17	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	15	case	_	_
 18	ادبي	ادبي	ADJ	JJ	Case=Nom|Degree=Pos	19	amod	_	_
 19	ڪارناما	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	21	obj	_	_
-20	ائين	ائين	PRON	PRL	_	21	obl	_	_
+20	ائين	ائين	PRON	PRL	PronType=Rel	21	obl	_	_
 21	مڃيو	مڃ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 22	ويٺا	ويٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	21	compound	_	_
 23	آهيون	آهي	AUX	VAUX	Number=Plur|Person=1|Tense=Pres	21	aux	_	SpaceAfter=No
@@ -11778,7 +11778,7 @@
 
 # sent_id = 4308
 # text = ائين به ٿيندو آهي ته اهڙن ڪتابن جا ترجما ڪيا ويندا آهن،
-1	ائين	ائين	PRON	PRL	_	3	nsubj	_	_
+1	ائين	ائين	PRON	PRL	PronType=Rel	3	nsubj	_	_
 2	به	به	PART	PART	_	1	advmod:emph	_	_
 3	ٿيندو	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	aux	_	_
@@ -13437,9 +13437,9 @@
 14	ته	ته	SCONJ	CS	_	13	mark	_	_
 15	پوءِ	پوءِ	ADV	ADT	_	13	advmod	_	_
 16	انڌي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	discourse	_	_
-17	جهڙي	جهڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
+17	جهڙي	جهڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	18	nmod	_	_
 18	پيڪي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	_
-19	تهڙي	تهڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	20	nmod	_	_
+19	تهڙي	تهڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	20	nmod	_	_
 20	ساهرين	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	20	punct	_	_
 
@@ -14079,7 +14079,7 @@
 
 # sent_id = 4438
 # text = سو اوهان معافيون وٺي،
-1	سو	سو	PRON	PRL	Case=Nom|Number=Sing	4	obl	_	_
+1	سو	سو	PRON	PRL	Case=Nom|Number=Sing|PronType=Rel	4	obl	_	_
 2	اوهان	اوهان	PRON	PRP	Case=Acc|Number=Plur|Person=1	4	nsubj	_	_
 3	معافيون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	obj	_	_
 4	وٺي	وٺ	VERB	VM	Aspect=Perf|Number=Sing|VerbForm=Conv	0	root	_	SpaceAfter=No
