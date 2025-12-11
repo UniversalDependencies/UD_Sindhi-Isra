@@ -150,6 +150,7 @@ for word in can_could_aux:
 ENFORCED_POS['سگهو'] = ['AUX', 'ADV']
 
 ENFORCED_FEATURES[('ڄڻ', 'PRON')] = ['Case=Nom', 'PronType=Rel']
+ENFORCED_FEATURES[('ائين', 'PRON')] = ['Case=Nom', 'PronType=Rel']
 
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
