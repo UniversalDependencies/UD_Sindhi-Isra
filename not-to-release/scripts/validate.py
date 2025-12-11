@@ -149,6 +149,8 @@ for word in can_could_aux:
 # this one has an exception in the treebank
 ENFORCED_POS['سگهو'] = ['AUX', 'ADV']
 
+ENFORCED_FEATURES[('ڄڻ', 'PRON')] = ['Case=Nom', 'PronType=Rel']
+
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
 ENFORCED_FEATURES['سگهين'] = ['Person=2', 'Number=Sing']
