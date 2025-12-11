@@ -77,7 +77,7 @@ ALLOWED_UPOS_TO_FEATS = {
     "PRON":  ['Case=Acc', 'Case=Gen', 'Case=Nom',
               'Gender=Fem', 'Gender=Masc',
               'Number=Plur', 'Number=Sing',
-              'Person=1', 'Person=2', 'Person=3'
+              'Person=1', 'Person=2', 'Person=3',
               'PronType=Rel'],
     "PROPN": ['Case=Abl', 'Case=Acc', 'Case=Nom', 'Case=Voc', 'Gender=Fem', 'Gender=Masc', 'Number=Sing'],
     "PUNCT": [],
