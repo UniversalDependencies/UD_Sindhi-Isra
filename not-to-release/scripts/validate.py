@@ -108,6 +108,7 @@ ADVMOD_EMPH_EXCEPTIONS = {
     }
 
 
+EXACT_FEATURES = {}
 ENFORCED_FEATURES = {}
 ENFORCED_XPOS_FEATURES = {
     "PRD":  ["PronType=Dem"],
@@ -149,8 +150,8 @@ for word in can_could_aux:
 # this one has an exception in the treebank
 ENFORCED_POS['سگهو'] = ['AUX', 'ADV']
 
-ENFORCED_FEATURES[('ڄڻ', 'PRON')] = ['Case=Nom', 'PronType=Rel']
-ENFORCED_FEATURES[('ائين', 'PRON')] = ['Case=Nom', 'PronType=Rel']
+EXACT_FEATURES[('ڄڻ', 'PRON')] = ['Case=Nom', 'PronType=Rel']
+EXACT_FEATURES[('ائين', 'PRON')] = ['Case=Nom', 'PronType=Rel']
 
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
@@ -827,6 +828,37 @@ def check_expected_features(filename, new_doc, check_feats, check_xpos):
                                               nodes=[word_idx+1]))
     return incidents
 
+def check_exact_features(filename, new_doc, check_feats):
+    incidents = []
+    if check_feats:
+        for sent_idx, sent in enumerate(new_doc.sentences):
+            for word_idx, word in enumerate(sent.words):
+                expected_features = EXACT_FEATURES.get(word.text)
+                if expected_features is None:
+                    expected_features = EXACT_FEATURES.get((word.text, word.upos))
+                if expected_features is None:
+                    continue
+
+                errors = []
+                if not word.feats or word.feats == '_':
+                    errors.append("Sentence %s (%d) word %d (line %d) |%s| had blank features, but this word is expected to have exactly %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected_features))
+                else:
+                    pieces = word.feats.split("|")
+                    for expected in expected_features:
+                        if expected not in pieces:
+                            errors.append("Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected))
+                    for piece in pieces:
+                        if piece not in expected_features:
+                            errors.append("Sentence %s (%d) word %d (line %d) |%s| had an unexpected feature %s.  The only allowed features are %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, piece, expected_features))
+                for error in errors:
+                    incidents.append(Incident(category="Exact features error",
+                                              filename=filename,
+                                              sent_idx=sent_idx,
+                                              sentence=sent,
+                                              error=error,
+                                              nodes=[word_idx+1]))
+    return incidents
+
 def check_feature_errors(filename, new_doc, check_feats):
     incidents = []
     if check_feats:
@@ -921,6 +953,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     problem_sentences |= check_advmod_emph_errors(new_doc)
     incidents.extend(check_enforced_pos(filename, new_doc))
     incidents.extend(check_expected_features(filename, new_doc, check_feats, check_xpos))
+    incidents.extend(check_exact_features(filename, new_doc, check_feats))
     incidents.extend(check_feature_errors(filename, new_doc, check_feats))
     incidents.extend(check_cop_lemmas(filename, new_doc))
     incidents.extend(check_disallowed_punct_chars(filename, new_doc))
