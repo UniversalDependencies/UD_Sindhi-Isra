@@ -150,8 +150,9 @@ for word in can_could_aux:
 # this one has an exception in the treebank
 ENFORCED_POS['سگهو'] = ['AUX', 'ADV']
 
-EXACT_FEATURES[('ڄڻ', 'PRON')] = ['Case=Nom', 'PronType=Rel']
-EXACT_FEATURES[('ائين', 'PRON')] = ['Case=Nom', 'PronType=Rel']
+EXACT_FEATURES[('ڄڻ', 'PRL')] = ['Case=Nom', 'PronType=Rel']
+EXACT_FEATURES[('ائين', 'PRL')] = ['Case=Nom', 'PronType=Rel']
+EXACT_FEATURES[('سو', 'PRL')] = ['Case=Nom', 'Number=Sing', 'Gender=Masc', 'PronType=Rel']
 
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
@@ -828,7 +829,7 @@ def check_expected_features(filename, new_doc, check_feats, check_xpos):
                                               nodes=[word_idx+1]))
     return incidents
 
-def check_exact_features(filename, new_doc, check_feats):
+def check_exact_features(filename, new_doc, check_feats, check_xpos):
     incidents = []
     if check_feats:
         for sent_idx, sent in enumerate(new_doc.sentences):
@@ -836,6 +837,8 @@ def check_exact_features(filename, new_doc, check_feats):
                 expected_features = EXACT_FEATURES.get(word.text)
                 if expected_features is None:
                     expected_features = EXACT_FEATURES.get((word.text, word.upos))
+                if expected_features is None and check_xpos:
+                    expected_features = EXACT_FEATURES.get((word.text, word.xpos))
                 if expected_features is None:
                     continue
 
@@ -953,7 +956,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     problem_sentences |= check_advmod_emph_errors(new_doc)
     incidents.extend(check_enforced_pos(filename, new_doc))
     incidents.extend(check_expected_features(filename, new_doc, check_feats, check_xpos))
-    incidents.extend(check_exact_features(filename, new_doc, check_feats))
+    incidents.extend(check_exact_features(filename, new_doc, check_feats, check_xpos))
     incidents.extend(check_feature_errors(filename, new_doc, check_feats))
     incidents.extend(check_cop_lemmas(filename, new_doc))
     incidents.extend(check_disallowed_punct_chars(filename, new_doc))
