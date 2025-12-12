@@ -976,7 +976,7 @@ def main():
 
     error_doc = []
     clean_doc = []
-    udargs = ['--lang', 'sd', '--quiet']
+    udargs = ['--lang', 'sd', '--quiet', '--max-err', '-1', '--max-store', '-1']
     udargs = ud_parse_args(udargs)
     udvalidator = Validator(lang="sd", args=udargs)
     for filename in args.filename:
