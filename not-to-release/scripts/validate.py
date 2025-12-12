@@ -153,6 +153,7 @@ ENFORCED_POS['سگهو'] = ['AUX', 'ADV']
 EXACT_FEATURES[('ڄڻ', 'PRL')] = ['Case=Nom', 'PronType=Rel']
 EXACT_FEATURES[('ائين', 'PRL')] = ['Case=Nom', 'PronType=Rel']
 EXACT_FEATURES[('سو', 'PRL')] = ['Case=Nom', 'Number=Sing', 'Gender=Masc', 'PronType=Rel']
+EXACT_FEATURES[('جيڪو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
 
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
