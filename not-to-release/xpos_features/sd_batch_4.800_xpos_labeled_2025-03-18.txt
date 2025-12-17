@@ -3869,7 +3869,7 @@
 15	مان	مان	ADP	PSPL	_	14	case	_	_
 16	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	26	obl	_	_
 17	۾	۾	ADP	PSPL	_	16	case	_	_
-18	گذريل	گذريو	VERB	VM	Aspect=Perf|VerbForm=PastPart	20	obl	_	_
+18	گذريل	گذريو	VERB	VM	Aspect=Perf|VerbForm=PastPart	20	acl	_	_
 19	ٻن	ٻہ	NUM	NUM	Case=Acc	20	nummod	_	_
 20	ڏهاڪن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	26	obl	_	_
 21	کان	کان	ADP	PSP	_	20	case	_	_
@@ -3998,13 +3998,13 @@
 5	کيس	کي	ADP	PSPX	Case=Nom|Gender=Masc|Number=Sing	14	iobj	_	_
 6	130	130	NUM	NUM	_	7	nummod	_	_
 7	ارب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nmod	_	_
-8	روپيا	روپيا	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+8	روپيا	روپيا	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	obj	_	_
 9	يا	يا	CCONJ	CC	_	13	cc	_	_
-10	کڻي	کڻي	VERB	VM	Aspect=Perf|VerbForm=Conv	12	obl	_	_
+10	کڻي	کڻي	VERB	VM	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
 11	170	170	NUM	NUM	_	12	nummod	_	_
 12	ارب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
-13	روپيا	روپيا	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	obj	_	_
-14	ملڻ	ملڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	17	nsubj	_	_
+13	روپيا	روپيا	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	conj	_	_
+14	ملڻ	ملڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	17	advcl	_	_
 15	ڪا	ڪو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
 16	وڏي	وڏي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
 17	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -10071,7 +10071,7 @@
 12	اترين	اتر	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
 13	علائقن	علائقو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	obl	_	_
 14	سان	سان	ADP	PSP	_	13	case	_	_
-15	گڏ	گڏ	ADV	ADV	_	17	obl	_	_
+15	گڏ	گڏ	ADP	PSP	_	13	case	_	_
 16	ڏکڻ	ڏکڻ	PROPN	NNP	Case=Nom|Gender=Masc	17	compound	_	_
 17	پنجاب	پنجاب	PROPN	NNP	Case=Nom|Gender=Masc	24	obl	_	_
 18	لاءِ	لاءِ	ADP	PSP	_	17	case	_	_
@@ -21045,8 +21045,8 @@
 30	امتياز	امتياز	PROPN	NNP	Case=Nom|Gender=Masc	31	compound	_	_
 31	خواجه	خواجه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	40	obl	_	_
 32	۽	۽	CCONJ	CC	_	37	cc	_	_
-33	ايندڙ	ايندو	VERB	VM	Aspect=Perf|VerbForm=Vnoun	35	obl	_	_
-34	ويندڙ	ويندو	VERB	VM	Aspect=Perf|VerbForm=PastPart	35	acl	_	_
+33	ايندڙ	ايندو	VERB	VM	Aspect=Perf|VerbForm=Vnoun	35	acl	_	_
+34	ويندڙ	ويندو	VERB	VM	Aspect=Perf|VerbForm=PastPart	33	compound	_	_
 35	گاڏين	گاڏي	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	37	nmod	_	_
 36	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	35	case	_	_
 37	مسافرن	مسافر	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	40	obj	_	_
@@ -22848,7 +22848,7 @@
 16	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing	5	conj	_	_
 17	ته	ته	SCONJ	CS	_	23	mark	_	_
 18	قانون	قانون	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
-19	سڀني	سڀ	ADJ	JJ	Case=Acc|PronType=Tot	23	obl	_	_
+19	سڀني	سڀ	ADJ	JJ	Case=Acc|PronType=Tot	23	amod	_	_
 20	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	19	case	_	_
 21	لاءِ	لاءِ	ADP	PSP	_	19	case	_	_
 22	ھڪ	ھڪ	NUM	NUM	_	23	nummod	_	_
