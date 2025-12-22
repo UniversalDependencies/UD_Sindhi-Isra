@@ -154,6 +154,7 @@ EXACT_FEATURES[('ڄڻ', 'PRL')] = ['Case=Nom', 'PronType=Rel']
 EXACT_FEATURES[('ائين', 'PRL')] = ['Case=Nom', 'PronType=Rel']
 EXACT_FEATURES[('سو', 'PRL')] = ['Case=Nom', 'Number=Sing', 'Gender=Masc', 'PronType=Rel']
 EXACT_FEATURES[('جيڪو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('جيڪي', 'PRD')] = ['Case=Nom', 'Number=Plur', 'PronType=Dem']
 
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
@@ -184,7 +185,7 @@ ENFORCED_POS['گذريل'] = ['VERB']
 # demonstratives
 demonstratives = ['ان', 'اِهو', 'انهي', 'انھي', 'انهيءِ', 'اِهو', 'اِهي', 'اھا', 'اھڙو', 'اھي', 'ڪوبه', 'هرڪوئي', 'هِن', 'هُوءَ', 'ھن', 'اُهو', 'اهي', 'اهو', 'اِها']
 demonstratives.extend(['اُها', 'اها', 'انهيءَ'])
-demonstratives.extend(['ڪهڙيءَ', 'ڪهڙين', 'ڪهڙي', 'ڪهڙيون'])
+demonstratives.extend(['ڪهڙيءَ', 'ڪهڙين', 'ڪهڙي', 'ڪهڙيون', 'جيڪي'])
 for word in demonstratives:
     ENFORCED_POS_XPOS[word] = [('DET', 'PRD')]
 
