@@ -467,7 +467,7 @@
 5	راهه	راهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
 6	ڏسڻ	ڏسڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	8	nmod	_	_
 7	وارا	وارو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	6	mark	_	_
-8	ڪير	ڪير	PRON	PRP	Case=Nom|Number=Plur|Person=3	0	root	_	_
+8	ڪير	ڪير	PRON	PRWH	Case=Nom	0	root	_	_
 9	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	8	cop	_	SpaceAfter=No
 10	،	،	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -7516,10 +7516,11 @@
 
 # sent_id = 4046
 # text = ماڻهو خودڪش بمبار ڇو ٿيندا آهن؟ ان سوال جو جواب ڄاڻڻ لاءِ دهشتگرد ۽ انهن جي تنظيمي ڍانچي کي سمجهڻ وڌيڪ ضروري آهي ته ان جي تنظيم جي سوچ ڇا آهي؟ خودڪش بمبار جڏهن ڪنهن تخريبي ڪارروائي لاءِ نڪرندو آهي ته پنهنجي جان تان هٿ کڻي نڪرندو آهي.
+# "><h1>hh</h1>
 1	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	خودڪش	خودڪش	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
 3	بمبار	بمبار	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
-4	ڇو	ڇو	PRON	PRWH	Gender=Masc|Number=Sing	5	obl	_	_
+4	ڇو	ڇو	PRON	PRWH	Case=Nom	5	obl	_	_
 5	ٿيندا	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	0	root	_	_
 6	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	5	aux	_	SpaceAfter=No
 7	؟	؟	PUNCT	PUNCT	_	5	punct	_	_
@@ -7546,7 +7547,7 @@
 28	تنظيم	تنظيم	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	nmod	_	_
 29	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	28	case	_	_
 30	سوچ	سوچ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
-31	ڇا	ڇا	VERB	VM	Aspect=Imp|Voice=Act	23	obl	_	_
+31	ڇا	ڇا	PRON	PRWH	Case=Nom	23	advcl	_	_
 32	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	31	cop	_	SpaceAfter=No
 33	؟	؟	PUNCT	PUNCT	_	31	punct	_	_
 34	خودڪش	خودڪش	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	35	amod	_	_
@@ -13284,9 +13285,9 @@
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	حالت	حالت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
-4	ڪير	ڪير	PRON	PRP	Case=Nom|Number=Sing|Person=3	11	nsubj:pass	_	_
+4	ڪير	ڪير	PRON	PRWH	Case=Nom	11	nsubj:pass	_	_
 5	صحيح	صحيح	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
-6	ڪير	ڪير	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+6	ڪير	ڪير	PRON	PRWH	Case=Nom	7	nmod	_	_
 7	غلط	غلط	ADJ	JJ	Case=Nom|Degree=Pos	9	amod	_	_
 8	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	7	case	_	_
 9	حساب	حساب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
@@ -13648,7 +13649,7 @@
 # sent_id = 4413
 # text = کين ڪير به چوڻ وارو نه هجي.
 1	کين	کي	PRON	PRP	Case=Acc|Number=Plur|Person=2	2	nsubj:pass	_	_
-2	ڪير	ڪير	PRON	PRP	Case=Nom|Number=Sing|Person=3	0	root	_	_
+2	ڪير	ڪير	PRON	PRWH	Case=Nom	0	root	_	_
 3	به	به	PART	PART	_	2	advmod:emph	_	_
 4	چوڻ	چوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	2	acl	_	_
 5	وارو	وارو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	4	mark	_	_
