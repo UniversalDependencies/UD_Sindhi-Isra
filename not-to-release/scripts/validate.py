@@ -156,7 +156,7 @@ EXACT_FEATURES[('سو', 'PRL')] = ['Case=Nom', 'Number=Sing', 'Gender=Masc', 'Pr
 EXACT_FEATURES[('جيڪو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
 EXACT_FEATURES[('جيڪي', 'PRD')] = ['Case=Nom', 'Number=Plur', 'PronType=Dem']
 EXACT_FEATURES[('اسان', 'PRD')] = ['Case=Acc', 'Number=Plur', 'Person=1', 'PronType=Dem']
-
+EXACT_FEATURES[('ڪير', 'PRWH')] = ['Case=Nom']
 
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
@@ -178,6 +178,8 @@ ENFORCED_POS['جو'] = ['DET', 'SCONJ', 'ADP']   # mostly ADP
 ENFORCED_POS['ڄڻ'] = ['ADV', 'PRON']
 
 ENFORCED_POS_XPOS['ڪڏهن'] = [('ADV', 'ADT')]
+
+ENFORCED_POS_XPOS['ڪير'] = [('PRON', 'PRWH')]
 
 for word in ("اھڙيءَ","اھڙن","اھڙي","اھڙو","اھڙا","اھڙيون","اھڙين","اهڙيءَ","اهڙن","اهڙي","اهڙو","اهڙا","اهڙيون","اهڙين"):
     ENFORCED_POS[word] = ['DET', 'ADJ']
