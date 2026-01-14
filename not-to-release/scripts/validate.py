@@ -108,6 +108,7 @@ ADVMOD_EMPH_EXCEPTIONS = {
     }
 
 
+ALLOWED_FEATURES = {}
 EXACT_FEATURES = {}
 ENFORCED_FEATURES = {}
 ENFORCED_XPOS_FEATURES = {
@@ -181,6 +182,7 @@ ENFORCED_POS_XPOS['ڪڏهن'] = [('ADV', 'ADT')]
 
 ENFORCED_POS_XPOS['ڪير'] = [('PRON', 'PRWH')]
 ENFORCED_POS_XPOS['ڇا'] = [('PRON', 'PRWH')]
+ALLOWED_FEATURES['ڇا'] = {'Case=Acc', 'Case=Nom'}
 
 for word in ("اھڙيءَ","اھڙن","اھڙي","اھڙو","اھڙا","اھڙيون","اھڙين","اهڙيءَ","اهڙن","اهڙي","اهڙو","اهڙا","اهڙيون","اهڙين"):
     ENFORCED_POS[word] = ['DET', 'ADJ']
@@ -836,6 +838,36 @@ def check_expected_features(filename, new_doc, check_feats, check_xpos):
                                               nodes=[word_idx+1]))
     return incidents
 
+def check_allowed_features(filename, new_doc, check_feats, check_xpos):
+    incidents = []
+    if check_feats:
+        for sent_idx, sent in enumerate(new_doc.sentences):
+            for word_idx, word in enumerate(sent.words):
+                allowed_features = ALLOWED_FEATURES.get(word.text)
+                if allowed_features is None:
+                    allowed_features = ALLOWED_FEATURES.get((word.text, word.upos))
+                if allowed_features is None and check_xpos:
+                    allowed_features = ALLOWED_FEATURES.get((word.text, word.xpos))
+                if allowed_features is None:
+                    continue
+
+                errors = []
+                if not word.feats or word.feats == '_':
+                    continue
+                pieces = word.feats.split("|")
+                for feat in pieces:
+                    if feat not in allowed_features:
+                        errors.append("Sentence %s (%d) word %d (line %d) |%s| had an unexpected feature %s.  The only allowed features are %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, feat, allowed_features))
+                for error in errors:
+                    incidents.append(Incident(category="Allowed features error",
+                                              filename=filename,
+                                              sent_idx=sent_idx,
+                                              sentence=sent,
+                                              error=error,
+                                              nodes=[word_idx+1]))
+    return incidents
+
+
 def check_exact_features(filename, new_doc, check_feats, check_xpos):
     incidents = []
     if check_feats:
@@ -964,6 +996,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     incidents.extend(check_enforced_pos(filename, new_doc))
     incidents.extend(check_expected_features(filename, new_doc, check_feats, check_xpos))
     incidents.extend(check_exact_features(filename, new_doc, check_feats, check_xpos))
+    incidents.extend(check_allowed_features(filename, new_doc, check_feats, check_xpos))
     incidents.extend(check_feature_errors(filename, new_doc, check_feats))
     incidents.extend(check_cop_lemmas(filename, new_doc))
     incidents.extend(check_disallowed_punct_chars(filename, new_doc))
