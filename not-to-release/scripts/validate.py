@@ -180,6 +180,7 @@ ENFORCED_POS['ڄڻ'] = ['ADV', 'PRON']
 ENFORCED_POS_XPOS['ڪڏهن'] = [('ADV', 'ADT')]
 
 ENFORCED_POS_XPOS['ڪير'] = [('PRON', 'PRWH')]
+ENFORCED_POS_XPOS['ڇا'] = [('PRON', 'PRWH')]
 
 for word in ("اھڙيءَ","اھڙن","اھڙي","اھڙو","اھڙا","اھڙيون","اھڙين","اهڙيءَ","اهڙن","اهڙي","اهڙو","اهڙا","اهڙيون","اهڙين"):
     ENFORCED_POS[word] = ['DET', 'ADJ']
