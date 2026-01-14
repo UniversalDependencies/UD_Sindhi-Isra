@@ -183,6 +183,7 @@ ENFORCED_POS_XPOS['ڪڏهن'] = [('ADV', 'ADT')]
 ENFORCED_POS_XPOS['ڪير'] = [('PRON', 'PRWH')]
 ENFORCED_POS_XPOS['ڇا'] = [('PRON', 'PRWH')]
 ALLOWED_FEATURES['ڇا'] = {'Case=Acc', 'Case=Nom'}
+ENFORCED_FEATURES['ڇا'] = {'Case'}
 
 for word in ("اھڙيءَ","اھڙن","اھڙي","اھڙو","اھڙا","اھڙيون","اھڙين","اهڙيءَ","اهڙن","اهڙي","اهڙو","اهڙا","اهڙيون","اهڙين"):
     ENFORCED_POS[word] = ['DET', 'ADJ']
@@ -826,9 +827,14 @@ def check_expected_features(filename, new_doc, check_feats, check_xpos):
                     error = "Sentence %s (%d) word %d (line %d) |%s| had blank features, but this word is expected to have %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected_features)
                 else:
                     pieces = word.feats.split("|")
+                    feature_names = [x.split("=")[0] for x in pieces]
                     for expected in expected_features:
-                        if expected not in pieces:
-                            error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected)
+                        if "=" not in expected:
+                            if expected not in feature_names:
+                                error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected)
+                        else:
+                            if expected not in pieces:
+                                error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected)
                 if error:
                     incidents.append(Incident(category="Enforced features error",
                                               filename=filename,
