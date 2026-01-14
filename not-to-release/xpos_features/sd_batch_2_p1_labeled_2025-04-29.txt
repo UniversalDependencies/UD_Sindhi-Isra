@@ -739,7 +739,7 @@
 7	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	8	xcomp	_	_
 8	ويٺيون	ويھ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	0	root	_	_
 9	ته	ته	SCONJ	CS	_	11	mark	_	_
-10	ڇا	ڇا	PRON	PRWH	_	11	obj	_	_
+10	ڇا	ڇا	PRON	PRWH	Case=Nom	11	obj	_	_
 11	ڪجي	ڪج	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	8	advcl	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
@@ -4112,7 +4112,7 @@
 16	مان	مان	ADP	PSPL	_	15	mark	_	_
 17	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	18	nmod	_	_
 18	مطلب	مطلب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
-19	ڇا	ڇا	PRON	PRWH	_	0	root	_	_
+19	ڇا	ڇا	PRON	PRWH	Case=Nom	0	root	_	_
 20	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	19	cop	_	SpaceAfter=No
 21	؟	؟	PUNCT	PUNCT	_	23	punct	_	_
 22	ڍڳي	ڍڳو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
@@ -4121,7 +4121,7 @@
 25	ٻارن	ٻار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	29	iobj	_	_
 26	کي	کي	ADP	PSP	_	25	case	_	_
 27	کير	کير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	obj	_	_
-28	ڪير	ڪير	PRON	PRWH	Case=Nom	29	xcomp	_	_
+28	ڪير	ڪير	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	29	xcomp	_	_
 29	ڏيندو	ڏيندو	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	19	obl	_	SpaceAfter=No
 30	؟	؟	PUNCT	PUNCT	_	29	punct	_	_
 31	۽	۽	CCONJ	CC	_	41	cc	_	_
@@ -4156,7 +4156,7 @@
 11	ٺهي	ٺه	VERB	VM	Aspect=Imp	4	advcl	_	_
 12	سگهندي	سگهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
 13	؟	؟	PUNCT	PUNCT	_	11	punct	_	_
-14	ڇا	ڇا	PRON	PRWH	_	21	obl	_	_
+14	ڇا	ڇا	PRON	PRWH	Case=Nom	21	obl	_	_
 15	ڍڳن	ڍڳو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
 16	کان	کان	ADP	PSP	ExtPos=ADP	15	case	_	_
 17	سواءِ	سواءِ	ADP	PSP	_	16	fixed	_	_
@@ -4168,7 +4168,7 @@
 23	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	21	aux	_	SpaceAfter=No
 24	؟	؟	PUNCT	PUNCT	_	21	punct	_	_
 25	۽	۽	CCONJ	CC	_	28	cc	_	_
-26	ڇا	ڇا	PRON	PRWH	_	28	obl	_	_
+26	ڇا	ڇا	PRON	PRWH	Case=Nom	28	obl	_	_
 27	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	28	obj	_	_
 28	هلائڻ	هلاءِ	VERB	VM	Aspect=Imp|VerbForm=Inf	35	advcl	_	_
 29	کان	کان	ADP	PSP	ExtPos=ADP	28	mark	_	_
@@ -4707,8 +4707,8 @@
 
 # sent_id = 2582
 # text = ڇا توکي پڪ آهي؟ گدڙ هڪدم وراڻيو، مون کي پوري پڪ آهي.
-1	ڇا	ڇا	PRON	PRWH	_	3	obl	_	_
-2	توکي	تو	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom	3	obl	_	_
+2	توکي	تو	PRON	PRP	Case=Acc|Number=Sing|Person=2	3	nsubj	_	_
 3	پڪ	پڪ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	SpaceAfter=No
 5	؟	؟	PUNCT	PUNCT	_	3	punct	_	_
@@ -5480,7 +5480,7 @@
 12	لڳو	لڳو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	8	conj	_	_
 13	ته	ته	SCONJ	CS	_	16	mark	_	_
 14	آئندي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obl	_	_
-15	ڇا	ڇا	PRON	PRWH	_	16	obj	_	_
+15	ڇا	ڇا	PRON	PRWH	Case=Nom	16	obj	_	_
 16	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	12	advcl	_	_
 17	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	16	compound	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	16	punct	_	_
@@ -6318,7 +6318,7 @@
 9	کان	کان	ADP	PSP	_	8	case	_	_
 10	پڇيو	پڇ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 11	،	،	PUNCT	PUNCT	_	10	punct	_	_
-12	ڇا	ڇا	PRON	PRWH	_	18	obl	_	_
+12	ڇا	ڇا	PRON	PRWH	Case=Nom	18	obl	_	_
 13	آءُ	آءُ	PRON	PRP	Case=Nom|Number=Sing|Person=1	18	nsubj	_	_
 14	سلاد	سلاد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
 15	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	14	case	_	_
