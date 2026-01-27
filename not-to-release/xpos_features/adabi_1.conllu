@@ -187,7 +187,7 @@
 
 # sent_id = adabi_1_013
 # text = ڪهڙو نه چڱو ٿئي جو اسان پاڻ ۾ شادي ڪري گڏ رهون.
-1	ڪهڙو	ڪهڙو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+1	ڪهڙو	ڪهڙو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	3	amod	_	_
 2	نه	نه	ADV	ADN	_	1	dep	_	_
 3	چڱو	چڱو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	xcomp	_	_
 4	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
@@ -626,7 +626,7 @@
 # text = هڪڙي ڏينهن ڇا ٿيو جو هوا ڏاڍي تيز لڳي ۽ تصوير آسمان ڏانهن اُڏامي ويئي.
 1	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
 2	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	_
-3	ڇا	ڇا	PRON	PRWH	Case=Nom	0	root	_	_
+3	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	0	root	_	_
 4	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	3	cop	_	_
 5	جو	جو	SCONJ	CS	_	9	mark	_	_
 6	هوا	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -699,7 +699,7 @@
 1	تصوير	تصوير	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	ويئي	وڃ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	4	advcl	_	_
 3	ته	ته	SCONJ	CS	_	4	mark	_	_
-4	ڇا	ڇا	PRON	PRWH	Case=Nom	0	root	_	_
+4	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	0	root	_	_
 5	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	cop	_	SpaceAfter=No
 6	،	،	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -1010,7 +1010,7 @@
 6	گومبئي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
 7	،	،	PUNCT	PUNCT	_	6	punct	_	_
 8	روئين	رو	VERB	VM	Aspect=Imp|Number=Sing|Person=1	4	advcl	_	_
-9	ڇو	ڇو	PRON	PRWH	Case=Nom	8	obl	_	_
+9	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	8	obl	_	_
 10	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	8	aux	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -1071,7 +1071,7 @@
 9	پوءِ	پوءِ	ADP	PSP	_	10	mark	_	_
 10	ڏسجانءِ	_	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	6	conj	_	_
 11	ته	ته	SCONJ	CS	_	14	mark	_	_
-12	ڇا	ڇا	PRON	PRWH	Case=Nom	14	obj	_	_
+12	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	14	obj	_	_
 13	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	14	compound	_	_
 14	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	10	advcl	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	14	punct	_	_
@@ -1325,7 +1325,7 @@
 15	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	16	aux	_	_
 16	لڳي	لڳ	VERB	VM	Aspect=Imp|Number=Sing|Person=3	4	advcl	_	_
 17	ته	ته	SCONJ	CS	_	25	mark	_	_
-18	ڇو	ڇو	PRON	PRWH	Case=Nom	25	obl	_	_
+18	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	25	obl	_	_
 19	نه	نه	PART	PART	_	18	advmod:emph	_	_
 20	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	25	nsubj	_	_
 21	به	به	PART	PART	_	20	advmod:emph	_	_

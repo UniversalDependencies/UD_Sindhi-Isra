@@ -78,7 +78,7 @@ ALLOWED_UPOS_TO_FEATS = {
               'Gender=Fem', 'Gender=Masc',
               'Number=Plur', 'Number=Sing',
               'Person=1', 'Person=2', 'Person=3',
-              'PronType=Rel'],
+              'PronType=Int', 'PronType=Rel'],
     "PROPN": ['Case=Abl', 'Case=Acc', 'Case=Nom', 'Case=Voc', 'Gender=Fem', 'Gender=Masc', 'Number=Sing'],
     "PUNCT": [],
     "SCONJ": ['ExtPos=SCONJ'],
@@ -114,6 +114,7 @@ ENFORCED_FEATURES = {}
 ENFORCED_XPOS_FEATURES = {
     "PRD":  ["PronType=Dem"],
     "PRL":  ["PronType=Rel"],
+    "PRWH": ["PronType=Int"],
 }
 
 ENFORCED_POS_XPOS = {}
@@ -158,10 +159,10 @@ EXACT_FEATURES[('سو', 'PRL')] = ['Case=Nom', 'Number=Sing', 'Gender=Masc', 'Pr
 EXACT_FEATURES[('جيڪو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
 EXACT_FEATURES[('جيڪي', 'PRD')] = ['Case=Nom', 'Number=Plur', 'PronType=Dem']
 EXACT_FEATURES[('اسان', 'PRD')] = ['Case=Acc', 'Number=Plur', 'Person=1', 'PronType=Dem']
-EXACT_FEATURES[('ڪير', 'PRWH')] = ['Case=Nom']
-EXACT_FEATURES[('ڪهڙو', 'PRWH')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing']
-EXACT_FEATURES[('ڇو', 'PRWH')] = ['Case=Nom']
-EXACT_FEATURES[('ڪيئن', 'PRWH')] = ['Case=Nom']
+EXACT_FEATURES[('ڪير', 'PRWH')] = ['Case=Nom', 'PronType=Int']
+EXACT_FEATURES[('ڪهڙو', 'PRWH')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Int']
+EXACT_FEATURES[('ڇو', 'PRWH')] = ['Case=Nom', 'PronType=Int']
+EXACT_FEATURES[('ڪيئن', 'PRWH')] = ['Case=Nom', 'PronType=Int']
 
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
@@ -186,7 +187,7 @@ ENFORCED_POS_XPOS['ڪڏهن'] = [('ADV', 'ADT')]
 
 ENFORCED_POS_XPOS['ڪير'] = [('PRON', 'PRWH')]
 ENFORCED_POS_XPOS['ڇا'] = [('PRON', 'PRWH')]
-ALLOWED_FEATURES['ڇا'] = {'Case=Acc', 'Case=Nom'}
+ALLOWED_FEATURES['ڇا'] = {'Case=Acc', 'Case=Nom', 'PronType=Int'}
 ENFORCED_FEATURES['ڇا'] = {'Case'}
 
 for word in ("اھڙيءَ","اھڙن","اھڙي","اھڙو","اھڙا","اھڙيون","اھڙين","اهڙيءَ","اهڙن","اهڙي","اهڙو","اهڙا","اهڙيون","اهڙين"):

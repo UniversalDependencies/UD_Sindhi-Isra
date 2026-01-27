@@ -2,7 +2,7 @@
 # text = ٽڪري ڳاڙهي ڇو آهي؟ سينگاپور جي ڪهاڻي سينگاپور ۾ هڪڙي ٽڪري آهي،
 1	ٽڪري	ٽڪري	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	ڳاڙهي	ڳاڙهو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
-3	ڇو	ڇو	PRON	PRWH	Case=Nom	0	root	_	_
+3	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	SpaceAfter=No
 5	؟	؟	PUNCT	PUNCT	_	3	punct	_	_
 6	سينگاپور	_	PROPN	NNP	Case=Nom|Gender=Masc	8	nmod	_	_
@@ -533,7 +533,7 @@
 13	ته	ته	SCONJ	CS	_	16	mark	_	_
 14	ٽڪري	ٽڪري	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
 15	ڳاڙهي	ڳاڙهو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
-16	ڇو	ڇو	PRON	PRWH	Case=Nom	12	obl	_	_
+16	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	12	obl	_	_
 17	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	16	cop	_	SpaceAfter=No
 18	؟	؟	PUNCT	PUNCT	_	16	punct	_	_
 19	ته	ته	SCONJ	CS	_	26	mark	_	_
@@ -843,7 +843,7 @@
 5	،	،	PUNCT	PUNCT	_	4	punct	_	_
 6	ها	ها	INTJ	INTJ	_	2	discourse	_	SpaceAfter=No
 7	،	،	PUNCT	PUNCT	_	6	punct	_	_
-8	ڇو	ڇو	PRON	PRWH	Case=Nom	2	obl	_	_
+8	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	2	obl	_	_
 9	نه	نه	PART	PART	_	8	advmod:emph	_	SpaceAfter=No
 10	،	،	PUNCT	PUNCT	_	8	punct	_	_
 11	هيڏانهن	هيڏانهن	ADV	ADP	_	14	advmod	_	_
@@ -1008,7 +1008,7 @@
 15	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	19	nsubj	_	_
 16	اوڇنگارون	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
 17	ڏيئي	ڏيئي	VERB	VM	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
-18	ڇو	ڇو	PRON	PRWH	Case=Nom	19	obl	_	_
+18	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	19	obl	_	_
 19	پيئي	پيو	VERB	VM	Aspect=Perf|VerbForm=Conv	24	advcl	_	_
 20	روئين	رو	VERB	VM	Aspect=Imp|Number=Sing|Person=1	19	compound	_	SpaceAfter=No
 21	؟	؟	PUNCT	PUNCT	_	19	punct	_	_
@@ -1363,7 +1363,7 @@
 
 # sent_id = 1088
 # text = ڇا ٿيو جو ٻين ڇوڪرن ٿائو کام جو گاڏڙو پپر جي هڪ تمام وڏي وڻ جي ڇانوَ ۾ آڻي بيهاريو.
-1	ڇا	ڇا	PRON	PRWH	Case=Nom	0	root	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	0	root	_	_
 2	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	1	cop	_	_
 3	جو	جو	ADP	PSP	_	1	mark	_	_
 4	ٻين	ٻيو	ADJ	JJO	Case=Acc|Number=Plur	5	amod	_	_
@@ -1545,7 +1545,7 @@
 7	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 8	ڇوڪرو	ڇوڪرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 9	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
-10	ڇا	ڇا	PRON	PRWH	Case=Nom	11	xcomp	_	_
+10	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	11	xcomp	_	_
 11	پيو	پيو	VERB	VM	Aspect=Imp|Number=Sing|Person=3	9	advcl	_	SpaceAfter=No
 12	؟	؟	PUNCT	PUNCT	_	27	punct	_	_
 13	۽	۽	CCONJ	CC	_	27	cc	_	_

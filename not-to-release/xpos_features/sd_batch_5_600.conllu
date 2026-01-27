@@ -30,7 +30,7 @@
 # text = نوجوان! ڇا آءٌ توسان هلي سگهان ٿي؟
 1	نوجوان	نوجوان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	discourse	_	SpaceAfter=No
 2	!	!	PUNCT	PUNCT	_	1	punct	_	_
-3	ڇا	ڇا	PRON	PRWH	Case=Nom	6	obl	_	_
+3	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	6	obl	_	_
 4	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
 5	توسان	توسان	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	obl	_	_
 6	هلي	هل	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
@@ -42,7 +42,7 @@
 # text = نوجوان وراڻيو ڇو نه، تون به اسان سان گڏ هل.
 1	نوجوان	نوجوان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	وراڻيو	وراڻ	VERB	VM	Aspect=Perf	0	root	_	_
-3	ڇو	ڇو	PRON	PRWH	Case=Nom	2	obl	_	_
+3	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	2	obl	_	_
 4	نه	نه	PART	PART	_	3	advmod:emph	_	SpaceAfter=No
 5	،	،	PUNCT	PUNCT	_	3	punct	_	_
 6	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	11	nsubj	_	_
@@ -255,7 +255,7 @@
 12	ته	ته	SCONJ	CS	_	15	mark	_	_
 13	پوءِ	پوءِ	ADV	ADT	_	15	advmod	_	_
 14	هيءُ	هيءُ	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
-15	ڪير	ڪير	PRON	PRWH	Case=Nom	9	ccomp	_	_
+15	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	9	ccomp	_	_
 16	هيا	آهي	AUX	VAUX	Number=Plur|Tense=Past	15	cop	_	_
 17	۽	۽	CCONJ	CC	_	19	cc	_	_
 18	ڪيڏانهن	ڪيڏانهن	ADV	ADP	_	19	advmod	_	_
@@ -347,7 +347,7 @@
 28	۾	۾	ADP	PSPL	_	27	case	_	_
 29	تبديل	تبديل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
 30	ڪنڙ	_	VERB	VM	Aspect=Imp|VerbForm=Vnoun	31	advcl	_	_
-31	ڪير	ڪير	PRON	PRWH	Case=Nom	8	ccomp	_	_
+31	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	8	ccomp	_	_
 32	آهن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	31	cop	_	SpaceAfter=No
 33	؟	؟	PUNCT	PUNCT	_	31	punct	_	_
 
@@ -1947,7 +1947,7 @@
 17	ته	ته	SCONJ	CS	_	23	mark	_	_
 18	حڪومت	حڪومت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_
 19	۾	۾	ADP	PSPL	_	18	case	_	_
-20	ڪير	ڪير	PRON	PRWH	Case=Nom	23	nsubj	_	_
+20	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	23	nsubj	_	_
 21	القاعده	القاعده	PROPN	NNP	Case=Nom|Gender=Masc	23	obl	_	_
 22	سان	سان	ADP	PSP	_	21	case	_	_
 23	مليل	مليو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	14	acl	_	_
@@ -2518,7 +2518,7 @@
 25	ماتر	ماتر	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
 26	حڪمراني	حڪمران	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
 27	کي	کي	ADP	PSP	_	26	case	_	_
-28	ڪيئن	ڪيئن	PRON	PRWH	Case=Nom	31	obl	_	_
+28	ڪيئن	ڪيئن	PRON	PRWH	Case=Nom|PronType=Int	31	obl	_	_
 29	پٺي	پٺي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	30	nmod	_	_
 30	ڀر	ڀر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	obl	_	_
 31	ڪيرائڻو	ڪيراءِ	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=FutPart|Voice=Act	16	advcl	_	_
@@ -2852,7 +2852,7 @@
 # sent_id = 5380
 # text = پري ڇو وڃون، سنڌ جي حڪمراني جي ڀيٽ پنجاب جي حڪمراني سان ڪريون ته نتيجو ڪڍڻ ۾ ڪا گهڻي ڏکيائي پيش نه ايندي ته هتي جي حڪومت پنهنجي مقبوليت کان هيٺ ڪيئن آئي آهي ۽ ٻئي پاسي پنهنجي ڪارڪردگي جي بنياد تي پنجاب حڪومت مقبوليت جا پراڻا رڪارڊ ٽوڙي رهي آهي.
 1	پري	پري	ADV	ADT	_	3	advmod	_	_
-2	ڇو	ڇو	PRON	PRWH	Case=Nom	3	obl	_	_
+2	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	3	obl	_	_
 3	وڃون	وڃ	VERB	VM	Aspect=Imp|Number=Plur|Person=3	0	root	_	SpaceAfter=No
 4	،	،	PUNCT	PUNCT	_	3	punct	_	_
 5	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	7	nmod	_	_
@@ -3643,7 +3643,7 @@
 2	گڏوگڏ	گڏ	ADV	ADT	_	7	advmod	_	_
 3	اهي	اهو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	7	nsubj	_	_
 4	به	به	PART	PART	_	3	advmod:emph	_	_
-5	ڇو	ڇو	PRON	PRWH	Case=Nom	6	nmod	_	_
+5	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	6	nmod	_	_
 6	عزتدار	_	NOUN	NN	Case=Nom|Number=Sing	7	xcomp	_	_
 7	سڏائجن	سڏائج	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	0	root	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	7	punct	_	_
@@ -5165,7 +5165,7 @@
 7	ڪجهه	ڪجهه	ADJ	JJ	Case=Nom|Number=Plur	8	amod	_	_
 8	ٻيو	ٻيو	ADJ	JJ	Case=Nom|Number=Sing	2	conj	_	SpaceAfter=No
 9	،	،	PUNCT	PUNCT	_	8	punct	_	_
-10	ڇا	ڇا	PRON	PRWH	Case=Nom	13	obl	_	_
+10	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	13	obl	_	_
 11	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 12	سڀ	سڀ	ADJ	JJ	Case=Nom|Number=Plur	13	amod	_	_
 13	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	0	root	_	_
@@ -5208,7 +5208,7 @@
 3	اها	اها	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
 5	ته	ته	SCONJ	CS	_	10	mark	_	_
-6	ڇا	ڇا	PRON	PRWH	Case=Nom	8	nmod	_	_
+6	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	8	nmod	_	_
 7	خواب	خواب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 8	نگر	نگر	PROPN	NNP	Case=Nom|Gender=Masc	10	nsubj	_	_
 9	”	”	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
@@ -5221,7 +5221,7 @@
 16	“	“	PUNCT	PUNCT	_	15	punct	_	_
 17	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	15	cop	_	SpaceAfter=No
 18	؟	؟	PUNCT	PUNCT	_	15	punct	_	_
-19	ڇا	ڇا	PRON	PRWH	_	21	nmod	_	_
+19	ڇا	ڇا	PRON	PRWH	PronType=Int	21	nmod	_	_
 20	بي	بي	PART	PART	_	21	dep	_	_
 21	رنگ	رنگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	advcl	_	_
 22	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	21	cop	_	SpaceAfter=No
@@ -5679,7 +5679,7 @@
 8	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	case	_	_
 9	ساٿ	ساٿ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
 10	کان	کان	ADP	PSPL	_	9	case	_	_
-11	ڪير	ڪير	PRON	PRWH	Case=Nom	15	nsubj	_	_
+11	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	15	nsubj	_	_
 12	”	”	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
 13	منڪر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
 14	“	“	PUNCT	PUNCT	_	13	punct	_	_
@@ -5734,7 +5734,7 @@
 # sent_id = 5530c
 # text = هتي ڇا ٿي ويوَ جو سهراب فقير تي خوبصورت ڪالم ۾ ڪلچر ڊپارٽمينٽ ڏانهن سندس بي راهه رويءَ ڏانهن اشارو به ڪو نه ڪيوَ،
 1	هتي	هتي	ADV	ADT	_	4	advmod	_	_
-2	ڇا	ڇا	PRON	PRWH	Case=Nom	4	obj	_	_
+2	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	4	obj	_	_
 3	ٿي	آهي	AUX	VAUX	AuxType=Be|Gender=Masc|Number=Sing	4	aux	_	_
 4	ويوَ	ويو	VERB	VM	Aspect=Perf|Number=Sing|Person=3	0	root	_	_
 5	جو	جو	ADP	PSP	_	4	mark	_	_
@@ -5769,12 +5769,12 @@
 6	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	8	advcl	_	_
 7	ٿا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Tense=Pres	8	aux	_	_
 8	گهرو	گهر	VERB	VM	Aspect=Perf|Number=Plur	0	root	_	_
-9	ڇا	ڇا	PRON	PRWH	Case=Nom	8	obl	_	SpaceAfter=No
+9	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	8	obl	_	SpaceAfter=No
 10	؟	؟	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 5530e
 # text = ڇا ثقافت ۽ سياحت کاتي ۾ ڪا سڻڀي جاءِ خالي آهي؟
-1	ڇا	ڇا	PRON	PRWH	Case=Nom	10	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	10	obl	_	_
 2	ثقافت	ثقافت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
 3	۽	۽	CCONJ	CC	_	4	cc	_	_
 4	سياحت	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
@@ -5789,7 +5789,7 @@
 
 # sent_id = 5530f
 # text = ڇا ٿئي ها، جيڪڏهن اوهان جهڙو ليکڪ، سچ جو ذڪر ته ڪري ٿو،
-1	ڇا	ڇا	PRON	PRWH	Case=Nom	2	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	2	obl	_	_
 2	ٿئي	ٿي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 3	ها	آهي	AUX	VAUX	Gender=Masc|Mood=Sub|Number=Sing|Tense=Past	2	aux	_	SpaceAfter=No
 4	،	،	PUNCT	PUNCT	_	2	punct	_	_
@@ -6079,7 +6079,7 @@
 # text = سڻڀ کائي ڇا ڪرڻو آهي.
 1	سڻڀ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
 2	کائي	کاءِ	VERB	VM	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
-3	ڇا	ڇا	PRON	PRWH	Case=Nom	4	obj	_	_
+3	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	4	obj	_	_
 4	ڪرڻو	ڪرڻو	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=FutPart|Voice=Act	0	root	_	_
 5	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -6326,7 +6326,7 @@
 # text = جيڪو الاءِ ڇو اسان کان وسرندو ٿو وڃي.
 1	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
 2	الاءِ	الاءِ	ADV	ADT	_	6	advmod	_	_
-3	ڇو	ڇو	PRON	PRWH	Case=Nom	6	obl	_	_
+3	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	6	obl	_	_
 4	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	6	obl	_	_
 5	کان	کان	ADP	PSP	_	4	case	_	_
 6	وسرندو	وسر	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart	0	root	_	_
@@ -7099,7 +7099,7 @@
 3	ته	ته	SCONJ	CS	_	10	mark	_	_
 4	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	10	nsubj	_	_
 5	کي	کي	ADP	PSP	_	4	case	_	_
-6	ڇو	ڇو	PRON	PRWH	Case=Nom	10	obl	_	_
+6	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	10	obl	_	_
 7	نٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Polarity=Neg|Tense=Pres	10	aux	_	_
 8	سمجهه	سمجهه	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 9	۾	۾	ADP	PSPL	_	8	case	_	_
@@ -8254,7 +8254,7 @@
 21	تي	تي	ADP	PSPL	_	20	case	_	SpaceAfter=No
 22	،	،	PUNCT	PUNCT	_	20	punct	_	_
 23	پر	پر	SCONJ	CS	_	25	mark	_	_
-24	ڇا	ڇا	PRON	PRWH	Case=Nom	25	obj	_	_
+24	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	25	obj	_	_
 25	ڪجي	ڪج	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 26	،	،	PUNCT	PUNCT	_	25	punct	_	_
 
@@ -8941,7 +8941,7 @@
 
 # sent_id = 5699
 # text = ڇا قوم کي اهي تفصيل ميسر ٿي سگهندا؟ سنڌ حڪومت جي اختيار ڌڻين کي گذارش آهي ته ڪمند جي پيڙائيءَ وارن حڪمن تي عمل کي يقيني بڻايو وڃي ۽ حڪومتي اعلان تي عمل کان انڪار ڪندڙ ۽ عمل نه ڪندڙ ملرز خلاف واعدي مطابق قدم کنيو وڃي.
-1	ڇا	ڇا	PRON	PRWH	Case=Nom	7	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	7	obl	_	_
 2	قوم	قوم	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	اهي	اهو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	5	det	_	_
@@ -9279,7 +9279,7 @@
 
 # sent_id = 5714
 # text = ڇا لمس سنڌ اندر نٿي اچي؟ آخر هڪ ئي صوبي اندر ٻه اکيائي ڇو؟ تازو لمس انتظاميا مختلف شعبن ۾ پوسٽ گريجوئيٽ ڪرڻ لاءِ اشتهار به ڏنو آهي،
-1	ڇا	ڇا	PRON	PRWH	Case=Nom	6	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	6	obl	_	_
 2	لمس	_	PROPN	NNP	Case=Nom|Gender=Masc	6	nsubj	_	_
 3	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	6	obl	_	_
 4	اندر	اندر	ADV	ADP	_	6	advmod	_	_
@@ -9293,7 +9293,7 @@
 12	اندر	اندر	ADV	ADM	_	14	advmod	_	_
 13	ٻه	ٻه	ADJ	JJ	Case=Nom|Degree=Pos	14	amod	_	_
 14	اکيائي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
-15	ڇو	ڇو	PRON	PRWH	Case=Nom	29	obl	_	SpaceAfter=No
+15	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	29	obl	_	SpaceAfter=No
 16	؟	؟	PUNCT	PUNCT	_	15	punct	_	_
 17	تازو	تازو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 18	لمس	_	PROPN	NNP	Case=Nom|Gender=Masc	19	nmod	_	_
@@ -9822,7 +9822,7 @@
 # sent_id = 5738
 # text = پر ڇا آخري حل اهڙو هجي،
 1	پر	پر	SCONJ	CS	_	5	mark	_	_
-2	ڇا	ڇا	PRON	PRWH	Case=Nom	5	obl	_	_
+2	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	5	obl	_	_
 3	آخري	آخري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	حل	حل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 5	اهڙو	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
@@ -9920,7 +9920,7 @@
 12	۽	۽	CCONJ	CC	_	14	cc	_	_
 13	سامي	_	PROPN	NNP	Case=Nom|Gender=Masc	14	nmod	_	_
 14	جوڳي	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
-15	ڇو	ڇو	PRON	PRWH	Case=Nom	21	obl	_	_
+15	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	21	obl	_	_
 16	نٿا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Polarity=Neg|Tense=Pres	21	aux	_	_
 17	ترڪِ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	_
 18	وطن	وطن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	_
@@ -10335,7 +10335,7 @@
 17	وجهي	وجه	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	0	root	_	_
 18	ڏسون	ڏس	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	17	compound	_	_
 19	ته	ته	SCONJ	CS	_	25	mark	_	_
-20	ڇا	ڇا	PRON	PRWH	Case=Nom	25	obl	_	_
+20	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	25	obl	_	_
 21	اهي	اهو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	25	nsubj	_	_
 22	پنهنجا	پنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	23	nmod	_	_
 23	حق	حق	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	obj	_	_
@@ -10413,7 +10413,7 @@
 15	پوءِ	پوءِ	ADV	ADT	_	19	advmod	_	_
 16	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	19	nsubj	_	_
 17	کي	کي	ADP	PSP	_	16	case	_	_
-18	ڪهڙو	ڪهڙو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_
+18	ڪهڙو	ڪهڙو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	19	nmod	_	_
 19	حق	حق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
 20	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	19	cop	_	_
 21	ته	ته	SCONJ	CS	_	28	mark	_	_
@@ -10514,7 +10514,7 @@
 16	،	،	PUNCT	PUNCT	_	15	punct	_	_
 17	اڃا	اڃا	ADV	ADT	_	20	advmod	_	_
 18	حڪومت	حڪومت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
-19	ڇا	ڇا	PRON	PRWH	Case=Nom	20	obj	_	_
+19	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	20	obj	_	_
 20	ڪري	ڪر	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	SpaceAfter=No
 21	؟	؟	PUNCT	PUNCT	_	20	punct	_	_
 
@@ -10540,7 +10540,7 @@
 6	(	(	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 7	فرض	فرض	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
 8	)	)	PUNCT	PUNCT	_	7	punct	_	_
-9	ڇا	ڇا	PRON	PRWH	Case=Nom	0	root	_	_
+9	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	0	root	_	_
 10	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	9	cop	_	SpaceAfter=No
 11	،	،	PUNCT	PUNCT	_	9	punct	_	_
 
@@ -13584,10 +13584,10 @@
 11	کي	کي	ADP	PSP	_	10	case	_	_
 12	چيو	چئو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	2	advcl	_	_
 13	ته	ته	SCONJ	CS	_	18	mark	_	_
-14	ڇا	ڇا	PRON	PRWH	Case=Nom	18	obl	_	_
+14	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	18	obl	_	_
 15	تو	تو	PRON	PRP	Case=Acc|Number=Sing|Person=2	18	iobj	_	_
 16	کي	کي	ADP	PSP	_	15	case	_	_
-17	ڪنھن	ڪو	PRON	PRWH	Case=Acc|Number=Sing	18	nsubj	_	_
+17	ڪنھن	ڪو	PRON	PRWH	Case=Acc|Number=Sing|PronType=Int	18	nsubj	_	_
 18	ٻڌايو	ٻڌاءِ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	2	advcl	_	_
 19	آھي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	18	aux	_	_
 20	ته	ته	SCONJ	CS	_	25	mark	_	_

@@ -1677,7 +1677,7 @@
 # text = ڌيءَ! ڇا تون سچ پچ پنهنجي گهر وڃڻ گهرين ٿي؟
 1	ڌيءَ	ڌيءَ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	discourse	_	SpaceAfter=No
 2	!	!	PUNCT	PUNCT	_	1	punct	_	_
-3	ڇا	ڇا	PRON	PRWH	Case=Nom	10	obl	_	_
+3	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	10	obl	_	_
 4	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	10	nsubj	_	_
 5	سچ	سچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 6	پچ	پچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obl	_	_
@@ -1823,7 +1823,7 @@
 # text = هاڻي هلي ڇا ڪنديس! باقي تون مون کي جادوءَ جو اهو شيشو ڏيئي وڃ ته جيئن آءٌ به اهو سڀ ڪجهه ڏسي سگهان، جيڪو انسانن جي دنيا ۾ ٿئي پيو ۽ اهو به ڏسي سگهان ته اتي توسان ڇا ٿو وهي واپري.
 1	هاڻي	هاڻ	ADV	ADT	_	4	advmod	_	_
 2	هلي	هل	VERB	VM	Aspect=Imp|Number=Sing	4	advcl	_	_
-3	ڇا	ڇا	PRON	PRWH	Case=Nom	4	obj	_	_
+3	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	4	obj	_	_
 4	ڪنديس	ڪندو	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	14	advcl	_	SpaceAfter=No
 5	!	!	PUNCT	PUNCT	_	4	punct	_	_
 6	باقي	باقي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
@@ -1861,7 +1861,7 @@
 38	ته	ته	SCONJ	CS	_	43	mark	_	_
 39	اتي	اتي	ADV	ADP	_	43	advmod	_	_
 40	توسان	توسان	PRON	PRP	Case=Nom|Number=Sing|Person=1	43	nsubj	_	_
-41	ڇا	ڇا	PRON	PRWH	_	43	obj	_	_
+41	ڇا	ڇا	PRON	PRWH	PronType=Int	43	obj	_	_
 42	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	43	aux	_	_
 43	وهي	وه	VERB	VM	Aspect=Imp|Voice=Act	36	advcl	_	_
 44	واپري	واپرو	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	43	compound	_	SpaceAfter=No
@@ -1928,7 +1928,7 @@
 1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	رات	رات	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
 3	اڪولا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-4	ڇا	ڇا	PRON	PRWH	Case=Nom	5	obj	_	_
+4	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	5	obj	_	_
 5	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 6	جو	جو	ADP	PSP	_	15	mark	_	_
 7	سڪوئيڊ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -2240,7 +2240,7 @@
 6	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	xcomp	_	_
 7	ڪاوڙيو	ڪاوڙ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	7	punct	_	_
-9	ڇو	ڇو	PRON	PRWH	Case=Nom	15	obl	_	_
+9	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	15	obl	_	_
 10	جو	جو	SCONJ	CS	_	15	mark	_	_
 11	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	15	nsubj	_	_
 12	ماليڪٽ	ماليڪٽ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
