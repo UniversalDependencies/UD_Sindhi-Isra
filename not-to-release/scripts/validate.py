@@ -156,6 +156,7 @@ EXACT_FEATURES[('تنهن', 'PRL')] = ['Case=Acc', 'Number=Sing', 'PronType=Rel'
 EXACT_FEATURES[('ڄڻ', 'PRL')] = ['Case=Nom', 'PronType=Rel']
 EXACT_FEATURES[('ائين', 'PRL')] = ['Case=Nom', 'PronType=Rel']
 EXACT_FEATURES[('سو', 'PRL')] = ['Case=Nom', 'Number=Sing', 'Gender=Masc', 'PronType=Rel']
+EXACT_FEATURES[('ان', 'PRD')] = ['Case=Acc', 'Number=Sing', 'PronType=Dem']
 EXACT_FEATURES[('جيڪو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
 EXACT_FEATURES[('جيڪي', 'PRD')] = ['Case=Nom', 'Number=Plur', 'PronType=Dem']
 EXACT_FEATURES[('اسان', 'PRD')] = ['Case=Acc', 'Number=Plur', 'Person=1', 'PronType=Dem']
