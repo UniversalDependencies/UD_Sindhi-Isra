@@ -18,7 +18,7 @@ ALLOWED_UPOS_TO_XPOS = {
     "NOUN":  ["NN", "NNX"],
     "PROPN": ["NNP"],
     "ADJ":   ["JJ", "JJC", "JJO", "JJF"],
-    "PRON":  ["PRP", "PRD", "PRWH", "PRL"],
+    "PRON":  ["PRP", "PRWH", "PRL"],
     "ADV":   ["ADV", "ADT", "ADM", "ADN", "ADQ", "ADA", "ADS", "ADP", "ADPX"],
     "ADP":   ["PSP", "PSPX", "PSPL", "PSPG", "PSPR"],
     "CCONJ": ["CC"],
