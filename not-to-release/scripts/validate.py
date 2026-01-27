@@ -1025,9 +1025,9 @@ def main():
 
     error_doc = []
     clean_doc = []
-    udargs = ['--lang', 'sd', '--quiet', '--max-err', '-1', '--max-store', '-1']
+    udargs = ['--lang', 'sd', '--quiet', '--max-err', '-1']
     udargs = ud_parse_args(udargs)
-    udvalidator = Validator(lang="sd", args=udargs)
+    udvalidator = Validator(lang="sd", max_store=-1, args=udargs)
     for filename in args.filename:
         print("Validating %s" % filename)
         new_doc = CoNLL.conll2doc(filename, keep_line_numbers=True)
