@@ -8,9 +8,18 @@ import networkx as nx
 
 from stanza.utils.conll import CoNLL
 
-from udtools.src.udtools.argparser import parse_args_validator as ud_parse_args
-from udtools.src.udtools.validator import Validator
-from udtools.src.udtools.incident import IncidentType, TestClass
+try:
+    from udtools.src.udtools.argparser import parse_args_validator as ud_parse_args
+except ImportError:
+    from udtools.argparser import parse_args_validator as ud_parse_args
+try:
+    from udtools.src.udtools.validator import Validator
+except ImportError:
+    from udtools.validator import Validator
+try:
+    from udtools.src.udtools.incident import IncidentType, TestClass
+except ImportError:
+    from udtools.incident import IncidentType, TestClass
 
 ALLOWED_UPOS = { "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB"}
 
