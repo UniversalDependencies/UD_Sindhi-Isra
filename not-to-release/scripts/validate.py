@@ -171,6 +171,8 @@ EXACT_FEATURES[('اُھو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing',
 EXACT_FEATURES[('جيڪو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
 EXACT_FEATURES[('جيڪي', 'PRD')] = ['Case=Nom', 'Number=Plur', 'PronType=Dem']
 EXACT_FEATURES[('اسان', 'PRD')] = ['Case=Acc', 'Number=Plur', 'Person=1', 'PronType=Dem']
+EXACT_FEATURES[('اُهي', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Plur', 'PronType=Dem']
+EXACT_FEATURES[('اُھي', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Plur', 'PronType=Dem']
 EXACT_FEATURES[('ڪير', 'PRWH')] = ['Case=Nom', 'PronType=Int']
 EXACT_FEATURES[('ڪهڙو', 'PRWH')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Int']
 EXACT_FEATURES[('ڇو', 'PRWH')] = ['Case=Nom', 'PronType=Int']
@@ -209,12 +211,12 @@ ENFORCED_POS['گذريل'] = ['VERB']
 
 # demonstratives
 demonstratives = ['ان', 'اِهو', 'انهي', 'انھي', 'انهيءِ', 'اِهو', 'اِهي', 'اھا', 'اھڙو', 'اھي', 'ڪوبه', 'هرڪوئي', 'هِن', 'هُوءَ', 'ھن', 'اُهو', 'اهي', 'اهو', 'اِها']
-# orthographic variants
+# orthographic variants - replace ه with ھ
 demonstratives.extend(['ان', 'اِھو', 'انھي', 'انھي', 'انھيءِ', 'اِھو', 'اِھي', 'اھا', 'اھڙو', 'اھي', 'ڪوبھ', 'ھرڪوئي', 'ھِن', 'ھُوءَ', 'ھن', 'اُھو', 'اھي', 'اھو', 'اِھا'])
 # more demonstratives
-demonstratives.extend(['اُها', 'اها', 'انهيءَ', 'ڪهڙيءَ', 'ڪهڙين', 'ڪهڙي', 'ڪهڙيون', 'جيڪي', 'جيڪا', 'اسان'])
+demonstratives.extend(['اُهي', 'اُها', 'اها', 'انهيءَ', 'ڪهڙيءَ', 'ڪهڙين', 'ڪهڙي', 'ڪهڙيون', 'جيڪي', 'جيڪا', 'اسان'])
 # orthographic variants
-demonstratives.extend(['اُھا', 'اھا', 'انھيءَ', 'ڪھڙيءَ', 'ڪھڙين', 'ڪھڙي', 'ڪھڙيون', 'جيڪي', 'جيڪا', 'اسان'])
+demonstratives.extend(['اُھي', 'اُھا', 'اھا', 'انھيءَ', 'ڪھڙيءَ', 'ڪھڙين', 'ڪھڙي', 'ڪھڙيون', 'جيڪي', 'جيڪا', 'اسان'])
 for word in demonstratives:
     ENFORCED_POS_XPOS[word] = [('DET', 'PRD')]
 
