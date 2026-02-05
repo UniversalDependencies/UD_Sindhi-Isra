@@ -453,29 +453,31 @@ def check_space_in_word(filename, new_doc):
 
     return incidents
 
-def check_punct_word_labels(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_punct_word_labels(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if ALLOWED_PUNCT_WORD.match(word.text) and word.upos != "PUNCT":
-                if not printed:
-                    print("PUNCT WORDS LABELED NON-PUNCT")
-                    printed = True
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d has a punct word |%s| (line %d) labeled %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos))
+                error = "Sentence %s (%d) word %d has a punct word |%s| (line %d) labeled %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos)
+                incidents.append(Incident(category="PUNCT tag error",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word.id]))
 
-    printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if not ALLOWED_PUNCT_WORD.match(word.text) and word.upos == "PUNCT":
-                if not printed:
-                    print("NON PUNCT WORDS LABELED PUNCT")
-                    printed = True
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d has a non-punct word |%s| labeled %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.upos))
+                error = "Sentence %s (%d) word %d has a non-punct word |%s| (line %d) labeled %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos)
+                incidents.append(Incident(category="PUNCT tag error",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word.id]))
 
-    return problem_sentences
+    return incidents
 
 def check_pos_deprel_happiness(filename, new_doc, check_xpos):
     incidents = []
@@ -1013,7 +1015,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     incidents.extend(check_unknown_upos(filename, new_doc))
     incidents.extend(check_no_root_sentences(filename, new_doc))
     incidents.extend(check_space_in_word(filename, new_doc))
-    problem_sentences |= check_punct_word_labels(new_doc)
+    incidents.extend(check_punct_word_labels(filename, new_doc))
     incidents.extend(check_pos_deprel_happiness(filename, new_doc, check_xpos))
     incidents.extend(check_unexpected_space_after(filename, new_doc))
     incidents.extend(check_xpos_required(filename, new_doc, check_xpos, require_xpos))
