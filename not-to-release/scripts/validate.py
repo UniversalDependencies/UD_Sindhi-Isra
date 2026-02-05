@@ -216,11 +216,11 @@ demonstratives =      ['اِهو', 'انهي', 'انهي', 'انهيءِ', 'اِ
 # orthographic variants - replace ه with ھ
 demonstratives.extend(['اِھو', 'انھي', 'انھي', 'انھيءِ', 'اِھو', 'اِھي', 'اھا', 'اھي', 'ڪوبھ', 'ھرڪوئي', 'ھِن', 'ھُوءَ', 'ھن', 'اُھو', 'اھي', 'اھو', 'اِھا'])
 # more demonstratives
-demonstratives.extend(['اُهي', 'اُها', 'اها', 'انهيءَ', 'ڪهڙيءَ', 'ڪهڙين', 'ڪهڙي', 'ڪهڙيون', 'جيڪي', 'جيڪا', 'اسان'])
+demonstratives.extend(['اُهي', 'اُها', 'اها', 'انهيءَ', 'ڪهڙيءَ', 'ڪهڙين', 'ڪهڙي', 'ڪهڙيون'])
 # orthographic variants
-demonstratives.extend(['اُھي', 'اُھا', 'اھا', 'انھيءَ', 'ڪھڙيءَ', 'ڪھڙين', 'ڪھڙي', 'ڪھڙيون', 'جيڪي', 'جيڪا', 'اسان'])
+demonstratives.extend(['اُھي', 'اُھا', 'اھا', 'انھيءَ', 'ڪھڙيءَ', 'ڪھڙين', 'ڪھڙي', 'ڪھڙيون'])
 # demonstratives with no variants
-demonstratives.extend(['ان', ])
+demonstratives.extend(['ان', 'جيڪي', 'جيڪا', 'اسان'])
 for word in demonstratives:
     ENFORCED_POS_XPOS[word] = [('DET', 'PRD')]
 
