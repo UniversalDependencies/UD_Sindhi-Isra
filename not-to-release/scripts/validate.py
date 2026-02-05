@@ -424,17 +424,19 @@ def check_unknown_upos(filename, new_doc):
                                           nodes=[word_idx+1]))
     return incidents
 
-def check_no_root_sentences(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_no_root_sentences(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         if not any(word.deprel == 'root' for word in sent.words):
-            if not printed:
-                print("NO ROOT SENTENCES")
-                printed = True
-            problem_sentences.add(sent_idx)
-            print("Sentence %d |%s| has no root" % (sent_idx, sent.sent_id))
-    return problem_sentences
+            error = "Sentence %s (%d) has no root" % (sent.sent_id, sent_idx)
+            category = "Missing root"
+            incidents.append(Incident(category=category,
+                                      filename=filename,
+                                      sent_idx=sent_idx,
+                                      sentence=sent,
+                                      error=error,
+                                      nodes=[]))
+    return incidents
 
 def check_space_in_word(filename, new_doc):
     incidents = []
@@ -1009,7 +1011,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     incidents = []
 
     incidents.extend(check_unknown_upos(filename, new_doc))
-    problem_sentences |= check_no_root_sentences(new_doc)
+    incidents.extend(check_no_root_sentences(filename, new_doc))
     incidents.extend(check_space_in_word(filename, new_doc))
     problem_sentences |= check_punct_word_labels(new_doc)
     incidents.extend(check_pos_deprel_happiness(filename, new_doc, check_xpos))
