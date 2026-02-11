@@ -218,9 +218,9 @@ demonstratives =      ['اِهو', 'انهي', 'انهي', 'انهيءِ', 'اِ
 # orthographic variants - replace ه with ھ
 demonstratives.extend(['اِھو', 'انھي', 'انھي', 'انھيءِ', 'اِھو', 'اِھي', 'اھا', 'اھي', 'ڪوبھ', 'ھرڪوئي', 'ھِن', 'ھُوءَ', 'ھن', 'اُھو', 'اھي', 'اھو', 'اِھا'])
 # more demonstratives
-demonstratives.extend(['اُهي', 'اُها', 'اها', 'انهيءَ', 'ڪهڙيءَ', 'ڪهڙين', 'ڪهڙي', 'ڪهڙيون', 'هـُن'])
+demonstratives.extend(['اُهي', 'اُها', 'اها', 'انهيءَ', 'ڪهڙيءَ', 'ڪهڙين', 'ڪهڙي', 'ڪهڙيون', 'هـُن', 'اهوئي', 'اهائي'])
 # orthographic variants
-demonstratives.extend(['اُھي', 'اُھا', 'اھا', 'انھيءَ', 'ڪھڙيءَ', 'ڪھڙين', 'ڪھڙي', 'ڪھڙيون', 'ھـُن'])
+demonstratives.extend(['اُھي', 'اُھا', 'اھا', 'انھيءَ', 'ڪھڙيءَ', 'ڪھڙين', 'ڪھڙي', 'ڪھڙيون', 'ھـُن', 'اھوئي', 'اھائي'])
 # demonstratives with no variants
 demonstratives.extend(['ان', 'جيڪي', 'جيڪا', 'اسان'])
 for word in demonstratives:
