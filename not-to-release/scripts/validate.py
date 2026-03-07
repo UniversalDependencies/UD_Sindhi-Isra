@@ -187,6 +187,8 @@ EXACT_FEATURES[('هُو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', '
 EXACT_FEATURES[('ھُو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
 EXACT_FEATURES[('هُوءَ', 'PRD')] = ['Case=Nom', 'Gender=Fem', 'Number=Sing', 'PronType=Dem']
 EXACT_FEATURES[('ھُوءَ', 'PRD')] = ['Case=Nom', 'Gender=Fem', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('هيءَ', 'PRD')] = ['Case=Nom', 'Gender=Fem', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('ھيءَ', 'PRD')] = ['Case=Nom', 'Gender=Fem', 'Number=Sing', 'PronType=Dem']
 
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
