@@ -183,6 +183,8 @@ EXACT_FEATURES[('ڪير', 'PRWH')] = ['Case=Nom', 'PronType=Int']
 EXACT_FEATURES[('ڪهڙو', 'PRWH')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Int']
 EXACT_FEATURES[('ڇو', 'PRWH')] = ['Case=Nom', 'PronType=Int']
 EXACT_FEATURES[('ڪيئن', 'PRWH')] = ['Case=Nom', 'PronType=Int']
+EXACT_FEATURES[('هُو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('ھُو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
 
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
