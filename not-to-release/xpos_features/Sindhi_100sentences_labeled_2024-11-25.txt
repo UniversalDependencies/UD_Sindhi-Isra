@@ -27,7 +27,7 @@
 
 # sent_id = 2
 # text = سندن خوشين ۾ ان وقت اڃا به وڌيڪ واڌ ٿي اچي .
-1	سندن	سندو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=3	2	nmod	_	_
+1	سندن	سندو	PRON	PRP	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 2	خوشين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
 4	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	det	_	_
@@ -43,7 +43,7 @@
 # sent_id = 3
 # text = جڏهن سندن ٻار ٻاتيون ٻاتيون ٻوليون ٻولي ٿو .
 1	جڏهن	جڏهن	ADV	ADT	Case=Acc|Number=Sing	7	advmod	_	_
-2	سندن	سندو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=3	3	nmod	_	_
+2	سندن	سندو	PRON	PRP	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	ٻار	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 4	ٻاتيون	ٻات	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
 5	ٻاتيون	ٻات	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
@@ -1153,7 +1153,7 @@
 8	ذهنيت	ذهنيت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	_
 9	مطابق	مطابق	ADP	PSP	_	8	case	_	SpaceAfter=No
 10	،	،	PUNCT	PUNCT	_	9	punct	_	_
-11	سندن	_	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	12	det	_	_
+11	سندن	_	PRON	PRP	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
 12	وندر	وندر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 13	،	،	PUNCT	PUNCT	_	12	punct	_	_
 14	دلچسپيءَ	دلچسپيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
@@ -1165,7 +1165,7 @@
 # sent_id = 80
 # text = ۽ سندن طبيعت ۾ اڳتي وڌڻ جو جذبو پيدا ڪرڻ لاءِ اهم ڪردار ادا ڪري .
 1	۽	۽	CCONJ	CC	_	15	cc	_	_
-2	سندن	سندو	PRON	PRP	Case=Acc|Number=Plur|Person=3	3	nmod	_	_
+2	سندن	سندو	PRON	PRP	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	طبيعت	طبيعت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
 5	اڳتي	اڳتي	ADV	ADP	_	6	advmod	_	_
@@ -1207,7 +1207,7 @@
 11	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	10	case	_	_
 12	خواهشن	خواهش	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
 13	۽	۽	CCONJ	CC	_	16	cc	_	_
-14	سندن	سندو	PRON	PRP	Case=Acc|Number=Plur|Person=3	16	det	_	_
+14	سندن	سندو	PRON	PRP	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
 15	ڪنهن	ڪو	DET	PRD	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 16	راھ	راھ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
 17	ڏانهن	ڏانهن	ADV	ADP	_	16	case	_	_
