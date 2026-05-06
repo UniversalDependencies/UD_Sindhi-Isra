@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Sindhi-Isra:
-commit 2957054bb691e8a5acd39412fc1ae3e45d4d6f40
-Merge: f9af227 06ab8d6
+commit 65c78b6d1c1a0e0a034fad0a420ec0b188ca11ca
+Merge: 13a5713 49e2c8f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'sd_isra'
@@ -19,52 +19,76 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 66952 out of 95227 total words have one or more features.
+Features: 67150 out of 95227 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sd --max-err=10 UD_Sindhi-Isra/sd_isra-ud-dev.conllu
-[Line 31 Sent Kawish-20100810-380]: [L3 Warning pron-det-without-prontype] The word 'مونکي' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 60 Sent Kawish-20100810-382]: [L3 Warning pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 89 Sent Kawish-20100810-384]: [L3 Warning pron-det-without-prontype] The word 'پاڻ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 148 Sent Kawish-20100810-387]: [L3 Warning pron-det-without-prontype] The word 'منهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 206 Sent Kawish-20100810-393]: [L3 Warning pron-det-without-prontype] The word 'تون' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 209 Sent Kawish-20100810-393]: [L3 Warning pron-det-without-prontype] The word 'سو' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 211 Sent Kawish-20100810-393]: [L3 Warning pron-det-without-prontype] The word 'جهڙو' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 235 Sent Kawish-20100810-395]: [L3 Warning pron-det-without-prontype] The word 'ڄڻ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 245 Sent Kawish-20100810-396]: [L3 Warning pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 285 Sent Kawish-20100810-399]: [L3 Warning pron-det-without-prontype] The word 'جي' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 454
+[Line 31 Sent Kawish-20100810-380]: [L3 WARNING pron-det-without-prontype] The word 'مونکي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 60 Sent Kawish-20100810-382]: [L3 WARNING pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 89 Sent Kawish-20100810-384]: [L3 WARNING pron-det-without-prontype] The word 'پاڻ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 148 Sent Kawish-20100810-387]: [L3 WARNING pron-det-without-prontype] The word 'منهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 206 Sent Kawish-20100810-393]: [L3 WARNING pron-det-without-prontype] The word 'تون' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 245 Sent Kawish-20100810-396]: [L3 WARNING pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 325 Sent Kawish-20100810-402]: [L3 WARNING pron-det-without-prontype] The word 'تنهن' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 345 Sent Kawish-20100810-403]: [L3 WARNING pron-det-without-prontype] The word 'منهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 363 Sent Kawish-20100810-405]: [L3 WARNING pron-det-without-prontype] The word 'تنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 370 Sent Kawish-20100810-406]: [L3 WARNING pron-det-without-prontype] The word 'تنهن' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2809 Sent Kawish-20100810-604]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
+[Line 4981 Sent Kawish-20100810-745]: [L3 WARNING fixed-without-extpos] Fixed expression 'ته به' does not have the 'ExtPos' feature
+[Line 5614 Sent adabi_0_017]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
+[Line 6845 Sent adabi_0_093]: [L3 WARNING fixed-without-extpos] Fixed expression 'جي لاءِ' does not have the 'ExtPos' feature
+[Line 8069 Sent adabi_1_024]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڇو جو' does not have the 'ExtPos' feature
+[Line 8762 Sent adabi_1_065]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
+[Line 9262 Sent adabi_1_092]: [L3 WARNING fixed-without-extpos] Fixed expression 'دانهون ڪوڪون' does not have the 'ExtPos' feature
+[Line 9271 Sent adabi_1_092]: [L3 WARNING fixed-without-extpos] Fixed expression 'دانهن ڪوڪن' does not have the 'ExtPos' feature
+[Line 9878 Sent adabi_2_041]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
+[Line 10362 Sent adabi_2_068]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
+Warnings: 359
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sd --max-err=10 UD_Sindhi-Isra/sd_isra-ud-test.conllu
-[Line 45 Sent Kawish-20100810-002]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'ڪلاڪن') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 80 Sent Kawish-20100810-004]: [L3 Warning obl-should-be-nmod] The parent (node [13] 'بندن') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 445 Sent Kawish-20100810-020]: [L3 Warning pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 552 Sent Kawish-20100810-022]: [L3 Warning pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 601 Sent Kawish-20100810-024]: [L3 Warning pron-det-without-prontype] The word 'پنهنجو' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 642 Sent Kawish-20100810-025]: [L3 Warning obl-should-be-nmod] The parent (node [34] 'ڪلواڙي') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1137 Sent Kawish-20100810-043]: [L3 Warning pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1376 Sent Kawish-20100810-050]: [L3 Warning pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1379 Sent Kawish-20100810-050]: [L3 Warning pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1381 Sent Kawish-20100810-050]: [L3 Warning pron-det-without-prontype] The word 'پاڻ' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 272
+[Line 445 Sent Kawish-20100810-020]: [L3 WARNING pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 552 Sent Kawish-20100810-022]: [L3 WARNING pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 601 Sent Kawish-20100810-024]: [L3 WARNING pron-det-without-prontype] The word 'پنهنجو' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1137 Sent Kawish-20100810-043]: [L3 WARNING pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1376 Sent Kawish-20100810-050]: [L3 WARNING pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1379 Sent Kawish-20100810-050]: [L3 WARNING pron-det-without-prontype] The word 'پنهنجي' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1381 Sent Kawish-20100810-050]: [L3 WARNING pron-det-without-prontype] The word 'پاڻ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2062 Sent Kawish-20100810-075]: [L3 WARNING pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2173 Sent Kawish-20100810-081]: [L3 WARNING pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2194 Sent Kawish-20100810-082]: [L3 WARNING pron-det-without-prontype] The word 'سندس' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 3109 Sent Kawish-20100810-125]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
+[Line 4261 Sent Kawish-20100810-178]: [L3 WARNING fixed-without-extpos] Fixed expression 'جي لاءِ' does not have the 'ExtPos' feature
+[Line 5344 Sent Kawish-20100810-235]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
+Warnings: 215
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sd --max-err=10 UD_Sindhi-Isra/sd_isra-ud-train.conllu
-[Line 98 Sent xpos_11]: [L3 Warning pron-det-without-prontype] The word 'آئون' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 106 Sent xpos_12]: [L3 Warning pron-det-without-prontype] The word 'اسين' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 114 Sent xpos_13]: [L3 Warning pron-det-without-prontype] The word 'مون' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 130 Sent xpos_15]: [L3 Warning pron-det-without-prontype] The word 'مون' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 151 Sent xpos_17]: [L3 Warning pron-det-without-prontype] The word 'جھڙا' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 158 Sent xpos_18]: [L3 Warning pron-det-without-prontype] The word 'ڇا' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 165 Sent xpos_19]: [L3 Warning pron-det-without-prontype] The word 'ڪھڙا' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 173 Sent xpos_20]: [L3 Warning pron-det-without-prontype] The word 'تون' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 206 Sent xpos_24]: [L3 Warning pron-det-without-prontype] The word 'ھو' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 213 Sent xpos_25]: [L3 Warning pron-det-without-prontype] The word 'ھو' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 1946
+[Line 98 Sent xpos_11]: [L3 WARNING pron-det-without-prontype] The word 'آئون' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 106 Sent xpos_12]: [L3 WARNING pron-det-without-prontype] The word 'اسين' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 114 Sent xpos_13]: [L3 WARNING pron-det-without-prontype] The word 'مون' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 130 Sent xpos_15]: [L3 WARNING pron-det-without-prontype] The word 'مون' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 173 Sent xpos_20]: [L3 WARNING pron-det-without-prontype] The word 'تون' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 206 Sent xpos_24]: [L3 WARNING pron-det-without-prontype] The word 'ھو' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 213 Sent xpos_25]: [L3 WARNING pron-det-without-prontype] The word 'ھو' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 221 Sent xpos_26]: [L3 WARNING pron-det-without-prontype] The word 'ھو' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 288 Sent xpos_34]: [L3 WARNING pron-det-without-prontype] The word 'تون' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 295 Sent xpos_35]: [L3 WARNING pron-det-without-prontype] The word 'آئون' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 5586 Sent 1912]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڪو نه' does not have the 'ExtPos' feature
+[Line 6300 Sent 2049]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڪو نه' does not have the 'ExtPos' feature
+[Line 7821 Sent 2556]: [L3 WARNING fixed-without-extpos] Fixed expression 'جي لاءِ' does not have the 'ExtPos' feature
+[Line 8390 Sent 2596]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
+[Line 12380 Sent 1583]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
+[Line 14033 Sent 1298]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڇو جو' does not have the 'ExtPos' feature
+[Line 16318 Sent 2051]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
+[Line 16989 Sent 2968]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڪو نه' does not have the 'ExtPos' feature
+[Line 17173 Sent 2043]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
+[Line 18120 Sent 3681]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 1455
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
