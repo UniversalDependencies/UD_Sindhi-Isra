@@ -53,8 +53,8 @@
 9	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	10	nmod	_	_
 10	زماني	زمانو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
 11	۾	۾	ADP	PSPL	_	10	case	_	_
-12	ڇا	ڇا	PRON	PRWH	_	13	nmod	_	_
-13	ڇا	ڇا	PRON	PRWH	_	14	obj	_	_
+12	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	13	nmod	_	_
+13	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	14	obj	_	_
 14	ڏٺو	ڏٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	6	advcl	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	14	punct	_	_
 
@@ -167,7 +167,7 @@
 12	کان	کان	ADP	PSP	ExtPos=ADP	11	case	_	_
 13	پوءِ	پوءِ	ADP	PSP	_	12	fixed	_	_
 14	صورتحال	صورتحال	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
-15	ڇا	ڇا	PRON	PRWH	_	16	obj	_	_
+15	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	16	obj	_	_
 16	هوندي	آهي	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	SpaceAfter=No
 17	؟	؟	PUNCT	PUNCT	_	16	punct	_	_
 
@@ -555,8 +555,8 @@
 5	آسان	آسان	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
 6	به	به	PART	PART	_	5	advmod:emph	_	_
 7	ڪونهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	5	cop	_	_
-8	ڇو	ڇو	PRON	PRWH	_	12	obl	_	_
-9	تہ	تہ	SCONJ	CS	_	8	mark	_	_
+8	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	12	obl	_	_
+9	تہ	تہ	PART	PART	_	8	advmod:emph	_	_
 10	هي	هي	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	12	nsubj	_	_
 11	اڪثر	اڪثر	ADV	ADV	_	12	advmod	_	_
 12	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	19	advcl	_	_
@@ -845,7 +845,7 @@
 
 # sent_id = birdsofsindh_barbet_40
 # text = ائين ئي جيڪڏنهن اسان جا ڳوٺاڻان ماڻهون پنهنجي پنهنجي ڳوٺن ۾ موجود جيوت، وڻن ٻوٽن جا محافظ بڻجي پون ته اسان جي سنڌ سموري جنت نظير بڻجي پوندي.
-1	ائين	ائين	PRON	PRL	_	19	obl	_	_
+1	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	19	obl	_	_
 2	ئي	ئي	PART	PART	_	1	advmod:emph	_	_
 3	جيڪڏنهن	جيڪڏنهن	SCONJ	CS	_	19	mark	_	_
 4	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	7	nmod	_	_

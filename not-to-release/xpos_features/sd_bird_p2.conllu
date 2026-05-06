@@ -57,7 +57,7 @@
 
 # sent_id = birdsofsindh_parrot_4
 # text = ڇو ته اسان وٽ اهڙو معاشرو جڙي ويو آهي جنهن ۾ هر طرف صرف خود غرضي ۽ ذاتي مفاد جي تعليم ۽ تربيت عام ڪئي ويئي.
-1	ڇو	ڇو	SCONJ	CS	ExtPos=SCONJ	7	mark	_	_
+1	ڇو	ڇو	ADV	ADV	ExtPos=SCONJ	7	mark	_	_
 2	ته	ته	SCONJ	CS	_	1	fixed	_	_
 3	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	7	obl	_	_
 4	وٽ	وٽ	ADP	PSPL	_	3	case	_	_
@@ -369,7 +369,7 @@
 43	ٻڌڻ	ٻڌ	VERB	VM	Aspect=Imp|VerbForm=Inf	45	advcl	_	_
 44	۾	۾	ADP	PSPL	_	43	mark	_	_
 45	اچن	اچ	VERB	VM	Aspect=Imp|Number=Plur|Person=3	31	advcl	_	_
-46	جيڪي	جيڪو	PRON	PRP	Case=Nom|Number=Plur	51	obj	_	_
+46	جيڪي	جيڪو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	51	obj	_	_
 47	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	51	nsubj	_	_
 48	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	49	nmod	_	_
 49	ننڍپڻ	ننڍپڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	51	obl	_	_
@@ -597,7 +597,7 @@
 7	پسند	پسند	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	_
 8	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 9	ورتو	ورتو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	8	compound	_	_
-10	ڇو	ڇو	SCONJ	CS	ExtPos=SCONJ	19	mark	_	_
+10	ڇو	ڇو	ADV	ADV	ExtPos=SCONJ	19	mark	_	_
 11	ته	ته	SCONJ	CS	_	10	fixed	_	_
 12	اتي	اتي	ADV	ADT	_	19	advmod	_	_
 13	اوسي	اوسي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	compound	_	_
@@ -742,7 +742,7 @@
 19	ثابت	ثابت	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	20	xcomp	_	_
 20	موجود	موجود	ADJ	JJ	Case=Nom	13	conj	_	_
 21	هئا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	20	cop	_	_
-22	جيڪي	جيڪو	PRON	PRP	Case=Nom|Number=Plur	25	nsubj	_	_
+22	جيڪي	جيڪو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	25	nsubj	_	_
 23	شايد	شايد	ADV	ADM	_	25	advmod	_	_
 24	خراب	خراب	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	25	xcomp	_	_
 25	ٿي	آهي	AUX	VAUX	AuxType=Be	20	advcl	_	_
@@ -777,7 +777,7 @@
 
 # sent_id = birdsofsindh_parrot_33
 # text = ڪير بہ جيوت ۽ قدرتي ماحول جي حفاظت لاء سنجيدگي سان سوچڻ به گوارا نٿو ڪري ۽ فقط زباني ڪلامي بيان بازي، روڄ راڙو ڪري ذميدارين جو بار ٻين مٿان اڇلائي پنهنجا پلئہ  آجا رکڻ مناسب ٿو سمجهي اتي ڌڻي بخش هيسباڻي جهڙن نوجوانن جو عملي قدم  گهور اونداھي ۾ روشني جي ڪرڻي مثل آهي.
-1	ڪير	ڪير	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+1	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	16	nsubj	_	_
 2	بہ	بہ	PART	PART	_	1	advmod:emph	_	_
 3	جيوت	جيوت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
 4	۽	۽	CCONJ	CC	_	6	cc	_	_
@@ -820,7 +820,7 @@
 41	ڌڻي	ڌڻي	PROPN	NNP	Case=Nom|Gender=Masc	45	nmod	_	_
 42	بخش	بخش	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	41	flat	_	_
 43	هيسباڻي	هيسباڻي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	41	flat	_	_
-44	جهڙن	جهڙو	PRON	PRL	Case=Acc|Gender=Masc|Number=Plur	41	nmod	_	_
+44	جهڙن	جهڙو	ADP	PSPR	Case=Acc|Gender=Masc|Number=Plur	41	case	_	_
 45	نوجوانن	نوجوان	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	48	nmod	_	_
 46	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	45	case	_	_
 47	عملي	عملي	ADJ	JJ	Case=Nom|Degree=Pos	48	amod	_	_

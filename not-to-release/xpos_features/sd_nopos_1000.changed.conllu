@@ -71,7 +71,7 @@
 18	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	17	case	_	_
 19	پيرن	پير	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	nmod	_	_
 20	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	19	case	_	_
-21	زور	_	VERB	VM	Aspect=Imp|VerbForm=Inf	22	compound	_	_
+21	زور	زور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	compound	_	_
 22	پيو	پيو	VERB	VM	Aspect=Imp|Number=Sing|Person=3	9	advcl	_	_
 23	ته	ته	SCONJ	CS	_	33	mark	_	_
 24	هاٿيءَ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
@@ -101,8 +101,8 @@
 11	سمجهايو	سمجهاءِ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 12	ته	ته	SCONJ	CS	_	16	mark	_	_
 13	کين	کي	PRON	PRP	Case=Acc|Number=Plur|Person=2	16	nsubj	_	_
-14	ڇا	ڇا	PRON	PRWH	_	15	nmod	_	_
-15	ڇا	ڇا	PRON	PRWH	_	16	obj	_	_
+14	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	15	nmod	_	_
+15	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	16	obj	_	_
 16	ڪرڻو	ڪرڻو	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=FutPart|Voice=Act	11	advcl	_	_
 17	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	16	aux	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	16	punct	_	_
@@ -137,7 +137,7 @@
 1	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
 2	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
 3	اچرج	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
-4	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+4	جهڙو	جهڙو	ADP	PSPR	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 5	واقعو	واقعو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 6	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	cop	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -177,9 +177,9 @@
 3	ڪا	ڪو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
 5	سوچي	سوچ	VERB	VM	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
-6	ٿائو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	9	nmod	_	_
-7	کام	کام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	iobj	_	_
-8	کي	کي	ADP	PSP	_	7	case	_	_
+6	ٿائو	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	9	iobj	_	_
+7	کام	کام	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
+8	کي	کي	ADP	PSP	_	6	case	_	_
 9	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
 10	ته	ته	SCONJ	CS	_	9	mark	_	SpaceAfter=No
 11	،	،	PUNCT	PUNCT	_	9	punct	_	_
@@ -193,21 +193,21 @@
 
 # sent_id = 1128
 # text = ٿائو کام کي ڏاڍي حيراني ٿي ته ههڙو عجب جهڙو ڪم بادشاهه مون کان ڇو ٿو ڪرائي.
-1	ٿائو	ٿائو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
-2	کام	_	PROPN	NNP	Case=Nom|Gender=Masc	5	nsubj	_	_
-3	کي	کي	ADP	PSP	_	2	case	_	_
+1	ٿائو	ٿائو	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	کام	_	PROPN	NNP	Case=Nom|Gender=Masc	1	flat	_	_
+3	کي	کي	ADP	PSP	_	1	case	_	_
 4	ڏاڍي	ڏاڍي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	حيراني	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	ٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Tense=Pres	5	cop	_	_
 7	ته	ته	SCONJ	CS	_	17	mark	_	_
-8	ههڙو	اھڙو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	_
+8	ههڙو	_	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 9	عجب	عجب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
-10	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+10	جهڙو	جهڙو	ADP	PSPR	Case=Nom|Gender=Masc|Number=Sing	9	case	_	_
 11	ڪم	ڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
 12	بادشاهه	بادشاهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
 13	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	17	obl	_	_
 14	کان	کان	ADP	PSP	_	13	case	_	_
-15	ڇو	ڇو	PRON	PRWH	_	17	obl	_	_
+15	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	17	obl	_	_
 16	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	17	aux	_	_
 17	ڪرائي	ڪرائي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	5	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	17	punct	_	_
@@ -264,7 +264,7 @@
 12	،	،	PUNCT	PUNCT	_	11	punct	_	_
 13	اڄ	اڄ	ADV	ADT	_	17	advmod	_	_
 14	توکي	تو	PRON	PRP	Case=Nom|Number=Sing|Person=2	17	nsubj	_	_
-15	ڇا	ڇا	PRON	PRWH	_	17	obl	_	_
+15	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	17	obl	_	_
 16	ٿي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	17	aux	_	_
 17	ويو	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	11	advcl	_	_
 18	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	17	aux	_	SpaceAfter=No
@@ -322,7 +322,7 @@
 # sent_id = 1262
 # text = پوءِ ڇا ٿيو جو راجا راڻيءَ جي پيءُ جو موڪليل ڪوڙو خواب ڏٺو، جنهن ۾ هن کي چيو ويو ته ڪمپا ڪابيرو جي لاءِ هڪ اڇو هاٿي جنهن جا ڏند ڪارا هجن،
 1	پوءِ	پوءِ	ADV	ADT	_	2	advmod	_	_
-2	ڇا	ڇا	PRON	PRWH	_	0	root	_	_
+2	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	0	root	_	_
 3	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	2	cop	_	_
 4	جو	جو	ADP	PSP	_	2	mark	_	_
 5	راجا	راجا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
@@ -415,7 +415,7 @@
 10	منڊي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
 11	ڏيکاريندا	ڏيکار	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart	0	root	_	_
 12	۽	۽	CCONJ	CC	_	18	cc	_	_
-13	انهن	انهي	PRON	PRP	Case=Acc|Number=Plur|Person=3	18	obl	_	_
+13	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	18	obl	_	_
 14	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	13	case	_	_
 15	اڳيان	اڳيان	ADV	ADP	_	18	advmod	_	_
 16	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	17	nmod	_	_

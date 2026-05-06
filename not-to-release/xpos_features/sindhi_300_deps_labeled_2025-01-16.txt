@@ -147,7 +147,7 @@
 # sent_id = 674
 # text = پاڻي ان کان وڌي وڃي ته پوءِ اها خطرناڪ ٻوڏ هوندي آهي .
 1	پاڻي	پاڻي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	ان	ان	DET	PRD	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+2	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	4	obl	_	_
 3	کان	کان	ADP	PSPL	_	2	case	_	_
 4	وڌي	وڌي	VERB	VM	Aspect=Perf|Gender=Masc|Tense=Pres|VerbForm=PresPart|Voice=Act	11	advcl	_	_
 5	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	compound	_	_
@@ -241,7 +241,7 @@
 
 # sent_id = 679
 # text = ان جو ڪارڻ سنڌو درياءَ ۾ پنجاب کان ايندڙ خطرناڪ ٻوڏ جا وهڪرا آهن
-1	ان	ان	DET	PRD	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	nmod	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	3	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	ڪارڻ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 4	سنڌو	سنڌو	PROPN	NNP	Case=Nom|Gender=Fem	5	compound	_	_
@@ -298,7 +298,7 @@
 # text = جڏهن ته ان کان اڳ چاچڙان شريف وٽان گذريل 12 لک ڪيوسڪ پاڻي جو اثر ڪالهه تائين برقرار رهڻ بعد گڊو بئراج جي سطح ۾ ڪجهه لاٿ ٿي، جيڪا آهستي آهستي جاري رهندي ،
 1	جڏهن	جڏهن	ADV	ADT	Case=Nom|Gender=Masc|Number=Sing	27	advmod	_	_
 2	ته	ته	SCONJ	CS	_	27	mark	_	_
-3	ان	ان	DET	PRD	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
+3	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	nmod	_	_
 4	کان	کان	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	3	case	_	_
 5	اڳ	اڳ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
 6	چاچڙان	_	PROPN	NNP	Case=Nom|Gender=Masc	7	compound	_	_
@@ -369,16 +369,16 @@
 
 # sent_id = 684
 # text = ان هوندي به بئراج تي خطرناڪ ٻوڏ جيئن جو تيئن برقرار رهندي جيڪا وڌيڪ ٻن ڏينهن تائين جاري رهي سگهي ٿي .
-1	ان	ان	DET	PRD	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	هوندي	آهي	VERB	VM	Aspect=Imp|Number=Sing|Tense=Pres|Voice=Act	12	advcl	_	_
 3	به	به	PART	PART	_	2	advmod:emph	_	_
 4	بئراج	بئراج	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 5	تي	تي	ADP	PSPL	_	4	case	_	_
 6	خطرناڪ	خطرناڪ	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 7	ٻوڏ	ٻوڏ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-8	جيئن	جيئن	PRON	PRL	Case=Acc|Gender=Fem|Number=Plur|Person=3	10	nmod	_	_
+8	جيئن	جيئن	PRON	PRL	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Rel	10	nmod	_	_
 9	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
-10	تيئن	تي	PRON	PRL	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+10	تيئن	تي	PRON	PRL	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	12	obl	_	_
 11	برقرار	برقرار	ADV	ADV	_	12	advmod	_	_
 12	رهندي	رهندو	VERB	VM	Gender=Fem|Number=Sing|Person=3|VerbForm=PresPart	0	root	_	_
 13	جيڪا	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	_	_
@@ -394,7 +394,7 @@
 
 # sent_id = 685
 # text = ان بعد هڪ يا ٻه ڏينهن گڊو بئراج خطرناڪ ٻوڏ يا وڏي ٻوڏ جي وچ وارن وهڪرن ۾ رهندي .
-1	ان	ان	DET	PRD	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	19	obl	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	19	obl	_	_
 2	بعد	بعد	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	1	case	_	_
 3	هڪ	هڪ	NUM	NUM	_	6	nummod	_	_
 4	يا	يا	CCONJ	CC	_	5	cc	_	_

@@ -92,7 +92,7 @@
 
 # sent_id = 946
 # text = ائين چئي هن ڪوئلن جي وساڻل باهه کي ٻارڻ لاءِ ڦوڪون ڏيڻ شروع ڪيون.
-1	ائين	ائين	PRON	PRL	_	2	obl	_	_
+1	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	2	obl	_	_
 2	چئي	چئو	VERB	VM	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
 3	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	14	nsubj	_	_
 4	ڪوئلن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
@@ -311,7 +311,7 @@
 # sent_id = 1077
 # text = هو ڇا ڪندو هو جو ننڍڙا ڀتر ميڙي چونڊي پنهنجي ڀرسان رکندو هو ۽ پوءِ هڪ هڪ پٿر کڻي ڪنهن هڪ نشاني تي پيو هڻندو هو.
 1	هو	هو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	ڇا	ڇا	PRON	PRWH	_	3	obj	_	_
+2	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	3	obj	_	_
 3	ڪندو	ڪن	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	_
 4	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	aux	_	_
 5	جو	جو	ADP	PSP	_	3	mark	_	_
@@ -470,7 +470,7 @@
 5	لشڪر	لشڪر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 6	ڏٺو	ڏٺو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	8	acl:relcl	_	SpaceAfter=No
 7	،	،	PUNCT	PUNCT	_	6	punct	_	_
-8	سو	سو	PRON	PRL	Case=Nom|Number=Sing	14	nsubj	_	_
+8	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	14	nsubj	_	_
 9	ڊپ	ڊپ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 10	وچان	وچان	ADV	ADP	_	11	advmod	_	_
 11	وڻ	وڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	13	nmod	_	_
@@ -515,7 +515,7 @@
 3	لڏڻ	لڏ	VERB	VM	Aspect=Imp|VerbForm=Inf	5	xcomp	_	_
 4	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	3	mark	_	_
 5	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
-6	انهن	انهي	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	8	nmod	_	_
+6	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	8	nmod	_	_
 7	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	6	case	_	_
 8	سوراخن	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obl	_	_
 9	مان	مان	ADP	PSPL	_	8	case	_	_

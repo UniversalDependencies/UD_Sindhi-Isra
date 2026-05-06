@@ -15,8 +15,8 @@
 13	ته	ته	SCONJ	CS	_	21	mark	_	_
 14	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	21	obl	_	_
 15	مان	مان	ADP	PSPL	_	14	case	_	_
-16	عجب	عجب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
-17	جهڙا	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Plur	19	nmod	_	_
+16	عجب	عجب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	_
+17	جهڙا	جهڙو	ADP	PSPR	Case=Nom|Gender=Masc|Number=Plur	16	case	_	_
 18	ڀوائتا	ڀوائتو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
 19	آواز	آواز	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
 20	ٿي	آهي	AUX	VAUX	Number=Plur|Tense=Pres	21	aux	_	_
@@ -56,7 +56,7 @@
 3	ته	ته	PART	PART	_	2	advmod:emph	_	_
 4	وڏو	وڏو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	0	root	_	_
 5	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	4	cop	_	_
-6	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+6	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	nmod	_	_
 7	ديو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
@@ -144,8 +144,8 @@
 12	پيئي	پيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 13	ته	ته	SCONJ	CS	_	19	mark	_	_
 14	راجا	راجا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
-15	سوتون	سوتون	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
-16	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_
+15	سوتون	سوتون	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	_
+16	جهڙو	جهڙو	ADP	PSPR	Case=Nom|Gender=Masc|Number=Sing	15	case	_	_
 17	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
 18	ماڻهو	ماڻهو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	obj	_	_
 19	آيل	آيو	VERB	VM	Aspect=Perf|Number=Sing	12	advcl	_	_
@@ -267,7 +267,7 @@
 # sent_id = 1318
 # text = تنهنڪري هـُن ڏانهس پنهنجي مدد اماڻي.
 1	تنهنڪري	تنهنڪري	SCONJ	CS	_	6	mark	_	_
-2	هـُن	هـُن	PRON	PRP	Case=Acc|Number=Sing|Person=1	6	nsubj	_	_
+2	هـُن	هـُن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
 3	ڏانهس	ڏانهس	ADP	PSPX	Case=Acc|Number=Sing|Person=3	6	obl	_	_
 4	پنهنجي	پنهنجي	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	5	nmod	_	_
 5	مدد	مدد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	_
@@ -293,7 +293,7 @@
 
 # sent_id = 1326
 # text = انهن جهرڪين سڀني وڻن کي ساڙي رک ڪري ڇڏيو.
-1	انهن	انهي	PRON	PRP	Case=Acc|Number=Plur|Person=3	2	nmod	_	_
+1	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	2	nmod	_	_
 2	جهرڪين	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 3	سڀني	سڀ	ADJ	JJ	Case=Acc|PronType=Tot	4	amod	_	_
 4	وڻن	وڻ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
@@ -421,7 +421,7 @@
 # sent_id = 1348
 # text = تون سچ ته هڪ اهڙو جادوگر آهين جو اڻ ٿيڻو ڪم به ڪريو وڃين.
 1	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	nsubj	_	_
-2	سچ	سچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	_
+2	سچ	سچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 3	ته	ته	PART	PART	_	2	advmod:emph	_	_
 4	هڪ	هڪ	NUM	NUM	_	6	nummod	_	_
 5	اهڙو	اهڙو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
@@ -739,7 +739,7 @@
 7	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	8	xcomp	_	_
 8	ويٺيون	ويھ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	0	root	_	_
 9	ته	ته	SCONJ	CS	_	11	mark	_	_
-10	ڇا	ڇا	PRON	PRWH	_	11	obj	_	_
+10	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	11	obj	_	_
 11	ڪجي	ڪج	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	8	advcl	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
@@ -763,15 +763,15 @@
 1	ٻي	ٻہ	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
 2	تـُنبيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
-4	شڪل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
-5	نانگ	نانگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
-6	جهڙي	جهڙو	PRON	PRL	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-7	هئي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Past	6	cop	_	_
+4	شڪل	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	نانگ	نانگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	جهڙي	جهڙو	ADP	PSPR	Case=Nom|Gender=Fem|Number=Sing	5	case	_	_
+7	هئي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Past	5	cop	_	_
 8	۽	۽	CCONJ	CC	_	10	cc	_	_
 9	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
-10	چـَندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing	6	conj	_	_
+10	چـَندا	_	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing	5	conj	_	_
 11	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	10	cop	_	SpaceAfter=No
-12	.	.	PUNCT	PUNCT	_	6	punct	_	_
+12	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 1546
 # text = ڌيءَ پنهنجي پوڙهي ماءُ کي ٻاٽليءَ جهڙي تنبيءَ ۾ ويهاريو ۽ ٻيءَ تنبي چندا کي چيو ته تون اڳيان هل.
@@ -780,8 +780,8 @@
 3	پوڙهي	پوڙهو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
 4	ماءُ	ماءُ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 5	کي	کي	ADP	PSP	_	4	case	_	_
-6	ٻاٽليءَ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
-7	جهڙي	جهڙو	PRON	PRL	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
+6	ٻاٽليءَ	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
+7	جهڙي	جهڙو	ADP	PSPR	Case=Acc|Gender=Fem|Number=Sing	6	case	_	_
 8	تنبيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 9	۾	۾	ADP	PSPL	_	8	case	_	_
 10	ويهاريو	ويه	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
@@ -898,7 +898,7 @@
 4	سان	سان	ADP	PSP	_	3	case	_	_
 5	اسان	اسين	DET	PRD	Case=Acc|Number=Plur|Person=1|PronType=Dem	7	nmod	_	_
 6	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
-7	ڇا	ڇا	PRON	PRWH	Case=Nom	8	obj	_	_
+7	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	8	obj	_	_
 8	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	SpaceAfter=No
 9	؟	؟	PUNCT	PUNCT	_	8	punct	_	_
 10	بس	بس	ADV	ADV	_	17	advmod	_	SpaceAfter=No
@@ -945,7 +945,7 @@
 1	ايتري	ايتري	ADV	ADT	Gender=Masc|Number=Sing	8	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
 3	گجگوڙ	گجگوڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
-4	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+4	جهڙو	جهڙو	ADP	PSPR	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 5	آواز	آواز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 6	ٻڌڻ	ٻڌ	VERB	VM	Aspect=Imp|VerbForm=Inf	8	advcl	_	_
 7	۾	۾	ADP	PSPL	_	6	mark	_	_
@@ -1075,7 +1075,7 @@
 9	به	به	PART	PART	_	8	advmod:emph	_	_
 10	وڌيڪ	وڌيڪ	ADJ	JJ	Case=Nom|Degree=Pos	11	amod	_	_
 11	چڱو	چڱو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	xcomp	_	_
-12	ائين	ائين	PRON	PRL	_	13	xcomp	_	_
+12	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	13	xcomp	_	_
 13	ٿيندو	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	5	advcl	_	_
 14	ته	ته	SCONJ	CS	_	21	mark	_	_
 15	اوهين	اوهين	PRON	PRP	Case=Nom|Number=Plur|Person=2	21	nsubj	_	_
@@ -1553,7 +1553,7 @@
 1	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
 3	اتفاق	اتفاق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-4	هيءُ	هيءُ	PRON	PRD	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+4	هيءُ	هيءُ	DET	PRD	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
 5	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	cop	_	_
 6	جو	جو	SCONJ	CS	_	12	mark	_	_
 7	ڪائو	ڪائو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -1581,7 +1581,7 @@
 # sent_id = 1734
 # text = تنهنڪري هوءَ ڊوڙي وٽس ويئي ۽ هن جا ٻئي هٿ جهلي آڌر ڀاءُ ڪيائين.
 1	تنهنڪري	تنهنڪري	SCONJ	CS	_	5	mark	_	_
-2	هوءَ	هوءَ	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	هوءَ	هوءَ	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
 3	ڊوڙي	ڊوڙ	VERB	VM	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
 4	وٽس	وٽس	VERB	VM	Aspect=Perf|VerbForm=Conv	5	compound	_	_
 5	ويئي	وڃ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
@@ -1703,9 +1703,9 @@
 # text = جنهن ۾ بادام جهڙيون سوپاريون ڦٽيون ٿي.
 1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	6	obl	_	_
 2	۾	۾	ADP	PSPL	_	1	case	_	_
-3	بادام	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
-4	جهڙيون	_	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	3	case	_	_
-5	سوپاريون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+3	بادام	بادام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+4	جهڙيون	جهڙو	ADP	PSPR	Case=Nom|Gender=Fem|Number=Plur	3	case	_	_
+5	سوپاريون	سوپاري	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
 6	ڦٽيون	ڦٽ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur	0	root	_	_
 7	ٿي	آهي	AUX	VAUX	Number=Sing	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -2082,7 +2082,7 @@
 
 # sent_id = 1917
 # text = ائين پئي لڳو ته گلن سان ڀريل ٽاري اوچتو ئي اوچتو سڙي سڪي زمين تي ڪِري پيئي.
-1	ائين	ائين	PRON	PRL	_	3	obl	_	_
+1	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	3	obl	_	_
 2	پئي	پيو	VERB	VM	Aspect=Imp|Voice=Act	3	xcomp	_	_
 3	لڳو	لڳو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 4	ته	ته	SCONJ	CS	_	16	mark	_	_
@@ -2125,7 +2125,7 @@
 3	مٿان	مٿي	ADV	ADP	_	8	advmod	_	_
 4	هڪ	هڪ	NUM	NUM	_	7	nummod	_	_
 5	عجب	عجب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
-6	جهڙو	جهڙو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+6	جهڙو	جهڙو	ADP	PSPR	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
 7	ٻوٽو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	ڦٽي	ڦٽ	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
 9	نڪتو	نڪتو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	8	compound	_	SpaceAfter=No
@@ -2163,7 +2163,7 @@
 # sent_id = 1927
 # text = ۽ انهن سنگن مان چانورن جا ڪيترائي ڪڻا نڪتا.
 1	۽	۽	CCONJ	CC	_	9	cc	_	_
-2	انهن	انهي	PRON	PRP	Case=Acc|Number=Plur|Person=3	3	nmod	_	_
+2	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	3	nmod	_	_
 3	سنگن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_
 4	مان	مان	ADP	PSPL	_	3	case	_	_
 5	چانورن	چانور	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
@@ -2175,7 +2175,7 @@
 
 # sent_id = 1929
 # text = هـُن نوڪر کي سمجهايو ته بادشاهه کي چئجانءِ ته اهي ٻج منهنجي طرفان سوکڙي آهن.
-1	هـُن	هـُن	PRON	PRP	Case=Acc|Number=Sing|Person=3	4	nsubj	_	_
+1	هـُن	هـُن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 2	نوڪر	نوڪر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	iobj	_	_
 3	کي	کي	ADP	PSP	_	4	mark	_	_
 4	سمجهايو	سمجهاءِ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
@@ -2201,13 +2201,13 @@
 5	کي	کي	ADP	PSP	_	6	xcomp	_	_
 6	ٻڌاءِ	ٻڌاءِ	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
 7	ته	ته	SCONJ	CS	_	12	mark	_	_
-8	انهن	انهي	PRON	PRP	Case=Acc|Number=Plur|Person=3	12	obj	_	_
+8	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	12	obj	_	_
 9	کي	کي	ADP	PSP	_	8	case	_	_
 10	زمين	زمين	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 11	۾	۾	ADP	PSPL	_	10	case	_	_
 12	پوکين	پوک	VERB	VM	Aspect=Imp|Number=Plur|Person=3	6	advcl	_	_
 13	۽	۽	CCONJ	CC	_	19	cc	_	_
-14	انهن	انهي	PRON	PRP	Case=Acc|Number=Plur|Person=3	17	nmod	_	_
+14	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	17	nmod	_	_
 15	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	14	case	_	_
 16	چڱيءَ	چڱو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
 17	طرح	طرح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	obl	_	_
@@ -2375,7 +2375,7 @@
 6	سوئر	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 7	هئا	آهي	AUX	VAUX	Gender=Masc|Number=Plur|Person=3|Tense=Past	6	cop	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	6	punct	_	_
-9	جيڪي	جيڪو	PRON	PRP	Case=Nom|Number=Plur	16	obj	_	_
+9	جيڪي	جيڪو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	16	obj	_	_
 10	ڍڳي	ڍڳو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
 11	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	10	case	_	_
 12	ماءُ	ماءُ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
@@ -2487,7 +2487,7 @@
 9	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	5	conj	_	_
 10	ڏس	ڏس	VERB	VM	Aspect=Imp|Number=Sing|Person=3	9	compound	_	_
 11	ته	ته	SCONJ	CS	_	13	mark	_	_
-12	ڪير	ڪير	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+12	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	13	nsubj	_	_
 13	ڏاڍو	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	obj	_	_
 14	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	13	cop	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -3025,7 +3025,7 @@
 
 # sent_id = 2080
 # text = جيڪو ڪن ڪچري پوڻ جي ڪري گهڻي وقت کان بند پيو آهي.
-1	جيڪو	جيڪو	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+1	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
 2	ڪن	ڪن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 3	ڪچري	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	compound	_	_
 4	پوڻ	پوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	6	advcl	_	_
@@ -3417,7 +3417,7 @@
 2	ته	ته	SCONJ	CS	_	9	mark	_	_
 3	پاڻ	پاڻ	PRON	PRP	Case=Acc|Person=1	9	obl	_	_
 4	مان	مان	ADP	PSPL	_	3	case	_	_
-5	ڪير	ڪير	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	9	advcl	_	_
+5	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	9	advcl	_	_
 6	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	5	cop	_	_
 7	گهڻيون	گهڻي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
 8	مرچون	مرچ	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	obj	_	_
@@ -3761,14 +3761,14 @@
 
 # sent_id = 2517
 # text = ائين چوندي ڪڙمي ڊپ وچان ڏکڻ لڳو.
-1	ائين	ائين	PRON	PRL	_	2	obl	_	_
-2	چوندي	چو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	7	advcl	_	_
-3	ڪڙمي	ڪڙمي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+1	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	2	obl	_	_
+2	چوندي	چو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	6	advcl	_	_
+3	ڪڙمي	ڪڙمي	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	ڊپ	ڊپ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
-5	وچان	وچان	ADV	ADP	_	7	advmod	_	_
-6	ڏکڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	7	xcomp	_	_
-7	لڳو	لڳو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	PUNCT	_	7	punct	_	_
+5	وچان	وچان	ADV	ADP	_	6	advmod	_	_
+6	ڏکڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
+7	لڳو	لڳو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	6	compound	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 2519
 # text = اهو ٻڌي مون کي خوشي ٿي آهي ته تون چڱو ڀلو آهين.
@@ -3789,8 +3789,8 @@
 # sent_id = 2520
 # text = ڳالهه هيءَ آهي ته اڄ مون کي خدا تنهنجن ٻنهي ڍڳن کي کائڻ لاءِ موڪليو آهي.
 1	ڳالهه	ڳالهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
-2	هيءَ	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-3	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	2	aux	_	_
+2	هيءَ	_	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+3	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	2	cop	_	_
 4	ته	ته	SCONJ	CS	_	15	mark	_	_
 5	اڄ	اڄ	ADV	ADT	_	15	advmod	_	_
 6	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	15	obj	_	_
@@ -3862,7 +3862,7 @@
 25	اچو	اچ	VERB	VM	Aspect=Imp|Number=Sing|Person=3	24	compound	_	_
 26	ته	ته	SCONJ	CS	_	30	mark	_	_
 27	سندس	سندس	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3	29	nmod	_	_
-28	ڪهڙو	ڪهڙو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	29	nmod	_	_
+28	ڪهڙو	ڪهڙو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	29	nmod	_	_
 29	حڪم	حڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	obj	_	_
 30	مڃجي	مڃج	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	24	advcl	_	SpaceAfter=No
 31	؟	؟	PUNCT	PUNCT	_	30	punct	_	_
@@ -4112,7 +4112,7 @@
 16	مان	مان	ADP	PSPL	_	15	mark	_	_
 17	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	18	nmod	_	_
 18	مطلب	مطلب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
-19	ڇا	ڇا	PRON	PRWH	_	0	root	_	_
+19	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	0	root	_	_
 20	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	19	cop	_	SpaceAfter=No
 21	؟	؟	PUNCT	PUNCT	_	23	punct	_	_
 22	ڍڳي	ڍڳو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
@@ -4121,7 +4121,7 @@
 25	ٻارن	ٻار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	29	iobj	_	_
 26	کي	کي	ADP	PSP	_	25	case	_	_
 27	کير	کير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	obj	_	_
-28	ڪير	ڪير	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	29	xcomp	_	_
+28	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	29	xcomp	_	_
 29	ڏيندو	ڏيندو	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	19	obl	_	SpaceAfter=No
 30	؟	؟	PUNCT	PUNCT	_	29	punct	_	_
 31	۽	۽	CCONJ	CC	_	41	cc	_	_
@@ -4156,7 +4156,7 @@
 11	ٺهي	ٺه	VERB	VM	Aspect=Imp	4	advcl	_	_
 12	سگهندي	سگهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	11	aux	_	SpaceAfter=No
 13	؟	؟	PUNCT	PUNCT	_	11	punct	_	_
-14	ڇا	ڇا	PRON	PRWH	_	21	obl	_	_
+14	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	21	obl	_	_
 15	ڍڳن	ڍڳو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
 16	کان	کان	ADP	PSP	ExtPos=ADP	15	case	_	_
 17	سواءِ	سواءِ	ADP	PSP	_	16	fixed	_	_
@@ -4168,7 +4168,7 @@
 23	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	21	aux	_	SpaceAfter=No
 24	؟	؟	PUNCT	PUNCT	_	21	punct	_	_
 25	۽	۽	CCONJ	CC	_	28	cc	_	_
-26	ڇا	ڇا	PRON	PRWH	_	28	obl	_	_
+26	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	28	obl	_	_
 27	هر	هر	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	28	obj	_	_
 28	هلائڻ	هلاءِ	VERB	VM	Aspect=Imp|VerbForm=Inf	35	advcl	_	_
 29	کان	کان	ADP	PSP	ExtPos=ADP	28	mark	_	_
@@ -4253,11 +4253,11 @@
 # text = پر آءٌ جيڪي چوان، توکي ائين ئي ڪرڻو پوندو.
 1	پر	پر	SCONJ	CS	_	4	mark	_	_
 2	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
-3	جيڪي	جيڪو	PRON	PRWH	Case=Nom|Number=Sing	4	obj	_	_
+3	جيڪي	جيڪو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	4	obj	_	_
 4	چوان	چو	VERB	VM	Aspect=Imp|Number=Sing|Person=1	0	root	_	SpaceAfter=No
 5	،	،	PUNCT	PUNCT	_	4	punct	_	_
 6	توکي	تو	PRON	PRP	Case=Nom|Number=Sing|Person=2	9	obj	_	_
-7	ائين	ائين	PRON	PRL	_	9	obl	_	_
+7	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	9	obl	_	_
 8	ئي	ئي	PART	PART	_	7	advmod:emph	_	_
 9	ڪرڻو	ڪرڻو	VERB	VM	Aspect=Imp|VerbForm=FutPart|Voice=Act	4	advcl	_	_
 10	پوندو	پوڻ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=PresPart|Voice=Act	9	compound	_	SpaceAfter=No
@@ -4395,7 +4395,7 @@
 23	ٻڌو	ٻڌ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	8	conj	_	_
 24	ته	ته	SCONJ	CS	_	27	mark	_	_
 25	جيئن	جيئن	ADV	ADM	_	27	advmod	_	_
-26	هوءَ	هوءَ	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	27	nsubj	_	_
+26	هوءَ	هوءَ	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	27	nsubj	_	_
 27	ڏسڻ	ڏسڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	23	advcl	_	_
 28	۾	۾	ADP	PSPL	_	27	mark	_	_
 29	ڊگهي	ڊگهو	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	30	xcomp	_	_
@@ -4405,7 +4405,7 @@
 # sent_id = 2561
 # text = پوءِ هوءَ گهوڙيءَ تي زين ٻڌي ٻاهر نڪتي ۽ ان تي چڙهي ٻنيءَ ڏانهن ان پاسي ويئي، جتي شينهن بيٺو هو.
 1	پوءِ	پوءِ	ADP	PSP	_	8	mark	_	_
-2	هوءَ	هوءَ	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	8	nsubj	_	_
+2	هوءَ	هوءَ	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	nsubj	_	_
 3	گهوڙيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 4	تي	تي	ADP	PSPL	_	6	mark	_	_
 5	زين	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
@@ -4430,7 +4430,7 @@
 
 # sent_id = 2562
 # text = هوءَ هڪڙي بهادر مرد وانگر وڏي شان شوڪت سان اڳيان وڌندي ويئي، ۽ جڏهن هوءَ ان هنڌ پهتي، جتان ٻنيءَ ڏانهن رستو ٿي ويو،
-1	هوءَ	هوءَ	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	11	nsubj	_	_
+1	هوءَ	هوءَ	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	11	nsubj	_	_
 2	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	_
 3	بهادر	بهادر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 4	مرد	مرد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
@@ -4445,7 +4445,7 @@
 13	،	،	PUNCT	PUNCT	_	11	punct	_	_
 14	۽	۽	CCONJ	CC	_	19	cc	_	_
 15	جڏهن	جڏهن	ADV	ADT	_	19	advmod	_	_
-16	هوءَ	هوءَ	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	19	nsubj	_	_
+16	هوءَ	هوءَ	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	19	nsubj	_	_
 17	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	18	nmod	_	_
 18	هنڌ	هنڌ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	_
 19	پهتي	پهتو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
@@ -4593,7 +4593,7 @@
 1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	3	nmod	_	_
 2	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 3	ڪم	ڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-4	هيءُ	هيءُ	PRON	PRP	Gender=Masc|Number=Sing	5	xcomp	_	_
+4	هيءُ	هيءُ	DET	PRD	Gender=Masc|Number=Sing|PronType=Dem	5	xcomp	_	_
 5	هوندو	هوندو	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	_
 6	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	5	aux	_	_
 7	ته	ته	SCONJ	CS	_	13	mark	_	_
@@ -4621,7 +4621,7 @@
 
 # sent_id = 2574
 # text = تنهن سهڪندي سهڪندي جواب ڏنو،
-1	تنهن	_	ADV	ADT	_	5	nsubj	_	_
+1	تنهن	تنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	5	nsubj	_	_
 2	سهڪندي	سهڪندو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	3	advcl	_	_
 3	سهڪندي	سهڪندو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	5	advcl	_	_
 4	جواب	جواب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
@@ -4707,8 +4707,8 @@
 
 # sent_id = 2582
 # text = ڇا توکي پڪ آهي؟ گدڙ هڪدم وراڻيو، مون کي پوري پڪ آهي.
-1	ڇا	ڇا	PRON	PRWH	_	3	obl	_	_
-2	توکي	تو	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	3	obl	_	_
+2	توکي	تو	PRON	PRP	Case=Acc|Number=Sing|Person=2	3	nsubj	_	_
 3	پڪ	پڪ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	SpaceAfter=No
 5	؟	؟	PUNCT	PUNCT	_	3	punct	_	_
@@ -4978,7 +4978,7 @@
 
 # sent_id = 2604
 # text = ائين چئي ڪڙميءَ جي زال ماٺ ڪري شينهن ۽ گدڙ جي ويجهو اچڻ جو انتظار ڪرڻ لڳي.
-1	ائين	ائين	PRON	PRL	_	2	obl	_	_
+1	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	2	obl	_	_
 2	چئي	چئو	VERB	VM	Aspect=Perf|VerbForm=Conv	17	advcl	_	_
 3	ڪڙميءَ	ڪڙمي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 4	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
@@ -5182,7 +5182,7 @@
 
 # sent_id = 2617
 # text = تنهن جو ڪنهن پٿر يا ڇِپ جي ٿِڙي ڪرڻ جو آواز ٿي ٻڌو ته ويتر ٿي ڊنو ۽ ويتر ٿي زور زور سان ڀڳو.
-1	تنهن	تنهن	PRON	PRL	_	13	nsubj	_	_
+1	تنهن	تنهن	PRON	PRP	Case=Acc|Number=Sing|Person=3	13	nsubj	_	_
 2	جو	جو	SCONJ	CS	_	13	mark	_	_
 3	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	4	det	_	_
 4	پٿر	پٿر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -5331,7 +5331,7 @@
 # text = جيڪو هن نه ڪيو.
 1	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	4	obj	_	_
-3	نه	نه	PART	PART	_	4	dep	_	_
+3	نه	نه	PART	PART	_	4	advmod	_	_
 4	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -5480,7 +5480,7 @@
 12	لڳو	لڳو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	8	conj	_	_
 13	ته	ته	SCONJ	CS	_	16	mark	_	_
 14	آئندي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obl	_	_
-15	ڇا	ڇا	PRON	PRWH	_	16	obj	_	_
+15	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	16	obj	_	_
 16	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	12	advcl	_	_
 17	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	16	compound	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	16	punct	_	_
@@ -5927,10 +5927,10 @@
 2	نه	نه	PART	PART	_	1	dep	_	_
 3	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	1	cop	_	_
 4	ته	ته	SCONJ	CS	_	9	mark	_	_
-5	ڇو	ڇو	PRON	PRP	Case=Nom	9	obl	_	_
+5	ڇو	ڇو	ADV	ADV	_	9	advmod	_	_
 6	مڪاٽو	مڪاٽو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nsubj	_	_
 7	کي	کي	ADP	PSP	_	6	case	_	_
-8	ائين	ائين	PRON	PRL	_	9	obl	_	_
+8	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	9	obl	_	_
 9	لڳو	لڳو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 10	ته	ته	SCONJ	CS	_	13	mark	_	_
 11	اڄوڪو	اڄوڪو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
@@ -6318,7 +6318,7 @@
 9	کان	کان	ADP	PSP	_	8	case	_	_
 10	پڇيو	پڇ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 11	،	،	PUNCT	PUNCT	_	10	punct	_	_
-12	ڇا	ڇا	PRON	PRWH	_	18	obl	_	_
+12	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	18	obl	_	_
 13	آءُ	آءُ	PRON	PRP	Case=Nom|Number=Sing|Person=1	18	nsubj	_	_
 14	سلاد	سلاد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
 15	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	14	case	_	_
@@ -6334,8 +6334,8 @@
 1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	2	det	_	_
 2	مائيءَ	مائيءَ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
-4	ڇو	ڇو	PRON	PRWH	_	3	obl	_	_
-5	نه	نه	PART	PART	_	4	dep	_	_
+4	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	3	obl	_	_
+5	نه	نه	PART	PART	_	4	advmod:emph	_	_
 6	پٽ	پٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	vocative	_	SpaceAfter=No
 7	!	!	PUNCT	PUNCT	_	6	punct	_	_
 8	توکي	تو	PRON	PRP	Case=Nom|Number=Sing|Person=2	11	iobj	_	_
@@ -6507,7 +6507,7 @@
 3	جو	جو	ADP	PSP	_	4	case	_	_
 4	ٻج	ٻج	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	obj	_	_
 5	مليا	مليو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
-6	سو	سو	PRON	PRL	Case=Nom|Number=Sing	5	obl	_	_
+6	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	obl	_	_
 7	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	14	nsubj	_	_
 8	هڪدم	هڪدم	ADV	ADM	_	10	advmod	_	_
 9	زمين	زمين	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
@@ -6577,7 +6577,7 @@
 
 # sent_id = 2952
 # text = سو هڪدم گوڏن ڀر جهڪي تازي سلاد جا وڏا وڏا ڇـُڳا هن بادشاهه جي خذمت ۾ پيش ڪيا.
-1	سو	سو	PRON	PRL	Case=Nom|Number=Sing	5	nsubj	_	_
+1	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	_
 2	هڪدم	هڪدم	ADV	ADM	_	5	advmod	_	_
 3	گوڏن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	_
 4	ڀر	ڀر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	_
@@ -6702,7 +6702,7 @@
 
 # sent_id = 2961
 # text = سو هو ڏاڍيءَ محنت ۽ سليقي سان ڪندو هو.
-1	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+1	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	8	obl	_	_
 2	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	8	nsubj	_	_
 3	ڏاڍيءَ	ڏاڍو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	محنت	محنت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	_
@@ -6804,14 +6804,14 @@
 1	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	6	nsubj	_	_
 2	شهر	شهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 3	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
-4	اهوئي	اهوئي	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+4	اهوئي	اهوئي	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	det	_	_
 5	يتيم	يتيم	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
 6	ٻار	ٻار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 7	،	،	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 2969
 # text = سو پنهنجيءَ محنت ۽ قابليت جي ڪري اتي جو حاڪم ٿي ويو.
-1	سو	سو	PRON	PRL	Case=Nom|Number=Sing	11	nsubj	_	_
+1	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	11	nsubj	_	_
 2	پنهنجيءَ	پنهنجيءَ	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	3	nmod	_	_
 3	محنت	محنت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	_
 4	۽	۽	CCONJ	CC	_	5	cc	_	_
@@ -6909,9 +6909,9 @@
 
 # sent_id = 3605
 # text = سندن چوڻ هو ته بلدياتي نظام بابت فيصلو پ پ ۽ ايم ڪيو ايم کي ڪرڻ گهرجي،
-1	سندن	سندو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=3	3	nsubj	_	_
-2	چوڻ	چوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	3	compound	_	_
-3	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+1	سندن	سندو	PRON	PRP	Case=Gen|Number=Plur|Person=3	2	nsubj	_	_
+2	چوڻ	چوڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	0	root	_	_
+3	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	2	cop	_	_
 4	ته	ته	SCONJ	CS	_	16	mark	_	_
 5	بلدياتي	بلديات	ADJ	JJ	Case=Nom|Degree=Pos	6	amod	_	_
 6	نظام	نظام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -6924,7 +6924,7 @@
 13	ڪيو	ڪيو	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	12	flat	_	_
 14	ايم	ايم	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	12	flat	_	_
 15	کي	کي	ADP	PSP	_	9	case	_	_
-16	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	3	advcl	_	_
+16	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	2	advcl	_	_
 17	گهرجي	گهرجي	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Pass	16	compound	_	SpaceAfter=No
 18	،	،	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
 
@@ -7303,9 +7303,9 @@
 16	تي	تي	ADP	PSPL	_	15	case	_	_
 17	فوري	فوري	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	18	amod	_	_
 18	طور	طور	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	obl	_	_
-19	عمل	عمل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	compound	_	_
-20	نه	نه	PART	PART	_	21	dep	_	_
-21	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	23	obl	_	_
+19	عمل	عمل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	obj	_	_
+20	نه	نه	PART	PART	_	21	advmod	_	_
+21	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	23	xcomp	_	_
 22	وڏي	وڏي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
 23	غلطي	غلطي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
 24	هئي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Past	23	cop	_	SpaceAfter=No
@@ -7658,7 +7658,7 @@
 16	رهي	ره	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	15	compound	_	_
 17	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	15	aux	_	_
 18	۽	۽	CCONJ	CC	_	27	cc	_	_
-19	شهرن	شهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
+19	شهرن	شهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	nmod	_	_
 20	تي	تي	ADP	PSPL	_	19	case	_	_
 21	حملا	حملو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
 22	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	25	nmod	_	_

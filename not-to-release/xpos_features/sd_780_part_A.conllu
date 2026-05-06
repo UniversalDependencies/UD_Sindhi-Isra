@@ -42,7 +42,7 @@
 6	پاڻي	پاڻي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
 7	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
 8	سطح	سطح	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	_
-9	گذريل	گذريو	VERB	VM	Aspect=Perf|VerbForm=PastPart	11	obl	_	_
+9	گذريل	گذريو	VERB	VM	Aspect=Perf|VerbForm=PastPart	11	nmod	_	_
 10	24	24	NUM	NUM	_	11	nummod	_	_
 11	ڪلاڪن	ڪلاڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
 12	کان	کان	ADP	PSPL	_	11	case	_	_
@@ -77,7 +77,7 @@
 8	واري	وارو	ADP	PSPG	Case=Acc	7	case	_	_
 9	علائقن	علائقو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	_
 10	۾	۾	ADP	PSPL	_	9	case	_	_
-11	واقع	واقع	ADJ	JJ	_	13	obl	_	_
+11	واقع	واقع	ADJ	JJ	_	13	nmod	_	_
 12	بچاءُ	بچاءُ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
 13	بندن	بند	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
 14	تي	تي	ADP	PSPL	_	13	case	_	_
@@ -639,7 +639,7 @@
 30	بچاءُ	بچاءُ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	nmod	_	_
 31	بند	بند	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
 32	،	،	PUNCT	PUNCT	_	31	punct	_	_
-33	جهلي	جهل	VERB	VM	Aspect=Imp	34	obl	_	_
+33	جهلي	جهل	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	34	nmod	_	_
 34	ڪلواڙي	ڪلواڙو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	36	nmod	_	_
 35	بچاءُ	بچاءُ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	36	nmod	_	_
 36	بند	بند	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
@@ -1463,8 +1463,8 @@
 5	علائقن	علائقو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
 6	مان	مان	ADP	PSPL	_	5	case	_	_
 7	ڪراس	ڪراس	VERB	VM	Aspect=Imp	8	xcomp	_	_
-8	ڪندڙ	ڪن	VERB	VM	Aspect=Imp|VerbForm=Vnoun	10	obl	_	_
-9	بيگاري	بيگاري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	compound	_	_
+8	ڪندڙ	ڪن	VERB	VM	Aspect=Imp|VerbForm=Vnoun	10	acl	_	_
+9	بيگاري	بيگاري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	ڪئنال	ڪئنال	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 11	جي	جي	ADP	PSPG	Case=Acc	10	case	_	_
 12	ڀر	ڀر	ADV	ADP	_	14	obl	_	_
@@ -2329,7 +2329,7 @@
 
 # sent_id = Kawish-20100810-089
 # text = ڇا پارليامينٽ چاهي ٿي ته ان جا فيصلا عوام روڊن تي نڪري تبديل ڪرائي :
-1	ڇا	ڇا	PRON	PRWH	Case=Acc	3	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	3	obl	_	_
 2	پارليامينٽ	پارليامينٽ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	چاهي	چاه	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	0	root	_	_
 4	ٿي	آهي	AUX	VAUX	Person=3|Tense=Pres	3	aux	_	_
@@ -2362,12 +2362,12 @@
 13	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing|Voice=Act	0	root	_	_
 14	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	13	aux	_	_
 15	ته	ته	SCONJ	CS	_	18	mark	_	_
-16	ڇا	ڇا	PRON	PRWH	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+16	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	18	obl	_	_
 17	پارليامينٽ	پارليامينٽ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
 18	چاهي	چاه	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	13	advcl	_	_
 19	ٿي	آهي	AUX	VAUX	Gender=Fem|Number=Sing|Person=3|Tense=Pres	18	aux	_	_
 20	ته	ته	SCONJ	CS	_	30	mark	_	_
-21	سندن	سندو	PRON	PRP	Case=Acc|Gender=Fem|Number=Plur|Person=3	22	obl	_	_
+21	سندن	سندو	PRON	PRP	Case=Gen|Number=Plur|Person=3|PronType=Prs|Poss=Yes	23	nmod:poss	_	_
 22	ڪيل	ڪيو	VERB	VM	Aspect=Perf|VerbForm=PastPart|Voice=Pass	23	acl	_	_
 23	فيصلن	فيصلو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	28	obj	_	_
 24	کي	کي	ADP	PSP	_	23	case	_	_
@@ -2381,7 +2381,7 @@
 
 # sent_id = Kawish-20100810-091
 # text = ڇا ( ر ) جنرل پرويز مشرف جي 3 نومبر وارن قدمن کي عوام جي حمايت حاصل هئي جو موجوده پارليامينٽ ان جي مذمت ناهي ڪئي ،
-1	ڇا	ڇا	PRON	PRWH	Case=Acc	17	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	17	obl	_	_
 2	(	(	PUNCT	PUNCT	_	3	punct	_	_
 3	ر	ر	NOUN	NN	Case=Nom	7	amod	_	_
 4	)	)	PUNCT	PUNCT	_	3	punct	_	_
@@ -2544,7 +2544,7 @@
 # sent_id = Kawish-20100810-098
 # text = جيڪڏهن ائين ڪيو وڃي ها ته آرٽيڪل 238 ۽ 239 جو جواز ختم ٿي وڃي ٿو ،
 1	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	3	mark	_	_
-2	ائين	ائين	PRON	PRL	Case=Acc	3	obj	_	_
+2	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	3	obj	_	_
 3	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Number=Sing|Voice=Act	13	advcl	_	_
 4	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	3	compound	_	_
 5	ها	آهي	AUX	VAUX	Mood=Sub|Tense=Past	3	aux	_	_
@@ -2876,7 +2876,7 @@
 
 # sent_id = Kawish-20100810-113
 # text = ڇا اهو سمجهيو وڃي ته 3 نومبر وارن قدمن بابت عوام جي تائيد حاصل هئي ،
-1	ڇا	ڇا	PRON	PRWH	Case=Acc	3	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	3	obl	_	_
 2	اهو	اهو	DET	PRD	Case=Nom|PronType=Dem	3	det	_	_
 3	سمجهيو	سمجهيو	VERB	VM	Aspect=Perf|Voice=Act	0	root	_	_
 4	وڃي	وڃ	VERB	VM	Aspect=Imp|Person=3|Voice=Act	3	xcomp	_	_
@@ -2884,7 +2884,7 @@
 6	3	3	NUM	NUM	_	7	nmod	_	_
 7	نومبر	نومبر	PROPN	NNP	Case=Nom|Gender=Fem	9	nmod	_	_
 8	وارن	وارو	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	7	case	_	_
-9	قدمن	قدم	NOUN	NN	Case=Acc|Number=Plur	14	obl	_	_
+9	قدمن	قدم	NOUN	NN	Case=Acc|Number=Plur	14	nmod	_	_
 10	بابت	بابت	ADP	PSP	_	9	case	_	_
 11	عوام	عوام	NOUN	NN	Case=Acc|Number=Plur	13	nmod	_	_
 12	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	11	case	_	_
@@ -2914,7 +2914,7 @@
 
 # sent_id = Kawish-20100810-115
 # text = ڇا اهو سمجهيو وڃي ته ان کي به عوام جي تائيد حاصل هئي ،
-1	ڇا	ڇا	PRON	PRWH	Case=Acc	3	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	3	obl	_	_
 2	اهو	اهو	DET	PRD	Case=Nom|PronType=Dem	3	det	_	_
 3	سمجهيو	سمجهيو	VERB	VM	Aspect=Perf|Number=Sing|Person=3|Voice=Act	0	root	_	_
 4	وڃي	وڃ	VERB	VM	Aspect=Imp|Person=3|Voice=Act	3	compound	_	_
@@ -2947,7 +2947,7 @@
 14	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	4	advcl	_	_
 15	ڇڏي	ڇڏ	VERB	VM	Aspect=Imp|Person=3|Voice=Act	14	compound	_	_
 16	ته	ته	SCONJ	CS	_	23	mark	_	_
-17	ڇا	ڇا	PRON	PRWH	Case=Acc|Number=Sing	23	obl	_	_
+17	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	23	obl	_	_
 18	عدالت	عدالت	NOUN	NN	Case=Nom|Number=Sing	23	nsubj	_	_
 19	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	23	obj	_	_
 20	کي	کي	ADP	PSP	_	19	case	_	_
@@ -2966,7 +2966,7 @@
 4	چيو	چئو	VERB	VM	Aspect=Perf|Voice=Act	0	root	_	_
 5	ته	ته	SCONJ	CS	_	9	mark	_	_
 6	پارليامينٽ	پارليامينٽ	NOUN	NN	Case=Nom|Gender=Fem	9	nsubj	_	_
-7	ائين	ائين	PRON	PRL	Case=Acc	9	obj	_	_
+7	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	9	obj	_	_
 8	ڇو	ڇو	ADV	ADV	_	9	advmod	_	_
 9	ڪندي	ڪن	VERB	VM	Aspect=Imp|Voice=Act	4	ccomp	_	_
 10	،	،	PUNCT	PUNCT	_	9	punct	_	_
@@ -3028,7 +3028,7 @@
 11	۾	۾	ADP	PSPL	_	10	case	_	_
 12	قرارداد	قرارداد	NOUN	NN	Case=Nom|Number=Sing	14	obj	_	_
 13	منظور	منظور	NOUN	NN	Case=Nom	14	xcomp	_	_
-14	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	16	obl	_	_
+14	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	16	nmod	_	_
 15	واري	وارو	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	14	mark	_	_
 16	پارليامينٽ	پارليامينٽ	NOUN	NN	Case=Acc|Number=Sing	19	nsubj	_	_
 17	به	به	PART	PART	_	16	advmod:emph	_	_
@@ -3204,7 +3204,7 @@
 9	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	8	case	_	_
 10	طريقيڪار	طريقيڪار	NOUN	NN	Case=Acc|Number=Sing	12	nmod	_	_
 11	۾	۾	ADP	PSPL	_	10	case	_	_
-12	تبديلي	تبديلي	NOUN	NN	Case=Acc	21	obl	_	_
+12	تبديلي	تبديلي	NOUN	NN	Case=Acc	21	nmod	_	_
 13	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	12	case	_	_
 14	لاءِ	لاءِ	ADP	PSP	_	12	case	_	_
 15	پارليامينٽ	پارليامينٽ	NOUN	NN	Case=Acc|Gender=Fem	21	nsubj	_	_
@@ -3236,9 +3236,9 @@
 8	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	7	case	_	_
 9	مقرري	مقرري	NOUN	NN	Case=Acc	11	nmod	_	_
 10	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	9	case	_	_
-11	طريقيڪار	طريقيڪار	NOUN	NN	Case=Acc|Number=Sing	17	obl	_	_
+11	طريقيڪار	طريقيڪار	NOUN	NN	Case=Acc|Number=Sing	13	nmod	_	_
 12	۾	۾	ADP	PSPL	_	11	case	_	_
-13	اصلاح	اصلاح	NOUN	NN	Case=Acc|Number=Sing	17	obl	_	_
+13	اصلاح	اصلاح	NOUN	NN	Case=Acc|Number=Sing	17	nmod	_	_
 14	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	13	case	_	_
 15	لاءِ	لاءِ	ADP	PSP	_	13	case	_	_
 16	قائم	قائم	ADJ	JJ	Case=Nom|Degree=Pos	17	compound	_	_
@@ -3259,9 +3259,9 @@
 3	آغا	آغا	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 4	چيو	چئو	VERB	VM	Aspect=Perf|Voice=Act	0	root	_	_
 5	ته	ته	SCONJ	CS	_	14	mark	_	_
-6	رضا	رضا	PROPN	NNP	Case=Nom|Gender=Masc	7	compound	_	_
-7	رباني	رباني	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
-8	ڪاميٽي	ڪاميٽي	NOUN	NN	Case=Acc	14	obl	_	_
+6	رضا	رضا	PROPN	NNP	Case=Nom|Gender=Masc	8	nmod	_	_
+7	رباني	رباني	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
+8	ڪاميٽي	ڪاميٽي	NOUN	NN	Case=Acc	14	nmod	_	_
 9	۾	۾	ADP	PSPL	_	8	case	_	_
 10	سڀني	سڀ	ADJ	JJ	Case=Acc|PronType=Tot	11	amod	_	_
 11	پارٽين	پارٽين	NOUN	NN	Case=Acc|Number=Plur	13	nmod	_	_
@@ -3329,7 +3329,7 @@
 4	سوال	سوال	NOUN	NN	Case=Nom|Number=Sing	5	obj	_	_
 5	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Voice=Act	0	root	_	_
 6	ته	ته	SCONJ	CS	_	28	mark	_	_
-7	ڇا	ڇا	PRON	PRWH	_	23	obl	_	_
+7	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	23	obl	_	_
 8	آرٽيڪل	آرٽيڪل	NOUN	NN	Case=Nom|Number=Sing	12	nmod	_	_
 9	(	(	PUNCT	PUNCT	_	10	punct	_	_
 10	اي	اي	NOUN	NN	Case=Nom|Number=Sing	8	appos	_	_
@@ -3349,13 +3349,13 @@
 24	هجي	آهي	AUX	VAUX	AuxType=Be|Number=Sing|Person=3|Voice=Pass	23	aux	_	_
 25	ته	ته	SCONJ	CS	_	28	mark	_	_
 26	عدالت	عدالت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
-27	ڇا	ڇا	PRON	PRWH	_	28	obj	_	_
+27	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	28	obj	_	_
 28	ڪري	ڪر	VERB	VM	Aspect=Imp|Person=3|Voice=Act	5	ccomp	_	_
 29	،	،	PUNCT	PUNCT	_	28	punct	_	_
 
 # sent_id = Kawish-20100810-135
 # text = ڇا عوام جي رستن تي اچڻ جو انتظار ڪري ،
-1	ڇا	ڇا	PRON	PRWH	_	9	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	9	obl	_	_
 2	عوام	عوام	NOUN	NN	Case=Nom|Number=Plur	4	nmod	_	_
 3	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
 4	رستن	رستو	NOUN	NN	Case=Acc|Number=Plur	6	obl	_	_
@@ -3396,7 +3396,7 @@
 7	ڏيندي	ڏي	VERB	VM	Aspect=Imp|Voice=Act	8	advcl	_	_
 8	چيو	چئو	VERB	VM	Aspect=Perf|Voice=Act	0	root	_	_
 9	ته	ته	SCONJ	CS	_	12	mark	_	_
-10	ڇا	ڇا	PRON	PRWH	_	12	obl	_	_
+10	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	12	obl	_	_
 11	پارليامينٽ	پارليامينٽ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 12	چاهي	چاه	VERB	VM	Aspect=Imp|Person=3|Voice=Act	8	advcl	_	_
 13	ٿي	آهي	AUX	VAUX	Person=3|Tense=Pres	12	aux	_	_
@@ -3414,7 +3414,7 @@
 
 # sent_id = Kawish-20100810-138
 # text = ڇا ( ر ) جنرل مشرف جي 3 نومبر جي قدمن کي عوام جي حمايت حاصل هئي ،
-1	ڇا	ڇا	PRON	PRWH	Case=Acc	16	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	16	obl	_	_
 2	(	(	PUNCT	PUNCT	_	3	punct	_	_
 3	ر	ر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 4	)	)	PUNCT	PUNCT	_	3	punct	_	_
@@ -3461,7 +3461,7 @@
 13	گڊ	گڊ	ADJ	JJ	Case=Nom|Degree=Pos	14	amod	_	_
 14	گورننس	گورننس	NOUN	NN	Case=Nom	16	obj	_	_
 15	نه	نه	PART	PART	_	16	dep	_	_
-16	هجڻ	هجڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	18	obl	_	_
+16	هجڻ	هجڻ	VERB	VM	Aspect=Imp|VerbForm=Inf	18	nmod	_	_
 17	جي	جي	ADP	PSPG	Case=Nom	16	mark	_	_
 18	ثابتي	ثابتي	NOUN	NN	Case=Nom	5	obj	_	_
 19	آهي	آهي	AUX	VAUX	Person=3|Tense=Pres	18	cop	_	_
@@ -3490,11 +3490,11 @@
 # sent_id = Kawish-20100810-143
 # text = اتفاق راءِ ٿي وڃي ته ٺهي سگهي ٿو : وزيراعظم
 1	اتفاق	اتفاق	NOUN	NN	Case=Nom	2	nmod	_	_
-2	راءِ	راءِ	NOUN	NN	Case=Nom	6	obl	_	_
-3	ٿي	آهي	AUX	VAUX	Person=3|Tense=Pres	2	aux	_	_
-4	وڃي	وڃ	VERB	VM	Aspect=Imp|Person=3|Voice=Act	2	obl	_	_
+2	راءِ	راءِ	NOUN	NN	Case=Nom	4	obj	_	_
+3	ٿي	آهي	AUX	VAUX	Person=3|Tense=Pres	4	aux	_	_
+4	وڃي	وڃ	VERB	VM	Aspect=Imp|Person=3|Voice=Act	0	root	_	_
 5	ته	ته	SCONJ	CS	_	6	mark	_	_
-6	ٺهي	ٺه	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
+6	ٺهي	ٺه	VERB	VM	Aspect=Imp|Voice=Act	4	advcl	_	_
 7	سگهي	سگهي	AUX	VAUX	Number=Sing|Person=3	6	aux	_	_
 8	ٿو	آهي	AUX	VAUX	Person=3|Tense=Pres	6	aux	_	_
 9	:	:	PUNCT	PUNCT	_	6	punct	_	_
@@ -3527,7 +3527,7 @@
 # sent_id = Kawish-20100810-145
 # text = جيڪڏهن ان ڊيم تي اتفاق راءِ پيدا ٿي وڃي ته اهو ڊيم ٺهي سگهي ٿو ،
 1	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	7	mark	_	_
-2	ان	ان	DET	PRD	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	3	det	_	_
 3	ڊيم	ڊيم	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 4	تي	تي	ADP	PSPL	_	3	case	_	_
 5	اتفاق	اتفاق	NOUN	NN	Case=Nom|Number=Sing	6	compound	_	_
@@ -3761,7 +3761,7 @@
 11	ڪري	ڪر	VERB	VM	Aspect=Imp|Voice=Act	3	advcl	_	_
 12	۽	۽	CCONJ	CC	_	16	cc	_	_
 13	ٻي	ٻہ	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
-14	ان	ان	DET	PRD	Case=Acc|PronType=Dem	16	obj	_	_
+14	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	16	obj	_	_
 15	کي	کي	ADP	PSP	_	14	case	_	_
 16	روڪي	روڪ	NOUN	NN	Case=Nom	11	conj	_	_
 17	ڇڏي	ڇڏ	VERB	VM	Aspect=Imp|Person=3	16	compound	_	_
@@ -4618,9 +4618,9 @@
 16	۾	۾	ADP	PSPL	_	15	case	_	_
 17	چاڙهه	چاڙهه	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
 18	کانپوءِ	کان	ADP	PSP	_	17	case	_	_
-19	حساس	حساس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_
-20	قرار	قرار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	compound	_	_
-21	ڏنل	ڏنل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	_
+19	حساس	حساس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
+20	قرار	قرار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	obj	_	_
+21	ڏنل	ڏنل	VERB	VM	Aspect=Perf	22	acl	_	_
 22	ڀاڻوٺ	ڀاڻوٺ	PROPN	NNP	Case=Nom|Gender=Masc	41	obl	_	_
 23	،	،	PUNCT	PUNCT	_	25	punct	_	_
 24	هالا	هاللو	PROPN	NNP	Case=Nom|Gender=Masc	25	compound	_	_
@@ -4767,7 +4767,7 @@
 15	قدرتي	قدرتي	ADJ	JJ	Case=Nom|Degree=Pos	16	amod	_	_
 16	آفت	آفت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
 17	آهي	آهي	AUX	VAUX	Person=3|Tense=Pres	16	cop	_	_
-18	جيڪا	جيڪو	PRON	PRWH	Case=Nom|Number=Sing	29	nsubj	_	_
+18	جيڪا	جيڪو	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	29	nsubj	_	_
 19	پاڪستان	پاڪستان	PROPN	NNP	Case=Acc|Gender=Masc	22	nmod	_	_
 20	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	19	case	_	_
 21	ٻين	ٻيو	ADJ	JJ	Case=Acc|Number=Plur	22	amod	_	_
@@ -4808,7 +4808,7 @@
 11	ته	ته	SCONJ	CS	_	20	mark	_	_
 12	پاڻي	پاڻي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
 13	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	12	case	_	_
-14	هي	هي	PRON	PRD	Number=Sing	16	amod	_	_
+14	هي	هي	DET	PRD	Number=Sing|PronType=Dem	16	amod	_	_
 15	وڏو	وڏو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
 16	ريلو	ريلو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
 17	خير	خير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	compound	_	_
@@ -5007,7 +5007,7 @@
 
 # sent_id = Kawish-20100810-213
 # text = ان بابت قوم کي وضاحت ڪري ۽ جيڪڏهن اتي ان جي والد حاڪم زرداري جي به ملڪيت آهي ته اهو به قوم کي جواب ڏي ،
-1	ان	ان	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	6	obl	_	_
+1	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	6	obl	_	_
 2	بابت	بابت	ADP	PSP	_	1	case	_	_
 3	قوم	قوم	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
@@ -5016,7 +5016,7 @@
 7	۽	۽	CCONJ	CC	_	17	cc	_	_
 8	جيڪڏهن	جيڪڏهن	SCONJ	CS	_	17	mark	_	_
 9	اتي	اتي	ADV	ADT	_	17	advmod	_	_
-10	ان	ان	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	12	nmod	_	_
+10	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	12	nmod	_	_
 11	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	10	case	_	_
 12	والد	والد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
 13	حاڪم	حاڪم	PROPN	NNP	Case=Nom|Gender=Masc	14	compound	_	_
@@ -5126,7 +5126,7 @@
 
 # sent_id = Kawish-20100810-219
 # text = ڇو ته اُتي ڪنهن کٽيءَ جو نير جو ڪـُـن ٺهيل هجي ،
-1	ڇو	ڇو	SCONJ	CS	ExtPos=SCONJ	10	mark	_	_
+1	ڇو	ڇو	ADV	ADV	ExtPos=SCONJ	10	mark	_	_
 2	ته	ته	SCONJ	CS	_	1	fixed	_	_
 3	اُتي	اُتي	ADV	ADP	_	10	advmod	_	_
 4	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	5	nmod	_	_
@@ -5289,7 +5289,7 @@
 6	پڇيائين	پڇ	VERB	VMX	Aspect=Perf|Number=Sing|Number[obj]=Sing|Person=1|Person[subj]=1	0	root	_	_
 7	ته	ته	SCONJ	CS	_	6	mark	_	_
 8	:	:	PUNCT	PUNCT	_	6	punct	_	_
-9	ڪير	ڪير	PRON	PRP	Case=Nom|Number=Sing	6	ccomp	_	_
+9	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	6	ccomp	_	_
 10	آهين	آهي	AUX	VAUX	Number=Sing|Tense=Pres	9	cop	_	_
 11	؟	؟	PUNCT	PUNCT	_	9	punct	_	_
 12	شينهڻ	شينهڻ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
@@ -5313,7 +5313,7 @@
 # text = پر تون ڪير آهين ،
 1	پر	پر	SCONJ	CS	_	3	mark	_	_
 2	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
-3	ڪير	ڪير	PRON	PRWH	Case=Nom|Number=Sing	0	root	_	_
+3	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	0	root	_	_
 4	آهين	آهي	AUX	VAUX	Number=Sing|Person=1|Tense=Pres	3	cop	_	_
 5	،	،	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -6056,7 +6056,7 @@
 8	شڪار	شڪار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 9	مون	مون	PRON	PRP	Case=Acc|Number=Sing|Person=1	12	obl	_	_
 10	کان	کان	ADP	PSP	_	9	case	_	_
-11	ڪيئن	ڪيئن	PRON	PRWH	_	12	obl	_	_
+11	ڪيئن	ڪيئن	PRON	PRWH	Case=Nom|PronType=Int	12	obl	_	_
 12	کڄندو	کڄي	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart	3	advcl	_	_
 13	،	،	PUNCT	PUNCT	_	12	punct	_	_
 
@@ -6324,7 +6324,7 @@
 
 # sent_id = Kawish-20100810-312
 # text = سو تو ته ٽاهي ڇڏيو .
-1	سو	سو	PRON	PRL	Case=Nom|Number=Sing	4	obl	_	_
+1	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	obl	_	_
 2	تو	تو	PRON	PRP	Case=Acc|Number=Sing|Person=2	4	nsubj	_	_
 3	ته	ته	PART	PART	_	2	advmod:emph	_	_
 4	ٽاهي	ٽاه	VERB	VM	Aspect=Imp	0	root	_	_
@@ -6447,7 +6447,7 @@
 # sent_id = Kawish-20100810-322
 # text = ڏڪين ڇو ٿو ؟ گدڙ چيس ته : ڳالهه ٻـُـڌ ،
 1	ڏڪين	ڏڪ	VERB	VM	Aspect=Imp|Number=Sing|Person=1|Voice=Act	0	root	_	_
-2	ڇو	ڇو	PRON	PRWH	_	1	obl	_	_
+2	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	1	obl	_	_
 3	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	1	aux	_	_
 4	؟	؟	PUNCT	PUNCT	_	1	punct	_	_
 5	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -6488,7 +6488,7 @@
 10	ٽهڪندو	ٽهڪ	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart	0	root	_	_
 11	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	10	aux	_	_
 12	۽	۽	CCONJ	CC	_	14	cc	_	_
-13	ائين	ائين	PRON	PRL	Case=Acc	14	nsubj	_	_
+13	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	14	nsubj	_	_
 14	ڀانئيندو	ڀان	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=PresPart|Voice=Act	10	conj	_	_
 15	آهيان	آهي	VERB	VM	Aspect=Imp|Number=Sing|Person=1	14	compound	_	_
 16	ته	ته	SCONJ	CS	_	20	mark	_	_
@@ -6501,7 +6501,7 @@
 
 # sent_id = Kawish-20100810-325
 # text = سو چڱو پڄئي ته مون کان ٿورو اڳڀرو ٿي هل ۽ چوندي هل ته : پري پري ٿي نچو ،
-1	سو	سو	PRON	PRL	Case=Nom|Number=Sing	3	obl	_	_
+1	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	3	obl	_	_
 2	چڱو	چڱو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	xcomp	_	_
 3	پڄئي	پڄ	VERB	VM	Aspect=Imp|Number=Sing|Person=3	10	advcl	_	_
 4	ته	ته	SCONJ	CS	_	10	mark	_	_
@@ -6545,7 +6545,7 @@
 11	۾	۾	ADP	PSPL	_	10	case	_	_
 12	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	10	cop	_	_
 13	۽	۽	CCONJ	CC	_	17	cc	_	_
-14	ائين	ائين	PRON	PRL	Case=Acc|Number=Sing	16	obl	_	_
+14	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	16	obl	_	_
 15	ئي	ئي	PART	PART	_	14	advmod:emph	_	_
 16	چوندي	چو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	17	xcomp	_	_
 17	هلي	هل	VERB	VM	Aspect=Perf|Gender[subj]=Fem|Number=Sing|Person=3	10	conj	_	_
@@ -6589,7 +6589,7 @@
 12	چيو	چئو	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
 13	ته	ته	SCONJ	CS	_	12	mark	_	_
 14	:	:	PUNCT	PUNCT	_	15	punct	_	_
-15	ڪير	ڪير	PRON	PRWH	Number=Sing	11	nsubj	_	_
+15	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	11	nsubj	_	_
 16	آهين	آهي	AUX	VAUX	Number=Sing|Person=1|Tense=Pres	15	cop	_	_
 17	ڪمبخت	ڪمبخت	ADJ	JJ	Case=Nom|Number=Sing	25	nsubj	_	_
 18	جو	جو	ADP	PSPG	_	17	case	_	_
@@ -6649,7 +6649,7 @@
 # sent_id = Kawish-20100810-333
 # text = الاجي ڪير آهي شينهڻ چين ته : اهو اٿو ميرخان پاٻوڙي ،
 1	الاجي	الاجي	ADP	PSP	_	2	case	_	_
-2	ڪير	ڪير	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	_
+2	ڪير	ڪير	PRON	PRWH	Case=Nom|PronType=Int	5	advcl	_	_
 3	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	2	cop	_	_
 4	شينهڻ	شينهڻ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	چين	چيو	VERB	VMX	Aspect=Perf|Case=Acc|Number=Plur|Person=3|Voice=Act	0	root	_	_
@@ -6708,7 +6708,7 @@
 
 # sent_id = Kawish-20100810-338
 # text = ائين چئي ، شينهڻ هنن کي وٺي وڃي ،
-1	ائين	ائين	PRON	PRL	_	2	obl	_	_
+1	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	2	obl	_	_
 2	چئي	چئو	VERB	VM	Aspect=Perf|VerbForm=Conv|Voice=Act	7	advcl	_	_
 3	،	،	PUNCT	PUNCT	_	2	punct	_	_
 4	شينهڻ	شينهڻ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -6826,7 +6826,7 @@
 
 # sent_id = Kawish-20100810-349
 # text = سو سڌو ٿي ۽ ڪانڊرجي ،
-1	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	سو	سو	PRON	PRL	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	2	nsubj	_	_
 2	سڌو	سڌو	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	ٿي	آهي	AUX	VAUX	AuxType=Be|Number=Sing	2	cop	_	_
 4	۽	۽	CCONJ	CC	_	5	cc	_	_
@@ -7007,9 +7007,9 @@
 
 # sent_id = Kawish-20100810-364
 # text = ڇو ته جي اونائي ڪندس ته هڪدم اوسي پاسي جا گدڙ به اونايون ڪندا ۽ ڀڄندا ايندا ،
-1	ڇو	ڇو	SCONJ	CS	ExtPos=SCONJ	5	mark	_	_
+1	ڇو	ڇو	ADV	ADV	ExtPos=SCONJ	5	mark	_	_
 2	ته	ته	SCONJ	CS	_	1	fixed	_	_
-3	جي	جي	CCONJ	CC	_	5	mark	_	_
+3	جي	جي	SCONJ	CS	_	5	mark	_	_
 4	اونائي	اونائي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	_
 5	ڪندس	ڪن	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	14	advcl	_	_
 6	ته	ته	SCONJ	CS	_	14	mark	_	_
@@ -7102,7 +7102,7 @@
 
 # sent_id = Kawish-20100810-371
 # text = ائين چئي ، گدڙ سڀني کي ڪنهن وڏي واريءَ جي دڙي جي هيٺ بيهاري ،
-1	ائين	ائين	PRON	PRL	Case=Nom	2	obl	_	_
+1	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	2	obl	_	_
 2	چئي	چئو	VERB	VM	Aspect=Perf|VerbForm=Conv	14	obl	_	_
 3	،	،	PUNCT	PUNCT	_	2	punct	_	_
 4	گدڙ	گدڙ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -7141,7 +7141,7 @@
 # sent_id = Kawish-20100810-374
 # text = شينهن ائين ئي ڪيو ته کين گدڙ جي اونائي ٻڌڻ ۾ آئي .
 1	شينهن	شينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
-2	ائين	ائين	PRON	PRL	Case=Acc|Number=Sing	4	obl	_	_
+2	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	4	obl	_	_
 3	ئي	ئي	PART	PART	_	2	advmod:emph	_	_
 4	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 5	ته	ته	SCONJ	CS	_	4	mark	_	_
@@ -7199,7 +7199,7 @@
 
 # sent_id = Kawish-20100810-377
 # text = هيءَ آکاڻي اُتر مان فاضل قائمي ( تعلقو اُٻاوڙو ) ،
-1	هيءَ	هي	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	2	det	_	_
+1	هيءَ	هي	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	آکاڻي	آکاڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 3	اُتر	اُتر	PROPN	NNP	Case=Nom|Gender=Fem	6	nmod	_	_
 4	مان	مان	ADP	PSPL	_	3	case	_	_

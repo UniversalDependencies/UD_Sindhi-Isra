@@ -145,7 +145,7 @@
 
 # sent_id = 2072
 # text = هوءَ ڏينهون ڏينهن ڳرندي وڃي.
-1	هوءَ	هوءَ	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=2	4	nsubj	_	_
+1	هوءَ	هوءَ	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	ڏينهون	_	NOUN	NN	Case=Nom|ExtPos=ADV|Gender=Masc|Number=Sing	4	advmod	_	_
 3	ڏينهن	ڏينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	fixed	_	_
 4	ڳرندي	ڳر	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	0	root	_	_
@@ -437,7 +437,7 @@
 5	سنگ	سنگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	obj	_	_
 6	ڦٽا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 7	،	،	PUNCT	PUNCT	_	6	punct	_	_
-8	جيڪي	جيڪو	PRON	PRP	Case=Nom|Number=Plur	13	nsubj	_	_
+8	جيڪي	جيڪو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	13	nsubj	_	_
 9	ٿورن	_	NUM	NUM	_	11	nummod	_	_
 10	ئي	ئي	PART	PART	_	9	advmod:emph	_	_
 11	ڏينهن	ڏينهن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
@@ -457,7 +457,7 @@
 6	نه	نه	PART	PART	_	7	dep	_	_
 7	رهندو	ره	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=PresPart|Voice=Act	0	root	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	7	punct	_	_
-9	ڇو	ڇو	SCONJ	CS	ExtPos=SCONJ	15	mark	_	_
+9	ڇو	ڇو	ADV	ADV	ExtPos=SCONJ	15	mark	_	_
 10	ته	ته	SCONJ	CS	_	9	fixed	_	_
 11	چانور	چانور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 12	زندگيءَ	زندگيءَ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
@@ -580,7 +580,7 @@
 9	سوراخ	سوراخ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	xcomp	_	_
 10	ڪيا	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
 11	۽	۽	CCONJ	CC	_	20	cc	_	_
-12	انهن	انهي	PRON	PRP	Case=Acc|Number=Plur|Person=3	15	obl	_	_
+12	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	15	obl	_	_
 13	۾	۾	ADP	PSPL	_	12	case	_	_
 14	ڪنڍا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	obj	_	_
 15	ڦاسائي	ڦاساءِ	VERB	VM	Aspect=Perf|VerbForm=Conv	20	advcl	_	_
@@ -1006,7 +1006,7 @@
 28	شينهن	شينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
 29	،	،	PUNCT	PUNCT	_	31	punct	_	_
 30	هڪڙو	هڪڙو	ADJ	JJC	Case=Nom|Gender=Masc|Number=Sing	31	amod	_	_
-31	چيتو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	28	conj	_	SpaceAfter=No
+31	چيتو	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
 32	،	،	PUNCT	PUNCT	_	28	punct	_	_
 
 # sent_id = 2056
@@ -1274,7 +1274,7 @@
 10	وري	وري	ADV	ADM	_	11	advmod	_	_
 11	آئي	آئي	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
 12	۽	۽	CCONJ	CC	_	16	cc	_	_
-13	هوءَ	هوءَ	PRON	PRP	Case=Acc|Number=Sing	16	nsubj	_	_
+13	هوءَ	هوءَ	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	16	nsubj	_	_
 14	جلد	جلد	ADV	ADM	_	16	advmod	_	_
 15	تندرست	تندرست	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	16	xcomp	_	_
 16	ٿيڻ	آهي	VERB	VM	Aspect=Imp|VerbForm=Inf	11	conj	_	_
@@ -1521,7 +1521,7 @@
 6	،	،	PUNCT	PUNCT	_	5	punct	_	_
 7	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	11	nsubj	_	_
 8	به	به	PART	PART	_	7	advmod:emph	_	_
-9	ائين	ائين	PRON	PRL	_	11	obl	_	_
+9	ائين	ائين	PRON	PRL	Case=Nom|PronType=Rel	11	obl	_	_
 10	ئي	ئي	PART	PART	_	9	advmod:emph	_	_
 11	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	advcl	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	11	punct	_	_
@@ -1591,7 +1591,7 @@
 
 # sent_id = 3610
 # text = ڇو ته آئين ۾ ايڊمنسٽريٽر يا نگران مقرر ڪرڻ جي ڪابه گنجائش ناهي،
-1	ڇو	ڇو	SCONJ	CS	ExtPos=SCONJ	12	mark	_	_
+1	ڇو	ڇو	ADV	ADV	ExtPos=SCONJ	12	mark	_	_
 2	ته	ته	SCONJ	CS	_	1	fixed	_	_
 3	آئين	آئين	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
@@ -1762,7 +1762,7 @@
 4	پوءِ	پوءِ	ADP	PSP	_	3	fixed	_	_
 5	شينهن	شينهن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	،	،	PUNCT	PUNCT	_	7	punct	_	_
-7	چيتو	_	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	conj	_	SpaceAfter=No
+7	چيتو	چيتو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 2043
@@ -1944,7 +1944,7 @@
 7	ان	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	8	det	_	_
 8	پوڙهيءَ	پوڙهي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
 9	سان	سان	ADP	PSP	_	8	case	_	_
-10	ڪهڙو	ڪهڙو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	_
+10	ڪهڙو	ڪهڙو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	11	amod	_	_
 11	واسطو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 12	؟	؟	PUNCT	PUNCT	_	2	punct	_	_
 

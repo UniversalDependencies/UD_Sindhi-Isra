@@ -35,7 +35,7 @@ Publication out for review.
 
 # Changelog
 
-* 2024-05-15 v2.16
+* 2025-05-15 v2.16
   * Initial release in Universal Dependencies.
   * test: xpos_features/sd_780_A.conllu, retagging/parsing of most of the MazharDootio dataset
   * dev: xpos_features/sd_780_B.conllu

@@ -114,7 +114,7 @@
 3	ٻڌي	ٻڌ	VERB	VM	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
 4	سپاهي	سپاهي	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
 5	هڪڙي	هڪڙو	ADJ	JJC	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
-6	هٿ	هٿ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+6	هٿ	هٿ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
 7	۾	۾	ADP	PSPL	_	6	case	_	_
 8	ڀالو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
 9	۽	۽	CCONJ	CC	_	11	cc	_	_
@@ -147,7 +147,7 @@
 12	چهنبن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nmod	_	_
 13	۽	۽	CCONJ	CC	_	14	cc	_	_
 14	ڪاتيءَ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
-15	جهڙن	_	ADP	PSPG	Case=Acc|Gender=Masc|Number=Plur	12	case	_	_
+15	جهڙن	_	ADP	PSPR	Case=Acc|Gender=Masc|Number=Plur	12	case	_	_
 16	پَرن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
 17	سان	سان	ADP	PSP	_	16	case	_	_
 18	سپاهين	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
@@ -167,7 +167,7 @@
 6	ويا	ويو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	5	compound	_	_
 7	۽	۽	CCONJ	CC	_	10	cc	_	_
 8	باقي	باقي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
-9	جيڪي	جيڪو	PRON	PRL	Case=Nom|Number=Plur	10	nsubj	_	_
+9	جيڪي	جيڪو	DET	PRD	Case=Nom|Number=Plur|PronType=Dem	10	nsubj	_	_
 10	بچيا	بچ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
 11	،	،	PUNCT	PUNCT	_	10	punct	_	_
 12	سي	سي	PRON	PRP	Case=Nom|Number=Plur	13	nsubj	_	_
@@ -183,7 +183,7 @@
 4	حڪم	حڪم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
 5	ڏنو	ڏنو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 6	ته	ته	SCONJ	CS	_	13	mark	_	_
-7	انهن	انهي	PRON	PRP	Case=Acc|Number=Plur|Person=3	9	nmod	_	_
+7	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	9	nmod	_	_
 8	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	7	case	_	_
 9	جاءِ	جاءِ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
 10	تي	تي	ADP	PSPL	_	9	case	_	_
@@ -216,7 +216,7 @@
 6	ته	ته	SCONJ	CS	_	8	mark	_	_
 7	سپاهي	سپاهي	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 8	ڪن	ڪن	VERB	VM	Aspect=Imp|Number=Plur	5	advcl	_	_
-9	ڇا	ڇا	PRON	PRWH	Case=Nom	8	obj	_	_
+9	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	8	obj	_	_
 10	پيا	پيو	VERB	VM	Gender=Masc|Number=Plur	8	compound	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -479,7 +479,7 @@
 8	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	7	case	_	_
 9	اصل	اصل	ADJ	JJ	Case=Nom|Degree=Pos	10	amod	_	_
 10	مقصد	مقصد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
-11	ڇا	ڇا	PRON	PRWH	_	4	advcl	_	_
+11	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	4	advcl	_	_
 12	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	11	cop	_	_
 13	۽	۽	CCONJ	CC	_	15	cc	_	_
 14	موڪلائي	موڪلاءِ	VERB	VM	Aspect=Perf|VerbForm=Conv	15	xcomp	_	_
@@ -664,7 +664,7 @@
 4	ٽوڪريون	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	obj	_	_
 5	ٺاهيندس	ٺاه	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	11	advcl	_	_
 6	ته	ته	SCONJ	CS	_	11	mark	_	_
-7	اُهي	اُهي	PRON	PRP	Case=Nom|Number=Plur|Person=2	11	nsubj	_	_
+7	اُهي	اُهو	DET	PRD	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	11	nsubj	_	_
 8	ڳري	ڳري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
 9	اگهه	اگهه	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 10	تي	تي	ADP	PSPL	_	9	case	_	_

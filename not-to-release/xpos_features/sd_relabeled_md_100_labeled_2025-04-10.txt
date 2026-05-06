@@ -62,7 +62,7 @@
 3	ڪهڙي	ڪهڙو	DET	PRD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	خبر	خبر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	ته	ته	SCONJ	CS	_	8	mark	_	_
-6	هُو	هُو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	8	nsubj	_	_
+6	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
 7	منهنجي	منهنجو	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	8	nmod	_	_
 8	زندگي	زندگي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
 9	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	8	cop	_	_
@@ -135,7 +135,7 @@
 2	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	1	case	_	_
 3	ڊپ	ڊپ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 4	کان	کان	ADP	PSP	_	3	case	_	_
-5	هُو	هُو	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
 6	اڪيلو	اڪيلو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	compound	_	_
 7	سمهي	سمه	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
 8	ئي	ئي	PART	PART	_	7	advmod:emph	_	_
@@ -385,10 +385,10 @@
 # sent_id = MD-61
 # text = ڪو ڪيئن چوي ڪو ڪيئن چوي مان جوئي آهيان سوئي آهيان .
 # at 8 جوئي is a form of جو and is correctly tagged as PRON.
-1	ڪو	ڪو	PRON	PRL	Case=Nom|Number=Sing	3	nsubj	_	_
+1	ڪو	ڪو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	ڪيئن	ڪيئن	ADV	ADM	_	3	advmod	_	_
 3	چوي	چوي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	6	advcl	_	_
-4	ڪو	ڪو	PRON	PRL	Case=Nom|Number=Sing	6	nsubj	_	_
+4	ڪو	ڪو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	6	nsubj	_	_
 5	ڪيئن	ڪيئن	ADV	ADM	_	6	advmod	_	_
 6	چوي	چوي	VERB	VM	Aspect=Imp|Number=Sing|Person=3	0	root	_	_
 7	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
@@ -830,7 +830,7 @@
 
 # sent_id = MD-145
 # text = جي تون بيت ڀائنيا سي آيتون آهين .
-1	جي	جي	PRON	PRL	Case=Nom|Number=Sing	4	obl	_	_
+1	جي	جي	PRON	PRL	Case=Nom|Number=Sing|PronType=Rel	4	obl	_	_
 2	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	4	nsubj	_	_
 3	بيت	بيت	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	obj	_	_
 4	ڀائنيا	ڀانءِ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
@@ -846,7 +846,7 @@
 3	اهڙو	اهڙو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	هٿيار	هٿيار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	advcl	_	_
 5	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	4	cop	_	_
-6	جيڪو	جيڪو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+6	جيڪو	جيڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	_
 7	پوري	پوري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	قوم	قوم	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	iobj	_	_
 9	۽	۽	CCONJ	CC	_	10	cc	_	_
@@ -1243,7 +1243,7 @@
 7	خاص	خاص	ADJ	JJ	Case=Nom|Degree=Pos	8	amod	_	_
 8	عضون	عضوو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	nmod	_	_
 9	کانسواءِ	کان	ADP	PSP	_	8	case	_	_
-10	ڪهڙو	ڪهڙو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	ڪهڙو	ڪهڙو	PRON	PRWH	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	11	nsubj	_	_
 11	فرق	فرق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 12	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	11	cop	_	_
 13	جو	جو	ADP	PSP	_	11	case	_	_

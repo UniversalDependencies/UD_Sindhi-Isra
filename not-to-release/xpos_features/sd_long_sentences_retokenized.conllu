@@ -329,8 +329,8 @@
 # text = پو‌ به ڪراچي جهڙي اهم شهر ۾ بم ڌماڪي وارو افسوسناڪ واقعو ڪيئن ٿيو؟
 1	پو‌	پو‌	ADV	ADT	_	13	advmod	_	_
 2	به	به	PART	PART	_	1	advmod:emph	_	_
-3	ڪراچي	ڪراچي	PROPN	NNP	Case=Nom|Gender=Fem	4	nmod	_	_
-4	جهڙي	جهڙو	PRON	PRL	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+3	ڪراچي	ڪراچي	PROPN	NNP	Case=Nom|Gender=Fem	6	nmod	_	_
+4	جهڙي	جهڙو	ADP	PSPR	Case=Acc|Gender=Masc|Number=Sing	3	case	_	_
 5	اهم	اهم	ADJ	JJ	Case=Nom|Degree=Pos	6	amod	_	_
 6	شهر	شهر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
 7	۾	۾	ADP	PSPL	_	6	case	_	_
@@ -339,7 +339,7 @@
 10	وارو	وارو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	9	case	_	_
 11	افسوسناڪ	افسوسناڪ	ADJ	JJ	Case=Nom|Degree=Pos	12	amod	_	_
 12	واقعو	واقعو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-13	ڪيئن	ڪيئن	PRON	PRWH	Case=Nom	0	root	_	_
+13	ڪيئن	ڪيئن	PRON	PRWH	Case=Nom|PronType=Int	0	root	_	_
 14	ٿيو	آهي	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	SpaceAfter=No
 15	؟	؟	PUNCT	PUNCT	_	13	punct	_	_
 
@@ -444,7 +444,7 @@
 15	کان	کان	ADP	PSP	ExtPos=ADP	14	case	_	_
 16	پوءِ	پوءِ	ADP	PSP	_	15	fixed	_	_
 17	ڪراچيءَ	ڪراچيءَ	PROPN	NNP	Case=Nom|Gender=Fem	18	nmod	_	_
-18	ڇا	ڇا	PRON	PRWH	Number=Sing	30	obl	_	_
+18	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	30	obl	_	_
 19	پر	پر	SCONJ	CS	_	18	dep	_	_
 20	ملڪ	ملڪ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	_
 21	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	20	case	_	_

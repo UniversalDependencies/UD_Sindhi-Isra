@@ -392,8 +392,8 @@
 
 # sent_id = 1258
 # text = ڇو جو راجا ڪمپا ڪابيرو کي وڌيڪ ڀائيندو هو.
-1	ڇو	ڇو	PRON	PRP	Case=Acc	8	obl	_	_
-2	جو	جو	ADP	PSP	_	1	case	_	_
+1	ڇو	ڇو	PRON	PRWH	Case=Nom|PronType=Int	8	obl	_	_
+2	جو	جو	SCONJ	CS	_	8	mark	_	_
 3	راجا	راجا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 4	ڪمپا	ڪمپا	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_
 5	ڪابيرو	ڪابيرو	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	4	flat	_	_
@@ -565,7 +565,7 @@
 
 # sent_id = 1269
 # text = ڇا لاءِ ته هن کي خبر پئجي ويئي هئي ته منهنجي جان خطري ۾ آهي.
-1	ڇا	ڇا	PRON	PRWH	_	7	obl	_	_
+1	ڇا	ڇا	PRON	PRWH	Case=Acc|PronType=Int	7	obl	_	_
 2	لاءِ	لاءِ	ADP	PSP	_	1	mark	_	_
 3	ته	ته	SCONJ	CS	_	7	mark	_	_
 4	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	nsubj	_	_
@@ -585,7 +585,7 @@
 # sent_id = 1270
 # text = پر هوءَ اتان اڏامي سڌي پنهنجي ملڪ ڪيانگان وڃڻ جي بدران هڪڙي هنڌ ترسي پيئي ۽ راجا سوتون جي اچڻ جو انتظار ڪرڻ لڳي.
 1	پر	پر	SCONJ	CS	_	14	mark	_	_
-2	هوءَ	هوءَ	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	14	nsubj	_	_
+2	هوءَ	هوءَ	DET	PRD	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	14	nsubj	_	_
 3	اتان	اتي	ADV	ADP	_	4	advmod	_	_
 4	اڏامي	اڏام	VERB	VM	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
 5	سڌي	سڌو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_

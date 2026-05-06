@@ -8,17 +8,28 @@ import networkx as nx
 
 from stanza.utils.conll import CoNLL
 
-from tools.validate import Validator
+try:
+    from udtools.src.udtools.argparser import parse_args_validator as ud_parse_args
+except ImportError:
+    from udtools.argparser import parse_args_validator as ud_parse_args
+try:
+    from udtools.src.udtools.validator import Validator
+except ImportError:
+    from udtools.validator import Validator
+try:
+    from udtools.src.udtools.incident import IncidentType, TestClass
+except ImportError:
+    from udtools.incident import IncidentType, TestClass
 
 ALLOWED_UPOS = { "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB"}
 
 ALLOWED_UPOS_TO_XPOS = {
     "NOUN":  ["NN", "NNX"],
     "PROPN": ["NNP"],
-    "ADJ":   ["JJ", "JJC", "JJO", "JJM", "JJF"],
-    "PRON":  ["PRP", "PRD", "PRWH", "PRL"],
+    "ADJ":   ["JJ", "JJC", "JJO", "JJF"],
+    "PRON":  ["PRP", "PRWH", "PRL"],
     "ADV":   ["ADV", "ADT", "ADM", "ADN", "ADQ", "ADA", "ADS", "ADP", "ADPX"],
-    "ADP":   ["PSP", "PSPX", "PSPL", "PSPG"],
+    "ADP":   ["PSP", "PSPX", "PSPL", "PSPG", "PSPR"],
     "CCONJ": ["CC"],
     "SCONJ": ["CS"],
     "AUX":   ["VAUX", "VAUXX", "VAUXN"],
@@ -41,7 +52,11 @@ ALLOWED_UPOS_TO_FEATS = {
               'Gender=Fem', 'Gender=Masc',
               'Number=Plur', 'Number=Sing',
               'Person=3'],
-    "ADV":   ['Case=Acc', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=3'],
+    "ADV":   ['Case=Acc', 'Case=Nom',
+              'ExtPos=SCONJ',
+              'Gender=Fem', 'Gender=Masc',
+              'Number=Plur', 'Number=Sing',
+              'Person=3'],
     "AUX":   ['Aspect=Imp', 'Aspect=Perf',
               'AuxType=Be',
               'Gender=Fem', 'Gender=Masc',
@@ -68,7 +83,11 @@ ALLOWED_UPOS_TO_FEATS = {
               'Person=3'],
     "NUM":   ['Case=Acc', 'Case=Nom', 'Number=Plur', 'Number=Sing'],
     "PART":  ['PartType=Emp'],
-    "PRON":  ['Case=Acc', 'Case=Gen', 'Case=Nom', 'Gender=Fem', 'Gender=Masc', 'Number=Plur', 'Number=Sing', 'Person=1', 'Person=2', 'Person=3'],
+    "PRON":  ['Case=Acc', 'Case=Gen', 'Case=Nom',
+              'Gender=Fem', 'Gender=Masc',
+              'Number=Plur', 'Number=Sing',
+              'Person=1', 'Person=2', 'Person=3',
+              'PronType=Int', 'PronType=Rel'],
     "PROPN": ['Case=Abl', 'Case=Acc', 'Case=Nom', 'Case=Voc', 'Gender=Fem', 'Gender=Masc', 'Number=Sing'],
     "PUNCT": [],
     "SCONJ": ['ExtPos=SCONJ'],
@@ -98,7 +117,14 @@ ADVMOD_EMPH_EXCEPTIONS = {
     }
 
 
+ALLOWED_FEATURES = {}
+EXACT_FEATURES = {}
 ENFORCED_FEATURES = {}
+ENFORCED_XPOS_FEATURES = {
+    "PRD":  ["PronType=Dem"],
+    "PRL":  ["PronType=Rel"],
+    "PRWH": ["PronType=Int"],
+}
 
 ENFORCED_POS_XPOS = {}
 ENFORCED_POS = {
@@ -135,6 +161,35 @@ for word in can_could_aux:
 # this one has an exception in the treebank
 ENFORCED_POS['سگهو'] = ['AUX', 'ADV']
 
+EXACT_FEATURES[('تنهن', 'PRL')] = ['Case=Acc', 'Number=Sing', 'PronType=Rel']
+EXACT_FEATURES[('ڄڻ', 'PRL')] = ['Case=Nom', 'PronType=Rel']
+EXACT_FEATURES[('ائين', 'PRL')] = ['Case=Nom', 'PronType=Rel']
+EXACT_FEATURES[('سو', 'PRL')] = ['Case=Nom', 'Number=Sing', 'Gender=Masc', 'PronType=Rel']
+EXACT_FEATURES[('ان', 'PRD')] = ['Case=Acc', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('اُهو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('اُھو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('جيڪو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('جيڪي', 'PRD')] = ['Case=Nom', 'Number=Plur', 'PronType=Dem']
+EXACT_FEATURES[('اسان', 'PRD')] = ['Case=Acc', 'Number=Plur', 'Person=1', 'PronType=Dem']
+EXACT_FEATURES[('اهوئي', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'Person=3', 'PronType=Dem']
+EXACT_FEATURES[('اھوئي', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'Person=3', 'PronType=Dem']
+EXACT_FEATURES[('اهائي', 'PRD')] = ['Case=Nom', 'Gender=Fem', 'Number=Sing', 'Person=3', 'PronType=Dem']
+EXACT_FEATURES[('اھائي', 'PRD')] = ['Case=Nom', 'Gender=Fem', 'Number=Sing', 'Person=3', 'PronType=Dem']
+EXACT_FEATURES[('اُهي', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Plur', 'PronType=Dem']
+EXACT_FEATURES[('اُھي', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Plur', 'PronType=Dem']
+EXACT_FEATURES[('هـُن', 'PRD')] = ['Case=Acc', 'Number=Sing', 'Person=3', 'PronType=Dem']
+EXACT_FEATURES[('ھـُن', 'PRD')] = ['Case=Acc', 'Number=Sing', 'Person=3', 'PronType=Dem']
+EXACT_FEATURES[('ڪير', 'PRWH')] = ['Case=Nom', 'PronType=Int']
+EXACT_FEATURES[('ڪهڙو', 'PRWH')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Int']
+EXACT_FEATURES[('ڇو', 'PRWH')] = ['Case=Nom', 'PronType=Int']
+EXACT_FEATURES[('ڪيئن', 'PRWH')] = ['Case=Nom', 'PronType=Int']
+EXACT_FEATURES[('هُو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('ھُو', 'PRD')] = ['Case=Nom', 'Gender=Masc', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('هُوءَ', 'PRD')] = ['Case=Nom', 'Gender=Fem', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('ھُوءَ', 'PRD')] = ['Case=Nom', 'Gender=Fem', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('هيءَ', 'PRD')] = ['Case=Nom', 'Gender=Fem', 'Number=Sing', 'PronType=Dem']
+EXACT_FEATURES[('ھيءَ', 'PRD')] = ['Case=Nom', 'Gender=Fem', 'Number=Sing', 'PronType=Dem']
+
 ENFORCED_FEATURES['سگهان'] = ['Person=1', 'Number=Sing']
 ENFORCED_FEATURES['سگهون'] = ['Person=1', 'Number=Plur']
 ENFORCED_FEATURES['سگهين'] = ['Person=2', 'Number=Sing']
@@ -145,6 +200,7 @@ ENFORCED_FEATURES['سگهن'] = ['Person=3', 'Number=Plur']
 
 # demonstrative pronoun or aux verb
 ENFORCED_POS['هو'] = ['AUX', 'DET']
+# TODO: expected features as AUX are Gender=Masc|Number=Sing|Person=3|Tense=Past
 
 # these ones reviewed by Prof Rahman, can be quite a few possibilities
 ENFORCED_POS['ڇو'] = ['VERB', 'PRON', 'ADV', 'SCONJ']
@@ -155,15 +211,28 @@ ENFORCED_POS['ڄڻ'] = ['ADV', 'PRON']
 
 ENFORCED_POS_XPOS['ڪڏهن'] = [('ADV', 'ADT')]
 
-for word in ("اھڙيءَ","اھڙن","اھڙي","اھڙو","اھڙا","اھڙيون","اھڙين","اهڙيءَ","اهڙن","اهڙي","اهڙو","اهڙا","اهڙيون","اهڙين"):
+ENFORCED_POS_XPOS['ڪير'] = [('PRON', 'PRWH')]
+ENFORCED_POS_XPOS['ڇا'] = [('PRON', 'PRWH')]
+ALLOWED_FEATURES['ڇا'] = {'Case=Acc', 'Case=Nom', 'PronType=Int'}
+ENFORCED_FEATURES['ڇا'] = {'Case'}
+
+adj_demonstratives =      ["اھڙيءَ","اھڙن","اھڙي","اھڙو","اھڙا","اھڙيون","اھڙين"]
+adj_demonstratives.extend(["اهڙيءَ","اهڙن","اهڙي","اهڙو","اهڙا","اهڙيون","اهڙين"])
+for word in adj_demonstratives:
     ENFORCED_POS[word] = ['DET', 'ADJ']
 
 ENFORCED_POS['گذريل'] = ['VERB']
 
 # demonstratives
-demonstratives = ['ان', 'اِهو', 'انهي', 'انھي', 'انهيءِ', 'اِهو', 'اِهي', 'اھا', 'اھڙو', 'اھي', 'ڪوبه', 'هرڪوئي', 'هِن', 'هُوءَ', 'ھن', 'اُهو', 'اهي', 'اهو', 'اِها']
-demonstratives.extend(['اُها', 'اها', 'انهيءَ'])
-demonstratives.extend(['ڪهڙيءَ', 'ڪهڙين', 'ڪهڙي', 'ڪهڙيون'])
+demonstratives =      ['اِهو', 'انهي', 'انهي', 'انهيءِ', 'اِهو', 'اِهي', 'اها', 'اهي', 'ڪوبه', 'هرڪوئي', 'هِن', 'هُوءَ', 'هن', 'اُهو', 'اهي', 'اهو', 'اِها']
+# orthographic variants - replace ه with ھ
+demonstratives.extend(['اِھو', 'انھي', 'انھي', 'انھيءِ', 'اِھو', 'اِھي', 'اھا', 'اھي', 'ڪوبھ', 'ھرڪوئي', 'ھِن', 'ھُوءَ', 'ھن', 'اُھو', 'اھي', 'اھو', 'اِھا'])
+# more demonstratives
+demonstratives.extend(['اُهي', 'اُها', 'اها', 'انهيءَ', 'ڪهڙيءَ', 'ڪهڙين', 'ڪهڙي', 'ڪهڙيون', 'هـُن', 'اهوئي', 'اهائي', 'هيءَ', 'هُو'])
+# orthographic variants
+demonstratives.extend(['اُھي', 'اُھا', 'اھا', 'انھيءَ', 'ڪھڙيءَ', 'ڪھڙين', 'ڪھڙي', 'ڪھڙيون', 'ھـُن', 'اھوئي', 'اھائي', 'ھيءَ', 'ھُو'])
+# demonstratives with no variants
+demonstratives.extend(['ان', 'جيڪي', 'جيڪا', 'اسان'])
 for word in demonstratives:
     ENFORCED_POS_XPOS[word] = [('DET', 'PRD')]
 
@@ -230,6 +299,9 @@ ALLOWED_STRUCTURE['آڏو'] = [('ADP', 'case'), ('ADV', 'advmod')]
 ALLOWED_STRUCTURE['ٿيو'] = [('AUX', 'aux'), ('AUX', 'cop')]
 
 ALLOWED_STRUCTURE['ته'] = [('PART', 'advmod:emph'), ('PART', 'fixed'), ('SCONJ', 'fixed'), ('SCONJ', 'mark')]
+
+# a PRON that is either PRP or PRL
+ENFORCED_POS_XPOS['تنهن'] = [('PRON', 'PRP'), ('PRON', 'PRL')]
 
 DISALLOWED_UPOS_RELATIONS = {
     "ADP": ["nmod", "advcl", "amod"],
@@ -364,17 +436,19 @@ def check_unknown_upos(filename, new_doc):
                                           nodes=[word_idx+1]))
     return incidents
 
-def check_no_root_sentences(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_no_root_sentences(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         if not any(word.deprel == 'root' for word in sent.words):
-            if not printed:
-                print("NO ROOT SENTENCES")
-                printed = True
-            problem_sentences.add(sent_idx)
-            print("Sentence %d |%s| has no root" % (sent_idx, sent.sent_id))
-    return problem_sentences
+            error = "Sentence %s (%d) has no root" % (sent.sent_id, sent_idx)
+            category = "Missing root"
+            incidents.append(Incident(category=category,
+                                      filename=filename,
+                                      sent_idx=sent_idx,
+                                      sentence=sent,
+                                      error=error,
+                                      nodes=[]))
+    return incidents
 
 def check_space_in_word(filename, new_doc):
     incidents = []
@@ -391,29 +465,31 @@ def check_space_in_word(filename, new_doc):
 
     return incidents
 
-def check_punct_word_labels(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_punct_word_labels(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if ALLOWED_PUNCT_WORD.match(word.text) and word.upos != "PUNCT":
-                if not printed:
-                    print("PUNCT WORDS LABELED NON-PUNCT")
-                    printed = True
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d has a punct word |%s| (line %d) labeled %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos))
+                error = "Sentence %s (%d) word %d has a punct word |%s| (line %d) labeled %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos)
+                incidents.append(Incident(category="PUNCT tag error",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word.id]))
 
-    printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if not ALLOWED_PUNCT_WORD.match(word.text) and word.upos == "PUNCT":
-                if not printed:
-                    print("NON PUNCT WORDS LABELED PUNCT")
-                    printed = True
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) word %d has a non-punct word |%s| labeled %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.upos))
+                error = "Sentence %s (%d) word %d has a non-punct word |%s| (line %d) labeled %s" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, word.upos)
+                incidents.append(Incident(category="PUNCT tag error",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word.id]))
 
-    return problem_sentences
+    return incidents
 
 def check_pos_deprel_happiness(filename, new_doc, check_xpos):
     incidents = []
@@ -555,20 +631,21 @@ def check_missing_heads(filename, new_doc):
 
     return incidents
 
-def check_missing_deprel(new_doc):
-    problem_sentences = set()
-
-    printed = False
+def check_missing_deprel(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word in sent.words:
             if word.deprel is None or word.deprel == "":
-                if not printed:
-                    print("UNLABELED ARCS")
-                    printed = True
-                problem_sentences.add(sent_idx)
-                print("Sentence %s (%d) has a word %s (line %d) with no deprel" % (sent.sent_id, sent_idx, word.id, word.line_number))
+                category = "Unlabeled arc"
+                error = "Sentence %s (%d) has a word %s (line %d) with no deprel" % (sent.sent_id, sent_idx, word.id, word.line_number+1)
+                incidents.append(Incident(category=category,
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word.id]))
 
-    return problem_sentences
+    return incidents
 
 def check_th_words(filename, new_doc, check_xpos):
     """
@@ -604,33 +681,36 @@ def check_th_words(filename, new_doc, check_xpos):
                                           nodes=[word_idx+1]))
     return incidents
 
-def check_punct_root(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_punct_root(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
-        punct = sent.words[-1]
-        if punct.upos != "PUNCT":
-            continue
-        if punct.deprel == 'root':
-            if not printed:
-                printed = True
-                print("PUNCT ROOT")
-            problem_sentences.add(sent_idx)
-            print("Sentence %s (%d) has a punct word as the root" % (sent.sent_id, sent_idx))
-    return problem_sentences
+        for word in sent.words:
+            if word.upos != "PUNCT":
+                continue
+            if word.deprel == 'root':
+                category = "PUNCT root"
+                error = "Sentence %s (%d) has a punct word %d |%s| (line %d) as the root" % (sent.sent_id, sent_idx, word.id, word.text, word.line_number+1)
+                incidents.append(Incident(category=category,
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error=error,
+                                          nodes=[word.id]))
+    return incidents
 
-def check_multiple_roots(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_multiple_roots(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         if sum(x.deprel == 'root' for x in sent.words) > 1:
-            if not printed:
-                printed = True
-                print("MULTIPLE ROOTS")
-            problem_sentences.add(sent_idx)
             possible_roots = [(x.text, x.upos, x.id) for x in sent.words if x.deprel == 'root']
-            print("Sentence %s (%d) has multiple roots: %s" % (sent.sent_id, sent_idx, possible_roots))
-    return problem_sentences
+            root_ids = [x.id for x in sent.words if x.deprel == 'root']
+            incidents.append(Incident(category="Multiple roots",
+                                      filename=filename,
+                                      sent_idx=sent_idx,
+                                      sentence=sent,
+                                      error="Sentence %s (%d) has multiple roots: %s" % (sent.sent_id, sent_idx, possible_roots),
+                                      nodes=root_ids))
+    return incidents
 
 def check_graph_cycles(new_doc):
     problem_sentences = set()
@@ -772,7 +852,7 @@ def check_disallowed_punct_chars(filename, new_doc):
                                           nodes=[word_idx+1]))
     return incidents
 
-def check_expected_features(filename, new_doc, check_feats):
+def check_expected_features(filename, new_doc, check_feats, check_xpos):
     incidents = []
     if check_feats:
         for sent_idx, sent in enumerate(new_doc.sentences):
@@ -780,7 +860,12 @@ def check_expected_features(filename, new_doc, check_feats):
                 expected_features = ENFORCED_FEATURES.get(word.text)
                 if expected_features is None:
                     expected_features = ENFORCED_FEATURES.get((word.text, word.upos))
-                if expected_features is None:
+                expected_features = list(expected_features) if expected_features else []
+
+                if check_xpos and word.xpos in ENFORCED_XPOS_FEATURES:
+                    expected_features.extend(ENFORCED_XPOS_FEATURES[word.xpos])
+
+                if not expected_features:
                     continue
 
                 error = ""
@@ -788,11 +873,79 @@ def check_expected_features(filename, new_doc, check_feats):
                     error = "Sentence %s (%d) word %d (line %d) |%s| had blank features, but this word is expected to have %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected_features)
                 else:
                     pieces = word.feats.split("|")
+                    feature_names = [x.split("=")[0] for x in pieces]
                     for expected in expected_features:
-                        if expected not in pieces:
-                            error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected)
+                        if "=" not in expected:
+                            if expected not in feature_names:
+                                error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected)
+                        else:
+                            if expected not in pieces:
+                                error = "Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected)
                 if error:
                     incidents.append(Incident(category="Enforced features error",
+                                              filename=filename,
+                                              sent_idx=sent_idx,
+                                              sentence=sent,
+                                              error=error,
+                                              nodes=[word_idx+1]))
+    return incidents
+
+def check_allowed_features(filename, new_doc, check_feats, check_xpos):
+    incidents = []
+    if check_feats:
+        for sent_idx, sent in enumerate(new_doc.sentences):
+            for word_idx, word in enumerate(sent.words):
+                allowed_features = ALLOWED_FEATURES.get(word.text)
+                if allowed_features is None:
+                    allowed_features = ALLOWED_FEATURES.get((word.text, word.upos))
+                if allowed_features is None and check_xpos:
+                    allowed_features = ALLOWED_FEATURES.get((word.text, word.xpos))
+                if allowed_features is None:
+                    continue
+
+                errors = []
+                if not word.feats or word.feats == '_':
+                    continue
+                pieces = word.feats.split("|")
+                for feat in pieces:
+                    if feat not in allowed_features:
+                        errors.append("Sentence %s (%d) word %d (line %d) |%s| had an unexpected feature %s.  The only allowed features are %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, feat, allowed_features))
+                for error in errors:
+                    incidents.append(Incident(category="Allowed features error",
+                                              filename=filename,
+                                              sent_idx=sent_idx,
+                                              sentence=sent,
+                                              error=error,
+                                              nodes=[word_idx+1]))
+    return incidents
+
+
+def check_exact_features(filename, new_doc, check_feats, check_xpos):
+    incidents = []
+    if check_feats:
+        for sent_idx, sent in enumerate(new_doc.sentences):
+            for word_idx, word in enumerate(sent.words):
+                expected_features = EXACT_FEATURES.get(word.text)
+                if expected_features is None:
+                    expected_features = EXACT_FEATURES.get((word.text, word.upos))
+                if expected_features is None and check_xpos:
+                    expected_features = EXACT_FEATURES.get((word.text, word.xpos))
+                if expected_features is None:
+                    continue
+
+                errors = []
+                if not word.feats or word.feats == '_':
+                    errors.append("Sentence %s (%d) word %d (line %d) |%s| had blank features, but this word is expected to have exactly %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected_features))
+                else:
+                    pieces = word.feats.split("|")
+                    for expected in expected_features:
+                        if expected not in pieces:
+                            errors.append("Sentence %s (%d) word %d (line %d) |%s| did not have required feature %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, expected))
+                    for piece in pieces:
+                        if piece not in expected_features:
+                            errors.append("Sentence %s (%d) word %d (line %d) |%s| had an unexpected feature %s.  The only allowed features are %s" % (sent.sent_id, sent_idx, word_idx+1, word.line_number+1, word.text, piece, expected_features))
+                for error in errors:
+                    incidents.append(Incident(category="Exact features error",
                                               filename=filename,
                                               sent_idx=sent_idx,
                                               sentence=sent,
@@ -849,7 +1002,7 @@ def check_feature_errors(filename, new_doc, check_feats):
                 if word.upos == 'ADP':
                     feat_map = {x: y for x, y in [x.split("=", maxsplit=1) for x in feat_pieces]}
                     if 'Case' in feat_map:
-                        if word.xpos != 'PSPG' and word.xpos != 'PSPX':
+                        if word.xpos != 'PSPG' and word.xpos != 'PSPX' and word.xpos != 'PSPR':
                             error = "Sentence %s (%d) word %d |%s| (line %d) had Case=%s but an xpos %s which is not allowed to have Case" % (sent.sent_id, sent_idx, word_idx+1, word.text, word.line_number+1, feat_map['Case'], word.xpos)
                             incidents.append(Incident(category="Features error",
                                                       filename=filename,
@@ -875,25 +1028,27 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     incidents = []
 
     incidents.extend(check_unknown_upos(filename, new_doc))
-    problem_sentences |= check_no_root_sentences(new_doc)
+    incidents.extend(check_no_root_sentences(filename, new_doc))
     incidents.extend(check_space_in_word(filename, new_doc))
-    problem_sentences |= check_punct_word_labels(new_doc)
+    incidents.extend(check_punct_word_labels(filename, new_doc))
     incidents.extend(check_pos_deprel_happiness(filename, new_doc, check_xpos))
     incidents.extend(check_unexpected_space_after(filename, new_doc))
     incidents.extend(check_xpos_required(filename, new_doc, check_xpos, require_xpos))
     incidents.extend(check_pos_xpos_happiness(filename, new_doc, check_xpos))
     incidents.extend(check_fixed(filename, new_doc, check_feats))
     incidents.extend(check_missing_heads(filename, new_doc))
-    problem_sentences |= check_missing_deprel(new_doc)
+    incidents.extend(check_missing_deprel(filename, new_doc))
     incidents.extend(check_th_words(filename, new_doc, check_xpos))
-    problem_sentences |= check_punct_root(new_doc)
-    problem_sentences |= check_multiple_roots(new_doc)
+    incidents.extend(check_punct_root(filename, new_doc))
+    incidents.extend(check_multiple_roots(filename, new_doc))
     problem_sentences |= check_graph_cycles(new_doc)
     incidents.extend(check_upos_xpos_match(filename, new_doc, check_xpos))
     problem_sentences |= check_null_features(new_doc)
     problem_sentences |= check_advmod_emph_errors(new_doc)
     incidents.extend(check_enforced_pos(filename, new_doc))
-    incidents.extend(check_expected_features(filename, new_doc, check_feats))
+    incidents.extend(check_expected_features(filename, new_doc, check_feats, check_xpos))
+    incidents.extend(check_exact_features(filename, new_doc, check_feats, check_xpos))
+    incidents.extend(check_allowed_features(filename, new_doc, check_feats, check_xpos))
     incidents.extend(check_feature_errors(filename, new_doc, check_feats))
     incidents.extend(check_cop_lemmas(filename, new_doc))
     incidents.extend(check_disallowed_punct_chars(filename, new_doc))
@@ -912,7 +1067,9 @@ def main():
 
     error_doc = []
     clean_doc = []
-    udvalidator = Validator(["--lang", "sd", '--quiet'])
+    udargs = ['--lang', 'sd', '--quiet', '--max-err', '-1']
+    udargs = ud_parse_args(udargs)
+    udvalidator = Validator(lang="sd", max_store=-1, args=udargs)
     for filename in args.filename:
         print("Validating %s" % filename)
         new_doc = CoNLL.conll2doc(filename, keep_line_numbers=True)
@@ -928,7 +1085,11 @@ def main():
             error_nodes[incident.sent_idx].extend(incident.nodes)
 
         ud_state = udvalidator.validate_files([filename])
-        for incident in ud_state.error_tracker['Syntax']:
+        for incident in ud_state.error_tracker:
+            if incident.testclass not in (TestClass.SYNTAX, TestClass.UNICODE):
+                continue
+            if incident.get_type() is not IncidentType.ERROR:
+                continue
             print("", incident.sentid, incident.lineno, incident.message)
             # TODO: use lineno instead
             for sent_idx, sentence in enumerate(new_doc.sentences):
@@ -941,6 +1102,10 @@ def main():
             error_sentences[sent_idx].add_comment("ERROR: %s" % incident.message)
             if incident.nodeid is not None:
                 error_nodes[sent_idx].append(incident.nodeid)
+            for reference in incident.references:
+                if reference.nodeid:
+                    # ValueError such as int(3.1) shouldn't happen since we have no enhanced
+                    error_nodes[sent_idx].append(int(reference.nodeid))
 
         for sent_idx in error_nodes:
             nodes = "highlight tokens = %s" % (" ".join("%d" % x for x in error_nodes[sent_idx]))
