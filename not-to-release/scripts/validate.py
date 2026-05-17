@@ -212,6 +212,9 @@ ENFORCED_POS['ڄڻ'] = ['ADV', 'PRON']
 
 ENFORCED_POS_XPOS['ڪڏهن'] = [('ADV', 'ADT')]
 
+ENFORCED_POS_XPOS['سندم'] = [('PRON', 'PRP')]
+ENFORCED_FEATURES['سندم'] = ['Poss=Yes', 'PronType=Prs']
+
 ENFORCED_POS_XPOS['ڪير'] = [('PRON', 'PRWH')]
 ENFORCED_POS_XPOS['ڇا'] = [('PRON', 'PRWH')]
 ALLOWED_FEATURES['ڇا'] = {'Case=Acc', 'Case=Nom', 'PronType=Int'}
