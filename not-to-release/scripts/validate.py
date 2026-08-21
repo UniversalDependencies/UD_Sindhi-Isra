@@ -323,6 +323,31 @@ ENFORCED_RELATION_UPOS = {
     "advmod:emph": ["PART"],
 }
 
+# nmod:poss words
+ENFORCED_POS_XPOS['سندس'] = [('PRON', 'PRP')]
+EXACT_FEATURES['سندس'] = ['Case=Gen', 'Number=Sing', 'Person=3', 'Poss=Yes', 'PronType=Prs']
+
+ENFORCED_POS_XPOS['سندن'] = [('PRON', 'PRP')]
+ENFORCED_FEATURES['سندن'] = ['Case=Gen', 'Number=Plur', 'Person=3']
+
+ENFORCED_POS_XPOS['سندم'] = [('PRON', 'PRP')]
+EXACT_FEATURES['سندم'] = ['Case=Gen', 'Number=Sing', 'Person=1', 'Poss=Yes', 'PronType=Prs']
+
+ENFORCED_POS_XPOS['منهنجو'] = [('PRON', 'PRP')]
+ENFORCED_FEATURES['منهنجو'] = ['Case=Gen', 'Number=Sing']
+
+ENFORCED_POS_XPOS['منهنجا'] = [('PRON', 'PRP')]
+ENFORCED_FEATURES['منهنجا'] = ['Case=Gen', 'Number=Plur', 'Person=1', 'Gender=Masc']
+
+ENFORCED_POS_XPOS['تنهنجا'] = [('PRON', 'PRP')]
+ENFORCED_FEATURES['تنهنجا'] = ['Case=Gen', 'Number=Plur', 'Person=2']
+
+ENFORCED_POS_XPOS['تنهنجو'] = [('PRON', 'PRP')]
+ENFORCED_FEATURES['تنهنجو'] = ['Case=Gen', 'Number=Sing', 'Person=2']
+
+
+
+
 # various inflections of هڪڙو / one
 for word in ('هڪڙو', 'ھڪڙو'):
     ENFORCED_POS_XPOS[word] = [('ADJ', 'JJC'), ('PROPN', 'NNP')]
