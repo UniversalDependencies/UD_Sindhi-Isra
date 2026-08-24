@@ -23,7 +23,7 @@
 20	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	19	case	_	_
 21	ثقافت	ثقافت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	conj	_	_
 22	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	21	case	_	_
-23	ترجماني	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	compound	_	_
+23	ترجماني	ترجماني	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	compound	_	_
 24	ڪن	ڪن	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	9	advcl	_	_
 25	ٿا	آهي	AUX	VAUX	Number=Plur|Tense=Pres	24	aux	_	SpaceAfter=No
 26	.	.	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
@@ -33,7 +33,7 @@
 # source = https://books.sindhsalamat.com/book/2189/read/68258
 1	سندم	_	PRON	PRP	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 2	يار	يار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
-3	سُهڻو	_	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+3	سُهڻو	سُهڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
 4	،	،	PUNCT	PUNCT	_	3	punct	_	_
 5	هزارن	_	NUM	NUM	Case=Acc|Number=Plur	7	nummod	_	_
 6	۾	۾	ADP	PSPL	_	5	case	_	_
@@ -74,7 +74,7 @@
 2	مرشد	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	iobj	_	_
 3	کي	کي	ADP	PSP	_	2	case	_	_
 4	سندم	_	PRON	PRP	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
-5	اوطاق	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+5	اوطاق	اوطاق	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 6	تي	تي	ADP	PSPL	_	5	case	_	_
 7	هار	هار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 8	پارائيندي	_	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=PresPart	0	root	_	SpaceAfter=No
@@ -125,7 +125,7 @@
 6	جون	جو	ADP	PSPG	Case=Nom|Gender=Fem|Number=Plur	5	case	_	_
 7	مبارڪون	مبارڪ	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	obj	_	_
 8	ڏیڻ	_	VERB	VM	Aspect=Imp|VerbForm=Inf	12	advcl	_	_
-9	ڪیترائي	_	ADJ	JJ	Case=Nom|Gender=Masc|Number=Plur	10	amod	_	_
+9	ڪیترائي	ڪیترائي	ADJ	JJ	Case=Nom|Gender=Masc|Number=Plur	10	amod	_	_
 10	سڄڻ	سڄڻ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 11	قرب	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	compound	_	_
 12	ڪري	ڪر	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
@@ -140,9 +140,9 @@
 3	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 4	حيثيت	حيثيت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	_
 5	رکندڙ	رک	VERB	VM	Aspect=Imp	10	acl	_	_
-6	انتھائي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	10	amod	_	_
+6	انتھائي	انتھائي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	10	amod	_	_
 7	پيارو	پيارو	ADJ	JJ	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	10	amod	_	_
-8	بااخلاق	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	10	amod	_	_
+8	بااخلاق	بااخلاق	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	10	amod	_	_
 9	سلڇڻو	سلڇڻو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	شاگرد	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
 11	منور	_	PROPN	NNP	Case=Nom|Gender=Masc	21	nsubj	_	_
@@ -163,6 +163,6 @@
 # source = https://books.sindhsalamat.com/book/337/read/17242
 1	سندم	_	PRON	PRP	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 2	ڌرتي	ڌرتي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-3	سخي	_	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
+3	سخي	سخي	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	SpaceAfter=No
 

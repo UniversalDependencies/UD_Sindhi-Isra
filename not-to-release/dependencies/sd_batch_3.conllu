@@ -2617,8 +2617,8 @@
 # sent_id = 3800c
 # text = جن اينٽي اسٽيبلشمينٽ سياست ڪئي.
 1	جن	جي	PRON	_	_	5	nsubj	_	_
-2	اينٽي	_	NOUN	_	_	3	nmod	_	_
-3	اسٽيبلشمينٽ	_	NOUN	_	_	4	nmod	_	_
+2	اينٽي	اينٽي	NOUN	_	_	3	nmod	_	_
+3	اسٽيبلشمينٽ	اسٽيبلشمينٽ	NOUN	_	_	4	nmod	_	_
 4	سياست	سياست	NOUN	_	_	5	obj	_	_
 5	ڪئي	ڪئي	VERB	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -8374,7 +8374,7 @@
 6	،	،	PUNCT	_	_	5	punct	_	_
 7	ريپبلڪ	_	NOUN	_	_	9	nmod	_	_
 8	آف	آف	NOUN	_	_	9	nmod	_	_
-9	آئرلينڊ	_	NOUN	_	_	2	conj	_	SpaceAfter=No
+9	آئرلينڊ	آئرلينڊ	NOUN	_	_	2	conj	_	SpaceAfter=No
 10	،	،	PUNCT	_	_	13	punct	_	_
 11	برطانيه	برطانيه	PROPN	_	_	13	nmod	_	_
 12	وارو	وارو	ADP	_	_	11	case	_	_
@@ -8699,7 +8699,7 @@
 # text = پوليس يا بارڊر سيڪيورٽي فورس موجود هجي
 1	پوليس	پوليس	NOUN	_	_	5	conj	_	_
 2	يا	يا	CCONJ	_	_	5	cc	_	_
-3	بارڊر	_	NOUN	_	_	4	nmod	_	_
+3	بارڊر	بارڊر	NOUN	_	_	4	nmod	_	_
 4	سيڪيورٽي	سيڪيورٽي	NOUN	_	_	5	nmod	_	_
 5	فورس	_	NOUN	_	_	6	nsubj	_	_
 6	موجود	_	ADV	_	_	0	root	_	_
@@ -8793,7 +8793,7 @@
 7	ڀورا	ڀورو	ADJ	_	_	0	root	_	_
 8	آهن	آهي	AUX	_	_	7	cop	_	_
 9	۽	۽	CCONJ	_	_	17	cc	_	_
-10	انگريزن	_	NOUN	_	_	12	nmod	_	_
+10	انگريزن	انگريز	NOUN	_	_	12	nmod	_	_
 11	جي	جي	ADP	_	_	10	case	_	_
 12	ملڪ	ملڪ	NOUN	_	_	13	nmod	_	_
 13	برطانيه	برطانيه	PROPN	_	_	15	nmod	_	_
@@ -8808,7 +8808,7 @@
 22	ڳالهائين	ڳالهاءِ	VERB	_	_	17	conj	_	_
 23	ٿا	آهي	AUX	_	_	22	aux	_	_
 24	پر	پر	SCONJ	_	_	22	mark	_	_
-25	اصليت	_	NOUN	_	_	29	obl	_	_
+25	اصليت	اصليت	NOUN	_	_	29	obl	_	_
 26	۾	۾	ADP	_	_	25	case	_	_
 27	قطعي	_	ADJ	_	_	28	amod	_	_
 28	طور	طور	NOUN	_	_	29	obl	_	_
@@ -8823,7 +8823,7 @@
 3	اصل	اصل	ADJ	_	_	4	amod	_	_
 4	زبان	زبان	NOUN	_	_	12	nmod	_	_
 5	يعني	يعني	ADP	_	_	4	case	_	_
-6	آئرش	_	NOUN	_	_	12	nmod	_	_
+6	آئرش	آئرش	NOUN	_	_	12	nmod	_	_
 7	۽	۽	CCONJ	_	_	8	cc	_	_
 8	انگريزيءَ	انگريزيءَ	NOUN	_	_	6	conj	_	_
 9	۾	۾	ADP	_	_	6	case	_	_
@@ -8838,7 +8838,7 @@
 1	مون	مون	PRON	_	_	12	obl	_	_
 2	کي	کي	ADP	_	_	1	case	_	_
 3	ته	ته	PART	_	_	1	advmod:emph	_	_
-4	آئرش	_	NOUN	_	_	5	nmod	_	_
+4	آئرش	آئرش	NOUN	_	_	5	nmod	_	_
 5	ٻولي	ٻولي	NOUN	_	_	12	nsubj	_	_
 6	بروهي	_	ADJ	_	_	7	amod	_	_
 7	ٻوليءَ	ٻوليءَ	NOUN	_	_	12	obl	_	_
@@ -8852,7 +8852,7 @@
 
 # sent_id = 4098
 # text = انگريزن سندن ملڪ کان هزارين ميل پري هندستان تي اچي حڪومت ڪئي سو پاڙي ۾ موجود آئرلينڊ سندن حوس اقتدار کان ڪيئن ٿي بچي سگهيو سو ڪئين جهيڙن ۽ جنگين کانپوءِ آئرلينڊ تي پڻ گهڻائي سال حڪومت ڪرڻ ۾ ڪامياب ويا.
-1	انگريزن	_	NOUN	_	_	12	nsubj	_	_
+1	انگريزن	انگريز	NOUN	_	_	12	nsubj	_	_
 2	سندن	سندو	PRON	_	_	3	nmod	_	_
 3	ملڪ	ملڪ	NOUN	_	_	7	obl	_	_
 4	کان	کان	ADP	_	_	3	case	_	_
@@ -8956,7 +8956,7 @@
 7	ڪبي	ڪبو	VERB	_	_	0	root	_	_
 8	آهي	آهي	AUX	_	_	7	aux	_	_
 9	ته	ته	SCONJ	_	_	15	mark	_	_
-10	انگريزن	_	NOUN	_	_	12	nmod	_	_
+10	انگريزن	انگريز	NOUN	_	_	12	nmod	_	_
 11	جي	جي	ADP	_	_	10	case	_	_
 12	خلاف	خلاف	ADP	_	_	15	advmod	_	_
 13	نفرت	نفرت	NOUN	_	_	15	nsubj	_	_
@@ -8985,7 +8985,7 @@
 36	هن	هن	DET	_	_	37	det	_	_
 37	پارٽيءَ	_	NOUN	_	_	40	obl	_	_
 38	لاءِ	لاءِ	ADP	_	_	37	case	_	_
-39	تاثرات	_	NOUN	_	_	40	nsubj	_	_
+39	تاثرات	تاثرات	NOUN	_	_	40	nsubj	_	_
 40	سٺا	سٺو	ADJ	_	_	30	conj	_	_
 41	ڪونه	ڪونه	PART	_	_	40	dep	_	_
 42	آهن	آهي	AUX	_	_	40	cop	_	SpaceAfter=No
@@ -9047,7 +9047,7 @@
 # sent_id = 4104
 # text = مڪمل آئرش ٻولي ڳالهائيندڙ ماڻهن جو ڳاڻيٽو ڪو ٻه ٽي هزار مس ٿيندو.
 1	مڪمل	مڪمل	ADJ	_	_	3	amod	_	_
-2	آئرش	_	NOUN	_	_	3	nmod	_	_
+2	آئرش	آئرش	NOUN	_	_	3	nmod	_	_
 3	ٻولي	ٻولي	NOUN	_	_	4	obj	_	_
 4	ڳالهائيندڙ	ڳالهاءِ	VERB	_	_	5	acl	_	_
 5	ماڻهن	ماڻهو	NOUN	_	_	7	nmod	_	_
@@ -9071,7 +9071,7 @@
 6	تي	تي	ADP	_	_	5	case	_	_
 7	صرف	صرف	ADJ	_	_	10	amod	_	_
 8	”	”	PUNCT	_	_	9	cc	_	SpaceAfter=No
-9	ثواب	_	NOUN	_	_	10	nmod	_	_
+9	ثواب	ثواب	NOUN	_	_	10	nmod	_	_
 10	خاطر	خاطر	NOUN	_	_	13	nmod	_	SpaceAfter=No
 11	“	“	PUNCT	_	_	10	punct	_	_
 12	ڪجهه	ڪجهه	ADJ	_	_	13	amod	_	_
@@ -9123,9 +9123,9 @@
 # sent_id = 4109
 # text = قومي اسيمبليءَ لاءِ آئرش ٻوليءَ جو لفظ ”ڊائل“ استعمال ڪن.
 1	قومي	قوم	ADJ	_	_	2	amod	_	_
-2	اسيمبليءَ	_	NOUN	_	_	12	obl	_	_
+2	اسيمبليءَ	اسيمبليءَ	NOUN	_	_	12	obl	_	_
 3	لاءِ	لاءِ	ADP	_	_	2	case	_	_
-4	آئرش	_	NOUN	_	_	5	nmod	_	_
+4	آئرش	آئرش	NOUN	_	_	5	nmod	_	_
 5	ٻوليءَ	ٻوليءَ	NOUN	_	_	7	nmod	_	_
 6	جو	جو	ADP	_	_	5	case	_	_
 7	لفظ	لفظ	NOUN	_	_	12	nsubj	_	_
@@ -9138,7 +9138,7 @@
 
 # sent_id = 4110
 # text = انگريز وري دنيا جي ملڪن تي حڪومت ڪرڻ جو وسيع تجربو هجڻ ڪري آئرلينڊ جي ڪجهه حصي تي پنهنجو اقتدار اعليٰ ته قائم ڪري ويٺا آهن،
-1	انگريز	_	NOUN	_	_	12	nsubj	_	_
+1	انگريز	انگريز	NOUN	_	_	12	nsubj	_	_
 2	وري	وري	ADV	_	_	12	advmod	_	_
 3	دنيا	دنيا	NOUN	_	_	5	nmod	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
@@ -9148,7 +9148,7 @@
 8	ڪرڻ	ڪر	VERB	_	_	11	nmod	_	_
 9	جو	جو	ADP	_	_	8	mark	_	_
 10	وسيع	وسيع	ADJ	_	_	11	amod	_	_
-11	تجربو	_	NOUN	_	_	12	compound	_	_
+11	تجربو	تجربو	NOUN	_	_	12	compound	_	_
 12	هجڻ	هجڻ	VERB	_	_	13	advcl	_	_
 13	ڪري	ڪر	VERB	_	_	24	advcl	_	_
 14	آئرلينڊ	آئرلينڊ	PROPN	_	_	17	nmod	_	_
@@ -9207,7 +9207,7 @@
 # text = ڪنهن ۾ آئرش کي يورپين يونين جو شهري هجڻ ڪري پوري برطانيه ۾ رهڻ ۽ ڪمائڻ جي کُلي اجازت آهي.
 1	ڪنهن	ڪو	DET	_	_	9	obl	_	_
 2	۾	۾	ADP	_	_	1	case	_	_
-3	آئرش	_	NOUN	_	_	9	obj	_	_
+3	آئرش	آئرش	NOUN	_	_	9	obj	_	_
 4	کي	کي	ADP	_	_	3	case	_	_
 5	يورپين	_	NOUN	_	_	6	nmod	_	_
 6	يونين	يونين	NOUN	_	_	8	nmod	_	_
@@ -9244,7 +9244,7 @@
 13	ٽيهن	_	NOUN	_	_	15	obl	_	_
 14	کان	کان	ADP	_	_	13	case	_	_
 15	مٿي	مٿي	ADV	_	_	17	advmod	_	_
-16	اڏامون	_	NOUN	_	_	17	nsubj	_	_
+16	اڏامون	اڏامون	NOUN	_	_	17	nsubj	_	_
 17	اچن	اچ	VERB	_	_	0	root	_	_
 18	۽	۽	CCONJ	_	_	19	cc	_	_
 19	وڃن	وڃ	VERB	_	_	17	conj	_	_
@@ -9308,7 +9308,7 @@
 28	رهائشگاهه	رهائشگاهه	NOUN	_	_	32	obl	_	_
 29	10	10	NUM	_	_	31	nummod	_	_
 30	ڊائوننگ	_	NOUN	_	_	31	nmod	_	_
-31	اسٽريٽ	_	NOUN	_	_	32	obl	_	_
+31	اسٽريٽ	اسٽريٽ	NOUN	_	_	32	obl	_	_
 32	پهتا	پهتو	VERB	_	_	0	root	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	32	punct	_	_
 
@@ -9511,7 +9511,7 @@
 # text = جيڪا نصيحت آموز ڳالهه (جنهن کي ملئي زبان ۾ ”حڪايت“ سڏجي ٿو) هن ريت آهي.
 1	جيڪا	جيڪو	DET	_	_	3	det	_	_
 2	نصيحت	نصيحت	NOUN	_	_	3	nmod	_	_
-3	آموز	_	NOUN	_	_	4	nmod	_	_
+3	آموز	آموز	NOUN	_	_	4	nmod	_	_
 4	ڳالهه	ڳالهه	NOUN	_	_	14	nsubj	_	_
 5	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 6	جنهن	جنهن	PRON	_	_	14	obj	_	_
@@ -9740,7 +9740,7 @@
 11	پئجي	پئج	VERB	_	_	4	advcl	_	_
 12	وئي	وئي	VERB	_	_	11	compound	_	_
 13	۽	۽	CCONJ	_	_	25	cc	_	_
-14	اونداهه	_	NOUN	_	_	17	obl	_	_
+14	اونداهه	اونداه	NOUN	_	_	17	obl	_	_
 15	۾	۾	ADP	_	_	14	case	_	_
 16	وڌيڪ	وڌيڪ	ADJ	_	_	17	compound	_	_
 17	اڏامڻ	اڏام	VERB	_	_	25	advcl	_	_
@@ -9773,7 +9773,7 @@
 # text = چٻري پنهنجو تعارف ڪرائيندي هنن کي ٻڌايو ته هو هن ئي جهنگل جو رهواسي آهي.
 1	چٻري	_	ADJ	_	_	7	nsubj	_	_
 2	پنهنجو	پنهنجو	PRON	_	_	3	nmod	_	_
-3	تعارف	_	NOUN	_	_	4	compound	_	_
+3	تعارف	تعارف	NOUN	_	_	4	compound	_	_
 4	ڪرائيندي	ڪراءِ	VERB	_	_	7	advcl	_	_
 5	هنن	هي	DET	_	_	7	iobj	_	_
 6	کي	کي	ADP	_	_	5	case	_	_
@@ -10154,7 +10154,7 @@
 
 # sent_id = 4160
 # text = اُتساهه فقط ٻارن وٽ وڃي بچيو آهي
-1	اُتساهه	_	NOUN	_	_	6	nsubj	_	_
+1	اُتساهه	اُتساهه	NOUN	_	_	6	nsubj	_	_
 2	فقط	فقط	ADJ	_	_	3	amod	_	_
 3	ٻارن	ٻار	NOUN	_	_	6	obl	_	_
 4	وٽ	وٽ	ADP	_	_	3	case	_	_
@@ -10331,7 +10331,7 @@
 4	انهن	ان	DET	_	_	5	det	_	_
 5	مسئلن	مسئلو	NOUN	_	_	7	nmod	_	_
 6	جي	جي	ADP	_	_	5	case	_	_
-7	بٺي	_	NOUN	_	_	10	obl	_	_
+7	بٺي	بٺي	NOUN	_	_	10	obl	_	_
 8	۾	۾	ADP	_	_	7	case	_	_
 9	پاڻ	پاڻ	PRON	_	_	10	obj	_	_
 10	سڙي	سڙي	VERB	_	_	0	root	_	_
@@ -10412,7 +10412,7 @@
 # text = آخر ڪهڙين اُميدن ۽ خواهشن سان هن سال جي شروعات ڪجي جتي هر بوگس ديوار حساس نظرين ۽ آسماني نظرين جي رنگ سان رنڱيل هجي.
 1	آخر	آخر	NOUN	_	_	11	obl	_	_
 2	ڪهڙين	_	ADJ	_	_	3	amod	_	_
-3	اُميدن	_	NOUN	_	_	11	obl	_	_
+3	اُميدن	اُميد	NOUN	_	_	11	obl	_	_
 4	۽	۽	CCONJ	_	_	5	cc	_	_
 5	خواهشن	خواهش	NOUN	_	_	3	conj	_	_
 6	سان	سان	ADP	_	_	3	case	_	_
@@ -10423,7 +10423,7 @@
 11	ڪجي	ڪج	VERB	_	_	0	root	_	_
 12	جتي	جتي	ADV	_	_	24	mark	_	_
 13	هر	هر	DET	_	_	15	det	_	_
-14	بوگس	_	NOUN	_	_	15	nmod	_	_
+14	بوگس	بوگس	NOUN	_	_	15	nmod	_	_
 15	ديوار	ديوار	NOUN	_	_	24	nsubj	_	_
 16	حساس	حساس	ADJ	_	_	17	amod	_	_
 17	نظرين	نظريو	NOUN	_	_	22	nmod	_	_
@@ -10511,7 +10511,7 @@
 4	جي	جي	ADP	_	_	3	case	_	_
 5	شروعات	شروعات	NOUN	_	_	9	nsubj	_	_
 6	ڀل	ڀل	ADV	_	_	9	advmod	_	_
-7	اُميدن	_	NOUN	_	_	9	obl	_	_
+7	اُميدن	اُميد	NOUN	_	_	9	obl	_	_
 8	سان	سان	ADP	_	_	7	case	_	_
 9	ڪريون	ڪر	VERB	_	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -10621,7 +10621,7 @@
 # sent_id = 4183
 # text = صدر اوباما نئين سال جي شروعات هڪ ٻئي ڪوڙ سان ڪئي آهي.
 1	صدر	صدر	NOUN	_	_	2	nmod	_	_
-2	اوباما	_	NOUN	_	_	11	nsubj	_	_
+2	اوباما	اوباما	NOUN	_	_	11	nsubj	_	_
 3	نئين	نئين	ADJ	_	_	4	amod	_	_
 4	سال	سال	NOUN	_	_	6	nmod	_	_
 5	جي	جي	ADP	_	_	4	case	_	_
@@ -10646,7 +10646,7 @@
 8	غاصب	_	NOUN	_	_	9	nmod	_	_
 9	قوتن	_	NOUN	_	_	11	nmod	_	_
 10	جي	جي	ADP	_	_	9	case	_	_
-11	ايمانداري	_	NOUN	_	_	14	obl	_	_
+11	ايمانداري	ايمانداري	NOUN	_	_	14	obl	_	_
 12	سان	سان	ADP	_	_	11	case	_	_
 13	نوڪري	نوڪر	NOUN	_	_	14	compound	_	_
 14	ڪري	ڪر	VERB	_	_	4	obj	_	_
@@ -10677,7 +10677,7 @@
 # sent_id = 4185
 # text = هي اميدون يتيمن جيان هڪ مهيني کان ٻئي مهيني تائين سفر ڪندي ڪندي وري ٻئي ايندڙ نئين سال ۾ پير رکنديون.
 1	هي	هي	DET	_	_	2	det	_	_
-2	اميدون	_	NOUN	_	_	13	nsubj	_	_
+2	اميدون	اميد	NOUN	_	_	13	nsubj	_	_
 3	يتيمن	_	NOUN	_	_	13	obl	_	_
 4	جيان	جيان	ADV	_	_	13	advmod	_	_
 5	هڪ	هڪ	ADJ	_	_	6	amod	_	_
@@ -10703,7 +10703,7 @@
 # text = انهن يتيم اميدين جي اهميت کوٽي سڪي جهڙي آهي.
 1	انهن	ان	DET	_	_	3	det	_	_
 2	يتيم	يتيم	ADJ	_	_	3	amod	_	_
-3	اميدين	_	NOUN	_	_	5	nmod	_	_
+3	اميدين	اميدي	NOUN	_	_	5	nmod	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
 5	اهميت	اهميت	NOUN	_	_	8	nsubj	_	_
 6	کوٽي	کوٽي	ADJ	_	_	7	amod	_	_
@@ -10749,7 +10749,7 @@
 5	۽	۽	CCONJ	_	_	6	cc	_	_
 6	يتيم	_	NOUN	_	_	4	conj	_	_
 7	عوام	عوام	NOUN	_	_	13	nsubj	_	_
-8	بوگس	_	NOUN	_	_	9	nmod	_	_
+8	بوگس	بوگس	NOUN	_	_	9	nmod	_	_
 9	نظام	نظام	NOUN	_	_	13	obl	_	_
 10	مان	مان	ADP	_	_	9	case	_	_
 11	ڇوٽڪارو	_	NOUN	_	_	13	obj	_	_
@@ -10922,7 +10922,7 @@
 3	ٻار	ٻار	NOUN	_	_	8	nsubj	_	_
 4	وڏن	وڏو	ADJ	_	_	7	nmod	_	_
 5	جون	جو	ADP	_	_	4	case	_	_
-6	الجهيل	_	NOUN	_	_	7	nmod	_	_
+6	الجهيل	الجهيل	NOUN	_	_	7	nmod	_	_
 7	گتيون	_	NOUN	_	_	8	obj	_	_
 8	سلجهائي	سلجهاءِ	VERB	_	_	0	root	_	_
 9	ويندا	ويندو	VERB	_	_	8	compound	_	_
@@ -10943,7 +10943,7 @@
 
 # sent_id = 4199
 # text = بقول هلينا جي ته،
-1	بقول	_	NOUN	_	_	2	nsubj	_	_
+1	بقول	بقول	NOUN	_	_	2	nsubj	_	_
 2	هلينا	_	PROPN	_	_	0	root	_	_
 3	جي	جي	ADP	_	_	2	case	_	_
 4	ته	ته	SCONJ	_	_	2	mark	_	SpaceAfter=No
@@ -11212,7 +11212,7 @@
 2	جي	جي	ADP	_	_	1	case	_	_
 3	واڌاري	واڌارو	NOUN	_	_	9	nmod	_	_
 4	۽	۽	CCONJ	_	_	5	cc	_	_
-5	ترقيءَ	_	NOUN	_	_	3	conj	_	_
+5	ترقيءَ	ترقيءَ	NOUN	_	_	3	conj	_	_
 6	۾	۾	ADP	_	_	3	case	_	_
 7	ترجمي	ترجمو	NOUN	_	_	9	nmod	_	_
 8	جو	جو	ADP	_	_	7	case	_	_
@@ -11283,7 +11283,7 @@
 # text = جيترو خود ثقافتون.
 1	جيترو	جيترو	ADV	_	_	3	advmod	_	_
 2	خود	خود	ADJ	_	_	3	amod	_	_
-3	ثقافتون	_	NOUN	_	_	0	root	_	SpaceAfter=No
+3	ثقافتون	ثقافت	NOUN	_	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 4231
@@ -11292,7 +11292,7 @@
 2	ڪري	ڪر	VERB	_	_	11	advcl	_	_
 3	ثقافت	ثقافت	NOUN	_	_	5	nmod	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
-5	اسرڻ	_	NOUN	_	_	11	obl	_	_
+5	اسرڻ	اسرڻ	NOUN	_	_	11	obl	_	_
 6	سان	سان	ADP	_	_	5	case	_	_
 7	ئي	ئي	ADP	_	_	5	dep	_	_
 8	ترجمي	ترجمو	NOUN	_	_	10	nmod	_	_
@@ -11380,7 +11380,7 @@
 8	مصنفن	_	NOUN	_	_	19	nsubj	_	_
 9	بائيبل	_	PROPN	_	_	11	nmod	_	_
 10	جي	جي	ADP	_	_	9	case	_	_
-11	آکاڻين	_	NOUN	_	_	19	obl	_	_
+11	آکاڻين	آکاڻي	NOUN	_	_	19	obl	_	_
 12	۾	۾	ADP	_	_	11	case	_	SpaceAfter=No
 13	،	،	PUNCT	_	_	11	punct	_	_
 14	آدم	آدم	PROPN	_	_	19	obl	_	_
@@ -11503,7 +11503,7 @@
 # text = ٽيڪنالاجيءَ جي ترقيءَ سان ڪلچر پنهنجي سرزمين کان وانجهجي نٿو وڃي پر پاڻ اُن جي اهميت وڌيو وڃي.
 1	ٽيڪنالاجيءَ	ٽيڪنالاجيءَ	NOUN	_	_	3	nmod	_	_
 2	جي	جي	ADP	_	_	1	case	_	_
-3	ترقيءَ	_	NOUN	_	_	9	obl	_	_
+3	ترقيءَ	ترقيءَ	NOUN	_	_	9	obl	_	_
 4	سان	سان	ADP	_	_	3	case	_	_
 5	ڪلچر	_	NOUN	_	_	9	nsubj	_	_
 6	پنهنجي	پنهنجي	PRON	_	_	7	nmod	_	_
@@ -11535,7 +11535,7 @@
 10	سـُـڌ	_	NOUN	_	_	5	conj	_	_
 11	آهي	آهي	AUX	_	_	10	cop	_	_
 12	ته	ته	SCONJ	_	_	23	mark	_	_
-13	اخلاقيات	_	NOUN	_	_	19	nmod	_	_
+13	اخلاقيات	اخلاقيات	NOUN	_	_	19	nmod	_	_
 14	۽	۽	CCONJ	_	_	17	cc	_	_
 15	ترقي	ترقي	NOUN	_	_	17	nmod	_	_
 16	يافته	يافته	ADJ	_	_	17	amod	_	_
@@ -11605,7 +11605,7 @@
 6	۾	۾	ADP	_	_	5	case	_	SpaceAfter=No
 7	،	،	PUNCT	_	_	5	punct	_	_
 8	انساني	انساني	ADJ	_	_	9	amod	_	_
-9	اخلاقيات	_	NOUN	_	_	13	obj	_	_
+9	اخلاقيات	اخلاقيات	NOUN	_	_	13	obj	_	_
 10	کي	کي	ADP	_	_	9	case	_	_
 11	نئون	نئون	ADJ	_	_	12	amod	_	_
 12	موڙ	موڙ	NOUN	_	_	13	obj	_	_
@@ -11809,7 +11809,7 @@
 3	تاريخ	تاريخ	NOUN	_	_	8	nsubj	_	_
 4	ماڻهن	ماڻهو	NOUN	_	_	6	nmod	_	_
 5	جي	جي	ADP	_	_	4	case	_	_
-6	احوالن	_	NOUN	_	_	8	obl	_	_
+6	احوالن	احوال	NOUN	_	_	8	obl	_	_
 7	سان	سان	ADP	_	_	6	case	_	_
 8	ڀري	ڀر	VERB	_	_	0	root	_	_
 9	پيئي	پيو	VERB	_	_	8	compound	_	_
@@ -11881,7 +11881,7 @@
 12	۾	۾	ADP	_	_	11	case	_	_
 13	هڪ	هڪ	ADJ	_	_	15	amod	_	_
 14	اهڙي	اهڙو	ADJ	_	_	15	amod	_	_
-15	اپٽار	_	NOUN	_	_	5	conj	_	_
+15	اپٽار	اپٽار	NOUN	_	_	5	conj	_	_
 16	آهن	آهي	AUX	_	_	15	cop	_	SpaceAfter=No
 17	،	،	PUNCT	_	_	5	punct	_	_
 
@@ -11925,7 +11925,7 @@
 6	و	_	ADJ	_	_	7	compound	_	_
 7	رواج	رواج	NOUN	_	_	9	nmod	_	_
 8	جو	جو	ADP	_	_	7	case	_	_
-9	اولڙو	_	NOUN	_	_	0	root	_	_
+9	اولڙو	اولڙو	NOUN	_	_	0	root	_	_
 10	آهي	آهي	AUX	_	_	9	cop	_	_
 11	۽	۽	CCONJ	_	_	17	cc	_	_
 12	انهيءَ	ان	DET	_	_	13	det	_	_
@@ -12011,7 +12011,7 @@
 17	تفصيل	تفصيل	NOUN	_	_	20	nmod	_	_
 18	۽	۽	CCONJ	_	_	19	cc	_	_
 19	وسيع	وسيع	ADJ	_	_	17	conj	_	_
-20	بياني	_	NOUN	_	_	0	root	_	_
+20	بياني	بياني	NOUN	_	_	0	root	_	_
 21	آهي	آهي	AUX	_	_	20	cop	_	_
 22	بلڪه	بلڪه	CCONJ	_	_	26	cc	_	_
 23	فردوسيءَ	_	NOUN	_	_	26	nmod	_	_
@@ -12049,7 +12049,7 @@
 3	انهيءَ	ان	DET	_	_	4	det	_	_
 4	صلاحيت	صلاحيت	NOUN	_	_	10	obj	_	_
 5	کي	کي	ADP	_	_	4	case	_	_
-6	آفاقيت	_	NOUN	_	_	10	obj	_	_
+6	آفاقيت	آفاقيت	NOUN	_	_	10	obj	_	_
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Universality	_	NOUN	_	_	6	conj	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	8	punct	_	_
@@ -12092,7 +12092,7 @@
 6	جڏهن	جڏهن	ADV	_	_	15	advmod	_	_
 7	فرانس	فرانس	PROPN	_	_	9	nmod	_	_
 8	جي	جي	ADP	_	_	7	case	_	_
-9	اسٽيج	_	NOUN	_	_	15	obl	_	_
+9	اسٽيج	اسٽيج	NOUN	_	_	15	obl	_	_
 10	تي	تي	ADP	_	_	9	case	_	_
 11	فرينچ	_	NOUN	_	_	12	nmod	_	_
 12	گفتگو	گفتگو	NOUN	_	_	15	obl	_	_
@@ -12210,7 +12210,7 @@
 13	جي	جي	ADP	_	_	12	case	_	_
 14	اصلوڪين	اصلوڪو	ADJ	_	_	16	amod	_	_
 15	تخليقي	تخليقي	ADJ	_	_	16	amod	_	_
-16	تحريرن	_	NOUN	_	_	18	obl	_	_
+16	تحريرن	تحرير	NOUN	_	_	18	obl	_	_
 17	تي	تي	ADP	_	_	16	case	_	_
 18	بيٺل	بيٺو	VERB	_	_	0	root	_	_
 19	آهي	آهي	AUX	_	_	18	aux	_	SpaceAfter=No
@@ -12259,7 +12259,7 @@
 24	ادب	ادب	NOUN	_	_	30	obl	_	_
 25	۽	۽	CCONJ	_	_	27	cc	_	_
 26	مقامي	مقامي	ADJ	_	_	27	amod	_	_
-27	تحريرن	_	NOUN	_	_	24	conj	_	_
+27	تحريرن	تحرير	NOUN	_	_	24	conj	_	_
 28	جي	جي	ADP	_	_	24	case	_	_
 29	ڪري	ڪري	ADP	_	_	24	case	_	_
 30	اڳڀريون	اڳڀري	ADJ	_	_	0	root	_	_
@@ -12278,7 +12278,7 @@
 8	سموئڻ	سموءِ	VERB	_	_	10	advcl	_	_
 9	جي	جي	ADP	_	_	8	mark	_	_
 10	ڪري	ڪر	VERB	_	_	11	advcl	_	_
-11	اُتم	_	NOUN	_	_	0	root	_	_
+11	اُتم	اُتم	NOUN	_	_	0	root	_	_
 12	آهن	آهي	AUX	_	_	11	cop	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -12326,7 +12326,7 @@
 4	زبان	زبان	NOUN	_	_	9	nsubj	_	SpaceAfter=No
 5	،	،	PUNCT	_	_	4	punct	_	_
 6	جا	جو	ADP	_	_	4	case	_	_
-7	تمدن	_	NOUN	_	_	9	nmod	_	_
+7	تمدن	تمدن	NOUN	_	_	9	nmod	_	_
 8	جي	جي	ADP	_	_	7	case	_	_
 9	زبان	زبان	NOUN	_	_	0	root	_	_
 10	آهي	آهي	AUX	_	_	9	cop	_	SpaceAfter=No
@@ -12335,7 +12335,7 @@
 # sent_id = 4297
 # text = ايلزبيٿ اول ۽ جيمس جي دورن ۾ مترجمن سنواري،
 1	ايلزبيٿ	_	PROPN	_	_	2	compound	_	_
-2	اول	_	NOUN	_	_	6	nmod	_	_
+2	اول	اول	NOUN	_	_	6	nmod	_	_
 3	۽	۽	CCONJ	_	_	4	cc	_	_
 4	جيمس	_	PROPN	_	_	2	conj	_	_
 5	جي	جي	ADP	_	_	2	case	_	_
@@ -12441,7 +12441,7 @@
 2	به	به	PART	_	_	1	advmod:emph	_	_
 3	ترجمو	ترجمو	NOUN	_	_	10	nsubj	_	_
 4	تخليقي	تخليقي	ADJ	_	_	5	amod	_	_
-5	تحرير	_	NOUN	_	_	10	nmod	_	_
+5	تحرير	تحرير	NOUN	_	_	10	nmod	_	_
 6	وانگي	وانگي	ADV	_	_	7	advmod	_	_
 7	وفادار	وفادار	ADJ	_	_	10	amod	_	_
 8	۽	۽	CCONJ	_	_	9	cc	_	_
@@ -12474,7 +12474,7 @@
 6	اهڙن	اهڙو	ADJ	_	_	7	amod	_	_
 7	ڪتابن	ڪتاب	NOUN	_	_	9	nmod	_	_
 8	جا	جو	ADP	_	_	7	case	_	_
-9	ترجما	_	NOUN	_	_	10	obj	_	_
+9	ترجما	ترجمو	NOUN	_	_	10	obj	_	_
 10	ڪيا	ڪيو	VERB	_	_	3	advcl	_	_
 11	ويندا	ويندو	VERB	_	_	10	compound	_	_
 12	آهن	آهي	AUX	_	_	10	aux	_	SpaceAfter=No
@@ -12503,7 +12503,7 @@
 # sent_id = 4310
 # text = اهڙا ترجما پنهنجي جاءِ پيدا نه ڪندا آهن.
 1	اهڙا	اهڙو	ADJ	_	_	2	amod	_	_
-2	ترجما	_	NOUN	_	_	7	nsubj	_	_
+2	ترجما	ترجمو	NOUN	_	_	7	nsubj	_	_
 3	پنهنجي	پنهنجي	PRON	_	_	4	nmod	_	_
 4	جاءِ	جاءِ	NOUN	_	_	5	obj	_	_
 5	پيدا	پيدا	VERB	_	_	7	xcomp	_	_
@@ -12665,7 +12665,7 @@
 9	ٻولي	ٻولي	NOUN	_	_	10	nmod	_	_
 10	ڳالهائيندڙن	_	NOUN	_	_	12	nmod	_	_
 11	جي	جي	ADP	_	_	10	case	_	_
-12	اندازِ	_	NOUN	_	_	13	nmod	_	_
+12	اندازِ	اندازِ	NOUN	_	_	13	nmod	_	_
 13	فڪر	فڪر	NOUN	_	_	19	obl	_	_
 14	کان	کان	ADP	_	_	13	case	_	_
 15	ڪافي	ڪافي	ADJ	_	_	16	amod	_	_
@@ -12683,7 +12683,7 @@
 27	ٿيندا	آهي	VERB	_	_	19	conj	_	_
 28	آهن	آهي	AUX	_	_	27	aux	_	_
 29	بلڪه	بلڪه	ADV	_	_	34	mark	_	_
-30	اندازِ	_	NOUN	_	_	31	nmod	_	_
+30	اندازِ	اندازِ	NOUN	_	_	31	nmod	_	_
 31	بيان	بيان	NOUN	_	_	34	nsubj	_	_
 32	به	به	PART	_	_	31	advmod:emph	_	_
 33	مختلف	مختلف	ADJ	_	_	34	compound	_	_
@@ -12952,7 +12952,7 @@
 8	هڪ	هڪ	ADJ	_	_	9	compound	_	_
 9	ٻئي	ٻہ	ADJ	_	_	11	nmod	_	_
 10	۾	۾	ADP	_	_	9	case	_	_
-11	جذب	_	NOUN	_	_	5	conj	_	_
+11	جذب	جذب	NOUN	_	_	5	conj	_	_
 12	آهن	آهي	AUX	_	_	11	cop	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -12987,7 +12987,7 @@
 3	تنقيد	تنقيد	NOUN	_	_	4	nmod	_	_
 4	نگار	_	NOUN	_	_	11	nsubj	_	SpaceAfter=No
 5	،	،	PUNCT	_	_	6	punct	_	_
-6	اداڪار	_	NOUN	_	_	4	conj	_	SpaceAfter=No
+6	اداڪار	اداڪار	NOUN	_	_	4	conj	_	SpaceAfter=No
 7	،	،	PUNCT	_	_	6	punct	_	_
 8	محقق	_	NOUN	_	_	4	conj	_	_
 9	۽	۽	CCONJ	_	_	10	cc	_	_
@@ -13225,7 +13225,7 @@
 58	وڌ	وڌ	ADJ	_	_	60	amod	_	_
 59	ادبي	ادبي	ADJ	_	_	60	amod	_	_
 60	صلاحيتون	_	NOUN	_	_	62	obj	_	_
-61	ادا	_	NOUN	_	_	62	compound	_	_
+61	ادا	ادا	NOUN	_	_	62	compound	_	_
 62	ڪرڻ	ڪر	VERB	_	_	68	advcl	_	_
 63	۾	۾	ADP	_	_	62	mark	_	_
 64	ادبي	ادبي	ADJ	_	_	65	amod	_	_
@@ -13258,7 +13258,7 @@
 18	انهن	ان	DET	_	_	19	det	_	_
 19	ترجمن	ترجمو	NOUN	_	_	22	obl	_	_
 20	مان	مان	ADP	_	_	19	case	_	_
-21	اُتساهه	_	NOUN	_	_	22	obj	_	_
+21	اُتساهه	اُتساهه	NOUN	_	_	22	obj	_	_
 22	وٺي	وٺ	VERB	_	_	28	advcl	_	_
 23	اڄ	اڄ	ADV	_	_	28	advmod	_	_
 24	اسان	اسين	PRON	_	_	26	nmod	_	_
@@ -13298,7 +13298,7 @@
 2	سال	سال	NOUN	_	_	0	root	_	SpaceAfter=No
 3	،	،	PUNCT	_	_	5	cc	_	_
 4	نيون	نيون	ADJ	_	_	5	amod	_	_
-5	اميدون	_	NOUN	_	_	2	conj	_	_
+5	اميدون	اميد	NOUN	_	_	2	conj	_	_
 
 # sent_id = 4357
 # text = انهن کي ٻڌايو ته ڊسمبر هليو ويو
@@ -13742,7 +13742,7 @@
 # text = ملڪن جون تقديرون سياستدان بدلائيندا آهن پر جنهن ملڪ ۾ سياست جو سفر ئي منافقت جي ٻيڙي ۾ طئي ٿئي،
 1	ملڪن	ملڪ	NOUN	_	_	3	nmod	_	_
 2	جون	جو	ADP	_	_	3	case	_	_
-3	تقديرون	_	NOUN	_	_	5	nsubj	_	_
+3	تقديرون	تقدير	NOUN	_	_	5	nsubj	_	_
 4	سياستدان	سياست	NOUN	_	_	5	nsubj	_	_
 5	بدلائيندا	بدلاءِ	VERB	_	_	0	root	_	_
 6	آهن	آهي	AUX	_	_	5	aux	_	_
@@ -13774,7 +13774,7 @@
 8	کيسا	_	NOUN	_	_	9	obj	_	_
 9	ڀرڻ	ڀر	VERB	_	_	11	nmod	_	_
 10	جي	جي	ADP	_	_	9	mark	_	_
-11	جستجو	_	NOUN	_	_	13	obl	_	_
+11	جستجو	جستجو	NOUN	_	_	13	obl	_	_
 12	۾	۾	ADP	_	_	11	case	_	_
 13	لڳل	لڳو	VERB	_	_	0	root	_	_
 14	هجي	هجي	VERB	_	_	13	aux	_	SpaceAfter=No
@@ -13802,7 +13802,7 @@
 8	ملي	مل	VERB	_	_	5	conj	_	SpaceAfter=No
 9	“	“	PUNCT	_	_	8	punct	_	_
 10	جي	جي	ADP	_	_	8	mark	_	_
-11	آنڌ	_	NOUN	_	_	12	nsubj	_	_
+11	آنڌ	آنڌ	NOUN	_	_	12	nsubj	_	_
 12	مانڌ	_	NOUN	_	_	13	nsubj	_	_
 13	هجي	هجي	VERB	_	_	5	conj	_	SpaceAfter=No
 14	،	،	PUNCT	_	_	13	punct	_	_
@@ -13818,7 +13818,7 @@
 7	بدران	بدران	ADV	_	_	6	mark	_	_
 8	انهن	ان	DET	_	_	10	nmod	_	_
 9	جون	جو	ADP	_	_	8	case	_	_
-10	اوطاقون	_	NOUN	_	_	12	nsubj	_	_
+10	اوطاقون	اوطاق	NOUN	_	_	12	nsubj	_	_
 11	دڪان	دڪان	NOUN	_	_	12	xcomp	_	_
 12	بڻجي	بڻجي	VERB	_	_	0	root	_	_
 13	وڃن	وڃ	VERB	_	_	12	compound	_	SpaceAfter=No
@@ -13835,7 +13835,7 @@
 
 # sent_id = 4386
 # text = بدلين جا واڪ لڳن،
-1	بدلين	_	NOUN	_	_	3	nmod	_	_
+1	بدلين	بدلي	NOUN	_	_	3	nmod	_	_
 2	جا	جو	ADP	_	_	1	case	_	_
 3	واڪ	_	NOUN	_	_	4	nsubj	_	_
 4	لڳن	لڳ	VERB	_	_	0	root	_	SpaceAfter=No
@@ -13853,7 +13853,7 @@
 8	اميدن	_	NOUN	_	_	10	nmod	_	_
 9	جو	جو	ADP	_	_	8	case	_	_
 10	ترهو	ترهو	ADJ	_	_	11	nsubj	_	_
-11	تري	_	NOUN	_	_	20	advcl	_	_
+11	تري	تري	NOUN	_	_	20	advcl	_	_
 12	به	به	PART	_	_	11	advmod:emph	_	_
 13	ته	ته	PART	_	_	11	advmod:emph	_	_
 14	ڪيئن	ڪيئن	ADV	_	_	20	advmod	_	SpaceAfter=No
@@ -13861,7 +13861,7 @@
 16	اهو	اهو	DET	_	_	20	det	_	_
 17	ته	ته	PART	_	_	16	advmod:emph	_	_
 18	وڃي	وڃ	VERB	_	_	20	advcl	_	_
-19	تر	_	NOUN	_	_	20	xcomp	_	_
+19	تر	تر	NOUN	_	_	20	xcomp	_	_
 20	وٺندو	وٺ	VERB	_	_	5	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	20	punct	_	_
 
@@ -13922,7 +13922,7 @@
 # text = ڪڏهن ٿي اسٽيبلشمينٽ جي مٿن اک ٻڏي،
 1	ڪڏهن	ڪڏهن	ADV	_	_	7	advmod	_	_
 2	ٿي	آهي	AUX	_	_	1	cop	_	_
-3	اسٽيبلشمينٽ	_	NOUN	_	_	5	nmod	_	_
+3	اسٽيبلشمينٽ	اسٽيبلشمينٽ	NOUN	_	_	5	nmod	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
 5	مٿن	_	PRON	_	_	6	nmod	_	_
 6	اک	اک	NOUN	_	_	7	nsubj	_	_
@@ -13935,7 +13935,7 @@
 2	ٿا	_	ADV	_	_	7	advmod	_	_
 3	ايوانن	ايوان	NOUN	_	_	5	nmod	_	_
 4	جي	جي	ADP	_	_	3	case	_	_
-5	اوٽ	_	NOUN	_	_	7	obl	_	_
+5	اوٽ	اوٽ	NOUN	_	_	7	obl	_	_
 6	۾	۾	ADP	_	_	5	case	_	_
 7	ويٺل	ويٺو	VERB	_	_	9	acl	_	_
 8	اصلوڪا	اصلوڪو	ADJ	_	_	9	amod	_	_
@@ -13944,7 +13944,7 @@
 11	جي	جي	ADP	_	_	10	case	_	_
 12	درن	_	NOUN	_	_	14	nmod	_	_
 13	جون	جو	ADP	_	_	12	case	_	_
-14	تاڪيون	_	NOUN	_	_	15	obj	_	_
+14	تاڪيون	تاڪ	NOUN	_	_	15	obj	_	_
 15	کولي	کولي	VERB	_	_	18	advcl	_	_
 16	سندن	سندو	PRON	_	_	17	nmod	_	_
 17	آجيان	آجيان	NOUN	_	_	18	compound	_	_
@@ -14099,7 +14099,7 @@
 14	باقي	باقي	ADJ	_	_	15	amod	_	_
 15	لڏي	_	NOUN	_	_	20	obl	_	_
 16	لاءِ	لاءِ	ADP	_	_	15	case	_	_
-17	آڱوٺي	_	NOUN	_	_	19	nmod	_	_
+17	آڱوٺي	آڱوٺو	NOUN	_	_	19	nmod	_	_
 18	جو	جو	ADP	_	_	17	case	_	_
 19	نشانو	نشانو	NOUN	_	_	20	xcomp	_	_
 20	هجي	هجي	VERB	_	_	12	conj	_	_
@@ -14207,7 +14207,7 @@
 7	ان	ان	DET	_	_	8	det	_	_
 8	انصاف	انصاف	NOUN	_	_	10	nmod	_	_
 9	جي	جي	ADP	_	_	8	case	_	_
-10	آسري	_	NOUN	_	_	13	obl	_	_
+10	آسري	آسرو	NOUN	_	_	13	obl	_	_
 11	تي	تي	ADP	_	_	10	case	_	_
 12	ملڪ	ملڪ	NOUN	_	_	13	obj	_	_
 13	هلائجي	هلاءِ	VERB	_	_	3	advcl	_	_
@@ -14248,7 +14248,7 @@
 1	ان	ان	DET	_	_	2	det	_	_
 2	در	در	NOUN	_	_	4	nmod	_	_
 3	جي	جي	ADP	_	_	2	case	_	_
-4	اندارن	_	NOUN	_	_	13	obl	_	_
+4	اندارن	اندار	NOUN	_	_	13	obl	_	_
 5	به	به	PART	_	_	4	advmod:emph	_	_
 6	هي	هي	DET	_	_	7	det	_	_
 7	تنهنجو	تنهنجو	PRON	_	_	13	obl	_	SpaceAfter=No
@@ -14282,7 +14282,7 @@
 14	جي	جي	ADP	_	_	13	case	_	_
 15	قدمن	قدم	NOUN	_	_	19	iobj	_	_
 16	کي	کي	ADP	_	_	15	case	_	_
-17	آئيني	_	NOUN	_	_	18	nmod	_	_
+17	آئيني	آئيني	NOUN	_	_	18	nmod	_	_
 18	تحفظ	تحفظ	NOUN	_	_	19	obj	_	_
 19	ڏيان	ڏيان	VERB	_	_	8	advcl	_	_
 20	اهو	اهو	DET	_	_	21	det	_	_
@@ -14481,7 +14481,7 @@
 3	چيو	چئو	VERB	_	_	0	root	_	_
 4	ناهي	آهي	AUX	_	_	3	aux	_	_
 5	سندن	سندو	PRON	_	_	6	nmod	_	_
-6	استحقاق	_	NOUN	_	_	8	nmod	_	_
+6	استحقاق	استحقاق	NOUN	_	_	8	nmod	_	_
 7	جو	جو	ADP	_	_	6	case	_	_
 8	سيشو	_	NOUN	_	_	9	nsubj	_	_
 9	ٽُٽو	_	NOUN	_	_	3	obj	_	_
@@ -14539,7 +14539,7 @@
 17	سندن	سندو	PRON	_	_	18	nmod	_	_
 18	حڪومت	حڪومت	NOUN	_	_	20	nmod	_	_
 19	جا	جو	ADP	_	_	18	case	_	_
-20	ترا	_	NOUN	_	_	21	obj	_	_
+20	ترا	ترو	NOUN	_	_	21	obj	_	_
 21	ڪڍڻ	ڪڍڻ	VERB	_	_	22	xcomp	_	_
 22	پويان	_	VERB	_	_	12	advcl	_	_
 23	آهن	آهي	AUX	_	_	22	aux	_	SpaceAfter=No
@@ -14607,7 +14607,7 @@
 32	مضبوط	مضبوط	ADJ	_	_	33	amod	_	_
 33	هٿن	هٿ	NOUN	_	_	35	nmod	_	_
 34	جي	جي	ADP	_	_	33	case	_	_
-35	اوٽ	_	NOUN	_	_	41	obl	_	_
+35	اوٽ	اوٽ	NOUN	_	_	41	obl	_	_
 36	۾	۾	ADP	_	_	35	case	_	_
 37	اميدن	_	NOUN	_	_	39	nmod	_	_
 38	جا	جو	ADP	_	_	37	case	_	_
@@ -14663,7 +14663,7 @@
 3	ڏهرن	_	NOUN	_	_	13	obl	_	_
 4	۾	۾	ADP	_	_	3	case	_	_
 5	۽	۽	CCONJ	_	_	8	cc	_	_
-6	آروکي	_	NOUN	_	_	8	nmod	_	_
+6	آروکي	آروکي	NOUN	_	_	8	nmod	_	_
 7	جي	جي	ADP	_	_	6	case	_	_
 8	ڪنڊين	_	NOUN	_	_	11	obl	_	_
 9	مٿان	مٿي	ADV	_	_	11	advmod	_	_
@@ -14758,7 +14758,7 @@
 4	ويٺل	ويٺو	VERB	_	_	5	acl	_	_
 5	ڌريون	_	NOUN	_	_	14	nsubj	_	_
 6	في	في	ADJ	_	_	7	compound	_	_
-7	الحال	_	NOUN	_	_	14	obl	_	_
+7	الحال	الحال	NOUN	_	_	14	obl	_	_
 8	پنهنجي	پنهنجي	PRON	_	_	10	nmod	_	_
 9	اها	اها	DET	_	_	10	det	_	_
 10	دل	دل	NOUN	_	_	11	obj	_	_
@@ -14775,7 +14775,7 @@
 21	لاءِ	لاءِ	ADP	_	_	20	mark	_	_
 22	مختلف	مختلف	ADJ	_	_	24	amod	_	_
 23	هيلا	_	NOUN	_	_	24	nmod	_	_
-24	بهانا	_	NOUN	_	_	25	compound	_	_
+24	بهانا	بهانو	NOUN	_	_	25	compound	_	_
 25	ڪرڻ	ڪر	VERB	_	_	28	advcl	_	_
 26	تي	تي	ADP	_	_	25	mark	_	_
 27	مجبور	مجبور	NOUN	_	_	28	compound	_	_
@@ -14877,7 +14877,7 @@
 5	انهن	ان	DET	_	_	9	nmod	_	_
 6	سان	سان	ADP	_	_	5	case	_	_
 7	ڪو	ڪو	DET	_	_	8	det	_	_
-8	بر	_	NOUN	_	_	9	nsubj	_	_
+8	بر	بر	NOUN	_	_	9	nsubj	_	_
 9	ميچي	_	NOUN	_	_	0	root	_	_
 10	ئي	ئي	ADV	_	_	9	dep	_	_
 11	نٿو	آهي	ADV	_	_	12	advmod	_	_
@@ -14894,7 +14894,7 @@
 
 # sent_id = 4439
 # text = آزيون نيزاريون ڪري آجا ٿيا،
-1	آزيون	_	NOUN	_	_	2	nmod	_	_
+1	آزيون	آزي	NOUN	_	_	2	nmod	_	_
 2	نيزاريون	_	NOUN	_	_	3	compound	_	_
 3	ڪري	ڪر	VERB	_	_	5	advcl	_	_
 4	آجا	آجو	NOUN	_	_	5	compound	_	_
@@ -14937,7 +14937,7 @@
 12	جي	جي	ADP	_	_	11	case	_	_
 13	شهادتن	_	NOUN	_	_	15	nmod	_	_
 14	جو	جو	ADP	_	_	13	case	_	_
-15	ثمر	_	NOUN	_	_	17	obj	_	_
+15	ثمر	ثمر	NOUN	_	_	17	obj	_	_
 16	نه	نه	PART	_	_	17	dep	_	_
 17	کائڻ	کاءِ	VERB	_	_	0	root	_	_
 18	گهرجي	گهرجي	VERB	_	_	17	aux	_	SpaceAfter=No
@@ -15012,7 +15012,7 @@
 12	کي	کي	ADP	_	_	11	case	_	_
 13	ڏسي	ڏس	VERB	_	_	18	advcl	_	_
 14	ماڻهن	ماڻهو	NOUN	_	_	18	nsubj	_	_
-15	تير	_	NOUN	_	_	18	obl	_	_
+15	تير	تير	NOUN	_	_	18	obl	_	_
 16	تي	تي	ADP	_	_	15	case	_	_
 17	ٺپو	_	NOUN	_	_	18	obj	_	_
 18	هڻندا	هڻ	VERB	_	_	7	advcl	_	SpaceAfter=No
@@ -15083,7 +15083,7 @@
 1	نه	نه	PART	_	_	8	dep	_	_
 2	ڪي	_	PART	_	_	1	fixed	_	_
 3	پنهنجي	پنهنجي	PRON	_	_	4	nmod	_	_
-4	اڪائونٽ	_	NOUN	_	_	5	obj	_	_
+4	اڪائونٽ	اڪائونٽ	NOUN	_	_	5	obj	_	_
 5	ڀرڻ	ڀر	VERB	_	_	7	nmod	_	_
 6	وارو	وارو	ADP	_	_	5	mark	_	_
 7	ڪم	ڪم	NOUN	_	_	8	obj	_	_
@@ -15220,7 +15220,7 @@
 3	ورکا	ورکا	NOUN	_	_	4	compound	_	_
 4	ٿئي	ٿي	VERB	_	_	0	root	_	_
 5	۽	۽	CCONJ	_	_	6	cc	_	_
-6	اجرڪن	_	NOUN	_	_	4	conj	_	SpaceAfter=No
+6	اجرڪن	اجرڪ	NOUN	_	_	4	conj	_	SpaceAfter=No
 7	،	،	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 4457
@@ -15305,7 +15305,7 @@
 # sent_id = 4461
 # text = ڍءُ اپار طاقت جو به ٿئي ۽ هاڻي لڳي ٿو ته همراهن کان ڍءُ جهليو نٿو ٿئي.
 1	ڍءُ	ڍءُ	NOUN	_	_	6	nsubj	_	_
-2	اپار	_	NOUN	_	_	3	nmod	_	_
+2	اپار	اپار	NOUN	_	_	3	nmod	_	_
 3	طاقت	طاقت	NOUN	_	_	6	obl	_	_
 4	جو	جو	ADP	_	_	3	case	_	_
 5	به	به	PART	_	_	3	advmod:emph	_	_
@@ -15363,7 +15363,7 @@
 23	۾	۾	ADP	_	_	22	case	_	_
 24	ڌُرائپ	_	NOUN	_	_	26	nmod	_	_
 25	جي	جي	ADP	_	_	24	case	_	_
-26	بوءِ	_	NOUN	_	_	29	nsubj	_	_
+26	بوءِ	بوءِ	NOUN	_	_	29	nsubj	_	_
 27	پڌري	پڌرو	ADJ	_	_	29	xcomp	_	_
 28	ٿي	آهي	AUX	_	_	29	aux	_	_
 29	اچي	اچ	VERB	_	_	19	advcl	_	SpaceAfter=No
@@ -15581,14 +15581,14 @@
 10	واري	وارو	ADP	_	_	9	case	_	_
 11	”	”	PUNCT	_	_	9	punct	_	SpaceAfter=No
 12	اِڌر	_	PROPN	_	_	13	nmod	_	_
-13	تم	_	NOUN	_	_	20	nsubj	_	SpaceAfter=No
+13	تم	تم	NOUN	_	_	20	nsubj	_	SpaceAfter=No
 14	،	،	PUNCT	_	_	16	punct	_	_
 15	اُڌر	_	PROPN	_	_	16	nmod	_	_
 16	هم	_	NOUN	_	_	13	conj	_	SpaceAfter=No
 17	“	“	PUNCT	_	_	16	punct	_	_
 18	جي	جي	ADP	_	_	16	case	_	_
 19	بلڪل	بلڪل	ADV	_	_	20	advmod	_	_
-20	الٽ	_	NOUN	_	_	0	root	_	_
+20	الٽ	الٽ	NOUN	_	_	0	root	_	_
 21	هو	آهي	AUX	_	_	20	cop	_	_
 22	۽	۽	CCONJ	_	_	27	cc	_	_
 23	خيرن	_	NOUN	_	_	27	obl	_	_
@@ -15611,7 +15611,7 @@
 8	سهي	سه	VERB	_	_	16	advcl	_	_
 9	پر	پر	SCONJ	_	_	8	dep	_	_
 10	سياسي	سياسي	ADJ	_	_	11	amod	_	_
-11	تدبر	_	NOUN	_	_	15	nmod	_	_
+11	تدبر	تدبر	NOUN	_	_	15	nmod	_	_
 12	۽	۽	CCONJ	_	_	13	cc	_	_
 13	ڏاهپ	ڏاهپ	NOUN	_	_	11	conj	_	_
 14	جو	جو	ADP	_	_	11	case	_	_
@@ -15779,7 +15779,7 @@
 2	جي	جي	ADP	_	_	1	case	_	_
 3	ورهين	ورهي	NOUN	_	_	9	obl	_	_
 4	کان	کان	ADP	_	_	3	case	_	_
-5	اڊڙيل	_	NOUN	_	_	6	nmod	_	_
+5	اڊڙيل	اڊڙيل	NOUN	_	_	6	nmod	_	_
 6	ڦٽن	_	NOUN	_	_	9	obl	_	_
 7	تي	تي	ADP	_	_	6	case	_	_
 8	مرهم	_	NOUN	_	_	9	obj	_	_
@@ -15822,7 +15822,7 @@
 3	ڪوئلو	_	PROPN	_	_	12	nsubj	_	_
 4	ملڪ	ملڪ	NOUN	_	_	6	nmod	_	_
 5	جي	جي	ADP	_	_	4	case	_	_
-6	توانائي	_	NOUN	_	_	8	nmod	_	_
+6	توانائي	توانائي	NOUN	_	_	8	nmod	_	_
 7	جي	جي	ADP	_	_	6	case	_	_
 8	ضرورت	ضرورت	NOUN	_	_	10	obj	_	_
 9	پوري	پوري	ADJ	_	_	10	compound	_	_
@@ -16035,7 +16035,7 @@
 17	ٺيڪيدارن	_	NOUN	_	_	21	obl	_	_
 18	سان	سان	ADP	_	_	17	case	_	_
 19	اڌو	اڌو	ADJ	_	_	20	compound	_	_
-20	اڌ	_	NOUN	_	_	21	compound	_	_
+20	اڌ	اڌ	NOUN	_	_	21	compound	_	_
 21	ڪري	ڪر	VERB	_	_	31	advcl	_	_
 22	ترقياتي	ترقياتي	ADJ	_	_	23	amod	_	_
 23	ڪمن	ڪم	NOUN	_	_	31	obl	_	_

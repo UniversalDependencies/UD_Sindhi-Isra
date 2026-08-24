@@ -154,7 +154,7 @@
 31	ڊسمبر	ڊسمبر	PROPN	NNP	Case=Nom|Gender=Fem	39	obl	_	_
 32	تي	تي	ADP	PSPL	_	31	case	_	_
 33	عملي	عملي	ADJ	JJ	Case=Nom|Degree=Pos	34	amod	_	_
-34	تقرير	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	37	nmod	_	_
+34	تقرير	تقرير	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	37	nmod	_	_
 35	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	34	case	_	_
 36	مڪمل	مڪمل	ADJ	JJ	Case=Nom|Degree=Pos	37	amod	_	_
 37	طور	طور	NOUN	NN	Case=Nom|Number=Sing	39	nsubj	_	_
@@ -195,7 +195,7 @@
 16	لياقت	لياقت	PROPN	NNP	Case=Nom|Gender=Masc	17	compound	_	_
 17	باغ	باغ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	_
 18	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	17	case	_	_
-19	جلسي	_	NOUN	NN	Case=Acc|Number=Sing	31	obl	_	_
+19	جلسي	جلسو	NOUN	NN	Case=Acc|Number=Sing	31	obl	_	_
 20	کان	کان	ADP	PSP	_	19	case	_	_
 21	پهرين	پهرين	ADJ	JJ	Case=Nom|Degree=Pos	19	amod	_	_
 22	بي	بي	PROPN	NNP	Case=Nom|Gender=Fem	24	nmod	_	_
@@ -204,7 +204,7 @@
 25	تقريبن	تقريبن	ADJ	JJ	Case=Nom|Degree=Pos	27	amod	_	_
 26	3	3	NUM	NUM	_	27	nummod	_	_
 27	وڳي	وڳو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	31	obl	_	_
-28	جلسي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	29	nmod	_	_
+28	جلسي	جلسو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	29	nmod	_	_
 29	گاهه	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	31	obl	_	_
 30	ڏانهن	ڏانهن	ADV	ADP	_	29	case	_	_
 31	رواني	رواني	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	10	advcl	_	_
@@ -257,7 +257,7 @@
 
 # sent_id = 3843e
 # text = جلسي گاهه ۾ جنهن دروازي کان بي بي کي وڃڻو هو اهو بند هو ۽ اندران تالو لڳل هو۔
-1	جلسي	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+1	جلسي	جلسو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
 2	گاهه	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 3	۾	۾	ADP	PSPL	_	2	case	_	_
 4	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	5	det	_	_
@@ -273,7 +273,7 @@
 14	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	13	cop	_	_
 15	۽	۽	CCONJ	CC	_	18	cc	_	_
 16	اندران	اندر	ADV	ADP	_	18	advmod	_	_
-17	تالو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
+17	تالو	تالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
 18	لڳل	لڳو	VERB	VM	Aspect=Perf|VerbForm=PastPart	13	conj	_	_
 19	هو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	18	aux	_	SpaceAfter=No
 20	۔	_	PUNCT	PUNCT	_	18	punct	_	_
@@ -281,7 +281,7 @@
 # sent_id = 3843f
 # text = ڪارڪنن تالو ٽوڙي دروازو کوليو جنهن بعد محترمه اندر ويئي جلسو ختم ٿيو ته محترمه خوش ۽ مطمئن هئي۔
 1	ڪارڪنن	ڪارڪن	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
-2	تالو	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+2	تالو	تالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
 3	ٽوڙي	ٽوڙ	VERB	VM	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
 4	دروازو	دروازو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
 5	کوليو	کول	VERB	VM	Aspect=Perf|Number=Sing	0	root	_	_
@@ -308,7 +308,7 @@
 3	رينجرز	_	PROPN	NNP	Case=Nom|Gender=Fem	1	conj	_	_
 4	۽	۽	CCONJ	CC	_	6	cc	_	_
 5	ٻين	ٻيو	ADJ	JJ	Case=Acc|Number=Plur	6	amod	_	_
-6	ايجنسين	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+6	ايجنسين	ايجنسي	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
 7	کي	کي	ADP	PSP	_	6	case	_	_
 8	مقرر	مقرر	NOUN	NN	Case=Nom|Number=Sing	9	compound	_	_
 9	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
@@ -417,7 +417,7 @@
 5	وڃي	وڃ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	4	compound	_	_
 6	ٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Tense=Pres	4	aux	_	_
 7	۽	۽	CCONJ	CC	_	11	cc	_	_
-8	آهه	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	xcomp	_	_
+8	آهه	آهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	xcomp	_	_
 9	و	و	CCONJ	CC	_	10	cc	_	_
 10	پڪار	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
 11	ٿي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	4	conj	_	_
@@ -495,7 +495,7 @@
 3	ڪلاڪ	ڪلاڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	obl	_	_
 4	باهه	باهه	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 5	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	4	case	_	_
-6	آڙاهه	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+6	آڙاهه	آڙاهه	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
 7	آسمان	آسمان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 8	سان	سان	ADP	PSP	_	7	case	_	_
 9	وڃي	وڃ	VERB	VM	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
@@ -516,7 +516,7 @@
 # sent_id = 4753e
 # text = ۽ گڏو گڏ وري پيٽرول ۽ تيل سان لڳل باهه اهڙو ته نقصان پهچائڻ ڏانهن وڌندي رهي ٿي جو ميمڻ فيڊريشن جي اڳواڻن مطابق ڪراچي جي بولٽن مارڪيٽ ۾ هزارين دڪان ساڙيا ويا آهن۔
 1	۽	۽	CCONJ	CC	_	16	cc	_	_
-2	گڏو	_	ADV	ADV	_	9	advmod	_	_
+2	گڏو	گڏو	ADV	ADV	_	9	advmod	_	_
 3	گڏ	گڏ	ADV	ADV	_	2	compound:redup	_	_
 4	وري	وري	ADV	ADM	_	9	advmod	_	_
 5	پيٽرول	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
@@ -623,7 +623,7 @@
 31	،	،	PUNCT	PUNCT	_	30	punct	_	_
 32	فليٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
 33	يا	يا	CCONJ	CC	_	34	cc	_	_
-34	اپارٽمينٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
+34	اپارٽمينٽ	اپارٽمينٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
 35	ڏيڻ	ڏي	VERB	VM	Aspect=Imp|VerbForm=Inf	45	advcl	_	_
 36	تي	تي	ADP	PSPL	_	35	mark	_	_
 37	قلم	قلم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	38	nummod	_	_
@@ -638,7 +638,7 @@
 46	سڄي	سڄي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	_
 47	سنڌ	سنڌ	PROPN	NNP	Case=Nom|Gender=Fem	50	nmod	_	_
 48	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	47	case	_	_
-49	اسٽيٽ	_	NOUN	NN	Case=Nom|Number=Sing	50	nmod	_	_
+49	اسٽيٽ	اسٽيٽ	NOUN	NN	Case=Nom|Number=Sing	50	nmod	_	_
 50	ايجنٽن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	56	obl	_	_
 51	۽	۽	CCONJ	CC	_	53	cc	_	_
 52	پراپرٽي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	53	nmod	_	_
@@ -675,7 +675,7 @@
 22	،	،	PUNCT	PUNCT	_	21	punct	_	_
 23	فليٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
 24	يا	يا	CCONJ	CC	_	25	cc	_	_
-25	اپارٽمينٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
+25	اپارٽمينٽ	اپارٽمينٽ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
 26	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	28	det	_	_
 27	به	به	PART	PART	_	26	advmod:emph	_	_
 28	غير	غير	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	29	amod	_	_
