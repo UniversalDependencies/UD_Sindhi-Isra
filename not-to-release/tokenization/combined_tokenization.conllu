@@ -80576,25 +80576,26 @@
 
 # sent_id = 4272
 # text = ادبي تخليق- شاعري، ناٽڪ، ڪهاڻي، ڪلا، تاريخ کان انهيءَ ڪري وڏي حيثيت رکن ٿا،
-1	ادبي	_	_	_	_	0	root	_	_
-2	تخليق-	_	_	_	_	1	dep	_	_
-3	شاعري	_	_	_	_	1	dep	_	SpaceAfter=No
-4	،	_	_	_	_	1	dep	_	_
-5	ناٽڪ	_	_	_	_	1	dep	_	SpaceAfter=No
-6	،	_	_	_	_	1	dep	_	_
-7	ڪهاڻي	_	_	_	_	1	dep	_	SpaceAfter=No
-8	،	_	_	_	_	1	dep	_	_
-9	ڪلا	_	_	_	_	1	dep	_	SpaceAfter=No
-10	،	_	_	_	_	1	dep	_	_
-11	تاريخ	_	_	_	_	1	dep	_	_
-12	کان	_	_	_	_	1	dep	_	_
-13	انهيءَ	_	_	_	_	1	dep	_	_
-14	ڪري	_	_	_	_	1	dep	_	_
-15	وڏي	_	_	_	_	1	dep	_	_
-16	حيثيت	_	_	_	_	1	dep	_	_
-17	رکن	_	_	_	_	1	dep	_	_
-18	ٿا	_	_	_	_	1	dep	_	SpaceAfter=No
-19	،	_	_	_	_	1	dep	_	_
+1	ادبي	ادبي	ADJ	JJ	Case=Nom|Degree=Pos	2	amod	_	_
+2	تخليق	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+3	-	_	_	_	_	2	punct	_	_
+4	شاعري	شاعري	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+5	،	،	PUNCT	PUNCT	_	4	punct	_	_
+6	ناٽڪ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+7	،	،	PUNCT	PUNCT	_	6	punct	_	_
+8	ڪهاڻي	ڪهاڻي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+9	،	،	PUNCT	PUNCT	_	8	punct	_	_
+10	ڪلا	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+11	،	،	PUNCT	PUNCT	_	10	punct	_	_
+12	تاريخ	تاريخ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+13	کان	کان	ADP	PSP	_	12	case	_	_
+14	انهيءَ	ان	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	18	obl	_	_
+15	ڪري	ڪري	ADP	PSP	_	14	case	_	_
+16	وڏي	وڏي	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	حيثيت	حيثيت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	_
+18	رکن	رک	VERB	VM	Aspect=Imp|Number=Plur|Voice=Act	0	root	_	_
+19	ٿا	آهي	AUX	VAUX	Number=Plur|Tense=Pres	18	aux	_	SpaceAfter=No
+20	،	،	PUNCT	PUNCT	_	18	punct	_	_
 
 # sent_id = 4273
 # text = جو اهي تاريخ جا عڪس آهن ۽ مخصوص لفظن جي پيرائي ۾ هڪ اهڙي اپٽار آهن،
@@ -90764,16 +90765,17 @@
 10	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 
 # sent_id = 4718f
-# text = اتي حملي آورڌماڪي سان پاڻ کي اڌائي ڇڏيو.
-1	اتي	اتي	ADV	ADT	_	7	advmod	_	_
-2	حملي	حملي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
-3	آورڌماڪي	آورڌماڪي	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
-4	سان	سان	ADP	PSP	_	3	case	_	_
-5	پاڻ	پاڻ	PRON	PRP	Case=Acc|Person=1	7	obj	_	_
-6	کي	کي	ADP	PSP	_	5	case	_	_
-7	اڌائي	اڌائي	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
-8	ڇڏيو	ڇڏيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	7	compound	_	SpaceAfter=No
-9	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+# text = اتي حملي آور ڌماڪي سان پاڻ کي اڌائي ڇڏيو.
+1	اتي	اتي	ADV	ADT	_	8	advmod	_	_
+2	حملي	حملو	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
+3	آور	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	ڌماڪي	_	_	_	_	8	obl	_	_
+5	سان	سان	ADP	PSP	_	4	case	_	_
+6	پاڻ	پاڻ	PRON	PRP	Case=Acc|Person=1	8	obj	_	_
+7	کي	کي	ADP	PSP	_	6	case	_	_
+8	اڌائي	اڌاءِ	VERB	VM	Aspect=Perf|VerbForm=Conv	0	root	_	_
+9	ڇڏيو	ڇڏ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	8	compound	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 
 # sent_id = 4719
 # text = هر طرف انساني عضوا پکڙيل ۽ روڊ رت سان رنگجي ويو قيامت جو منظر هو.
@@ -114231,22 +114233,23 @@
 9	،	_	_	_	_	1	dep	_	_
 
 # sent_id = 5516
-# text = منظر انهن رنگن جا ئي منظر هوندا آهنعڪس ته اهو ئي نظر اچڻو آهي،
-1	منظر	_	_	_	_	0	root	_	_
-2	انهن	_	_	_	_	1	dep	_	_
-3	رنگن	_	_	_	_	1	dep	_	_
-4	جا	_	_	_	_	1	dep	_	_
-5	ئي	_	_	_	_	1	dep	_	_
-6	منظر	_	_	_	_	1	dep	_	_
-7	هوندا	_	_	_	_	1	dep	_	_
-8	آهنعڪس	_	_	_	_	1	dep	_	_
-9	ته	_	_	_	_	1	dep	_	_
-10	اهو	_	_	_	_	1	dep	_	_
-11	ئي	_	_	_	_	1	dep	_	_
-12	نظر	_	_	_	_	1	dep	_	_
-13	اچڻو	_	_	_	_	1	dep	_	_
-14	آهي	_	_	_	_	1	dep	_	SpaceAfter=No
-15	،	_	_	_	_	1	dep	_	_
+# text = منظر انهن رنگن جا ئي منظر هوندا آھن عڪس ته اهو ئي نظر اچڻو آهي،
+1	منظر	منظر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
+2	انهن	ان	DET	PRD	Case=Acc|Number=Plur|PronType=Dem	3	det	_	_
+3	رنگن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
+4	جا	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Plur	3	case	_	_
+5	ئي	ئي	PART	PART	_	3	advmod:emph	_	_
+6	منظر	منظر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	هوندا	آهي	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=PresPart|Voice=Act	14	advcl	_	_
+8	آھن	آهي	AUX	VAUX	Number=Plur|Tense=Pres	7	aux	_	_
+9	عڪس	عڪس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	_
+10	ته	ته	PART	PART	_	9	advmod:emph	_	_
+11	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+12	ئي	ئي	PART	PART	_	11	advmod:emph	_	_
+13	نظر	نظر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	compound	_	_
+14	اچڻو	اچ	VERB	VM	Aspect=Imp|Number=Sing|VerbForm=FutPart|Voice=Act	0	root	_	_
+15	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	14	aux	_	SpaceAfter=No
+16	،	،	PUNCT	PUNCT	_	14	punct	_	_
 
 # sent_id = 5517
 # text = جيڪو اکين جي شيشي جي پار نهاربو.
