@@ -324,6 +324,8 @@ ENFORCED_RELATION_UPOS = {
 }
 
 # nmod:poss words
+# TODO: some need to be nmod:poss, others not necessarily
+# the maybe ones should enforce Poss=Yes if nmod:poss
 ENFORCED_POS_XPOS['سندس'] = [('PRON', 'PRP')]
 EXACT_FEATURES['سندس'] = ['Case=Gen', 'Number=Sing', 'Person=3', 'Poss=Yes', 'PronType=Prs']
 
@@ -334,7 +336,7 @@ ENFORCED_POS_XPOS['سندم'] = [('PRON', 'PRP')]
 EXACT_FEATURES['سندم'] = ['Case=Gen', 'Number=Sing', 'Person=1', 'Poss=Yes', 'PronType=Prs']
 
 ENFORCED_POS_XPOS['منهنجو'] = [('PRON', 'PRP')]
-ENFORCED_FEATURES['منهنجو'] = ['Case=Gen', 'Number=Sing']
+ENFORCED_FEATURES['منهنجو'] = ['Case=Gen', 'Number=Sing', 'Gender=Masc', 'Person=1', 'PronType=Prs']
 
 ENFORCED_POS_XPOS['منهنجا'] = [('PRON', 'PRP')]
 ENFORCED_FEATURES['منهنجا'] = ['Case=Gen', 'Number=Plur', 'Person=1', 'Gender=Masc']
