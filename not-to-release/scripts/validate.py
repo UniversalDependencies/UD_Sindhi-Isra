@@ -743,9 +743,8 @@ def check_multiple_roots(filename, new_doc):
                                       nodes=root_ids))
     return incidents
 
-def check_graph_cycles(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_graph_cycles(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         graph = nx.MultiDiGraph()
         for word_idx, word in enumerate(sent.words):
@@ -756,16 +755,21 @@ def check_graph_cycles(new_doc):
             # will throw an error if there is no cycle
             cycle = nx.find_cycle(graph)
 
-            problem_sentences.add(sent_idx)
-            if not printed:
-                printed = True
-                print("CYCLES")
-            print("Cycle in sentence %s" % sent.sent_id)
+            nodes = set()
             for edge in cycle:
-                print(edge[0], sent.words[edge[0]-1].text, edge[1], sent.words[edge[1]-1].text, edge[2])
+                nodes.add(edge[0])
+                nodes.add(edge[1])
+            print("FOUND CYCLE", nodes)
+            incidents.append(Incident(category="Printed",
+                                      filename=filename,
+                                      sent_idx=sent_idx,
+                                      sentence=sent,
+                                      error="Cycle in sentence %s" % sent.sent_id,
+                                      nodes=nodes))
         except nx.NetworkXNoCycle:
+            # no cycle = pass
             pass
-    return problem_sentences
+    return incidents
 
 def check_upos_xpos_match(filename, new_doc, check_xpos):
     # checks that the xpos for each word is allowed based on the word's upos
@@ -1072,7 +1076,7 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     incidents.extend(check_th_words(filename, new_doc, check_xpos))
     incidents.extend(check_punct_root(filename, new_doc))
     incidents.extend(check_multiple_roots(filename, new_doc))
-    problem_sentences |= check_graph_cycles(new_doc)
+    incidents.extend(check_graph_cycles(filename, new_doc))
     incidents.extend(check_upos_xpos_match(filename, new_doc, check_xpos))
     problem_sentences |= check_null_features(new_doc)
     problem_sentences |= check_advmod_emph_errors(new_doc)
