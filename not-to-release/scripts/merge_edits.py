@@ -59,6 +59,14 @@ def main():
     args = parser.parse_args()
 
     new_doc = CoNLL.conll2doc(args.filename)
+    for sentence in new_doc.sentences:
+        # remove some comments which are in the document's sentences
+        # as artifacts from the search / hints from the search
+        sentence.comments.remove("highlight deprels")
+        sentence.comments.remove("highlight tokens")
+        semgrex = [comment for comment in sentence.comments if comment.startswith("# semgrex")]
+        for comment in semgrex:
+            sentence.comments.remove(comment)
     merge_edits(new_doc, merge_xpos=args.merge_xpos)
 
 if __name__ == '__main__':
