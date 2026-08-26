@@ -611,7 +611,6 @@ def check_xpos_required(filename, new_doc, check_xpos, require_xpos):
     if not check_xpos or not require_xpos:
         return incidents
 
-    printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if word.xpos is None:
@@ -629,7 +628,6 @@ def check_pos_xpos_happiness(filename, new_doc, check_xpos):
     if not check_xpos:
         return incidents
 
-    printed = False
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             allowed = ENFORCED_POS_XPOS.get(word.text)
@@ -759,8 +757,7 @@ def check_graph_cycles(filename, new_doc):
             for edge in cycle:
                 nodes.add(edge[0])
                 nodes.add(edge[1])
-            print("FOUND CYCLE", nodes)
-            incidents.append(Incident(category="Printed",
+            incidents.append(Incident(category="Graph cycles",
                                       filename=filename,
                                       sent_idx=sent_idx,
                                       sentence=sent,
@@ -775,7 +772,6 @@ def check_upos_xpos_match(filename, new_doc, check_xpos):
     # checks that the xpos for each word is allowed based on the word's upos
     incidents = []
     if check_xpos:
-        printed = False
         for sent_idx, sent in enumerate(new_doc.sentences):
             for word_idx, word in enumerate(sent.words):
                 if not word.xpos or not word.upos:
@@ -797,23 +793,24 @@ def check_upos_xpos_match(filename, new_doc, check_xpos):
                                               nodes=[word_idx+1]))
     return incidents
 
-def check_null_features(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_null_features(filename, new_doc):
+    # this is worse than simply unset features on words that need them -
+    # this checks for feature columns that are literally empty
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if word.feats == '':
-                problem_sentences.add(sent_idx)
-                if not printed:
-                    printed = True
-                    print("NULL FEAT ERRORS")
-                print("Sentence %s (%d) word %d had blank features" % (sent.sent_id, sent_idx, word_idx+1))
-    return problem_sentences
+                incidents.append(Incident(category="NULL FEAT error",
+                                          filename=filename,
+                                          sent_idx=sent_idx,
+                                          sentence=sent,
+                                          error="Sentence %s (%d) word %d |%s| had unset features" % (sent.sent_id, sent_idx, word_idx+1, word.text),
+                                          nodes=[word_idx+1]))
+    return incidents
 
 
-def check_advmod_emph_errors(new_doc):
-    problem_sentences = set()
-    printed = False
+def check_advmod_emph_errors(filename, new_doc):
+    incidents = []
     for sent_idx, sent in enumerate(new_doc.sentences):
         for word_idx, word in enumerate(sent.words):
             if word.deprel == 'advmod:emph':
@@ -826,11 +823,13 @@ def check_advmod_emph_errors(new_doc):
                     if sent.text not in ADVMOD_EMPH_EXCEPTIONS:
                         error = "Sentence %s (%d) word %d (line %d) advmod:emph pointed later in the tree, to %d" % (sent.sent_id, sent_idx, word.id, word.line_number+1, word.head)
                 if error is not None:
-                    if printed:
-                        printed = True
-                        print("ADVMOD:EMPH ERRORS")
-                    print(error)
-    return problem_sentences
+                    incidents.append(Incident(category="ADVMOD:EMPH",
+                                              filename=filename,
+                                              sent_idx=sent_idx,
+                                              sentence=sent,
+                                              error=error,
+                                              nodes=[word_idx+1]))
+    return incidents
 
 def check_enforced_pos(filename, new_doc):
     incidents = []
@@ -1059,7 +1058,6 @@ def check_feature_errors(filename, new_doc, check_feats):
     return incidents
 
 def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=True):
-    problem_sentences = set()
     incidents = []
 
     incidents.extend(check_unknown_upos(filename, new_doc))
@@ -1078,8 +1076,8 @@ def validate(filename, new_doc, check_xpos=True, check_feats=True, require_xpos=
     incidents.extend(check_multiple_roots(filename, new_doc))
     incidents.extend(check_graph_cycles(filename, new_doc))
     incidents.extend(check_upos_xpos_match(filename, new_doc, check_xpos))
-    problem_sentences |= check_null_features(new_doc)
-    problem_sentences |= check_advmod_emph_errors(new_doc)
+    incidents.extend(check_null_features(filename, new_doc))
+    incidents.extend(check_advmod_emph_errors(filename, new_doc))
     incidents.extend(check_enforced_pos(filename, new_doc))
     incidents.extend(check_expected_features(filename, new_doc, check_feats, check_xpos))
     incidents.extend(check_exact_features(filename, new_doc, check_feats, check_xpos))
