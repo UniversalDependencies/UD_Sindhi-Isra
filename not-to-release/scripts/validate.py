@@ -342,7 +342,7 @@ ENFORCED_POS_XPOS['منهنجا'] = [('PRON', 'PRP')]
 ENFORCED_FEATURES['منهنجا'] = ['Case=Gen', 'Gender=Masc', 'Number=Plur', 'Person=1', 'PronType=Prs']
 
 ENFORCED_POS_XPOS['تنهنجا'] = [('PRON', 'PRP')]
-ENFORCED_FEATURES['تنهنجا'] = ['Case=Gen', 'Number=Plur', 'Person=2']
+ENFORCED_FEATURES['تنهنجا'] = ['Case=Gen', 'Gender=Masc', 'Number=Plur', 'Person=2', 'PronType=Prs']
 
 ENFORCED_POS_XPOS['تنهنجو'] = [('PRON', 'PRP')]
 ENFORCED_FEATURES['تنهنجو'] = ['Case=Gen', 'Number=Sing', 'Person=2']
