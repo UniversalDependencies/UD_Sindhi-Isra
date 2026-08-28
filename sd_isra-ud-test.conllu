@@ -5697,7 +5697,7 @@
 1	هاڻي	هاڻ	ADV	ADT	_	14	advmod	_	_
 2	اڄ	اڄ	ADV	ADT	_	14	advmod	_	_
 3	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nmod	_	_
-4	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes	5	nmod:poss	_	_
+4	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 5	مڙس	مڙس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	discourse	_	_
 6	۽	۽	CCONJ	CC	_	9	cc	_	_
 7	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	9	nmod	_	_
@@ -7255,7 +7255,7 @@
 2	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 3	۽	۽	CCONJ	CC	_	6	cc	_	_
 4	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
-5	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	2	conj	_	_
+5	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	conj	_	_
 6	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 7	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	6	cop	_	_
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -7286,7 +7286,7 @@
 # sent_id = MD-10
 # text = هي تنهنجو ڪتاب آهي .
 1	هي	هي	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-2	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	3	nmod	_	_
+2	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	ڪتاب	ڪتاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -8355,7 +8355,7 @@
 # text = هي قلم تنهنجو آهي ۽ هُو ڪتاب منهنجو آهي .
 1	هي	هي	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	2	det	_	_
 2	قلم	قلم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-3	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	0	root	_	_
+3	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	_
 5	۽	۽	CCONJ	CC	_	8	cc	_	_
 6	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
@@ -10875,7 +10875,7 @@
 # sent_id = MD-368A
 # text = هُو تنهنجو ۽ هي منهنجو قلم آهي .
 1	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Number=Sing|Person=2	6	nmod	_	_
+2	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 3	۽	۽	CCONJ	CC	_	6	cc	_	_
 4	هي	هي	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	6	det	_	_
 5	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
@@ -12069,9 +12069,9 @@
 
 # sent_id = MD-476
 # text = تنهنجو ڀاڪر منهنجي زندگي ۾ تازگي پيدا ڪري ٿو .
-1	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	2	nmod	_	_
+1	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 2	ڀاڪر	ڀاڪر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-3	منهنجي	منهنجو	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	4	nmod	_	_
+3	منهنجي	منهنجو	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=1	4	nmod:poss	_	_
 4	زندگي	زندگي	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 5	۾	۾	ADP	PSPL	_	4	case	_	_
 6	تازگي	تازگي	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_

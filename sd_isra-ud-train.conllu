@@ -1523,7 +1523,7 @@
 11	ڪنڌ	ڪنڌ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 12	نه	نه	PART	PART	_	13	dep	_	_
 13	ڪڍائي	ڪڍ	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
-14	سگهبو	سگهبو	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Voice=Pass	13	aux	_	SpaceAfter=No
+14	سگهبو	سگهي	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Voice=Pass	13	aux	_	SpaceAfter=No
 15	،	،	PUNCT	PUNCT	_	13	punct	_	_
 16	ته	ته	SCONJ	CS	_	30	mark	_	_
 17	اهڙي	اهڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
@@ -7786,7 +7786,7 @@
 14	ڍڳِي	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	_
 15	ڏيڻ	ڏي	VERB	VM	Aspect=Imp|VerbForm=Inf	19	advcl	_	_
 16	مان	مان	ADP	PSPL	_	15	mark	_	_
-17	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	18	nmod	_	_
+17	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
 18	مطلب	مطلب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
 19	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	0	root	_	_
 20	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	19	cop	_	SpaceAfter=No
@@ -18025,7 +18025,7 @@
 # text = ڇا تنهنجو ڪو به مٽ مائٽ ڪونهي؟
 # orig_text = پوڙهي مائيءَ وري پڇيس، تنهنجا ماءُ پيءُ ڪير آهن؟ ڇا تنهنجو ڪو به مٽ مائٽ ڪونهي؟ مڪاٽو پوڙهيءَ کي ٻڌايو، نه منهنجي ماءُ آهي ۽ نه پيءُ، آءٌ ’مـُون‘ شهر مان آيوآهيان.
 1	ڇا	ڇا	PRON	PRWH	Case=Nom|PronType=Int	6	obl	_	_
-2	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes	5	nmod:poss	_	_
+2	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 3	ڪو	ڪو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 4	به	به	PART	PART	_	3	advmod:emph	_	_
 5	مٽ	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -31620,11 +31620,11 @@
 4	اندارن	اندار	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	obl	_	_
 5	به	به	PART	PART	_	4	advmod:emph	_	_
 6	هي	هي	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	7	det	_	_
-7	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	13	obl	_	SpaceAfter=No
+7	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	13	obl	_	SpaceAfter=No
 8	،	،	PUNCT	PUNCT	_	10	punct	_	_
 9	هُو	هُو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
-10	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	12	nmod	_	_
-11	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	10	case	_	_
+10	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	conj	_	_
+11	جو	جو	ADP	PSPG	Case=Nom|Gender=Masc|Number=Sing	7	case	_	_
 12	آواز	آواز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 13	اچي	اچ	VERB	VM	Aspect=Imp|Number=Sing|Person=3|Voice=Act	17	advcl	_	_
 14	ته	ته	SCONJ	CS	_	17	mark	_	_
@@ -75307,7 +75307,7 @@
 11	ڪنڌ	ڪنڌ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 12	نه	نه	PART	PART	_	13	dep	_	_
 13	ڪڍائي	ڪڍ	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
-14	سگهبو	سگهبو	AUX	VAUX	Number=Sing|Person=3|Voice=Pass	13	aux	_	SpaceAfter=No
+14	سگهبو	سگهي	AUX	VAUX	Number=Sing|Person=3|Voice=Pass	13	aux	_	SpaceAfter=No
 15	،	،	PUNCT	PUNCT	_	13	punct	_	_
 16	ته	ته	SCONJ	CS	_	20	mark	_	_
 17	اهڙي	اهڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
@@ -80633,7 +80633,7 @@
 5	،	،	PUNCT	PUNCT	_	4	punct	_	_
 6	هاڻي	هاڻ	ADV	ADT	_	11	advmod	_	_
 7	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	_
-8	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	10	nmod	_	_
+8	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 9	آخري	آخري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	امتحان	امتحان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	xcomp	_	_
 11	وٺان	وٺ	VERB	VM	Aspect=Imp|Number=Sing|Person=1	4	advcl	_	_
@@ -80818,7 +80818,7 @@
 15	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
 16	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	15	cop	_	SpaceAfter=No
 17	!	!	PUNCT	PUNCT	_	15	punct	_	_
-18	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	20	nmod	_	_
+18	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 19	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
 20	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
 21	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	22	nsubj	_	_
@@ -80880,7 +80880,7 @@
 15	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
 16	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	15	cop	_	SpaceAfter=No
 17	!	!	PUNCT	PUNCT	_	15	punct	_	_
-18	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	20	nmod	_	_
+18	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 19	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
 20	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
 21	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	22	nsubj	_	_
@@ -83872,7 +83872,7 @@
 12	هو	هو	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	14	obj	_	_
 13	ته	ته	PART	PART	_	12	advmod:emph	_	_
 14	ڏس	ڏس	VERB	VM	Number=Sing|Person=2	17	advcl	_	_
-15	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	16	nmod	_	_
+15	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
 16	پيرو	پيرو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
 17	کنيو	کڻ	VERB	VM	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
 18	پيا	پيو	VERB	VM	Gender=Masc|Number=Plur	17	compound	_	_
@@ -83998,7 +83998,7 @@
 9	نٿو	آهي	AUX	VAUX	Gender=Masc|Number=Sing|Polarity=Neg|Tense=Pres	10	aux	_	_
 10	ڪرين	ڪر	VERB	VMX	Aspect=Imp|Number=Sing|Person=1	5	advcl	_	_
 11	ته	ته	SCONJ	CS	_	14	mark	_	_
-12	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	14	nmod	_	_
+12	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
 13	به	به	PART	PART	_	12	advmod:emph	_	_
 14	خير	خير	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	_
 15	ڪونهي	آهي	AUX	VAUX	Number=Sing|Polarity=Neg|Tense=Pres	14	cop	_	_
