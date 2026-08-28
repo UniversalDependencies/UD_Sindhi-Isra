@@ -1119,10 +1119,19 @@ def main():
 
         ud_state = udvalidator.validate_files([filename])
         for incident in ud_state.error_tracker:
-            if incident.testclass not in (TestClass.SYNTAX, TestClass.UNICODE):
+            if incident.testclass not in (TestClass.SYNTAX, TestClass.UNICODE, TestClass.MORPHO):
                 continue
             if incident.get_type() is not IncidentType.ERROR:
                 continue
+            if incident.testclass is TestClass.MORPHO:
+                # some unknown feature values are currently in the dataset,
+                # but processed to produce the release version
+                if incident.testid == 'feature-value-unknown':
+                    continue
+                if incident.testid == 'feature-unknown':
+                    continue
+                if incident.testid == 'feature-value-upos-not-permitted':
+                    continue
             print("", incident.sentid, incident.lineno, incident.message)
             # TODO: use lineno instead
             for sent_idx, sentence in enumerate(new_doc.sentences):
