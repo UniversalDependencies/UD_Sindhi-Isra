@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Sindhi-Isra:
-commit 65c78b6d1c1a0e0a034fad0a420ec0b188ca11ca
-Merge: 13a5713 49e2c8f
+commit df77aa3b6b157ec60b8904985be26906d15671e6
+Merge: 5b07ec8 a6fa1d7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'sd_isra'
 Language code (from CoNLL-U file name) = 'sd'
 Found the following data files: sd_isra-ud-dev.conllu, sd_isra-ud-test.conllu, sd_isra-ud-train.conllu
-Size: counted 95227 of 95227 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.11252703006402.
+Size: counted 95358 of 95358 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.11527645988548.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 67150 out of 95227 total words have one or more features.
+Features: 67262 out of 95358 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
@@ -46,7 +46,7 @@ Genres: found 1 out of 18 known.
 [Line 9271 Sent adabi_1_092]: [L3 WARNING fixed-without-extpos] Fixed expression 'دانهن ڪوڪن' does not have the 'ExtPos' feature
 [Line 9878 Sent adabi_2_041]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
 [Line 10362 Sent adabi_2_068]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
-Warnings: 359
+Warnings: 335
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sd --max-err=10 UD_Sindhi-Isra/sd_isra-ud-test.conllu
 [Line 445 Sent Kawish-20100810-020]: [L3 WARNING pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
@@ -58,12 +58,12 @@ Warnings: 359
 [Line 1381 Sent Kawish-20100810-050]: [L3 WARNING pron-det-without-prontype] The word 'پاڻ' is tagged 'PRON' but it lacks the 'PronType' feature
 [Line 2062 Sent Kawish-20100810-075]: [L3 WARNING pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
 [Line 2173 Sent Kawish-20100810-081]: [L3 WARNING pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 2194 Sent Kawish-20100810-082]: [L3 WARNING pron-det-without-prontype] The word 'سندس' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2272 Sent Kawish-20100810-086]: [L3 WARNING pron-det-without-prontype] The word 'جن' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further messages regarding WARNING/MORPHO
 [Line 3109 Sent Kawish-20100810-125]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
 [Line 4261 Sent Kawish-20100810-178]: [L3 WARNING fixed-without-extpos] Fixed expression 'جي لاءِ' does not have the 'ExtPos' feature
 [Line 5344 Sent Kawish-20100810-235]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
-Warnings: 215
+Warnings: 193
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sd --max-err=10 UD_Sindhi-Isra/sd_isra-ud-train.conllu
 [Line 98 Sent xpos_11]: [L3 WARNING pron-det-without-prontype] The word 'آئون' is tagged 'PRON' but it lacks the 'PronType' feature
@@ -77,27 +77,27 @@ Warnings: 215
 [Line 288 Sent xpos_34]: [L3 WARNING pron-det-without-prontype] The word 'تون' is tagged 'PRON' but it lacks the 'PronType' feature
 [Line 295 Sent xpos_35]: [L3 WARNING pron-det-without-prontype] The word 'آئون' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further messages regarding WARNING/MORPHO
-[Line 5586 Sent 1912]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڪو نه' does not have the 'ExtPos' feature
-[Line 6300 Sent 2049]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڪو نه' does not have the 'ExtPos' feature
-[Line 7821 Sent 2556]: [L3 WARNING fixed-without-extpos] Fixed expression 'جي لاءِ' does not have the 'ExtPos' feature
-[Line 8390 Sent 2596]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
-[Line 12380 Sent 1583]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
-[Line 14033 Sent 1298]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڇو جو' does not have the 'ExtPos' feature
-[Line 16318 Sent 2051]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
-[Line 16989 Sent 2968]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڪو نه' does not have the 'ExtPos' feature
-[Line 17173 Sent 2043]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
-[Line 18120 Sent 3681]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
+[Line 5754 Sent 1912]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڪو نه' does not have the 'ExtPos' feature
+[Line 6468 Sent 2049]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڪو نه' does not have the 'ExtPos' feature
+[Line 7989 Sent 2556]: [L3 WARNING fixed-without-extpos] Fixed expression 'جي لاءِ' does not have the 'ExtPos' feature
+[Line 8558 Sent 2596]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
+[Line 12548 Sent 1583]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
+[Line 14201 Sent 1298]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڇو جو' does not have the 'ExtPos' feature
+[Line 16486 Sent 2051]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
+[Line 17157 Sent 2968]: [L3 WARNING fixed-without-extpos] Fixed expression 'ڪو نه' does not have the 'ExtPos' feature
+[Line 17341 Sent 2043]: [L3 WARNING fixed-without-extpos] Fixed expression 'هڪ ٻئي' does not have the 'ExtPos' feature
+[Line 18288 Sent 3681]: [L3 WARNING fixed-without-extpos] Fixed expression 'نه ته' does not have the 'ExtPos' feature
 ...suppressing further messages regarding WARNING/SYNTAX
-Warnings: 1455
+Warnings: 1325
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
-(weight=0.37037037037037) * (score{size}=0.659586700891838) = 0.244291370700681
+(weight=0.37037037037037) * (score{size}=0.659785711258478) = 0.244365078243881
 (weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
 (weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
 (weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
-(TOTAL score=0.713448370838073) * (availability=1) * (validity=1) = 0.713448370838073
+(TOTAL score=0.713522078381273) * (availability=1) * (validity=1) = 0.713522078381273
 STARS = 3.5
-UD_Sindhi-Isra	0.713448370838073	3.5
+UD_Sindhi-Isra	0.713522078381273	3.5
