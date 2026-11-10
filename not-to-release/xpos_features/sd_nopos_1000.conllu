@@ -55,7 +55,7 @@
 1	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	9	nsubj	_	_
 2	سڀاڻي	سڀاڻي	ADV	ADT	_	9	advmod	_	_
 3	سويرو	سويرو	ADV	ADT	_	9	advmod	_	_
-4	منهنجا	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	5	nmod	_	_
+4	منهنجا	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 5	ڪپڙا	ڪپڙو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	obj	_	_
 6	پائي	پائي	VERB	VM	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
 7	هـَـرن	هـَـر	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_
@@ -65,7 +65,7 @@
 11	مان	مان	PRON	PRP	Case=Nom|Number=Sing|Person=1	19	nsubj	_	_
 12	دير	دير	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
 13	سان	سان	ADP	PSP	_	12	case	_	_
-14	تنهنجا	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=2	15	nmod	_	_
+14	تنهنجا	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
 15	ڪپڙا	ڪپڙو	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	obj	_	_
 16	پائي	پائي	VERB	VM	Aspect=Perf|VerbForm=Conv	19	advcl	_	SpaceAfter=No
 17	،	،	PUNCT	PUNCT	_	16	punct	_	_
@@ -256,7 +256,7 @@
 4	وٺي	وٺ	VERB	VM	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
 5	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	7	nmod	_	_
 6	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	5	case	_	_
-7	برخلاف	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+7	برخلاف	برخلاف	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
 8	ڳالهايو	ڳالهاءِ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -498,7 +498,7 @@
 3	ڏس	ڏس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
 4	۾	۾	ADP	PSPL	_	3	case	_	_
 5	ٿيندڙ	ٿيندڙ	VERB	VM	Aspect=Imp|VerbForm=Vnoun	6	acl	_	_
-6	الڪن	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	obl	_	_
+6	الڪن	الڪ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	obl	_	_
 7	۽	۽	CCONJ	CC	_	8	cc	_	_
 8	خدشن	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
 9	تي	تي	ADP	PSPL	_	6	case	_	_
@@ -542,7 +542,7 @@
 11	ڪنڌ	ڪنڌ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
 12	نه	نه	PART	PART	_	13	dep	_	_
 13	ڪڍائي	ڪڍ	VERB	VM	Aspect=Imp|Voice=Act	0	root	_	_
-14	سگهبو	_	AUX	VAUX	Number=Sing|Person=3|Voice=Pass	13	aux	_	SpaceAfter=No
+14	سگهبو	سگهي	AUX	VAUX	Number=Sing|Person=3|Voice=Pass	13	aux	_	SpaceAfter=No
 15	،	،	PUNCT	PUNCT	_	13	punct	_	_
 16	ته	ته	SCONJ	CS	_	20	mark	_	_
 17	اهڙي	اهڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
@@ -731,7 +731,7 @@
 7	ڀر	ڀر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 8	۾	۾	ADP	PSPL	_	7	case	_	_
 9	بيهي	بيه	VERB	VM	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
-10	سندس	سندس	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+10	سندس	سندس	PRON	PRP	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
 11	ساراهه	ساراهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
 12	ڪرڻ	ڪر	VERB	VM	Aspect=Imp|VerbForm=Inf	13	xcomp	_	_
 13	لڳي	لڳ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	_
@@ -842,7 +842,7 @@
 8	دنيا	دنيا	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 9	۾	۾	ADP	PSPL	_	8	case	_	SpaceAfter=No
 10	،	،	PUNCT	PUNCT	_	11	punct	_	_
-11	بهشت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
+11	بهشت	بهشت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
 12	۾	۾	ADP	PSPL	_	11	case	_	_
 13	يا	يا	CCONJ	CC	_	14	cc	_	_
 14	دوزخ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
@@ -1015,7 +1015,7 @@
 11	دنيا	دنيا	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
 12	۾	۾	ADP	PSPL	_	11	case	_	SpaceAfter=No
 13	،	،	PUNCT	PUNCT	_	11	punct	_	_
-14	بهشت	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
+14	بهشت	بهشت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
 15	۾	۾	ADP	PSPL	_	14	case	_	_
 16	يا	يا	CCONJ	CC	_	17	cc	_	_
 17	دوزخ	_	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_

@@ -143,7 +143,7 @@
 5	ڪيو	ڪيو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 6	ته	ته	SCONJ	CS	_	5	mark	_	SpaceAfter=No
 7	،	،	PUNCT	PUNCT	_	12	punct	_	_
-8	ڪيڏي	_	ADJ	JJ	_	10	amod	_	_
+8	ڪيڏي	ڪيڏي	ADJ	JJ	_	10	amod	_	_
 9	نه	نه	PART	PART	_	8	dep	_	_
 10	شرم	شرم	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
 11	جي	جي	ADP	PSPG	Case=Nom|Gender=Fem|Number=Sing	10	case	_	_
@@ -209,7 +209,7 @@
 # sent_id = 263
 # text = اي منهنجا دوست! تون انجام ڪر ته مون کي ڪڏهن به ڇڏي نه ويندين.
 1	اي	اي	INTJ	INTJ	_	3	discourse	_	_
-2	منهنجا	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	3	nmod	_	_
+2	منهنجا	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	دوست	دوست	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	vocative	_	SpaceAfter=No
 4	!	!	PUNCT	PUNCT	_	3	punct	_	_
 5	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	7	nsubj	_	_
@@ -472,7 +472,7 @@
 
 # sent_id = 306
 # text = منهنجا مٺڙا دوست! تو ڪيترائي ڀيرا مون سان انجام ڪيو هو ته، آءٌ جيڏاهن به ويندس ته تون مون سان گڏ هلندين.
-1	منهنجا	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	3	nmod	_	_
+1	منهنجا	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 2	مٺڙا	مٺڙو	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
 3	دوست	دوست	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	vocative	_	SpaceAfter=No
 4	!	!	PUNCT	PUNCT	_	3	punct	_	_
@@ -621,7 +621,7 @@
 5	،	،	PUNCT	PUNCT	_	4	punct	_	_
 6	هاڻي	هاڻ	ADV	ADT	_	11	advmod	_	_
 7	آءٌ	آءٌ	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	_
-8	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	10	nmod	_	_
+8	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 9	آخري	آخري	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	امتحان	امتحان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	xcomp	_	_
 11	وٺان	وٺ	VERB	VM	Aspect=Imp|Number=Sing|Person=1	4	advcl	_	_
@@ -756,7 +756,7 @@
 17	پيئي	پيو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	11	conj	_	_
 18	ته	ته	SCONJ	CS	_	22	mark	_	_
 19	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
-20	سندس	سندس	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3	21	nmod	_	_
+20	سندس	سندس	PRON	PRP	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
 21	مڙس	مڙس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	_
 22	ڪائو	ڪائو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	advcl	_	_
 23	تان	تان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	flat	_	_
@@ -806,7 +806,7 @@
 15	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
 16	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	15	cop	_	SpaceAfter=No
 17	!	!	PUNCT	PUNCT	_	15	punct	_	_
-18	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	20	nmod	_	_
+18	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 19	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
 20	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
 21	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	22	nsubj	_	_
@@ -843,7 +843,7 @@
 19	ڏنو	ڏنو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	15	conj	_	_
 20	ته	ته	SCONJ	CS	_	24	mark	_	SpaceAfter=No
 21	،	،	PUNCT	PUNCT	_	20	punct	_	_
-22	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1	23	nmod	_	_
+22	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
 23	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 24	دوست	دوست	PROPN	NNP	Case=Nom|Gender=Masc	19	obj	_	_
 25	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	24	cop	_	SpaceAfter=No
@@ -868,7 +868,7 @@
 15	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
 16	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	15	cop	_	SpaceAfter=No
 17	!	!	PUNCT	PUNCT	_	15	punct	_	_
-18	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2	20	nmod	_	_
+18	تنهنجو	تنهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 19	اهو	اهو	DET	PRD	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
 20	نالو	نالو	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
 21	ڪنهن	ڪو	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	22	nsubj	_	_
@@ -1140,10 +1140,10 @@
 5	کان	کان	ADP	PSP	_	4	case	_	_
 6	پڇيو	پڇ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 7	،	،	PUNCT	PUNCT	_	6	punct	_	_
-8	منهنجا	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	9	nmod	_	_
+8	منهنجا	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 9	سائين	سائين	NOUN	NN	Case=Voc|Gender=Masc|Number=Sing	16	vocative	_	SpaceAfter=No
 10	!	!	PUNCT	PUNCT	_	9	punct	_	_
-11	منهنجا	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1	12	nmod	_	_
+11	منهنجا	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
 12	مالڪ	مالڪ	NOUN	NN	Case=Voc|Gender=Masc|Number=Sing	16	vocative	_	SpaceAfter=No
 13	!	!	PUNCT	PUNCT	_	12	punct	_	_
 14	تون	تون	PRON	PRP	Case=Nom|Number=Sing|Person=2	16	nsubj	_	_
@@ -2387,7 +2387,7 @@
 2	سرڪاري	سرڪاري	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
 3	ادارن	اداراو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
 4	کي	کي	ADP	PSP	_	3	case	_	_
-5	ڌماڪي	ڌماڪو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+5	ڌماڪي	ڌماڪو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 6	جي	جي	ADP	PSPG	Case=Acc|Gender=Fem|Number=Sing	5	case	_	_
 7	نوعيت	نوعيت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 8	بابت	بابت	ADP	PSP	_	7	case	_	_
@@ -2411,7 +2411,7 @@
 26	مٿان	مٿي	ADV	ADP	_	27	advmod	_	_
 27	ٿيل	آهي	VERB	VM	Aspect=Perf|VerbForm=PastPart	29	acl	_	_
 28	هن	هن	DET	PRD	Case=Acc|Number=Sing|PronType=Dem	29	det	_	_
-29	ڌماڪي	ڌماڪو	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	40	obl	_	_
+29	ڌماڪي	ڌماڪو	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	40	obl	_	_
 30	کان	کان	ADP	PSP	_	29	case	_	_
 31	عوام	عوام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	32	nmod	_	_
 32	آگاهه	آگاهه	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	40	obl	_	_
@@ -2439,7 +2439,7 @@
 9	جي	جي	ADP	PSPG	Case=Acc|Gender=Masc|Number=Sing	8	case	_	_
 10	نمائندن	نمائندو	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	iobj	_	_
 11	کي	کي	ADP	PSP	_	10	case	_	_
-12	سندن	سندو	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=3	13	nmod	_	_
+12	سندن	سندو	PRON	PRP	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 13	سامهون	سامهون	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	_
 14	دوڪان	دوڪان	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	obj	_	_
 15	سڙي	سڙي	VERB	VM	Aspect=Imp	19	nmod	_	_

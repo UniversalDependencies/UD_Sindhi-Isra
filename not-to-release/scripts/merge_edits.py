@@ -52,11 +52,21 @@ def merge_edits(new_doc, merge_xpos=False):
 def main():
     parser = argparse.ArgumentParser(description='Validate a file of SD dependencies & tags')
     parser.add_argument('filename', help='File to merge')
-    parser.add_argument('--merge_xpos', action='store_true', default=False, dest='merge_xpos',
+    parser.add_argument('--merge_deps', action='store_false', default=True, dest='merge_xpos',
+                        help="Merge into the dependencies directory instead of the xpos directory")
+    parser.add_argument('--merge_xpos', action='store_true', dest='merge_xpos',
                         help="Merge into the xpos directory instead of the dependencies directory")
     args = parser.parse_args()
 
     new_doc = CoNLL.conll2doc(args.filename)
+    for sentence in new_doc.sentences:
+        # remove some comments which are in the document's sentences
+        # as artifacts from the search / hints from the search
+        sentence.comments.remove("highlight deprels")
+        sentence.comments.remove("highlight tokens")
+        semgrex = [comment for comment in sentence.comments if comment.startswith("# semgrex")]
+        for comment in semgrex:
+            sentence.comments.remove(comment)
     merge_edits(new_doc, merge_xpos=args.merge_xpos)
 
 if __name__ == '__main__':

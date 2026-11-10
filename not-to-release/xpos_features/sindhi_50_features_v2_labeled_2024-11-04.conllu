@@ -26,7 +26,7 @@
 # sent_id = sample_3
 # text = هيءُ منهنجو دوست آهي.
 1	هيءُ	هيءُ	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+2	منهنجو	منهنجو	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	دوست	دوست	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	آهي	آهي	AUX	VAUX	Number=Sing|Tense=Pres	3	cop	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -517,7 +517,7 @@
 # text = جنهن مان سندس مقصد ٻين کي انهن نقصانن کان بچائڻ آهي.
 1	جنهن	جنهن	DET	PRD	Case=Acc|Number=Sing|Person=3|PronType=Dem	10	obl	_	_
 2	مان	مان	ADP	PSPL	_	1	case	_	_
-3	سندس	_	DET	PRD	Case=Nom|Number=Sing|PronType=Dem	4	det	_	_
+3	سندس	سندس	PRON	PRP	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 4	مقصد	مقصد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 5	ٻين	ٻيو	ADJ	JJ	Case=Acc|Number=Plur	10	obj	_	_
 6	کي	کي	ADP	PSP	_	5	case	_	_
